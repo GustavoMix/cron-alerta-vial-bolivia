@@ -1,0 +1,61 @@
+name: Actualizar tránsito Bolivia
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Cada 30 minutos, evitando el minuto 0.
+    # GitHub Actions interpreta cron en UTC.
+    - cron: "13,43 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: transito-bolivia-cron
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependencias Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Instalar Chromium de Playwright
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Ejecutar scraper
+        run: python main.py
+
+      - name: Guardar resultados actualizados
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/transito_bolivia.json \
+            data/transito_bolivia.csv \
+            data/estado_fuentes.json \
+            data/_interno/incidentes_historial.json
+
+          if git diff --cached --quiet; then
+            echo "Sin cambios para guardar."
+          else
+            git commit -m "Actualizar tránsito Bolivia"
+            git push
+          fi

@@ -1,0 +1,470 @@
+settings:
+  timezone: America/La_Paz
+  request_timeout_seconds: 18
+  max_items_per_source: 18
+  facebook_wait_seconds: 2.5
+  merge_window_hours: 24
+  merge_similarity_threshold: 0.24
+  user_agent: BoliviaVialBot/2.0 (+public-road-information; polite crawler)
+  keywords:
+  - bloqueo
+  - bloqueos
+  - punto de bloqueo
+  - puntos de bloqueo
+  - ruta bloqueada
+  - carretera bloqueada
+  - vía bloqueada
+  - caminos bloqueados
+  - piquete
+  - piquetes
+  - barricada
+  - cerco
+  - trancadera
+  - movilización
+  - movilizaciones
+  - marcha
+  - marchas
+  - protesta
+  - manifestación
+  - medida de presión
+  - vigilia
+  - concentración
+  - paro transporte
+  - paro de transportistas
+  - paro indefinido
+  - transportistas movilizados
+  - campesinos movilizados
+  - cierre de vía
+  - cierre de ruta
+  - cierre de carretera
+  - cierre total
+  - cierre parcial
+  - corte de vía
+  - corte de ruta
+  - corte de tránsito
+  - tránsito cortado
+  - paso interrumpido
+  - sin paso
+  - no hay paso
+  - intransitable
+  - paso restringido
+  - paso por turnos
+  - media calzada
+  - circulación restringida
+  - habilitado
+  - rehabilitado
+  - expedito
+  - transitable con precaución
+  - libre tránsito
+  - accidente
+  - hecho de tránsito
+  - siniestro vial
+  - choque
+  - colisión
+  - atropello
+  - vuelco
+  - volcadura
+  - embarrancamiento
+  - encunetamiento
+  - vehículo varado
+  - vehículos varados
+  - pasajeros varados
+  - cisterna volcada
+  - carga derramada
+  - derrumbe
+  - deslizamiento
+  - mazamorra
+  - caída de rocas
+  - desprendimiento
+  - riada
+  - inundación
+  - anegamiento
+  - desborde
+  - crecida de río
+  - torrentera
+  - nevada
+  - nieve
+  - granizada
+  - helada
+  - hielo en la vía
+  - niebla
+  - visibilidad reducida
+  - pérdida de plataforma
+  - plataforma cedida
+  - hundimiento
+  - socavón
+  - socavamiento
+  - puente colapsado
+  - mal estado de la vía
+  - bache
+  - congestión
+  - congestión vehicular
+  - embotellamiento
+  - trancadera
+  - caos vehicular
+  - colapso vehicular
+  - fila de vehículos
+  - largas filas
+  - alto flujo vehicular
+  - tráfico lento
+  - tráfico pesado
+  - circulación lenta
+  - carretera
+  - ruta
+  - avenida
+  - puente
+  - tramo
+  - doble vía
+  - autopista
+  - anillo
+  - radial
+  - rotonda
+  - redondel
+  - distribuidor
+  - intersección
+  - acceso
+  - kilómetro
+  - red vial fundamental
+  - RVF
+  - transitabilidad
+  - desvío
+  - ruta alternativa
+  - vía alternativa
+  - obra vial
+  - mantenimiento vial
+  - asfaltado
+  - bacheo
+  - recapado
+  - rehabilitación vial
+  - limpieza de vía
+  - maquinaria pesada
+  - salidas suspendidas
+  - terminal de buses
+  - salida de buses
+  - transporte interdepartamental
+  - flotas suspendidas
+  - control vehicular
+  - operativo de tránsito
+  - control de tráfico
+  - alcoholemia
+  - control de velocidad
+  - restricción vehicular
+  - semáforo
+  facebook_scroll_rounds: 2
+  history_keep_days: 14
+  history_match_threshold: 0.63
+  media_storage: remote_urls
+  facebook_enrich_posts: true
+  facebook_enrich_limit_per_source: 2
+  save_rejected_samples: true
+  max_rejected_samples_per_source: 2
+  vial_filter_version: bolivia-premium-1
+  vial_relevance_threshold: 55
+  execution_mode: fast
+  facebook_concurrency: 3
+  web_concurrency: 5
+  facebook_enrich_timeout_ms: 12000
+sources:
+- id: fb_abc
+  name: ABC Carreteras Bolivia
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/CarreterasBo/
+  region: Bolivia
+  city: null
+- id: fb_transito_nacional
+  name: Dirección Nacional de Tránsito, Transporte y Seguridad Vial
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/bolivia.transito/
+  region: Bolivia
+  city: null
+- id: fb_policia_boliviana
+  name: Policía Boliviana
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/100064953363078/
+  region: Bolivia
+  city: null
+- id: fb_municipio_lapaz
+  name: Gobierno Autónomo Municipal de La Paz
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/MunicipioLaPaz/
+  region: La Paz
+  city: La Paz
+- id: fb_amun_lapaz
+  name: Agencia Municipal de Noticias La Paz - AMUN
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/AMUNLaPaz/
+  region: La Paz
+  city: La Paz
+- id: fb_gobernacion_lapaz
+  name: Gobierno Autónomo Departamental de La Paz
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/gobernaciondelapaz/
+  region: La Paz
+  city: null
+- id: fb_alcaldia_el_alto
+  name: Gobierno Autónomo Municipal de El Alto
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/ElAltoAlcaldia/
+  region: La Paz
+  city: El Alto
+- id: fb_gam_cbba
+  name: Gobierno Autónomo Municipal de Cochabamba
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/gamcochabamba/
+  region: Cochabamba
+  city: Cochabamba
+- id: fb_gob_cbba
+  name: Gobernación de Cochabamba
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/GobernacionDeCochabamba/
+  region: Cochabamba
+  city: null
+- id: fb_transito_cbba
+  name: Dirección Departamental de Tránsito Cochabamba
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/100081290618129/
+  region: Cochabamba
+  city: Cochabamba
+- id: fb_policia_cbba
+  name: Comando Departamental de Policía Cochabamba
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/PoliciaBolivianaCochabamba/
+  region: Cochabamba
+  city: Cochabamba
+- id: fb_terminal_cbba
+  name: Terminal de Buses Cochabamba
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/61550249115565/
+  region: Cochabamba
+  city: Cochabamba
+- id: fb_gamscs
+  name: Gobierno Autónomo Municipal de Santa Cruz de la Sierra
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/gamscs/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+- id: fb_transito_scz
+  name: Secretaría Municipal de Tránsito y Transporte
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+- id: fb_gob_scz
+  name: Gobernación de Santa Cruz
+  type: facebook_public
+  source_class: facebook_official
+  tier: 1
+  url: https://www.facebook.com/GobSantaCruz/
+  region: Santa Cruz
+  city: null
+- id: web_abc
+  name: ABC - Administradora Boliviana de Carreteras
+  type: generic_web
+  source_class: web_official
+  tier: 2
+  url: https://www.abc.gob.bo/
+  region: Bolivia
+  city: null
+  follow_links: true
+- id: web_abc_comunicados
+  name: ABC - Comunicados
+  type: generic_web
+  source_class: web_official
+  tier: 2
+  url: https://www.abc.gob.bo/lista-comunicados-page/
+  region: Bolivia
+  city: null
+  follow_links: true
+- id: web_lapaz
+  name: Gobierno Autónomo Municipal de La Paz
+  type: generic_web
+  source_class: web_official
+  tier: 2
+  url: https://lapaz.bo/
+  region: La Paz
+  city: La Paz
+  follow_links: true
+- id: web_amun
+  name: Agencia Municipal de Noticias La Paz
+  type: generic_web
+  source_class: web_official
+  tier: 2
+  url: https://amun.lapaz.bo/
+  region: La Paz
+  city: La Paz
+  follow_links: true
+- id: web_cbba
+  name: Gobierno Autónomo Municipal de Cochabamba
+  type: generic_web
+  source_class: web_official
+  tier: 2
+  url: https://www.cochabamba.bo/
+  region: Cochabamba
+  city: Cochabamba
+  follow_links: true
+- id: web_simat_cbba
+  name: SIMAT Cochabamba - Movilidad Urbana
+  type: generic_web
+  source_class: web_official
+  tier: 2
+  url: https://simat.cochabamba.bo/
+  region: Cochabamba
+  city: Cochabamba
+  follow_links: false
+- id: web_scz
+  name: Gobierno Autónomo Municipal de Santa Cruz de la Sierra
+  type: generic_web
+  source_class: web_official
+  tier: 2
+  url: https://www.gmsantacruz.gob.bo/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+  follow_links: true
+- id: fb_reduno
+  name: Red Uno de Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/RedUnotv/
+  region: Bolivia
+  city: null
+- id: fb_unitel
+  name: UNITEL Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/unitelbolivia/
+  region: Bolivia
+  city: null
+- id: fb_bolivision
+  name: Noticias Bolivisión
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/NoticiasBolivision/
+  region: Bolivia
+  city: null
+- id: fb_rtp
+  name: RTP Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/rtpbolivia/
+  region: La Paz
+  city: La Paz
+- id: fb_anf
+  name: Agencia de Noticias Fides - ANF
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/ANFidesBolivia/
+  region: Bolivia
+  city: null
+- id: fb_opinion
+  name: Diario Opinión
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/DiarioOpinion/
+  region: Cochabamba
+  city: Cochabamba
+- id: fb_eldeber
+  name: EL DEBER
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/GrupoELDEBER/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+- id: fb_atb
+  name: ATB Digital
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/ATBDigital/
+  region: Bolivia
+  city: null
+- id: fb_erbol
+  name: Periódico Digital ERBOL
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/ErbolDigital/
+  region: La Paz
+  city: La Paz
+- id: fb_radio_fides
+  name: Radio Fides de Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/RadioFidesBolivia/
+  region: La Paz
+  city: La Paz
+- id: fb_eldeber_radio
+  name: El Deber Radio
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/eldeberradio/
+  region: Santa Cruz
+  city: Santa Cruz de la Sierra
+- id: fb_fides_cbba
+  name: Radio Fides Cochabamba
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/radiofidescb/
+  region: Cochabamba
+  city: Cochabamba
+- id: fb_fides_tv
+  name: Fides TV
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/FidesTV/
+  region: Bolivia
+  city: null
+- id: fb_el_diario
+  name: El Diario Bolivia
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/eldiario.bolivia/
+  region: La Paz
+  city: La Paz
+- id: fb_abya_yala
+  name: Abya Yala TV
+  type: facebook_public
+  source_class: media
+  tier: 3
+  url: https://www.facebook.com/AbyaYalaTv/
+  region: La Paz
+  city: La Paz
