@@ -355,31 +355,6 @@ async def _scrape_facebook_with_context(source: Dict[str, Any], settings: Dict[s
         await page.goto(url, wait_until="domcontentloaded", timeout=30000)
         await page.wait_for_timeout(int(wait_s * 1000))
 
-        body_text = await page.locator("body").inner_text(timeout=7000)
-        low = body_text.lower()
-        # "Iniciar sesión" solo, o "log in" solo, aparecen SIEMPRE como link de
-        # cabecera en cualquier página pública de Facebook, esté bloqueada o
-        # no — usar eso solo (con un umbral de longitud) daba falsos positivos
-        # en páginas que simplemente todavía no habían terminado de cargar el
-        # feed dentro del tiempo de espera. El formulario de login real trae
-        # frases mucho más específicas que solo aparecen en la pantalla de
-        # bloqueo/login completa, nunca en el encabezado de una página normal.
-        if (
-            "temporarily blocked" in low
-            or "you’re temporarily blocked" in low
-            or "temporalmente bloqueado" in low
-            or "correo electrónico o número de celular" in low
-            or "correo electronico o numero de celular" in low
-            or "olvidaste tu contraseña" in low
-            or "email or phone number" in low
-            or "forgotten password" in low
-        ):
-            preview = re.sub(r"\s+", " ", body_text).strip()[:220]
-            raise FacebookBlockedError(
-                f"Facebook bloqueó/ocultó el contenido público para esta ejecución. "
-                f"Vista previa de la página: {preview!r}"
-            )
-
         source_icon_url = await _get_source_icon(page, source)
 
         # Modo rápido: pocos scrolls, solo hasta conseguir suficientes posts recientes.
@@ -444,6 +419,31 @@ async def _scrape_facebook_with_context(source: Dict[str, Any], settings: Dict[s
             ))
 
         if not raw:
+            # Sin artículos reales en el feed: recién ahora vale la pena
+            # revisar si es porque Facebook bloqueó/ocultó el contenido para
+            # esta sesión, en vez de confundirlo con una fuente que hoy no
+            # tiene posts nuevos. Chequear esto ANTES de intentar leer los
+            # artículos daba falsos positivos: Facebook incluye un formulario
+            # de login en el DOM de cualquier página pública para visitantes
+            # sin sesión, incluso cuando el feed real sí cargó bien arriba.
+            body_text = await page.locator("body").inner_text(timeout=7000)
+            low = body_text.lower()
+            if (
+                "temporarily blocked" in low
+                or "you’re temporarily blocked" in low
+                or "temporalmente bloqueado" in low
+                or "correo electrónico o número de celular" in low
+                or "correo electronico o numero de celular" in low
+                or "olvidaste tu contraseña" in low
+                or "email or phone number" in low
+                or "forgotten password" in low
+            ):
+                preview = re.sub(r"\s+", " ", body_text).strip()[:220]
+                raise FacebookBlockedError(
+                    f"Facebook bloqueó/ocultó el contenido público para esta ejecución. "
+                    f"Vista previa de la página: {preview!r}"
+                )
+
             title = await page.title()
             desc = ""
             og_image = None
