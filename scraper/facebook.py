@@ -374,8 +374,10 @@ async def _scrape_facebook_with_context(source: Dict[str, Any], settings: Dict[s
             or "email or phone number" in low
             or "forgotten password" in low
         ):
+            preview = re.sub(r"\s+", " ", body_text).strip()[:220]
             raise FacebookBlockedError(
-                "Facebook bloqueó/ocultó el contenido público para esta ejecución."
+                f"Facebook bloqueó/ocultó el contenido público para esta ejecución. "
+                f"Vista previa de la página: {preview!r}"
             )
 
         source_icon_url = await _get_source_icon(page, source)
