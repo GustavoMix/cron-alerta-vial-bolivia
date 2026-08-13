@@ -2,6 +2,7 @@ import argparse
 import asyncio
 import csv
 import json
+from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -9,6 +10,7 @@ import yaml
 
 from .classifier import build_alert, rejection_reason, analyze_relevance
 from .facebook import scrape_facebook_public, scrape_facebook_sources
+from .models import RawItem
 from .web_sources import scrape_generic_web
 from .merger import merge_alerts
 from .state_manager import reconcile
@@ -45,20 +47,75 @@ async def scrape_web_sources_fast(sources, settings):
     return results
 
 
-async def scrape_all_sources_fast(sources, settings):
+async def scrape_all_sources_fast(sources, settings, preloaded_facebook_results=None):
+    """Si preloaded_facebook_results viene dado, no se vuelve a scrapear Facebook
+    (ya se hizo en otro job de CI, con otra IP de runner) y se usan esos
+    resultados tal cual."""
     fb_sources = [s for s in sources if s["type"] == "facebook_public"]
     web_sources = [s for s in sources if s["type"] == "generic_web"]
 
-    fb_task = asyncio.create_task(scrape_facebook_sources(fb_sources, settings)) if fb_sources else None
-    web_task = asyncio.create_task(scrape_web_sources_fast(web_sources, settings)) if web_sources else None
-
-    fb_results = await fb_task if fb_task else {}
-    web_results = await web_task if web_task else {}
+    if preloaded_facebook_results is not None:
+        web_task = asyncio.create_task(scrape_web_sources_fast(web_sources, settings)) if web_sources else None
+        fb_results = preloaded_facebook_results
+        web_results = await web_task if web_task else {}
+    else:
+        fb_task = asyncio.create_task(scrape_facebook_sources(fb_sources, settings)) if fb_sources else None
+        web_task = asyncio.create_task(scrape_web_sources_fast(web_sources, settings)) if web_sources else None
+        fb_results = await fb_task if fb_task else {}
+        web_results = await web_task if web_task else {}
 
     results = {}
     results.update(fb_results)
     results.update(web_results)
     return results
+
+
+async def scrape_facebook_group(config_path: Path, group_ids: set[str], raw_out: Path) -> int:
+    """Modo fan-out: scrapea solo las fuentes de Facebook en group_ids y guarda
+    el resultado crudo (sin clasificar) en raw_out. Pensado para correr cada
+    grupo en un job de CI distinto -con su propia IP de runner- y combinarlos
+    después con --facebook-raw-in en el job final."""
+    cfg = load_config(config_path)
+    settings, sources = cfg["settings"], cfg["sources"]
+    fb_sources = [s for s in sources if s["type"] == "facebook_public" and s["id"] in group_ids]
+    if not fb_sources:
+        raise SystemExit(f"Ninguna fuente de Facebook coincide con el grupo: {sorted(group_ids)}")
+
+    print(f"Scrapeando grupo de Facebook ({len(fb_sources)} fuentes): {[s['id'] for s in fb_sources]}")
+    results = await scrape_facebook_sources(fb_sources, settings)
+
+    serializable = {}
+    for source_id, result in results.items():
+        serializable[source_id] = {
+            "items": [asdict(item) for item in result.get("items", [])],
+            "error": result.get("error"),
+        }
+
+    raw_out.parent.mkdir(parents=True, exist_ok=True)
+    raw_out.write_text(
+        json.dumps(
+            {"scraped_at": now_iso(settings.get("timezone", "America/La_Paz")), "results": serializable},
+            ensure_ascii=False, indent=2,
+        ),
+        encoding="utf-8",
+    )
+    ok = sum(1 for r in results.values() if not r.get("error"))
+    print(f"Grupo terminado: {ok}/{len(fb_sources)} fuentes OK. Guardado en {raw_out}")
+    return 0
+
+
+def _load_facebook_raw(paths: list[Path]) -> dict:
+    """Junta los resultados de scrape_facebook_group de varios grupos en un
+    solo dict {source_id: {"items": [RawItem...], "error": str|None}}."""
+    combined: dict = {}
+    for path in paths:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        for source_id, entry in data.get("results", {}).items():
+            combined[source_id] = {
+                "items": [RawItem(**d) for d in entry.get("items", [])],
+                "error": entry.get("error"),
+            }
+    return combined
 
 def _clean_old_outputs(out_dir: Path):
     """La V3.1 deja la carpeta data simple; elimina salidas antiguas de V2/V3."""
@@ -90,7 +147,12 @@ def _rejected_sample(item, reason):
     }
 
 
-async def run(config_path: Path, out_dir: Path, only: str | None = None):
+async def run(
+    config_path: Path,
+    out_dir: Path,
+    only: str | None = None,
+    facebook_raw_in: list[Path] | None = None,
+):
     cfg = load_config(config_path)
     settings, sources = cfg["settings"], cfg["sources"]
     if only:
@@ -101,9 +163,13 @@ async def run(config_path: Path, out_dir: Path, only: str | None = None):
     individual_alerts, stats = [], []
     max_rejected = int(settings.get("max_rejected_samples_per_source", 3))
 
+    preloaded_facebook_results = _load_facebook_raw(facebook_raw_in) if facebook_raw_in else None
 
     print("==================================================")
-    print("MODO RAPIDO: Web en paralelo | Facebook secuencial y pausado")
+    if preloaded_facebook_results is not None:
+        print("MODO RAPIDO: Web en paralelo | Facebook ya scrapeado en jobs separados")
+    else:
+        print("MODO RAPIDO: Web en paralelo | Facebook secuencial y pausado")
     print("==================================================")
     print(
         f"Facebook pausa entre fuentes={settings.get('facebook_delay_seconds', 8)}s "
@@ -112,7 +178,9 @@ async def run(config_path: Path, out_dir: Path, only: str | None = None):
         f"posts/fuente={settings.get('max_items_per_source', 18)}"
     )
 
-    scrape_results = await scrape_all_sources_fast(sources, settings)
+    scrape_results = await scrape_all_sources_fast(
+        sources, settings, preloaded_facebook_results=preloaded_facebook_results
+    )
 
     for idx, source in enumerate(sources, 1):
         print(f"[{idx}/{len(sources)}] TIER {source.get('tier', 3)} {source['id']} - {source['name']}")
@@ -246,8 +314,35 @@ def main():
     p.add_argument("--config", default=str(ROOT / "config" / "sources.yaml"))
     p.add_argument("--out", default=str(ROOT / "data"))
     p.add_argument("--only", default=None, help="IDs de fuentes separados por coma")
+    p.add_argument(
+        "--facebook-scrape-group-out", default=None,
+        help="Modo fan-out: scrapea solo las fuentes de Facebook listadas en --only y "
+             "guarda el resultado crudo (sin clasificar) en este archivo, sin escribir "
+             "los JSON finales. Pensado para correr cada grupo en un job de CI distinto "
+             "(con su propia IP de runner) y combinarlos después con --facebook-raw-in.",
+    )
+    p.add_argument(
+        "--facebook-raw-in", default=None,
+        help="Uno o más archivos generados con --facebook-scrape-group-out, separados por "
+             "coma. Si se pasa, no se vuelve a scrapear Facebook: se usan esos resultados "
+             "ya guardados y solo se scrapean las fuentes web antes de clasificar y "
+             "escribir los JSON finales.",
+    )
     args = p.parse_args()
-    return asyncio.run(run(Path(args.config), Path(args.out), args.only))
+
+    if args.facebook_scrape_group_out:
+        if not args.only:
+            raise SystemExit("--facebook-scrape-group-out requiere --only con los IDs del grupo")
+        group_ids = {x.strip() for x in args.only.split(",") if x.strip()}
+        return asyncio.run(
+            scrape_facebook_group(Path(args.config), group_ids, Path(args.facebook_scrape_group_out))
+        )
+
+    facebook_raw_in = None
+    if args.facebook_raw_in:
+        facebook_raw_in = [Path(x.strip()) for x in args.facebook_raw_in.split(",") if x.strip()]
+
+    return asyncio.run(run(Path(args.config), Path(args.out), args.only, facebook_raw_in))
 
 
 if __name__ == "__main__":

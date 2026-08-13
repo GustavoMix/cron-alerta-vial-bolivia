@@ -15,9 +15,30 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  scrape:
+  # Cada grupo de fuentes de Facebook corre en su propio job, con su propio
+  # runner (y por lo tanto su propia IP de salida). Facebook deja pasar 1-2
+  # solicitudes por sesión antes de empezar a bloquear; repartir en jobs
+  # separados evita que el bloqueo de una fuente arrastre a las demás, en vez
+  # de scrapear las ~30 fuentes en una sola sesión secuencial.
+  scrape-facebook:
+    strategy:
+      fail-fast: false
+      matrix:
+        grupo:
+          - nombre: grupo1
+            fuentes: fb_abc,fb_alcaldia_el_alto,fb_gamscs,fb_rtp,fb_radio_fides
+          - nombre: grupo2
+            fuentes: fb_transito_nacional,fb_gam_cbba,fb_transito_scz,fb_anf,fb_eldeber_radio
+          - nombre: grupo3
+            fuentes: fb_policia_boliviana,fb_gob_cbba,fb_gob_scz,fb_opinion,fb_fides_cbba
+          - nombre: grupo4
+            fuentes: fb_municipio_lapaz,fb_transito_cbba,fb_reduno,fb_eldeber,fb_fides_tv
+          - nombre: grupo5
+            fuentes: fb_amun_lapaz,fb_policia_cbba,fb_unitel,fb_atb,fb_el_diario
+          - nombre: grupo6
+            fuentes: fb_gobernacion_lapaz,fb_terminal_cbba,fb_bolivision,fb_erbol,fb_abya_yala
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
@@ -38,8 +59,58 @@ jobs:
         run: |
           python -m playwright install --with-deps chromium
 
-      - name: Ejecutar scraper
-        run: python main.py
+      - name: Scrapear grupo de Facebook
+        run: |
+          python main.py \
+            --only "${{ matrix.grupo.fuentes }}" \
+            --facebook-scrape-group-out "data/_interno/facebook_raw_${{ matrix.grupo.nombre }}.json"
+
+      - name: Subir resultado crudo del grupo
+        uses: actions/upload-artifact@v4
+        with:
+          name: facebook-raw-${{ matrix.grupo.nombre }}
+          path: data/_interno/facebook_raw_${{ matrix.grupo.nombre }}.json
+          if-no-files-found: error
+          retention-days: 1
+
+  actualizar:
+    needs: scrape-facebook
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Instalar dependencias Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Bajar resultados crudos de Facebook
+        uses: actions/download-artifact@v4
+        with:
+          pattern: facebook-raw-*
+          path: data/_interno/
+          merge-multiple: true
+
+      - name: Scrapear fuentes web, combinar Facebook y clasificar
+        shell: bash
+        run: |
+          RAW_FILES=$(ls data/_interno/facebook_raw_*.json 2>/dev/null | paste -sd,)
+          if [ -z "$RAW_FILES" ]; then
+            echo "No llegó ningún resultado de Facebook de los jobs del grupo; se sigue solo con las fuentes web."
+            python main.py --only web_abc,web_abc_comunicados,web_lapaz,web_amun,web_cbba,web_simat_cbba,web_scz
+          else
+            python main.py --facebook-raw-in "$RAW_FILES"
+          fi
 
       - name: Guardar resultados actualizados
         shell: bash
