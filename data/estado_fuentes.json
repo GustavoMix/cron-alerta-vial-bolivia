@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T00:29:54-04:00",
+  "generated_at": "2026-08-13T02:04:51-04:00",
   "sources": [
     {
       "id": "fb_abc",
@@ -10,14 +10,28 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9tapo_6djlAQ7kNvwG2PWfh&_nc_oc=Adr1f6FSNngn0V3v8_B4jyCTWCN1S-XfzZee-IjPgInR9jqnrgcTIQXWuVGgvjzQWww&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zRrrsLF6B97Y_MA7-_OojA&_nc_ss=7b289&oh=00_AQF-BunNFGv5l2Kmm2YUkjB_DboYM2q-i6Qmg9ntWyCQpw&oe=6A831E58",
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9tapo_6djlAQ7kNvwGVVxjJ&_nc_oc=Adq86RtrONIr7mNIVOf0OS8VlkmSDF-C2fckyd1GzKQxBlxy6tUqEkdqb7777SdULwc&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=DkuPKS6-lfMVzXHpL-W4MA&_nc_ss=7b289&oh=00_AQEqbWT-Bmci9nsCGJxe3eibLAksdXMmg0AuMS_XQCX_lQ&oe=6A831E58",
       "status": "ok",
       "raw_items": 1,
-      "alerts": 1,
-      "rejected": 0,
-      "images_detected": 2,
+      "alerts": 0,
+      "rejected": 1,
+      "images_detected": 1,
       "videos_detected": 0,
-      "rejected_samples": [],
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_vial_en_el_texto",
+          "relevance_score": 5,
+          "filter_reasons": [
+            "fuente_oficial_facebook"
+          ],
+          "detected_event": "otro",
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid02i8reptNuG7TBbxwRbvdwZ5cxQzCnuMr9RnZJHTwb8sSMcwVBrmmBoNCwFbtDcM9Ml?__cft__[0]=AZaR_6eSkFrz33O0epNS1cd9Avhzx-TlipSJQohEH6V-q6peqO8irzknBiqAhgKi4ayEeEgIYBHvgHqq8vevBiWQ52G8TDituaWPCZMu1-UYjOjT7f4LmB6XsvPsmZOMzZJgoi10ebzcSu8dszox1wIbOb9xrXmrSvmUOfmaIPVOYXMD_NgG77XvsWbquNeTwq0&__tn__=%2CO%2CP-R",
+          "published_at": null,
+          "has_video": false,
+          "has_image": true,
+          "text_preview": "Apertura de sobre departamento de Cochabamba… Ver más"
+        }
+      ],
       "error": null
     },
     {
@@ -29,27 +43,27 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=XFH1-A6tcBoQ7kNvwG5rszT&_nc_oc=AdovdWuW9Q5vd1uDEkU2GviilFE7VoeFPVdVzS3rxEUtvBChtDc_aDNre0SNrW2VsME&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=qbj7HYsP_iG5op_zg-2Zzg&_nc_ss=7b289&oh=00_AQHnfyu8rpaRAydTl0AsauDF3OGIk7k-Gpx7MYxWrN4r7g&oe=6A8321AB",
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=XFH1-A6tcBoQ7kNvwGf5j4I&_nc_oc=Adr3XpJ6Y--74ZbeEnZ2ckLYwl4Vq6sNB1dvMHXAbA7hb6bI9LvCI5lrfc6e1Ca8kDU&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=g8xsR3BwsQOE2rpbv6KIYQ&_nc_ss=7b289&oh=00_AQFnJ8X_mySJLari9727ZI2qzmTuj8qeUUr9rR23RLxlgA&oe=6A8321AB",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
       "rejected": 1,
-      "images_detected": 6,
+      "images_detected": 5,
       "videos_detected": 0,
       "rejected_samples": [
         {
           "reason": "relevancia_vial_insuficiente",
-          "relevance_score": 15,
+          "relevance_score": 10,
           "filter_reasons": [
-            "contexto_vial:2",
+            "contexto_vial:1",
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02eCwCuvFFkeZ9jSmQ91MUovMNXjk7wRRBLJ5M97G5RmjAStTF4DwGtseWJNbS7bkEl?__cft__[0]=AZbmYK5pYR3NACtKl4lTxJq4skM3vZHqVEe--sloPVTpfrJChcv6oooDX_1IouBkeFNk_PfyzeyJAllDOpDcAyIQHf9zFdHh_KCw33JaU7OWSDeaF6bmjvKRHgScR6g1PgJD1tOI_ZvEGHWP4o101LxetDDaS34FWgZ6G6N-KYgPnGFYK5JH3dK7DmmDYzEK8wo&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02eCwCuvFFkeZ9jSmQ91MUovMNXjk7wRRBLJ5M97G5RmjAStTF4DwGtseWJNbS7bkEl?__cft__[0]=AZZ6lww1s9W0rv0gA_29HwiSVBJ4bguvVeyz-eeHZYiWUHsDckh90KFlpdQ9LNv14AWY3IY8BEkux2wGCyrRZKfK2HfXAor-ERH1eCZInxa902JtqBNgrGR72oetCpRXJcdvhQ0Oqfxzu3drMpsYYeHNwcVi9gAZucjZRlxgBZBxXEbEzGfYFPKlhwk5qZdLpCk&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
-          "text_preview": "REUNIÓN DE COORDINACIÓN Y CONCIENTIZACIÓN CON EL PERSONAL DE LA DIRECCIÓN DEPARTAMENTAL DE TRÁNSITO, TRANSPORTE Y SEGURIDAD VIAL DEL DEPARTAMENTO DE COCHABAMBA. En el marco de las acciones de... REUNIÓN DE COORDINACIÓN Y CONCIENTIZACIÓN CON EL PERSONAL DE LA DIRECCIÓN DEPARTAMENTAL DE TRÁNSITO, TRANSPORTE Y SEGURIDAD VIAL DEL DEPARTAMENTO DE... REUNIÓN DE COORDINACIÓN Y CONCIENTIZACIÓN CON EL PERSONAL DE LA DIRECCIÓN DEPARTAMENTAL DE TRÁNSITO, TRANSPORTE Y SEGURIDAD VIAL DEL DEPARTAMENTO DE COCHABAMBA. En el marco "
+          "text_preview": "REUNIÓN DE COORDINACIÓN Y CONCIENTIZACIÓN CON EL PERSONAL DE LA DIRECCIÓN DEPARTAMENTAL DE TRÁNSITO, TRANSPORTE Y SEGURIDAD VIAL DEL DEPARTAMENTO DE COCHABAMBA. … Ver más"
         }
       ],
       "error": null
@@ -96,7 +110,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZfEPJYp8cWcQ7kNvwHQI7fQ&_nc_oc=Adqp6v-SLHuL-lpLjCXaGwnXHbNAni82ykqZPQg8T_wDMaXALQshnwAJjjHHTBOpKj0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=4kjHJhLUpzfHnYTPgYWAjA&_nc_ss=7b289&oh=00_AQEh9F_ErKzp41_RfeaWQ8DtEfg1OPs-jqUqcX9tOHibYw&oe=6A830905",
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZfEPJYp8cWcQ7kNvwHZhBWO&_nc_oc=AdqlrgDS2ALXEnkcWWbsuPGjYNQiezQEr5b0mnrj3JyN8WQhFLRM3OJk5R96BmNhSj0&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=fDvHOpawjc4n-4tuRRpnSQ&_nc_ss=7b289&oh=00_AQEXRPNm8Griycx2_BAJBp7hWD3nSmCAUFZeAYcg03MGGw&oe=6A834145",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -111,7 +125,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/2462218104259896/?__cft__[0]=AZYUXln5669pF8vbtzojXxRcIzSI8kvpqpOMuCmgGPe2G-xfQ0e5yKytH7FlwzeZGN1ImUJfD7Uy_qoQjh7eqNEoDHVofJw9bi4RrCl3ZSDxzO3C6SPVNQtsg6ZDpBk4_kk0f63846NdqLPdmtlWaL3gXOwRLQybOkC-Xr7gA0UBH6kN6Xqo6RAYAPuVzjitUGxmoS06n6mdTHhIbtmw3al5&__tn__=%2CP-R",
+          "url": "https://www.facebook.com/reel/2462218104259896/?__cft__[0]=AZYpnTX2TL7qDlNg3eIfE-IQbeyv6KdKwOYhhZl7XwOq5UWTskgoOQ49tuEfVJD_SKs2zN7qj7EWmfXcMrRk_QtXiO5LknDeqTmHIic77bX7yWI4CpOdmcfmwQaRl13ocVDORIJeAADS3QwSK-VnRSDmw-ymuvKwzOy9xdP7q6sK65G6vKficaNJhNzYTE-_BkaYGW_gAodmOGhGFqRHkUPp&__tn__=%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
@@ -129,12 +143,12 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wxWvG3O1WDUQ7kNvwGs3jai&_nc_oc=AdoY1CTHd5S2ierfYZZz4uccpHrCdB7yTdGHga_dlqNedqZpGV2aKHlqoQjf_d1kvQc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=DLAk-vnm2dYVQARr3ReF1w&_nc_ss=7b289&oh=00_AQGsBwff3uV_NjFuu8fHhs-V839iLKQdZnB2cnFigzQHjw&oe=6A831B77",
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wxWvG3O1WDUQ7kNvwFrwMPB&_nc_oc=AdpZP1suQ-zj9Vc1uhrOlPu85KfZZjl5qyi0NgA6nq7He3a6JOj23pSWd8l7FfGShHY&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=rN2HCXL4mcWPKKs35Bf5Qg&_nc_ss=7b289&oh=00_AQFswmHEpC0m-0zzWdZbdABmnLiL2Ukm-25jNfcXLZxigw&oe=6A831B77",
       "status": "ok",
       "raw_items": 2,
       "alerts": 0,
       "rejected": 2,
-      "images_detected": 5,
+      "images_detected": 3,
       "videos_detected": 0,
       "rejected_samples": [
         {
@@ -144,11 +158,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0i8kNuuXHmLgwBjMaoV2v7Ctn3UG6akp1p19o1z9qz9CMAnhFkAiMAb2prrP9Y9C5l?__cft__[0]=AZYLCXuw7OEA5HXnOI-yGOOOvauD1kIK5w6lOmSu3m1oDrf7FhpIwTVBPzaaVjHGbr0PX4dIZeIJvrzbzw-2EXijagmu-MtE9kbPldlNOvVRpKZj4vSERGl5G87-SvzelUGYkg8wNwpS3bqDwM0_Bf_69EvDsusaCfoPqSHtiNcRr3plE3f7xLAU79V_qy4vGfI&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0i8kNuuXHmLgwBjMaoV2v7Ctn3UG6akp1p19o1z9qz9CMAnhFkAiMAb2prrP9Y9C5l?__cft__[0]=AZYvczEXC2792Nrr62vyEFZxP44y2e_bwtW2KhtZfkn-LVAqz6Twb_nI1OGqKiycFueoplL-gpbFw_24-CTk87imqeiBr4J4x9OQvELEyJeTMJXGJDtN6vVUgIMPyb7_SVEWUPLPGLY2C4JpvIymSp0dpYMWHBjivQXtIY0qz6vATKimk_zTKfRL9SrGoMWOzJo&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
-          "text_preview": "#AMUN | Alcalde Dockweiler pondera investigación de la UMSA sobre la calidad del agua y pide acciones para proteger la salud de la población. 🗞️ Lee la nota completa aquí: https://n9.cl/yckhq3 #AMUN | Alcalde Dockweiler pondera investigación de la UMSA sobre la calidad del agua y pide acciones para proteger la salud de la población. 🗞️ Lee la... #AMUN | Alcalde Dockweiler pondera investigación de la UMSA sobre la calidad del agua y pide acciones para proteger la salud de la población. Lee la nota completa aquí: htt"
+          "text_preview": "#AMUN | Alcalde Dockweiler pondera investigación de la UMSA sobre la calidad del agua y pide acciones para proteger la salud de la población.… Ver más Mientras tanto, los trabajadores de La Paz limpia pidiendo que les paguen sus sueldos Ver más comentarios Raúl Durán"
         },
         {
           "reason": "sin_senal_vial_en_el_texto",
@@ -157,11 +171,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0i8kNuuXHmLgwBjMaoV2v7Ctn3UG6akp1p19o1z9qz9CMAnhFkAiMAb2prrP9Y9C5l?comment_id=1103585365665403&__cft__[0]=AZYLCXuw7OEA5HXnOI-yGOOOvauD1kIK5w6lOmSu3m1oDrf7FhpIwTVBPzaaVjHGbr0PX4dIZeIJvrzbzw-2EXijagmu-MtE9kbPldlNOvVRpKZj4vSERGl5G87-SvzelUGYkg8wNwpS3bqDwM0_Bf_69EvDsusaCfoPqSHtiNcRr3plE3f7xLAU79V_qy4vGfI&__tn__=R-R",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid0i8kNuuXHmLgwBjMaoV2v7Ctn3UG6akp1p19o1z9qz9CMAnhFkAiMAb2prrP9Y9C5l?comment_id=1103585365665403&__cft__[0]=AZYvczEXC2792Nrr62vyEFZxP44y2e_bwtW2KhtZfkn-LVAqz6Twb_nI1OGqKiycFueoplL-gpbFw_24-CTk87imqeiBr4J4x9OQvELEyJeTMJXGJDtN6vVUgIMPyb7_SVEWUPLPGLY2C4JpvIymSp0dpYMWHBjivQXtIY0qz6vATKimk_zTKfRL9SrGoMWOzJo&__tn__=R-R",
           "published_at": null,
           "has_video": false,
-          "has_image": true,
-          "text_preview": "#AMUN | Alcalde Dockweiler pondera investigación de la UMSA sobre la calidad del agua y pide acciones para proteger la salud de la población. 🗞️ Lee la... #AMUN | Alcalde Dockweiler pondera investigación de la UMSA sobre la calidad del agua y pide acciones para proteger la salud de la población. Lee la nota completa aquí: https://n9.cl/yckhq3 #AMUN | Alcalde Dockweiler pondera investigación de la UMSA sobre la calidad del agua y pide acciones para proteger la salud de la población. Lee la nota completa aquí: https:"
+          "has_image": false,
+          "text_preview": "Mientras tanto, los trabajadores de La Paz limpia pidiendo que les paguen sus sueldos Raúl Durán"
         }
       ],
       "error": null
@@ -175,12 +189,12 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/720010471_1443121334509932_8869895436519249608_n.jpg?stp=dst-jpg_tt6&cstp=mx720x720&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VszCxc02TGIQ7kNvwGokLwk&_nc_oc=AdrgBdDKbrlkFE-4mUusEAUZZ0o7PGpuwovm32OFlKPPnoitufUnkHqAMn7gt-h1Fvs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=MfFpdrWu4q0Fc-lxUkDLGQ&_nc_ss=7b289&oh=00_AQGjOrqiB56Zq7DF2txA5y6TMSkpL3Sj-ZAB5yTWxGFvgw&oe=6A831254",
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/720010471_1443121334509932_8869895436519249608_n.jpg?stp=dst-jpg_tt6&cstp=mx720x720&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VszCxc02TGIQ7kNvwEn35Tm&_nc_oc=AdomVR_AUepZ5jpNwXolXjc-f3P576Qw16PH3KGBgFQOTQxVv8oTqqU-vdHyuPl8F00&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P3-tCAuojaEu0TOAnCxfig&_nc_ss=7b289&oh=00_AQHDzRs7wGpKZfq4TCl79nGNWlkW0tO49-o6HlfeX2AzXg&oe=6A834A94",
       "status": "ok",
-      "raw_items": 2,
+      "raw_items": 1,
       "alerts": 0,
-      "rejected": 2,
-      "images_detected": 7,
+      "rejected": 1,
+      "images_detected": 0,
       "videos_detected": 0,
       "rejected_samples": [
         {
@@ -190,24 +204,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid02kDyGMeNxpoWxkVKV4XFbnmpvcKYNgb4VyKY7g1rvZgcvwRnTWYPtRqaxykRzxU3bl?__cft__[0]=AZahlH-aKi8FrlNTyMvtQoLCD_Dp5Rx3v-_tEt2EL9AUJgANtKOMCxevu9Flkuuz1JSc3xlNiot4ppp0R-QSZri6pIDzWHcxwW410gncIhWAiu-2Y-Lz33a7Vz7APYL1XLErOSOhzbfSywASHldTsVvx23goQaaSzzisTY2ekrCKibFWUbY1BhHybINULKxLSF0&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/gobernaciondelapaz/",
           "published_at": null,
           "has_video": false,
-          "has_image": true,
-          "text_preview": "¡Gracias a Chuma por la cálida bienvenida! El gobernador Luis Revilla fue recibido por los pobladores, quienes lo esperaban en la plaza principal. Luego de algunos minutos, la primera autoridad se... ¡Gracias a Chuma por la cálida bienvenida! El gobernador Luis Revilla fue recibido por los pobladores, quienes lo esperaban en la plaza principal. Luego... ¡Gracias a Chuma por la cálida bienvenida! El gobernador Luis Revilla fue recibido por los pobladores, quienes lo esperaban en la plaza principal. Luego de algunos "
-        },
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 5,
-          "filter_reasons": [
-            "fuente_oficial_facebook"
-          ],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid02kDyGMeNxpoWxkVKV4XFbnmpvcKYNgb4VyKY7g1rvZgcvwRnTWYPtRqaxykRzxU3bl?comment_id=1033621102820877&__cft__[0]=AZahlH-aKi8FrlNTyMvtQoLCD_Dp5Rx3v-_tEt2EL9AUJgANtKOMCxevu9Flkuuz1JSc3xlNiot4ppp0R-QSZri6pIDzWHcxwW410gncIhWAiu-2Y-Lz33a7Vz7APYL1XLErOSOhzbfSywASHldTsVvx23goQaaSzzisTY2ekrCKibFWUbY1BhHybINULKxLSF0&__tn__=R-R",
-          "published_at": null,
-          "has_video": false,
-          "has_image": true,
-          "text_preview": "¡Gracias a Chuma por la cálida bienvenida! El gobernador Luis Revilla fue recibido por los pobladores, quienes lo esperaban en la plaza principal. Luego... ¡Gracias a Chuma por la cálida bienvenida! El gobernador Luis Revilla fue recibido por los pobladores, quienes lo esperaban en la plaza principal. Luego de algunos minutos, la primera autoridad se dirigió a la multitud para anunciar obras y proyectos. #UnidosNadaNosDetiene #LaPazDepartamentoMaravilla #RevillaGobernador ¡Gracias a Chuma por la cálida bienvenida! "
+          "has_image": false,
+          "text_preview": "Gobierno Autónomo Departamental de La Paz. 98.819 Me gusta · 6.774 personas están hablando de esto · 883 personas estuvieron aquí. Somos el Gobierno Autónomo Departamental de La Paz. Trabajamos por... Iniciar sesión ¿Olvidaste la cuenta? Gobierno Autónomo Departamental de La Paz 98 mil seguidores • 6 seguidos Más Publicaciones Información Reels Fotos Esta página no está disponible en este momento Puede deberse a un error técnico que estamos intentando solucionar. Vuelve a cargar la página. Volver a cargar la página"
         }
       ],
       "error": null
@@ -221,13 +222,13 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NPnm437uyf4Q7kNvwE8dUTL&_nc_oc=Ado4IllpYKJrzWtk48bT6-GOGS054J2SbTNA-Zs3DQHe0c53rtAA4vdYwUGVT2uQ4tA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Tf7ypQqJa0IL7a7CMo-73Q&_nc_ss=7b289&oh=00_AQHY5z_oaEl7emkg9vh2VFvikWb8ermtKg190WqHWVFPRw&oe=6A830180",
+      "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
+      "raw_items": 1,
       "alerts": 0,
-      "rejected": 2,
-      "images_detected": 2,
-      "videos_detected": 2,
+      "rejected": 1,
+      "images_detected": 0,
+      "videos_detected": 0,
       "rejected_samples": [
         {
           "reason": "sin_senal_vial_en_el_texto",
@@ -236,24 +237,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1543369067249506/?__cft__[0]=AZYPJbApHwc0mvr0WFjhhe_EPmulgBFqdcSFoVdDx2d5lvER5vB8mVZdaNmANSLDyUZwHge1pb2_IvqoN2HI4ESGkIBoOGgz_LhkOiQBS5V97KSJZJAO8cdDYzmZAFpuVRnuuvJfgV2ZNhp_P4jxWgDpPbnVvrYDWMtajJfuQT0UBd6xQZDg7lGyRMgwu-u82vhbcdHNyW7xiMpeXKFcZXeZ&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/",
           "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "✅🧓👴🏼 Con el objetivo de fortalecer el conocimiento de nuestros adultos mayores, el municipio llevó en esta jornada el Taller de Educación Financiera y Seguridad Digital 🤚🏻 #ElAlto #capacitaciones... ✅🧓👴🏼 Con el objetivo de fortalecer el conocimiento de nuestros adultos mayores, el municipio llevó en esta jornada el Taller de Educación Financiera y..."
-        },
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 5,
-          "filter_reasons": [
-            "fuente_oficial_facebook"
-          ],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1543369067249506/?comment_id=2299397730466291&__cft__[0]=AZYPJbApHwc0mvr0WFjhhe_EPmulgBFqdcSFoVdDx2d5lvER5vB8mVZdaNmANSLDyUZwHge1pb2_IvqoN2HI4ESGkIBoOGgz_LhkOiQBS5V97KSJZJAO8cdDYzmZAFpuVRnuuvJfgV2ZNhp_P4jxWgDpPbnVvrYDWMtajJfuQT0UBd6xQZDg7lGyRMgwu-u82vhbcdHNyW7xiMpeXKFcZXeZ&__tn__=R-R",
-          "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "✅🧓👴🏼 Con el objetivo de fortalecer el conocimiento de nuestros adultos mayores, el municipio llevó en esta jornada el Taller de Educación Financiera y Seguridad Digital 🤚🏻 #ElAlto #capacitaciones... ✅🧓👴🏼 Con el objetivo de fortalecer el conocimiento de nuestros adultos mayores, el municipio llevó en esta jornada el Taller de Educación Financiera y..."
+          "has_video": false,
+          "has_image": false,
+          "text_preview": "Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (France) 中文(简体) العربية Português (Brasil) Italiano Más idiomas… Registrarte Iniciar sesión Messenger Facebook Lite Video Meta Pay Tienda de Meta Meta Quest Ray-Ban Meta Meta AI Instagram Threads Política de privacidad Privacidad de salud del consumidor Centro de privacidad Información Crear anuncio Crear página Desarrolla"
         }
       ],
       "error": null
@@ -300,41 +288,26 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WluLECF7A4sQ7kNvwFOBLsl&_nc_oc=AdqE9JOTFMYZ7WsEKjZnI-3fGdh6fGa4ciFuh7IJUur5yJIGdvt73_uzlXahkkQd3IU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_dg0zc_csQG1ngQ9p5PPFw&_nc_ss=7b289&oh=00_AQEldra2Y8BnXIjxjyRBrbIG80dGYIcLi5-2HDRBpOHXBg&oe=6A832057",
+      "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
+      "raw_items": 1,
       "alerts": 0,
-      "rejected": 2,
-      "images_detected": 7,
+      "rejected": 1,
+      "images_detected": 0,
       "videos_detected": 0,
       "rejected_samples": [
         {
           "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 12,
+          "relevance_score": 5,
           "filter_reasons": [
-            "sector_detectado:2",
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid03816TsheJM36P7uatr5ZpMXB5H5dd1rXAGBeKzd9Kah1KfNzYtwSbAs8fmQM9gT8xl?__cft__[0]=AZbTNnLjJVRHbqjMS7TwaYA_XpabhrjwH2pDKNGjud9RbjsPof2D4EpemXsJjA6z6Kr75NBOPfyJ62HshVkMhERiBAmJaY4OJE7YdXZUmf2xfWC2CzICXwKhBkFfk6rdWTuZIhQ4FFx3EQEBLen26vCsPhmWj58wOD5vw6FsC3wZmREm17f4yxX2LaK9W9IQo0A&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/GobernacionDeCochabamba/",
           "published_at": null,
           "has_video": false,
-          "has_image": true,
-          "text_preview": "Gobernación activa plan de contingencia ante incendio forestal en el Parque Nacional Tunari La Gobernación de Cochabamba, a través de la Secretaría Departamental de Medio Ambiente y Recursos... Gobernación activa plan de contingencia ante incendio forestal en el Parque Nacional Tunari La Gobernación de Cochabamba, a través de la Secretaría... Gobernación activa plan de contingencia ante incendio forestal en el Parque Nacional Tunari La Gobernación de Cochabamba, a través de la Secretaría Departamental de Medio Ambi"
-        },
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 12,
-          "filter_reasons": [
-            "sector_detectado:2",
-            "fuente_oficial_facebook"
-          ],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/GobernacionDeCochabamba/posts/pfbid03816TsheJM36P7uatr5ZpMXB5H5dd1rXAGBeKzd9Kah1KfNzYtwSbAs8fmQM9gT8xl?comment_id=1618236546621181&__cft__[0]=AZbTNnLjJVRHbqjMS7TwaYA_XpabhrjwH2pDKNGjud9RbjsPof2D4EpemXsJjA6z6Kr75NBOPfyJ62HshVkMhERiBAmJaY4OJE7YdXZUmf2xfWC2CzICXwKhBkFfk6rdWTuZIhQ4FFx3EQEBLen26vCsPhmWj58wOD5vw6FsC3wZmREm17f4yxX2LaK9W9IQo0A&__tn__=R-R",
-          "published_at": null,
-          "has_video": false,
-          "has_image": true,
-          "text_preview": "Gobernación activa plan de contingencia ante incendio forestal en el Parque Nacional Tunari La Gobernación de Cochabamba, a través de la Secretaría... Gobernación activa plan de contingencia ante incendio forestal en el Parque Nacional Tunari La Gobernación de Cochabamba, a través de la Secretaría Departamental de Medio Ambiente y Recursos Hídricos y la Unidad de Gestión de Riesgos y Atención a Desastres (UGRyAD), activó la tarde de este miércoles 12 de agosto el Plan de Contingencia Departamental contra Incendios "
+          "has_image": false,
+          "text_preview": "Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (France) 中文(简体) العربية Português (Brasil) Italiano Más idiomas… Registrarte Iniciar sesión Messenger Facebook Lite Video Meta Pay Tienda de Meta Meta Quest Ray-Ban Meta Meta AI Instagram Threads Política de privacidad Privacidad de salud del consumidor Centro de privacidad Información Crear anuncio Crear página Desarrolla"
         }
       ],
       "error": null
@@ -381,13 +354,13 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nE_0QuHehzIQ7kNvwFyfLHd&_nc_oc=AdpWYFJuF3DALJjau2LUcxHXHTeZIC7BwV4SiOm0-P_fFG0iQkpuUManClVU5LkagQo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=0ELUJFigFU5kuax1xl1f0w&_nc_ss=7b289&oh=00_AQHPPGOHP_Fi7vv2bvn13R1lanhbtN4axqZZJhQdzTftvg&oe=6A830945",
+      "icon_url": null,
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
       "rejected": 1,
-      "images_detected": 1,
-      "videos_detected": 1,
+      "images_detected": 0,
+      "videos_detected": 0,
       "rejected_samples": [
         {
           "reason": "sin_senal_vial_en_el_texto",
@@ -396,11 +369,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1561755408865932/?__cft__[0]=AZbH_hrCLEfVdRb5472PYJgBiMulFIUpbhwUBiWcUpm3-hiVKzktvd9sv7WwGK0aJZy7bFYNpsoddudxmf5TH5f1yJ8eMCamawVyhcZtnSsmKTFzpKAlNK_CX_d9GdcyjFY1HtNoaGVJnrRqVidY6KHmZRjSkqKDNaQwrycHPGVPYWDIZtJi4uWXyJeYReAWc7PKs8m3FLTM2EsODeWBwinu&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/PoliciaBolivianaCochabamba/",
           "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "COMANDO DEPARTAMENTAL IMPLEMENTA UNIDAD MÓVIL TECNOLÓGICA PARA FORTALECER LA SEGURIDAD EN PROVINCIAS Y ÁREAS ALEJADAS 🛡️📡. ​Bajo los lineamientos del señor Cnl. MSc. CAD Alejandro Basto Rodríguez,... COMANDO DEPARTAMENTAL IMPLEMENTA UNIDAD MÓVIL TECNOLÓGICA PARA FORTALECER LA SEGURIDAD EN PROVINCIAS Y ÁREAS ALEJADAS 🛡️📡. ​Bajo los lineamientos del..."
+          "has_video": false,
+          "has_image": false,
+          "text_preview": "Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (France) 中文(简体) العربية Português (Brasil) Italiano Más idiomas… Registrarte Iniciar sesión Messenger Facebook Lite Video Meta Pay Tienda de Meta Meta Quest Ray-Ban Meta Meta AI Instagram Threads Política de privacidad Privacidad de salud del consumidor Centro de privacidad Información Crear anuncio Crear página Desarrolla"
         }
       ],
       "error": null
@@ -447,13 +420,13 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9vKvZhybqIsQ7kNvwF5F_Pc&_nc_oc=Adr36joXcWqQDvGbPND5ogY_2CoW89Eqkhzxp8B4rPHoCWFKFPS7b-pUG1_7LI-d3-k&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=rh1JzCdWuSc3VPT8BUcDvw&_nc_ss=7b289&oh=00_AQEo57Pu2Jvr84qIJBvGNu2vv5wbrtMQas8atHF3cu7D5Q&oe=6A830AA1",
+      "icon_url": null,
       "status": "ok",
-      "raw_items": 2,
+      "raw_items": 1,
       "alerts": 0,
-      "rejected": 2,
-      "images_detected": 2,
-      "videos_detected": 2,
+      "rejected": 1,
+      "images_detected": 0,
+      "videos_detected": 0,
       "rejected_samples": [
         {
           "reason": "sin_senal_vial_en_el_texto",
@@ -462,24 +435,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1803532030787819/?__cft__[0]=AZbsuZi7N5sC8vEdJAvAMQSjZq1XYPbRwBRy0yOPY1j8RRh3y2yCYSiQv-NDvBChvmTWm-S_kGkgu--kj_SwAC3ZJrtdvLmgjSUzOJksNFhD4gB_s0LDDMWweKOyLsJ29X8iM5VNtZtzfKFt3IbnD_2z90g22pEdAX-SVktE64J6sJ8aHivxv5RaiZkKZTDymzOtFLNCB1Gha0EeCT993Rt_&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/gamscs/",
           "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "La Alcaldía y la Sociedad de Ingenieros de Santa Cruz evaluarán los 89 mercados de la ciudad para identificar riesgos estructurales, eléctricos y de incendios. Prevenir… Ver más La Alcaldía y la Sociedad de Ingenieros de Santa Cruz evaluarán los 89 mercados de la ciudad para identificar riesgos estructurales, eléctricos y de incendios. Prevenir… Ver más MERCADO \"MIRAFLORES\" Villa 1ro de mayo esta ocupado por comerciantes que no viven ennla zona, no generan beneficio vecinal y solo es de almenamiento de muebles y ve"
-        },
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 5,
-          "filter_reasons": [
-            "fuente_oficial_facebook"
-          ],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1803532030787819/?comment_id=1709567480295950&__cft__[0]=AZbsuZi7N5sC8vEdJAvAMQSjZq1XYPbRwBRy0yOPY1j8RRh3y2yCYSiQv-NDvBChvmTWm-S_kGkgu--kj_SwAC3ZJrtdvLmgjSUzOJksNFhD4gB_s0LDDMWweKOyLsJ29X8iM5VNtZtzfKFt3IbnD_2z90g22pEdAX-SVktE64J6sJ8aHivxv5RaiZkKZTDymzOtFLNCB1Gha0EeCT993Rt_&__tn__=R-R",
-          "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "La Alcaldía y la Sociedad de Ingenieros de Santa Cruz evaluarán los 89 mercados de la ciudad para identificar riesgos estructurales, eléctricos y de incendios. Prevenir antes que lamentar.... La Alcaldía y la Sociedad de Ingenieros de Santa Cruz evaluarán los 89 mercados de la ciudad para identificar riesgos estructurales, eléctricos y de..."
+          "has_video": false,
+          "has_image": false,
+          "text_preview": "Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (France) 中文(简体) العربية Português (Brasil) Italiano Más idiomas… Registrarte Iniciar sesión Messenger Facebook Lite Video Meta Pay Tienda de Meta Meta Quest Ray-Ban Meta Meta AI Instagram Threads Política de privacidad Privacidad de salud del consumidor Centro de privacidad Información Crear anuncio Crear página Desarrolla"
         }
       ],
       "error": null
@@ -561,9 +521,9 @@
       "city": null,
       "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "status": "ok",
-      "raw_items": 8,
+      "raw_items": 9,
       "alerts": 6,
-      "rejected": 2,
+      "rejected": 3,
       "images_detected": 0,
       "videos_detected": 0,
       "rejected_samples": [
@@ -587,20 +547,17 @@
         },
         {
           "reason": "relevancia_vial_insuficiente",
-          "relevance_score": 48,
+          "relevance_score": 8,
           "filter_reasons": [
-            "contexto_vial:3",
-            "via_detectada:5",
-            "kilometro_detectado",
-            "terminos_viales:2",
+            "contexto_vial:1",
             "fuente_oficial_web"
           ],
           "detected_event": "otro",
-          "url": "https://www.abc.gob.bo/wp-content/uploads/2025/11/Mapa-Bajo-peso.pdf",
+          "url": "https://www.abc.gob.bo/tramitev2/certificacion-de-transitabilidad/",
           "published_at": null,
           "has_video": false,
           "has_image": false,
-          "text_preview": "%PDF-1.6 %���� 4 0 obj < > endobj xref 4 437 0000000016 00000 n 0000009691 00000 n 0000009819 00000 n 0000009889 00000 n 0000009919 00000 n 0000010003 00000 n 0000010026 00000 n 0000012966 00000 n 0000139149 00000 n 0000275910 00000 n 0000413616 00000 n 0000553032 00000 n 0000692443 00000 n 0000692575 00000 n 0000692724 00000 n 0000692873 00000 n 0000693111 00000 n 0000693320 00000 n 0000693502 00000 n 0000693792 00000 n 0000694531 00000 n 0000695189 00000 n 0000695928 00000 n 0000826627 00000 n 0000826836 00000 n "
+          "text_preview": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de "
         }
       ],
       "error": null
