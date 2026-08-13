@@ -1,8 +1,13 @@
+import asyncio
 from typing import Dict, Any, List, Optional, Tuple
 from urllib.parse import urljoin
 import re
 
 from .models import RawItem
+
+
+class FacebookBlockedError(RuntimeError):
+    """Facebook mostró una pantalla de bloqueo/login en vez del contenido público."""
 
 
 VIAL_HINTS = [
@@ -355,9 +360,12 @@ async def _scrape_facebook_with_context(source: Dict[str, Any], settings: Dict[s
         if (
             "temporarily blocked" in low
             or "you’re temporarily blocked" in low
-            or ("log in" in low and len(body_text) < 1200)
+            or "temporalmente bloqueado" in low
+            or (("log in" in low or "iniciar sesión" in low or "iniciar sesion" in low) and len(body_text) < 1200)
         ):
-            raise RuntimeError("Facebook bloqueó/ocultó el contenido público para esta ejecución.")
+            raise FacebookBlockedError(
+                "Facebook bloqueó/ocultó el contenido público para esta ejecución."
+            )
 
         source_icon_url = await _get_source_icon(page, source)
 
@@ -490,8 +498,15 @@ async def scrape_facebook_sources(
     sources: List[Dict[str, Any]],
     settings: Dict[str, Any],
 ) -> Dict[str, Any]:
-    """Scrapea varias páginas Facebook con UN solo Chromium.
-    Usa concurrencia limitada para acelerar sin disparar demasiadas pestañas.
+    """Scrapea las páginas de Facebook una por una, con pausa entre cada una,
+    reutilizando un único contexto de navegador (como una persona real
+    navegando de página en página, no pestañas simultáneas).
+
+    Sin concurrencia y sin User-Agent de bot: ambas cosas son señales fuertes
+    de tráfico automatizado para Facebook. Apenas una fuente devuelve la
+    pantalla de bloqueo/login, se corta el resto de la corrida en vez de
+    seguir insistiendo con las fuentes que quedan — así no se arrastra el
+    bloqueo a más fuentes de las necesarias.
     """
     try:
         from playwright.async_api import async_playwright
@@ -500,9 +515,7 @@ async def scrape_facebook_sources(
             "Playwright no está instalado. Ejecuta: playwright install chromium"
         ) from exc
 
-    concurrency = max(1, int(settings.get("facebook_concurrency", 4)))
-    ua = settings.get("user_agent")
-    semaphore = __import__("asyncio").Semaphore(concurrency)
+    delay_seconds = max(5.0, float(settings.get("facebook_delay_seconds", 8.0)))
 
     results: Dict[str, Any] = {}
 
@@ -516,41 +529,53 @@ async def scrape_facebook_sources(
                 "--disable-renderer-backgrounding",
             ],
         )
+        # Un solo contexto para toda la corrida: sin user_agent propio (se usa
+        # el de Chromium real por defecto) y con las cookies/sesión persistiendo
+        # de una fuente a la siguiente, como en una navegación normal.
+        context = await browser.new_context(
+            locale="es-BO",
+            timezone_id=settings.get("timezone", "America/La_Paz"),
+            viewport={"width": 1280, "height": 900},
+            service_workers="block",
+        )
 
-        async def worker(source):
-            async with semaphore:
-                context = await browser.new_context(
-                    locale="es-BO",
-                    timezone_id=settings.get("timezone", "America/La_Paz"),
-                    user_agent=ua,
-                    viewport={"width": 1280, "height": 900},
-                    service_workers="block",
-                )
-                # Bloquear recursos pesados que no necesitamos para leer posts.
-                async def route_handler(route):
-                    rt = route.request.resource_type
-                    url = route.request.url.lower()
-                    if rt in {"font", "media"}:
-                        await route.abort()
-                        return
-                    # Imágenes se mantienen: las URLs/metadata sirven para la app.
-                    if any(x in url for x in [
-                        "doubleclick.net", "google-analytics.com", "googletagmanager.com"
-                    ]):
-                        await route.abort()
-                        return
-                    await route.continue_()
+        async def route_handler(route):
+            rt = route.request.resource_type
+            url = route.request.url.lower()
+            if rt in {"font", "media"}:
+                await route.abort()
+                return
+            if any(x in url for x in [
+                "doubleclick.net", "google-analytics.com", "googletagmanager.com"
+            ]):
+                await route.abort()
+                return
+            await route.continue_()
 
-                try:
-                    await context.route("**/*", route_handler)
-                    items = await _scrape_facebook_with_context(source, settings, context)
-                    results[source["id"]] = {"items": items, "error": None}
-                except Exception as exc:
-                    results[source["id"]] = {"items": [], "error": str(exc)}
-                finally:
-                    await context.close()
+        await context.route("**/*", route_handler)
 
-        await __import__("asyncio").gather(*(worker(s) for s in sources))
+        blocked = False
+        for i, source in enumerate(sources):
+            if blocked:
+                results[source["id"]] = {
+                    "items": [],
+                    "error": "Omitida: Facebook bloqueó otra fuente antes en esta misma corrida.",
+                }
+                continue
+
+            try:
+                items = await _scrape_facebook_with_context(source, settings, context)
+                results[source["id"]] = {"items": items, "error": None}
+            except FacebookBlockedError as exc:
+                results[source["id"]] = {"items": [], "error": str(exc)}
+                blocked = True
+            except Exception as exc:
+                results[source["id"]] = {"items": [], "error": str(exc)}
+
+            if not blocked and i < len(sources) - 1:
+                await asyncio.sleep(delay_seconds)
+
+        await context.close()
         await browser.close()
 
     return results

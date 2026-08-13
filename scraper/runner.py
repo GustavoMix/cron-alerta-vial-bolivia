@@ -103,10 +103,11 @@ async def run(config_path: Path, out_dir: Path, only: str | None = None):
 
 
     print("==================================================")
-    print("MODO RAPIDO: Facebook en paralelo + Chromium compartido")
+    print("MODO RAPIDO: Web en paralelo | Facebook secuencial y pausado")
     print("==================================================")
     print(
-        f"Facebook concurrencia={settings.get('facebook_concurrency', 4)} | "
+        f"Facebook pausa entre fuentes={settings.get('facebook_delay_seconds', 8)}s "
+        f"(se detiene toda la corrida de Facebook si una fuente es bloqueada) | "
         f"Web concurrencia={settings.get('web_concurrency', 5)} | "
         f"posts/fuente={settings.get('max_items_per_source', 18)}"
     )
