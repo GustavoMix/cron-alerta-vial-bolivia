@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T18:34:32-04:00",
+  "generated_at": "2026-08-13T18:40:46-04:00",
   "sources": [
     {
       "id": "fb_abc",
@@ -10,15 +10,33 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9tapo_6djlAQ7kNvwGEVRJy&_nc_oc=Ado_pycoExVQmadNkrZzMw565eN9vkANqIjBs5c4Iah2s4KtWc6sO0Ocn85qI7wi2kc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=wuSEsgeeoq0xeyu7W2ljDw&_nc_ss=7f289&oh=00_AQEvuiVAahsL_Kzl7pD0byoZWxlHOfB72E4vxN7DQG_wew&oe=6A83FF58",
+      "status": "ok",
+      "raw_items": 1,
       "alerts": 0,
-      "rejected": 0,
-      "images_detected": 0,
+      "rejected": 1,
+      "images_detected": 2,
       "videos_detected": 0,
-      "rejected_samples": [],
-      "error": "Facebook bloqueó/ocultó el contenido público para esta ejecución. Vista previa de la página: 'Iniciar sesión ¿Olvidaste la cuenta? Administradora Boliviana de Carreteras 105 mil seguidores • 3 seguidos Más Publicaciones Información Reels Fotos Seguidos Detalles ¡Construimos carreteras, conectamos familias, unimos'"
+      "rejected_samples": [
+        {
+          "reason": "relevancia_vial_insuficiente",
+          "relevance_score": 47,
+          "filter_reasons": [
+            "contexto_vial:4",
+            "via_detectada:1",
+            "kilometro_detectado",
+            "terminos_viales:3",
+            "fuente_oficial_facebook"
+          ],
+          "detected_event": "otro",
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid028oHRsKzFYHgDNfSJHDdGRY8aYA42XtJgbsX4fhCYKJ2e1AQwQ4T9yWraMvBawGMl?__cft__[0]=AZYbBBt8ag19lG0iiZjMIiRzGYWKiNNGgbEvoaFILuhmRS_tBo7gQjuEeIOFeVKcM0yFGHBx2irDASWgmAEz6i3SKfBwoJwg0JasmDOVYfVvGiSqUTrqqT1TUUCvtwgbVmi4tFtthSXmEnftsUcNYVLZKJ0edlSQz3G9iQPg-smWYEEh8-zgc84SbOGNrIcpiQ0&__tn__=%2CO%2CP-R",
+          "published_at": null,
+          "has_video": false,
+          "has_image": true,
+          "text_preview": "🚧 ATENCIÓN COCHABAMBA Por la Festividad de la Virgen de Urkupiña, se realizará un corte temporal de circulación en la carretera Cochabamba–Oruro entre los km 10 y 15, en el municipio de Quillacollo.... 🚧 ATENCIÓN COCHABAMBA Por la Festividad de la Virgen de Urkupiña, se realizará un corte temporal de circulación en la carretera Cochabamba–Oruro entre... ATENCIÓN COCHABAMBA Por la Festividad de la Virgen de Urkupiña, se realizará un corte temporal de circulación en la carretera Cochabamba–Oruro entre los km 10 y 15,"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_transito_nacional",
@@ -29,15 +47,30 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=XFH1-A6tcBoQ7kNvwFxQw5x&_nc_oc=Adrl6US32-eCFgt3U0CN4mydhUYkTmTiaMikTbyS_GUdGS2FmWcpXYi5xcNTZiHJUQQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=IfdjgnUp6G6KR06ZxrCFDA&_nc_ss=7f289&oh=00_AQHNpLTpw0RmIUSecgQyjKfpEIuMXUewktM9GgmlvEUXNQ&oe=6A8402AB",
+      "status": "ok",
+      "raw_items": 1,
       "alerts": 0,
-      "rejected": 0,
-      "images_detected": 0,
+      "rejected": 1,
+      "images_detected": 6,
       "videos_detected": 0,
-      "rejected_samples": [],
-      "error": "Omitida: Facebook bloqueó otra fuente antes en esta misma corrida."
+      "rejected_samples": [
+        {
+          "reason": "relevancia_vial_insuficiente",
+          "relevance_score": 15,
+          "filter_reasons": [
+            "contexto_vial:2",
+            "fuente_oficial_facebook"
+          ],
+          "detected_event": "otro",
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid0afJ1zkctucDsFQxZ43osEHHnp8xnJTuLthNPYs4XUwavMzZbtsu9NqW8skurDWN3l?__cft__[0]=AZajjNGK4g0So6_zi9ggr7gS-0IWbbfHf0Rftcj6j1d-FMSwDKcKNUBcdamBVyDXAs1Cbf1-YQTWGEF1SUFKABDD2vZ9O81WVBa5q8sGUVSDc_ypL370tStaWqOu1V5i3_-Ch5q6W-JfgV2WDyzwLLFNSe5cjCGxJ7vpOV9bJTNpqFZ2x2nrXg-SUM4B8xphrXU&__tn__=%2CO%2CP-R",
+          "published_at": null,
+          "has_video": false,
+          "has_image": true,
+          "text_preview": "REUNIÓN DE COORDINACIÓN Y CONCIENTIZACIÓN CON EL PERSONAL DE LA DIRECCIÓN DEPARTAMENTAL DE TRÁNSITO, TRANSPORTE Y SEGURIDAD VIAL DEL DEPARTAMENTO DE COCHABAMBA. En el marco de las acciones de... REUNIÓN DE COORDINACIÓN Y CONCIENTIZACIÓN CON EL PERSONAL DE LA DIRECCIÓN DEPARTAMENTAL DE TRÁNSITO, TRANSPORTE Y SEGURIDAD VIAL DEL DEPARTAMENTO DE... REUNIÓN DE COORDINACIÓN Y CONCIENTIZACIÓN CON EL PERSONAL DE LA DIRECCIÓN DEPARTAMENTAL DE TRÁNSITO, TRANSPORTE Y SEGURIDAD VIAL DEL DEPARTAMENTO DE COCHABAMBA. En el marco "
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_policia_boliviana",
@@ -56,7 +89,7 @@
       "images_detected": 0,
       "videos_detected": 0,
       "rejected_samples": [],
-      "error": "Omitida: Facebook bloqueó otra fuente antes en esta misma corrida."
+      "error": "Facebook bloqueó/ocultó el contenido público para esta ejecución. Vista previa de la página: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (France) 中文(简体) العربية '"
     },
     {
       "id": "fb_municipio_lapaz",
