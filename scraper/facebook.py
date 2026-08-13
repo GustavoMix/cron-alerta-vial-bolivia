@@ -554,6 +554,14 @@ async def scrape_facebook_sources(
 
         await context.route("**/*", route_handler)
 
+        # Un solo bloqueo aislado puede ser mala suerte con la IP que le tocó
+        # al runner en esta corrida puntual, no necesariamente algo que
+        # nuestro propio patrón de tráfico provocó (puede pasar incluso en la
+        # primerísima solicitud, antes de haber hecho ninguna otra). Por eso
+        # se reintenta esa misma fuente una vez, con una pausa larga, antes de
+        # rendirse y saltar el resto de la corrida de Facebook.
+        block_retry_delay = max(20.0, float(settings.get("facebook_block_retry_seconds", 30.0)))
+
         blocked = False
         for i, source in enumerate(sources):
             if blocked:
@@ -563,14 +571,25 @@ async def scrape_facebook_sources(
                 }
                 continue
 
-            try:
-                items = await _scrape_facebook_with_context(source, settings, context)
-                results[source["id"]] = {"items": items, "error": None}
-            except FacebookBlockedError as exc:
-                results[source["id"]] = {"items": [], "error": str(exc)}
+            last_error = None
+            for attempt in range(2):
+                try:
+                    items = await _scrape_facebook_with_context(source, settings, context)
+                    results[source["id"]] = {"items": items, "error": None}
+                    last_error = None
+                    break
+                except FacebookBlockedError as exc:
+                    last_error = exc
+                    if attempt == 0:
+                        await asyncio.sleep(block_retry_delay)
+                except Exception as exc:
+                    results[source["id"]] = {"items": [], "error": str(exc)}
+                    last_error = None
+                    break
+
+            if isinstance(last_error, FacebookBlockedError):
+                results[source["id"]] = {"items": [], "error": str(last_error)}
                 blocked = True
-            except Exception as exc:
-                results[source["id"]] = {"items": [], "error": str(exc)}
 
             if not blocked and i < len(sources) - 1:
                 await asyncio.sleep(delay_seconds)
