@@ -357,11 +357,22 @@ async def _scrape_facebook_with_context(source: Dict[str, Any], settings: Dict[s
 
         body_text = await page.locator("body").inner_text(timeout=7000)
         low = body_text.lower()
+        # "Iniciar sesión" solo, o "log in" solo, aparecen SIEMPRE como link de
+        # cabecera en cualquier página pública de Facebook, esté bloqueada o
+        # no — usar eso solo (con un umbral de longitud) daba falsos positivos
+        # en páginas que simplemente todavía no habían terminado de cargar el
+        # feed dentro del tiempo de espera. El formulario de login real trae
+        # frases mucho más específicas que solo aparecen en la pantalla de
+        # bloqueo/login completa, nunca en el encabezado de una página normal.
         if (
             "temporarily blocked" in low
             or "you’re temporarily blocked" in low
             or "temporalmente bloqueado" in low
-            or (("log in" in low or "iniciar sesión" in low or "iniciar sesion" in low) and len(body_text) < 1200)
+            or "correo electrónico o número de celular" in low
+            or "correo electronico o numero de celular" in low
+            or "olvidaste tu contraseña" in low
+            or "email or phone number" in low
+            or "forgotten password" in low
         ):
             raise FacebookBlockedError(
                 "Facebook bloqueó/ocultó el contenido público para esta ejecución."
