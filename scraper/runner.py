@@ -2,6 +2,7 @@ import argparse
 import asyncio
 import csv
 import json
+from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -9,6 +10,7 @@ import yaml
 
 from .classifier import build_alert, rejection_reason, analyze_relevance
 from .facebook import scrape_facebook_public, scrape_facebook_sources
+from .models import Alert
 from .web_sources import scrape_generic_web
 from .merger import merge_alerts
 from .state_manager import reconcile
@@ -26,6 +28,16 @@ def now_iso(tz_name: str) -> str:
 
 def compact_text(s: str) -> str:
     return " ".join((s or "").split())
+
+
+def _select_sources(sources, only: str | None, only_type: str | None):
+    if only:
+        wanted = {x.strip() for x in only.split(",") if x.strip()}
+        sources = [s for s in sources if s["id"] in wanted]
+    if only_type:
+        wanted_types = {x.strip() for x in only_type.split(",") if x.strip()}
+        sources = [s for s in sources if s["type"] in wanted_types]
+    return sources
 
 
 async def scrape_web_sources_fast(sources, settings):
@@ -90,29 +102,8 @@ def _rejected_sample(item, reason):
     }
 
 
-async def run(config_path: Path, out_dir: Path, only: str | None = None):
-    cfg = load_config(config_path)
-    settings, sources = cfg["settings"], cfg["sources"]
-    if only:
-        wanted = {x.strip() for x in only.split(",") if x.strip()}
-        sources = [s for s in sources if s["id"] in wanted]
-
-    scraped_at = now_iso(settings.get("timezone", "America/La_Paz"))
+def _build_alerts_and_stats(sources, scrape_results, scraped_at, max_rejected):
     individual_alerts, stats = [], []
-    max_rejected = int(settings.get("max_rejected_samples_per_source", 3))
-
-
-    print("==================================================")
-    print("MODO RAPIDO: Facebook en paralelo + Chromium compartido")
-    print("==================================================")
-    print(
-        f"Facebook concurrencia={settings.get('facebook_concurrency', 4)} | "
-        f"Web concurrencia={settings.get('web_concurrency', 5)} | "
-        f"posts/fuente={settings.get('max_items_per_source', 18)}"
-    )
-
-    scrape_results = await scrape_all_sources_fast(sources, settings)
-
     for idx, source in enumerate(sources, 1):
         print(f"[{idx}/{len(sources)}] TIER {source.get('tier', 3)} {source['id']} - {source['name']}")
         result = scrape_results.get(source["id"], {"items": [], "error": "Sin resultado"})
@@ -157,6 +148,10 @@ async def run(config_path: Path, out_dir: Path, only: str | None = None):
             f"  OK publicaciones={len(raw_items)} viales={len(built)} "
             f"descartadas={len(raw_items)-len(built)} fotos={img_count} videos={video_count}"
         )
+    return individual_alerts, stats
+
+
+def _write_outputs(sources, individual_alerts, stats, generated_at: str, out_dir: Path, settings: dict):
     individual_alerts = list({a.id: a for a in individual_alerts}.values())
     merged = merge_alerts(
         individual_alerts,
@@ -170,11 +165,11 @@ async def run(config_path: Path, out_dir: Path, only: str | None = None):
     archive_path = internal_dir / "incidentes_historial.json"
 
     incidents, archive = reconcile(
-        merged, archive_path, scraped_at,
+        merged, archive_path, generated_at,
         keep_days=int(settings.get("history_keep_days", 14)),
         threshold=float(settings.get("history_match_threshold", 0.63)),
     )
-    archive_path.write_text(json.dumps({"generated_at": scraped_at, "incidents": archive}, ensure_ascii=False, indent=2), encoding="utf-8")
+    archive_path.write_text(json.dumps({"generated_at": generated_at, "incidents": archive}, ensure_ascii=False, indent=2), encoding="utf-8")
 
     fb_sources = [s for s in sources if s["type"] == "facebook_public"]
     web_sources = [s for s in sources if s["type"] == "generic_web"]
@@ -182,7 +177,7 @@ async def run(config_path: Path, out_dir: Path, only: str | None = None):
     # JSON PRINCIPAL: este es el único que debería consumir la app.
     main_payload = {
         "schema_version": "3.2-fast",
-        "generated_at": scraped_at,
+        "generated_at": generated_at,
         "timezone": settings.get("timezone", "America/La_Paz"),
         "summary": {
             "facebook_sources": len(fb_sources),
@@ -205,7 +200,7 @@ async def run(config_path: Path, out_dir: Path, only: str | None = None):
 
     # Diagnóstico: para saber por qué una fuente dio 0 alertas.
     (out_dir / "estado_fuentes.json").write_text(
-        json.dumps({"generated_at": scraped_at, "sources": stats}, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps({"generated_at": generated_at, "sources": stats}, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
     fieldnames = [
@@ -237,6 +232,82 @@ async def run(config_path: Path, out_dir: Path, only: str | None = None):
     print("\nUSA ESTOS 2 JSON:")
     print(f"  APP:        {out_dir / 'transito_bolivia.json'}")
     print(f"  DIAGNOSTICO:{out_dir / 'estado_fuentes.json'}")
+    return incidents
+
+
+async def run(config_path: Path, out_dir: Path, only: str | None = None):
+    cfg = load_config(config_path)
+    settings, sources = cfg["settings"], cfg["sources"]
+    sources = _select_sources(sources, only, None)
+
+    scraped_at = now_iso(settings.get("timezone", "America/La_Paz"))
+    max_rejected = int(settings.get("max_rejected_samples_per_source", 3))
+
+    print("==================================================")
+    print("MODO RAPIDO: Facebook en paralelo + Chromium compartido")
+    print("==================================================")
+    print(
+        f"Facebook concurrencia={settings.get('facebook_concurrency', 4)} | "
+        f"Web concurrencia={settings.get('web_concurrency', 5)} | "
+        f"posts/fuente={settings.get('max_items_per_source', 18)}"
+    )
+
+    scrape_results = await scrape_all_sources_fast(sources, settings)
+    individual_alerts, stats = _build_alerts_and_stats(sources, scrape_results, scraped_at, max_rejected)
+    _write_outputs(sources, individual_alerts, stats, scraped_at, out_dir, settings)
+    return 0
+
+
+async def run_scrape(config_path: Path, out_file: Path, only: str | None = None, only_type: str | None = None):
+    """Scrapea un subconjunto de fuentes y guarda un JSON parcial (sin fusionar ni escribir data/).
+
+    Pensado para correr como un job de GitHub Actions distinto por grupo pequeño
+    de fuentes: cada job usa un runner efímero con su propia IP de salida, que es
+    la mitigación real contra el bloqueo de Facebook (deja pasar ~2 fuentes por IP).
+    """
+    cfg = load_config(config_path)
+    settings, sources = cfg["settings"], cfg["sources"]
+    sources = _select_sources(sources, only, only_type)
+    if not sources:
+        raise SystemExit("Ningún source coincide con --only/--only-type.")
+
+    scraped_at = now_iso(settings.get("timezone", "America/La_Paz"))
+    print(f"Scrapeando {len(sources)} fuente(s): {', '.join(s['id'] for s in sources)}")
+
+    scrape_results = await scrape_all_sources_fast(sources, settings)
+    max_rejected = int(settings.get("max_rejected_samples_per_source", 3))
+    individual_alerts, stats = _build_alerts_and_stats(sources, scrape_results, scraped_at, max_rejected)
+
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "scraped_at": scraped_at,
+        "alerts": [asdict(a) for a in individual_alerts],
+        "stats": stats,
+    }
+    out_file.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Parcial guardado en {out_file} ({len(individual_alerts)} alertas viales, {len(stats)} fuente(s))")
+    return 0
+
+
+def run_merge(config_path: Path, partials_dir: Path, out_dir: Path):
+    """Combina los JSON parciales producidos por `--mode scrape` y escribe data/."""
+    cfg = load_config(config_path)
+    settings, sources = cfg["settings"], cfg["sources"]
+
+    partial_files = sorted(partials_dir.glob("*.json"))
+    if not partial_files:
+        raise SystemExit(f"No se encontraron JSON parciales en {partials_dir}")
+
+    individual_alerts: list[Alert] = []
+    stats: list[dict] = []
+    for pf in partial_files:
+        payload = json.loads(pf.read_text(encoding="utf-8"))
+        individual_alerts.extend(Alert(**a) for a in payload.get("alerts", []))
+        stats.extend(payload.get("stats", []))
+
+    generated_at = now_iso(settings.get("timezone", "America/La_Paz"))
+    print(f"Combinando {len(partial_files)} parcial(es) -> {len(stats)} fuente(s), {len(individual_alerts)} alerta(s) vial(es)")
+    _write_outputs(sources, individual_alerts, stats, generated_at, out_dir, settings)
     return 0
 
 
@@ -245,7 +316,26 @@ def main():
     p.add_argument("--config", default=str(ROOT / "config" / "sources.yaml"))
     p.add_argument("--out", default=str(ROOT / "data"))
     p.add_argument("--only", default=None, help="IDs de fuentes separados por coma")
+    p.add_argument("--only-type", default=None, help="Filtra fuentes por type: facebook_public, generic_web")
+    p.add_argument(
+        "--mode", choices=["full", "scrape", "merge"], default="full",
+        help="full=scrapear+fusionar+guardar en un proceso (por defecto); "
+             "scrape=scrapear solo --only/--only-type y guardar un JSON parcial; "
+             "merge=combinar JSON parciales de --partials-dir y guardar data/",
+    )
+    p.add_argument("--partial-out", default=None, help="[mode=scrape] ruta del JSON parcial a escribir")
+    p.add_argument("--partials-dir", default=None, help="[mode=merge] carpeta con JSON parciales a combinar")
     args = p.parse_args()
+
+    if args.mode == "scrape":
+        if not args.partial_out:
+            p.error("--mode scrape requiere --partial-out")
+        return asyncio.run(run_scrape(Path(args.config), Path(args.partial_out), args.only, args.only_type))
+    if args.mode == "merge":
+        if not args.partials_dir:
+            p.error("--mode merge requiere --partials-dir")
+        return run_merge(Path(args.config), Path(args.partials_dir), Path(args.out))
+
     return asyncio.run(run(Path(args.config), Path(args.out), args.only))
 
 
