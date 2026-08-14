@@ -440,8 +440,14 @@ async def _scrape_facebook_with_context(source: Dict[str, Any], settings: Dict[s
                 or "forgotten password" in low
             ):
                 preview = re.sub(r"\s+", " ", body_text).strip()[:220]
+                # Con el mismo muro de login, Facebook no distingue "está
+                # bloqueada para esta sesión" de "esta página ya no existe":
+                # el título y la URL final (tras redirects) sí cambian entre
+                # los dos casos y ayudan a diferenciarlos a simple vista.
+                page_title = await page.title()
                 raise FacebookBlockedError(
                     f"Facebook bloqueó/ocultó el contenido público para esta ejecución. "
+                    f"Título de página: {page_title!r} | URL final: {page.url!r} | "
                     f"Vista previa de la página: {preview!r}"
                 )
 

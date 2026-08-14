@@ -77,9 +77,30 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Version de Playwright instalada
+        id: playwright-version
+        run: echo "version=$(python -m pip show playwright | grep -i ^Version | cut -d' ' -f2)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache de Chromium de Playwright
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-${{ steps.playwright-version.outputs.version }}
+
+      - name: Instalar dependencias de sistema de Chromium
+        # El binario de Chromium puede venir del cache, pero las libs del
+        # sistema (apt) las instala el runner igual y son rapidas porque ya
+        # estan casi todas en la imagen base.
+        run: python -m playwright install-deps chromium
+
       - name: Instalar Chromium de Playwright
-        run: |
-          python -m playwright install --with-deps chromium
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        # Sin el cache esto a veces tarda mas de 10 minutos por congestion de
+        # la red del runner y hacia que el job chocara contra el timeout de
+        # 12 minutos, cancelando el grupo entero. Con el binario cacheado
+        # este paso se salta directo.
+        run: python -m playwright install chromium
 
       - name: Escalonar el arranque del grupo
         # Si los 15 grupos golpean Facebook en el mismo segundo desde IPs del
