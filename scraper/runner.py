@@ -2,6 +2,7 @@ import argparse
 import asyncio
 import csv
 import json
+import sys
 from dataclasses import asdict
 from datetime import datetime
 from pathlib import Path
@@ -11,6 +12,12 @@ import yaml
 from .classifier import build_alert, rejection_reason, analyze_relevance
 from .facebook import scrape_facebook_public, scrape_facebook_sources
 from .models import RawItem
+from .planificador import (
+    actualizar_rotacion,
+    cargar_rotacion,
+    matriz_github,
+    planificar_grupos,
+)
 from .web_sources import scrape_generic_web
 from .merger import merge_alerts
 from .state_manager import reconcile
@@ -104,6 +111,31 @@ async def scrape_facebook_group(config_path: Path, group_ids: set[str], raw_out:
     return 0
 
 
+def planificar_facebook(config_path: Path, rotacion_path: Path, tamano_grupo: int) -> str:
+    """Arma la matrix de GitHub Actions para el fan-out de Facebook, usando el
+    historial de rotación para decidir a qué fuente le toca el primer turno de
+    cada grupo (que es el que casi siempre esquiva el bloqueo)."""
+    cfg = load_config(config_path)
+    settings, sources = cfg["settings"], cfg["sources"]
+    fb_sources = [s for s in sources if s["type"] == "facebook_public"]
+    if not fb_sources:
+        raise SystemExit("No hay fuentes de Facebook en la configuración")
+
+    ahora = datetime.now(ZoneInfo(settings.get("timezone", "America/La_Paz")))
+    rotacion = cargar_rotacion(rotacion_path)
+    grupos = planificar_grupos(fb_sources, rotacion, tamano_grupo, ahora)
+
+    print(
+        f"Planificadas {len(fb_sources)} fuentes de Facebook en {len(grupos)} grupos "
+        f"de hasta {tamano_grupo} (una IP de runner por grupo).",
+        file=sys.stderr,
+    )
+    for grupo in grupos:
+        print(f"  {grupo['nombre']}: {grupo['fuentes']}", file=sys.stderr)
+
+    return matriz_github(grupos)
+
+
 def _load_facebook_raw(paths: list[Path]) -> dict:
     """Junta los resultados de scrape_facebook_group de varios grupos en un
     solo dict {source_id: {"items": [RawItem...], "error": str|None}}."""
@@ -181,6 +213,16 @@ async def run(
     scrape_results = await scrape_all_sources_fast(
         sources, settings, preloaded_facebook_results=preloaded_facebook_results
     )
+
+    # Memoria de rotación: qué fuente de Facebook sí trajo datos esta vez. La
+    # próxima corrida usa esto para darle el primer turno -el que esquiva el
+    # bloqueo- a las que llevan más tiempo sin aparecer.
+    fb_ids = {s["id"] for s in sources if s["type"] == "facebook_public"}
+    fb_results = {sid: r for sid, r in scrape_results.items() if sid in fb_ids}
+    if fb_results:
+        actualizar_rotacion(
+            out_dir / "_interno" / "facebook_rotacion.json", fb_results, scraped_at
+        )
 
     for idx, source in enumerate(sources, 1):
         print(f"[{idx}/{len(sources)}] TIER {source.get('tier', 3)} {source['id']} - {source['name']}")
@@ -328,7 +370,24 @@ def main():
              "ya guardados y solo se scrapean las fuentes web antes de clasificar y "
              "escribir los JSON finales.",
     )
+    p.add_argument(
+        "--planificar-facebook", action="store_true",
+        help="Imprime 'matriz=<json>' con los grupos de fuentes de Facebook para el "
+             "fan-out de CI, repartidos por prioridad de rotación. Pensado para "
+             "redirigirse a $GITHUB_OUTPUT y consumirse con fromJSON().",
+    )
+    p.add_argument(
+        "--tamano-grupo", type=int, default=2,
+        help="Fuentes de Facebook por grupo/job al planificar (default 2). Facebook "
+             "corta después de 1-2 páginas por IP, así que grupos chicos pierden "
+             "menos fuentes en cascada.",
+    )
     args = p.parse_args()
+
+    if args.planificar_facebook:
+        rotacion_path = Path(args.out) / "_interno" / "facebook_rotacion.json"
+        print(f"matriz={planificar_facebook(Path(args.config), rotacion_path, args.tamano_grupo)}")
+        return 0
 
     if args.facebook_scrape_group_out:
         if not args.only:

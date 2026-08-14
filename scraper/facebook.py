@@ -1,4 +1,5 @@
 import asyncio
+import random
 from typing import Dict, Any, List, Optional, Tuple
 from urllib.parse import urljoin
 import re
@@ -545,10 +546,17 @@ async def scrape_facebook_sources(
         # Un solo contexto para toda la corrida: sin user_agent propio (se usa
         # el de Chromium real por defecto) y con las cookies/sesión persistiendo
         # de una fuente a la siguiente, como en una navegación normal.
+        # El tamaño exacto de ventana es una de las señales más baratas para
+        # agrupar sesiones automatizadas: si todos los runners reportan
+        # 1280x900 clavado, los N jobs paralelos se leen como una sola flota.
+        # Variarlo unos píxeles no oculta nada, solo evita que coincidan.
         context = await browser.new_context(
             locale="es-BO",
             timezone_id=settings.get("timezone", "America/La_Paz"),
-            viewport={"width": 1280, "height": 900},
+            viewport={
+                "width": random.choice([1280, 1366, 1440, 1512, 1600]),
+                "height": random.choice([800, 864, 900, 960]),
+            },
             service_workers="block",
         )
 
@@ -605,7 +613,10 @@ async def scrape_facebook_sources(
                 blocked = True
 
             if not blocked and i < len(sources) - 1:
-                await asyncio.sleep(delay_seconds)
+                # Pausa con algo de ruido: una espera exacta de 8.000s entre
+                # páginas, repetida igual en todos los jobs, es más delatora
+                # que la pausa en sí.
+                await asyncio.sleep(delay_seconds * random.uniform(0.8, 1.45))
 
         await context.close()
         await browser.close()
