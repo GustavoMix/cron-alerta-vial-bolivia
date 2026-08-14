@@ -11,7 +11,12 @@ permissions:
   contents: write
 
 concurrency:
-  group: transito-bolivia-cron
+  # El grupo lleva la rama adentro a propósito. Con un nombre fijo, una
+  # corrida manual desde cualquier rama de trabajo cancelaba a mitad de camino
+  # la corrida programada de main (pasó: se perdieron 3 de los 15 grupos y con
+  # ellos 6 fuentes). Así main solo se cancela a sí misma -que es lo buscado si
+  # una corrida se pasa de los 30 minutos- y las pruebas en ramas corren aparte.
+  group: transito-bolivia-cron-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
