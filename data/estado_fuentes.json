@@ -858,9 +858,13 @@
       "videos_detected": 0,
       "rejected_samples": [
         {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
+          "reason": "relevancia_vial_insuficiente",
+          "relevance_score": 26,
+          "filter_reasons": [
+            "contexto_vial:2",
+            "via_detectada:2",
+            "terminos_viales:2"
+          ],
           "detected_event": "otro",
           "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid029KypGqWuBwy3iMJJnub8v8tC1brHFNdxJXEyqFxYp6dZ7RZjQ6jgbuLiCwBqfd1Dl?__cft__[0]=AZad5hSXlJD-_j_vkuoVMN2Z50OjfmbP7BrZVYw1BsYBoVCCetIaP_XThcGnZCNRHEzNGFE3wVHh4rCeR3AwcXTAaxw2ybtGLWFUzOlKswgLihE_ROuW40wU5xJGXOQ0HHg3I70PnmKw2Du2PMyqnPFvnie-EeKzZ8JtSrpQIM71L3WubORaEo9s5qaKjJHx1iE&__tn__=%2CO%2CP-R",
           "published_at": null,
