@@ -19,7 +19,9 @@ env:
   # (login wall / og:description en vez del post real). La mitigación es correr
   # cada grupo pequeño en su propio job: cada runner de GitHub Actions es una
   # VM efímera con su propia IP de salida, así que más grupos = más IPs.
-  FB_GROUP_SIZE: "2"
+  # Con tamaño 2 quedó ~1/3 de las fuentes todavía degradadas; se baja a 1
+  # (una fuente por IP/job) para ver si eso las destraba también.
+  FB_GROUP_SIZE: "1"
 
 jobs:
   plan:
