@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T15:07:14-04:00",
+  "generated_at": "2026-08-18T15:41:28-04:00",
   "incidents": [
     {
       "id": "a96469e3f4c22e7e",
@@ -11,7 +11,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/lista-comunicados-page/",
       "published_at": null,
-      "scraped_at": "2026-08-18T15:07:14-04:00",
+      "scraped_at": "2026-08-18T15:41:28-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -135,7 +135,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-08-18T15:07:14-04:00",
+      "last_seen_at": "2026-08-18T15:41:28-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -149,7 +149,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/bolivia-primer-pais-de-latinoamerica-que-a-traves-de-la-abc-aplicara-la-tecnologia-blue-spot-analysis-del-bid-para-prevencion-y-gestion-de-riesgos-en-las-carreteras/",
       "published_at": null,
-      "scraped_at": "2026-08-18T15:07:14-04:00",
+      "scraped_at": "2026-08-18T15:41:28-04:00",
       "department": "Bolivia",
       "municipality": null,
       "city": null,
@@ -262,7 +262,156 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-08-18T15:07:14-04:00",
+      "last_seen_at": "2026-08-18T15:41:28-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "0ffb1c9f859a7948",
+      "source_id": "fb_bolivision",
+      "source_name": "Noticias Bolivisión",
+      "source_url": "https://www.facebook.com/NoticiasBolivision/",
+      "source_class": "media",
+      "source_tier": 3,
+      "source_icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dfJCBpKqWJEQ7kNvwGMDAyB&_nc_oc=Adp6m0XGTSToDyYh9YBKZ_r1VmWIuV9PDcZi-0DqCsebPPJRmJ5_d59OcwYGnjbjELE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=cIH0OWkFn_3f7fOFP1HcsQ&_nc_ss=7f289&oh=00_AQEwG_98iWGj65WUnHOTmN2iDSMryXoYupl9aEJqWD0thA&oe=6A8A7E0C",
+      "url": "https://www.facebook.com/reel/1736579707612923/?__cft__[0]=AZZ7zW3qT8BIzZ5vq5PcSpnoYHQhvKzLygiyrex6pf6XjMcDAsTEOGgUomld7pBjAWZRzbgaemGS1mxATKqmYrhkdwHxqqbUaAfPAob592A48afaTxlBrWxBQMUFS5VDnIEBq9ZoBRpbyQrvMmHqcr2Znjiey1vhZr6-B0nJuBlUpHQC8CnpA7eMsypCiPgQ4VLtajK2T5eWV90IpQ7_PoLj&__tn__=%2CO%2CP-R",
+      "published_at": null,
+      "scraped_at": "2026-08-18T15:41:28-04:00",
+      "department": "Cochabamba",
+      "municipality": "Cochabamba",
+      "city": "Cochabamba",
+      "event_type": "cierre_vial",
+      "cause": "lluvia",
+      "status": "cerrado",
+      "closure_scope": null,
+      "severity": "media",
+      "confidence": 0.74,
+      "relevance_score": 60,
+      "filter_reasons": [
+        "contexto_vial:2",
+        "evento:cierre_vial",
+        "via_detectada:1",
+        "sector_detectado:1",
+        "terminos_viales:4"
+      ],
+      "title": "1,3 mil reproducciones · 11 reacciones | Nevada y riadas provocan el cierre de carreteras en Cochabamba Intensas nevadas y lluvias afectan la zona de Colomi, en Cochabamba, provocando el cierre de la carretera nueva haci",
+      "description": "Nevada y riadas provocan el cierre de carreteras en Cochabamba Intensas nevadas y lluvias afectan la zona de Colomi, en Cochabamba, provocando el cierre de la carretera nueva hacia Santa Cruz.... Nevada y riadas provocan el cierre de carreteras en Cochabamba Intensas nevadas y lluvias afectan la zona de Colomi, en Cochabamba, provocando el cierre...",
+      "original_text": "Nevada y riadas provocan el cierre de carreteras en Cochabamba Intensas nevadas y lluvias afectan la zona de Colomi, en Cochabamba, provocando el cierre de la carretera nueva hacia Santa Cruz.... Nevada y riadas provocan el cierre de carreteras en Cochabamba Intensas nevadas y lluvias afectan la zona de Colomi, en Cochabamba, provocando el cierre...",
+      "roads": [
+        "carretera nueva hacia Santa Cruz"
+      ],
+      "places": [
+        "zona de Colomi"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "Nevada y riadas provocan el cierre de c -> rreteras en Cochabamba Intensas nevadas y",
+        "lluvias afectan la zon -> de Colomi",
+        "en Cochab -> mba",
+        "provocando el cierre de la carretera nuev -> hacia Santa Cruz.... Nevada y riadas prov",
+        "el cierre de carreteras en Cochabamb -> Intensas nevadas y lluvias afectan la zon",
+        "provoc -> ndo el cierre"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "cierre",
+        "riada",
+        "nevada",
+        "carretera"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "carretera nueva hacia Santa Cruz, Cochabamba, Bolivia",
+      "image_urls": [
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/775602897_1366008658456141_750597671353053663_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=596eb7&_nc_ohc=bZX5Dw91YeMQ7kNvwEkHiY7&_nc_oc=AdqM5Klw6fnudv7vgInWb2PQ3JPez2ZSjueKlFqEPWxIfU5PLRB_7H3rEOcKGZbQoso&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=Qb4ab1j1x2chABAUmYjmFQ&_nc_ss=7f289&oh=00_AQGK3EgvexJpeO3pcI1h5OOBDiSvC8FHEUcMU67QfNKr-Q&oe=6A8A8101"
+      ],
+      "video_url": "https://www.facebook.com/reel/1736579707612923/?__cft__[0]=AZZ7zW3qT8BIzZ5vq5PcSpnoYHQhvKzLygiyrex6pf6XjMcDAsTEOGgUomld7pBjAWZRzbgaemGS1mxATKqmYrhkdwHxqqbUaAfPAob592A48afaTxlBrWxBQMUFS5VDnIEBq9ZoBRpbyQrvMmHqcr2Znjiey1vhZr6-B0nJuBlUpHQC8CnpA7eMsypCiPgQ4VLtajK2T5eWV90IpQ7_PoLj&__tn__=%2CO%2CP-R",
+      "video_thumbnail_url": null,
+      "video_type": "facebook_reel",
+      "is_official": false,
+      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/775602897_1366008658456141_750597671353053663_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=596eb7&_nc_ohc=bZX5Dw91YeMQ7kNvwEkHiY7&_nc_oc=AdqM5Klw6fnudv7vgInWb2PQ3JPez2ZSjueKlFqEPWxIfU5PLRB_7H3rEOcKGZbQoso&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=Qb4ab1j1x2chABAUmYjmFQ&_nc_ss=7f289&oh=00_AQGK3EgvexJpeO3pcI1h5OOBDiSvC8FHEUcMU67QfNKr-Q&oe=6A8A8101",
+      "has_image": true,
+      "has_video": true,
+      "media": {
+        "images": [
+          "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/775602897_1366008658456141_750597671353053663_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=596eb7&_nc_ohc=bZX5Dw91YeMQ7kNvwEkHiY7&_nc_oc=AdqM5Klw6fnudv7vgInWb2PQ3JPez2ZSjueKlFqEPWxIfU5PLRB_7H3rEOcKGZbQoso&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=Qb4ab1j1x2chABAUmYjmFQ&_nc_ss=7f289&oh=00_AQGK3EgvexJpeO3pcI1h5OOBDiSvC8FHEUcMU67QfNKr-Q&oe=6A8A8101"
+        ],
+        "main_image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t15.5256-10/775602897_1366008658456141_750597671353053663_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=596eb7&_nc_ohc=bZX5Dw91YeMQ7kNvwEkHiY7&_nc_oc=AdqM5Klw6fnudv7vgInWb2PQ3JPez2ZSjueKlFqEPWxIfU5PLRB_7H3rEOcKGZbQoso&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=Qb4ab1j1x2chABAUmYjmFQ&_nc_ss=7f289&oh=00_AQGK3EgvexJpeO3pcI1h5OOBDiSvC8FHEUcMU67QfNKr-Q&oe=6A8A8101",
+        "videos": [
+          {
+            "url": "https://www.facebook.com/reel/1736579707612923/?__cft__[0]=AZZ7zW3qT8BIzZ5vq5PcSpnoYHQhvKzLygiyrex6pf6XjMcDAsTEOGgUomld7pBjAWZRzbgaemGS1mxATKqmYrhkdwHxqqbUaAfPAob592A48afaTxlBrWxBQMUFS5VDnIEBq9ZoBRpbyQrvMmHqcr2Znjiey1vhZr6-B0nJuBlUpHQC8CnpA7eMsypCiPgQ4VLtajK2T5eWV90IpQ7_PoLj&__tn__=%2CO%2CP-R",
+            "thumbnail_url": null,
+            "type": "facebook_reel",
+            "provider": "facebook",
+            "use_official_embed": true,
+            "source_id": "fb_bolivision"
+          }
+        ]
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "cerrado",
+          "published_at": null,
+          "source_id": "fb_bolivision",
+          "source_name": "Noticias Bolivisión",
+          "tier": 3,
+          "url": "https://www.facebook.com/reel/1736579707612923/?__cft__[0]=AZZ7zW3qT8BIzZ5vq5PcSpnoYHQhvKzLygiyrex6pf6XjMcDAsTEOGgUomld7pBjAWZRzbgaemGS1mxATKqmYrhkdwHxqqbUaAfPAob592A48afaTxlBrWxBQMUFS5VDnIEBq9ZoBRpbyQrvMmHqcr2Znjiey1vhZr6-B0nJuBlUpHQC8CnpA7eMsypCiPgQ4VLtajK2T5eWV90IpQ7_PoLj&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [
+        {
+          "url": "https://www.facebook.com/reel/1736579707612923/?__cft__[0]=AZZ7zW3qT8BIzZ5vq5PcSpnoYHQhvKzLygiyrex6pf6XjMcDAsTEOGgUomld7pBjAWZRzbgaemGS1mxATKqmYrhkdwHxqqbUaAfPAob592A48afaTxlBrWxBQMUFS5VDnIEBq9ZoBRpbyQrvMmHqcr2Znjiey1vhZr6-B0nJuBlUpHQC8CnpA7eMsypCiPgQ4VLtajK2T5eWV90IpQ7_PoLj&__tn__=%2CO%2CP-R",
+          "thumbnail_url": null,
+          "type": "facebook_reel",
+          "provider": "facebook",
+          "use_official_embed": true,
+          "source_id": "fb_bolivision"
+        }
+      ],
+      "sources": [
+        {
+          "id": "fb_bolivision",
+          "name": "Noticias Bolivisión",
+          "class": "media",
+          "tier": 3,
+          "page_url": "https://www.facebook.com/NoticiasBolivision/",
+          "post_url": "https://www.facebook.com/reel/1736579707612923/?__cft__[0]=AZZ7zW3qT8BIzZ5vq5PcSpnoYHQhvKzLygiyrex6pf6XjMcDAsTEOGgUomld7pBjAWZRzbgaemGS1mxATKqmYrhkdwHxqqbUaAfPAob592A48afaTxlBrWxBQMUFS5VDnIEBq9ZoBRpbyQrvMmHqcr2Znjiey1vhZr6-B0nJuBlUpHQC8CnpA7eMsypCiPgQ4VLtajK2T5eWV90IpQ7_PoLj&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dfJCBpKqWJEQ7kNvwGMDAyB&_nc_oc=Adp6m0XGTSToDyYh9YBKZ_r1VmWIuV9PDcZi-0DqCsebPPJRmJ5_d59OcwYGnjbjELE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=cIH0OWkFn_3f7fOFP1HcsQ&_nc_ss=7f289&oh=00_AQEwG_98iWGj65WUnHOTmN2iDSMryXoYupl9aEJqWD0thA&oe=6A8A7E0C",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.facebook.com/reel/1736579707612923/?__cft__[0]=AZZ7zW3qT8BIzZ5vq5PcSpnoYHQhvKzLygiyrex6pf6XjMcDAsTEOGgUomld7pBjAWZRzbgaemGS1mxATKqmYrhkdwHxqqbUaAfPAob592A48afaTxlBrWxBQMUFS5VDnIEBq9ZoBRpbyQrvMmHqcr2Znjiey1vhZr6-B0nJuBlUpHQC8CnpA7eMsypCiPgQ4VLtajK2T5eWV90IpQ7_PoLj&__tn__=%2CO%2CP-R"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_0e6a909dc5dde9",
+      "first_seen_at": "2026-08-18T15:41:28-04:00",
+      "history": [
+        {
+          "at": "2026-08-18T15:41:28-04:00",
+          "detected_at": "2026-08-18T15:41:28-04:00",
+          "reason": "primera_deteccion",
+          "status": "cerrado",
+          "lifecycle_status": "activo",
+          "severity": "media",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "Noticias Bolivisión"
+          ],
+          "url": "https://www.facebook.com/reel/1736579707612923/?__cft__[0]=AZZ7zW3qT8BIzZ5vq5PcSpnoYHQhvKzLygiyrex6pf6XjMcDAsTEOGgUomld7pBjAWZRzbgaemGS1mxATKqmYrhkdwHxqqbUaAfPAob592A48afaTxlBrWxBQMUFS5VDnIEBq9ZoBRpbyQrvMmHqcr2Znjiey1vhZr6-B0nJuBlUpHQC8CnpA7eMsypCiPgQ4VLtajK2T5eWV90IpQ7_PoLj&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "lifecycle_status": "activo",
+      "is_active": true,
+      "last_seen_at": "2026-08-18T15:41:28-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -276,7 +425,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-08-18T15:07:14-04:00",
+      "scraped_at": "2026-08-18T15:41:28-04:00",
       "department": "La Paz",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -420,7 +569,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-08-18T15:07:14-04:00",
+      "last_seen_at": "2026-08-18T15:41:28-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -434,7 +583,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-garantiza-carreteras-transitables-en-todo-el-pais-por-el-feriado-largo-y-activa-monitoreo-permanente/",
       "published_at": null,
-      "scraped_at": "2026-08-18T15:07:14-04:00",
+      "scraped_at": "2026-08-18T15:41:28-04:00",
       "department": "La Paz",
       "municipality": "Villa Tunari",
       "city": "Cochabamba",
@@ -580,7 +729,7 @@
       ],
       "lifecycle_status": "finalizado",
       "is_active": false,
-      "last_seen_at": "2026-08-18T15:07:14-04:00",
+      "last_seen_at": "2026-08-18T15:41:28-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -594,7 +743,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-despliega-equipos-de-emergencias-ante-nevadas/",
       "published_at": null,
-      "scraped_at": "2026-08-18T15:07:14-04:00",
+      "scraped_at": "2026-08-18T15:41:28-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -609,13 +758,13 @@
         "contexto_vial:9",
         "evento:clima_vial",
         "via_detectada:6",
-        "sector_detectado:5",
+        "sector_detectado:4",
         "terminos_viales:11",
         "fuente_oficial_web"
       ],
       "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia LA ABC DESPLIEGA EQUIPOS DE EMERGENCIAS ANTE NEVADAS Y RECOMIENDA PRECAUCIÓN VEHICULAR EN RUTAS AFECTADAS DEL OCCIDENTE DEL PAÍS Compartir ¡Enlace copiado al portapapeles! , 18 de agosto de 2026 Ante las intensas nevadas registradas en las últimas horas en zonas altas de los departamentos de Potosí, Oruro, La Paz y Cochabamba, la Administradora Boliviana de Carreteras (ABC) en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, activó trabajos de atención y monitoreo permanente en diferentes puntos de la Red Vial Fundamental, con el objetivo de mantener la transitabilidad y brindar seguridad a los usuarios de las carreteras. Las condiciones climáticas adversas provocaron acumulación de nieve, bajas temperaturas y reducción de visibilidad en sectores cordilleranos, generando restricciones temporales y cierres preventivos en algunos tramos mientras se desarrollan labores de limpieza, despeje y evaluación de las condiciones de circulación. En el departamento de Potosí, equipos operativos con personal realizan trabajos de limpieza y atención en sectores afectados por la acumulación de nieve, principalmente en la ruta Potosí–Uyuni–Atocha y otros puntos donde se requiere la intervención de maquinaria para recuperar condiciones adecuadas de circulación. También, se mantiene el monitoreo permanente en los sectores con presencia de nieve y hielo sobre la plataforma vial. En Oruro, las nevadas ocasionaron dificultades en sectores elevados, por lo que se dispusieron restricciones preventivas en algunos tramos de la Red Vial Fundamental. Actualmente se encuentra suspendido el tránsito en Caracollo-Confital (sector La Cumbre) y Cruce Curahuara de Carangas–Oruro (sector La Joya), mientras se realizan evaluaciones y trabajos necesarios para garantizar una circulación segura. En el departamento de La Paz, debido a la acumulación de nieve en el sector de La Cumbre, permanece suspendido el tránsito en el tramo Tranca Urujara-La Rinconada, con el propósito de precautelar la seguridad de conductores y pasajeros. Por tanto se desplazo maquinaria pesada, para realizar la limpieza del lugar. La ruta La Paz–Oruro se encuentra habilitada con recomendación de circular con extrema precaución. En Cochabamba, las nevadas registradas en el sector Waqanki, camino a Colomi, zona de Confital, afectaron la circulación vehicular hacia el occidente del país. Por ello, se mantiene el cierre preventivo del tramo Colomi-Aguirre, carretera a Santa Cruz, mientras se realizan trabajos y verificaciones técnicas para restablecer las condiciones de transitabilidad. La ABC recomienda a los transportistas y usuarios de la carretera evitar circular por sectores afectados mientras permanezcan las restricciones, respetar la señalización instalada, reducir la velocidad y tomar todas las medidas de seguridad necesarias ante la presencia de nieve, hielo y baja visibilidad. De esta manera, se informa que los equipos técnicos y las empresas de conservación vial continúan desplegados en los sectores afectados, realizando labores de limpieza, seguimiento y atención de emergencias para restablecer la circulación vehicular de manera segura. La ABC junto al Ministerio de Obras Públicas, Servicios y Vivienda, reafirma su compromiso de trabajar de manera permanente para garantizar la transitabilidad de la Red Vial Fundamental, priorizando la seguridad de los usuarios y la atención oportuna ante eventos climáticos que afectan las carreteras del país. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia LA ABC DESPLIEGA EQUIPOS DE EMERGENCIAS ANTE NEVADAS Y RECOMIENDA PRECAUCIÓN VEHICULAR EN RUTAS AFECTADAS DEL OCCIDENTE DEL PAÍS Compartir ¡Enlace copiado al portapapeles! , 18 de agosto de 2026 Ante las intensas nevadas registradas en las últimas horas en zonas altas de los departamentos de Potosí, Oruro, La Paz y Cochabamba, la Administradora Boliviana de Carreteras (ABC) en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, activó trabajos de atención y monitoreo permanente en diferentes puntos de la Red Vial Fundamental, con el objetivo de mantener la transitabilidad y brindar seguridad a los usuarios de las carreteras. Las condiciones climáticas adversas provocaron acumulación de nieve, bajas temperaturas y reducción de visibilidad en sectores cordilleranos, generando restricciones temporales y cierres preventivos en algunos tramos mientras se desarrollan labores de limpieza, despeje y evaluación de las condiciones de circulación. En el departamento de Potosí, equipos operativos con personal realizan trabajos de limpieza y atención en sectores afectados por la acumulación de nieve, principalmente en la ruta Potosí–Uyuni–Atocha y otros puntos donde se requiere la intervención de maquinaria para recuperar condiciones adecuadas de circulación. También, se mantiene el monitoreo permanente en los sectores con presencia de nieve y hielo sobre la plataforma vial. En Oruro, las nevadas ocasionaron dificultades en sectores elevados, por lo que se dispusieron restricciones preventivas en algunos tramos de la Red Vial Fundamental. Actualmente se encuentra suspendido el tránsito en Caracollo-Confital (sector La Cumbre) y Cruce Curahuara de Carangas–Oruro (sector La Joya), mientras se realizan evaluaciones y trabajos necesarios para garantizar una circulación segura. En el departamento de La Paz, debido a la acumulación de nieve en el sector de La Cumbre, permanece suspendido el tránsito en el tramo Tranca Urujara-La Rinconada, con el propósito de precautelar la seguridad de conductores y pasajeros. Por tanto se desplazo maquinaria pesada, para realizar la limpieza del lugar. La ruta La Paz–Oruro se encuentra habilitada con recomendación de circular con extrema precaución. En Cochabamba, las nevadas registradas en el sector Waqanki, camino a Colomi, zona de Confital, afectaron la circulación vehicular hacia el occidente del país. Por ello, se mantiene el cierre preventivo del tramo Colomi-Aguirre, carretera a Santa Cruz, mientras se realizan trabajos y verificaciones técnicas para restablecer las condiciones de transitabilidad. La ABC recomienda a los transportistas y usuarios de la carretera evitar circular por sectores afectados mientras permanezcan las restricciones, respetar la señalización instalada, reducir la velocidad y tomar todas las medidas de seguridad necesarias ante la presencia de nieve, hielo y baja visibilidad. De esta manera, se informa que los equipos técnicos y las empresas de conservación vial continúan desplegados en los sectores afectados, realizando labores de limpieza, seguimiento y atención de emergencias para restablecer la circulación vehicular de manera segura. La ABC junto al Ministerio de Obras Públicas, Servicios y Vivienda, reafirma su compromiso de trabajar de manera permanente para garantizar la transitabilidad de la Red Vial Fundamental, priorizando la seguridad de los usuarios y la atención oportuna ante eventos climáticos que afectan las carreteras del país. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia LA ABC DESPLIEGA EQUIPOS DE EMERGENCIAS ANTE NEVADAS Y RECOMIENDA PRECAUCIÓN VEHICULAR EN RUTAS AFECTADAS DEL OCCIDENTE DEL PAÍS Compartir ¡Enlace copiado al portapapeles! , 18 de agosto de 2026 Ante las intensas nevadas registradas en las últimas horas en zonas altas de los departamentos de Potosí, Oruro, La Paz y Cochabamba, la Administradora Boliviana de Carreteras (ABC) en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, activó trabajos de atención y monitoreo permanente en diferentes puntos de la Red Vial Fundamental, con el objetivo de mantener la transitabilidad y brindar seguridad a los usuarios de las carreteras. Las condiciones climáticas adversas provocaron acumulación de nieve, bajas temperaturas y reducción de visibilidad en sectores cordilleranos, generando restricciones temporales y cierres preventivos en algunos tramos mientras se desarrollan labores de limpieza, despeje y evaluación de las condiciones de circulación. En el departamento de Potosí, equipos operativos con personal realizan trabajos de limpieza y atención en sectores afectados por la acumulación de nieve, principalmente en la ruta Potosí–Uyuni–Atocha y otros puntos donde se requiere la intervención de maquinaria para recuperar condiciones adecuadas de circulación. También, se mantiene el monitoreo permanente en los sectores con presencia de nieve y hielo sobre la plataforma vial. En Oruro, las nevadas ocasionaron dificultades en sectores elevados, por lo que se dispusieron restricciones preventivas en algunos tramos de la Red Vial Fundamental. Actualmente se encuentra suspendido el tránsito en Caracollo-Confital (sector La Cumbre) y Cruce Curahuara de Carangas–Oruro (sector La Joya), mientras se realizan evaluaciones y trabajos necesarios para garantizar una circulación segura. En el departamento de La Paz, debido a la acumulación de nieve en el sector de La Cumbre, permanece suspendido el tránsito en el tramo Tranca Urujara-La Rinconada, con el propósito de precautelar la seguridad de conductores y pasajeros. Por tanto se desplazo maquinaria pesada, para realizar la limpieza del lugar. La ruta La Paz–Oruro se encuentra habilitada con recomendación de circular con extrema precaución. En Cochabamba, las nevadas registradas en el sector Waqanki, camino a Colomi, afectaron la circulación vehicular hacia el occidente del país. Por ello, se mantiene el cierre preventivo del tramo Colomi-Aguirre, carretera a Santa Cruz, mientras se realizan trabajos y verificaciones técnicas para restablecer las condiciones de transitabilidad. La ABC recomienda a los transportistas y usuarios de la carretera evitar circular por sectores afectados mientras permanezcan las restricciones, respetar la señalización instalada, reducir la velocidad y tomar todas las medidas de seguridad necesarias ante la presencia de nieve, hielo y baja visibilidad. De esta manera, se informa que los equipos técnicos y las empresas de conservación vial continúan desplegados en los sectores afectados, realizando labores de limpieza, seguimiento y atención de emergencias para restablecer la circulación vehicular de manera segura. La ABC junto al Ministerio de Obras Públicas, Servicios y Vivienda, reafirma su compromiso de trabajar de manera permanente para garantizar la transitabilidad de la Red Vial Fundamental, priorizando la seguridad de los usuarios y la atención oportuna ante eventos climáticos que afectan las carreteras del país. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia LA ABC DESPLIEGA EQUIPOS DE EMERGENCIAS ANTE NEVADAS Y RECOMIENDA PRECAUCIÓN VEHICULAR EN RUTAS AFECTADAS DEL OCCIDENTE DEL PAÍS Compartir ¡Enlace copiado al portapapeles! , 18 de agosto de 2026 Ante las intensas nevadas registradas en las últimas horas en zonas altas de los departamentos de Potosí, Oruro, La Paz y Cochabamba, la Administradora Boliviana de Carreteras (ABC) en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, activó trabajos de atención y monitoreo permanente en diferentes puntos de la Red Vial Fundamental, con el objetivo de mantener la transitabilidad y brindar seguridad a los usuarios de las carreteras. Las condiciones climáticas adversas provocaron acumulación de nieve, bajas temperaturas y reducción de visibilidad en sectores cordilleranos, generando restricciones temporales y cierres preventivos en algunos tramos mientras se desarrollan labores de limpieza, despeje y evaluación de las condiciones de circulación. En el departamento de Potosí, equipos operativos con personal realizan trabajos de limpieza y atención en sectores afectados por la acumulación de nieve, principalmente en la ruta Potosí–Uyuni–Atocha y otros puntos donde se requiere la intervención de maquinaria para recuperar condiciones adecuadas de circulación. También, se mantiene el monitoreo permanente en los sectores con presencia de nieve y hielo sobre la plataforma vial. En Oruro, las nevadas ocasionaron dificultades en sectores elevados, por lo que se dispusieron restricciones preventivas en algunos tramos de la Red Vial Fundamental. Actualmente se encuentra suspendido el tránsito en Caracollo-Confital (sector La Cumbre) y Cruce Curahuara de Carangas–Oruro (sector La Joya), mientras se realizan evaluaciones y trabajos necesarios para garantizar una circulación segura. En el departamento de La Paz, debido a la acumulación de nieve en el sector de La Cumbre, permanece suspendido el tránsito en el tramo Tranca Urujara-La Rinconada, con el propósito de precautelar la seguridad de conductores y pasajeros. Por tanto se desplazo maquinaria pesada, para realizar la limpieza del lugar. La ruta La Paz–Oruro se encuentra habilitada con recomendación de circular con extrema precaución. En Cochabamba, las nevadas registradas en el sector Waqanki, camino a Colomi, afectaron la circulación vehicular hacia el occidente del país. Por ello, se mantiene el cierre preventivo del tramo Colomi-Aguirre, carretera a Santa Cruz, mientras se realizan trabajos y verificaciones técnicas para restablecer las condiciones de transitabilidad. La ABC recomienda a los transportistas y usuarios de la carretera evitar circular por sectores afectados mientras permanezcan las restricciones, respetar la señalización instalada, reducir la velocidad y tomar todas las medidas de seguridad necesarias ante la presencia de nieve, hielo y baja visibilidad. De esta manera, se informa que los equipos técnicos y las empresas de conservación vial continúan desplegados en los sectores afectados, realizando labores de limpieza, seguimiento y atención de emergencias para restablecer la circulación vehicular de manera segura. La ABC junto al Ministerio de Obras Públicas, Servicios y Vivienda, reafirma su compromiso de trabajar de manera permanente para garantizar la transitabilidad de la Red Vial Fundamental, priorizando la seguridad de los usuarios y la atención oportuna ante eventos climáticos que afectan las carreteras del país. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
       "roads": [
         "ruta Potosí–Uyuni–Atocha y otros puntos donde se requiere la intervención de maquinaria para recuperar condiciones adecuadas de circulación",
         "tramo Tranca Urujara-La Rinconada",
@@ -628,8 +777,7 @@
         "sector La Cumbre) y Cruce Curahuara de Carangas–Oruro (sector La Joya)",
         "sector de La Cumbre",
         "Tranca Urujara-La Rinconada",
-        "sector Waqanki",
-        "zona de Confital"
+        "sector Waqanki"
       ],
       "kilometer_mentions": [],
       "directions": [
@@ -728,7 +876,7 @@
       ],
       "lifecycle_status": "finalizado",
       "is_active": false,
-      "last_seen_at": "2026-08-18T15:07:14-04:00",
+      "last_seen_at": "2026-08-18T15:41:28-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -742,7 +890,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/el-gobierno-nacional-y-la-abc-entregan-el-tramo-acheral-choere-con-el-respaldo-del-gran-chaco-e-impulsan-el-tunel-aguarague-en-tarija/",
       "published_at": null,
-      "scraped_at": "2026-08-18T15:07:14-04:00",
+      "scraped_at": "2026-08-18T15:41:28-04:00",
       "department": "Cochabamba",
       "municipality": null,
       "city": null,
@@ -872,7 +1020,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-08-18T15:07:14-04:00",
+      "last_seen_at": "2026-08-18T15:41:28-04:00",
       "seen_this_run": true,
       "history_count": 2
     },
@@ -886,7 +1034,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-avanza-en-la-fase-de-preinversion-del-proyecto-vial-guayaramerin-puente-binacional-en-el-beni-con-una-inversion-de-bs-32-millones/",
       "published_at": null,
-      "scraped_at": "2026-08-18T15:07:14-04:00",
+      "scraped_at": "2026-08-18T15:41:28-04:00",
       "department": "Bolivia",
       "municipality": null,
       "city": null,
@@ -1007,7 +1155,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-08-18T15:07:14-04:00",
+      "last_seen_at": "2026-08-18T15:41:28-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
