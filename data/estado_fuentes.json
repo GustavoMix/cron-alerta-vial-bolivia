@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T04:06:08-04:00",
+  "generated_at": "2026-08-19T05:06:25-04:00",
   "sources": [
     {
       "id": "fb_abc",
@@ -56,7 +56,7 @@
       "images_detected": 0,
       "videos_detected": 0,
       "rejected_samples": [],
-      "error": "Sin resultado"
+      "error": "Facebook bloqueó/ocultó el contenido público para esta ejecución. Título de página: 'Facebook' | URL final: 'https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F100064953363078%2F' | Vista previa de la página: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (France) 中文(简体) العربية '"
     },
     {
       "id": "fb_municipio_lapaz",
@@ -75,7 +75,7 @@
       "images_detected": 0,
       "videos_detected": 0,
       "rejected_samples": [],
-      "error": "Sin resultado"
+      "error": "Omitida: Facebook bloqueó otra fuente antes en esta misma corrida."
     },
     {
       "id": "fb_amun_lapaz",
@@ -86,29 +86,15 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Myb1nw8SF08Q7kNvwF_Td6F&_nc_oc=Adqyamf50OrSpAzk0t9k2NPHgNGCtLwH4bsU4nx-syGxRodZoQbaijFJhOMahgTNzHE&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=C8ktd-SpxDHQSFDAldIcig&_nc_ss=7f289&oh=00_AQE6pTUWdfRXEK1EzPhSv2-ZAL4A2L8Z9ePHuRin7RxySg&oe=6A8B3CB7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "alerts": 0,
-      "rejected": 1,
-      "images_detected": 2,
+      "rejected": 0,
+      "images_detected": 0,
       "videos_detected": 0,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 5,
-          "filter_reasons": [
-            "fuente_oficial_facebook"
-          ],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid023EFZR3Qb5Zg8qSw3rmnFct7cNeMuqCfRgMEpLEemGXBXgp9JUcyFHirR3bRdRGpCl?__cft__[0]=AZZXka6rxJp-578Abvj3PBdAip_s_x3sMy3C-glNzIurFNjZ45S_K-6DZvq7X-AaZISquvNoNiKZEj9tZpoVpKDwsikbq9sIJvm18AtYbqe4tZ1o5qowOzX_HbmtON1ccOY6OoT4P6Lx81aYplMCZ0GaTrNrl5TiXUxEcgqSH58p-I4MGrC6A9aMISRFawjCiX0&__tn__=%2CO%2CP-R",
-          "published_at": null,
-          "has_video": false,
-          "has_image": true,
-          "text_preview": "#AMUN | Alcalde Dockweiler instruye mejoras integrales en la Casa Cebra para potenciar la interacción con la niñez paceña. Lee la nota completa aquí: https://n9.cl/ypqnk #AMUN | Alcalde Dockweiler instruye mejoras integrales en la Casa Cebra para potenciar la interacción con la niñez paceña. Lee la nota completa aquí:... #AMUN | Alcalde Dockweiler instruye mejoras integrales en la Casa Cebra para potenciar la interacción con la niñez paceña. Lee la nota completa aquí: https://n9.cl/ypqnk #AMUN | Alcalde Dockweiler "
-        }
-      ],
-      "error": null
+      "rejected_samples": [],
+      "error": "Sin resultado"
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -138,15 +124,46 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "error",
-      "raw_items": 0,
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fXbK8cxNAkcQ7kNvwFMMoyW&_nc_oc=AdpAniMCswcO9eb_fF4E-o98qKOKbDXsK4k_Ay5BoZpWdE0J5Ybj-4lYPBdSuKAeWKE&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=dw8ZftKjHhOFSf09WSbHuA&_nc_ss=7f289&oh=00_AQEeCN0z4rJtKl1cE8DFRjoLAgSmO-c73vc_x-evYPAo-w&oe=6A8B5B00",
+      "status": "ok",
+      "raw_items": 2,
       "alerts": 0,
-      "rejected": 0,
-      "images_detected": 0,
+      "rejected": 2,
+      "images_detected": 5,
       "videos_detected": 0,
-      "rejected_samples": [],
-      "error": "Sin resultado"
+      "rejected_samples": [
+        {
+          "reason": "sin_senal_vial_en_el_texto",
+          "relevance_score": 25,
+          "filter_reasons": [
+            "contexto_vial:3",
+            "sector_detectado:1",
+            "fuente_oficial_facebook"
+          ],
+          "detected_event": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02QuoiQmBRFhkf3aGRyWVMwDSjVNztFFUZgn8Qt3KRhRcEjX7JdEAnV5mFDCUnmPuUl?__cft__[0]=AZanPT8CsoVZ_qIvT0NRJ4kTwO7dp_W72twmOMxGG-edqyVxz2BRP1-BBIByx--BWMUbedQSrh4iIvpBCc-QC1lsFjVhnMPeS2V5FC6ujtgS9P6a8EBY7R0-OiTsfFtlkZtn1E6rgniIzwX09HThALjeMTP2w6Hz7rXEzBbnSQLtUb0IfFc7_yhBG7qNHawtueU&__tn__=%2CO%2CP-R",
+          "published_at": null,
+          "has_video": false,
+          "has_image": true,
+          "text_preview": "🚨 Identifican sindicatos y malos conductores que realizan trameaje La Alcaldía de El Alto ya cuenta con los primeros resultados de las boletas de amonestación denominadas \"tarjetas amarillas”... 🚨 Identifican sindicatos y malos conductores que realizan trameaje La Alcaldía de El Alto ya cuenta con los primeros resultados de las boletas de... Identifican sindicatos y malos conductores que realizan trameaje La Alcaldía de El Alto ya cuenta con los primeros resultados de las boletas de amonestación denominadas \"tarjet"
+        },
+        {
+          "reason": "sin_senal_vial_en_el_texto",
+          "relevance_score": 25,
+          "filter_reasons": [
+            "contexto_vial:3",
+            "sector_detectado:1",
+            "fuente_oficial_facebook"
+          ],
+          "detected_event": "otro",
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02QuoiQmBRFhkf3aGRyWVMwDSjVNztFFUZgn8Qt3KRhRcEjX7JdEAnV5mFDCUnmPuUl?comment_id=1567582691528473&__cft__[0]=AZanPT8CsoVZ_qIvT0NRJ4kTwO7dp_W72twmOMxGG-edqyVxz2BRP1-BBIByx--BWMUbedQSrh4iIvpBCc-QC1lsFjVhnMPeS2V5FC6ujtgS9P6a8EBY7R0-OiTsfFtlkZtn1E6rgniIzwX09HThALjeMTP2w6Hz7rXEzBbnSQLtUb0IfFc7_yhBG7qNHawtueU&__tn__=R-R",
+          "published_at": null,
+          "has_video": false,
+          "has_image": true,
+          "text_preview": "🚨 Identifican sindicatos y malos conductores que realizan trameaje La Alcaldía de El Alto ya cuenta con los primeros resultados de las boletas de... Identifican sindicatos y malos conductores que realizan trameaje La Alcaldía de El Alto ya cuenta con los primeros resultados de las boletas de amonestación denominadas \"tarjetas amarillas” aplicadas a vehículos que realizan trameaje, información que será presentada el viernes cuando se instalen las mesas de trabajo con la Federación Andina de Choferes 1° de Mayo. El S"
+        }
+      ],
+      "error": null
     },
     {
       "id": "fb_gam_cbba",
@@ -165,7 +182,7 @@
       "images_detected": 0,
       "videos_detected": 0,
       "rejected_samples": [],
-      "error": "Facebook bloqueó/ocultó el contenido público para esta ejecución. Título de página: 'Facebook' | URL final: 'https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgamcochabamba%2F' | Vista previa de la página: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (France) 中文(简体) العربية '"
+      "error": "Sin resultado"
     },
     {
       "id": "fb_gob_cbba",
@@ -241,7 +258,7 @@
       "images_detected": 0,
       "videos_detected": 0,
       "rejected_samples": [],
-      "error": "Facebook bloqueó/ocultó el contenido público para esta ejecución. Título de página: 'Facebook' | URL final: 'https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F61550249115565%2F' | Vista previa de la página: 'Explora lo que más te gusta. Iniciar sesión en Facebook Correo electrónico o número de celular Contraseña Iniciar sesión ¿Olvidaste tu contraseña? Crear cuenta nueva Español English (US) Français (France) 中文(简体) العربية '"
+      "error": "Sin resultado"
     },
     {
       "id": "fb_gamscs",
@@ -493,42 +510,15 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=SS4dvcJWFcsQ7kNvwE9fgAC&_nc_oc=Ado6iKoGzGbywHBpjzT21b10GFqu-zVDBth3x_4QV7x9Utkws_EgxmhRGux57Nc0SOU&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_ss=7f289&oh=00_AQGPXzzFDM8SU-_7gsNs6PRlowf4jpNlgKlSyTNUZgIEIg&oe=6AACC3FA",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "alerts": 0,
-      "rejected": 2,
-      "images_detected": 2,
-      "videos_detected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 5,
-          "filter_reasons": [
-            "sector_detectado:1"
-          ],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1084248824543422/?__cft__[0]=AZbf-erWRMQrj7cbiGU9Z_ra8SoFDYLxq67l-dyJUFJIU20NgKSUGPe_IwYadh76eqIv8BcfVmyBnICJLJgLfaXjH9ljk_ffnRQAcY-CAhn5wYEtbrK7riDYR5YkCMlDcmFX5EEZWouPN9t2stCQpKdO8EdtApO3kdCuH0hg6SUfVIcfDaIL-8AMrzYrRdyrb-Cw2KBBEwq3gwbJV7-N9MA3&__tn__=%2CO%2CP-R",
-          "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "#Comunidad | Desde el lunes, los estudiantes de Cochabamba retomarán el horario normal de clases y deberán volver a utilizar el uniforme correspondiente. La DDE informó que la medida responde a la... #Comunidad | Desde el lunes, los estudiantes de Cochabamba retomarán el horario normal de clases y deberán volver a utilizar el uniforme correspondiente...."
-        },
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 5,
-          "filter_reasons": [
-            "sector_detectado:1"
-          ],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1084248824543422/?comment_id=3462868167226118&__cft__[0]=AZbf-erWRMQrj7cbiGU9Z_ra8SoFDYLxq67l-dyJUFJIU20NgKSUGPe_IwYadh76eqIv8BcfVmyBnICJLJgLfaXjH9ljk_ffnRQAcY-CAhn5wYEtbrK7riDYR5YkCMlDcmFX5EEZWouPN9t2stCQpKdO8EdtApO3kdCuH0hg6SUfVIcfDaIL-8AMrzYrRdyrb-Cw2KBBEwq3gwbJV7-N9MA3&__tn__=R-R",
-          "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "#Comunidad | Desde el lunes, los estudiantes de Cochabamba retomarán el horario normal de clases y deberán volver a utilizar el uniforme correspondiente. La DDE informó que la medida responde a la... #Comunidad | Desde el lunes, los estudiantes de Cochabamba retomarán el horario normal de clases y deberán volver a utilizar el uniforme correspondiente...."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "images_detected": 0,
+      "videos_detected": 0,
+      "rejected_samples": [],
+      "error": "Sin resultado"
     },
     {
       "id": "fb_unitel",
@@ -558,38 +548,15 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dfJCBpKqWJEQ7kNvwHfSv-B&_nc_oc=Adqy6hekt6ou0g6yMtWkCSBhRA14lWXAs0SuX8oHbRU3cMrf1_r1D-mV-XyzOPAPr_Q&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=8wUdV9cl_jutEpyHItUmUg&_nc_ss=7f289&oh=00_AQEuczgSoJh2eE556MAfDUFLZXChWmH6wob1m7ukeQl5ow&oe=6A8B26CC",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "alerts": 0,
-      "rejected": 2,
-      "images_detected": 2,
-      "videos_detected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1723926238713671/?__cft__[0]=AZYI9Gd38DfCbHnGb7l7_8ES06aCquiSGbQ038S3Ewq_3EVldxjwFtaMsKTc_9QrrUs-dRvI6ZkpuJm9Izub9c8ngvhZUpq5AFJm1TQl5vtsLDY-4RcUbYeUMhJqVdvAnVFCwGD253IgNW-vZV5No6Jpy4oGlZFN5L4W7qoIlRmhx282DrMkLpho7Uuv4L5wvUHNUcBN_dl3YIRcqTtJaYXF&__tn__=%2CO%2CP-R",
-          "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "Cerimedo no quiso declarar, se acogió a su derecho al silencio por el atentado armado contra Nadia Beller #Actualidad #RedBolivisión #NoticiasBolivisiónAlDía Cerimedo no quiso declarar, se acogió a su derecho al silencio por el atentado armado contra Nadia Beller #Actualidad #RedBolivisión..."
-        },
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1723926238713671/?comment_id=1594103912103491&__cft__[0]=AZYI9Gd38DfCbHnGb7l7_8ES06aCquiSGbQ038S3Ewq_3EVldxjwFtaMsKTc_9QrrUs-dRvI6ZkpuJm9Izub9c8ngvhZUpq5AFJm1TQl5vtsLDY-4RcUbYeUMhJqVdvAnVFCwGD253IgNW-vZV5No6Jpy4oGlZFN5L4W7qoIlRmhx282DrMkLpho7Uuv4L5wvUHNUcBN_dl3YIRcqTtJaYXF&__tn__=R-R",
-          "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "Cerimedo no quiso declarar, se acogió a su derecho al silencio por el atentado armado contra Nadia Beller #Actualidad #RedBolivisión #NoticiasBolivisiónAlDía Cerimedo no quiso declarar, se acogió a su derecho al silencio por el atentado armado contra Nadia Beller #Actualidad #RedBolivisión..."
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "images_detected": 0,
+      "videos_detected": 0,
+      "rejected_samples": [],
+      "error": "Sin resultado"
     },
     {
       "id": "fb_rtp",
@@ -608,7 +575,7 @@
       "images_detected": 0,
       "videos_detected": 0,
       "rejected_samples": [],
-      "error": "Omitida: Facebook bloqueó otra fuente antes en esta misma corrida."
+      "error": "Sin resultado"
     },
     {
       "id": "fb_anf",
@@ -619,27 +586,15 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DefRaPfqed4Q7kNvwHudfXj&_nc_oc=AdqHDFQRBVJldiOy7MnWSfitQTrbW_yUssRMnyPKikLJl1Ws6N3Xli8VZubE7WYq0bo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=SlpnvvdQXqCXdjiNw8572g&_nc_ss=7f289&oh=00_AQGoi-saur9TF9bu7P2FRqsAuE45LXcH35G01-BM9hUAiQ&oe=6A8B2FBA",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "alerts": 0,
-      "rejected": 1,
-      "images_detected": 2,
+      "rejected": 0,
+      "images_detected": 0,
       "videos_detected": 0,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/ANFidesBolivia/posts/pfbid029LdzchXFdtHPfto3bZq9Zxk8REyfHSW36Tb6pWoeCuP98GEYpNYcnZAGhwcVJKsUl?__cft__[0]=AZZ7Zw9lizgDay6zfEaTL43TRXE8JqYlvV_vigcju9jjnLPL2yI4CJtqMDVr0ty8joy6jXTV3_1GSbEpcybUSgfIVJJ0JXTeYM6GO8psq4yIcHXpVRNt9gSXDxy5nr7EyMprdydte4d79sS-peM9GtZpIZY7pcZD211rtSKJRn1yyZukmDFsp-mOPT0fbt1Tkn0&__tn__=%2CO%2CP-R",
-          "published_at": null,
-          "has_video": false,
-          "has_image": true,
-          "text_preview": "[⚛️Innovación y Educación] #Unifranz #InnovaciónEnEducación La conclusión del panel fue que STEM+ podrá escalar con equidad si deja de depender de iniciativas aisladas y se consolida mediante una... [⚛️Innovación y Educación] #Unifranz #InnovaciónEnEducación La conclusión del panel fue que STEM+ podrá escalar con equidad si deja de depender de... [ Innovación y Educación] #Unifranz #InnovaciónEnEducación La conclusión del panel fue que STEM+ podrá escalar con equidad si deja de depender de iniciativas aisladas y se"
-        }
-      ],
-      "error": null
+      "rejected_samples": [],
+      "error": "Sin resultado"
     },
     {
       "id": "fb_opinion",
@@ -650,7 +605,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9kvPaLlPStMQ7kNvwFEsGGF&_nc_oc=AdqCI9OqCbshuzOwaA0bUykIf2AcLwA8Kt7AM5Dw9sLHc2SCPyUK-UXDR1gkaZYQEFc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=vhrDZiMvLyPM__3V8Y0fww&_nc_ss=7f289&oh=00_AQEyfwEb2pbA-VrriNEl4Ka9WQ36zUxy3P6qDYyQpvww6g&oe=6A8B4CFE",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/683830696_1381114394046718_6499471622819642827_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9kvPaLlPStMQ7kNvwGCXXvA&_nc_oc=Adqn1bYIvfV35IZqm4s3mTZsVJ7hBzvLQnwJ6wvF2-Qb_BPf3obwNfnHNpisp7y3GCI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=eqS2uLi-yCo88OLtI7K0aA&_nc_ss=7f289&oh=00_AQEqUK28F9SPXkpDG3JngWeTIdJpM5uZ3iXPWNoPX5jzFw&oe=6A8B4CFE",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -666,7 +621,7 @@
             "terminos_viales:2"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1397306025648960/?__cft__[0]=AZa5hxG67i_EqMJM5t4aNwoeG5nP0hHOoVYEdpKN8pwIaZ4T4O8zmGg_scvkj6VGcwXi4BarZ7SOh4KKhvc1rAxf95lE6v1x3xsOuJ2L_R8Gjn4Xpx5TzzQoUPfd90sdH8xrg7lbCcaRRct0zsuKYpfHyIt7bv0ecq5YBDq_uJ03XNN542rfYUHxdc9uUQGS6o5QQX22Wchozp8JCzDSbGx2&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/reel/1397306025648960/?__cft__[0]=AZYEgMsTQQUXjsnnd1CNEL8JlkYJCIFpc5G8ldeiX_jUAJn1nDj2lf16pXL-p_fP3b_YZHruY4-Y4bsb0511QfWAFea5-G-w9V54LL2K8Sp30rc3J8G78i1zGxIYFfLKJlaakzfGG5H7GFIZG1ufA5exUJnJTBxDNB_BqwjHtbfUjmSMNZ452VMojeF3Xn58zxof7DkU5pe7lcOIqfBMVGL5&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
@@ -684,42 +639,15 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3xsdKtUdWB4Q7kNvwFWJzpx&_nc_oc=Ado4gBpGqSUghPoO5jq5GMqe4oEXLqzY1Ju2o9RUz3wLQzhoTi1S2fXdV0_NrVmk4vE&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=ktw0i7zKeZwfWi4beKJSJQ&_nc_ss=7f289&oh=00_AQHgKNcSGjAHWxEgWoeC_dcjg2aR7b1MTznfhsI8EkuGzQ&oe=6A8B1C0C",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "alerts": 0,
-      "rejected": 2,
-      "images_detected": 3,
+      "rejected": 0,
+      "images_detected": 0,
       "videos_detected": 0,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_vial_insuficiente",
-          "relevance_score": 18,
-          "filter_reasons": [
-            "evento:clima_vial"
-          ],
-          "detected_event": "clima_vial",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid033L9YcmGFn9ipnLYWJk55ssytrWeYew13P1HSoXWKA33tD67zc5meJAnk3eY22QG9l?__cft__[0]=AZbr5f42zgX7OQ3wD0Sw30lnhQGiNyYr2BCWonpUC_FFD7jnIocv9XnANDYAw7zNjJI3pgYWa_Uu5UVjVUF9YN24hWf71-IEwDJi5zHfaIVrKL2OyILQV_cHvpJx0qgqQoQk7dotDjkA18wKWdsU8l7IQIcKkaxXeMkmI06GN1twlRY6TNovSsPy-84_UNiXy_E&__tn__=%2CO%2CP-R",
-          "published_at": null,
-          "has_video": false,
-          "has_image": true,
-          "text_preview": "Potosí es el departamento más afectado con comunidades enteras que ya llevan aisladas una semana por las fuertes nevadas Potosí es el departamento más afectado con comunidades enteras que ya llevan aisladas una semana por las fuertes nevadas Que pena ! La gente del campo no los ve como seres vivos. Deberían hacer establos, casa con techos para esta época de frío. Son animales y también sienten frío."
-        },
-        {
-          "reason": "relevancia_vial_insuficiente",
-          "relevance_score": 18,
-          "filter_reasons": [
-            "evento:clima_vial"
-          ],
-          "detected_event": "clima_vial",
-          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid033L9YcmGFn9ipnLYWJk55ssytrWeYew13P1HSoXWKA33tD67zc5meJAnk3eY22QG9l?comment_id=4546643015574676&__cft__[0]=AZbr5f42zgX7OQ3wD0Sw30lnhQGiNyYr2BCWonpUC_FFD7jnIocv9XnANDYAw7zNjJI3pgYWa_Uu5UVjVUF9YN24hWf71-IEwDJi5zHfaIVrKL2OyILQV_cHvpJx0qgqQoQk7dotDjkA18wKWdsU8l7IQIcKkaxXeMkmI06GN1twlRY6TNovSsPy-84_UNiXy_E&__tn__=R-R",
-          "published_at": null,
-          "has_video": false,
-          "has_image": true,
-          "text_preview": "Potosí es el departamento más afectado con comunidades enteras que ya llevan aisladas una semana por las fuertes nevadas Potosí es el departamento más afectado con comunidades enteras que ya llevan aisladas una semana por las fuertes nevadas Que pena ! La gente del campo no los ve como seres vivos. Deberían hacer establos, casa con techos para esta época de frío. Son animales y también sienten frío."
-        }
-      ],
-      "error": null
+      "rejected_samples": [],
+      "error": "Sin resultado"
     },
     {
       "id": "fb_atb",
@@ -787,27 +715,15 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0EkXlmMKVzoQ7kNvwHyVOw4&_nc_oc=Adrvyig5d6gzJqnBXRPMuK9JO85dPIRp54qN0WwsTtVb7whAOa5UUy3DsjNSTr_ESpY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=__sX-my6ZoDOBpodPRAioQ&_nc_ss=7f289&oh=00_AQFDYWpbluJbdyAbdyel94CiOIXVy-cH44VN1IsewCiNew&oe=6A8B21A9",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "alerts": 0,
-      "rejected": 1,
-      "images_detected": 1,
-      "videos_detected": 1,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/2221325171982212/?__cft__[0]=AZbyEwANWAZARP5n-hiipf7_CMC0xDirryGO155ZmapZh3oR82afRDNTgzeRXsn-q6c2f16h4ovosQOw7uRDYb5RJJkbMpCpiA1RdgMnfAG3CkZ6xmQGtFr2kEAJPD_MhiKbJ_ueyoHzXNrPLgO6LaU_JWLRkuCaLOCTwAPaHey385DCSER3Oph99LlHdXBvtdAZh81rBDYCWiLingmVnb7U&__tn__=%2CO%2CP-R",
-          "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "📹#OtraNocheVIVO | CRECE EL RECHAZO POR DECRETO DEL DIESEL Acompáñanos en un nuevo episodio de Otra Noche, donde la información respira, las ideas se ordenan y el análisis toma protagonismo. Sissi... 📹#OtraNocheVIVO | CRECE EL RECHAZO POR DECRETO DEL DIESEL Acompáñanos en un nuevo episodio de Otra Noche, donde la información respira, las ideas se... #OtraNocheVIVO | CRECE EL RECHAZO POR DECRETO DEL DIESEL…"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "images_detected": 0,
+      "videos_detected": 0,
+      "rejected_samples": [],
+      "error": "Sin resultado"
     },
     {
       "id": "fb_fides_cbba",
@@ -818,30 +734,15 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=m86e9Dow7OYQ7kNvwG5VHPc&_nc_oc=AdrNwycpKl5qTfQ6pQLPbJWcDLLX-vg_BdSbWw_LY0ynnfGus51kK0vTFISTfvCuChQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=BsuVh6eB9a6b8TH6Dc-zGA&_nc_ss=7f289&oh=00_AQEkSDkQAJjhxOyvEcYw3pmSDRlU8i7y74UIs05p0yhQNQ&oe=6A8B23B7",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "alerts": 0,
-      "rejected": 1,
-      "images_detected": 2,
+      "rejected": 0,
+      "images_detected": 0,
       "videos_detected": 0,
-      "rejected_samples": [
-        {
-          "reason": "relevancia_vial_insuficiente",
-          "relevance_score": 14,
-          "filter_reasons": [
-            "contexto_vial:1",
-            "via_detectada:1"
-          ],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/radiofidescb/posts/pfbid025eazKUEz2t8NTGppyDXKHJVRgnPPen4cZmEjp7zMDRb6EuWBC4guqwckbKv2e9GJl?__cft__[0]=AZbAUHU8komd5FeEDPz3-9njkRU0lAhdKo5k1s72U4PJiicSDl44ofupogHuA8D5AegBQ3-xrCBxF-O8lp49KZVzyrsaBf0PJgf6iPnNBCBvjqFKN4rdFLlAL_F9rMsg_B7wD5cSi05QohCdVBh7GZXrmOkq3aLjmwYWwBnEV3Ne_-JddiOtwmSirL8K1PaW3tY&__tn__=%2CO%2CP-R",
-          "published_at": null,
-          "has_video": false,
-          "has_image": true,
-          "text_preview": "🔴#GrupoFides | #FidesCochabamba Paciente que fue secuestrado por dos hombres armados en la clínica CIES de la calle Junin fue rescatado por efectivos policiales. #noticias #noticiasfides #fyp 🔴#GrupoFides | #FidesCochabamba Paciente que fue secuestrado por dos hombres armados en la clínica CIES de la calle Junin fue rescatado por efectivos... #GrupoFides | #FidesCochabamba Paciente que fue secuestrado por dos hombres armados en la clínica CIES de la calle Junin fue rescatado por efectivos policiales. #noticias #not"
-        }
-      ],
-      "error": null
+      "rejected_samples": [],
+      "error": "Sin resultado"
     },
     {
       "id": "fb_fides_tv",
@@ -890,27 +791,15 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oSr8mRjDHYYQ7kNvwHBKNPd&_nc_oc=Adp0__FIYGWfFYUl6VOcI4fCJZIy5DszpAyw7rDkzt5ta7tFvs1L9vds8sRcwqUQ-TA&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=Ukgm6hU2Oo11ZkdzkUoRDA&_nc_ss=7f289&oh=00_AQFJdFQGZ3t4QU69jedKdfFTwaEYGg6Di-F-48RDR0eKpg&oe=6A8B4882",
-      "status": "ok",
-      "raw_items": 1,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "alerts": 0,
-      "rejected": 1,
-      "images_detected": 2,
+      "rejected": 0,
+      "images_detected": 0,
       "videos_detected": 0,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/AbyaYalaTv/posts/pfbid0GXGyV6jcoQYrjHj6BRfZGZMn3cAysAH5A6XhwYckuWnWvy2KBPaLU87cNDqq5ihgl?__cft__[0]=AZatqxGtZTBY0K9uJySBjhDLTeXw0wiVHxDqFnJfwWX7UeYJulRyQqyuCHQkeVQRe1L1l6-29n_acNFfbqeBorFLyD6WjvNQyQM4MgNBtROYUFIKInIweqHCpUxhysEe_7t39B_WegWRdUPe3hxYLKw8Kjs-ripr9Zp6AeMXulAh47J0W7WM1_jicbTTHEIcVzo&__tn__=%2CO%2CP-R",
-          "published_at": null,
-          "has_video": false,
-          "has_image": true,
-          "text_preview": "#Internacional 📱 Gobierno de México consultará a más de un millón de docentes sobre el uso de celulares en las escuelas. Martes, 18 de Agosto de 2026.- El Gobierno federal de México anunció que... #Internacional 📱 Gobierno de México consultará a más de un millón de docentes sobre el uso de celulares en las escuelas. Martes, 18 de Agosto de 2026.-... #Internacional Gobierno de México consultará a más de un millón de docentes sobre el uso de celulares en las escuelas. Martes, 18 de Agosto de 2026.- El Gobierno federa"
-        }
-      ],
-      "error": null
+      "rejected_samples": [],
+      "error": "Sin resultado"
     }
   ]
 }
