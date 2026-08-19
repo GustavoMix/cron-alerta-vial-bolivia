@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:18:57-04:00",
+  "generated_at": "2026-08-19T10:02:52-04:00",
   "incidents": [
     {
       "id": "a96469e3f4c22e7e",
@@ -11,7 +11,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/lista-comunicados-page/",
       "published_at": null,
-      "scraped_at": "2026-08-19T09:18:57-04:00",
+      "scraped_at": "2026-08-19T10:02:52-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -135,7 +135,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-08-19T09:18:57-04:00",
+      "last_seen_at": "2026-08-19T10:02:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -149,7 +149,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/bolivia-primer-pais-de-latinoamerica-que-a-traves-de-la-abc-aplicara-la-tecnologia-blue-spot-analysis-del-bid-para-prevencion-y-gestion-de-riesgos-en-las-carreteras/",
       "published_at": null,
-      "scraped_at": "2026-08-19T09:18:57-04:00",
+      "scraped_at": "2026-08-19T10:02:52-04:00",
       "department": "Bolivia",
       "municipality": null,
       "city": null,
@@ -262,7 +262,140 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-08-19T09:18:57-04:00",
+      "last_seen_at": "2026-08-19T10:02:52-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "bc1663c73eb68b29",
+      "source_id": "fb_unitel",
+      "source_name": "UNITEL Bolivia",
+      "source_url": "https://www.facebook.com/unitelbolivia/",
+      "source_class": "media",
+      "source_tier": 3,
+      "source_icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OaxM2lVzbhwQ7kNvwGPFanJ&_nc_oc=Ado14RpIGFIK2Ehzo0uz98Ukwss8AVMtkK2HsQAl750rQ-gNtZsCB0L-GMV8722H_vM&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=-MVyM3LyzjFGu3WSXbKprA&_nc_ss=7f289&oh=00_AQG-aBSCrMMyzQifmEI-fqGq5lqcbtv1a2sl4Y3hEt9vqg&oe=6A8B9C3F",
+      "url": "https://www.facebook.com/unitelbolivia/posts/pfbid031WDPJBAsG33RLsouy9YzLr8D58CZWrbz8AS1K1wztA5Rz737b5sRtCYovgQEnbkcl?__cft__[0]=AZZel1clp68tHRDyMNPoDlyXioFx0-YngqYFyDJMWcdVDqz3fF-fDi8e-4_Xm1uRYS9A22W3yusnRv9S14epKcbFmX22AIJg5ht5g2ka0trcDIDj9XEzRipCNybWv8dmzWi2mswfFQNfOSXiowU_3utcNLLTSLOY7P3IAejPkgU7NNRLl1ZRLfQJVNhDCmSV-6g&__tn__=%2CO%2CP-R",
+      "published_at": null,
+      "scraped_at": "2026-08-19T10:02:52-04:00",
+      "department": "Bolivia",
+      "municipality": null,
+      "city": null,
+      "event_type": "clima_vial",
+      "cause": "nieve_hielo",
+      "status": "precaucion",
+      "closure_scope": null,
+      "severity": "alta",
+      "confidence": 0.76,
+      "relevance_score": 75,
+      "filter_reasons": [
+        "frase_vial_directa:1",
+        "contexto_vial:3",
+        "evento:clima_vial",
+        "via_detectada:1",
+        "terminos_viales:3"
+      ],
+      "title": "La intensa nevada cubrió la carretera hacia La Cumbre, dejando varios vehículos varados a la espera de poder avanzar.",
+      "description": "La intensa nevada cubrió la carretera hacia La Cumbre, dejando varios vehículos varados a la espera de poder avanzar. El hielo acumulado sobre la vía dificulta el tráns... Ver más",
+      "original_text": "La intensa nevada cubrió la carretera hacia La Cumbre, dejando varios vehículos varados a la espera de poder avanzar. El hielo acumulado sobre la vía dificulta el tráns... Ver más",
+      "roads": [
+        "carretera hacia La Cumbre"
+      ],
+      "places": [],
+      "kilometer_mentions": [],
+      "directions": [
+        "La intensa nevada cubrió la carretera h -> cia La Cumbre",
+        "dejando varios vehículos varados a l -> espera de poder avanzar. El hielo acumula",
+        "sobre la vía dificult -> el tráns... Ver más"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "vehículos varados",
+        "nevada",
+        "carretera"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "carretera hacia La Cumbre, Bolivia",
+      "image_urls": [
+        "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/778957943_1392225089526933_6796585662128737824_n.png?stp=dst-jpg_tt6&cstp=mx1600x900&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=aQIOAoKxhqoQ7kNvwGBhCzY&_nc_oc=AdptDbMBTPT7Kz9kiN4IJa5V_bxbyOFNQwqsufjinX-ifYYSA6EftTY2SqTInfkh0Io&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQFAnzfkWK0Pcwqn54bqI_Zpnux8wbROsSn23ADsZC6siw&oe=6A8B85E8",
+        "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/776935856_1267227375423674_4487092943685248922_n.png?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=g9i8HIFt1h8Q7kNvwE6aiQA&_nc_oc=AdrplbwC1iwGXKBfIOY8dsRdIoPFVnCEBst3e84eo9HjwNItKwoDrXt9Qthy-w9K3sM&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQGJu6yPfyckVAXQ2g2BsQ--4wRRykFSFRmWxPPxW_fScA&oe=6A8B88EC",
+        "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.99422-6/778274176_1055710577325215_6707218691453731073_n.png?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JU68bPjfI3QQ7kNvwE9m4C6&_nc_oc=AdquOx-DGOAqlMa7cfAGJJGKmje_-pmsYdKySNVDqOlTyv1K8pE83C2ZQKJmTNea9tY&_nc_zt=14&_nc_ht=scontent-dfw6-2.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQEbqUhmmD2HaYSiUmRb3SeFuYtDzaub1n4diEDr8X7CwQ&oe=6A8B8D8E",
+        "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.99422-6/777851443_1265642178934049_4476239235492503672_n.png?stp=dst-jpg_tt6&cstp=mx1600x900&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uOAWFrM_8qQQ7kNvwEmeNJG&_nc_oc=Adq6VNJjIfCVKL3-JdypSDpuuQtd_WVsHDn36x6anZSN1llQhGDbMMl4zAw9Lg2hacA&_nc_zt=14&_nc_ht=scontent-dfw6-2.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQGcgo_OYF9ZxsYwMJYbH2HWnRMgbhQPLd9xca0jluOQug&oe=6A8B8A53",
+        "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/778061222_941949134830119_902206294499587566_n.png?stp=dst-jpg_tt6&cstp=mx1600x900&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vxADavLDH-oQ7kNvwGmOMSu&_nc_oc=Adoe4UNT8T9kJgp85wRAQykkoJVSkNY7l4SM_XMHEGa3cq2C2WjeNtB2jH5nAVTpi0M&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQFcQlAiQBaN74c5oO_Ako06hyEla0bGNDmaBe9gW1qUtA&oe=6A8B6E23"
+      ],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": false,
+      "image_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/778957943_1392225089526933_6796585662128737824_n.png?stp=dst-jpg_tt6&cstp=mx1600x900&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=aQIOAoKxhqoQ7kNvwGBhCzY&_nc_oc=AdptDbMBTPT7Kz9kiN4IJa5V_bxbyOFNQwqsufjinX-ifYYSA6EftTY2SqTInfkh0Io&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQFAnzfkWK0Pcwqn54bqI_Zpnux8wbROsSn23ADsZC6siw&oe=6A8B85E8",
+      "has_image": true,
+      "has_video": false,
+      "media": {
+        "images": [
+          "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/778957943_1392225089526933_6796585662128737824_n.png?stp=dst-jpg_tt6&cstp=mx1600x900&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=aQIOAoKxhqoQ7kNvwGBhCzY&_nc_oc=AdptDbMBTPT7Kz9kiN4IJa5V_bxbyOFNQwqsufjinX-ifYYSA6EftTY2SqTInfkh0Io&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQFAnzfkWK0Pcwqn54bqI_Zpnux8wbROsSn23ADsZC6siw&oe=6A8B85E8",
+          "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/776935856_1267227375423674_4487092943685248922_n.png?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=g9i8HIFt1h8Q7kNvwE6aiQA&_nc_oc=AdrplbwC1iwGXKBfIOY8dsRdIoPFVnCEBst3e84eo9HjwNItKwoDrXt9Qthy-w9K3sM&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQGJu6yPfyckVAXQ2g2BsQ--4wRRykFSFRmWxPPxW_fScA&oe=6A8B88EC",
+          "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.99422-6/778274176_1055710577325215_6707218691453731073_n.png?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JU68bPjfI3QQ7kNvwE9m4C6&_nc_oc=AdquOx-DGOAqlMa7cfAGJJGKmje_-pmsYdKySNVDqOlTyv1K8pE83C2ZQKJmTNea9tY&_nc_zt=14&_nc_ht=scontent-dfw6-2.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQEbqUhmmD2HaYSiUmRb3SeFuYtDzaub1n4diEDr8X7CwQ&oe=6A8B8D8E",
+          "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.99422-6/777851443_1265642178934049_4476239235492503672_n.png?stp=dst-jpg_tt6&cstp=mx1600x900&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uOAWFrM_8qQQ7kNvwEmeNJG&_nc_oc=Adq6VNJjIfCVKL3-JdypSDpuuQtd_WVsHDn36x6anZSN1llQhGDbMMl4zAw9Lg2hacA&_nc_zt=14&_nc_ht=scontent-dfw6-2.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQGcgo_OYF9ZxsYwMJYbH2HWnRMgbhQPLd9xca0jluOQug&oe=6A8B8A53",
+          "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/778061222_941949134830119_902206294499587566_n.png?stp=dst-jpg_tt6&cstp=mx1600x900&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vxADavLDH-oQ7kNvwGmOMSu&_nc_oc=Adoe4UNT8T9kJgp85wRAQykkoJVSkNY7l4SM_XMHEGa3cq2C2WjeNtB2jH5nAVTpi0M&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQFcQlAiQBaN74c5oO_Ako06hyEla0bGNDmaBe9gW1qUtA&oe=6A8B6E23"
+        ],
+        "main_image_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.99422-6/778957943_1392225089526933_6796585662128737824_n.png?stp=dst-jpg_tt6&cstp=mx1600x900&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=aQIOAoKxhqoQ7kNvwGBhCzY&_nc_oc=AdptDbMBTPT7Kz9kiN4IJa5V_bxbyOFNQwqsufjinX-ifYYSA6EftTY2SqTInfkh0Io&_nc_zt=14&_nc_ht=scontent-dfw6-1.xx&_nc_gid=fbLu167jHOjomz7TDGkY0w&_nc_ss=7f289&oh=00_AQFAnzfkWK0Pcwqn54bqI_Zpnux8wbROsSn23ADsZC6siw&oe=6A8B85E8",
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "precaucion",
+          "published_at": null,
+          "source_id": "fb_unitel",
+          "source_name": "UNITEL Bolivia",
+          "tier": 3,
+          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid031WDPJBAsG33RLsouy9YzLr8D58CZWrbz8AS1K1wztA5Rz737b5sRtCYovgQEnbkcl?__cft__[0]=AZZel1clp68tHRDyMNPoDlyXioFx0-YngqYFyDJMWcdVDqz3fF-fDi8e-4_Xm1uRYS9A22W3yusnRv9S14epKcbFmX22AIJg5ht5g2ka0trcDIDj9XEzRipCNybWv8dmzWi2mswfFQNfOSXiowU_3utcNLLTSLOY7P3IAejPkgU7NNRLl1ZRLfQJVNhDCmSV-6g&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "fb_unitel",
+          "name": "UNITEL Bolivia",
+          "class": "media",
+          "tier": 3,
+          "page_url": "https://www.facebook.com/unitelbolivia/",
+          "post_url": "https://www.facebook.com/unitelbolivia/posts/pfbid031WDPJBAsG33RLsouy9YzLr8D58CZWrbz8AS1K1wztA5Rz737b5sRtCYovgQEnbkcl?__cft__[0]=AZZel1clp68tHRDyMNPoDlyXioFx0-YngqYFyDJMWcdVDqz3fF-fDi8e-4_Xm1uRYS9A22W3yusnRv9S14epKcbFmX22AIJg5ht5g2ka0trcDIDj9XEzRipCNybWv8dmzWi2mswfFQNfOSXiowU_3utcNLLTSLOY7P3IAejPkgU7NNRLl1ZRLfQJVNhDCmSV-6g&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OaxM2lVzbhwQ7kNvwGPFanJ&_nc_oc=Ado14RpIGFIK2Ehzo0uz98Ukwss8AVMtkK2HsQAl750rQ-gNtZsCB0L-GMV8722H_vM&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=-MVyM3LyzjFGu3WSXbKprA&_nc_ss=7f289&oh=00_AQG-aBSCrMMyzQifmEI-fqGq5lqcbtv1a2sl4Y3hEt9vqg&oe=6A8B9C3F",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.facebook.com/unitelbolivia/posts/pfbid031WDPJBAsG33RLsouy9YzLr8D58CZWrbz8AS1K1wztA5Rz737b5sRtCYovgQEnbkcl?__cft__[0]=AZZel1clp68tHRDyMNPoDlyXioFx0-YngqYFyDJMWcdVDqz3fF-fDi8e-4_Xm1uRYS9A22W3yusnRv9S14epKcbFmX22AIJg5ht5g2ka0trcDIDj9XEzRipCNybWv8dmzWi2mswfFQNfOSXiowU_3utcNLLTSLOY7P3IAejPkgU7NNRLl1ZRLfQJVNhDCmSV-6g&__tn__=%2CO%2CP-R"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_9b93a0ffef196f",
+      "first_seen_at": "2026-08-19T10:02:52-04:00",
+      "history": [
+        {
+          "at": "2026-08-19T10:02:52-04:00",
+          "detected_at": "2026-08-19T10:02:52-04:00",
+          "reason": "primera_deteccion",
+          "status": "precaucion",
+          "lifecycle_status": "activo",
+          "severity": "alta",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "UNITEL Bolivia"
+          ],
+          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid031WDPJBAsG33RLsouy9YzLr8D58CZWrbz8AS1K1wztA5Rz737b5sRtCYovgQEnbkcl?__cft__[0]=AZZel1clp68tHRDyMNPoDlyXioFx0-YngqYFyDJMWcdVDqz3fF-fDi8e-4_Xm1uRYS9A22W3yusnRv9S14epKcbFmX22AIJg5ht5g2ka0trcDIDj9XEzRipCNybWv8dmzWi2mswfFQNfOSXiowU_3utcNLLTSLOY7P3IAejPkgU7NNRLl1ZRLfQJVNhDCmSV-6g&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "lifecycle_status": "activo",
+      "is_active": true,
+      "last_seen_at": "2026-08-19T10:02:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -276,7 +409,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-08-19T09:18:57-04:00",
+      "scraped_at": "2026-08-19T10:02:52-04:00",
       "department": "La Paz",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -420,7 +553,143 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-08-19T09:18:57-04:00",
+      "last_seen_at": "2026-08-19T10:02:52-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "c336129197383892",
+      "source_id": "fb_abc",
+      "source_name": "ABC Carreteras Bolivia",
+      "source_url": "https://www.facebook.com/CarreterasBo/",
+      "source_class": "facebook_official",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tLrWTGNWayMQ7kNvwHzf-yv&_nc_oc=AdqtlD3wYqJ7wMmoDge8sycKH5PT50KCblIDTVJR1pors2gTkhMaJ0_myZtap1-IeQU&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=PJ0tU54iE_ln4PnTBRlmNg&_nc_ss=7f289&oh=00_AQG_KXbyolFcENNjnhtvMoTNNo9suHoTTJPfSGiwkRiOWw&oe=6A8B77D8",
+      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0oAnC1ioSwfDfYkhfoPjDsA7CEUq2NWwJbjCJDt7bYPVhh2dw6yy5feHRhzv14N8yl?__cft__[0]=AZZUNlDvnprmM3ialHNGHhYwu4FwmA5gogSsLaxqHTb83c_GPIAi1wabcIxx1FjOAx1EPKnlL-O68eYdAO9S3Erc-ZkkMI2kolGQ6bPPBO_aiE5wS04lJmlkOksiHeSPE4E234dC4jNfefBRb5S_bZlGrRQHqlNEAVgsPBJtWQIJZSWmwMXTPk0Vst5dtUWigvM&__tn__=%2CO%2CP-R",
+      "published_at": null,
+      "scraped_at": "2026-08-19T10:02:52-04:00",
+      "department": "Santa Cruz",
+      "municipality": null,
+      "city": null,
+      "event_type": "habilitacion",
+      "cause": null,
+      "status": "habilitado",
+      "closure_scope": "sin_cierre",
+      "severity": "baja",
+      "confidence": 0.95,
+      "relevance_score": 58,
+      "filter_reasons": [
+        "contexto_vial:3",
+        "evento:habilitacion",
+        "via_detectada:1",
+        "sector_detectado:1",
+        "terminos_viales:2",
+        "fuente_oficial_facebook"
+      ],
+      "title": "Administradora Boliviana de Carreteras",
+      "description": "🚧 COMUNICADO | Santa Cruz La Administradora Boliviana de Carreteras (ABC), Regional Santa Cruz, informa que, debido a las condiciones climáticas, no se realizarán trabajos en el sector Petacas, por... 🚧 COMUNICADO | Santa Cruz La Administradora Boliviana de Carreteras (ABC), Regional Santa Cruz, informa que, debido a las condiciones climáticas, no se... COMUNICADO | Santa Cruz La Administradora Boliviana de Carreteras (ABC), Regional Santa Cruz, informa que, debido a las condiciones climáticas, no se realizarán trabajos en el sector Petacas, por lo que no habrá cortes de transitabilidad. La carretera La Angostura – Bermejo se encuentra expedita y habilitada para la circulación vehicular. Se recomienda a los usuarios transitar con precaución y mantenerse atentos a los comunicados oficiales de la ABC. Más información: transitabilidad.abc.gob.bo Consultas WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia COMUNICADO | Santa Cruz La Administradora Boliviana de Carreteras (ABC), Regional Santa Cruz, informa que, debido a las condiciones climáticas, no se realizarán trabajos en el sector Petacas, por lo que no habrá cortes de transitabilidad. La carretera La Angostura – Bermejo se encuentra expedita y habilitada para la circulación vehicular. Se recomienda a los usuarios transitar con precaución y mantenerse atentos a los comunicados oficiales de la ABC. Más información: transitabilidad.abc.gob.bo Consultas WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia",
+      "original_text": "🚧 COMUNICADO | Santa Cruz La Administradora Boliviana de Carreteras (ABC), Regional Santa Cruz, informa que, debido a las condiciones climáticas, no se realizarán trabajos en el sector Petacas, por... 🚧 COMUNICADO | Santa Cruz La Administradora Boliviana de Carreteras (ABC), Regional Santa Cruz, informa que, debido a las condiciones climáticas, no se... COMUNICADO | Santa Cruz La Administradora Boliviana de Carreteras (ABC), Regional Santa Cruz, informa que, debido a las condiciones climáticas, no se realizarán trabajos en el sector Petacas, por lo que no habrá cortes de transitabilidad. La carretera La Angostura – Bermejo se encuentra expedita y habilitada para la circulación vehicular. Se recomienda a los usuarios transitar con precaución y mantenerse atentos a los comunicados oficiales de la ABC. Más información: transitabilidad.abc.gob.bo Consultas WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia COMUNICADO | Santa Cruz La Administradora Boliviana de Carreteras (ABC), Regional Santa Cruz, informa que, debido a las condiciones climáticas, no se realizarán trabajos en el sector Petacas, por lo que no habrá cortes de transitabilidad. La carretera La Angostura – Bermejo se encuentra expedita y habilitada para la circulación vehicular. Se recomienda a los usuarios transitar con precaución y mantenerse atentos a los comunicados oficiales de la ABC. Más información: transitabilidad.abc.gob.bo Consultas WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia",
+      "roads": [
+        "carretera La Angostura – Bermejo"
+      ],
+      "places": [
+        "sector Petacas"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "COMUNIC -> DO",
+        "Santa Cruz La Administradora Bolivian -> de Carreteras",
+        "Regional Sant -> Cruz",
+        "inform -> que",
+        "debido a l -> s condiciones climáticas",
+        "no se realizarán trab -> jos en el sector Petacas",
+        "no se... COMUNIC -> DO",
+        "por lo que no habrá cortes de transit -> bilidad. La carretera La Angostura"
+      ],
+      "alternative_routes": [
+        "a los usuarios transitar con precaución y mantenerse atentos a los comunicados oficiales de la ABC"
+      ],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "carretera",
+        "transitabilidad"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "carretera La Angostura – Bermejo, Santa Cruz, Bolivia",
+      "image_urls": [
+        "https://scontent-fra3-2.xx.fbcdn.net/v/t39.99422-6/780443403_1185938211279440_2592979257077260748_n.png?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=dcdE7dJkE7sQ7kNvwHYEFGc&_nc_oc=AdpIp8FpxTrkYNA82X8G-hXcAG9-EPyIwi3rP9uiDWAUci6iVBRr5a3a7W3fy26NpnA&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=6FLB59gn4BusYya50WKRug&_nc_ss=7f289&oh=00_AQGZ8lXyQsL0Y1SVkBwmDHPkbDNrU4GwnlOBwpgePw5NGQ&oe=6A8B814A",
+        "https://scontent-fra3-2.xx.fbcdn.net/v/t39.99422-6/780443403_1185938211279440_2592979257077260748_n.png?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dcdE7dJkE7sQ7kNvwHYEFGc&_nc_oc=AdpIp8FpxTrkYNA82X8G-hXcAG9-EPyIwi3rP9uiDWAUci6iVBRr5a3a7W3fy26NpnA&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=ZAV2-nW6cikACPU4dO_BLA&_nc_ss=7f289&oh=00_AQFxy8V61H45KUmUP7pwspy3RRxpVwQOoXHgnoRu3VwBOw&oe=6A8B814A"
+      ],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.99422-6/780443403_1185938211279440_2592979257077260748_n.png?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=dcdE7dJkE7sQ7kNvwHYEFGc&_nc_oc=AdpIp8FpxTrkYNA82X8G-hXcAG9-EPyIwi3rP9uiDWAUci6iVBRr5a3a7W3fy26NpnA&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=6FLB59gn4BusYya50WKRug&_nc_ss=7f289&oh=00_AQGZ8lXyQsL0Y1SVkBwmDHPkbDNrU4GwnlOBwpgePw5NGQ&oe=6A8B814A",
+      "has_image": true,
+      "has_video": false,
+      "media": {
+        "images": [
+          "https://scontent-fra3-2.xx.fbcdn.net/v/t39.99422-6/780443403_1185938211279440_2592979257077260748_n.png?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=dcdE7dJkE7sQ7kNvwHYEFGc&_nc_oc=AdpIp8FpxTrkYNA82X8G-hXcAG9-EPyIwi3rP9uiDWAUci6iVBRr5a3a7W3fy26NpnA&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=6FLB59gn4BusYya50WKRug&_nc_ss=7f289&oh=00_AQGZ8lXyQsL0Y1SVkBwmDHPkbDNrU4GwnlOBwpgePw5NGQ&oe=6A8B814A",
+          "https://scontent-fra3-2.xx.fbcdn.net/v/t39.99422-6/780443403_1185938211279440_2592979257077260748_n.png?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dcdE7dJkE7sQ7kNvwHYEFGc&_nc_oc=AdpIp8FpxTrkYNA82X8G-hXcAG9-EPyIwi3rP9uiDWAUci6iVBRr5a3a7W3fy26NpnA&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=ZAV2-nW6cikACPU4dO_BLA&_nc_ss=7f289&oh=00_AQFxy8V61H45KUmUP7pwspy3RRxpVwQOoXHgnoRu3VwBOw&oe=6A8B814A"
+        ],
+        "main_image_url": "https://scontent-fra3-2.xx.fbcdn.net/v/t39.99422-6/780443403_1185938211279440_2592979257077260748_n.png?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=dcdE7dJkE7sQ7kNvwHYEFGc&_nc_oc=AdpIp8FpxTrkYNA82X8G-hXcAG9-EPyIwi3rP9uiDWAUci6iVBRr5a3a7W3fy26NpnA&_nc_zt=14&_nc_ht=scontent-fra3-2.xx&_nc_gid=6FLB59gn4BusYya50WKRug&_nc_ss=7f289&oh=00_AQGZ8lXyQsL0Y1SVkBwmDHPkbDNrU4GwnlOBwpgePw5NGQ&oe=6A8B814A",
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "habilitado",
+          "published_at": null,
+          "source_id": "fb_abc",
+          "source_name": "ABC Carreteras Bolivia",
+          "tier": 1,
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0oAnC1ioSwfDfYkhfoPjDsA7CEUq2NWwJbjCJDt7bYPVhh2dw6yy5feHRhzv14N8yl?__cft__[0]=AZZUNlDvnprmM3ialHNGHhYwu4FwmA5gogSsLaxqHTb83c_GPIAi1wabcIxx1FjOAx1EPKnlL-O68eYdAO9S3Erc-ZkkMI2kolGQ6bPPBO_aiE5wS04lJmlkOksiHeSPE4E234dC4jNfefBRb5S_bZlGrRQHqlNEAVgsPBJtWQIJZSWmwMXTPk0Vst5dtUWigvM&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "fb_abc",
+          "name": "ABC Carreteras Bolivia",
+          "class": "facebook_official",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/CarreterasBo/",
+          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0oAnC1ioSwfDfYkhfoPjDsA7CEUq2NWwJbjCJDt7bYPVhh2dw6yy5feHRhzv14N8yl?__cft__[0]=AZZUNlDvnprmM3ialHNGHhYwu4FwmA5gogSsLaxqHTb83c_GPIAi1wabcIxx1FjOAx1EPKnlL-O68eYdAO9S3Erc-ZkkMI2kolGQ6bPPBO_aiE5wS04lJmlkOksiHeSPE4E234dC4jNfefBRb5S_bZlGrRQHqlNEAVgsPBJtWQIJZSWmwMXTPk0Vst5dtUWigvM&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-fra3-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tLrWTGNWayMQ7kNvwHzf-yv&_nc_oc=AdqtlD3wYqJ7wMmoDge8sycKH5PT50KCblIDTVJR1pors2gTkhMaJ0_myZtap1-IeQU&_nc_zt=24&_nc_ht=scontent-fra3-1.xx&_nc_gid=PJ0tU54iE_ln4PnTBRlmNg&_nc_ss=7f289&oh=00_AQG_KXbyolFcENNjnhtvMoTNNo9suHoTTJPfSGiwkRiOWw&oe=6A8B77D8",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.facebook.com/CarreterasBo/posts/pfbid0oAnC1ioSwfDfYkhfoPjDsA7CEUq2NWwJbjCJDt7bYPVhh2dw6yy5feHRhzv14N8yl?__cft__[0]=AZZUNlDvnprmM3ialHNGHhYwu4FwmA5gogSsLaxqHTb83c_GPIAi1wabcIxx1FjOAx1EPKnlL-O68eYdAO9S3Erc-ZkkMI2kolGQ6bPPBO_aiE5wS04lJmlkOksiHeSPE4E234dC4jNfefBRb5S_bZlGrRQHqlNEAVgsPBJtWQIJZSWmwMXTPk0Vst5dtUWigvM&__tn__=%2CO%2CP-R"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_b612022b97ce70",
+      "first_seen_at": "2026-08-19T10:02:52-04:00",
+      "history": [
+        {
+          "at": "2026-08-19T10:02:52-04:00",
+          "detected_at": "2026-08-19T10:02:52-04:00",
+          "reason": "primera_deteccion",
+          "status": "habilitado",
+          "lifecycle_status": "finalizado",
+          "severity": "baja",
+          "closure_scope": "sin_cierre",
+          "source_count": 1,
+          "sources": [
+            "ABC Carreteras Bolivia"
+          ],
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0oAnC1ioSwfDfYkhfoPjDsA7CEUq2NWwJbjCJDt7bYPVhh2dw6yy5feHRhzv14N8yl?__cft__[0]=AZZUNlDvnprmM3ialHNGHhYwu4FwmA5gogSsLaxqHTb83c_GPIAi1wabcIxx1FjOAx1EPKnlL-O68eYdAO9S3Erc-ZkkMI2kolGQ6bPPBO_aiE5wS04lJmlkOksiHeSPE4E234dC4jNfefBRb5S_bZlGrRQHqlNEAVgsPBJtWQIJZSWmwMXTPk0Vst5dtUWigvM&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "lifecycle_status": "finalizado",
+      "is_active": false,
+      "last_seen_at": "2026-08-19T10:02:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -434,7 +703,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-garantiza-carreteras-transitables-en-todo-el-pais-por-el-feriado-largo-y-activa-monitoreo-permanente/",
       "published_at": null,
-      "scraped_at": "2026-08-19T09:18:57-04:00",
+      "scraped_at": "2026-08-19T10:02:52-04:00",
       "department": "La Paz",
       "municipality": "Villa Tunari",
       "city": "Cochabamba",
@@ -580,7 +849,7 @@
       ],
       "lifecycle_status": "finalizado",
       "is_active": false,
-      "last_seen_at": "2026-08-19T09:18:57-04:00",
+      "last_seen_at": "2026-08-19T10:02:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -594,7 +863,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-despliega-equipos-de-emergencias-ante-nevadas/",
       "published_at": null,
-      "scraped_at": "2026-08-19T09:18:57-04:00",
+      "scraped_at": "2026-08-19T10:02:52-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -727,7 +996,7 @@
       ],
       "lifecycle_status": "finalizado",
       "is_active": false,
-      "last_seen_at": "2026-08-19T09:18:57-04:00",
+      "last_seen_at": "2026-08-19T10:02:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -741,7 +1010,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/el-gobierno-nacional-y-la-abc-entregan-el-tramo-acheral-choere-con-el-respaldo-del-gran-chaco-e-impulsan-el-tunel-aguarague-en-tarija/",
       "published_at": null,
-      "scraped_at": "2026-08-19T09:18:57-04:00",
+      "scraped_at": "2026-08-19T10:02:52-04:00",
       "department": "Cochabamba",
       "municipality": null,
       "city": null,
@@ -871,7 +1140,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-08-19T09:18:57-04:00",
+      "last_seen_at": "2026-08-19T10:02:52-04:00",
       "seen_this_run": true,
       "history_count": 2
     },
@@ -885,7 +1154,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-avanza-en-la-fase-de-preinversion-del-proyecto-vial-guayaramerin-puente-binacional-en-el-beni-con-una-inversion-de-bs-32-millones/",
       "published_at": null,
-      "scraped_at": "2026-08-19T09:18:57-04:00",
+      "scraped_at": "2026-08-19T10:02:52-04:00",
       "department": "Bolivia",
       "municipality": null,
       "city": null,
@@ -1006,7 +1275,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-08-19T09:18:57-04:00",
+      "last_seen_at": "2026-08-19T10:02:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
