@@ -64,8 +64,25 @@ def _horas_desde(iso: str | None, ahora: datetime) -> float:
 def puntaje(source: Dict[str, Any], rotacion: Dict[str, Any], ahora: datetime) -> float:
     """Cuánto 'merece' esta fuente el primer turno de un grupo. Más alto, antes."""
     estado = rotacion.get(source["id"], {})
+    peso = PESO_TIER.get(int(source.get("tier", 3)), 1.0)
+
+    # Una fuente que nunca tuvo éxito y ya acumuló varios bloqueos seguidos
+    # probablemente no es un tema de IP -eso lo arregla la rotación normal-
+    # sino que Facebook le exige sesión siempre, a cualquier visitante. Medir
+    # su antigüedad desde el último ÉXITO (que nunca llega) la deja en
+    # HORAS_NUNCA_VISTA para siempre, y ni descontándole el 90% le gana
+    # cualquier otra fuente: un número enorme sigue siendo enorme. Por eso acá
+    # se mide desde el último INTENTO -que pasa casi todas las corridas- y con
+    # un peso chico: así entra en el reparto casi nunca, pero no queda del
+    # todo excluida por si algún día Facebook le cambia la política.
+    exitos = int(estado.get("exitos", 0))
+    bloqueos = int(estado.get("bloqueos", 0))
+    if exitos == 0 and bloqueos >= 4:
+        horas_intento = _horas_desde(estado.get("ultimo_intento"), ahora)
+        return horas_intento * peso * 0.05
+
     horas = _horas_desde(estado.get("ultimo_exito"), ahora)
-    valor = horas * PESO_TIER.get(int(source.get("tier", 3)), 1.0)
+    valor = horas * peso
 
     # Una fuente que falla seguido por algo que no es un bloqueo (página
     # renombrada, borrada, privada) no debería acaparar los turnos buenos
