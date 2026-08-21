@@ -1,3 +1,4 @@
+import time
 from urllib.parse import urljoin, urlparse
 from typing import List, Dict, Any, Optional, Tuple
 import httpx
@@ -138,15 +139,48 @@ def _get_with_retry(client: httpx.Client, url: str, timeout: float):
     User-Agent que se identifique como bot sin importar qué tan educado sea
     (probamos primero con el nuestro, por transparencia), y algunos sitios
     lentos necesitan más margen del que conviene usar por default en el resto
-    de las fuentes."""
+    de las fuentes.
+
+    Si el reintento también falla, el mensaje de error deja bien claro que ya
+    se probó -y con qué- para no confundir "lo intentamos y no alcanzó" con
+    "no se llegó a intentar". Eso importa acá: la primera corrida real con
+    este reintento no destrabó ni web_amun ni web_simat_cbba, y sin esta
+    marca no había forma de saber, mirando el log, si el reintento corrió y
+    falló igual (bloqueo por IP/huella TLS, no por el header) o si nunca
+    llegó a dispararse."""
+    inicio = time.monotonic()
     try:
         r = client.get(url, timeout=timeout)
-        if r.status_code == 403:
-            r = client.get(url, headers={"User-Agent": _BROWSER_USER_AGENT}, timeout=timeout)
+    except httpx.TimeoutException:
+        try:
+            r = client.get(url, timeout=timeout * 2)
+        except httpx.TimeoutException as exc:
+            elapsed = time.monotonic() - inicio
+            raise httpx.TimeoutException(
+                f"sin respuesta tras 2 intentos ({elapsed:.0f}s en total, timeouts de "
+                f"{timeout:.0f}s y {timeout * 2:.0f}s) — no parece ser lentitud puntual, "
+                f"el sitio no contesta dentro de ese margen",
+                request=exc.request,
+            ) from exc
         r.raise_for_status()
         return r
-    except httpx.TimeoutException:
-        return client.get(url, timeout=timeout * 2)
+
+    reintento_ua = False
+    if r.status_code == 403:
+        reintento_ua = True
+        r = client.get(url, headers={"User-Agent": _BROWSER_USER_AGENT}, timeout=timeout)
+
+    try:
+        r.raise_for_status()
+    except httpx.HTTPStatusError as exc:
+        if reintento_ua:
+            raise httpx.HTTPStatusError(
+                f"{exc} (ya se reintentó con un User-Agent de navegador estándar y bloqueó "
+                f"igual: probablemente filtra por IP del runner, no por el header)",
+                request=exc.request, response=exc.response,
+            ) from exc
+        raise
+    return r
 
 
 def scrape_generic_web(source: Dict[str, Any], settings: Dict[str, Any]) -> List[RawItem]:
