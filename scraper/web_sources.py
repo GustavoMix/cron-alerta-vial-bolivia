@@ -126,6 +126,29 @@ def _make_item(source, source_url, item_url, soup, text, source_icon_url):
     )
 
 
+_BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+
+
+def _get_with_retry(client: httpx.Client, url: str, timeout: float):
+    """Un solo reintento para dos fallas puntuales que no tienen que ver con
+    que el sitio esté caído: algunos WAF de sitios .gob.bo bloquean cualquier
+    User-Agent que se identifique como bot sin importar qué tan educado sea
+    (probamos primero con el nuestro, por transparencia), y algunos sitios
+    lentos necesitan más margen del que conviene usar por default en el resto
+    de las fuentes."""
+    try:
+        r = client.get(url, timeout=timeout)
+        if r.status_code == 403:
+            r = client.get(url, headers={"User-Agent": _BROWSER_USER_AGENT}, timeout=timeout)
+        r.raise_for_status()
+        return r
+    except httpx.TimeoutException:
+        return client.get(url, timeout=timeout * 2)
+
+
 def scrape_generic_web(source: Dict[str, Any], settings: Dict[str, Any]) -> List[RawItem]:
     url = source["url"]
     timeout = settings.get("request_timeout_seconds", 25)
@@ -138,7 +161,7 @@ def scrape_generic_web(source: Dict[str, Any], settings: Dict[str, Any]) -> List
     items: List[RawItem] = []
 
     with httpx.Client(headers=headers, follow_redirects=True, timeout=timeout) as client:
-        r = client.get(url)
+        r = _get_with_retry(client, url, timeout)
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
         source_icon_url = source.get("icon_url") or _source_icon(soup, str(r.url))
