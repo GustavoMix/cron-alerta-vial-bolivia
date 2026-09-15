@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:15:15-04:00",
+  "generated_at": "2026-09-15T18:56:10-04:00",
   "incidents": [
     {
       "id": "a96469e3f4c22e7e",
@@ -11,7 +11,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/lista-comunicados-page/",
       "published_at": null,
-      "scraped_at": "2026-09-15T16:15:15-04:00",
+      "scraped_at": "2026-09-15T18:56:10-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -135,7 +135,147 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-09-15T16:15:15-04:00",
+      "last_seen_at": "2026-09-15T18:56:10-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "6399d1bcba6efcc6",
+      "source_id": "fb_transito_scz",
+      "source_name": "Secretaría Municipal de Tránsito y Transporte",
+      "source_url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/",
+      "source_class": "facebook_official",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I91tbAOxwvkQ7kNvwFTVdX1&_nc_oc=AdrE2Qa5e8dElh5X_LW1J8xsF2OBqlDzlECHne5TGGJHQk1GxvBCOgYqBNfnMHs9ksA&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=2Hul9q_LY4mC26JQoMbVhQ&_nc_ss=7f289&oh=00_AQKkm9Mdrurp6G_qxg8aiLUx_Zx44V9_Riq0Uk3eUJRPFQ&oe=6AAFA651",
+      "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZjNBxrdS2a7grq0L8tOmbFty5FqeP1rWuJYxDUkZ-cPu_ZCrMNLpMBCO8CeLEoqKpkGSn2b30OGXo5mnXoysBz9-bfVBi7daVqS8QKOcbbJh3gqxYIFNiQjSoofDDMz4y4vD7rDCKtg-xvPTnjJmRcIC_Uo2t1FT23rqZpAS2bTfSsyuJxafoPD4jI&__tn__=%2CO%2CP-R",
+      "published_at": null,
+      "scraped_at": "2026-09-15T18:56:10-04:00",
+      "department": "Santa Cruz",
+      "municipality": "Santa Cruz de la Sierra",
+      "city": "Santa Cruz de la Sierra",
+      "event_type": "congestion",
+      "cause": null,
+      "status": "precaucion",
+      "closure_scope": null,
+      "severity": "media",
+      "confidence": 0.95,
+      "relevance_score": 59,
+      "filter_reasons": [
+        "contexto_vial:3",
+        "evento:congestion",
+        "via_detectada:1",
+        "terminos_viales:4",
+        "fuente_oficial_facebook"
+      ],
+      "title": "¡Trabajo en equipo por una ciudad más limpia y ordenada!",
+      "description": "¡Trabajo en equipo por una ciudad más limpia y ordenada! Nu... Ver más ¡Trabajo en equipo por una ciudad más limpia y ordenada! Nu... Ver más Estimados colegas, por favor solicito con carácter de extrema urgencia la reparación del semáforo ubicado en el 8vo. Anillo y Av. Banzer, ingreso a Remanso. El semáforo lleva dos días sin funcionar, lo que está generando una importante congestión vehi... Ver más Mariana Daga Estimados colegas, por favor solicito con carácter de extrema urgencia la reparación del semáforo ubicado en el 8vo. Anillo y Av. Banzer, ingreso a Remanso. El semáforo lleva dos días sin funcionar, lo que está generando una importante congestión vehi... Ver más",
+      "original_text": "¡Trabajo en equipo por una ciudad más limpia y ordenada! Nu... Ver más ¡Trabajo en equipo por una ciudad más limpia y ordenada! Nu... Ver más Estimados colegas, por favor solicito con carácter de extrema urgencia la reparación del semáforo ubicado en el 8vo. Anillo y Av. Banzer, ingreso a Remanso. El semáforo lleva dos días sin funcionar, lo que está generando una importante congestión vehi... Ver más Mariana Daga Estimados colegas, por favor solicito con carácter de extrema urgencia la reparación del semáforo ubicado en el 8vo. Anillo y Av. Banzer, ingreso a Remanso. El semáforo lleva dos días sin funcionar, lo que está generando una importante congestión vehi... Ver más",
+      "roads": [
+        "Anillo y Av"
+      ],
+      "places": [],
+      "kilometer_mentions": [],
+      "directions": [
+        "Trabajo en equipo por una ciud -> d más limpia y ordenada",
+        "Nu... Ver más Estim -> dos colegas",
+        "por favor solicito con carácter de extrem -> urgencia la reparación del semáforo ubica",
+        "en el 8vo. Anillo y Av. B -> nzer",
+        "ingreso a Remanso. El semáforo llev -> dos días sin funcionar",
+        "lo que está generando una import -> nte congestión vehi... Ver más Mariana Da",
+        "Estim -> dos colegas",
+        "lo que está generando una import -> nte congestión vehi... Ver más"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "congestión",
+        "anillo",
+        "ingreso",
+        "semáforo"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "Anillo y Av, Santa Cruz de la Sierra, Santa Cruz, Bolivia",
+      "image_urls": [
+        "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-6/810900635_1396307959283997_581245255368040177_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x1638&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jrpuOipmdesQ7kNvwF6u7tF&_nc_oc=AdrlknpZXnXwdNNrtW6eD5ftw1yfjEJFFUFXvXQYFxTiLYaFWsTNbP-tvZ7y2eJqjyQ&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=RU6LdONypqdPIIv6Mqv7tQ&_nc_ss=7f289&oh=00_AQJeQ4ALQSy3vLQIsLmd0kWoeo5DXj7WjEIBgUwDhGvLMA&oe=6AAFB854"
+      ],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-6/810900635_1396307959283997_581245255368040177_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x1638&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jrpuOipmdesQ7kNvwF6u7tF&_nc_oc=AdrlknpZXnXwdNNrtW6eD5ftw1yfjEJFFUFXvXQYFxTiLYaFWsTNbP-tvZ7y2eJqjyQ&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=RU6LdONypqdPIIv6Mqv7tQ&_nc_ss=7f289&oh=00_AQJeQ4ALQSy3vLQIsLmd0kWoeo5DXj7WjEIBgUwDhGvLMA&oe=6AAFB854",
+      "has_image": true,
+      "has_video": false,
+      "media": {
+        "images": [
+          "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-6/810900635_1396307959283997_581245255368040177_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x1638&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jrpuOipmdesQ7kNvwF6u7tF&_nc_oc=AdrlknpZXnXwdNNrtW6eD5ftw1yfjEJFFUFXvXQYFxTiLYaFWsTNbP-tvZ7y2eJqjyQ&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=RU6LdONypqdPIIv6Mqv7tQ&_nc_ss=7f289&oh=00_AQJeQ4ALQSy3vLQIsLmd0kWoeo5DXj7WjEIBgUwDhGvLMA&oe=6AAFB854"
+        ],
+        "main_image_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-6/810900635_1396307959283997_581245255368040177_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x1638&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jrpuOipmdesQ7kNvwF6u7tF&_nc_oc=AdrlknpZXnXwdNNrtW6eD5ftw1yfjEJFFUFXvXQYFxTiLYaFWsTNbP-tvZ7y2eJqjyQ&_nc_zt=23&_nc_ht=scontent-hkg1-1.xx&_nc_gid=RU6LdONypqdPIIv6Mqv7tQ&_nc_ss=7f289&oh=00_AQJeQ4ALQSy3vLQIsLmd0kWoeo5DXj7WjEIBgUwDhGvLMA&oe=6AAFB854",
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "precaucion",
+          "published_at": null,
+          "source_id": "fb_transito_scz",
+          "source_name": "Secretaría Municipal de Tránsito y Transporte",
+          "tier": 1,
+          "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZjNBxrdS2a7grq0L8tOmbFty5FqeP1rWuJYxDUkZ-cPu_ZCrMNLpMBCO8CeLEoqKpkGSn2b30OGXo5mnXoysBz9-bfVBi7daVqS8QKOcbbJh3gqxYIFNiQjSoofDDMz4y4vD7rDCKtg-xvPTnjJmRcIC_Uo2t1FT23rqZpAS2bTfSsyuJxafoPD4jI&__tn__=%2CO%2CP-R"
+        },
+        {
+          "status": "precaucion",
+          "published_at": null,
+          "source_id": "fb_transito_scz",
+          "source_name": "Secretaría Municipal de Tránsito y Transporte",
+          "tier": 1,
+          "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?comment_id=28457160830589112&__cft__[0]=AZjNBxrdS2a7grq0L8tOmbFty5FqeP1rWuJYxDUkZ-cPu_ZCrMNLpMBCO8CeLEoqKpkGSn2b30OGXo5mnXoysBz9-bfVBi7daVqS8QKOcbbJh3gqxYIFNiQjSoofDDMz4y4vD7rDCKtg-xvPTnjJmRcIC_Uo2t1FT23rqZpAS2bTfSsyuJxafoPD4jI&__tn__=R-R"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "fb_transito_scz",
+          "name": "Secretaría Municipal de Tránsito y Transporte",
+          "class": "facebook_official",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/",
+          "post_url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZjNBxrdS2a7grq0L8tOmbFty5FqeP1rWuJYxDUkZ-cPu_ZCrMNLpMBCO8CeLEoqKpkGSn2b30OGXo5mnXoysBz9-bfVBi7daVqS8QKOcbbJh3gqxYIFNiQjSoofDDMz4y4vD7rDCKtg-xvPTnjJmRcIC_Uo2t1FT23rqZpAS2bTfSsyuJxafoPD4jI&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-hkg1-1.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I91tbAOxwvkQ7kNvwFTVdX1&_nc_oc=AdrE2Qa5e8dElh5X_LW1J8xsF2OBqlDzlECHne5TGGJHQk1GxvBCOgYqBNfnMHs9ksA&_nc_zt=24&_nc_ht=scontent-hkg1-1.xx&_nc_gid=2Hul9q_LY4mC26JQoMbVhQ&_nc_ss=7f289&oh=00_AQKkm9Mdrurp6G_qxg8aiLUx_Zx44V9_Riq0Uk3eUJRPFQ&oe=6AAFA651",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZjNBxrdS2a7grq0L8tOmbFty5FqeP1rWuJYxDUkZ-cPu_ZCrMNLpMBCO8CeLEoqKpkGSn2b30OGXo5mnXoysBz9-bfVBi7daVqS8QKOcbbJh3gqxYIFNiQjSoofDDMz4y4vD7rDCKtg-xvPTnjJmRcIC_Uo2t1FT23rqZpAS2bTfSsyuJxafoPD4jI&__tn__=%2CO%2CP-R",
+        "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?comment_id=28457160830589112&__cft__[0]=AZjNBxrdS2a7grq0L8tOmbFty5FqeP1rWuJYxDUkZ-cPu_ZCrMNLpMBCO8CeLEoqKpkGSn2b30OGXo5mnXoysBz9-bfVBi7daVqS8QKOcbbJh3gqxYIFNiQjSoofDDMz4y4vD7rDCKtg-xvPTnjJmRcIC_Uo2t1FT23rqZpAS2bTfSsyuJxafoPD4jI&__tn__=R-R"
+      ],
+      "merged_items": 2,
+      "incident_id": "inc_a399a271456dbc",
+      "first_seen_at": "2026-09-15T12:55:40-04:00",
+      "history": [
+        {
+          "at": "2026-09-15T12:55:40-04:00",
+          "detected_at": "2026-09-15T12:55:40-04:00",
+          "reason": "primera_deteccion",
+          "status": "precaucion",
+          "lifecycle_status": "activo",
+          "severity": "media",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "Secretaría Municipal de Tránsito y Transporte"
+          ],
+          "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZhS_jy_nU7D9NvkZ5qdoiBZCOquq9j3-l4szfoWKR-9wOt00PjiZwQLuVGzf56Tv1kisx23y6Qbin3dVXdqtU7B8z4lXGtRMCyuxabEaJwYDpNFzNzuT76Da7KQ13XRtVRS-FwdGCb_gP7s--aH5Bvc0qdavXY4vb7Ez5NaVk0vaqTei691jX1uBUM&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "lifecycle_status": "activo",
+      "is_active": true,
+      "last_seen_at": "2026-09-15T18:56:10-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -149,7 +289,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-09-15T16:15:15-04:00",
+      "scraped_at": "2026-09-15T18:56:10-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -291,7 +431,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-09-15T16:15:15-04:00",
+      "last_seen_at": "2026-09-15T18:56:10-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -305,7 +445,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/abc-participa-en-las-mesas-tecnicas-interinstitucionales-con-31-alcaldes-de-santa-cruz-y-anuncia-la-reactivacion-y-licitacion-de-carreteras/",
       "published_at": null,
-      "scraped_at": "2026-09-15T16:15:15-04:00",
+      "scraped_at": "2026-09-15T18:56:10-04:00",
       "department": "Santa Cruz",
       "municipality": "Warnes",
       "city": "Warnes",
@@ -425,7 +565,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-09-15T16:15:15-04:00",
+      "last_seen_at": "2026-09-15T18:56:10-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -439,7 +579,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/el-ministerio-de-obras-publicas-y-la-abc-avanzan-en-las-gestiones-para-la-nueva-carretera-la-paz-cochabamba-y-explican-el-proyecto-en-la-brigada-parlamentaria-de-la-paz/",
       "published_at": null,
-      "scraped_at": "2026-09-15T16:15:15-04:00",
+      "scraped_at": "2026-09-15T18:56:10-04:00",
       "department": "Cochabamba",
       "municipality": "La Paz",
       "city": "Cochabamba",
@@ -562,148 +702,8 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-09-15T16:15:15-04:00",
+      "last_seen_at": "2026-09-15T18:56:10-04:00",
       "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "034b3e92e4eac2a3",
-      "source_id": "fb_transito_scz",
-      "source_name": "Secretaría Municipal de Tránsito y Transporte",
-      "source_url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/",
-      "source_class": "facebook_official",
-      "source_tier": 1,
-      "source_icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I91tbAOxwvkQ7kNvwF9sH3V&_nc_oc=AdrLvegntg9Xl311QsBQ3HMsi0ESzuR0nNC_JeFNiGSKOxMaV-4hsY4wPzQ0SAU_TzM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Mw38-cm4tFGT7v2O5GLPnw&_nc_ss=7f289&oh=00_AQKd0ZbRJUAAgIBg_bBJwWO_fm8-S1x5IjC8F7NvdDGdYA&oe=6AAF35D1",
-      "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZhS_jy_nU7D9NvkZ5qdoiBZCOquq9j3-l4szfoWKR-9wOt00PjiZwQLuVGzf56Tv1kisx23y6Qbin3dVXdqtU7B8z4lXGtRMCyuxabEaJwYDpNFzNzuT76Da7KQ13XRtVRS-FwdGCb_gP7s--aH5Bvc0qdavXY4vb7Ez5NaVk0vaqTei691jX1uBUM&__tn__=%2CO%2CP-R",
-      "published_at": null,
-      "scraped_at": "2026-09-15T12:55:40-04:00",
-      "department": "Santa Cruz",
-      "municipality": "Santa Cruz de la Sierra",
-      "city": "Santa Cruz de la Sierra",
-      "event_type": "congestion",
-      "cause": null,
-      "status": "precaucion",
-      "closure_scope": null,
-      "severity": "media",
-      "confidence": 0.95,
-      "relevance_score": 59,
-      "filter_reasons": [
-        "contexto_vial:3",
-        "evento:congestion",
-        "via_detectada:1",
-        "terminos_viales:4",
-        "fuente_oficial_facebook"
-      ],
-      "title": "¡Trabajo en equipo por una ciudad más limpia y ordenada!",
-      "description": "¡Trabajo en equipo por una ciudad más limpia y ordenada! Nu... Ver más ¡Trabajo en equipo por una ciudad más limpia y ordenada! Nu... Ver más Estimados colegas, por favor solicito con carácter de extrema urgencia la reparación del semáforo ubicado en el 8vo. Anillo y Av. Banzer, ingreso a Remanso. El semáforo lleva dos días sin funcionar, lo que está generando una importante congestión vehi... Ver más Mariana Daga Estimados colegas, por favor solicito con carácter de extrema urgencia la reparación del semáforo ubicado en el 8vo. Anillo y Av. Banzer, ingreso a Remanso. El semáforo lleva dos días sin funcionar, lo que está generando una importante congestión vehi... Ver más",
-      "original_text": "¡Trabajo en equipo por una ciudad más limpia y ordenada! Nu... Ver más ¡Trabajo en equipo por una ciudad más limpia y ordenada! Nu... Ver más Estimados colegas, por favor solicito con carácter de extrema urgencia la reparación del semáforo ubicado en el 8vo. Anillo y Av. Banzer, ingreso a Remanso. El semáforo lleva dos días sin funcionar, lo que está generando una importante congestión vehi... Ver más Mariana Daga Estimados colegas, por favor solicito con carácter de extrema urgencia la reparación del semáforo ubicado en el 8vo. Anillo y Av. Banzer, ingreso a Remanso. El semáforo lleva dos días sin funcionar, lo que está generando una importante congestión vehi... Ver más",
-      "roads": [
-        "Anillo y Av"
-      ],
-      "places": [],
-      "kilometer_mentions": [],
-      "directions": [
-        "Trabajo en equipo por una ciud -> d más limpia y ordenada",
-        "Nu... Ver más Estim -> dos colegas",
-        "por favor solicito con carácter de extrem -> urgencia la reparación del semáforo ubica",
-        "en el 8vo. Anillo y Av. B -> nzer",
-        "ingreso a Remanso. El semáforo llev -> dos días sin funcionar",
-        "lo que está generando una import -> nte congestión vehi... Ver más Mariana Da",
-        "Estim -> dos colegas",
-        "lo que está generando una import -> nte congestión vehi... Ver más"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "congestión",
-        "anillo",
-        "ingreso",
-        "semáforo"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "Anillo y Av, Santa Cruz de la Sierra, Santa Cruz, Bolivia",
-      "image_urls": [
-        "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/810900635_1396307959283997_581245255368040177_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x1638&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jrpuOipmdesQ7kNvwGe_T6v&_nc_oc=AdrNidLgAO3bhcHC0rG5wFTxb8_8nzoM3Ovj3UgOui-CCgS09EBNDhekfBKQzb0-hUQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=BK5zhCeXCChozSi0DhYrZw&_nc_ss=7f289&oh=00_AQIEb1XXmcCIcU4nkVyC8C3Z27wvwRgjQMaqRlS9RKe4mQ&oe=6AAF47D4"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/810900635_1396307959283997_581245255368040177_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x1638&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jrpuOipmdesQ7kNvwGe_T6v&_nc_oc=AdrNidLgAO3bhcHC0rG5wFTxb8_8nzoM3Ovj3UgOui-CCgS09EBNDhekfBKQzb0-hUQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=BK5zhCeXCChozSi0DhYrZw&_nc_ss=7f289&oh=00_AQIEb1XXmcCIcU4nkVyC8C3Z27wvwRgjQMaqRlS9RKe4mQ&oe=6AAF47D4",
-      "has_image": true,
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/810900635_1396307959283997_581245255368040177_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x1638&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jrpuOipmdesQ7kNvwGe_T6v&_nc_oc=AdrNidLgAO3bhcHC0rG5wFTxb8_8nzoM3Ovj3UgOui-CCgS09EBNDhekfBKQzb0-hUQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=BK5zhCeXCChozSi0DhYrZw&_nc_ss=7f289&oh=00_AQIEb1XXmcCIcU4nkVyC8C3Z27wvwRgjQMaqRlS9RKe4mQ&oe=6AAF47D4"
-        ],
-        "main_image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/810900635_1396307959283997_581245255368040177_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x1638&ctp=s640x640&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jrpuOipmdesQ7kNvwGe_T6v&_nc_oc=AdrNidLgAO3bhcHC0rG5wFTxb8_8nzoM3Ovj3UgOui-CCgS09EBNDhekfBKQzb0-hUQ&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=BK5zhCeXCChozSi0DhYrZw&_nc_ss=7f289&oh=00_AQIEb1XXmcCIcU4nkVyC8C3Z27wvwRgjQMaqRlS9RKe4mQ&oe=6AAF47D4",
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "precaucion",
-          "published_at": null,
-          "source_id": "fb_transito_scz",
-          "source_name": "Secretaría Municipal de Tránsito y Transporte",
-          "tier": 1,
-          "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZhS_jy_nU7D9NvkZ5qdoiBZCOquq9j3-l4szfoWKR-9wOt00PjiZwQLuVGzf56Tv1kisx23y6Qbin3dVXdqtU7B8z4lXGtRMCyuxabEaJwYDpNFzNzuT76Da7KQ13XRtVRS-FwdGCb_gP7s--aH5Bvc0qdavXY4vb7Ez5NaVk0vaqTei691jX1uBUM&__tn__=%2CO%2CP-R"
-        },
-        {
-          "status": "precaucion",
-          "published_at": null,
-          "source_id": "fb_transito_scz",
-          "source_name": "Secretaría Municipal de Tránsito y Transporte",
-          "tier": 1,
-          "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?comment_id=28457160830589112&__cft__[0]=AZhS_jy_nU7D9NvkZ5qdoiBZCOquq9j3-l4szfoWKR-9wOt00PjiZwQLuVGzf56Tv1kisx23y6Qbin3dVXdqtU7B8z4lXGtRMCyuxabEaJwYDpNFzNzuT76Da7KQ13XRtVRS-FwdGCb_gP7s--aH5Bvc0qdavXY4vb7Ez5NaVk0vaqTei691jX1uBUM&__tn__=R-R"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "fb_transito_scz",
-          "name": "Secretaría Municipal de Tránsito y Transporte",
-          "class": "facebook_official",
-          "tier": 1,
-          "page_url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/",
-          "post_url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZhS_jy_nU7D9NvkZ5qdoiBZCOquq9j3-l4szfoWKR-9wOt00PjiZwQLuVGzf56Tv1kisx23y6Qbin3dVXdqtU7B8z4lXGtRMCyuxabEaJwYDpNFzNzuT76Da7KQ13XRtVRS-FwdGCb_gP7s--aH5Bvc0qdavXY4vb7Ez5NaVk0vaqTei691jX1uBUM&__tn__=%2CO%2CP-R",
-          "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I91tbAOxwvkQ7kNvwF9sH3V&_nc_oc=AdrLvegntg9Xl311QsBQ3HMsi0ESzuR0nNC_JeFNiGSKOxMaV-4hsY4wPzQ0SAU_TzM&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Mw38-cm4tFGT7v2O5GLPnw&_nc_ss=7f289&oh=00_AQKd0ZbRJUAAgIBg_bBJwWO_fm8-S1x5IjC8F7NvdDGdYA&oe=6AAF35D1",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZhS_jy_nU7D9NvkZ5qdoiBZCOquq9j3-l4szfoWKR-9wOt00PjiZwQLuVGzf56Tv1kisx23y6Qbin3dVXdqtU7B8z4lXGtRMCyuxabEaJwYDpNFzNzuT76Da7KQ13XRtVRS-FwdGCb_gP7s--aH5Bvc0qdavXY4vb7Ez5NaVk0vaqTei691jX1uBUM&__tn__=%2CO%2CP-R",
-        "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?comment_id=28457160830589112&__cft__[0]=AZhS_jy_nU7D9NvkZ5qdoiBZCOquq9j3-l4szfoWKR-9wOt00PjiZwQLuVGzf56Tv1kisx23y6Qbin3dVXdqtU7B8z4lXGtRMCyuxabEaJwYDpNFzNzuT76Da7KQ13XRtVRS-FwdGCb_gP7s--aH5Bvc0qdavXY4vb7Ez5NaVk0vaqTei691jX1uBUM&__tn__=R-R"
-      ],
-      "merged_items": 2,
-      "incident_id": "inc_a399a271456dbc",
-      "first_seen_at": "2026-09-15T12:55:40-04:00",
-      "history": [
-        {
-          "at": "2026-09-15T12:55:40-04:00",
-          "detected_at": "2026-09-15T12:55:40-04:00",
-          "reason": "primera_deteccion",
-          "status": "precaucion",
-          "lifecycle_status": "activo",
-          "severity": "media",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "Secretaría Municipal de Tránsito y Transporte"
-          ],
-          "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid032yXGvveUYPBg58Zgz89Fg9v8oSK8E5dyW4f1NmYtRdJUAdkcWUNbiZ3p9gfH6P2Ml?__cft__[0]=AZhS_jy_nU7D9NvkZ5qdoiBZCOquq9j3-l4szfoWKR-9wOt00PjiZwQLuVGzf56Tv1kisx23y6Qbin3dVXdqtU7B8z4lXGtRMCyuxabEaJwYDpNFzNzuT76Da7KQ13XRtVRS-FwdGCb_gP7s--aH5Bvc0qdavXY4vb7Ez5NaVk0vaqTei691jX1uBUM&__tn__=%2CO%2CP-R"
-        }
-      ],
-      "lifecycle_status": "sin_actualizacion",
-      "is_active": true,
-      "last_seen_at": "2026-09-15T12:55:40-04:00",
-      "seen_this_run": false,
       "history_count": 1
     },
     {
