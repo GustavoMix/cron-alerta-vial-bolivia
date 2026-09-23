@@ -1,17 +1,767 @@
 {
   "schema_version": "3.2-fast",
-  "generated_at": "2026-09-23T09:03:27-04:00",
+  "generated_at": "2026-09-23T13:52:38-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "facebook_sources": 30,
     "web_sources": 7,
-    "sources_ok": 26,
-    "sources_error": 11,
-    "raw_publications": 33,
-    "vial_publications": 0,
-    "incidents": 0
+    "sources_ok": 25,
+    "sources_error": 12,
+    "raw_publications": 35,
+    "vial_publications": 7,
+    "incidents": 5
   },
-  "incidents": [],
+  "incidents": [
+    {
+      "id": "a96469e3f4c22e7e",
+      "source_id": "web_abc_comunicados",
+      "source_name": "ABC - Comunicados",
+      "source_url": "https://www.abc.gob.bo/lista-comunicados-page/",
+      "source_class": "web_official",
+      "source_tier": 2,
+      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+      "url": "https://www.abc.gob.bo/lista-comunicados-page/",
+      "published_at": null,
+      "scraped_at": "2026-09-23T13:52:38-04:00",
+      "department": "Cochabamba",
+      "municipality": "Cochabamba",
+      "city": "Cochabamba",
+      "event_type": "derrumbe",
+      "cause": "lluvia",
+      "status": "cerrado",
+      "closure_scope": "total",
+      "severity": "alta",
+      "confidence": 0.88,
+      "relevance_score": 88,
+      "filter_reasons": [
+        "contexto_vial:5",
+        "evento:derrumbe",
+        "via_detectada:3",
+        "sector_detectado:2",
+        "terminos_viales:9",
+        "fuente_oficial_web"
+      ],
+      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
+      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Fecha Desde Fecha Hasta Nombre o Descripción Buscar comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Descargar PDF Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Descargar PDF Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Descargar PDF Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Descargar PDF Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Descargar PDF Ver comunicado 10/03/2026 | Cochabamba Trabajos de rehabilitación Descargar PDF Ver comunicado 24/02/2026 | Beni La Administradora Boliviana de Carreteras (ABC) – Regional Beni informa a los usuarios de la Red Vial Fundamental que, debido a la saturación de la plataforma ocasionada por las constantes lluvias, se dispone el CIERRE TOTAL Y PREVENTIVO POR 24 HORAS del tramo BN05, en San Pedro Nuevo – San Ramón – San Javier – San Joaquín desde el día de mañana 25 de febrero Descargar PDF Ver comunicado 20/02/2026 | Chiquisaca Derrumbe de magnitud en Chuquisaca, en el sector denominado Muela del Diablo, ubicado en las proximidades del centro poblado de Muyupampa, tramo Monteagudo-Ipati Descargar PDF Ver comunicado 18/02/2026 | Cochabamba Restricción vehicular en la carretera Cochabamba - Oruro Descargar PDF Ver comunicado 12/02/2026 | Cochabamba-Oruro Se levanta la restricción vehicular en la carretera Cochabamba - Oruro entre las localidades Bombeo y Llavini, desde hoy jueves 12 de febrero hasta el 18 de febrero. Luego se tienen nuevos horarios de restricción vehicular. Descargar PDF Ver comunicado Comunicado Descargar",
+      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Fecha Desde Fecha Hasta Nombre o Descripción Buscar comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Descargar PDF Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Descargar PDF Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Descargar PDF Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Descargar PDF Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Descargar PDF Ver comunicado 10/03/2026 | Cochabamba Trabajos de rehabilitación Descargar PDF Ver comunicado 24/02/2026 | Beni La Administradora Boliviana de Carreteras (ABC) – Regional Beni informa a los usuarios de la Red Vial Fundamental que, debido a la saturación de la plataforma ocasionada por las constantes lluvias, se dispone el CIERRE TOTAL Y PREVENTIVO POR 24 HORAS del tramo BN05, en San Pedro Nuevo – San Ramón – San Javier – San Joaquín desde el día de mañana 25 de febrero Descargar PDF Ver comunicado 20/02/2026 | Chiquisaca Derrumbe de magnitud en Chuquisaca, en el sector denominado Muela del Diablo, ubicado en las proximidades del centro poblado de Muyupampa, tramo Monteagudo-Ipati Descargar PDF Ver comunicado 18/02/2026 | Cochabamba Restricción vehicular en la carretera Cochabamba - Oruro Descargar PDF Ver comunicado 12/02/2026 | Cochabamba-Oruro Se levanta la restricción vehicular en la carretera Cochabamba - Oruro entre las localidades Bombeo y Llavini, desde hoy jueves 12 de febrero hasta el 18 de febrero. Luego se tienen nuevos horarios de restricción vehicular. Descargar PDF Ver comunicado Comunicado Descargar",
+      "roads": [
+        "Puente Sacta sufrió un colapso",
+        "tramo BN05",
+        "carretera Cochabamba - Oruro Descargar PDF Ver comunicado 12/02/2026 | Cochabamba-Oruro Se levanta la restricción vehicular en la carretera Cochabamba - Oruro"
+      ],
+      "places": [
+        "Puente Sacta sufrió un colapso",
+        "sector denominado Muela del Diablo"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "del navegador",
+        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
+        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
+        "form -> exclusiva. Uso de https",
+        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
+        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
+        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
+        "compartir información sensible únic -> mnete con portales oficiales asegurados"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "cierre",
+        "cierre total",
+        "derrumbe",
+        "carretera",
+        "ruta",
+        "puente",
+        "tramo",
+        "red vial fundamental",
+        "restricción vehicular"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "Puente Sacta sufrió un colapso, Cochabamba, Bolivia",
+      "image_urls": [],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": null,
+      "has_image": false,
+      "has_video": false,
+      "media": {
+        "images": [],
+        "main_image_url": null,
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "cerrado",
+          "published_at": null,
+          "source_id": "web_abc_comunicados",
+          "source_name": "ABC - Comunicados",
+          "tier": 2,
+          "url": "https://www.abc.gob.bo/lista-comunicados-page/"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "web_abc_comunicados",
+          "name": "ABC - Comunicados",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://www.abc.gob.bo/lista-comunicados-page/",
+          "post_url": "https://www.abc.gob.bo/lista-comunicados-page/",
+          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.abc.gob.bo/lista-comunicados-page/"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_20583586a96537",
+      "first_seen_at": "2026-08-28T13:44:08-04:00",
+      "history": [
+        {
+          "at": "2026-08-28T13:44:08-04:00",
+          "detected_at": "2026-08-28T13:44:08-04:00",
+          "reason": "primera_deteccion",
+          "status": "cerrado",
+          "lifecycle_status": "activo",
+          "severity": "alta",
+          "closure_scope": "total",
+          "source_count": 1,
+          "sources": [
+            "ABC - Comunicados"
+          ],
+          "url": "https://www.abc.gob.bo/lista-comunicados-page/"
+        }
+      ],
+      "lifecycle_status": "activo",
+      "is_active": true,
+      "last_seen_at": "2026-09-23T13:52:38-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "fd589b811e8041b0",
+      "source_id": "fb_alcaldia_el_alto",
+      "source_name": "Gobierno Autónomo Municipal de El Alto",
+      "source_url": "https://www.facebook.com/ElAltoAlcaldia/",
+      "source_class": "facebook_official",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-lIN1XGce7IQ7kNvwG6Ywuy&_nc_oc=AdpDYr4ug9UhsWlf4IZ06p9I4qW0WQAcC5FevtXCQrKyqoVWbLwAKmhHAo37YmUA5zk&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=smvwAr2Fh_Ne2tDS8HwZYQ&_nc_ss=7f289&oh=00_AQK-CJOD4cb2JVCcBReHE0N12TRkT-4he7lDhj2miRsEFw&oe=6AB9F000",
+      "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02TswZADhxpjxdWvUTmfeqepQppEV7XdLFYvqJ5nyHGYNXH6kUMcL6t6CXfrtqZk4tl?comment_id=1833492867820622&__cft__[0]=AZhmybfWBuaax5RA4-7dpCjhNv5LmnIUfA-nkE0SI0_B8ynoq1nhy8bNNqcyIiKAxODpzl3nkRUQZmRo-neJHP84bxKzpbTk13tjUmahWwlJaSh2GpM6HHlxno-4ujU23mtm6ycn0VTUpATwTLsBg3yktWYPmMQ-B2TzUH57feTpCO5wyhTwmoel11A&__tn__=R-R",
+      "published_at": null,
+      "scraped_at": "2026-09-23T13:52:38-04:00",
+      "department": "La Paz",
+      "municipality": "Viacha",
+      "city": "El Alto",
+      "event_type": "bloqueo",
+      "cause": null,
+      "status": "cerrado",
+      "closure_scope": null,
+      "severity": "media",
+      "confidence": 0.99,
+      "relevance_score": 100,
+      "filter_reasons": [
+        "frase_vial_directa:1",
+        "contexto_vial:3",
+        "evento:bloqueo",
+        "via_detectada:3",
+        "sector_detectado:1",
+        "terminos_viales:3",
+        "fuente_oficial_facebook"
+      ],
+      "title": "Angelica Chino Bautista comentó: En el puente es la trancadera",
+      "description": "🔴 #AHORA || De esta manera, se lleva operativos de despejé en la avenida Hernani, Río Secó, altura empresa Monterrey. Información en desarrollo..... #AHORA || De esta manera, se lleva operativos de despejé en la avenida Hernani, Río Secó, altura empresa Monterrey. Información en desarrollo.. #LoÚltimo #ElAlto #RíoSeco #AvenidaHernani #AHORA || De esta manera, se lleva operativos de despejé en la avenida Hernani, Río Secó, altura empresa Monterrey. Información en desarrollo.. #LoÚltimo #ElAlto #RíoSeco #AvenidaHernani En el puente es la trancadera Y las cocinas en la Av. Alfonso Ugarte Que bueno En serío se fijan en eso si ahí no causan trancaderas Porque no van a la principal juan Pablo 2do Altura upea rio seco extranca Prácticamente nos sirven sus técnicos Jaja es enserio y por el cruce villa Adela cuando que acá los letreros y agencias de coca colas no hay ni aceras Enserio si que es un gran logro lo que hacen los guardias jajajaja una broma lo que hacen y las avenidas principales están llenas de paradas y comerciales Tiene q ser una broma, si nadie camina por ahi.. Tienen q ir a la ceja, 16 de julio, camino a Viacha, tantos lugares y van dónde no se lo necesita Vayan y Bean de la plaza 16 de julio avía la plaza del maestro párese q se lo compraron la avenida más los de las tiendas no ay donde parquear",
+      "original_text": "🔴 #AHORA || De esta manera, se lleva operativos de despejé en la avenida Hernani, Río Secó, altura empresa Monterrey. Información en desarrollo..... #AHORA || De esta manera, se lleva operativos de despejé en la avenida Hernani, Río Secó, altura empresa Monterrey. Información en desarrollo.. #LoÚltimo #ElAlto #RíoSeco #AvenidaHernani #AHORA || De esta manera, se lleva operativos de despejé en la avenida Hernani, Río Secó, altura empresa Monterrey. Información en desarrollo.. #LoÚltimo #ElAlto #RíoSeco #AvenidaHernani En el puente es la trancadera Y las cocinas en la Av. Alfonso Ugarte Que bueno En serío se fijan en eso si ahí no causan trancaderas Porque no van a la principal juan Pablo 2do Altura upea rio seco extranca Prácticamente nos sirven sus técnicos Jaja es enserio y por el cruce villa Adela cuando que acá los letreros y agencias de coca colas no hay ni aceras Enserio si que es un gran logro lo que hacen los guardias jajajaja una broma lo que hacen y las avenidas principales están llenas de paradas y comerciales Tiene q ser una broma, si nadie camina por ahi.. Tienen q ir a la ceja, 16 de julio, camino a Viacha, tantos lugares y van dónde no se lo necesita Vayan y Bean de la plaza 16 de julio avía la plaza del maestro párese q se lo compraron la avenida más los de las tiendas no ay donde parquear",
+      "roads": [
+        "avenida Hernani",
+        "puente es la trancadera Ver más comentarios Angelica Chino Bautista",
+        "puente es la trancadera Y las cocinas en la Av",
+        "avenida más los de las tiendas no ay donde parquear"
+      ],
+      "places": [
+        "puente es la trancadera Ver más comentarios Angelica Chino Bautista",
+        "puente es la trancadera Y las cocinas en la Av"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "De esta m -> nera",
+        "se lleva operativos de despejé en la -> venida Hernani",
+        "altura empres -> Monterrey.... Ver más En el puente es la",
+        "trancadera Ver más comentarios Angelic -> Chino Bautista",
+        "altura empresa Monterrey. Inform -> ción en desarrollo",
+        "AvenidaHern -> ni",
+        "AvenidaHernani En el puente es la tranc -> dera Y las cocinas en la Av. Alfonso Ugar",
+        "Que bueno En serío se fijan en eso si -> hí no causan trancaderas Porque no van a",
+        "la principal juan Pablo 2do Altura upe -> rio seco extranca Prácticamente nos sirve",
+        "sus técnicos Jaj -> es enserio y por el cruce villa Adela cua"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "trancadera",
+        "avenida",
+        "puente"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "avenida Hernani, Viacha, El Alto, La Paz, Bolivia",
+      "image_urls": [
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/821523565_1131962612827429_5219662986410637655_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7Q_L0oR3W44Q7kNvwHKHsAI&_nc_oc=AdrmFxJ00Ia0oVeR2kzGI4nFeNYLmACBLdNys0DKp1blXbh5ASBc07XQI4SY0bAXiRw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=8S6luku1biTwihmz09UnDQ&_nc_ss=7f289&oh=00_AQLxbrkK9GtAGqb9V-f9JvhA1cEsuEv40LHLeaDKKH1_qw&oe=6AB9D341",
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/818954926_28718413384411484_6545284025485385849_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rNlgHQBNBtQQ7kNvwHbHgf3&_nc_oc=AdoSX1hjU-7D3nTcbNnEFA1TodjomVazpPel4gaJWseymThnBp8fdrZjuyP_z9nU06Q&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=8S6luku1biTwihmz09UnDQ&_nc_ss=7f289&oh=00_AQK97p-DBBEBvtHnju5DkERCSH-a8t9uIf-dJ2uhNEGi6Q&oe=6AB9DB1E",
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/821665115_4644281579176136_8796322974358385848_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=N_RqWGgXuZAQ7kNvwGUmgVc&_nc_oc=AdoTnwd9kCJZ2B3Ys73YjoK7-7DV3X4qs4A4clmPTkBjNekR_BfQBejmtMc-W5dgxcg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=8S6luku1biTwihmz09UnDQ&_nc_ss=7f289&oh=00_AQJlYl_-XTp39nOEuCwi6it9rUOExlHivu4YI6qGB4CPag&oe=6AB9F0D3",
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/821523565_1131962612827429_5219662986410637655_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=p600x600&_nc_cat=108&ccb=1-7&_nc_sid=b96d88&_nc_ohc=7Q_L0oR3W44Q7kNvwHKHsAI&_nc_oc=AdrmFxJ00Ia0oVeR2kzGI4nFeNYLmACBLdNys0DKp1blXbh5ASBc07XQI4SY0bAXiRw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ttUuaB3dU0xIqffNmJ_Slw&_nc_ss=7f289&oh=00_AQInvAYl2qwLEyw95FvkEuiMmaFjX0rayEJLjJ4jBDdE7w&oe=6AB9D341"
+      ],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/821523565_1131962612827429_5219662986410637655_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7Q_L0oR3W44Q7kNvwHKHsAI&_nc_oc=AdrmFxJ00Ia0oVeR2kzGI4nFeNYLmACBLdNys0DKp1blXbh5ASBc07XQI4SY0bAXiRw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=8S6luku1biTwihmz09UnDQ&_nc_ss=7f289&oh=00_AQLxbrkK9GtAGqb9V-f9JvhA1cEsuEv40LHLeaDKKH1_qw&oe=6AB9D341",
+      "has_image": true,
+      "has_video": false,
+      "media": {
+        "images": [
+          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/821523565_1131962612827429_5219662986410637655_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7Q_L0oR3W44Q7kNvwHKHsAI&_nc_oc=AdrmFxJ00Ia0oVeR2kzGI4nFeNYLmACBLdNys0DKp1blXbh5ASBc07XQI4SY0bAXiRw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=8S6luku1biTwihmz09UnDQ&_nc_ss=7f289&oh=00_AQLxbrkK9GtAGqb9V-f9JvhA1cEsuEv40LHLeaDKKH1_qw&oe=6AB9D341",
+          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/818954926_28718413384411484_6545284025485385849_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rNlgHQBNBtQQ7kNvwHbHgf3&_nc_oc=AdoSX1hjU-7D3nTcbNnEFA1TodjomVazpPel4gaJWseymThnBp8fdrZjuyP_z9nU06Q&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=8S6luku1biTwihmz09UnDQ&_nc_ss=7f289&oh=00_AQK97p-DBBEBvtHnju5DkERCSH-a8t9uIf-dJ2uhNEGi6Q&oe=6AB9DB1E",
+          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/821665115_4644281579176136_8796322974358385848_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=N_RqWGgXuZAQ7kNvwGUmgVc&_nc_oc=AdoTnwd9kCJZ2B3Ys73YjoK7-7DV3X4qs4A4clmPTkBjNekR_BfQBejmtMc-W5dgxcg&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=8S6luku1biTwihmz09UnDQ&_nc_ss=7f289&oh=00_AQJlYl_-XTp39nOEuCwi6it9rUOExlHivu4YI6qGB4CPag&oe=6AB9F0D3",
+          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/821523565_1131962612827429_5219662986410637655_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=p600x600&_nc_cat=108&ccb=1-7&_nc_sid=b96d88&_nc_ohc=7Q_L0oR3W44Q7kNvwHKHsAI&_nc_oc=AdrmFxJ00Ia0oVeR2kzGI4nFeNYLmACBLdNys0DKp1blXbh5ASBc07XQI4SY0bAXiRw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=ttUuaB3dU0xIqffNmJ_Slw&_nc_ss=7f289&oh=00_AQInvAYl2qwLEyw95FvkEuiMmaFjX0rayEJLjJ4jBDdE7w&oe=6AB9D341"
+        ],
+        "main_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/821523565_1131962612827429_5219662986410637655_n.png?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7Q_L0oR3W44Q7kNvwHKHsAI&_nc_oc=AdrmFxJ00Ia0oVeR2kzGI4nFeNYLmACBLdNys0DKp1blXbh5ASBc07XQI4SY0bAXiRw&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=8S6luku1biTwihmz09UnDQ&_nc_ss=7f289&oh=00_AQLxbrkK9GtAGqb9V-f9JvhA1cEsuEv40LHLeaDKKH1_qw&oe=6AB9D341",
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "cerrado",
+          "published_at": null,
+          "source_id": "fb_alcaldia_el_alto",
+          "source_name": "Gobierno Autónomo Municipal de El Alto",
+          "tier": 1,
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02TswZADhxpjxdWvUTmfeqepQppEV7XdLFYvqJ5nyHGYNXH6kUMcL6t6CXfrtqZk4tl?__cft__[0]=AZhmybfWBuaax5RA4-7dpCjhNv5LmnIUfA-nkE0SI0_B8ynoq1nhy8bNNqcyIiKAxODpzl3nkRUQZmRo-neJHP84bxKzpbTk13tjUmahWwlJaSh2GpM6HHlxno-4ujU23mtm6ycn0VTUpATwTLsBg3yktWYPmMQ-B2TzUH57feTpCO5wyhTwmoel11A&__tn__=%2CO%2CP-R"
+        },
+        {
+          "status": "cerrado",
+          "published_at": null,
+          "source_id": "fb_alcaldia_el_alto",
+          "source_name": "Gobierno Autónomo Municipal de El Alto",
+          "tier": 1,
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02TswZADhxpjxdWvUTmfeqepQppEV7XdLFYvqJ5nyHGYNXH6kUMcL6t6CXfrtqZk4tl?comment_id=1833492867820622&__cft__[0]=AZhmybfWBuaax5RA4-7dpCjhNv5LmnIUfA-nkE0SI0_B8ynoq1nhy8bNNqcyIiKAxODpzl3nkRUQZmRo-neJHP84bxKzpbTk13tjUmahWwlJaSh2GpM6HHlxno-4ujU23mtm6ycn0VTUpATwTLsBg3yktWYPmMQ-B2TzUH57feTpCO5wyhTwmoel11A&__tn__=R-R"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "fb_alcaldia_el_alto",
+          "name": "Gobierno Autónomo Municipal de El Alto",
+          "class": "facebook_official",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/ElAltoAlcaldia/",
+          "post_url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02TswZADhxpjxdWvUTmfeqepQppEV7XdLFYvqJ5nyHGYNXH6kUMcL6t6CXfrtqZk4tl?__cft__[0]=AZhmybfWBuaax5RA4-7dpCjhNv5LmnIUfA-nkE0SI0_B8ynoq1nhy8bNNqcyIiKAxODpzl3nkRUQZmRo-neJHP84bxKzpbTk13tjUmahWwlJaSh2GpM6HHlxno-4ujU23mtm6ycn0VTUpATwTLsBg3yktWYPmMQ-B2TzUH57feTpCO5wyhTwmoel11A&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-lIN1XGce7IQ7kNvwG6Ywuy&_nc_oc=AdpDYr4ug9UhsWlf4IZ06p9I4qW0WQAcC5FevtXCQrKyqoVWbLwAKmhHAo37YmUA5zk&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=smvwAr2Fh_Ne2tDS8HwZYQ&_nc_ss=7f289&oh=00_AQK-CJOD4cb2JVCcBReHE0N12TRkT-4he7lDhj2miRsEFw&oe=6AB9F000",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02TswZADhxpjxdWvUTmfeqepQppEV7XdLFYvqJ5nyHGYNXH6kUMcL6t6CXfrtqZk4tl?__cft__[0]=AZhmybfWBuaax5RA4-7dpCjhNv5LmnIUfA-nkE0SI0_B8ynoq1nhy8bNNqcyIiKAxODpzl3nkRUQZmRo-neJHP84bxKzpbTk13tjUmahWwlJaSh2GpM6HHlxno-4ujU23mtm6ycn0VTUpATwTLsBg3yktWYPmMQ-B2TzUH57feTpCO5wyhTwmoel11A&__tn__=%2CO%2CP-R",
+        "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02TswZADhxpjxdWvUTmfeqepQppEV7XdLFYvqJ5nyHGYNXH6kUMcL6t6CXfrtqZk4tl?comment_id=1833492867820622&__cft__[0]=AZhmybfWBuaax5RA4-7dpCjhNv5LmnIUfA-nkE0SI0_B8ynoq1nhy8bNNqcyIiKAxODpzl3nkRUQZmRo-neJHP84bxKzpbTk13tjUmahWwlJaSh2GpM6HHlxno-4ujU23mtm6ycn0VTUpATwTLsBg3yktWYPmMQ-B2TzUH57feTpCO5wyhTwmoel11A&__tn__=R-R"
+      ],
+      "merged_items": 2,
+      "incident_id": "inc_25251afd19e3a2",
+      "first_seen_at": "2026-09-23T13:52:38-04:00",
+      "history": [
+        {
+          "at": "2026-09-23T13:52:38-04:00",
+          "detected_at": "2026-09-23T13:52:38-04:00",
+          "reason": "primera_deteccion",
+          "status": "cerrado",
+          "lifecycle_status": "activo",
+          "severity": "media",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "Gobierno Autónomo Municipal de El Alto"
+          ],
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid02TswZADhxpjxdWvUTmfeqepQppEV7XdLFYvqJ5nyHGYNXH6kUMcL6t6CXfrtqZk4tl?__cft__[0]=AZhmybfWBuaax5RA4-7dpCjhNv5LmnIUfA-nkE0SI0_B8ynoq1nhy8bNNqcyIiKAxODpzl3nkRUQZmRo-neJHP84bxKzpbTk13tjUmahWwlJaSh2GpM6HHlxno-4ujU23mtm6ycn0VTUpATwTLsBg3yktWYPmMQ-B2TzUH57feTpCO5wyhTwmoel11A&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "lifecycle_status": "activo",
+      "is_active": true,
+      "last_seen_at": "2026-09-23T13:52:38-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "0bf57bf81d34c076",
+      "source_id": "web_abc",
+      "source_name": "ABC - Administradora Boliviana de Carreteras",
+      "source_url": "https://www.abc.gob.bo/",
+      "source_class": "web_official",
+      "source_tier": 2,
+      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+      "url": "https://www.abc.gob.bo/nota_prensa/la-abc-inspecciona-el-vaciado-de-la-ultima-losa-en-los-puentes-rio-seque-y-rio-seco-en-la-paz-e-impulsa-el-corredor-internacional-oeste-norte/",
+      "published_at": null,
+      "scraped_at": "2026-09-23T13:52:38-04:00",
+      "department": "La Paz",
+      "municipality": "El Alto",
+      "city": "La Paz",
+      "event_type": "congestion",
+      "cause": "obras_mantenimiento",
+      "status": "precaucion",
+      "closure_scope": null,
+      "severity": "media",
+      "confidence": 0.89,
+      "relevance_score": 100,
+      "filter_reasons": [
+        "frase_vial_directa:1",
+        "contexto_vial:4",
+        "evento:congestion",
+        "via_detectada:2",
+        "sector_detectado:3",
+        "terminos_viales:5",
+        "fuente_oficial_web"
+      ],
+      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
+      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia LA ABC INSPECCIONA EL VACIADO DE LA ÚLTIMA LOSA EN LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ E IMPULSA EL CORREDOR INTERNACIONAL OESTE – NORTE Compartir ¡Enlace copiado al portapapeles! , 22 de septiembre de 2026 En el marco de las políticas de integración territorial y desarrollo de la infraestructura vial promovidas por la Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, se realizó una inspección técnica de campo del Proyecto de Construcción del Tramo Segundo Cruce Río Seque – La Cumbre; Fase II Puentes Río Seque – Río Seco, ubicado en el municipio de El Alto, del departamento de La Paz, que impulsa la conexión y de carga con el Norte Paceño, pero además promueve el corredor internacional Oeste – Norte que permitirá la unión de las fronteras de Perú ( Desaguadero) y Chile (Tambo Quemado) con el país. La comitiva estuvo encabezada por el gerente regional de la ABC en La Paz, Huver Luna Flores, junto al equipo de supervisión y la empresa contratista, quienes recorrieron y fiscalizaron las cuatro infraestructuras que componen esta obra estratégica. Durante la verificación operacional en sitio, las autoridades presenciaron el vaciado de la última losa de hormigón conforme al cronograma de ejecución. “Estamos haciendo una inspección al vaciado de la última losa que ya se tiene previsto. El proyecto ya está casi en un 86% a 90% de ejecución física”, destacó el gerente regional Huver Luna Flores, precisando que el proyecto beneficiará directamente al autotransporte pesado e interdepartamental con destino al Norte de La Paz y regiones aledañas, descongestionando el caos vehicular y asegurando una ruta alterna de alto impacto socioeconómico. Por su parte, la empresa constructora brindó especificaciones sobre el diseño técnico y la resistencia estructural de los pasos a desnivel. El superintendente de obra de la Asociación Accidental Lapachu, Ariel Aguirre, explicó que la infraestructura comprende dos puentes de 180 metros de longitud sobre el río Seque y dos de 140 metros sobre el río Seco. “Se han tomado todas las previsiones en las fundaciones con la construcción de pilotes para garantizar una vida útil plena de los puentes y no tener problemas con socavaciones”, aseveró Aguirre, añadiendo que la conectividad permitirá evacuar directamente la producción agropecuaria e industrial. Dirigentes y vecinos de la zona, expresaron su satisfacción por el continuo ritmo de trabajo y el despliegue en jornadas diurnas y nocturnas que permitió mantener el proyecto en plazo. Por su parte, el vicepresidente de la urbanización 9 de Noviembre, Teófilo Ramírez, señaló que la habilitación de este corredor vial directo a La Cumbre, pondrá fin a los severos atascamientos vehiculares del sector de Río Seco, mejorando significativamente su calidad de vida, revalorizando los terrenos de la zona e impulsando el asentamiento urbano en un área que anteriormente se consideraba postergada. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia LA ABC INSPECCIONA EL VACIADO DE LA ÚLTIMA LOSA EN LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ E IMPULSA EL CORREDOR INTERNACIONAL OESTE – NORTE Compartir ¡Enlace copiado al portapapeles! , 22 de septiembre de 2026 En el marco de las políticas de integración territorial y desarrollo de la infraestructura vial promovidas por la Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, se realizó una inspección técnica de campo del Proyecto de Construcción del Tramo Segundo Cruce Río Seque – La Cumbre; Fase II Puentes Río Seque – Río Seco, ubicado en el municipio de El Alto, del departamento de La Paz, que impulsa la conexión y de carga con el Norte Paceño, pero además promueve el corredor internacional Oeste – Norte que permitirá la unión de las fronteras de Perú ( Desaguadero) y Chile (Tambo Quemado) con el país. La comitiva estuvo encabezada por el gerente regional de la ABC en La Paz, Huver Luna Flores, junto al equipo de supervisión y la empresa contratista, quienes recorrieron y fiscalizaron las cuatro infraestructuras que componen esta obra estratégica. Durante la verificación operacional en sitio, las autoridades presenciaron el vaciado de la última losa de hormigón conforme al cronograma de ejecución. “Estamos haciendo una inspección al vaciado de la última losa que ya se tiene previsto. El proyecto ya está casi en un 86% a 90% de ejecución física”, destacó el gerente regional Huver Luna Flores, precisando que el proyecto beneficiará directamente al autotransporte pesado e interdepartamental con destino al Norte de La Paz y regiones aledañas, descongestionando el caos vehicular y asegurando una ruta alterna de alto impacto socioeconómico. Por su parte, la empresa constructora brindó especificaciones sobre el diseño técnico y la resistencia estructural de los pasos a desnivel. El superintendente de obra de la Asociación Accidental Lapachu, Ariel Aguirre, explicó que la infraestructura comprende dos puentes de 180 metros de longitud sobre el río Seque y dos de 140 metros sobre el río Seco. “Se han tomado todas las previsiones en las fundaciones con la construcción de pilotes para garantizar una vida útil plena de los puentes y no tener problemas con socavaciones”, aseveró Aguirre, añadiendo que la conectividad permitirá evacuar directamente la producción agropecuaria e industrial. Dirigentes y vecinos de la zona, expresaron su satisfacción por el continuo ritmo de trabajo y el despliegue en jornadas diurnas y nocturnas que permitió mantener el proyecto en plazo. Por su parte, el vicepresidente de la urbanización 9 de Noviembre, Teófilo Ramírez, señaló que la habilitación de este corredor vial directo a La Cumbre, pondrá fin a los severos atascamientos vehiculares del sector de Río Seco, mejorando significativamente su calidad de vida, revalorizando los terrenos de la zona e impulsando el asentamiento urbano en un área que anteriormente se consideraba postergada. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "roads": [
+        "Tramo Segundo Cruce Río Seque – La Cumbre",
+        "ruta alterna de alto impacto socioeconómico"
+      ],
+      "places": [
+        "Cruce Río Seque – La Cumbre",
+        "sector de Río Seco",
+        "zona e impulsando el asentamiento urbano en un área que anteriormente se consideraba postergada"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "del navegador",
+        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
+        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
+        "form -> exclusiva. Uso de https",
+        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
+        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
+        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
+        "compartir información sensible únic -> mnete con portales oficiales asegurados"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "caos vehicular",
+        "carretera",
+        "ruta",
+        "puente",
+        "tramo"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "Tramo Segundo Cruce Río Seque – La Cumbre, El Alto, La Paz, Bolivia",
+      "image_urls": [],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": null,
+      "has_image": false,
+      "has_video": false,
+      "media": {
+        "images": [],
+        "main_image_url": null,
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "precaucion",
+          "published_at": null,
+          "source_id": "web_abc",
+          "source_name": "ABC - Administradora Boliviana de Carreteras",
+          "tier": 2,
+          "url": "https://www.abc.gob.bo/nota_prensa/la-abc-inspecciona-el-vaciado-de-la-ultima-losa-en-los-puentes-rio-seque-y-rio-seco-en-la-paz-e-impulsa-el-corredor-internacional-oeste-norte/"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "web_abc",
+          "name": "ABC - Administradora Boliviana de Carreteras",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://www.abc.gob.bo/",
+          "post_url": "https://www.abc.gob.bo/nota_prensa/la-abc-inspecciona-el-vaciado-de-la-ultima-losa-en-los-puentes-rio-seque-y-rio-seco-en-la-paz-e-impulsa-el-corredor-internacional-oeste-norte/",
+          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.abc.gob.bo/nota_prensa/la-abc-inspecciona-el-vaciado-de-la-ultima-losa-en-los-puentes-rio-seque-y-rio-seco-en-la-paz-e-impulsa-el-corredor-internacional-oeste-norte/"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_9db0d172c309eb",
+      "first_seen_at": "2026-09-22T16:30:10-04:00",
+      "history": [
+        {
+          "at": "2026-09-22T16:30:10-04:00",
+          "detected_at": "2026-09-22T16:30:10-04:00",
+          "reason": "primera_deteccion",
+          "status": "precaucion",
+          "lifecycle_status": "activo",
+          "severity": "media",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "ABC - Administradora Boliviana de Carreteras"
+          ],
+          "url": "https://www.abc.gob.bo/nota_prensa/la-abc-inspecciona-el-vaciado-de-la-ultima-losa-en-los-puentes-rio-seque-y-rio-seco-en-la-paz-e-impulsa-el-corredor-internacional-oeste-norte/"
+        }
+      ],
+      "lifecycle_status": "activo",
+      "is_active": true,
+      "last_seen_at": "2026-09-23T13:52:38-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "98d740b3a656ce3e",
+      "source_id": "web_abc",
+      "source_name": "ABC - Administradora Boliviana de Carreteras",
+      "source_url": "https://www.abc.gob.bo/",
+      "source_class": "web_official",
+      "source_tier": 2,
+      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+      "url": "https://www.abc.gob.bo/",
+      "published_at": null,
+      "scraped_at": "2026-09-23T13:52:38-04:00",
+      "department": "La Paz",
+      "municipality": "La Paz",
+      "city": "La Paz",
+      "event_type": "obras",
+      "cause": "lluvia",
+      "status": "desconocido",
+      "closure_scope": null,
+      "severity": "baja",
+      "confidence": 0.95,
+      "relevance_score": 78,
+      "filter_reasons": [
+        "contexto_vial:11",
+        "evento:obras",
+        "via_detectada:2",
+        "sector_detectado:1",
+        "terminos_viales:10",
+        "fuente_oficial_web"
+      ],
+      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
+      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 22/09/2026 | LA ABC INSPECCIONA EL VACIADO DE LA ÚLTIMA LOSA EN LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ E IMPULSA EL CORREDOR INTERNACIONAL OESTE – NORTE Leer nota 17/09/2026 | GOBIERNO NACIONAL SE REÚNE CON LOS AYLLUS DEL NORTE DE POTOSÍ PARA UNA AGENDA DE TRABAJO Y ACUERDAN AGILIZAR PROYECTOS Leer nota 17/09/2026 | PANDO SE CONVIERTE EN EL PUNTO ESTRATÉGICO DE DESARROLLO VIAL Y COMERCIAL ENTRE EL ATLÁNTICO Y EL PACÍFICO Leer nota 17/09/2026 | EL MINISTERIO DE OBRAS PÚBLICAS Y LA ABC VIABILIZAN RECURSOS PARA REACTIVAR LA DOBLE VÍA INTERNACIONAL ORURO – CHALLAPATA PARA AVANZAR EN EL CORREDOR OESTE -SUR Leer nota 16/09/2026 | GOBIERNO NACIONAL Y LA ABC ASEGURAN RECURSOS PARA LA CONSTRUCCIÓN DE LA CARRETERA OKINAWA – LOS TRONCOS Y OKINAWA – GUABIRÁ EN BENEFICIO DEL NORTE INTEGRADO EN SANTA CRUZ Leer nota 16/09/2026 | LA ABC PRESENTA SU PLAN ESTRATÉGICO INSTITUCIONAL 2026–2030 CON GESTIÓN ORIENTADA A FORTALECER LA RED VIAL FUNDAMENTAL DE FORMA SUSTENTABLE Leer nota 15/09/2026 | LA ABC SE REÚNE CON EL GOBERNADOR DE LA PAZ PARA COORDINAR PROYECTOS DE DESARROLLO VIAL Leer nota 14/09/2026 | LA ABC Y LA ALCALDÍA DE LA PAZ SUSCRIBEN CONVENIO ESTRATÉGICO PARA MEJORAR LA RED VIAL Y ENFRENTAR EL FENÓMENO DE \"EL NIÑO\" Leer nota 10/09/2026 | GOBIERNO ANUNCIA HISTÓRICO PAQUETE DE CONSTRUCCIÓN Y REHABILITACIÓN VIAL DE BS 2.200 MILLONES PARA SANTA CRUZ Y VIABILIZA $us 55 MILLONES PARA EL CORREDOR CHIQUITANO ",
+      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 22/09/2026 | LA ABC INSPECCIONA EL VACIADO DE LA ÚLTIMA LOSA EN LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ E IMPULSA EL CORREDOR INTERNACIONAL OESTE – NORTE Leer nota 17/09/2026 | GOBIERNO NACIONAL SE REÚNE CON LOS AYLLUS DEL NORTE DE POTOSÍ PARA UNA AGENDA DE TRABAJO Y ACUERDAN AGILIZAR PROYECTOS Leer nota 17/09/2026 | PANDO SE CONVIERTE EN EL PUNTO ESTRATÉGICO DE DESARROLLO VIAL Y COMERCIAL ENTRE EL ATLÁNTICO Y EL PACÍFICO Leer nota 17/09/2026 | EL MINISTERIO DE OBRAS PÚBLICAS Y LA ABC VIABILIZAN RECURSOS PARA REACTIVAR LA DOBLE VÍA INTERNACIONAL ORURO – CHALLAPATA PARA AVANZAR EN EL CORREDOR OESTE -SUR Leer nota 16/09/2026 | GOBIERNO NACIONAL Y LA ABC ASEGURAN RECURSOS PARA LA CONSTRUCCIÓN DE LA CARRETERA OKINAWA – LOS TRONCOS Y OKINAWA – GUABIRÁ EN BENEFICIO DEL NORTE INTEGRADO EN SANTA CRUZ Leer nota 16/09/2026 | LA ABC PRESENTA SU PLAN ESTRATÉGICO INSTITUCIONAL 2026–2030 CON GESTIÓN ORIENTADA A FORTALECER LA RED VIAL FUNDAMENTAL DE FORMA SUSTENTABLE Leer nota 15/09/2026 | LA ABC SE REÚNE CON EL GOBERNADOR DE LA PAZ PARA COORDINAR PROYECTOS DE DESARROLLO VIAL Leer nota 14/09/2026 | LA ABC Y LA ALCALDÍA DE LA PAZ SUSCRIBEN CONVENIO ESTRATÉGICO PARA MEJORAR LA RED VIAL Y ENFRENTAR EL FENÓMENO DE \"EL NIÑO\" Leer nota 10/09/2026 | GOBIERNO ANUNCIA HISTÓRICO PAQUETE DE CONSTRUCCIÓN Y REHABILITACIÓN VIAL DE BS 2.200 MILLONES PARA SANTA CRUZ Y VIABILIZA $us 55 MILLONES PARA EL CORREDOR CHIQUITANO Leer nota Enlaces de Interes Ver todas los enlaces Transtabilidad Red Vial Fundamental-ABC EBC - Empresa Estratégica Boliviana de Construcción Ministerio de Obras Publicas Servicios y Vivienda Instituto Nacional de Estadísticas (INE) Ministerio de Gobierno Vicepresidencia del Estado Plurinacional de Bolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "roads": [
+        "Puente Sacta sufrió un colapso",
+        "tramo específico dentro de la Red Vial Fundamental (RVF)"
+      ],
+      "places": [
+        "Puente Sacta sufrió un colapso"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "del navegador",
+        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
+        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
+        "form -> exclusiva. Uso de https",
+        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
+        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
+        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
+        "compartir información sensible únic -> mnete con portales oficiales asegurados"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "cierre",
+        "carretera",
+        "ruta",
+        "puente",
+        "tramo",
+        "doble vía",
+        "red vial fundamental",
+        "rvf",
+        "transitabilidad",
+        "rehabilitación vial"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "Puente Sacta sufrió un colapso, La Paz, Bolivia",
+      "image_urls": [],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": null,
+      "has_image": false,
+      "has_video": false,
+      "media": {
+        "images": [],
+        "main_image_url": null,
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "desconocido",
+          "published_at": null,
+          "source_id": "web_abc",
+          "source_name": "ABC - Administradora Boliviana de Carreteras",
+          "tier": 2,
+          "url": "https://www.abc.gob.bo/"
+        },
+        {
+          "status": "desconocido",
+          "published_at": null,
+          "source_id": "web_abc_comunicados",
+          "source_name": "ABC - Comunicados",
+          "tier": 2,
+          "url": "https://www.abc.gob.bo/"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "web_abc",
+          "name": "ABC - Administradora Boliviana de Carreteras",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://www.abc.gob.bo/",
+          "post_url": "https://www.abc.gob.bo/",
+          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+          "published_at": null
+        },
+        {
+          "id": "web_abc_comunicados",
+          "name": "ABC - Comunicados",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://www.abc.gob.bo/lista-comunicados-page/",
+          "post_url": "https://www.abc.gob.bo/",
+          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+          "published_at": null
+        }
+      ],
+      "source_count": 2,
+      "verification": "web_oficial_confirmado",
+      "corroborated": true,
+      "all_urls": [
+        "https://www.abc.gob.bo/"
+      ],
+      "merged_items": 2,
+      "incident_id": "inc_c1e5b941a8b0a8",
+      "first_seen_at": "2026-08-12T15:45:26-04:00",
+      "history": [
+        {
+          "at": "2026-08-12T15:45:26-04:00",
+          "detected_at": "2026-08-12T15:45:26-04:00",
+          "reason": "primera_deteccion",
+          "status": "habilitado",
+          "lifecycle_status": "finalizado",
+          "severity": "baja",
+          "closure_scope": "sin_cierre",
+          "source_count": 1,
+          "sources": [
+            "ABC - Administradora Boliviana de Carreteras"
+          ],
+          "url": "https://www.abc.gob.bo/nota_prensa/la-abc-garantiza-carreteras-transitables-en-todo-el-pais-por-el-feriado-largo-y-activa-monitoreo-permanente/"
+        },
+        {
+          "at": "2026-08-27T17:03:32-04:00",
+          "detected_at": "2026-08-27T17:03:32-04:00",
+          "reason": "actualizacion",
+          "status": "precaucion",
+          "lifecycle_status": "activo",
+          "severity": "baja",
+          "closure_scope": null,
+          "source_count": 2,
+          "sources": [
+            "ABC - Administradora Boliviana de Carreteras",
+            "ABC - Comunicados"
+          ],
+          "url": "https://www.abc.gob.bo/"
+        },
+        {
+          "at": "2026-09-08T16:17:20-04:00",
+          "detected_at": "2026-09-08T16:17:20-04:00",
+          "reason": "actualizacion",
+          "status": "desconocido",
+          "lifecycle_status": "desconocido",
+          "severity": "baja",
+          "closure_scope": null,
+          "source_count": 2,
+          "sources": [
+            "ABC - Administradora Boliviana de Carreteras",
+            "ABC - Comunicados"
+          ],
+          "url": "https://www.abc.gob.bo/"
+        }
+      ],
+      "lifecycle_status": "desconocido",
+      "is_active": null,
+      "last_seen_at": "2026-09-23T13:52:38-04:00",
+      "seen_this_run": true,
+      "history_count": 3
+    },
+    {
+      "id": "a61dd1a332b3ccae",
+      "source_id": "web_abc",
+      "source_name": "ABC - Administradora Boliviana de Carreteras",
+      "source_url": "https://www.abc.gob.bo/",
+      "source_class": "web_official",
+      "source_tier": 2,
+      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+      "url": "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-y-la-abc-aseguran-recursos-para-la-construccion-de-la-carretera-okinawa-los-troncos-y-okinawa-guabira-en-beneficio-del-norte-integrado-en-santa-cruz/",
+      "published_at": null,
+      "scraped_at": "2026-09-23T13:52:38-04:00",
+      "department": "Santa Cruz",
+      "municipality": null,
+      "city": null,
+      "event_type": "otro",
+      "cause": "obras_mantenimiento",
+      "status": "desconocido",
+      "closure_scope": null,
+      "severity": "baja",
+      "confidence": 0.75,
+      "relevance_score": 60,
+      "filter_reasons": [
+        "contexto_vial:5",
+        "via_detectada:6",
+        "sector_detectado:2",
+        "terminos_viales:5",
+        "fuente_oficial_web"
+      ],
+      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
+      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia GOBIERNO NACIONAL Y LA ABC ASEGURAN RECURSOS PARA LA CONSTRUCCIÓN DE LA CARRETERA OKINAWA – LOS TRONCOS Y OKINAWA – GUABIRÁ EN BENEFICIO DEL NORTE INTEGRADO EN SANTA CRUZ Compartir ¡Enlace copiado al portapapeles! , 16 de septiembre de 2026 En el marco de la política de fortalecimiento de la infraestructura productiva, el presidente del Estado, Rodrigo Paz, junto a la Administradora Boliviana de Carreteras (ABC) y en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, confirmó, desde Santa Cruz, la inversión de $us 90 millones por cada proyecto, para la construcción de la carretera Okinawa – Los Troncos y la rehabilitación del tramo Okinawa – Guabirá, obras estratégicas para el desarrollo del Norte Integrado cruceño. Durante el anuncio oficial ante autoridades departamentales y municipales de Santa Cruz, el mandatario destacó que los recursos ya se encuentran asegurados e informó sobre el inicio inmediato de las etapas técnicas. «Y quiero aprovechar para anunciar (...) que ya está garantizando los recursos, la carretera que va a unir Okinawa con Los Troncos y la mejora de la carretera Okinawa – Guabirá”, afirmó Paz, destacando que estos proyectos forman parte de un programa integral que prevé movilizar cerca de Bs 20.000 millones en inversión para Santa Cruz durante los próximos tres años. En el ámbito operativo, la ABC gestionó y aprobó ante la Corporación Andina de Fomento (CAF) el financiamiento para la construcción del tramo Okinawa – Los Troncos, una vía de 33,4 kilómetros conectada al estratégico Puente Banegas, sobre el río Grande. Asimismo, la estatal caminera impulsa los procesos para la licitación y supervisión con la participación activa de alcaldes de la zona y parlamentarios. De forma paralela, se gestiona el financiamiento con el Banco Mundial, del proyecto de Okinawa – Guabirá, que contempla la rehabilitación integral de 42,61 kilómetros sobre la Ruta Fundamental 10, consolidando un corredor seguro para el transporte de carga y exportación. Con la concreción de estos proyectos viales, el Gobierno Nacional, el Ministerio de Obras Públicas, Servicios y Vivienda y la ABC ratifican su compromiso de respaldar la visión de desarrollo de Santa Cruz, potenciando la conectividad del Corredor Bioceánico Este – Oeste y garantizando carreteras de alta capacidad que impulsen la economía del oriente boliviano. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia GOBIERNO NACIONAL Y LA ABC ASEGURAN RECURSOS PARA LA CONSTRUCCIÓN DE LA CARRETERA OKINAWA – LOS TRONCOS Y OKINAWA – GUABIRÁ EN BENEFICIO DEL NORTE INTEGRADO EN SANTA CRUZ Compartir ¡Enlace copiado al portapapeles! , 16 de septiembre de 2026 En el marco de la política de fortalecimiento de la infraestructura productiva, el presidente del Estado, Rodrigo Paz, junto a la Administradora Boliviana de Carreteras (ABC) y en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, confirmó, desde Santa Cruz, la inversión de $us 90 millones por cada proyecto, para la construcción de la carretera Okinawa – Los Troncos y la rehabilitación del tramo Okinawa – Guabirá, obras estratégicas para el desarrollo del Norte Integrado cruceño. Durante el anuncio oficial ante autoridades departamentales y municipales de Santa Cruz, el mandatario destacó que los recursos ya se encuentran asegurados e informó sobre el inicio inmediato de las etapas técnicas. «Y quiero aprovechar para anunciar (...) que ya está garantizando los recursos, la carretera que va a unir Okinawa con Los Troncos y la mejora de la carretera Okinawa – Guabirá”, afirmó Paz, destacando que estos proyectos forman parte de un programa integral que prevé movilizar cerca de Bs 20.000 millones en inversión para Santa Cruz durante los próximos tres años. En el ámbito operativo, la ABC gestionó y aprobó ante la Corporación Andina de Fomento (CAF) el financiamiento para la construcción del tramo Okinawa – Los Troncos, una vía de 33,4 kilómetros conectada al estratégico Puente Banegas, sobre el río Grande. Asimismo, la estatal caminera impulsa los procesos para la licitación y supervisión con la participación activa de alcaldes de la zona y parlamentarios. De forma paralela, se gestiona el financiamiento con el Banco Mundial, del proyecto de Okinawa – Guabirá, que contempla la rehabilitación integral de 42,61 kilómetros sobre la Ruta Fundamental 10, consolidando un corredor seguro para el transporte de carga y exportación. Con la concreción de estos proyectos viales, el Gobierno Nacional, el Ministerio de Obras Públicas, Servicios y Vivienda y la ABC ratifican su compromiso de respaldar la visión de desarrollo de Santa Cruz, potenciando la conectividad del Corredor Bioceánico Este – Oeste y garantizando carreteras de alta capacidad que impulsen la economía del oriente boliviano. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "roads": [
+        "CARRETERA OKINAWA – LOS TRONCOS Y OKINAWA – GUABIRÁ EN BENEFICIO DEL NORTE INTEGRADO EN SANTA CRUZ Compartir ¡Enlace copiado al portapapeles!",
+        "carretera Okinawa – Los Troncos y la rehabilitación del tramo Okinawa – Guabirá",
+        "carretera que va a unir Okinawa con Los Troncos y la mejora de la carretera Okinawa – Guabirá”",
+        "tramo Okinawa – Los Troncos",
+        "Puente Banegas",
+        "Ruta Fundamental 10"
+      ],
+      "places": [
+        "Puente Banegas",
+        "zona y parlamentarios"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "del navegador",
+        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
+        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
+        "form -> exclusiva. Uso de https",
+        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
+        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
+        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
+        "compartir información sensible únic -> mnete con portales oficiales asegurados"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "carretera",
+        "ruta",
+        "puente",
+        "tramo",
+        "kilómetro"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "CARRETERA OKINAWA – LOS TRONCOS Y OKINAWA – GUABIRÁ EN BENEFICIO DEL NORTE INTEGRADO EN SANTA CRUZ Compartir ¡Enlace copiado al portapapeles!, Santa Cruz, Bolivia",
+      "image_urls": [],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": null,
+      "has_image": false,
+      "has_video": false,
+      "media": {
+        "images": [],
+        "main_image_url": null,
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "desconocido",
+          "published_at": null,
+          "source_id": "web_abc",
+          "source_name": "ABC - Administradora Boliviana de Carreteras",
+          "tier": 2,
+          "url": "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-y-la-abc-aseguran-recursos-para-la-construccion-de-la-carretera-okinawa-los-troncos-y-okinawa-guabira-en-beneficio-del-norte-integrado-en-santa-cruz/"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "web_abc",
+          "name": "ABC - Administradora Boliviana de Carreteras",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://www.abc.gob.bo/",
+          "post_url": "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-y-la-abc-aseguran-recursos-para-la-construccion-de-la-carretera-okinawa-los-troncos-y-okinawa-guabira-en-beneficio-del-norte-integrado-en-santa-cruz/",
+          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-y-la-abc-aseguran-recursos-para-la-construccion-de-la-carretera-okinawa-los-troncos-y-okinawa-guabira-en-beneficio-del-norte-integrado-en-santa-cruz/"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_3a57cf7090a92a",
+      "first_seen_at": "2026-09-16T18:56:09-04:00",
+      "history": [
+        {
+          "at": "2026-09-16T18:56:09-04:00",
+          "detected_at": "2026-09-16T18:56:09-04:00",
+          "reason": "primera_deteccion",
+          "status": "desconocido",
+          "lifecycle_status": "desconocido",
+          "severity": "baja",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "ABC - Administradora Boliviana de Carreteras"
+          ],
+          "url": "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-y-la-abc-aseguran-recursos-para-la-construccion-de-la-carretera-okinawa-los-troncos-y-okinawa-guabira-en-beneficio-del-norte-integrado-en-santa-cruz/"
+        }
+      ],
+      "lifecycle_status": "desconocido",
+      "is_active": null,
+      "last_seen_at": "2026-09-23T13:52:38-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    }
+  ],
   "sources": [
     {
       "id": "fb_abc",
@@ -22,7 +772,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wb2wuXVpAfIQ7kNvwGs8-Mp&_nc_oc=AdrKN5RgO8ccxwi4kRbr__hgvYp-6_URGrPdEfgGLU5KwJJRMg8SFzi7eT_IQ4lvYR4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=PIviFW2Uq54swsQECehqfg&_nc_ss=7f289&oh=00_AQLlBLrKW5pRDtQIjyzDVTXiU2HEED5s3sjIGexXnS2X_g&oe=6AB99C58",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wb2wuXVpAfIQ7kNvwFCdDe-&_nc_oc=AdopDVBFFYX1gH7AdquSft-KFLx3YFYdGwGt-7vZMXd8QCjosBC_dKBslE4xavTJoBE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=OHXfs3O8ZuaSsFfka7H4Ig&_nc_ss=7f289&oh=00_AQI9BpynPYfz1q9JmlnuBO0DpdU8iMZ95iSfwvyn4yGaAA&oe=6AB9D498",
       "status": "ok"
     },
     {
@@ -34,7 +784,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=dRkx4XXJfzsQ7kNvwFtWVcJ&_nc_oc=AdqJJoVQQ8Lz1WLcOLw2JT5ed7dfvnw0u--_jFJGeZgQUWT1szTf2tHO-3mFT_qX2GI&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=BdXSdT7l3czU72UKG17M0w&_nc_ss=7f289&oh=00_AQIywEy0p67UsfnvAG2HU1zu88eBlPCwCEcwf9e5-TFawA&oe=6AB99FAB",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=dRkx4XXJfzsQ7kNvwFutsdI&_nc_oc=AdrB7L43grOz0JUD9JOkS7GjWmW5hUEz4g4EqEOYChKNbfMngWcnrFx_ta7tSrpemS4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=fUXHQlQJ60DUnH6YE7mgmQ&_nc_ss=7f289&oh=00_AQKxRVvgvjiU10HHj2n5-OBvFozIDHubcnVHxO-4gkGkzw&oe=6AB9D7EB",
       "status": "ok"
     },
     {
@@ -58,8 +808,8 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687189488_1305328898375803_8278206029321149075_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=i4LtUM1qBeYQ7kNvwHXotKh&_nc_oc=AdqMGIWT-NudoBj5zptJ6y8vGVUy9ka011DIbYSWelGISZZUI9C20TkmLnNjS7gUn4g&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=t7IzIq1WV5CfeSqgNk-oxQ&_nc_ss=7f289&oh=00_AQLoS_vFUCnGxetGLKJNpGav3HxG3Z3jFZraRRptwd9WmQ&oe=6AB9F785",
+      "status": "ok"
     },
     {
       "id": "fb_amun_lapaz",
@@ -70,7 +820,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-scl3-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Am6ifZv9b8QQ7kNvwG_jTY8&_nc_oc=AdraF0nFIrWUjJqLv0Jg3HOoieAsDc3lV774wOqrvXrRsa7MGg3zdlgtNBlq8I500lE&_nc_zt=24&_nc_ht=scontent-scl3-1.xx&_nc_gid=2He6BRlQENVoYIx4Vl1BoA&_nc_ss=7f289&oh=00_AQIvMuL9iqLCHZ4XDP3_q3ecqPT4atTI5AK5zYIf79GEJA&oe=6AB99977",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Am6ifZv9b8QQ7kNvwG9T2tV&_nc_oc=Ado_iTKngpRd9btn3JoXgArB7w8dnYHkckE4jv4pbb9wJ1RDG26ePmfMqhCLx_ccKc8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=TuBPpukGuP4axRMGfoYIFw&_nc_ss=7f289&oh=00_AQKYbj40N9edWHsRhMPp8nE1QZTqJkFJmlhHib-4ermQ2Q&oe=6AB9D1B7",
       "status": "ok"
     },
     {
@@ -82,7 +832,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oXvb8VPx23UQ7kNvwExuGpi&_nc_oc=Adrbl5rgxiTphtARO7n2fHd6X3pkbMyI3ZmlElSq3dWNHFLf9Cu2iAfAFHGFVMe_4dk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=OXGIekgPbwZl3mng_BwOew&_nc_ss=7f289&oh=00_AQIxMnWuSHw22hovbp9JCuv1w72KSDooB6ADLM5HOTotkw&oe=6AB9A438",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oXvb8VPx23UQ7kNvwGWLx7G&_nc_oc=AdovRFy0nqiFJQOoyNxvVXZ0_MYTW20Of52Y9lfkmTwFsUL38ii3lB4KboukNGdnagw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=iWjacOrJWUrKwadl_-SNHg&_nc_ss=7f289&oh=00_AQLvKsVlcT0Ul1vfkCSprEfGda0NbpD8mL_yZUWlgWSqag&oe=6AB9DC78",
       "status": "ok"
     },
     {
@@ -94,7 +844,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-lIN1XGce7IQ7kNvwFVV6u8&_nc_oc=AdrieqPk1vHBxcm8zaJ5uLCO6yolVQSFS6VGUUsy0FgZe3u4d4ARADjqcSHqwV82_Vc&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=GjhEESAWch_cUSq-UbJ9yA&_nc_ss=7f289&oh=00_AQI6LHenEoxLXYqNCZ2QbSXZY6qVFWds97tyZHeNaOU0-g&oe=6AB9B7C0",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-lIN1XGce7IQ7kNvwG6Ywuy&_nc_oc=AdpDYr4ug9UhsWlf4IZ06p9I4qW0WQAcC5FevtXCQrKyqoVWbLwAKmhHAo37YmUA5zk&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=smvwAr2Fh_Ne2tDS8HwZYQ&_nc_ss=7f289&oh=00_AQK-CJOD4cb2JVCcBReHE0N12TRkT-4he7lDhj2miRsEFw&oe=6AB9F000",
       "status": "ok"
     },
     {
@@ -118,7 +868,7 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7WIrTR1FyiIQ7kNvwG7dEIO&_nc_oc=Adr3WC7anXcV_0rC1sfJo3EDI-dIbcV6JqJCRULhrL_eh6-BOCFrml-z3yNRkSQw94w&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Hpq0KcoT4BYdEQaIpDzjSw&_nc_ss=7f289&oh=00_AQJ-59qHRXMAbYcapAwkUETc9K1FQ1IzHGcoJlIDIaL_Ig&oe=6AB99E57",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7WIrTR1FyiIQ7kNvwGE7IEM&_nc_oc=AdpfD6FsFvUNMK9VaaM2hUj3c1cyJEUUYi10oKQJ-GjMyGIDrd662QHgmxzDuEJvDIg&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=gbTnxyBaaruoq92cHqg1Sg&_nc_ss=7f289&oh=00_AQJzgabb4Xpa1_0mfDpAdmGDxZgPonO5JZLBGCQL84qnjg&oe=6AB9D697",
       "status": "ok"
     },
     {
@@ -142,8 +892,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JedryhHTRHkQ7kNvwGkP1XD&_nc_oc=Ado1TQhKU-gANaVbqN7ysEQKosoppxIm02IMORFVCO34cOSw-Ko4nuDDCaux2CcTN-Y&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=zyapZGZu8oU1FE6wRWM_BQ&_nc_ss=7f289&oh=00_AQKVb0S2MC9Wlj5sPCWF5TQHtPQfkfY68evtNFg96iWqpA&oe=6AB9F7C5",
+      "status": "ok"
     },
     {
       "id": "fb_terminal_cbba",
@@ -166,7 +916,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eX25y0BN6FAQ7kNvwFwCQbS&_nc_oc=AdojLhLrh8fLbk-tr0LuvyDF7rRYOPyTyGHYNxEI7kRoGzymsasRrC0Lfie7ORO3H_Q&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1ByamydufJUsRvmtBvX9xg&_nc_ss=7f289&oh=00_AQIYcAUq-wdDXBAL5XTDgsOsIol6R_ANEgfKQalT54nsnw&oe=6AB988A1",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/686970088_1411363714368667_7779499467829308990_n.jpg?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eX25y0BN6FAQ7kNvwFClXT8&_nc_oc=Adp9l-bMZ1DMZy0YjUZSLL9uAonwDJlXMq8TAqVp9eR4AzX0hxVvX21wu81s3ZyNG1I&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=PTEE4rhsEIozOz5fnT-RtA&_nc_ss=7f289&oh=00_AQLBiXmgqT9U7pKXR2eRQpjegnhdOjlKhJSAO1PDHT7TcA&oe=6AB9F921",
       "status": "ok"
     },
     {
@@ -178,8 +928,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RUHmPXU5u18Q7kNvwHYAVgE&_nc_oc=AdoLtMGqUXx6lc5GZweqMdTFwXL400JuPLbFTwJbq7cSEtcnD02FJzW9RIoV7ybBciA&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=2vNmvy1W6FwlAyE2-M5cyQ&_nc_ss=7f289&oh=00_AQImSIbg_UYMbg-dQ911NRnR_PmlOxtEBWRrA75MzlXp6Q&oe=6AB9FA11",
+      "status": "ok"
     },
     {
       "id": "fb_gob_scz",
@@ -190,8 +940,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fpB7zbUQmiIQ7kNvwFm1GtZ&_nc_oc=AdpQUapMHWREZ6To-ZS2tX8IDDWf93uumXZcmtNZQxOvIfOceEYXlrbsIH7fO8nqqak&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=bJLJPV8x5SLIuD4yZ2r4eA&_nc_ss=7f289&oh=00_AQINBBQJ8GNQsC4_ziZjh8Eum6c9zZGgtvM0TvnMYRRy-A&oe=6AB9AB7E",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "web_abc",
@@ -202,8 +952,8 @@
       "tier": 2,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+      "status": "ok"
     },
     {
       "id": "web_abc_comunicados",
@@ -214,8 +964,8 @@
       "tier": 2,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+      "status": "ok"
     },
     {
       "id": "web_lapaz",
@@ -286,8 +1036,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=EgFnToEjFPcQ7kNvwEgQqei&_nc_oc=AdrZSkHp4GyKZnSNpgJ8qWdxfgyCV-1Q3HmexKraaWZZBo_ggDpYNKw68qjzWeaH6t4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_ss=7f289&oh=00_AQKRu9x51fzonujiqz5Fkg5pKESazUVL54afFF0FuUA6Sg&oe=6ADB58FA",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_unitel",
@@ -298,7 +1048,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IaoMezttx-0Q7kNvwHPnHxd&_nc_oc=AdrT8iOlfE9NQL1caVMrUPec4fAFkEN-d4KLgzpO4Sb8GXUMbHriHKafWWpGXYQJfQI&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=S2TTGj_A7cIYyYhto6HA_g&_nc_ss=7f289&oh=00_AQLepc5J0C0NvhJs5d15vzN4Q3qxy1As5tQ1rncDj9axTQ&oe=6AB9887F",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IaoMezttx-0Q7kNvwHdWlFB&_nc_oc=AdqTb3tNEREoapO62VVPMGVcjWecm2TPqhOLIl4AFgL0rIKP67gbBvIC6UQ95UcTNRs&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=NrzurYM9DpdIccQkQUqamA&_nc_ss=7f289&oh=00_AQIhUDl2Dew0SwxiuK4gBUhcYQzd7Q7Pd1lKVFjJj-jCww&oe=6AB9F8FF",
       "status": "ok"
     },
     {
@@ -310,8 +1060,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rU0bNUGCj_4Q7kNvwFYrflN&_nc_oc=Adqm6qd-zhJBkY_8mIjn0WycLQo1CGoy780q7UYYNNl-XzrIxTB7A14yUiy1TwjB7RE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=UDij4KwZADhJ-yrwzuD9iA&_nc_ss=7f289&oh=00_AQJosb0ewO0W1zFbbw1HANKZAlVbhzEB9BhmACK7qjc2HA&oe=6AB9BBCC",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_rtp",
@@ -322,7 +1072,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3mQMJGx_hfcQ7kNvwGcbn6_&_nc_oc=AdplREAtxnWLbdh8aiNve-sfuTKQpjDg1ywAYtS33mjTnyhIruGPER5RNFO9AUplHvY&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=VDlEas-oQ_lSuHeOCNHQHw&_nc_ss=7f289&oh=00_AQLcVwHU0Lfbe1SdO4G2P2JVhkbjSPjVVrYI1zIxumjbmg&oe=6AB99E05",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3mQMJGx_hfcQ7kNvwFwiS05&_nc_oc=AdrSo5cV37vAogKCPf98_qkGHY5nOx07sYLc68ntYNjdn6Sm4j5ysshmwkBMMtfoSwA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=HRgA99q3JO6-8fa6K5NwSA&_nc_ss=7f289&oh=00_AQJkK1ZGg-IDBYxgVKXP_RajPbtwNlJHOIoVO4gSNVjpKg&oe=6AB9D645",
       "status": "ok"
     },
     {
@@ -334,8 +1084,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0g8AxwF3Bh4Q7kNvwEUctfP&_nc_oc=Ado26t5B6NbZKlggDTZmEEDgkpv9RCtTKxiDtbAQE3xDUx2Znzi4JxMcYeA4wfDc7u0&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=-0Tpc5e_sQYgnk8GgZs0Cg&_nc_ss=7f289&oh=00_AQLQwIWufG0fd1CtUcCdJm2-ec9wnqCax7QisjFaXmK8vw&oe=6AB98C7A",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_opinion",
@@ -346,7 +1096,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-scl3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QZjRbixkoQYQ7kNvwEXf_e5&_nc_oc=AdqLPPBPwUrWoSZXBuobpJoUKIhHQBP_NDZRJRgU8_mayjtTgW2ndoHUkMOplx0oL7Q&_nc_zt=24&_nc_ht=scontent-scl3-1.xx&_nc_gid=jbKKFTUePqIg2jMccJzIaQ&_nc_ss=7f289&oh=00_AQJ5UYwrmgXOP2MNMN8DPykdcqbB4I5PZg1UBbumMpIQXg&oe=6AB9AF66",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QZjRbixkoQYQ7kNvwEgut8c&_nc_oc=AdpwgD6tqiwvKkV53xZCAOo62wmtbsLBfB_m-U9M58KzmwHg6KGwIoFmoP702dPZ710&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=i_NSLSZrJ-BMrJffWPublg&_nc_ss=7f289&oh=00_AQLIe53ymuAwzNQRQhfbwJ2hkpk49wN9vy4dAHHZRZm46w&oe=6AB9E7A6",
       "status": "ok"
     },
     {
@@ -358,7 +1108,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=trX1lgpZcQYQ7kNvwENRTuT&_nc_oc=AdpfO8KMnawEarCBZynBkMnLA-5LaFxndyRk1ThUrCHOxBtWG-_uFp7NYKhv_3vtQNo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Hc_E858gLqPDY9fzqDvHuw&_nc_ss=7f289&oh=00_AQLiPvQirI53r0LCvaLY_9XDgmr9c6HziwRuP5nf_gZacQ&oe=6AB9B10C",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=trX1lgpZcQYQ7kNvwFLz2aa&_nc_oc=AdowR8t8rtNcBiFwMBW_JmOcEWCR1Qw4QFthujhK7tE-rOVRM_KcyPvvegjioth-LKE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=XxIkJ2rA6_5GU4jnw9Sl8Q&_nc_ss=7f289&oh=00_AQJO73kklbjklTuzG5BqUlnH9-sQlGiIHzGYHFOak1zkzA&oe=6AB9E94C",
       "status": "ok"
     },
     {
@@ -370,8 +1120,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rvqehF2od-kQ7kNvwH10-Xj&_nc_oc=AdrrUYYT-r46KckWw8bHitzIyOf2yhEYSdNGhfWrMay6WLHmy3XIQhkoAfqg0EsIItU&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=HEMiaHURykp5p4E6TAI12g&_nc_ss=7f289&oh=00_AQKlCmH2qv2t8RNTO6F-6CeEd6m8VYqoRVer4iKku7Z4UA&oe=6AB988C1",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_erbol",
@@ -382,7 +1132,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qWi0-L9trJIQ7kNvwErd9VS&_nc_oc=Ado_fG6SMmm0bO0yzJ5ct2esTIO4c_SF08ZbKb5GkJ1TdnWO9AOcoiQRvVfPb4FZNFg&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=e0OFkGASx4p-isUOjnF5pg&_nc_ss=7f289&oh=00_AQIJg-U-Idq_dnprtctIYW3MrKYmvbqUCQxRaBrcc7F3EQ&oe=6AB991E8",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qWi0-L9trJIQ7kNvwGN1hVO&_nc_oc=Adopq-x9YMO5hhIydO7odVAx0vMeFHh87EEBDi5_SpKPI2g1GaIfeTVa63PPWl4cRB0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=lMTUk74HJi4KzwXF9ofJ0A&_nc_ss=7f289&oh=00_AQIWjA5W8XaicR6o7gf6JBObRa0IV8YH5dVYgsaohiBRlQ&oe=6AB9CA28",
       "status": "ok"
     },
     {
@@ -394,7 +1144,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jO4lJvlI3LkQ7kNvwHlhUx3&_nc_oc=AdrY5ouT-_9O6w5PfsdOaUBzFRBLUGE4LLdLyVCSWFjua_P0BJHlul4ZC0vH_c9Luh0&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=aJVLtyaqq3ZTwlqVXgZKaQ&_nc_ss=7f289&oh=00_AQLRRrfvtU9Q52PcnTuq0bh6-iQ9xeRtj3E3EURYzw1MMQ&oe=6AB9B648",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jO4lJvlI3LkQ7kNvwGZgQE9&_nc_oc=AdqI79nnqaxJfy4unsq5j74WhKqe12QmYgwQxcfb4sug8mVxJWNkbvhm5vpxH-AWDBQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=yT_vfcVsajtESLskddkhEg&_nc_ss=7f289&oh=00_AQIk20B7FwAb37c4GXxvZXb9t8ip6nmioaD13knSS3KUJQ&oe=6AB9EE88",
       "status": "ok"
     },
     {
@@ -406,7 +1156,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EsIQ-WCNAQ8Q7kNvwH6ZUWW&_nc_oc=AdoGjKyprcJ7OfyoyFm0ZiTvevu1-62IW8nKxGNmYYE4Rvh1yS5w1-k9Gbv9TO678pA&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=Bug6QNoOf53mcL61YCpafQ&_nc_ss=7f289&oh=00_AQLET-QgF6PmS7giMxk9-2kFITaJwQOGvFHZ2d3BiGjCFw&oe=6AB9B6A9",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EsIQ-WCNAQ8Q7kNvwHZNZjI&_nc_oc=AdoPBn3Ne8Hp6HMIEooOsZvBD-2r-KNGlk90nVNIsQKbJvsODrEkGUenpiJHgGOiapk&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=JInyVCP552shG778XM9fSg&_nc_ss=7f289&oh=00_AQI35AZ_xEATBYtb9XYzHSQHQt0wAuz7OgSbD8DmVT6kTw&oe=6AB9EEE9",
       "status": "ok"
     },
     {
@@ -418,7 +1168,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7yqvqgUw1gAQ7kNvwGm4pKF&_nc_oc=Adp1T0Wvx1TyTcXaDUhDhqzbGOsO-BfM9yAnugxiOdZwGyJBHsAYqEj9zY_bApCR1oA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=H9QFfPjWRgGIE8nD74bTEg&_nc_ss=7f289&oh=00_AQJEj6n5s0zS9Rqj5sffP0bcg2AHxBLpXMolfb34UhhWkA&oe=6AB9B8B7",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7yqvqgUw1gAQ7kNvwE-f-nv&_nc_oc=Adp909lZ-K3CLeVt6nk_UQw761batbwFN1MauK18Bij5Rp-LGYZ8KIYnGARlYC6_ihE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=T18ZJ5fy1tiHly1-xRNB7Q&_nc_ss=7f289&oh=00_AQL6s4y9IN0OdXL_tQ_fiWvY0XKsCZTi6YpXcFDWNRjPpQ&oe=6AB9F0F7",
       "status": "ok"
     },
     {
@@ -430,7 +1180,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YMOOuhIVQEIQ7kNvwE3HpNQ&_nc_oc=Adq6TVqNHqJx9yo8V8n6b2y0s0PlHZOrTCGMH8lMf6aCUsZI-PqZ1L2vHUDR2Vl142I&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=pwZGFjAqA8VGE2Z3nkmZGg&_nc_ss=7f289&oh=00_AQKefvZUVc1_zjnhQMYkHfjHlQ9ojShCseWuUcoAL5sCng&oe=6AB9BB7D",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YMOOuhIVQEIQ7kNvwFKib9i&_nc_oc=AdpTXCvOHBPcVowTroOtyJv5kNXq_DXVcG7NanpGDR2P9JQtMdmSWLiAw7Xs97eG3Oo&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=DG-r0an2dXf8jPrTEAtadw&_nc_ss=7f289&oh=00_AQLq7rqXDlDgu4epkfI_Sq3DveNOTEOhLRDAk7NQry-9JA&oe=6AB9F3BD",
       "status": "ok"
     },
     {
@@ -442,7 +1192,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=B0T7t5d5ruEQ7kNvwEivhfF&_nc_oc=AdqdHajLK4XxQdkrxAxq1LOmsHHFLy1PwwR971_K0H_NLELpIwYTlsVBMzIdYM-bYro&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=SVXO0w37YT6rwFSzfsZqlA&_nc_ss=7f289&oh=00_AQKPknW4QSonifNB7jn8Zm8bkSyaqqqs9WrqeJPN3lA2wQ&oe=6AB989E1",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=B0T7t5d5ruEQ7kNvwEC4MQh&_nc_oc=AdoxoYruT0okGoM44EgcTZ8FkPjwn8a4ULG-w8JhVg65EsyU7F_z4PNGXw2LrCHMWvE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=nmibiv8BwfTnf8hNBQe_Eg&_nc_ss=7f289&oh=00_AQJMuH7Vu5amF1nn_x2dbBm-OyaF5_JyowAf_yYiT1QRtg&oe=6AB9FA61",
       "status": "ok"
     },
     {
@@ -454,8 +1204,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=r7-UtHP8-VEQ7kNvwGaeW0F&_nc_oc=AdoIfGL0_NjiYBcbvrYauuhaznmqWhy4u6uzVz64X90Bo1wyrLsy-gjXV3MdC3glXE4&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=M_GJinS12rB4Lsn49mEGKg&_nc_ss=7f289&oh=00_AQKhmQ66ToXODG2LwwDpWvxiP-Wl7RFgTo-pYUfTCvaZJw&oe=6AB9A542",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     }
   ]
 }
