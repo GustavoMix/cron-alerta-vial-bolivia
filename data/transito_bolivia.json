@@ -1,15 +1,15 @@
 {
   "schema_version": "3.2-fast",
-  "generated_at": "2026-09-29T10:22:53-04:00",
+  "generated_at": "2026-09-29T15:39:49-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "facebook_sources": 30,
     "web_sources": 7,
-    "sources_ok": 24,
-    "sources_error": 13,
-    "raw_publications": 35,
-    "vial_publications": 5,
-    "incidents": 4
+    "sources_ok": 26,
+    "sources_error": 11,
+    "raw_publications": 36,
+    "vial_publications": 7,
+    "incidents": 6
   },
   "incidents": [
     {
@@ -22,7 +22,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/lista-comunicados-page/",
       "published_at": null,
-      "scraped_at": "2026-09-29T10:22:53-04:00",
+      "scraped_at": "2026-09-29T15:39:49-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -146,7 +146,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-09-29T10:22:53-04:00",
+      "last_seen_at": "2026-09-29T15:39:49-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -160,7 +160,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-inspecciona-el-vaciado-de-la-ultima-losa-en-los-puentes-rio-seque-y-rio-seco-en-la-paz-e-impulsa-el-corredor-internacional-oeste-norte/",
       "published_at": null,
-      "scraped_at": "2026-09-29T10:22:53-04:00",
+      "scraped_at": "2026-09-29T15:39:49-04:00",
       "department": "La Paz",
       "municipality": "El Alto",
       "city": "La Paz",
@@ -281,7 +281,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-09-29T10:22:53-04:00",
+      "last_seen_at": "2026-09-29T15:39:49-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -295,7 +295,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-09-29T10:22:53-04:00",
+      "scraped_at": "2026-09-29T15:39:49-04:00",
       "department": "La Paz",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -468,7 +468,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-09-29T10:22:53-04:00",
+      "last_seen_at": "2026-09-29T15:39:49-04:00",
       "seen_this_run": true,
       "history_count": 3
     },
@@ -482,7 +482,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-fortalece-la-conservacion-vial-con-trabajos-de-bacheo-en-colcapirhua-carretera-cochabamba-oruro/",
       "published_at": null,
-      "scraped_at": "2026-09-29T10:22:53-04:00",
+      "scraped_at": "2026-09-29T15:39:49-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -621,9 +621,343 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-09-29T10:22:53-04:00",
+      "last_seen_at": "2026-09-29T15:39:49-04:00",
       "seen_this_run": true,
       "history_count": 2
+    },
+    {
+      "id": "5c6c0bfbfda081b5",
+      "source_id": "web_lapaz",
+      "source_name": "Gobierno Autónomo Municipal de La Paz",
+      "source_url": "https://lapaz.bo/",
+      "source_class": "web_official",
+      "source_tier": 2,
+      "source_icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+      "url": "https://lapaz.bo/alcaldia-de-la-paz-ejecuta-trabajos-de-emergencia-en-la-avenida-mario-mercado-para-recuperar-la-transitabilidad-de-la-via/",
+      "published_at": null,
+      "scraped_at": "2026-09-29T15:39:49-04:00",
+      "department": "La Paz",
+      "municipality": "La Guardia",
+      "city": "La Paz",
+      "event_type": "precaucion",
+      "cause": "lluvia",
+      "status": "precaucion",
+      "closure_scope": null,
+      "severity": "baja",
+      "confidence": 0.86,
+      "relevance_score": 73,
+      "filter_reasons": [
+        "contexto_vial:8",
+        "evento:precaucion",
+        "via_detectada:2",
+        "sector_detectado:3",
+        "terminos_viales:5",
+        "fuente_oficial_web"
+      ],
+      "title": "Alcaldía de La Paz ejecuta trabajos de emergencia en la avenida Mario Mercado para recuperar la transitabilidad de la vía",
+      "description": "Las labores permitirán atender el sector afectado y garantizar condiciones adecuadas de circulación mientras se desarrollan los estudios técnicos correspondientes. La Paz, 29 de septiembre de 2026.- El Gobierno Autónomo Municipal de La Paz, a través de la Secretaría Municipal de Ciudad Planificada y Habitable, mediante la Dirección de Infraestructura, Mantenimiento y Mejoramiento de Barrios y Vías, inició trabajos de emergencia en la avenida Mario Mercado, con el objetivo de atender la afectación registrada en la plataforma vial y recuperar las condiciones de circulación para los usuarios de esta importante vía. Los trabajos contemplan la intervención de aproximadamente 200 metros cuadrados de superficie, incluyendo actividades de demolición, excavación, intervención del sistema de alcantarillado sanitario, relleno estructural y reposición de la estructura vial. Como parte de estas acciones, se realiza el cierre temporal del carril de subida de la avenida Mario Mercado, en el sector comprendido entre la Rotonda San Andrés y la calle Néctar, a la altura del Centro Municipal de Revisión Técnica Vehicular (CMRTV), permitiendo el desarrollo seguro de las actividades programadas. El director de Infraestructura, Mantenimiento y Mejoramiento de Barrios y Vías, Ing. Vladimir Toro, explicó que estas labores corresponden a una intervención inmediata para atender la situación actual de la vía. “Estamos ejecutando trabajos de emergencia que nos permitirán recuperar las condiciones de circulación en este sector. Esta intervención forma parte de una atención inmediata, mientras se desarrollan las evaluaciones técnicas necesarias para determinar las condiciones integrales del área”. Asimismo, una vez concluidos estos trabajos iniciales, la Dirección de Prevención de Riesgos y Resiliencia Urbana realizará los estudios técnicos correspondientes, con el propósito de evaluar el comportamiento y las condiciones del sector, estableciendo las acciones que puedan ser necesarias de acuerdo con los resultados obtenidos. Durante el periodo de intervención se aplicarán medidas para reducir las afectaciones al tránsito vehicular, en coordinación con las instancias municipales correspondientes. Se garantizará la continuidad de la circulación mediante alternativas operativas y, cuando las condiciones técnicas y de seguridad lo permitan, la habilitación temporal del carril de bajada en doble sentido, previa coordinación con la Guardia Municipal de Transporte. Los trabajos tienen un periodo programado de intervención desde el martes 29 de septiembre hasta el martes 13 de octubre de 2026, contemplando diferentes fases operativas para la recuperación de la vía. El Gobierno Autónomo Municipal de La Paz recomienda a los conductores tomar previsiones, respetar la señalización instalada y circular con precaución por el sector mientras se desarrollan las labores. La Secretaría Municipal de Ciudad Planificada y Habitable continúa trabajando de manera coordinada para atender las necesidades de la ciudad y garantizar una movilidad más segura para los paceños. Entradas relacionadas",
+      "original_text": "Las labores permitirán atender el sector afectado y garantizar condiciones adecuadas de circulación mientras se desarrollan los estudios técnicos correspondientes. La Paz, 29 de septiembre de 2026.- El Gobierno Autónomo Municipal de La Paz, a través de la Secretaría Municipal de Ciudad Planificada y Habitable, mediante la Dirección de Infraestructura, Mantenimiento y Mejoramiento de Barrios y Vías, inició trabajos de emergencia en la avenida Mario Mercado, con el objetivo de atender la afectación registrada en la plataforma vial y recuperar las condiciones de circulación para los usuarios de esta importante vía. Los trabajos contemplan la intervención de aproximadamente 200 metros cuadrados de superficie, incluyendo actividades de demolición, excavación, intervención del sistema de alcantarillado sanitario, relleno estructural y reposición de la estructura vial. Como parte de estas acciones, se realiza el cierre temporal del carril de subida de la avenida Mario Mercado, en el sector comprendido entre la Rotonda San Andrés y la calle Néctar, a la altura del Centro Municipal de Revisión Técnica Vehicular (CMRTV), permitiendo el desarrollo seguro de las actividades programadas. El director de Infraestructura, Mantenimiento y Mejoramiento de Barrios y Vías, Ing. Vladimir Toro, explicó que estas labores corresponden a una intervención inmediata para atender la situación actual de la vía. “Estamos ejecutando trabajos de emergencia que nos permitirán recuperar las condiciones de circulación en este sector. Esta intervención forma parte de una atención inmediata, mientras se desarrollan las evaluaciones técnicas necesarias para determinar las condiciones integrales del área”. Asimismo, una vez concluidos estos trabajos iniciales, la Dirección de Prevención de Riesgos y Resiliencia Urbana realizará los estudios técnicos correspondientes, con el propósito de evaluar el comportamiento y las condiciones del sector, estableciendo las acciones que puedan ser necesarias de acuerdo con los resultados obtenidos. Durante el periodo de intervención se aplicarán medidas para reducir las afectaciones al tránsito vehicular, en coordinación con las instancias municipales correspondientes. Se garantizará la continuidad de la circulación mediante alternativas operativas y, cuando las condiciones técnicas y de seguridad lo permitan, la habilitación temporal del carril de bajada en doble sentido, previa coordinación con la Guardia Municipal de Transporte. Los trabajos tienen un periodo programado de intervención desde el martes 29 de septiembre hasta el martes 13 de octubre de 2026, contemplando diferentes fases operativas para la recuperación de la vía. El Gobierno Autónomo Municipal de La Paz recomienda a los conductores tomar previsiones, respetar la señalización instalada y circular con precaución por el sector mientras se desarrollan las labores. La Secretaría Municipal de Ciudad Planificada y Habitable continúa trabajando de manera coordinada para atender las necesidades de la ciudad y garantizar una movilidad más segura para los paceños. Entradas relacionadas",
+      "roads": [
+        "avenida Mario Mercado",
+        "calle Néctar"
+      ],
+      "places": [
+        "sector comprendido entre la Rotonda San Andrés y la calle Néctar",
+        "altura del Centro Municipal de Revisión Técnica Vehicular (CMRTV)",
+        "sector mientras se desarrollan las labores"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "de Infraestructura",
+        "de Prevención de Riesgos y Resiliencia Urbana realizará los estudios técnicos co",
+        "Las labores permitirán atender el sector -> fectado y garantizar condiciones adecuada",
+        "de circulación mientras se desarroll -> n los estudios técnicos correspondientes",
+        "de septiembre de 2026.- El Gobierno -> utónomo Municipal de La Paz",
+        "a través de la Secretaría Municip -> l de Ciudad Planificada y Habitable",
+        "mediante la Dirección de Infr -> estructura",
+        "Mantenimiento y Mejoramiento de B -> rrios y Vías"
+      ],
+      "alternative_routes": [
+        "previsiones, respetar la señalización instalada y circular con precaución por el sector mientras se desarrollan las labores"
+      ],
+      "affected_vehicles": [
+        "todos"
+      ],
+      "time_mentions": [],
+      "keywords": [
+        "cierre",
+        "tránsito",
+        "avenida",
+        "calle",
+        "rotonda"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "avenida Mario Mercado, La Guardia, La Paz, Bolivia",
+      "image_urls": [
+        "https://lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.39.33-AM-1024x768.jpeg",
+        "https://amun.lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.40.08-AM-1024x576.jpeg",
+        "https://amun.lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.39.32-AM-2-1024x768.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/05/avion-3-1024x682.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-22-at-13.01.55-1024x675.jpeg"
+      ],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": "https://lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.39.33-AM-1024x768.jpeg",
+      "has_image": true,
+      "has_video": false,
+      "media": {
+        "images": [
+          "https://lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.39.33-AM-1024x768.jpeg",
+          "https://amun.lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.40.08-AM-1024x576.jpeg",
+          "https://amun.lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.39.32-AM-2-1024x768.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/05/avion-3-1024x682.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-22-at-13.01.55-1024x675.jpeg"
+        ],
+        "main_image_url": "https://lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.39.33-AM-1024x768.jpeg",
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "precaucion",
+          "published_at": null,
+          "source_id": "web_lapaz",
+          "source_name": "Gobierno Autónomo Municipal de La Paz",
+          "tier": 2,
+          "url": "https://lapaz.bo/alcaldia-de-la-paz-ejecuta-trabajos-de-emergencia-en-la-avenida-mario-mercado-para-recuperar-la-transitabilidad-de-la-via/"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "web_lapaz",
+          "name": "Gobierno Autónomo Municipal de La Paz",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://lapaz.bo/",
+          "post_url": "https://lapaz.bo/alcaldia-de-la-paz-ejecuta-trabajos-de-emergencia-en-la-avenida-mario-mercado-para-recuperar-la-transitabilidad-de-la-via/",
+          "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://lapaz.bo/alcaldia-de-la-paz-ejecuta-trabajos-de-emergencia-en-la-avenida-mario-mercado-para-recuperar-la-transitabilidad-de-la-via/"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_20826a84cf6369",
+      "first_seen_at": "2026-09-29T15:39:49-04:00",
+      "history": [
+        {
+          "at": "2026-09-29T15:39:49-04:00",
+          "detected_at": "2026-09-29T15:39:49-04:00",
+          "reason": "primera_deteccion",
+          "status": "precaucion",
+          "lifecycle_status": "activo",
+          "severity": "baja",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "Gobierno Autónomo Municipal de La Paz"
+          ],
+          "url": "https://lapaz.bo/alcaldia-de-la-paz-ejecuta-trabajos-de-emergencia-en-la-avenida-mario-mercado-para-recuperar-la-transitabilidad-de-la-via/"
+        }
+      ],
+      "lifecycle_status": "activo",
+      "is_active": true,
+      "last_seen_at": "2026-09-29T15:39:49-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "b77a5c3ef002ada5",
+      "source_id": "web_lapaz",
+      "source_name": "Gobierno Autónomo Municipal de La Paz",
+      "source_url": "https://lapaz.bo/",
+      "source_class": "web_official",
+      "source_tier": 2,
+      "source_icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+      "url": "https://lapaz.bo/",
+      "published_at": null,
+      "scraped_at": "2026-09-29T15:39:49-04:00",
+      "department": "La Paz",
+      "municipality": "La Paz",
+      "city": "La Paz",
+      "event_type": "otro",
+      "cause": "evento",
+      "status": "desconocido",
+      "closure_scope": null,
+      "severity": "baja",
+      "confidence": 0.75,
+      "relevance_score": 64,
+      "filter_reasons": [
+        "contexto_vial:6",
+        "via_detectada:11",
+        "sector_detectado:2",
+        "terminos_viales:4",
+        "fuente_oficial_web"
+      ],
+      "title": "La Paz te Informa",
+      "description": "Trameaje parqueo prav turismo Conoce La Paz Ingresa aquí WEB4 Anterior Siguiente WEB4 parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Alcaldía de La Paz ejecuta trabajos de emergencia en la avenida Mario Mercado para recuperar la transitabilidad de la vía ATM impulsa regularización de transferencias vehiculares y actualiza el Padrón Municipal Asistencia a tiempo y mucho corazón: Hospital Municipal La Paz le devuelve la esperanza a un bebé rescatado Gobierno Municipal impulsa la “Taypi Feria Intermunicipal” para acercar al productor y consumidor La Paz te Informa 29 de septiembre de 2026 Alcaldía de La Paz ejecuta trabajos de emergencia en la avenida Mario Mercado para recuperar la transitabilidad de la vía ... Prensa 28 de septiembre de 2026 ATM impulsa regularización de transferencias vehiculares y actualiza el Padrón Municipal ... Prensa 28 de septiembre de 2026 Asistencia a tiempo y mucho corazón: Hospital Municipal La Paz le devuelve la esperanza a un bebé rescatado ... Prensa 28 de septiembre de 2026 Gobierno Municipal impulsa la “Taypi Feria Intermunicipal” para acercar al productor y consumidor ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av. Buenos Aires esq. Max Paredes (2) 2454553 Subalcalde: Eduardo Vargas Aliaga Ver Ubicación Subalcaldía Periférica - MD3 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2461312 Subalcalde: Walter Calixto Aranda Chipana ",
+      "original_text": "Trameaje parqueo prav turismo Conoce La Paz Ingresa aquí WEB4 Anterior Siguiente WEB4 parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Alcaldía de La Paz ejecuta trabajos de emergencia en la avenida Mario Mercado para recuperar la transitabilidad de la vía ATM impulsa regularización de transferencias vehiculares y actualiza el Padrón Municipal Asistencia a tiempo y mucho corazón: Hospital Municipal La Paz le devuelve la esperanza a un bebé rescatado Gobierno Municipal impulsa la “Taypi Feria Intermunicipal” para acercar al productor y consumidor La Paz te Informa 29 de septiembre de 2026 Alcaldía de La Paz ejecuta trabajos de emergencia en la avenida Mario Mercado para recuperar la transitabilidad de la vía ... Prensa 28 de septiembre de 2026 ATM impulsa regularización de transferencias vehiculares y actualiza el Padrón Municipal ... Prensa 28 de septiembre de 2026 Asistencia a tiempo y mucho corazón: Hospital Municipal La Paz le devuelve la esperanza a un bebé rescatado ... Prensa 28 de septiembre de 2026 Gobierno Municipal impulsa la “Taypi Feria Intermunicipal” para acercar al productor y consumidor ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av. Buenos Aires esq. Max Paredes (2) 2454553 Subalcalde: Eduardo Vargas Aliaga Ver Ubicación Subalcaldía Periférica - MD3 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2461312 Subalcalde: Walter Calixto Aranda Chipana Ver Ubicación Subalcaldía San Antonio - MD4 Av. Josefa Mujía, Zona Alto Villa San Antonio (2) 2232084 Subalcalde: Javier Giovanni Rodríguez Mendoza Ver Ubicación Subalcaldía Sur - MD5 Av. Hernando Siles No 4678, entre calles 11 y 12 de Obrajes (2) 2783631 Subalcaldesa: Carola Viviana Fortún Cabrerizo Ver Ubicación Subalcaldía Mallasa - MD6 Av. Florida, Calle 7, Mallasa (2) 2745156 Subalcaldesa: Janeth Flores Guzmán Ver Ubicación Subalcaldía Centro - MD7 Av. Tejada Sorzano esq. Av. Sucre (2) 2651055 Subalcaldesa: Isabel Vera Coca Ver Ubicación Subalcaldía Hampaturi - MD8 Av. Las Américas No 709, Villa Fátima (2) 2213587 Subalcalde: Omar Quispe Choquehuanca Ver Ubicación Subalcaldía Zongo - MD9 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2285959 Subalcalde: Ver Ubicación × Números de emergencia Contáctate a estos números ante cualquier emergencia, estamos atentos. 144 Red de Emergencias 167 Red de Ambulancias 155 Información General 156 Defensoría de la niñez Noticias de Portada Secciones La Paz Salud Sociedad Economía Cultura Deportes Fotos Videos Sitios municipales",
+      "roads": [
+        "avenida Mario Mercado para recuperar la transitabilidad de la vía",
+        "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde",
+        "Av. Buenos Aires esq",
+        "Av. Montes y Uruguay (2) 2461312 Subalcalde",
+        "Av. Josefa Mujía",
+        "Av. Hernando Siles No 4678",
+        "Av. Florida",
+        "Av. Tejada Sorzano esq",
+        "Av. Sucre (2) 2651055 Subalcaldesa",
+        "Av. Las Américas No 709",
+        "Av. Montes y Uruguay (2) 2285959 Subalcalde"
+      ],
+      "places": [
+        "Zona Ernesto Torrez esq",
+        "Zona Alto Villa San Antonio (2) 2232084 Subalcalde"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "Trameaje parqueo prav turismo Conoce La P -> z Ingresa aquí WEB4 Anterior Siguiente WE",
+        "parqueo Contact Conoce LA PAZ Ingresa -> quí Anterior Siguiente Últimas publicacio",
+        "Alcaldía de La Paz ejecuta trab -> jos de emergencia en la avenida Mario Mer",
+        "para recuperar la transitabilidad de l -> vía ATM impulsa regularización de transfe",
+        "vehiculares y actualiza el Padrón Municip -> l Asistencia a tiempo y mucho corazón",
+        "Hospital Municipal La Paz le devuelve l -> esperanza a un bebé rescatado Gobierno Mu",
+        "impuls -> la",
+        "Taypi Feri -> Intermunicipal"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "choque",
+        "avenida",
+        "calle",
+        "transitabilidad"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "avenida Mario Mercado para recuperar la transitabilidad de la vía, La Paz, Bolivia",
+      "image_urls": [
+        "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+        "https://lapaz.bo/wp-content/uploads/2026/05/suspendidoBanner-1.png",
+        "https://lapaz.bo/wp-content/uploads/2026/06/ChatGPT-Image-23-jun-2026-19_30_07.png",
+        "https://lapaz.bo/wp-content/uploads/2026/09/WEB4.png",
+        "https://lapaz.bo/wp-content/uploads/slider/cache/b6ebb1ad5dc449693f44aed6baa93a39/WEB4.png",
+        "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.39.33-AM-1024x768.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/09/RESOLUCION-ATM-1-1024x768.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/09/NEONATO-3-1024x768.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/09/Taypi-1-1024x682.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2023/07/atm.png",
+        "https://lapaz.bo/wp-content/uploads/2026/06/sa2026.jpg"
+      ],
+      "video_url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
+      "video_thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+      "video_type": "web_video",
+      "is_official": true,
+      "image_url": "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+      "has_image": true,
+      "has_video": true,
+      "media": {
+        "images": [
+          "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+          "https://lapaz.bo/wp-content/uploads/2026/05/suspendidoBanner-1.png",
+          "https://lapaz.bo/wp-content/uploads/2026/06/ChatGPT-Image-23-jun-2026-19_30_07.png",
+          "https://lapaz.bo/wp-content/uploads/2026/09/WEB4.png",
+          "https://lapaz.bo/wp-content/uploads/slider/cache/b6ebb1ad5dc449693f44aed6baa93a39/WEB4.png",
+          "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-29-at-10.39.33-AM-1024x768.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/09/RESOLUCION-ATM-1-1024x768.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/09/NEONATO-3-1024x768.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/09/Taypi-1-1024x682.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2023/07/atm.png",
+          "https://lapaz.bo/wp-content/uploads/2026/06/sa2026.jpg"
+        ],
+        "main_image_url": "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+        "videos": [
+          {
+            "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
+            "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+            "type": "web_video",
+            "provider": "web",
+            "use_official_embed": false,
+            "source_id": "web_lapaz"
+          }
+        ]
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "desconocido",
+          "published_at": null,
+          "source_id": "web_lapaz",
+          "source_name": "Gobierno Autónomo Municipal de La Paz",
+          "tier": 2,
+          "url": "https://lapaz.bo/"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [
+        {
+          "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
+          "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+          "type": "web_video",
+          "provider": "web",
+          "use_official_embed": false,
+          "source_id": "web_lapaz"
+        }
+      ],
+      "sources": [
+        {
+          "id": "web_lapaz",
+          "name": "Gobierno Autónomo Municipal de La Paz",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://lapaz.bo/",
+          "post_url": "https://lapaz.bo/",
+          "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://lapaz.bo/"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_a6202dd7330cf2",
+      "first_seen_at": "2026-09-25T11:34:31-04:00",
+      "history": [
+        {
+          "at": "2026-09-25T11:34:31-04:00",
+          "detected_at": "2026-09-25T11:34:31-04:00",
+          "reason": "primera_deteccion",
+          "status": "desconocido",
+          "lifecycle_status": "desconocido",
+          "severity": "baja",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "Gobierno Autónomo Municipal de La Paz"
+          ],
+          "url": "https://lapaz.bo/"
+        }
+      ],
+      "lifecycle_status": "desconocido",
+      "is_active": null,
+      "last_seen_at": "2026-09-29T15:39:49-04:00",
+      "seen_this_run": true,
+      "history_count": 1
     }
   ],
   "sources": [
@@ -636,7 +970,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MIrwB3g_alsQ7kNvwGImjao&_nc_oc=AdrFKEtJpQyO5ijw-9eI6Ithkz9NrrP4_j-RnmwV5gE5JuqOpahZ3M847UlfIj7qjM8&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=U54vKEGE-K5FPklrv2STDg&_nc_ss=7f289&oh=00_AQOOYBqBGnHedjpZhf4-8wTd45-JfcQXz9iTraOx1PY4bA&oe=6AC18558",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MIrwB3g_alsQ7kNvwEL86ca&_nc_oc=AdpSdlpt-kaHfqQIdXgxY44Ee3f_3xE6KLWz7u2obA1-72q35fXGH_fxcm_Frzh53f8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=HwRzVoZlBC5o7vED7_jaTA&_nc_ss=7f289&oh=00_AQNqFREI1_pP8vGxmzgWYgUP-2FVUysZK2c_7YSrG8SxaQ&oe=6AC1F5D8",
       "status": "ok"
     },
     {
@@ -648,7 +982,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=SRcZ57lmRl8Q7kNvwGGkbvV&_nc_oc=AdqHac_rvxDSvu01aWcHKUqzovI9HR8ZgXL1NG4xer8Kp5G0QjbQ3YaEK_1p8GGrAFk&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=70uhXkMr107qe49nl9NN5A&_nc_ss=7f289&oh=00_AQOCT2PcfbZtBcHLKONkt5cnEH3NMZ3KjfP7txa-tN2WEg&oe=6AC188AB",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=SRcZ57lmRl8Q7kNvwF0h73d&_nc_oc=AdrhsrK-7eUVO6vKeCowuOnCaQCmRW8nxMNYMPYgrpzonrLHFpUKzMpYiC0GiAooouY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NX_pTe3m8eFwkmhP_-9B5Q&_nc_ss=7f289&oh=00_AQPWi042fjJSME4ZEjn4IqOI0Hoqta7FSj19bdlpotRgRA&oe=6AC1F92B",
       "status": "ok"
     },
     {
@@ -684,8 +1018,8 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nL5RUtFnE7wQ7kNvwENXJZl&_nc_oc=AdqHmXY9EDmLIOEa2ANOVe8WkEHNZpGQ04Xaqi_SCEms9-6J4JdiqPxl3jB-eZ-RWKY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=si_PMZGUJRcf3P-8gciRow&_nc_ss=7f289&oh=00_AQNmOd5ICcDvHN8n6SCPfN3zPRqDM3_nm-EhWhqM72Evqw&oe=6AC1F2F7",
+      "status": "ok"
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -696,7 +1030,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3GFHm6zJBwUQ7kNvwG9cjUx&_nc_oc=AdonnRcQgkn7NNQAw1YgE4IW-lkR4_-TsLvEHe06ulrjWWSuniTv2I_Wc8ci9JZa4jk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=0bSsq8L4X28OsrrukS-xbw&_nc_ss=7f289&oh=00_AQPuj4_lAIhCekIArywht0AkEbks6o9HuvUG0CCfBSwSTg&oe=6AC18D38",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3GFHm6zJBwUQ7kNvwF1NzJM&_nc_oc=Adq1COe6o7csjzPhP09FIOahf-kKL6cetJZZl84Nypted_tnP8d2wUVBvRbWxJ9jX90&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=I0yG1Yljl9WGCDDmyCLN2A&_nc_ss=7f289&oh=00_AQO1G8_GKtkgCn0kVgLxe7rRiBoRQMPGDBXtAIuNzraVwQ&oe=6AC1FDB8",
       "status": "ok"
     },
     {
@@ -708,7 +1042,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pySvQRpJw6UQ7kNvwE4GTES&_nc_oc=AdrA8jdsMde02r6M_oQG_9fHSIZz7KOhjeiDJ7iZEWie9Vxs8imBCxM2H7dYPquPKQU&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=kLqTNUKmQT-SZmlthQAKZg&_nc_ss=7f289&oh=00_AQOr5An1yj7W6FqYPEtmDDFTySZHj5P22o5uVYCqk1FNqA&oe=6AC1A0C0",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pySvQRpJw6UQ7kNvwFI9IZL&_nc_oc=AdpMgyschYGHmMQEtnLjCgb_ZDSztyE13rVkOofj5I8IlxEpx2ilLu2YXVSGvDQMiUk&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=yav04ZuvVGHOENzH54HcDw&_nc_ss=7f289&oh=00_AQPFTRQCBPl51KBEQi5uf5S6a5XqFYiAOmBoeO8XQpffuw&oe=6AC1D900",
       "status": "ok"
     },
     {
@@ -732,8 +1066,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Vudn0t3crykQ7kNvwHEYugs&_nc_oc=AdoMVV5vDXady_ll3ENJqSMt3NK55dTtzr9FrBqnm40U14-v8EI_HiWuwJduSjs7Ero&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=8A9R02BRWO9uwdhhVcHCQg&_nc_ss=7f289&oh=00_AQOcVA7maaOm4zbwZsianHaCH3tkTfRqrX8WgozjT_8nig&oe=6AC1F7D7",
+      "status": "ok"
     },
     {
       "id": "fb_transito_cbba",
@@ -756,8 +1090,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uC7nhRGG1F8Q7kNvwFevOEL&_nc_oc=Adrxc81IJHOeJaU8b6fLfNVx0zeMYBt3_wBEaEKP4RNqT2vji3BEBEHAROf641rsuZs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=pabjks7TVtuUDRytlKc_FA&_nc_ss=7f289&oh=00_AQMU3nEEtqmPkvdANw3sPz7TvhBSpdaZdVbdeWxglI0ngQ&oe=6AC1A885",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_terminal_cbba",
@@ -780,7 +1114,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2EMnAGyMhf8Q7kNvwFvg0i6&_nc_oc=AdpH9xETWah0ml7HBfW23yc3a4VaoD9xhqFbWXekvOgH_6CYr5OfGyW7MMxSZeqV0s4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=GvBtuitLLmkJSiJRW4gLHg&_nc_ss=7f289&oh=00_AQO4haF3yePP3c5YK_Z12RFsqEq4-smvYkOd2TqY_eHpCg&oe=6AC1B757",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2EMnAGyMhf8Q7kNvwFZyQSM&_nc_oc=AdqlyoFW-UIe1MrAVS8_mBfoiHCdd8cQiJ4Q2TfE-Wnm8l44c4lh3oyL1-6WbB9-yn0&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=11SNcG_E8uWg5zR-OwZAdQ&_nc_ss=7f289&oh=00_AQMjvXf87N8Z268jnGY2M6uVi7ujuu4CyqbRtQVkiMDD_w&oe=6AC1EF97",
       "status": "ok"
     },
     {
@@ -792,8 +1126,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XT-0OaZEfMsQ7kNvwH4XdDF&_nc_oc=Adp9_F9KF3d2z2yAHYchkJU1C3jhDT_ET3lsWzynuKDLg9R6nA4rir-kkT-Zl36O32k&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=0Ywlu1_IiJAVH9H7ot5p6g&_nc_ss=7f289&oh=00_AQMQ-R6CY-CCjIkjbNN8wezXN6-OjZcklJ3lkXlx9765Gw&oe=6AC1E311",
+      "status": "ok"
     },
     {
       "id": "fb_gob_scz",
@@ -804,8 +1138,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XoTIVcmSMdcQ7kNvwEDmTa3&_nc_oc=AdrQYjiYzC5eZ8LC_9H3Q77S-38xDBJBqqj1gxeYL-AE4d92V3CGAW8ToDNgrNK_Bls&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=8cRXL2RXCPaYeYgH72Tnow&_nc_ss=7f289&oh=00_AQPJ9CBLgemfTin8BDf5Ik_qv67lPty3S6hlZ9TY3i_ySQ&oe=6AC1CCBE",
+      "status": "ok"
     },
     {
       "id": "web_abc",
@@ -900,7 +1234,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=v2bPJlw0qpAQ7kNvwHF8Prg&_nc_oc=AdoS06TDivuiBLOO6_2YFbAfcocAOrKPelhD9RGrpk9PR6uO0_RMjNEPYQ3bVNpJOpA&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_ss=7f289&oh=00_AQO02D4_vQKjVD7WXF5ITiTJ2SgIJruDqLyczVS1vIYUUQ&oe=6AE341FA",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=v2bPJlw0qpAQ7kNvwHIkuCM&_nc_oc=Ado76zMSO3BSGJ4eKHmxLyFbZKrVUD3zo0mSrTl6VqlpgHgUll__76uRuDwsjr_VCto&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_ss=7f289&oh=00_AQOcf7Ia1YkiDX0glHrSWFXsqPJ2tGXjG3h2Vz5L3Zl0OQ&oe=6AE37A3A",
       "status": "ok"
     },
     {
@@ -912,8 +1246,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NswRUo81LfYQ7kNvwEUrcLo&_nc_oc=AdpOi-9vCchy-gc7W6k2JWJlJ-KMHFiIqySiofGcmaew8mxnzlsuacDJkr5WTVPnlh4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=vSvQ5T71wFbAB0LVRS3NVw&_nc_ss=7f289&oh=00_AQOQT3-6mAjMvEPRo9VOpbzstSseRNMDLpJgKdce-Kim2Q&oe=6AC1E1FF",
+      "status": "ok"
     },
     {
       "id": "fb_bolivision",
@@ -924,7 +1258,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z9JDQSch2vsQ7kNvwGb3L74&_nc_oc=AdqOxd1c_agAJSN0k8b6C5RRWcospYdrcWmU_FPjbmpnXK2KjQJmTqlLWPh_Qt3hw_Y&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=j7LFAlLTvcu5bQRJnSwOzg&_nc_ss=7f289&oh=00_AQOawZulIi31bB6TdKTs0e31VOzxe3doFRNKO8e490warw&oe=6AC1A4CC",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z9JDQSch2vsQ7kNvwEDODGz&_nc_oc=AdrdxDTHeSqduB7_WiUk5AA6q_-Tn2C8KNkna4FztWeOaMGkykq51ajpnJG5riOPF7c&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=oJqweu6FtiYO5qvAT6nEQg&_nc_ss=7f289&oh=00_AQOtBntuGwzkxiAow605Kg3s7Lo4dqiErXhH7TfwgV1NFw&oe=6AC1DD0C",
       "status": "ok"
     },
     {
@@ -936,7 +1270,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BgLyE6hpdCEQ7kNvwHgWuAv&_nc_oc=AdoFFBDw7BFS6z5dCbZJZhtdPtNvR7MxknH0ZClHS1d_NR0D35w_DPGXVpG2XDr4_Oo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=B8OFMKsbfAn5xupiYfgQzQ&_nc_ss=7f289&oh=00_AQP4euWMtIAB98rIWDyNcCkr0Xhl_px-neYY0ZWcYr5peQ&oe=6AC18705",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BgLyE6hpdCEQ7kNvwEMXMgS&_nc_oc=AdoDJjnvnLd_fEGnF1soq6Mz5YXJCe2rDiPctMng-YoD5xQefhZu1Djy91IQ-U3d_3s&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=n047k8v4KbGYYmzPK8HHfA&_nc_ss=7f289&oh=00_AQP9C2KiKwGsmSm81vHmM747PzBEQ5iGynLxtdyTahnDEA&oe=6AC1F785",
       "status": "ok"
     },
     {
@@ -948,8 +1282,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_TM0WMcF7_MQ7kNvwFWfxqA&_nc_oc=Ado5AGSTMLW3JenOxEEtTWKfdf6EEPGW3YHoTnNwNrufiTBwo20NJX-yCtJ_0UfziqE&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=mK_sxGCq3RGf4-yix_qA_g&_nc_ss=7f289&oh=00_AQOebpqS8BbEnfWX53GakLYRKEzJGbWkHlOyWwEzMOfJCw&oe=6AC1ADBA",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_opinion",
@@ -960,7 +1294,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rfH3YBgcw3oQ7kNvwE-1zWh&_nc_oc=AdppxDElvYMLKbIwZzHnCxpAISe1GBrWJnBPoDmwlDFHE8ZgjRsmkc6vjAGllEc95VE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=TFhaA5Zet45G6wv2mZRePg&_nc_ss=7f289&oh=00_AQOhCmrRgay2OrDfkf4hM7TmxUxmsJgptXJGs3_nczHeoA&oe=6AC19866",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rfH3YBgcw3oQ7kNvwEckZ5t&_nc_oc=Adqe8fN0tFpEwYR6B9zazm8_VqwbRXAga_hCUSOgr70w_VtVLfC-ImgA6-xokUWq5g4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=w8-IrQOJbdwkvwqFFGDLeA&_nc_ss=7f289&oh=00_AQPCzjp_qGFJ6O-sbGxLnzEfEaRNSnRHQhNPghN1lp7B1w&oe=6AC1D0A6",
       "status": "ok"
     },
     {
@@ -972,7 +1306,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=whgZGbpNXvIQ7kNvwEuNQCH&_nc_oc=AdpN7MOHrAXxI66wmuK682B752G8OmnJUIg0A_30j5mYw2YSiLACuVi6tXfrU9m9MQk&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=0NC92YS-D2dneQ9zwqvKzA&_nc_ss=7f289&oh=00_AQM7P9TszIy0PksDFkPzZvMmMcqMz6kIRsCHNob_tEhoNw&oe=6AC19A0C",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=whgZGbpNXvIQ7kNvwH7FREw&_nc_oc=AdopyxQymV2KT6hWD_ilr-4mJJTaaLJE08x15eLq9rPmm_22T94c7jfX-lZFmfxibw8&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=IaL8H8nDwXthKAl0Zs-Fig&_nc_ss=7f289&oh=00_AQMPnZaTkK1fSwKrJtxk_6NPqOLsb4yT5Rbk5LwxVMrAuw&oe=6AC1D24C",
       "status": "ok"
     },
     {
@@ -984,8 +1318,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HWLan-UEvBAQ7kNvwFel4zh&_nc_oc=Adopb3uc616jbTILcRJ_OJz2HWjvA2XQ5yxl7PngJ4sXQgR2FcadxIWdP6vkmLHD7b8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=uVaJwU338a7ZSTZbZ2hxDA&_nc_ss=7f289&oh=00_AQOl1W0MFQGW2P8H8MC-uux6DNu5R3Ai2kMCnhzUjznDsA&oe=6AC1AA01",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_erbol",
@@ -996,7 +1330,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Mkb1ORTWRXIQ7kNvwFc-28t&_nc_oc=AdpWl5BK3LdxYm3x92irOcpYJk-0ci7YBxfpHP4iDmo7S9U1zRQGj2zQ_4dmRdqYEe4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=6X7TEUT5jvKlSAAn_P6nTw&_nc_ss=7f289&oh=00_AQPQZdnInLC4CyaRl5WTgAxq36sM9_YdO8sUQW_n0qT2jQ&oe=6AC1B328",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Mkb1ORTWRXIQ7kNvwHDtTsL&_nc_oc=Adq839h9q_PkPgGvm1cWo7VyZ0UgVKRKr06J29NkmB6rv1drh3AaNReecoYIlIWRUfI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=htlOTfxdl7D572LZOarKKQ&_nc_ss=7f289&oh=00_AQPXv0ArF2j06m5511XHWCxHs2WORbJkYNJiu4wsn80jIw&oe=6AC1EB68",
       "status": "ok"
     },
     {
@@ -1008,7 +1342,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DrNh5Vs73hUQ7kNvwHdETPs&_nc_oc=AdqxFZYtf2bXUoedpdOKV8KSECjO6e1_sgYdrXarfsfmICj4BAxYrXqnSLlmUoR1bR0&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=eY48V96Y_vKi0lD5X2-1Rg&_nc_ss=7f289&oh=00_AQPVDjVTTsiE59j2JmLo81PSAGyXNegt0Lesc_muc2RmgQ&oe=6AC19F48",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DrNh5Vs73hUQ7kNvwFY_umB&_nc_oc=Adq8EoaL_rjNmG_UtjJcKvyjje4C7FnXmkm-nzhCFV_TAfawq1HqltsE7c5RiP_rZLI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=1M6n0zcsRYti7LI1I7WIdw&_nc_ss=7f289&oh=00_AQPjpJNRbbrXV734Kawvk3ukILNn3FkuC0FOx-mdIk2ZQw&oe=6AC1D788",
       "status": "ok"
     },
     {
@@ -1020,7 +1354,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=j56Hjg2d3LAQ7kNvwHUmxma&_nc_oc=Adoc4fFDohEK-j6njwX0wQzs5oH4ifMBbeYcnjkrv1K7m0Zvv7TvNnh2sBbqRICvonE&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=YCE5ahaB5rA96gK1n-NJag&_nc_ss=7f289&oh=00_AQNqta-SFHGuaHoQVTKQcQv48XJXi1CHquXqsoyta6ELOQ&oe=6AC19FA9",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=j56Hjg2d3LAQ7kNvwFbZfTM&_nc_oc=Ado8iVYf6G6KtA0Db4Vvk31TW1cqnau3WD_gshtSlZa7FDxxHrqXr4lQZCkEhL37Zg8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=mkZIPC6iwIQzAqu52ldK_A&_nc_ss=7f289&oh=00_AQMCsV7eEbeS-3_bqiRy1WS9qpoLIvI_tJudY7G73frOMQ&oe=6AC1D7E9",
       "status": "ok"
     },
     {
@@ -1032,7 +1366,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D_vid6To-DIQ7kNvwF4mjXP&_nc_oc=Adp08eX-IEXgpsRjML1djDx2vAReN_ukfQ5oXEca2JkrAE_9xoRb2qVc5vlVlSvVAl4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=YzvrPNtGN70sCXTGcDYUoQ&_nc_ss=7f289&oh=00_AQM_Qwn0EH7ehmbCpKPmFUjEBPDardxF5J0zlQ36pDiSZg&oe=6AC1A1B7",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D_vid6To-DIQ7kNvwFs0161&_nc_oc=AdqlZh0R3bJSwOcbnPgO_yS5eqJ2fc9B8-7GL8usx36nSRrYAuMY39nxmVn_jm4sDdo&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=3PI_Cqh5aYl4EHvVfFG-wA&_nc_ss=7f289&oh=00_AQOcMmeR8rfTxWcXf116Tw4PK1sqzOdRX4eR6ehVBTRiwQ&oe=6AC1D9F7",
       "status": "ok"
     },
     {
@@ -1044,7 +1378,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JbKJIBC6Q4QQ7kNvwGB7aF1&_nc_oc=Adp7iduhFc1OkQtr_4SC9SEJDkjm9tRIZ7pusqRTwn8g2zXsMGMQSXzpvZxhXkMigF4&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=TYts6kOaK3HnhzOkhGialA&_nc_ss=7f289&oh=00_AQMK4Knq2v-USIIslJ5KrFlgNucpPvKS0gikpieXgIyKZw&oe=6AC1A47D",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JbKJIBC6Q4QQ7kNvwEcgqRB&_nc_oc=AdohLs5iI53i5BnbUR84NGNR8h-vFKhr3i6uQ8fxWcNF9Zm82sS8iwCmIjDA8kHVz1Q&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Idri6_yVPGLL7N-8GdAB1A&_nc_ss=7f289&oh=00_AQPYrKBE8EtNRgVS1nYSMux-9SqcPwOr9J7OggwATNIm9w&oe=6AC1DCBD",
       "status": "ok"
     },
     {
@@ -1056,8 +1390,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=663y6W9KsNAQ7kNvwGikOFT&_nc_oc=AdpugGSZ1orYw68Fap9f2qdXCQL4iDQUvxrmHEC-oG9XhInyoHF-0PUKeHhVlWNcGek&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=qZj8fGAzfvk8abiBw1LeAQ&_nc_ss=7f289&oh=00_AQPs0PlVJ9iU5RBJEYf6oiqpNVh7Qz3UkM3l7KVlbiSUbQ&oe=6AC1E361",
+      "status": "ok"
     },
     {
       "id": "fb_abya_yala",
@@ -1068,8 +1402,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=A2YG0xRs4zAQ7kNvwGYSD7X&_nc_oc=AdpV-B-vPxsNhV4o9PiRCscYPp_-DKVXGNZNl19HJNj6B71BEocyNzvVjC1wGP8G0OM&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=qw6OFYejt71XxjNVivOP_Q&_nc_ss=7f289&oh=00_AQOaGjXAXPCWpVLQdLFvcn_8W5_vqmotIdShW1uLSyMIHg&oe=6AC18E42",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     }
   ]
 }
