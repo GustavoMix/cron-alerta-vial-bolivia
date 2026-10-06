@@ -1,13 +1,13 @@
 {
   "schema_version": "3.2-fast",
-  "generated_at": "2026-10-05T14:51:35-04:00",
+  "generated_at": "2026-10-05T20:48:27-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "facebook_sources": 30,
     "web_sources": 7,
-    "sources_ok": 27,
-    "sources_error": 10,
-    "raw_publications": 41,
+    "sources_ok": 25,
+    "sources_error": 12,
+    "raw_publications": 36,
     "vial_publications": 7,
     "incidents": 6
   },
@@ -22,7 +22,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/lista-comunicados-page/",
       "published_at": null,
-      "scraped_at": "2026-10-05T14:51:35-04:00",
+      "scraped_at": "2026-10-05T20:48:27-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -146,7 +146,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-05T14:51:35-04:00",
+      "last_seen_at": "2026-10-05T20:48:27-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -160,7 +160,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-inspecciona-el-vaciado-de-la-ultima-losa-en-los-puentes-rio-seque-y-rio-seco-en-la-paz-e-impulsa-el-corredor-internacional-oeste-norte/",
       "published_at": null,
-      "scraped_at": "2026-10-05T14:51:35-04:00",
+      "scraped_at": "2026-10-05T20:48:27-04:00",
       "department": "La Paz",
       "municipality": "El Alto",
       "city": "La Paz",
@@ -281,7 +281,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-05T14:51:35-04:00",
+      "last_seen_at": "2026-10-05T20:48:27-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -295,7 +295,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/el-directorio-de-la-caf-aprueba-por-unanimidad-un-financiamiento-de-usd-224-millones-para-reactivar-obras-de-integracion-paralizadas-en-las-carreteras-y-proyectos-estrategicos-viales-en-bolivia/",
       "published_at": null,
-      "scraped_at": "2026-10-05T14:51:35-04:00",
+      "scraped_at": "2026-10-05T20:48:27-04:00",
       "department": "La Paz",
       "municipality": "Warnes",
       "city": "La Paz",
@@ -424,160 +424,122 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-05T14:51:35-04:00",
+      "last_seen_at": "2026-10-05T20:48:27-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
     {
-      "id": "dcfe19e265319935",
-      "source_id": "web_lapaz",
-      "source_name": "Gobierno Autónomo Municipal de La Paz",
-      "source_url": "https://lapaz.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
-      "url": "https://lapaz.bo/",
+      "id": "076dac860a8d2921",
+      "source_id": "fb_abc",
+      "source_name": "ABC Carreteras Bolivia",
+      "source_url": "https://www.facebook.com/CarreterasBo/",
+      "source_class": "facebook_official",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TNdWHhJvXwYQ7kNvwFDhgTA&_nc_oc=Adps8mlrd5Eu8ZFyu4QkRmW2UFRffCH21AMcSvr4fQF-yF2t1q-Hzt5YYcaVnws9hWM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=WqKfn9bYAFtyObEF7LVf2w&_nc_ss=7f289&oh=00_AQNvFYeAwgZpIqWIaZ5zEp3vq6L0Tzr4Yf0Isqw_s6pOTQ&oe=6ACA1718",
+      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid02Vrcr4nQw3YUaMwWPoCUSMiF1WDmUN3gEqK7voGEKig9kNh6wwyqwNfi4dbAyaZYil?__cft__[0]=AZg1e-Dc-qu5Cxv4UDX1OF6rFGDmaPbbYY_lIAwnxFbQGqo9HkmYZJVlFE-rRm1etdSl4qY_aZA2SP8u6FHTVR5kb2DnmivrOk9DVZuAnUNRw5kcNab2dL5zbFvUyDn14Xw2BRPsoRIpqpYHVHfTL37GL1EAkuTuQ2nbQVclRf_JZX3dlZGkVQ0Ecl8&__tn__=%2CO%2CP-R",
       "published_at": null,
-      "scraped_at": "2026-10-05T14:51:35-04:00",
-      "department": "La Paz",
-      "municipality": "La Paz",
-      "city": "La Paz",
-      "event_type": "movilizacion_vial",
-      "cause": null,
-      "status": "restringido",
+      "scraped_at": "2026-10-05T20:48:27-04:00",
+      "department": "Bolivia",
+      "municipality": "Cochabamba",
+      "city": null,
+      "event_type": "obras",
+      "cause": "obras_mantenimiento",
+      "status": "precaucion",
       "closure_scope": null,
-      "severity": "media",
-      "confidence": 0.86,
-      "relevance_score": 67,
+      "severity": "baja",
+      "confidence": 0.97,
+      "relevance_score": 75,
       "filter_reasons": [
-        "contexto_vial:4",
-        "evento:movilizacion_vial",
-        "via_detectada:10",
-        "sector_detectado:2",
-        "terminos_viales:3",
-        "accion_social:1",
-        "fuente_oficial_web"
+        "contexto_vial:8",
+        "evento:obras",
+        "via_detectada:1",
+        "sector_detectado:1",
+        "terminos_viales:6",
+        "fuente_oficial_facebook"
       ],
-      "title": "La Paz te Informa",
-      "description": "adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí prav Trameaje parqueo Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Alcaldía paceña impulsa plan integral de desarrollo y conectividad para el macrodistrito de Mallasa Alcaldía identifica la desaparición de 30 vehículos y denuncia una presunta red de “auteros” incrustada en el municipio La Alcaldía acerca sus servicios a los vecinos: Mallasa ya cuenta con Plataforma Integral de Atención en Catastro y ATM La Solidatón Rosa ya está en marcha: una cruzada por la vida de miles de mujeres en La Paz La Paz te Informa 5 de octubre de 2026 Alcaldía paceña impulsa plan integral de desarrollo y conectividad para el macrodistrito de Mallasa ... Prensa 5 de octubre de 2026 Alcaldía identifica la desaparición de 30 vehículos y denuncia una presunta red de “auteros” incrustada en el municipio ... Prensa 5 de octubre de 2026 La Alcaldía acerca sus servicios a los vecinos: Mallasa ya cuenta con Plataforma Integral de Atención en Catastro y ATM ... Prensa 5 de octubre de 2026 La Solidatón Rosa ya está en marcha: una cruzada por la vida de miles de mujeres en La Paz ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av. Buenos Aires esq. Max Paredes (2) 2454553 Subalcalde: Eduardo Vargas Aliaga Ver Ubicación Subalcaldía Periférica - MD3 Edif. Nardin Rivas No 451, Av. Montes ",
-      "original_text": "adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí prav Trameaje parqueo Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Alcaldía paceña impulsa plan integral de desarrollo y conectividad para el macrodistrito de Mallasa Alcaldía identifica la desaparición de 30 vehículos y denuncia una presunta red de “auteros” incrustada en el municipio La Alcaldía acerca sus servicios a los vecinos: Mallasa ya cuenta con Plataforma Integral de Atención en Catastro y ATM La Solidatón Rosa ya está en marcha: una cruzada por la vida de miles de mujeres en La Paz La Paz te Informa 5 de octubre de 2026 Alcaldía paceña impulsa plan integral de desarrollo y conectividad para el macrodistrito de Mallasa ... Prensa 5 de octubre de 2026 Alcaldía identifica la desaparición de 30 vehículos y denuncia una presunta red de “auteros” incrustada en el municipio ... Prensa 5 de octubre de 2026 La Alcaldía acerca sus servicios a los vecinos: Mallasa ya cuenta con Plataforma Integral de Atención en Catastro y ATM ... Prensa 5 de octubre de 2026 La Solidatón Rosa ya está en marcha: una cruzada por la vida de miles de mujeres en La Paz ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av. Buenos Aires esq. Max Paredes (2) 2454553 Subalcalde: Eduardo Vargas Aliaga Ver Ubicación Subalcaldía Periférica - MD3 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2461312 Subalcalde: Walter Calixto Aranda Chipana Ver Ubicación Subalcaldía San Antonio - MD4 Av. Josefa Mujía, Zona Alto Villa San Antonio (2) 2232084 Subalcalde: Javier Giovanni Rodríguez Mendoza Ver Ubicación Subalcaldía Sur - MD5 Av. Hernando Siles No 4678, entre calles 11 y 12 de Obrajes (2) 2783631 Subalcaldesa: Carola Viviana Fortún Cabrerizo Ver Ubicación Subalcaldía Mallasa - MD6 Av. Florida, Calle 7, Mallasa (2) 2745156 Subalcaldesa: Janeth Flores Guzmán Ver Ubicación Subalcaldía Centro - MD7 Av. Tejada Sorzano esq. Av. Sucre (2) 2651055 Subalcaldesa: Isabel Vera Coca Ver Ubicación Subalcaldía Hampaturi - MD8 Av. Las Américas No 709, Villa Fátima (2) 2213587 Subalcalde: Omar Quispe Choquehuanca Ver Ubicación Subalcaldía Zongo - MD9 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2285959 Subalcalde: Ver Ubicación × Números de emergencia Contáctate a estos números ante cualquier emergencia, estamos atentos. 144 Red de Emergencias 167 Red de Ambulancias 155 Información General 156 Defensoría de la niñez Noticias de Portada Secciones La Paz Salud Sociedad Economía Cultura Deportes Fotos Videos Sitios municipales",
+      "title": "Administradora Boliviana de Carreteras",
+      "description": "BENI: LA ABC DESPLIEGA TRABAJOS DE CONSERVACIÓN VIAL EN EL SECTOR SAN PEDRO NUEVO, TRAMO SAN JAVIER – HONOLULU, ANTE EL INICIO DE LA ÉPOCA PLUVIAL La Administradora Boliviana de Carreteras (ABC),... BENI: LA ABC DESPLIEGA TRABAJOS DE CONSERVACIÓN VIAL EN EL SECTOR SAN PEDRO NUEVO, TRAMO SAN JAVIER – HONOLULU, ANTE EL INICIO DE LA ÉPOCA PLUVIAL La... BENI: LA ABC DESPLIEGA TRABAJOS DE CONSERVACIÓN VIAL EN EL SECTOR SAN PEDRO NUEVO, TRAMO SAN JAVIER – HONOLULU, ANTE EL INICIO DE LA ÉPOCA PLUVIAL La Administradora Boliviana de Carreteras (ABC), realiza trabajos de conservación vial en el tramo San Javier – Honolulu, corredor que constituye un eje caminero estratégico para la provincia Cercado y las comunidades del Beni, en el marco de las acciones orientadas a fortalecer la integración territorial y resguardar la Red Vial Fundamental (RVF). Las intervenciones operativas, desarrolladas en coordinación con la empresa contratista, se concentran en el sector San Pedro Nuevo. En este punto, cuadrillas especializadas y maquinaria pesada efectúan la nivelación y reconformación de la plataforma, la reposición de ripio como capa base y la posterior compactación del suelo, garantizando la estabilización de la calzada frente al flujo vehicular. Con el monitoreo permanente de las carreteras, la ABC, en articulación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a los conductores e instituciones de transporte circular con precaución, moderar la velocidad y respetar la señalización de advertencia desplegada en las zonas de obra. Con estas acciones, la estatal ratifica su compromiso institucional de mantener vías seguras, operativas e integradas al servicio del desarrollode la región. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia BENI: LA ABC DESPLIEGA TRABAJOS DE CONSERVACIÓN VIAL EN EL SECTOR SAN PEDRO NUEVO, TRAMO SAN JAVIER – HONOLULU, ANTE EL INICIO DE LA ÉPOCA PLUVIAL La Administradora Boliviana de Carreteras (ABC), realiza trabajos de conservación vial en el tramo San Javier – Honolulu, corredor que constituye un eje caminero estratégico para la provincia Cercado y las comunidades del Beni, en el marco de las acciones orientadas a fortalecer la integración territorial y resguardar la Red Vial Fundamental (RVF). Las intervenciones operativas, desarrolladas en coordinación con la empresa contratista, se concentran en el sector San Pedro Nuevo. En este punto, cuadrillas especializadas y maquinaria pesada efectúan la nivelación y reconformación de la plataforma, la reposición de ripio como capa base y la posterior compactación del suelo, garantizando la estabilización de la calzada frente al flujo vehicular. Con el monitoreo permanente de las carreteras, la ABC, en articulación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a los conductores e instituciones de transporte circular con precaución, moderar la velocidad y respetar la señalización de advertencia desplegada en las zonas de obra. Con estas acciones, la estatal ratifica su compromiso institucional de mantener vías seguras, operativas e integradas al servicio del desarrollode la región. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia",
+      "original_text": "BENI: LA ABC DESPLIEGA TRABAJOS DE CONSERVACIÓN VIAL EN EL SECTOR SAN PEDRO NUEVO, TRAMO SAN JAVIER – HONOLULU, ANTE EL INICIO DE LA ÉPOCA PLUVIAL La Administradora Boliviana de Carreteras (ABC),... BENI: LA ABC DESPLIEGA TRABAJOS DE CONSERVACIÓN VIAL EN EL SECTOR SAN PEDRO NUEVO, TRAMO SAN JAVIER – HONOLULU, ANTE EL INICIO DE LA ÉPOCA PLUVIAL La... BENI: LA ABC DESPLIEGA TRABAJOS DE CONSERVACIÓN VIAL EN EL SECTOR SAN PEDRO NUEVO, TRAMO SAN JAVIER – HONOLULU, ANTE EL INICIO DE LA ÉPOCA PLUVIAL La Administradora Boliviana de Carreteras (ABC), realiza trabajos de conservación vial en el tramo San Javier – Honolulu, corredor que constituye un eje caminero estratégico para la provincia Cercado y las comunidades del Beni, en el marco de las acciones orientadas a fortalecer la integración territorial y resguardar la Red Vial Fundamental (RVF). Las intervenciones operativas, desarrolladas en coordinación con la empresa contratista, se concentran en el sector San Pedro Nuevo. En este punto, cuadrillas especializadas y maquinaria pesada efectúan la nivelación y reconformación de la plataforma, la reposición de ripio como capa base y la posterior compactación del suelo, garantizando la estabilización de la calzada frente al flujo vehicular. Con el monitoreo permanente de las carreteras, la ABC, en articulación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a los conductores e instituciones de transporte circular con precaución, moderar la velocidad y respetar la señalización de advertencia desplegada en las zonas de obra. Con estas acciones, la estatal ratifica su compromiso institucional de mantener vías seguras, operativas e integradas al servicio del desarrollode la región. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia BENI: LA ABC DESPLIEGA TRABAJOS DE CONSERVACIÓN VIAL EN EL SECTOR SAN PEDRO NUEVO, TRAMO SAN JAVIER – HONOLULU, ANTE EL INICIO DE LA ÉPOCA PLUVIAL La Administradora Boliviana de Carreteras (ABC), realiza trabajos de conservación vial en el tramo San Javier – Honolulu, corredor que constituye un eje caminero estratégico para la provincia Cercado y las comunidades del Beni, en el marco de las acciones orientadas a fortalecer la integración territorial y resguardar la Red Vial Fundamental (RVF). Las intervenciones operativas, desarrolladas en coordinación con la empresa contratista, se concentran en el sector San Pedro Nuevo. En este punto, cuadrillas especializadas y maquinaria pesada efectúan la nivelación y reconformación de la plataforma, la reposición de ripio como capa base y la posterior compactación del suelo, garantizando la estabilización de la calzada frente al flujo vehicular. Con el monitoreo permanente de las carreteras, la ABC, en articulación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a los conductores e instituciones de transporte circular con precaución, moderar la velocidad y respetar la señalización de advertencia desplegada en las zonas de obra. Con estas acciones, la estatal ratifica su compromiso institucional de mantener vías seguras, operativas e integradas al servicio del desarrollode la región. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia",
       "roads": [
-        "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde",
-        "Av. Buenos Aires esq",
-        "Av. Montes y Uruguay (2) 2461312 Subalcalde",
-        "Av. Josefa Mujía",
-        "Av. Hernando Siles No 4678",
-        "Av. Florida",
-        "Av. Tejada Sorzano esq",
-        "Av. Sucre (2) 2651055 Subalcaldesa",
-        "Av. Las Américas No 709",
-        "Av. Montes y Uruguay (2) 2285959 Subalcalde"
+        "TRAMO SAN JAVIER – HONOLULU"
       ],
       "places": [
-        "Zona Ernesto Torrez esq",
-        "Zona Alto Villa San Antonio (2) 2232084 Subalcalde"
+        "SECTOR SAN PEDRO NUEVO"
       ],
       "kilometer_mentions": [],
       "directions": [
-        "adopcion mascotas Conoce L -> Paz",
-        "ADOPTA RESPONS -> BLEMENTE",
-        "turismo Conoce La Paz Ingresa aquí pr -> v Trameaje parqueo Anterior Siguiente par",
-        "Contact Conoce LA PAZ Ingresa aquí -> nterior Siguiente Últimas publicaciones",
-        "Alcaldía paceña impulsa plan integr -> l de desarrollo y conectividad para el ma",
-        "de Mallasa Alcaldía identifica la desap -> rición de 30 vehículos y denuncia una pre",
-        "incrustada en el municipio La Alcaldía -> cerca sus servicios a los vecinos",
-        "Mallasa ya cuenta con Plataforma Integr -> l de Atención en Catastro y ATM La Solida"
+        "LA ABC DESPLIEGA TRABAJOS DE CONSERV -> CIÓN VIAL EN EL SECTOR SAN PEDRO NUEVO",
+        "TRAMO SAN J -> VIER",
+        "ANTE EL INICIO DE LA ÉPOCA PLUVIAL La -> dministradora Boliviana de Carreteras",
+        "ANTE EL INICIO DE LA ÉPOCA PLUVI -> L La... BENI",
+        "realiza trabajos de conservación vi -> l en el tramo San Javier",
+        "corredor que constituye un eje c -> minero estratégico para la provincia Cerc",
+        "y las comunid -> des del Beni",
+        "en el marco de las acciones orientadas -> fortalecer la integración territorial y r"
       ],
       "alternative_routes": [],
       "affected_vehicles": [],
       "time_mentions": [],
       "keywords": [
-        "marcha",
-        "choque",
-        "calle"
+        "flujo vehicular",
+        "carretera",
+        "tramo",
+        "red vial fundamental",
+        "rvf",
+        "maquinaria pesada"
       ],
       "latitude": null,
       "longitude": null,
-      "location_query": "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde, La Paz, Bolivia",
+      "location_query": "TRAMO SAN JAVIER – HONOLULU, Cochabamba, Bolivia",
       "image_urls": [
-        "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/06/ChatGPT-Image-23-jun-2026-19_30_07.png",
-        "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
-        "https://lapaz.bo/wp-content/uploads/2026/05/suspendidoBanner-1.png",
-        "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-12.08.52-PM-1392x928-1-1024x683.jpeg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/CONFERENCIA-VEHICULOS-4-1392x928-1-1024x683.jpeg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-11.49.50-AM-1-1024x732.jpeg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/SOLIDATON-3-1024x768.jpeg",
-        "https://lapaz.bo/wp-content/uploads/2023/07/atm.png",
-        "https://lapaz.bo/wp-content/uploads/2026/06/sa2026.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/06/sa22026.jpg"
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/838949130_2596249684213858_2966613149660695956_n.png?stp=dst-jpg_tt6&cstp=mx960x979&ctp=p600x600&_nc_cat=102&ccb=1-7&_nc_sid=b96d88&_nc_ohc=WPpi0V25i4cQ7kNvwE-SuBY&_nc_oc=AdrfbzsnfGuZyTZUzOI9gdYiCFJ0JWh96HMB9WLjDF6Xn01nYGisUNmPma0CLogg70M&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=rFFicvhPxlGfTBxfSijnEg&_nc_ss=7f289&oh=00_AQPFCM_WWMd-l4NMRH9EFgDrYrYn4XZ6ImYk44JBzH1zIA&oe=6ACA238F",
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/838949130_2596249684213858_2966613149660695956_n.png?stp=dst-jpg_tt6&cstp=mx960x979&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=WPpi0V25i4cQ7kNvwE-SuBY&_nc_oc=AdrfbzsnfGuZyTZUzOI9gdYiCFJ0JWh96HMB9WLjDF6Xn01nYGisUNmPma0CLogg70M&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQNsCRbgmw45voEICd6oGwcGFTmx4QfxhjoH0e4Ity4rRg&oe=6ACA238F",
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/838893939_1074716818783959_7925643952883461177_n.png?stp=dst-jpg_tt6&cstp=mx1200x1416&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=o4QHut2WSw0Q7kNvwE7zV9k&_nc_oc=AdooVtb0BVHePmOnlo8R0lqm1I63fXdBuUTievYpj1-a0wcJ7c9vSZD6yrM9vHuniHI&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQN54HLgN6SWlebVTMyKP_h8dfYFlJwc-OMz2_1-UwqeFg&oe=6ACA0B65",
+        "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/837741948_1129283459448774_6901786491770952374_n.png?stp=dst-jpg_tt6&cstp=mx960x987&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=REy_LEFzGj0Q7kNvwES1aTt&_nc_oc=AdrIc4paDwo69wWCElKhfMpvTwXdRLhkdrlYkUw3mITTG3cRBcoiM6XzFcUPUGdYCuc&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQNd0OQB2rXFhksuMeZD8qHx2NHAReKBMxReEz52z50CAw&oe=6ACA09B7",
+        "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/835979784_1718903115867018_462321184963029843_n.png?stp=dst-jpg_tt6&cstp=mx960x974&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=O-dXz-ul-K8Q7kNvwGV3rSG&_nc_oc=AdrLPoTOi6tIvbDh3WKntmFJ5Qc02zm_n3VIt7eEE9bA0yzffjGFZLv13HNzLNzorBc&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQMa7dac10JJwl8DjTSM5LVr7jD7QDFC8mnmTVlmzTxjuA&oe=6ACA321F",
+        "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/835098609_28680118311598271_492945981070510037_n.png?stp=dst-jpg_tt6&cstp=mx960x988&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CYxCoEJfJ2sQ7kNvwEU1tBa&_nc_oc=AdpAZhehbrluc1S3998rrmGkMvb3nz_rA1Bne7GL3h9H0ZeYQcRH1PfocyI3I8cbBOc&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQMj_rRQVhlcoaY6qs6Urzbge6P1a2dKecLwvNu-71vWMA&oe=6ACA06B6"
       ],
-      "video_url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
-      "video_thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-      "video_type": "web_video",
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
       "is_official": true,
-      "image_url": "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
+      "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/838949130_2596249684213858_2966613149660695956_n.png?stp=dst-jpg_tt6&cstp=mx960x979&ctp=p600x600&_nc_cat=102&ccb=1-7&_nc_sid=b96d88&_nc_ohc=WPpi0V25i4cQ7kNvwE-SuBY&_nc_oc=AdrfbzsnfGuZyTZUzOI9gdYiCFJ0JWh96HMB9WLjDF6Xn01nYGisUNmPma0CLogg70M&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=rFFicvhPxlGfTBxfSijnEg&_nc_ss=7f289&oh=00_AQPFCM_WWMd-l4NMRH9EFgDrYrYn4XZ6ImYk44JBzH1zIA&oe=6ACA238F",
       "has_image": true,
-      "has_video": true,
+      "has_video": false,
       "media": {
         "images": [
-          "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/06/ChatGPT-Image-23-jun-2026-19_30_07.png",
-          "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
-          "https://lapaz.bo/wp-content/uploads/2026/05/suspendidoBanner-1.png",
-          "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-12.08.52-PM-1392x928-1-1024x683.jpeg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/CONFERENCIA-VEHICULOS-4-1392x928-1-1024x683.jpeg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-05-at-11.49.50-AM-1-1024x732.jpeg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/SOLIDATON-3-1024x768.jpeg",
-          "https://lapaz.bo/wp-content/uploads/2023/07/atm.png",
-          "https://lapaz.bo/wp-content/uploads/2026/06/sa2026.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/06/sa22026.jpg"
+          "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/838949130_2596249684213858_2966613149660695956_n.png?stp=dst-jpg_tt6&cstp=mx960x979&ctp=p600x600&_nc_cat=102&ccb=1-7&_nc_sid=b96d88&_nc_ohc=WPpi0V25i4cQ7kNvwE-SuBY&_nc_oc=AdrfbzsnfGuZyTZUzOI9gdYiCFJ0JWh96HMB9WLjDF6Xn01nYGisUNmPma0CLogg70M&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=rFFicvhPxlGfTBxfSijnEg&_nc_ss=7f289&oh=00_AQPFCM_WWMd-l4NMRH9EFgDrYrYn4XZ6ImYk44JBzH1zIA&oe=6ACA238F",
+          "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/838949130_2596249684213858_2966613149660695956_n.png?stp=dst-jpg_tt6&cstp=mx960x979&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=WPpi0V25i4cQ7kNvwE-SuBY&_nc_oc=AdrfbzsnfGuZyTZUzOI9gdYiCFJ0JWh96HMB9WLjDF6Xn01nYGisUNmPma0CLogg70M&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQNsCRbgmw45voEICd6oGwcGFTmx4QfxhjoH0e4Ity4rRg&oe=6ACA238F",
+          "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/838893939_1074716818783959_7925643952883461177_n.png?stp=dst-jpg_tt6&cstp=mx1200x1416&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=o4QHut2WSw0Q7kNvwE7zV9k&_nc_oc=AdooVtb0BVHePmOnlo8R0lqm1I63fXdBuUTievYpj1-a0wcJ7c9vSZD6yrM9vHuniHI&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQN54HLgN6SWlebVTMyKP_h8dfYFlJwc-OMz2_1-UwqeFg&oe=6ACA0B65",
+          "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/837741948_1129283459448774_6901786491770952374_n.png?stp=dst-jpg_tt6&cstp=mx960x987&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=REy_LEFzGj0Q7kNvwES1aTt&_nc_oc=AdrIc4paDwo69wWCElKhfMpvTwXdRLhkdrlYkUw3mITTG3cRBcoiM6XzFcUPUGdYCuc&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQNd0OQB2rXFhksuMeZD8qHx2NHAReKBMxReEz52z50CAw&oe=6ACA09B7",
+          "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/835979784_1718903115867018_462321184963029843_n.png?stp=dst-jpg_tt6&cstp=mx960x974&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=O-dXz-ul-K8Q7kNvwGV3rSG&_nc_oc=AdrLPoTOi6tIvbDh3WKntmFJ5Qc02zm_n3VIt7eEE9bA0yzffjGFZLv13HNzLNzorBc&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQMa7dac10JJwl8DjTSM5LVr7jD7QDFC8mnmTVlmzTxjuA&oe=6ACA321F",
+          "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/835098609_28680118311598271_492945981070510037_n.png?stp=dst-jpg_tt6&cstp=mx960x988&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CYxCoEJfJ2sQ7kNvwEU1tBa&_nc_oc=AdpAZhehbrluc1S3998rrmGkMvb3nz_rA1Bne7GL3h9H0ZeYQcRH1PfocyI3I8cbBOc&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=2uGw1lJLC_QX82QIWCO-6A&_nc_ss=7f289&oh=00_AQMj_rRQVhlcoaY6qs6Urzbge6P1a2dKecLwvNu-71vWMA&oe=6ACA06B6"
         ],
-        "main_image_url": "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-        "videos": [
-          {
-            "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
-            "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-            "type": "web_video",
-            "provider": "web",
-            "use_official_embed": false,
-            "source_id": "web_lapaz"
-          }
-        ]
+        "main_image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/838949130_2596249684213858_2966613149660695956_n.png?stp=dst-jpg_tt6&cstp=mx960x979&ctp=p600x600&_nc_cat=102&ccb=1-7&_nc_sid=b96d88&_nc_ohc=WPpi0V25i4cQ7kNvwE-SuBY&_nc_oc=AdrfbzsnfGuZyTZUzOI9gdYiCFJ0JWh96HMB9WLjDF6Xn01nYGisUNmPma0CLogg70M&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=rFFicvhPxlGfTBxfSijnEg&_nc_ss=7f289&oh=00_AQPFCM_WWMd-l4NMRH9EFgDrYrYn4XZ6ImYk44JBzH1zIA&oe=6ACA238F",
+        "videos": []
       },
       "status_conflict": false,
       "status_evidence": [
         {
-          "status": "restringido",
+          "status": "precaucion",
           "published_at": null,
-          "source_id": "web_lapaz",
-          "source_name": "Gobierno Autónomo Municipal de La Paz",
-          "tier": 2,
-          "url": "https://lapaz.bo/"
+          "source_id": "fb_abc",
+          "source_name": "ABC Carreteras Bolivia",
+          "tier": 1,
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid02Vrcr4nQw3YUaMwWPoCUSMiF1WDmUN3gEqK7voGEKig9kNh6wwyqwNfi4dbAyaZYil?__cft__[0]=AZg1e-Dc-qu5Cxv4UDX1OF6rFGDmaPbbYY_lIAwnxFbQGqo9HkmYZJVlFE-rRm1etdSl4qY_aZA2SP8u6FHTVR5kb2DnmivrOk9DVZuAnUNRw5kcNab2dL5zbFvUyDn14Xw2BRPsoRIpqpYHVHfTL37GL1EAkuTuQ2nbQVclRf_JZX3dlZGkVQ0Ecl8&__tn__=%2CO%2CP-R"
         }
       ],
       "latest_update_at": null,
-      "videos": [
-        {
-          "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
-          "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-          "type": "web_video",
-          "provider": "web",
-          "use_official_embed": false,
-          "source_id": "web_lapaz"
-        }
-      ],
+      "videos": [],
       "sources": [
         {
-          "id": "web_lapaz",
-          "name": "Gobierno Autónomo Municipal de La Paz",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://lapaz.bo/",
-          "post_url": "https://lapaz.bo/",
-          "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+          "id": "fb_abc",
+          "name": "ABC Carreteras Bolivia",
+          "class": "facebook_official",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/CarreterasBo/",
+          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid02Vrcr4nQw3YUaMwWPoCUSMiF1WDmUN3gEqK7voGEKig9kNh6wwyqwNfi4dbAyaZYil?__cft__[0]=AZg1e-Dc-qu5Cxv4UDX1OF6rFGDmaPbbYY_lIAwnxFbQGqo9HkmYZJVlFE-rRm1etdSl4qY_aZA2SP8u6FHTVR5kb2DnmivrOk9DVZuAnUNRw5kcNab2dL5zbFvUyDn14Xw2BRPsoRIpqpYHVHfTL37GL1EAkuTuQ2nbQVclRf_JZX3dlZGkVQ0Ecl8&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TNdWHhJvXwYQ7kNvwFDhgTA&_nc_oc=Adps8mlrd5Eu8ZFyu4QkRmW2UFRffCH21AMcSvr4fQF-yF2t1q-Hzt5YYcaVnws9hWM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=WqKfn9bYAFtyObEF7LVf2w&_nc_ss=7f289&oh=00_AQNvFYeAwgZpIqWIaZ5zEp3vq6L0Tzr4Yf0Isqw_s6pOTQ&oe=6ACA1718",
           "published_at": null
         }
       ],
@@ -585,32 +547,46 @@
       "verification": "una_fuente",
       "corroborated": false,
       "all_urls": [
-        "https://lapaz.bo/"
+        "https://www.facebook.com/CarreterasBo/posts/pfbid02Vrcr4nQw3YUaMwWPoCUSMiF1WDmUN3gEqK7voGEKig9kNh6wwyqwNfi4dbAyaZYil?__cft__[0]=AZg1e-Dc-qu5Cxv4UDX1OF6rFGDmaPbbYY_lIAwnxFbQGqo9HkmYZJVlFE-rRm1etdSl4qY_aZA2SP8u6FHTVR5kb2DnmivrOk9DVZuAnUNRw5kcNab2dL5zbFvUyDn14Xw2BRPsoRIpqpYHVHfTL37GL1EAkuTuQ2nbQVclRf_JZX3dlZGkVQ0Ecl8&__tn__=%2CO%2CP-R"
       ],
       "merged_items": 1,
-      "incident_id": "inc_3daba33b0d66f4",
-      "first_seen_at": "2026-10-05T14:51:35-04:00",
+      "incident_id": "inc_aabfd1742d6b4a",
+      "first_seen_at": "2026-09-22T19:17:21-04:00",
       "history": [
         {
-          "at": "2026-10-05T14:51:35-04:00",
-          "detected_at": "2026-10-05T14:51:35-04:00",
+          "at": "2026-09-22T19:17:21-04:00",
+          "detected_at": "2026-09-22T19:17:21-04:00",
           "reason": "primera_deteccion",
-          "status": "restringido",
+          "status": "habilitado",
+          "lifecycle_status": "finalizado",
+          "severity": "baja",
+          "closure_scope": "sin_cierre",
+          "source_count": 1,
+          "sources": [
+            "ABC Carreteras Bolivia"
+          ],
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid02ZAGvVU6h4R1cquZXsGBJuma9YXBmB6fGQjtPB1wYwNikAJrBAYNoBd62j2gNtbGPl?__cft__[0]=AZjVAlEbU77ZPmajCdaWOfB-23l65zOihvBixdvOm6dcsATus_c4EngVusv_FzrE3Eod3fk9hxjTVpNoQYBRO0O43R1DPCwf_-L4eL6pfKoy39KGAmhQdvweyz_a6dawcWTfziNmGc9wo9d7z3g4U7Dkx0dQZoNi26ZugvjiRD9jMQu-I325GuJzkI0&__tn__=%2CO%2CP-R"
+        },
+        {
+          "at": "2026-10-05T20:48:27-04:00",
+          "detected_at": "2026-10-05T20:48:27-04:00",
+          "reason": "actualizacion",
+          "status": "precaucion",
           "lifecycle_status": "activo",
-          "severity": "media",
+          "severity": "baja",
           "closure_scope": null,
           "source_count": 1,
           "sources": [
-            "Gobierno Autónomo Municipal de La Paz"
+            "ABC Carreteras Bolivia"
           ],
-          "url": "https://lapaz.bo/"
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid02Vrcr4nQw3YUaMwWPoCUSMiF1WDmUN3gEqK7voGEKig9kNh6wwyqwNfi4dbAyaZYil?__cft__[0]=AZg1e-Dc-qu5Cxv4UDX1OF6rFGDmaPbbYY_lIAwnxFbQGqo9HkmYZJVlFE-rRm1etdSl4qY_aZA2SP8u6FHTVR5kb2DnmivrOk9DVZuAnUNRw5kcNab2dL5zbFvUyDn14Xw2BRPsoRIpqpYHVHfTL37GL1EAkuTuQ2nbQVclRf_JZX3dlZGkVQ0Ecl8&__tn__=%2CO%2CP-R"
         }
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-05T14:51:35-04:00",
+      "last_seen_at": "2026-10-05T20:48:27-04:00",
       "seen_this_run": true,
-      "history_count": 1
+      "history_count": 2
     },
     {
       "id": "98d740b3a656ce3e",
@@ -622,7 +598,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-10-05T14:51:35-04:00",
+      "scraped_at": "2026-10-05T20:48:27-04:00",
       "department": "La Paz",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -794,7 +770,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-05T14:51:35-04:00",
+      "last_seen_at": "2026-10-05T20:48:27-04:00",
       "seen_this_run": true,
       "history_count": 3
     },
@@ -808,7 +784,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-fortalece-la-conservacion-vial-con-trabajos-de-bacheo-en-colcapirhua-carretera-cochabamba-oruro/",
       "published_at": null,
-      "scraped_at": "2026-10-05T14:51:35-04:00",
+      "scraped_at": "2026-10-05T20:48:27-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -932,7 +908,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-05T14:51:35-04:00",
+      "last_seen_at": "2026-10-05T20:48:27-04:00",
       "seen_this_run": true,
       "history_count": 1
     }
@@ -947,7 +923,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TNdWHhJvXwYQ7kNvwFexSKL&_nc_oc=AdqF2DrEr0fL4M0KGT3ZnDG3mkjGgITvnCLfy5igz-OQLhj3AI0nYBydcEG8WVDEb3w&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=e3DG6ZWlOrQ749Om0cZMQA&_nc_ss=7f289&oh=00_AQNvVplAjuAJOIWLKwgA1ZJx-VDQ8ybMaybeke5gQEA7rQ&oe=6AC9DED8",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TNdWHhJvXwYQ7kNvwFDhgTA&_nc_oc=Adps8mlrd5Eu8ZFyu4QkRmW2UFRffCH21AMcSvr4fQF-yF2t1q-Hzt5YYcaVnws9hWM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=WqKfn9bYAFtyObEF7LVf2w&_nc_ss=7f289&oh=00_AQNvFYeAwgZpIqWIaZ5zEp3vq6L0Tzr4Yf0Isqw_s6pOTQ&oe=6ACA1718",
       "status": "ok"
     },
     {
@@ -959,7 +935,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=SrDJad5kqQgQ7kNvwFqzTFX&_nc_oc=AdpO9_SjaxqieshHUub73ZD2X2bQDatGwSWAVNOrI6JSMTuP5zSAA8OOnu9YjdXxbnk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=_vyu3bqGFAyStPSyS-A8ow&_nc_ss=7f289&oh=00_AQMZvMT7mU1_jl0fk2smkAqo6Yakm5kFgLCYnuTdfQLngg&oe=6AC9A9EB",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=SrDJad5kqQgQ7kNvwHfmcNb&_nc_oc=Adot01J2Ox7RK050fyIp37ZP6Pg3ozlyn5n7BLvBQbjJ_H-bUvoHDf8eOnWuRNLkpo4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=wGyKD3U6sUYriEZh0xUSPw&_nc_ss=7f289&oh=00_AQMxBRkGHEWOY1SUUVCX4PGcuvowDLJfs_XhVbqr6PE2Tw&oe=6ACA1A6B",
       "status": "ok"
     },
     {
@@ -995,7 +971,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bz7wNZL-PB8Q7kNvwGBp7cm&_nc_oc=AdrVVqWIJ3JcDKE8J_7ysZvKe24NcwM1gzlYo6VfuQ0mXre-Tm8JXNozCmPi3cbji_Y&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=L4781x-fibWh6mYkj-uKnw&_nc_ss=7f289&oh=00_AQOeBhNzv6UmMaiNJj8e9bOt_q0sFS99ozkEFBcnHD8RcA&oe=6AC9DBF7",
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bz7wNZL-PB8Q7kNvwESNRiq&_nc_oc=AdrjHKopOX4NpulvLDGrBGL8UErqlYzd9ALg3chWv-VjBHqfwskAqeTJKnV-L7-Si1s&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=9PfDQAWEh2C7tj4EZfvuYQ&_nc_ss=7f289&oh=00_AQP0ENb3l1SYhwd2znPYgHP4ywYU9ANMXYPnygAQKXDVbA&oe=6ACA1437",
       "status": "ok"
     },
     {
@@ -1007,7 +983,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V9iz3KCN9pMQ7kNvwGSvRlQ&_nc_oc=AdqNN-ZKcBHKORR3GF4vaNpq6NSlcUpM6i3hfxwAvsA8_Xj0_Jf5oyCQWF7KqgG4BqQ&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=uueyS5FuPlcw6iDpU9ranQ&_nc_ss=7f289&oh=00_AQMo1yU_H_K-D8HH65EyVuk3ZzIP7hsq2QCP4PAt6unG7A&oe=6AC9AE78",
+      "icon_url": "https://scontent.fpcm1-2.fna.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=V9iz3KCN9pMQ7kNvwElHNW3&_nc_oc=AdpI3EQOAkNF7b1Hz1K77nfVL2Kz5FtqiCQ1fH6GeP4AnW4R5tfwemXigAP8I-u8QeU&_nc_zt=24&_nc_ht=scontent.fpcm1-2.fna&_nc_gid=Keq2SqHUoPK7FsQ1zBwAiw&_nc_ss=7f289&oh=00_AQOT7OpWevPuSD_v4aSJCYvtpCIGY3c-HIZLdS7YwclpIQ&oe=6ACA1EF8",
       "status": "ok"
     },
     {
@@ -1019,7 +995,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nBpA7-j0-_YQ7kNvwFGRhjS&_nc_oc=Ado1GjOq4xyy4QNIDn1KnTupyP5byLWdt5FO1c0l9plO9BwGqA3h0ITPZs-G0St3FOk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=CAAWAKFmh7duNMmfth8g3A&_nc_ss=7f289&oh=00_AQOj2xYl4_3KMoCQT74nPiUhaUWJ5SsP5zkDet5fRY0vJg&oe=6AC9C200",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nBpA7-j0-_YQ7kNvwHWcWxk&_nc_oc=AdoRZNE_cjdWoFVg7kfamrx4PGNUORot_--k6yYP5ZWm7cTkp8OyJrEGY1vcFmol0k8&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=g95DpCAt7OSxFvaK84nf2Q&_nc_ss=7f289&oh=00_AQOpuMsqkR52FypD-nbvQLUFpJFpYZ2Ak1rVkSVhtZcl2w&oe=6ACA3280",
       "status": "ok"
     },
     {
@@ -1043,8 +1019,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RS2UI7A335YQ7kNvwEQmp9q&_nc_oc=AdqvJ1oYa66DsAgle_0_S1EZqh2ZQNNGaL8SZ3AcfFANwa4K1a24T-ebuOA6MhQOJac&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=v67bBRFoa2K3FlvUcRIM4w&_nc_ss=7f289&oh=00_AQPRZb8d2RZNRIarsDo5MaSneiENEkC-MTB6uzHqMfhLhQ&oe=6ACA1917",
+      "status": "ok"
     },
     {
       "id": "fb_transito_cbba",
@@ -1067,8 +1043,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Xgw-RqQ83xcQ7kNvwHqK47b&_nc_oc=Adqd4F0TD9ZexW5eUZQ6xjR7k8vLNtbO0CDAVz0Kf5lTRpJrUO5e4DByCeHAgBUb4Ro&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=k7BKr0pC4u_7JIJ0aWR00Q&_nc_ss=7f289&oh=00_AQMv7-fiFQKKrBaoWZho0h7sr1PCGl8fz-u0k0lFpwcsbQ&oe=6ACA0205",
+      "status": "ok"
     },
     {
       "id": "fb_terminal_cbba",
@@ -1091,7 +1067,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LX5AJ2LGrQEQ7kNvwGUkcQs&_nc_oc=AdoBfAvxQP39t1gA2rmDzMAOtXUng5qJzJBN4Lzjrq9EO4GGJ3zH6dvsKgPmVmFLomY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Zwmxs0RW2eext9sltsOfPQ&_nc_ss=7f289&oh=00_AQMaa7wWFMjr2jM7cp05jBD_hqhtz7qft0TffeD99Yvjsw&oe=6AC9D897",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bYQRd7iXLKMQ7kNvwHsUZ4Q&_nc_oc=Adq66dg50bUjYfvE8PkH2CoR7xrXPF_9-qzGWlyg6NvFnuGfar1uNmiNbvTOCSyf6ng&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=OxwWUWKunAmuCaiHXnw0wg&_nc_ss=7f289&oh=00_AQPIuoJNebTNb7FeqqmdUU_qBPGBhTQv1TaYCXzIEbp21w&oe=6ACA10D7",
       "status": "ok"
     },
     {
@@ -1103,7 +1079,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=P7xGMRrLBSwQ7kNvwHo03VI&_nc_oc=AdrteYvXBbjhQTcAH3ii9Xjf8HIoO8BP4ZRgXGjvS9Jq4TknGnHnvC1oPB7ZMVJsLHY&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=Eep9SdFTD0jdWcj92tDaKg&_nc_ss=7f289&oh=00_AQN82EwR0QoIQTOmerTwJBDD-TSxm7cR8zrwF3ahafC7Wg&oe=6AC9CC11",
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=P7xGMRrLBSwQ7kNvwEWdNvY&_nc_oc=AdrLSDIo1tKakGMx_WQkIGp-ZSbsJjJpRxXzC0moOS2pUNsKNkoKDpYfDJNEVNc62MY&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=V5raUkmqxPurlp77-xZrXQ&_nc_ss=7f289&oh=00_AQPeUALX3fEQOVW04GP8RY25t6hUghDW-dbXQhWgs-iWeA&oe=6ACA0451",
       "status": "ok"
     },
     {
@@ -1115,8 +1091,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xXk37_Ov0BcQ7kNvwGt3Zqa&_nc_oc=AdqeDOLXhnQY6ronj8qMyI0ag0FzCfhjWSUAevXdUfoE_a12XTiESljpHA9IsyLyjWY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Z7CitHGRQ-Eyej7z5g_JTQ&_nc_ss=7f289&oh=00_AQNvz5fQMu2jLJJvIp82oWzkzNj7BMjxNLC1B_ppTn5lhQ&oe=6ACA263E",
+      "status": "ok"
     },
     {
       "id": "web_abc",
@@ -1211,7 +1187,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=v_XEyutpHp0Q7kNvwHYL-yP&_nc_oc=AdoJvaNvfDCa5vB116Tz91jATjRINhstaRhcv5_wyrBPLyXBw-50zP8RwRxu_79e490&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_ss=7f289&oh=00_AQPR20NN95iLHnb9VPibIwN3MirBKYZJTP9GIqOI_t6jsA&oe=6AEB633A",
+      "icon_url": "https://scontent.fpcm1-2.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=v_XEyutpHp0Q7kNvwFvXr6P&_nc_oc=Ado7iIvGvzxjbDl9UrF5z9zUVDzrjBUJR7P_CEu6y_fQXYen7vQVFRlLLsi-j12wLQo&_nc_zt=24&_nc_ht=scontent.fpcm1-2.fna&_nc_ss=7f289&oh=00_AQPt9MioMMyc9cbuTTlMOYZJr_XreH7sdSYGkFsyCf7UcA&oe=6AEB9B7A",
       "status": "ok"
     },
     {
@@ -1223,7 +1199,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=a1x5sd9b5TMQ7kNvwFdjEyV&_nc_oc=Adog8v-gf8Vq4ikD40i3FtOn6CFhDu6Gekq77bnOZd-6TKfcYhknIeZBMztxWZx17sM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Mn0WAZAQoYtb9LoPWuri-g&_nc_ss=7f289&oh=00_AQMB7wFh2NVJSxijCVPAn7RS-kV2-K4CH7jkcW08CdsNbg&oe=6AC9CAFF",
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=a1x5sd9b5TMQ7kNvwF_HBMi&_nc_oc=AdpSLnk-P23UMfOwZrT-ps-kJqEa-LuxGg9oLjC7iqERQbjArzPqK4aWgKalOHYZ9JA&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=lvOWBKsY9TTtbv2sENQr1g&_nc_ss=7f289&oh=00_AQOtmdkvr3FPYP1aNKdTYdtsaSP6QM8B4mq6twgD-3myzA&oe=6ACA033F",
       "status": "ok"
     },
     {
@@ -1235,8 +1211,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fO2Clux46BwQ7kNvwEC7qfv&_nc_oc=AdpQYYC0jmcuZ6anPhaqRbWu0SF66UPDJqjX7MvgeKOXfzENfSE0V2Du2ds0HRuuTh4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=PiV_BVOat7b_9nrDb5Ql8w&_nc_ss=7f289&oh=00_AQMYBmNYIDs8e6uv7WatZywiXVJ0HHwGX0XWOdayOswbHg&oe=6AC9C60C",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_rtp",
@@ -1247,7 +1223,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zAtXn7gzk0EQ7kNvwHuFG8B&_nc_oc=AdoBDCDMklpA2UbRc_JzPD_52pH6AwebnFBieUvqlytePDHzbMg2gXi4HbnBUx0L97g&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=bkQn0y-muf_MGXzvdyPoFA&_nc_ss=7f289&oh=00_AQOw2PRBxG6o6K_xv0_WEbvwwB7-jZVB89b7BZMNNN4MmQ&oe=6AC9A845",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zAtXn7gzk0EQ7kNvwGrewRq&_nc_oc=Adr1HczXTC0A8pIT5KxDHpbHXzoUhXxhCRokecQYMyqCPNwuGWUAcH34DeKqY4Eu2v4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=pTPgljDBejNzreaFF3Ct-A&_nc_ss=7f289&oh=00_AQPvsIS-go1Bq8t-48vUD6fuZlFPQJARz8-XtLC3MxqZbA&oe=6ACA18C5",
       "status": "ok"
     },
     {
@@ -1259,8 +1235,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XlHph_2h0LoQ7kNvwHrUtay&_nc_oc=Adqu1X8Wu3uB1Q9Ow-yY9XthEmWulU3IuBY4K2hMnKp55yQPCG_IBfVgxs2aqYODO5o&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=5LU_WIxmE5N1HrGNIW_DbQ&_nc_ss=7f289&oh=00_AQPNwnomOa4ehSi2Z0WfVuW5naN3aSUGQFf7UGKBe_Kbeg&oe=6AC9CEFA",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_opinion",
@@ -1271,7 +1247,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XGAjc1ZgaJkQ7kNvwEJ9vMm&_nc_oc=AdonXo-qKrHpQyQ6viDs1oFIIQTaFGYVsw_roeo_Ev3fqhwBzX9csSe6EGkk5fsJE58&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=RhbnmeRK7DKwwWs-jwbRpA&_nc_ss=7f289&oh=00_AQOhZIbp3AQO9_qbM48SV9t4vP1VJMKTWJsia5Ln920JHg&oe=6AC9B9A6",
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nrO4PB2H0lsQ7kNvwHnLiEQ&_nc_oc=AdqjUuPwNxRASzFT3saut9OoQxQymBwfJCh7JVABwxsGtjZ0fect4aEwqRs6pnpAFoo&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=vRc_gbu_hhLW8JnYhAigWg&_nc_ss=7f289&oh=00_AQPS5yCr1s53hVndSizyQA6hW6lSPN3yAoSG4D5OsG81Iw&oe=6ACA2A26",
       "status": "ok"
     },
     {
@@ -1283,7 +1259,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S9bVHhnE3gIQ7kNvwFyr48y&_nc_oc=Adroq5W6lN1g45U_ai6Pi4AIIDNrdiC_Uk-GTdJmCoJdCb3Nz7hmSFKU-L-ESBRz0dY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Y7BJVgZBvM3wxAtr5BEipw&_nc_ss=7f289&oh=00_AQMZdBcL27ROVgzJcnn7dH7uF57Cm-_3bNEOMgyGEA7B4Q&oe=6AC9BB4C",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=S9bVHhnE3gIQ7kNvwFSam-V&_nc_oc=AdrbDyrBzVyF66ROZCZY1TWWy6Nz8JC8u-fAa-Ajc7ppkWwN8DeZWhETHxhJ1SZSd9M&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=m-4jUzoCKCXXyjjyDgM2aA&_nc_ss=7f289&oh=00_AQPGsGbFk_GHbU8VTf_didmoygqgX3pHN36e18ikMH-WoA&oe=6ACA2BCC",
       "status": "ok"
     },
     {
@@ -1295,8 +1271,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=t0zXNU4Xj_sQ7kNvwFdVcA-&_nc_oc=Adp4IZwr5t0ArpLzTR7DNWUjERtVLEv5voMrrtvXm_xv56_f1VKF7FVoiT0Brv_GRlk&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=PQ64U0_3ddljOzReyq83TQ&_nc_ss=7f289&oh=00_AQMMCR17UL8ujz8ChlYmAR-lGGQZ0auC2CknFwnpH2wScA&oe=6AC9CB41",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_erbol",
@@ -1307,7 +1283,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=731nVb2zUIkQ7kNvwG16nzC&_nc_oc=AdqGaV_Wm4p3xK7v2Rzv-QSPS6Ua6VOE0sVwn21y6K36ciaWDsB7aPKfOkPL1RDFALA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Ag8fzb-8ZpQBCdh82mNhPw&_nc_ss=7f289&oh=00_AQNH7x_faOtuxv6yJo8XrdRSr2-QwxNWWhg5iGfWsXtHsw&oe=6AC9D468",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=731nVb2zUIkQ7kNvwEDRGov&_nc_oc=AdrdAsccqCFslaatFvaKyInQQfCq88SF4UmRs21V6sfNfwjmU_EtBjd6Urpk2wBbe6w&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=q4FXpZK9tsrJgNMiKJtJZg&_nc_ss=7f289&oh=00_AQO30jJJ23IbuoY5OU2lozn7tiIBm35VRN28joANJoc6RA&oe=6ACA0CA8",
       "status": "ok"
     },
     {
@@ -1319,7 +1295,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1P8fsrl1imoQ7kNvwGXTQzk&_nc_oc=Adp4QSHoJ6SwlGzyi3duyPlWH2g7XhEFcM2JGtGMlO3mMVQgu6kJFjwsw1ijVB29tiI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=XLp-5jX6kz1cVdLbrPup7g&_nc_ss=7f289&oh=00_AQOXPgXR6l0ss2Yd9UBTPVtUogKkZea-fCuZCpX2LZLyXQ&oe=6AC9C088",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1P8fsrl1imoQ7kNvwHBGhtZ&_nc_oc=Ado_r0gDIlfhXE--gQJLxxL3PL8V3clUrmxIhcc5_-s1r2q3iF2BEOkGIbABhVbu0_4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=I9LZgUrksCUqOpD-gUnolg&_nc_ss=7f289&oh=00_AQMpflGyYsA3uT5UOMjx_j_qm3qBM1r19jUhROqGy988tA&oe=6ACA3108",
       "status": "ok"
     },
     {
@@ -1331,7 +1307,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NaU-3U3sggIQ7kNvwFOWX4k&_nc_oc=AdoA80AJ0Ymdaisv_TpmYq1iPwc_Iuqo-TmPhzBXWWEpHjClbLUBv5vkSrn7DiNbA5I&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=tmNrYxXpRp3mfLlpSFwOqA&_nc_ss=7f289&oh=00_AQNMiNiJ8pjaUW7Z_oCdXe15BUkdqoIo2gJY_YUtyYvfOw&oe=6AC9C0E9",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NaU-3U3sggIQ7kNvwEKYeJQ&_nc_oc=AdqBy2wvk9drFNWOfAiisyB28yHKDU4HeNH8ctnDz9U67SaKPOraorBpuxsAgLMi2GI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9SV53KFDi8W9qs00HCylsg&_nc_ss=7f289&oh=00_AQPA9KnVxZ_qxilVjtutzobGI0WPtSSc4_R5aqBSEMCQow&oe=6ACA3169",
       "status": "ok"
     },
     {
@@ -1343,7 +1319,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3HXvTlTCzjsQ7kNvwG2csVN&_nc_oc=AdrGPrGygeMZ-YsMNK17bnjBpe-M1cAtT4_dQooaQl1ZdfouWA8gx3OoWIb26EgyOVY&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=m-YzwAt7gOerqyAKTDVF-g&_nc_ss=7f289&oh=00_AQMR5xEZePsukkTUuz7iQKrr7InipxV8ikQC8yj7VIPelQ&oe=6AC9C2F7",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3HXvTlTCzjsQ7kNvwFmeoHU&_nc_oc=Adr_1agAnq7Hd_9Q10w_6Az9BPoFVzuvk2EXJCIYH7UqptvnL-6A7m2vb2uUj49ErLA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=p_3WEoewuEYPYTwQ1c_xmA&_nc_ss=7f289&oh=00_AQNlnN3Y4aKwwEAzRHzI-bhaGkoLqjnRFAblwhKkzNFOOw&oe=6ACA3377",
       "status": "ok"
     },
     {
@@ -1355,7 +1331,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dln9XkGq7wAQ7kNvwFuY6GW&_nc_oc=AdpI2-9zOiCZSSoj3zUAQZXcZzWZDTHsnVBbePZverD4tBrgDT3bKWVhVCHuv1QxJLY&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=7qPNUZxVwAeswLwK1hGVWA&_nc_ss=7f289&oh=00_AQMZHYXwErtPPSgrKhLol9uUFplHfnw91-Pfm5s4g96jVA&oe=6AC9C5BD",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dln9XkGq7wAQ7kNvwEuokNQ&_nc_oc=AdpgAEHlLN2MIthhuG7UfhY-QL8Ciq26ZfEdCETMyYdbqtv7hPpn-pbhfGWP6PgaFuA&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=02xeQkLPcJ4C8u7XU-UUZw&_nc_ss=7f289&oh=00_AQOmtndh0SuYgYMLE9se5OAgq4_RRaaf4EyLnA51HjJubw&oe=6AC9FDFD",
       "status": "ok"
     },
     {
@@ -1367,8 +1343,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rzLxswecXUsQ7kNvwEvuF4k&_nc_oc=AdqpUvQDDRf2xZoTorv0aNmwgVuLWMQhlCDIA-erRQVIYugREaI6DVT_I9ln-2UvaNA&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=TTYAa_TTm0U4Mah7u4Egkg&_nc_ss=7f289&oh=00_AQPpkp6tPy7Pk9Lyre42Ir-9tHf8wV8ubSYX9ol00krzaw&oe=6AC9CC61",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_abya_yala",
@@ -1379,8 +1355,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=3V-KCiKrPMQQ7kNvwH3M0h3&_nc_oc=AdqXHc3OTwUmKk3sglBFHyt9QZhP_4snJgiK_3XycsUpAr8Aqe6c11w3lkPSXVu-c4M&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=B4Ju9MpEtuyPDCC65Swgwg&_nc_ss=7f289&oh=00_AQPeGzLOQ50YWtBP742HaN2Wqm4slSeC5nHeP7rxbxY4Lg&oe=6AC9AF82",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     }
   ]
 }
