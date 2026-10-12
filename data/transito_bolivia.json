@@ -1,13 +1,13 @@
 {
   "schema_version": "3.2-fast",
-  "generated_at": "2026-10-11T22:23:17-04:00",
+  "generated_at": "2026-10-12T05:48:39-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "facebook_sources": 30,
     "web_sources": 7,
-    "sources_ok": 27,
-    "sources_error": 10,
-    "raw_publications": 42,
+    "sources_ok": 25,
+    "sources_error": 12,
+    "raw_publications": 38,
     "vial_publications": 8,
     "incidents": 7
   },
@@ -22,7 +22,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/lista-comunicados-page/",
       "published_at": null,
-      "scraped_at": "2026-10-11T22:23:17-04:00",
+      "scraped_at": "2026-10-12T05:48:39-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -146,46 +146,67 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-11T22:23:17-04:00",
+      "last_seen_at": "2026-10-12T05:48:39-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
     {
-      "id": "78ef666fb6dffb6a",
+      "id": "a41fecb8e707c6b5",
       "source_id": "fb_abc",
       "source_name": "ABC Carreteras Bolivia",
       "source_url": "https://www.facebook.com/CarreterasBo/",
       "source_class": "facebook_official",
       "source_tier": 1,
-      "source_icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9xByIRAkSvkQ7kNvwFtPDvs&_nc_oc=Ado47shM1lnvQK5ukw4h5F5pIx8chGEJMoqqmrJsiKfetA56PAM8vheozf-SjCGz8fM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=4grZncxuH87lHdluYecJEQ&_nc_ss=7f289&oh=00_AQODC9j0FAzNRnA_Nq0xZoz-gXewoyW3god3UXnfPc0Xqw&oe=6AD20018",
-      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0291zc3jswVgt2LYy8grF5qqZhKWQoA56v9tVFjF7EUwCeud9wnYr93frRs25FEkcfl?__cft__[0]=AZinxF0WCAe3eYqX5QO5-2iGkDV0Tpw30gRgYozpMqPwIvIPKcBaIMqls2nfxkMqOPtv8wM9cRKfbCFSPDvDAZSA5miTPtiTiLNcHzJ8PFC7xkwBqGBbp4RGnqtJovojL1nkEQdEEDFKXnKboE0103cwhwTZW43A3ljLgFzMgbXDU7rPZUqu311RyqI&__tn__=%2CO%2CP-R",
+      "source_icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9xByIRAkSvkQ7kNvwFT8ieC&_nc_oc=AdqOUxkwh4HIi-KS4ed4-Prv1GEA2v8yHYyXkHH5jZadpIJA7L9nw_r0Npc-w3sA340&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=P9SStF3ZmR5-aMdyZ0h61g&_nc_ss=7f289&oh=00_AQNOK6My7x3hjyZ9kbeCDnt3PdzRbKnNawiBYPezgC-e8g&oe=6AD27098",
+      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0291zc3jswVgt2LYy8grF5qqZhKWQoA56v9tVFjF7EUwCeud9wnYr93frRs25FEkcfl?__cft__[0]=AZibnJkFF2xK-nOQlD0LuwuOy3O4LMt9ma71x5lmwM_OqTagzGxfcl1eUZ1doAPxPSeYXE8ufb0WVutgEtaCrqUdSl1KuHInOd3Wai8iK7JUwGYl8bxnbBSyxQwxxt65p0ktCT6dWGwxloyo1g6mmB07mlF0PSrUVYqvBKaN99Qa7zGY_23e6MkDrIU&__tn__=%2CO%2CP-R",
       "published_at": null,
-      "scraped_at": "2026-10-11T22:23:17-04:00",
-      "department": "Bolivia",
-      "municipality": null,
-      "city": null,
-      "event_type": "cierre_vial",
-      "cause": "lluvia",
-      "status": "cerrado",
+      "scraped_at": "2026-10-12T05:48:39-04:00",
+      "department": "Cochabamba",
+      "municipality": "Cochabamba",
+      "city": "Cochabamba",
+      "event_type": "bloqueo",
+      "cause": "conflicto_transporte",
+      "status": "restringido",
       "closure_scope": null,
       "severity": "media",
-      "confidence": 0.97,
-      "relevance_score": 76,
+      "confidence": 0.99,
+      "relevance_score": 100,
       "filter_reasons": [
-        "contexto_vial:5",
-        "evento:cierre_vial",
-        "via_detectada:1",
-        "terminos_viales:5",
+        "frase_vial_directa:1",
+        "contexto_vial:16",
+        "evento:bloqueo",
+        "via_detectada:10",
+        "sector_detectado:5",
+        "kilometro_detectado",
+        "terminos_viales:18",
         "fuente_oficial_facebook"
       ],
       "title": "Administradora Boliviana de Carreteras",
-      "description": "🚧 ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios... 🚧 ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas,... ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios de la Red Vial Fundamental que, debido a las precipitaciones pluviales registradas en la región, se dispone el cierre temporal de la transitabilidad en los tramos: San Ignacio de Moxos – Puerto Varador, específicamente en los sectores de Villa Isora, río Mamoré y Puerto Varador. San Javier - Honolulo - San Ramon - La Moroña - Puerto Ustárez. Esta medida tiene como objetivo preservar la plataforma vial, que actualmente presenta saturación debido a las condiciones climáticas, y precautelar la seguridad de los usuarios. La ABC realiza el monitoreo permanente del tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura. Más información: https://transitabilidad.abc.gob.bo #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios de la Red Vial Fundamental que, debido a las precipitaciones pluviales registradas en la región, se dispone el cierre temporal de la transitabilidad en los tramos: San Ignacio de Moxos – Puerto Varador, específicamente en los sectores de Villa Isora, río Mamoré y Puerto Varador. San Javier - Honolulo - San Ramon - La Moroña - Puerto Ustárez. Esta medida tiene como objetivo preservar la plataforma vial, que actualmente presenta saturación debido a las condiciones climáticas, y precautelar la seguridad de los usuarios. La ABC realiza el monitoreo permanente del tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura. Más información: https://transitabilidad.abc.gob.bo #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia",
-      "original_text": "🚧 ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios... 🚧 ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas,... ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios de la Red Vial Fundamental que, debido a las precipitaciones pluviales registradas en la región, se dispone el cierre temporal de la transitabilidad en los tramos: San Ignacio de Moxos – Puerto Varador, específicamente en los sectores de Villa Isora, río Mamoré y Puerto Varador. San Javier - Honolulo - San Ramon - La Moroña - Puerto Ustárez. Esta medida tiene como objetivo preservar la plataforma vial, que actualmente presenta saturación debido a las condiciones climáticas, y precautelar la seguridad de los usuarios. La ABC realiza el monitoreo permanente del tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura. Más información: https://transitabilidad.abc.gob.bo #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios de la Red Vial Fundamental que, debido a las precipitaciones pluviales registradas en la región, se dispone el cierre temporal de la transitabilidad en los tramos: San Ignacio de Moxos – Puerto Varador, específicamente en los sectores de Villa Isora, río Mamoré y Puerto Varador. San Javier - Honolulo - San Ramon - La Moroña - Puerto Ustárez. Esta medida tiene como objetivo preservar la plataforma vial, que actualmente presenta saturación debido a las condiciones climáticas, y precautelar la seguridad de los usuarios. La ABC realiza el monitoreo permanente del tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura. Más información: https://transitabilidad.abc.gob.bo #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia",
+      "description": "🚧 ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios... 🚧 ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas,... ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios de la Red Vial Fundamental que, debido a las precipitaciones pluviales registradas en la región, se dispone el cierre temporal de la transitabilidad en los tramos: San Ignacio de Moxos – Puerto Varador, específicamente en los sectores de Villa Isora, río Mamoré y Puerto Varador. San Javier - Honolulo - San Ramon - La Moroña - Puerto Ustárez. Esta medida tiene como objetivo preservar la plataforma vial, que actualmente presenta saturación debido a las condiciones climáticas, y precautelar la seguridad de los usuarios. La ABC realiza el monitoreo permanente del tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura. Más información: https://transitabilidad.abc.gob.bo #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios de la Red Vial Fundamental que, debido a las precipitaciones pluviales registradas en la región, se dispone el cierre temporal de la transitabilidad en los tramos: San Ignacio de Moxos – Puerto Varador, específicamente en los sectores de Villa Isora, río Mamoré y Puerto Varador. San Javier - Honolulo - San Ramon - La Moroña - Puerto Ustárez. Esta medida tiene como objetivo preservar la plataforma vial, que actualmente presenta saturación debido a las condiciones climáticas, y precautelar la seguridad de los usuarios. La ABC realiza el monitoreo permanente del tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura. Más información: https://transitabilidad.abc.gob.bo #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia La Administradora Boliviana de Carreteras (ABC) gestiona 20 mil kilómetros de carreteras de la Red Vial Fundamental (R.V.F), ampliando su cobertura a la rehabilitación y conservación de las vías. A continuación, te mostramos el reporte de transitabilidad. Para más información visita nuestra página web: https://transitabilidad.abc.gob.bo Cualquier emergencia pueden escribirnos al número de Whatsapp: 71219232 La ABC trabaja junto al Ministerio de Obras Públicas, Servicios y Vivienda para mantener informada a la población sobre la Red Vial Fundamental. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia La Administradora Boliviana de Carreteras (ABC) gestiona 20 mil kilómetros de carreteras de la Red Vial Fundamental (R.V.F), ampliando su cobertura a la rehabilitación y conservación de las vías. A continuación, te mostramos el reporte de transitabilidad. Para más información visita nuestra página web: https://transitabilidad.abc.gob.bo Cualquier emergencia pueden escribirnos al número de Whatsapp: La ABC trabaja junto al Ministerio de Obras Públicas, Servicios y Vivienda para mantener informada a la población sobre la Red Vial Fundamental. #ABCIntegrandoLaPatria LA ABC EJECUTA NIVELACIÓN Y REPOSICIÓN DE RIPIO EN EL SECTOR YUCUMO DEL TRAMO QUIQUIBEY – RURRENABAQUE DEL BENI Con el objetivo de resguardar las vías, la Administradora Boliviana de Carreteras (ABC) realiza los trabajos de conservación vial en el tramo Quiquibey – Yucumo – Rurrenabaque, concentrando los frentes de trabajo en el sector de Yucumo con proyección de avance hacia Rurrenabaque, en el departamento del Beni. Las operaciones, comprenden la nivelación y reconformación de la plataforma vial, además de la reposición focalizada de ripio. Estas tareas técnicas permiten eliminar deformaciones y baches en la capa no pavimentada, devolviendo la homogeneidad a la vía y mejorando la adherencia vehicular de cara a la temporada pluvial. Ante el constante movimiento de maquinaria pesada sobre la carretera, la ABC en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, solicita a los operadores del autotransporte de pasajeros, carga pesada y conductores particulares transitar con extrema precaución, reducir la velocidad y respetar la señalización preventiva desplegada en los puntos de trabajo. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia LA ABC EJECUTA NIVELACIÓN Y REPOSICIÓN DE RIPIO EN EL SECTOR YUCUMO DEL TRAMO QUIQUIBEY – RURRENABAQUE DEL BENI Con el objetivo de resguardar las vías, la Administradora Boliviana de Carreteras (ABC) realiza los trabajos de conservación vial en el tramo Quiquibey – Yucumo – Rurrenabaque,",
+      "original_text": "🚧 ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios... 🚧 ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas,... ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios de la Red Vial Fundamental que, debido a las precipitaciones pluviales registradas en la región, se dispone el cierre temporal de la transitabilidad en los tramos: San Ignacio de Moxos – Puerto Varador, específicamente en los sectores de Villa Isora, río Mamoré y Puerto Varador. San Javier - Honolulo - San Ramon - La Moroña - Puerto Ustárez. Esta medida tiene como objetivo preservar la plataforma vial, que actualmente presenta saturación debido a las condiciones climáticas, y precautelar la seguridad de los usuarios. La ABC realiza el monitoreo permanente del tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura. Más información: https://transitabilidad.abc.gob.bo #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda (MOPSV), informa a los usuarios de la Red Vial Fundamental que, debido a las precipitaciones pluviales registradas en la región, se dispone el cierre temporal de la transitabilidad en los tramos: San Ignacio de Moxos – Puerto Varador, específicamente en los sectores de Villa Isora, río Mamoré y Puerto Varador. San Javier - Honolulo - San Ramon - La Moroña - Puerto Ustárez. Esta medida tiene como objetivo preservar la plataforma vial, que actualmente presenta saturación debido a las condiciones climáticas, y precautelar la seguridad de los usuarios. La ABC realiza el monitoreo permanente del tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura. Más información: https://transitabilidad.abc.gob.bo #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia La Administradora Boliviana de Carreteras (ABC) gestiona 20 mil kilómetros de carreteras de la Red Vial Fundamental (R.V.F), ampliando su cobertura a la rehabilitación y conservación de las vías. A continuación, te mostramos el reporte de transitabilidad. Para más información visita nuestra página web: https://transitabilidad.abc.gob.bo Cualquier emergencia pueden escribirnos al número de Whatsapp: 71219232 La ABC trabaja junto al Ministerio de Obras Públicas, Servicios y Vivienda para mantener informada a la población sobre la Red Vial Fundamental. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia La Administradora Boliviana de Carreteras (ABC) gestiona 20 mil kilómetros de carreteras de la Red Vial Fundamental (R.V.F), ampliando su cobertura a la rehabilitación y conservación de las vías. A continuación, te mostramos el reporte de transitabilidad. Para más información visita nuestra página web: https://transitabilidad.abc.gob.bo Cualquier emergencia pueden escribirnos al número de Whatsapp: La ABC trabaja junto al Ministerio de Obras Públicas, Servicios y Vivienda para mantener informada a la población sobre la Red Vial Fundamental. #ABCIntegrandoLaPatria LA ABC EJECUTA NIVELACIÓN Y REPOSICIÓN DE RIPIO EN EL SECTOR YUCUMO DEL TRAMO QUIQUIBEY – RURRENABAQUE DEL BENI Con el objetivo de resguardar las vías, la Administradora Boliviana de Carreteras (ABC) realiza los trabajos de conservación vial en el tramo Quiquibey – Yucumo – Rurrenabaque, concentrando los frentes de trabajo en el sector de Yucumo con proyección de avance hacia Rurrenabaque, en el departamento del Beni. Las operaciones, comprenden la nivelación y reconformación de la plataforma vial, además de la reposición focalizada de ripio. Estas tareas técnicas permiten eliminar deformaciones y baches en la capa no pavimentada, devolviendo la homogeneidad a la vía y mejorando la adherencia vehicular de cara a la temporada pluvial. Ante el constante movimiento de maquinaria pesada sobre la carretera, la ABC en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, solicita a los operadores del autotransporte de pasajeros, carga pesada y conductores particulares transitar con extrema precaución, reducir la velocidad y respetar la señalización preventiva desplegada en los puntos de trabajo. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia LA ABC EJECUTA NIVELACIÓN Y REPOSICIÓN DE RIPIO EN EL SECTOR YUCUMO DEL TRAMO QUIQUIBEY – RURRENABAQUE DEL BENI Con el objetivo de resguardar las vías, la Administradora Boliviana de Carreteras (ABC) realiza los trabajos de conservación vial en el tramo Quiquibey – Yucumo – Rurrenabaque, concentrando los frentes de trabajo en el sector de Yucumo con proyección de avance hacia Rurrenabaque, en el departamento del Beni. Las operaciones, comprenden la nivelación y reconformación de la plataforma vial, además de la reposición focalizada de ripio. Estas tareas técnicas permiten eliminar deformaciones y baches en la capa no pavimentada, devolviendo la homogeneidad a la vía y mejorando la adherencia vehicular de cara a la temporada pluvial. Ante el constante movimiento de maquinaria pesada sobre la carretera, la ABC en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, solicita a los operadores del autotransporte de pasajeros, carga pesada y conductores particulares transitar con extrema precaución, reducir la velocidad y respetar la señalización preventiva desplegada en los puntos de trabajo. CUANDO CARRETERA OKINAWA ,ese camino es un misterio pobres camiones LA ABC EJECUTA CORTES ESPORÁDICOS POR TRABAJOS DE ESTABILIZACIÓN EN EL TRAMO LA ANGOSTURA – BERMEJO EN SANTA CRUZ La Administradora Boliviana de Carreteras (ABC), brindó un informe oficial de transitabilidad sobre el tramo La Angostura – Bermejo, correspondiente al departamento de Santa Cruz, anunciando cortes esporádicos del tráfico vehicular en el sector crítico de Petacas. El gerente regional de la ABC Santa Cruz, Miguel Rojas, detalló que las restricciones temporales obedecen a los trabajos de ingeniería para el corte de banquinas y estabilización de taludes. Estas intervenciones provocan la caída de material rocoso menor sobre la plataforma, por lo que las interrupciones momentáneas de la circulación resultan imprescindibles para realizar la limpieza de la calzada y garantizar un tránsito seguro. Ante esta situación, la ABC en articulación con el Ministerio de Obras Públicas, Servicios y Viviendas, solicita a los operadores del autotransporte de carga, pasajeros y vehículos particulares transitar con extrema precaución, reducir la velocidad y acatar de forma estricta la señalización preventiva, así como las instrucciones del personal de control desplegado en el área. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia LA ABC EJECUTA CORTES ESPORÁDICOS POR TRABAJOS DE ESTABILIZACIÓN EN EL TRAMO LA ANGOSTURA – BERMEJO EN SANTA CRUZ La Administradora Boliviana de Carreteras (ABC), brindó un informe oficial de transitabilidad sobre el tramo La Angostura – Bermejo, correspondiente al departamento de Santa Cruz, anunciando cortes esporádicos del tráfico vehicular en el sector crítico de Petacas. El gerente regional de la ABC Santa Cruz, Miguel Rojas, detalló que las restricciones temporales obedecen a los trabajos de ingeniería para el corte de banquinas y estabilización de taludes. Estas intervenciones provocan la caída de material rocoso menor sobre la plataforma, por lo que las interrupciones momentáneas de la circulación resultan imprescindibles para realizar la limpieza de la calzada y garantizar un tránsito seguro. Ante esta situación, la ABC en articulación con el Ministerio de Obras Públicas, Servicios y Viviendas, solicita a los operadores del autotransporte de carga, pasajeros y vehículos particulares transitar con extrema precaución, reducir la velocidad y acatar de forma estricta la señalización preventiva, así como las instrucciones del personal de control desplegado en el área. ATENCIÓN SANTA CRUZ La Administradora Boliviana de Carreteras (ABC), informa a los transportistas y usuarios en general que, en el departamento de Santa Cruz, en el transcurso de este sábado 10 de octubre se registrarán cortes esporádicos del tráfico vehicular en el sector de Petacas, ruta a Los Valles, donde se realizan trabajos de estabilización y corte de taludes en esta zona crítica, labores que generan caídas controladas de material rocoso sobre la calzada. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, solicitan a la población transitar con extrema precaución, reducir la velocidad y acatar estrictamente la señalización preventiva y las instrucciones de los personal banderillero desplegado en el sector. Más información: https://transitabilidad.abc.gob.bo Consultas al WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ATENCIÓN SANTA CRUZ La Administradora Boliviana de Carreteras (ABC), informa a los transportistas y usuarios en general que, en el departamento de Santa Cruz, en el transcurso de este sábado 10 de octubre se registrarán cortes esporádicos del tráfico vehicular en el sector de Petacas, ruta a Los Valles, donde se realizan trabajos de estabilización y corte de taludes en esta zona crítica, labores que generan caídas controladas de material rocoso sobre la calzada. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, solicitan a la población transitar con extrema precaución, reducir la velocidad y acatar estrictamente la señalización preventiva y las instrucciones de los personal banderillero desplegado en el sector. Consultas al WhatsApp: 71219232 ATENCIÓN LA PAZ La Administradora Boliviana de Carreteras (ABC) en el departamento de La Paz, informa a los usuarios de la Red Vial Fundamental que por motivos de trabajos que se están realizando en el tramo Charazani – Apolo Tramo I se realizará el cierre temporal y programado, a partir del sábado 10 de octubre de 2026 hasta el 14 de octubre de 2026, la ABC habilitará un desvío debidamente señalizado en coordinación con el área de Tráfico y Vialidad municipal. El Ministerio de Obras Públicas, Servicios y Vivienda y la ABC recomienda tomar sus previsiones necesarias para evitar inconvenientes. Más información: https://transitabilidad.abc.gob.bo Consultas al WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ATENCIÓN LA PAZ La Administradora Boliviana de Carreteras (ABC) en el departamento de La Paz, informa a los usuarios de la Red Vial Fundamental que por motivos de trabajos que se están realizando en el tramo Charazani – Apolo Tramo I se realizará el cierre temporal y programado, a partir del sábado 10 de octubre de 2026 hasta el 14 de octubre de 2026, la ABC habilitará un desvío debidamente señalizado en coordinación con el área de Tráfico y Vialidad municipal. El Ministerio de Obras Públicas, Servicios y Vivienda y la ABC recomienda tomar sus previsiones necesarias para evitar inconvenientes. ATENCIÓN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), informa a la población en general y transportistas que este sábado 10 de octubre se registrará un cierre temporal de la circulación vehicular en la avenida Blanco Galindo (del kilómetro 6,5 al kilómetro 9,5), del municipio de Colcapirhua. *La restricción caminera se aplicará en el horario de 11:00 a 11:30, con motivo del desarrollo de la Entrada Folclórica de San Lorenzo.* La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, recomiendan a las y los usuarios tomar las previsiones correspondientes, considerar vías alternativas y cir",
       "roads": [
-        "tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura"
+        "tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura",
+        "TRAMO QUIQUIBEY – RURRENABAQUE DEL BENI Con el objetivo de resguardar las vías",
+        "tramo Quiquibey – Yucumo – Rurrenabaque",
+        "CARRETERA OKINAWA",
+        "TRAMO LA ANGOSTURA – BERMEJO EN SANTA CRUZ La Administradora Boliviana de Carreteras (ABC)",
+        "tramo La Angostura – Bermejo",
+        "ruta a Los Valles",
+        "tramo Charazani – Apolo Tramo I se realizará el cierre temporal y programado",
+        "avenida Blanco Galindo (del",
+        "TRAMO IA"
       ],
-      "places": [],
-      "kilometer_mentions": [],
+      "places": [
+        "SECTOR YUCUMO DEL TRAMO QUIQUIBEY – RURRENABAQUE DEL BENI",
+        "sector de Yucumo",
+        "sector crítico de Petacas",
+        "sector de Petacas",
+        "zona crítica"
+      ],
+      "kilometer_mentions": [
+        "kilómetro 6,5",
+        "kilómetro 9,5"
+      ],
       "directions": [
         "ATENCIÓN BENI CIERRE TEMPORAL DE LA VÍA L -> Administradora Boliviana de Carreteras",
         "en coordinación con el Ministerio de Obr -> s Públicas",
@@ -196,47 +217,70 @@
         "San Ign -> cio de Moxos",
         "Puerto Var -> dor"
       ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
+      "alternative_routes": [
+        "sus previsiones necesarias para evitar inconvenientes",
+        "a las y los usuarios tomar las previsiones correspondientes, considerar vías alternativas y circular con precaución atendiendo las señalizaciones en la zona",
+        "a los usuarios tomar las previsiones necesarias y circular con extrema precaución en los puntos de bloqueo"
+      ],
+      "affected_vehicles": [
+        "transporte_pesado",
+        "particulares"
+      ],
+      "time_mentions": [
+        "11:00",
+        "11:30"
+      ],
       "keywords": [
+        "bloqueo",
+        "punto de bloqueo",
+        "puntos de bloqueo",
         "cierre",
+        "bache",
+        "tráfico",
+        "tránsito",
         "carretera",
+        "ruta",
+        "avenida",
         "tramo",
+        "ingreso",
+        "kilómetro",
         "red vial fundamental",
-        "transitabilidad"
+        "transitabilidad",
+        "desvío",
+        "maquinaria pesada",
+        "transportistas"
       ],
       "latitude": null,
       "longitude": null,
-      "location_query": "tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura, Bolivia",
+      "location_query": "tramo y evaluará las condiciones de la vía para restablecer la transitabilidad de manera segura, Cochabamba, Bolivia",
       "image_urls": [
-        "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=dgBXziZxRQUQ7kNvwH7FdK4&_nc_oc=AdoY8y-9-cocNdwRqrJWONCxr1-QdqaHnQaYcMD4-8lwMeSP7Q7-A-iLatEffbZ_Cps&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=PZ13OclclAwlgynnNPgapg&_nc_ss=7f289&oh=00_AQNR5ujcNsO3TxGquqZCh3hfGJ97T6zmIJ082bGkh3yCeA&oe=6AD22AF1",
-        "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p180x540&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=dgBXziZxRQUQ7kNvwH7FdK4&_nc_oc=AdoY8y-9-cocNdwRqrJWONCxr1-QdqaHnQaYcMD4-8lwMeSP7Q7-A-iLatEffbZ_Cps&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=EwSAvVi1rA99XwG3zwB18Q&_nc_ss=7f289&oh=00_AQPFA4DtFn0PDqE-oHbzBGpNBp-Jmnx2u4RxON2ug-cudA&oe=6AD22AF1"
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=dgBXziZxRQUQ7kNvwEKIQok&_nc_oc=AdqRUIryrd42RVzR1uXasmp9iOArLnjLSUB6f6T1_YZGHaBVQ1NMTuGvDMz8C5KD5z8&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=_50rZdITQ664cFbc9jHyeg&_nc_ss=7f289&oh=00_AQOqis6U5_taUpnSYV54KoUKWP-qRhcurAQyOGrms5XGQQ&oe=6AD26331",
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p180x540&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=dgBXziZxRQUQ7kNvwEKIQok&_nc_oc=AdqRUIryrd42RVzR1uXasmp9iOArLnjLSUB6f6T1_YZGHaBVQ1NMTuGvDMz8C5KD5z8&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=bk4UXJxoo_1OK5Wbgvdt3g&_nc_ss=7f289&oh=00_AQNF9R51Ys2HQgAO_ALl0anZrinojqgOdTS_eDmbJ8qpgw&oe=6AD26331"
       ],
       "video_url": null,
       "video_thumbnail_url": null,
       "video_type": null,
       "is_official": true,
-      "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=dgBXziZxRQUQ7kNvwH7FdK4&_nc_oc=AdoY8y-9-cocNdwRqrJWONCxr1-QdqaHnQaYcMD4-8lwMeSP7Q7-A-iLatEffbZ_Cps&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=PZ13OclclAwlgynnNPgapg&_nc_ss=7f289&oh=00_AQNR5ujcNsO3TxGquqZCh3hfGJ97T6zmIJ082bGkh3yCeA&oe=6AD22AF1",
+      "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=dgBXziZxRQUQ7kNvwEKIQok&_nc_oc=AdqRUIryrd42RVzR1uXasmp9iOArLnjLSUB6f6T1_YZGHaBVQ1NMTuGvDMz8C5KD5z8&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=_50rZdITQ664cFbc9jHyeg&_nc_ss=7f289&oh=00_AQOqis6U5_taUpnSYV54KoUKWP-qRhcurAQyOGrms5XGQQ&oe=6AD26331",
       "has_image": true,
       "has_video": false,
       "media": {
         "images": [
-          "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=dgBXziZxRQUQ7kNvwH7FdK4&_nc_oc=AdoY8y-9-cocNdwRqrJWONCxr1-QdqaHnQaYcMD4-8lwMeSP7Q7-A-iLatEffbZ_Cps&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=PZ13OclclAwlgynnNPgapg&_nc_ss=7f289&oh=00_AQNR5ujcNsO3TxGquqZCh3hfGJ97T6zmIJ082bGkh3yCeA&oe=6AD22AF1",
-          "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p180x540&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=dgBXziZxRQUQ7kNvwH7FdK4&_nc_oc=AdoY8y-9-cocNdwRqrJWONCxr1-QdqaHnQaYcMD4-8lwMeSP7Q7-A-iLatEffbZ_Cps&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=EwSAvVi1rA99XwG3zwB18Q&_nc_ss=7f289&oh=00_AQPFA4DtFn0PDqE-oHbzBGpNBp-Jmnx2u4RxON2ug-cudA&oe=6AD22AF1"
+          "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=dgBXziZxRQUQ7kNvwEKIQok&_nc_oc=AdqRUIryrd42RVzR1uXasmp9iOArLnjLSUB6f6T1_YZGHaBVQ1NMTuGvDMz8C5KD5z8&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=_50rZdITQ664cFbc9jHyeg&_nc_ss=7f289&oh=00_AQOqis6U5_taUpnSYV54KoUKWP-qRhcurAQyOGrms5XGQQ&oe=6AD26331",
+          "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p180x540&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=dgBXziZxRQUQ7kNvwEKIQok&_nc_oc=AdqRUIryrd42RVzR1uXasmp9iOArLnjLSUB6f6T1_YZGHaBVQ1NMTuGvDMz8C5KD5z8&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=bk4UXJxoo_1OK5Wbgvdt3g&_nc_ss=7f289&oh=00_AQNF9R51Ys2HQgAO_ALl0anZrinojqgOdTS_eDmbJ8qpgw&oe=6AD26331"
         ],
-        "main_image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=dgBXziZxRQUQ7kNvwH7FdK4&_nc_oc=AdoY8y-9-cocNdwRqrJWONCxr1-QdqaHnQaYcMD4-8lwMeSP7Q7-A-iLatEffbZ_Cps&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=PZ13OclclAwlgynnNPgapg&_nc_ss=7f289&oh=00_AQNR5ujcNsO3TxGquqZCh3hfGJ97T6zmIJ082bGkh3yCeA&oe=6AD22AF1",
+        "main_image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/843299990_1819349085767258_690305597058322035_n.png?stp=dst-jpg_tt6&cstp=mx1951x2048&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=dgBXziZxRQUQ7kNvwEKIQok&_nc_oc=AdqRUIryrd42RVzR1uXasmp9iOArLnjLSUB6f6T1_YZGHaBVQ1NMTuGvDMz8C5KD5z8&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=_50rZdITQ664cFbc9jHyeg&_nc_ss=7f289&oh=00_AQOqis6U5_taUpnSYV54KoUKWP-qRhcurAQyOGrms5XGQQ&oe=6AD26331",
         "videos": []
       },
       "status_conflict": false,
       "status_evidence": [
         {
-          "status": "cerrado",
+          "status": "restringido",
           "published_at": null,
           "source_id": "fb_abc",
           "source_name": "ABC Carreteras Bolivia",
           "tier": 1,
-          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0291zc3jswVgt2LYy8grF5qqZhKWQoA56v9tVFjF7EUwCeud9wnYr93frRs25FEkcfl?__cft__[0]=AZinxF0WCAe3eYqX5QO5-2iGkDV0Tpw30gRgYozpMqPwIvIPKcBaIMqls2nfxkMqOPtv8wM9cRKfbCFSPDvDAZSA5miTPtiTiLNcHzJ8PFC7xkwBqGBbp4RGnqtJovojL1nkEQdEEDFKXnKboE0103cwhwTZW43A3ljLgFzMgbXDU7rPZUqu311RyqI&__tn__=%2CO%2CP-R"
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0291zc3jswVgt2LYy8grF5qqZhKWQoA56v9tVFjF7EUwCeud9wnYr93frRs25FEkcfl?__cft__[0]=AZibnJkFF2xK-nOQlD0LuwuOy3O4LMt9ma71x5lmwM_OqTagzGxfcl1eUZ1doAPxPSeYXE8ufb0WVutgEtaCrqUdSl1KuHInOd3Wai8iK7JUwGYl8bxnbBSyxQwxxt65p0ktCT6dWGwxloyo1g6mmB07mlF0PSrUVYqvBKaN99Qa7zGY_23e6MkDrIU&__tn__=%2CO%2CP-R"
         }
       ],
       "latest_update_at": null,
@@ -248,8 +292,8 @@
           "class": "facebook_official",
           "tier": 1,
           "page_url": "https://www.facebook.com/CarreterasBo/",
-          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0291zc3jswVgt2LYy8grF5qqZhKWQoA56v9tVFjF7EUwCeud9wnYr93frRs25FEkcfl?__cft__[0]=AZinxF0WCAe3eYqX5QO5-2iGkDV0Tpw30gRgYozpMqPwIvIPKcBaIMqls2nfxkMqOPtv8wM9cRKfbCFSPDvDAZSA5miTPtiTiLNcHzJ8PFC7xkwBqGBbp4RGnqtJovojL1nkEQdEEDFKXnKboE0103cwhwTZW43A3ljLgFzMgbXDU7rPZUqu311RyqI&__tn__=%2CO%2CP-R",
-          "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9xByIRAkSvkQ7kNvwFtPDvs&_nc_oc=Ado47shM1lnvQK5ukw4h5F5pIx8chGEJMoqqmrJsiKfetA56PAM8vheozf-SjCGz8fM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=4grZncxuH87lHdluYecJEQ&_nc_ss=7f289&oh=00_AQODC9j0FAzNRnA_Nq0xZoz-gXewoyW3god3UXnfPc0Xqw&oe=6AD20018",
+          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0291zc3jswVgt2LYy8grF5qqZhKWQoA56v9tVFjF7EUwCeud9wnYr93frRs25FEkcfl?__cft__[0]=AZibnJkFF2xK-nOQlD0LuwuOy3O4LMt9ma71x5lmwM_OqTagzGxfcl1eUZ1doAPxPSeYXE8ufb0WVutgEtaCrqUdSl1KuHInOd3Wai8iK7JUwGYl8bxnbBSyxQwxxt65p0ktCT6dWGwxloyo1g6mmB07mlF0PSrUVYqvBKaN99Qa7zGY_23e6MkDrIU&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9xByIRAkSvkQ7kNvwFT8ieC&_nc_oc=AdqOUxkwh4HIi-KS4ed4-Prv1GEA2v8yHYyXkHH5jZadpIJA7L9nw_r0Npc-w3sA340&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=P9SStF3ZmR5-aMdyZ0h61g&_nc_ss=7f289&oh=00_AQNOK6My7x3hjyZ9kbeCDnt3PdzRbKnNawiBYPezgC-e8g&oe=6AD27098",
           "published_at": null
         }
       ],
@@ -257,17 +301,17 @@
       "verification": "una_fuente",
       "corroborated": false,
       "all_urls": [
-        "https://www.facebook.com/CarreterasBo/posts/pfbid0291zc3jswVgt2LYy8grF5qqZhKWQoA56v9tVFjF7EUwCeud9wnYr93frRs25FEkcfl?__cft__[0]=AZinxF0WCAe3eYqX5QO5-2iGkDV0Tpw30gRgYozpMqPwIvIPKcBaIMqls2nfxkMqOPtv8wM9cRKfbCFSPDvDAZSA5miTPtiTiLNcHzJ8PFC7xkwBqGBbp4RGnqtJovojL1nkEQdEEDFKXnKboE0103cwhwTZW43A3ljLgFzMgbXDU7rPZUqu311RyqI&__tn__=%2CO%2CP-R"
+        "https://www.facebook.com/CarreterasBo/posts/pfbid0291zc3jswVgt2LYy8grF5qqZhKWQoA56v9tVFjF7EUwCeud9wnYr93frRs25FEkcfl?__cft__[0]=AZibnJkFF2xK-nOQlD0LuwuOy3O4LMt9ma71x5lmwM_OqTagzGxfcl1eUZ1doAPxPSeYXE8ufb0WVutgEtaCrqUdSl1KuHInOd3Wai8iK7JUwGYl8bxnbBSyxQwxxt65p0ktCT6dWGwxloyo1g6mmB07mlF0PSrUVYqvBKaN99Qa7zGY_23e6MkDrIU&__tn__=%2CO%2CP-R"
       ],
       "merged_items": 1,
-      "incident_id": "inc_6c9b3c68046972",
-      "first_seen_at": "2026-10-11T15:44:28-04:00",
+      "incident_id": "inc_749d7f97c945b7",
+      "first_seen_at": "2026-10-12T05:48:39-04:00",
       "history": [
         {
-          "at": "2026-10-11T15:44:28-04:00",
-          "detected_at": "2026-10-11T15:44:28-04:00",
+          "at": "2026-10-12T05:48:39-04:00",
+          "detected_at": "2026-10-12T05:48:39-04:00",
           "reason": "primera_deteccion",
-          "status": "cerrado",
+          "status": "restringido",
           "lifecycle_status": "activo",
           "severity": "media",
           "closure_scope": null,
@@ -275,12 +319,12 @@
           "sources": [
             "ABC Carreteras Bolivia"
           ],
-          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid05AYts4x7eCP7njTr8J3iF4Bw7ZUybn9JoJ8nLinwaGub1k75fL6sjnNvVzxmtbvNl?__cft__[0]=AZiOaMMloqbN3128cfZyl9UXjAJ_zRTOdmmWXLurNuqYzUvTibXsIWENgMRqonkXcp6vVjlmGqIykpYmYjaGkRXvlFFk4fQ5Pllvrl76ECg64jh7PJn4lVEYu6clPGgX9b946UcwbWJnuFJ3s3xUlt1jsYk_0tvPQeSJoONRihgKmxzmqqAB4QL-UKA&__tn__=%2CO%2CP-R"
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0291zc3jswVgt2LYy8grF5qqZhKWQoA56v9tVFjF7EUwCeud9wnYr93frRs25FEkcfl?__cft__[0]=AZibnJkFF2xK-nOQlD0LuwuOy3O4LMt9ma71x5lmwM_OqTagzGxfcl1eUZ1doAPxPSeYXE8ufb0WVutgEtaCrqUdSl1KuHInOd3Wai8iK7JUwGYl8bxnbBSyxQwxxt65p0ktCT6dWGwxloyo1g6mmB07mlF0PSrUVYqvBKaN99Qa7zGY_23e6MkDrIU&__tn__=%2CO%2CP-R"
         }
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-11T22:23:17-04:00",
+      "last_seen_at": "2026-10-12T05:48:39-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -294,7 +338,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-junto-a-autoridades-municipales-y-transporte-inspeccionan-el-sector-petacas-y-anuncian-inversion-de-bs-127-millones-en-la-rehabilitacion-de-la-ruta-a-los-valles-en-santa-cruz-dentro-del-plan-n/",
       "published_at": null,
-      "scraped_at": "2026-10-11T22:23:17-04:00",
+      "scraped_at": "2026-10-12T05:48:39-04:00",
       "department": "Santa Cruz",
       "municipality": "El Torno",
       "city": null,
@@ -437,7 +481,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-11T22:23:17-04:00",
+      "last_seen_at": "2026-10-12T05:48:39-04:00",
       "seen_this_run": true,
       "history_count": 2
     },
@@ -451,7 +495,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/el-directorio-de-la-caf-aprueba-por-unanimidad-un-financiamiento-de-usd-224-millones-para-reactivar-obras-de-integracion-paralizadas-en-las-carreteras-y-proyectos-estrategicos-viales-en-bolivia/",
       "published_at": null,
-      "scraped_at": "2026-10-11T22:23:17-04:00",
+      "scraped_at": "2026-10-12T05:48:39-04:00",
       "department": "La Paz",
       "municipality": "Warnes",
       "city": "La Paz",
@@ -580,21 +624,21 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-11T22:23:17-04:00",
+      "last_seen_at": "2026-10-12T05:48:39-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
     {
-      "id": "108fcd17b69d1a7f",
+      "id": "23d9f6681e91e53f",
       "source_id": "fb_transito_nacional",
       "source_name": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
       "source_url": "https://www.facebook.com/bolivia.transito/",
       "source_class": "facebook_official",
       "source_tier": 1,
-      "source_icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwE49qik&_nc_oc=AdqDRYO9l4D94ECcD4GEVvqBMgGBPtbqN8SGGrYwl5zfHMn8bx_xuWbhq04PaEdeqHA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9zxFOpr8aIDG_RMglmIZAw&_nc_ss=7f289&oh=00_AQOhlZ_flj0Nx8JCvj9NqLVytrtycdigNxSk36NYZE-2Lw&oe=6AD2036B",
-      "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02vTtXRLALd7yFneGbDMKJdiD3d5F1c7VQgAgqYzyJ5a3mU1ghzQafZpQFHD2XY1bql?comment_id=1530346605517855&__cft__[0]=AZgxJlMh4zcz3kDEx_eAxhWLsELCeKo13PGJpoKDweNS6zV1p1CTere98z0SZh6lXfHoKdiuXVxIAfqfVslkEHXKxLcTzWgNpDSL_kd4Ohq7TKxeZS8AGjUbnV0WdEtgAfpL5ZwTOLSwI1mn8v1lYB6K6hjRA14Wt4yeOdFW3g5R4U5csN6MWzPQez0&__tn__=R-R",
+      "source_icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwGVeKNj&_nc_oc=AdrcHxM-oyyFhm1qJz2aiU8HJsjzlgQ-cYiTw5iFjAdg_1EmDFyRidxJgds3EjoRw5w&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=N2XP3L-H-Ciulb1DF9iORw&_nc_ss=7f289&oh=00_AQPoVNGUq7DdXBw7fzPjkvtnVe1RkhuxXxG6GpPeeowB2w&oe=6AD273EB",
+      "url": "https://www.facebook.com/bolivia.transito/posts/pfbid0rvFLWAXymv4MGmt8iSEvPmwrYi6SAL1zTywqnV7KW5RS9g2uBmFKpwyqQQ4XBLUYl?comment_id=1530346605517855&__cft__[0]=AZijXXw2BsLeEzG83vYsWL8egn5KxSnpgliOcEbiuH0xQnA3m9bvB5fxjLspiLCwUlnm6_Xx3hRnjfHg6oguAKiduPDtYvJZKSLojdTB0VjEdiSb1T7MDsMY0oxy75kUfnNKZiXktjlccgbXkuMHGW0DRbTBJ1BZtI3Tk408eVvbA2iA_EwYUgLDaT4&__tn__=R-R",
       "published_at": null,
-      "scraped_at": "2026-10-11T22:23:17-04:00",
+      "scraped_at": "2026-10-12T05:48:39-04:00",
       "department": "La Paz",
       "municipality": "Patacamaya",
       "city": "La Paz",
@@ -645,20 +689,20 @@
       "longitude": null,
       "location_query": "CARRETERA LA PAZ - ORURO Como parte de los planes de fiscalización y seguridad vial permanente, Patacamaya, La Paz, Bolivia",
       "image_urls": [
-        "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=uYJbfgpOCWUQ7kNvwGwcxXm&_nc_oc=AdqspkqpFebcbQklP_ErCSzvrZgh9iIGj_Qi88e9Vt5lVbCawvUB_hhV4zaqsuIMxmA&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=z4mJEgS79gEBLWA4pkH2xw&_nc_ss=7f289&oh=00_AQPABRMyoRAdqFEHf5oC4py2QdycjvDOuedKIQ84epv54A&oe=6AD20D97"
+        "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=uYJbfgpOCWUQ7kNvwFNVdYp&_nc_oc=AdprJ7NpOMfI5zvzMKE30lrcp_OEWcRiSpZMzRq5CxdyYtO-__cfVvduKTRenTuWM0I&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=X58_D0n6Kui5l8X_9A17lg&_nc_ss=7f289&oh=00_AQNvdbmG_PmnvyhGJt4dR1ItPC6vaQ7FHnw5YdIW4zx0_w&oe=6AD27E17"
       ],
       "video_url": null,
       "video_thumbnail_url": null,
       "video_type": null,
       "is_official": true,
-      "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=uYJbfgpOCWUQ7kNvwGwcxXm&_nc_oc=AdqspkqpFebcbQklP_ErCSzvrZgh9iIGj_Qi88e9Vt5lVbCawvUB_hhV4zaqsuIMxmA&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=z4mJEgS79gEBLWA4pkH2xw&_nc_ss=7f289&oh=00_AQPABRMyoRAdqFEHf5oC4py2QdycjvDOuedKIQ84epv54A&oe=6AD20D97",
+      "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=uYJbfgpOCWUQ7kNvwFNVdYp&_nc_oc=AdprJ7NpOMfI5zvzMKE30lrcp_OEWcRiSpZMzRq5CxdyYtO-__cfVvduKTRenTuWM0I&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=X58_D0n6Kui5l8X_9A17lg&_nc_ss=7f289&oh=00_AQNvdbmG_PmnvyhGJt4dR1ItPC6vaQ7FHnw5YdIW4zx0_w&oe=6AD27E17",
       "has_image": true,
       "has_video": false,
       "media": {
         "images": [
-          "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=uYJbfgpOCWUQ7kNvwGwcxXm&_nc_oc=AdqspkqpFebcbQklP_ErCSzvrZgh9iIGj_Qi88e9Vt5lVbCawvUB_hhV4zaqsuIMxmA&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=z4mJEgS79gEBLWA4pkH2xw&_nc_ss=7f289&oh=00_AQPABRMyoRAdqFEHf5oC4py2QdycjvDOuedKIQ84epv54A&oe=6AD20D97"
+          "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=uYJbfgpOCWUQ7kNvwFNVdYp&_nc_oc=AdprJ7NpOMfI5zvzMKE30lrcp_OEWcRiSpZMzRq5CxdyYtO-__cfVvduKTRenTuWM0I&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=X58_D0n6Kui5l8X_9A17lg&_nc_ss=7f289&oh=00_AQNvdbmG_PmnvyhGJt4dR1ItPC6vaQ7FHnw5YdIW4zx0_w&oe=6AD27E17"
         ],
-        "main_image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=uYJbfgpOCWUQ7kNvwGwcxXm&_nc_oc=AdqspkqpFebcbQklP_ErCSzvrZgh9iIGj_Qi88e9Vt5lVbCawvUB_hhV4zaqsuIMxmA&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=z4mJEgS79gEBLWA4pkH2xw&_nc_ss=7f289&oh=00_AQPABRMyoRAdqFEHf5oC4py2QdycjvDOuedKIQ84epv54A&oe=6AD20D97",
+        "main_image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=uYJbfgpOCWUQ7kNvwFNVdYp&_nc_oc=AdprJ7NpOMfI5zvzMKE30lrcp_OEWcRiSpZMzRq5CxdyYtO-__cfVvduKTRenTuWM0I&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=X58_D0n6Kui5l8X_9A17lg&_nc_ss=7f289&oh=00_AQNvdbmG_PmnvyhGJt4dR1ItPC6vaQ7FHnw5YdIW4zx0_w&oe=6AD27E17",
         "videos": []
       },
       "status_conflict": false,
@@ -669,7 +713,7 @@
           "source_id": "fb_transito_nacional",
           "source_name": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
           "tier": 1,
-          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02vTtXRLALd7yFneGbDMKJdiD3d5F1c7VQgAgqYzyJ5a3mU1ghzQafZpQFHD2XY1bql?comment_id=1530346605517855&__cft__[0]=AZgxJlMh4zcz3kDEx_eAxhWLsELCeKo13PGJpoKDweNS6zV1p1CTere98z0SZh6lXfHoKdiuXVxIAfqfVslkEHXKxLcTzWgNpDSL_kd4Ohq7TKxeZS8AGjUbnV0WdEtgAfpL5ZwTOLSwI1mn8v1lYB6K6hjRA14Wt4yeOdFW3g5R4U5csN6MWzPQez0&__tn__=R-R"
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid0rvFLWAXymv4MGmt8iSEvPmwrYi6SAL1zTywqnV7KW5RS9g2uBmFKpwyqQQ4XBLUYl?comment_id=1530346605517855&__cft__[0]=AZijXXw2BsLeEzG83vYsWL8egn5KxSnpgliOcEbiuH0xQnA3m9bvB5fxjLspiLCwUlnm6_Xx3hRnjfHg6oguAKiduPDtYvJZKSLojdTB0VjEdiSb1T7MDsMY0oxy75kUfnNKZiXktjlccgbXkuMHGW0DRbTBJ1BZtI3Tk408eVvbA2iA_EwYUgLDaT4&__tn__=R-R"
         }
       ],
       "latest_update_at": null,
@@ -681,8 +725,8 @@
           "class": "facebook_official",
           "tier": 1,
           "page_url": "https://www.facebook.com/bolivia.transito/",
-          "post_url": "https://www.facebook.com/bolivia.transito/posts/pfbid02vTtXRLALd7yFneGbDMKJdiD3d5F1c7VQgAgqYzyJ5a3mU1ghzQafZpQFHD2XY1bql?comment_id=1530346605517855&__cft__[0]=AZgxJlMh4zcz3kDEx_eAxhWLsELCeKo13PGJpoKDweNS6zV1p1CTere98z0SZh6lXfHoKdiuXVxIAfqfVslkEHXKxLcTzWgNpDSL_kd4Ohq7TKxeZS8AGjUbnV0WdEtgAfpL5ZwTOLSwI1mn8v1lYB6K6hjRA14Wt4yeOdFW3g5R4U5csN6MWzPQez0&__tn__=R-R",
-          "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwE49qik&_nc_oc=AdqDRYO9l4D94ECcD4GEVvqBMgGBPtbqN8SGGrYwl5zfHMn8bx_xuWbhq04PaEdeqHA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9zxFOpr8aIDG_RMglmIZAw&_nc_ss=7f289&oh=00_AQOhlZ_flj0Nx8JCvj9NqLVytrtycdigNxSk36NYZE-2Lw&oe=6AD2036B",
+          "post_url": "https://www.facebook.com/bolivia.transito/posts/pfbid0rvFLWAXymv4MGmt8iSEvPmwrYi6SAL1zTywqnV7KW5RS9g2uBmFKpwyqQQ4XBLUYl?comment_id=1530346605517855&__cft__[0]=AZijXXw2BsLeEzG83vYsWL8egn5KxSnpgliOcEbiuH0xQnA3m9bvB5fxjLspiLCwUlnm6_Xx3hRnjfHg6oguAKiduPDtYvJZKSLojdTB0VjEdiSb1T7MDsMY0oxy75kUfnNKZiXktjlccgbXkuMHGW0DRbTBJ1BZtI3Tk408eVvbA2iA_EwYUgLDaT4&__tn__=R-R",
+          "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwGVeKNj&_nc_oc=AdrcHxM-oyyFhm1qJz2aiU8HJsjzlgQ-cYiTw5iFjAdg_1EmDFyRidxJgds3EjoRw5w&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=N2XP3L-H-Ciulb1DF9iORw&_nc_ss=7f289&oh=00_AQPoVNGUq7DdXBw7fzPjkvtnVe1RkhuxXxG6GpPeeowB2w&oe=6AD273EB",
           "published_at": null
         }
       ],
@@ -690,7 +734,7 @@
       "verification": "una_fuente",
       "corroborated": false,
       "all_urls": [
-        "https://www.facebook.com/bolivia.transito/posts/pfbid02vTtXRLALd7yFneGbDMKJdiD3d5F1c7VQgAgqYzyJ5a3mU1ghzQafZpQFHD2XY1bql?comment_id=1530346605517855&__cft__[0]=AZgxJlMh4zcz3kDEx_eAxhWLsELCeKo13PGJpoKDweNS6zV1p1CTere98z0SZh6lXfHoKdiuXVxIAfqfVslkEHXKxLcTzWgNpDSL_kd4Ohq7TKxeZS8AGjUbnV0WdEtgAfpL5ZwTOLSwI1mn8v1lYB6K6hjRA14Wt4yeOdFW3g5R4U5csN6MWzPQez0&__tn__=R-R"
+        "https://www.facebook.com/bolivia.transito/posts/pfbid0rvFLWAXymv4MGmt8iSEvPmwrYi6SAL1zTywqnV7KW5RS9g2uBmFKpwyqQQ4XBLUYl?comment_id=1530346605517855&__cft__[0]=AZijXXw2BsLeEzG83vYsWL8egn5KxSnpgliOcEbiuH0xQnA3m9bvB5fxjLspiLCwUlnm6_Xx3hRnjfHg6oguAKiduPDtYvJZKSLojdTB0VjEdiSb1T7MDsMY0oxy75kUfnNKZiXktjlccgbXkuMHGW0DRbTBJ1BZtI3Tk408eVvbA2iA_EwYUgLDaT4&__tn__=R-R"
       ],
       "merged_items": 1,
       "incident_id": "inc_7897c0ee7b58c9",
@@ -713,7 +757,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-11T22:23:17-04:00",
+      "last_seen_at": "2026-10-12T05:48:39-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -727,7 +771,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-10-11T22:23:17-04:00",
+      "scraped_at": "2026-10-12T05:48:39-04:00",
       "department": "La Paz",
       "municipality": "Caranavi",
       "city": "Cochabamba",
@@ -904,7 +948,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-11T22:23:17-04:00",
+      "last_seen_at": "2026-10-12T05:48:39-04:00",
       "seen_this_run": true,
       "history_count": 3
     },
@@ -918,7 +962,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-fortalece-la-conservacion-vial-con-trabajos-de-bacheo-en-colcapirhua-carretera-cochabamba-oruro/",
       "published_at": null,
-      "scraped_at": "2026-10-11T22:23:17-04:00",
+      "scraped_at": "2026-10-12T05:48:39-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -1042,7 +1086,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-11T22:23:17-04:00",
+      "last_seen_at": "2026-10-12T05:48:39-04:00",
       "seen_this_run": true,
       "history_count": 1
     }
@@ -1057,7 +1101,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9xByIRAkSvkQ7kNvwFtPDvs&_nc_oc=Ado47shM1lnvQK5ukw4h5F5pIx8chGEJMoqqmrJsiKfetA56PAM8vheozf-SjCGz8fM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=4grZncxuH87lHdluYecJEQ&_nc_ss=7f289&oh=00_AQODC9j0FAzNRnA_Nq0xZoz-gXewoyW3god3UXnfPc0Xqw&oe=6AD20018",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9xByIRAkSvkQ7kNvwFT8ieC&_nc_oc=AdqOUxkwh4HIi-KS4ed4-Prv1GEA2v8yHYyXkHH5jZadpIJA7L9nw_r0Npc-w3sA340&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=P9SStF3ZmR5-aMdyZ0h61g&_nc_ss=7f289&oh=00_AQNOK6My7x3hjyZ9kbeCDnt3PdzRbKnNawiBYPezgC-e8g&oe=6AD27098",
       "status": "ok"
     },
     {
@@ -1069,7 +1113,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwE49qik&_nc_oc=AdqDRYO9l4D94ECcD4GEVvqBMgGBPtbqN8SGGrYwl5zfHMn8bx_xuWbhq04PaEdeqHA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9zxFOpr8aIDG_RMglmIZAw&_nc_ss=7f289&oh=00_AQOhlZ_flj0Nx8JCvj9NqLVytrtycdigNxSk36NYZE-2Lw&oe=6AD2036B",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwGVeKNj&_nc_oc=AdrcHxM-oyyFhm1qJz2aiU8HJsjzlgQ-cYiTw5iFjAdg_1EmDFyRidxJgds3EjoRw5w&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=N2XP3L-H-Ciulb1DF9iORw&_nc_ss=7f289&oh=00_AQPoVNGUq7DdXBw7fzPjkvtnVe1RkhuxXxG6GpPeeowB2w&oe=6AD273EB",
       "status": "ok"
     },
     {
@@ -1105,7 +1149,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XZlbI4bwiGEQ7kNvwFoH1zi&_nc_oc=Adq_OCEZGSGjOwjJspUR5u4H5QAtR0jTNAHhiSeeppfVhb6kqGQxjFrEe2ZMWVk5sPE&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=xC-O8ZN167TqR1kAYyF8DQ&_nc_ss=7f289&oh=00_AQNmTR19zuXSMAk3eauHzFzORu2NKh-9bg1ZEjoTfbZ6EQ&oe=6AD1FD37",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/689471912_1405646444916261_3284621847637811400_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XZlbI4bwiGEQ7kNvwGBLJ8z&_nc_oc=Adq5XRKJ8d-xfRBVVY1sXlcacri_GkXFsCAPE25pT0AkJ7A7A3HzWXONXeCi3fjSvP8&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=ylpAg_OA68UUT4D4_9VdSA&_nc_ss=7f289&oh=00_AQNYC8Dw77O6ONROUKFyCIhE1s2Du5bpzTwQxw1Er-Wrrw&oe=6AD26DB7",
       "status": "ok"
     },
     {
@@ -1117,7 +1161,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KLeCUju0TicQ7kNvwGN99Av&_nc_oc=AdoZi7qDV4HWDHVhBvZO8TFKq4lQ4gEfXb4AKRvemTg9bWS0Ww94KWX4uMLHgvjIvD8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Zl1HZbctcZbUqeb9HOAiBA&_nc_ss=7f289&oh=00_AQPnXZq3k87QD-AZyHjSb7NQeZAMQ7HCo97ot_4HiCPNGg&oe=6AD207F8",
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KLeCUju0TicQ7kNvwEsSCIq&_nc_oc=AdqMUWoeoqbzBB6hymY0ZuJd53VSH7GJyxwfdzmpvhwJDND_RRj7KQugam_jlVQit6E&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=H7YqfnYqciCXbPTQgNGnbw&_nc_ss=7f289&oh=00_AQPicH_ojKA65Ae9egI4wKwwQtBDt6Y054jsriLlL84FHQ&oe=6AD27878",
       "status": "ok"
     },
     {
@@ -1129,7 +1173,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ChV1jeElDYEQ7kNvwHEyJgx&_nc_oc=Adon6teE9rxPdHF0dItyw7kJa9ugDBHlJ7dAlfcGh6H6GYKMas1_cP4BdWLE5FLeyYc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Zt1izWJ2iPru-lgf_NSJKA&_nc_ss=7f289&oh=00_AQMYLD1iOwiTwwEmGY1jHBswF5GWOoXTCDwzcTbLZycHaQ&oe=6AD21B80",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ChV1jeElDYEQ7kNvwGcVQbH&_nc_oc=Ado-IBpoTC5kXgre1k3k9mLSrNlHeJQIazUDqIRWBj5A5iq-5z1CU1U1JftLL7jBB_o&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=gSPItTxJlPvltSQRRs2btg&_nc_ss=7f289&oh=00_AQPr_UHZMi0BMqook4g6X6euju7wqEesZicrMUn3XSEyOg&oe=6AD28C00",
       "status": "ok"
     },
     {
@@ -1153,7 +1197,7 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=asmZvcmwQjcQ7kNvwGDsIQS&_nc_oc=AdqHKPn89oMAFepKuM3p5pVb5I2SzSNVaf5Kq5XgRU32L9pfGiTf1j1ZhCNASnXbBmE&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=k20hdsLJocr35BkOkb8-pg&_nc_ss=7f289&oh=00_AQP3VOKQmiX35ID-z778JBuBOZYvuXqQ8KgMQX2F5qdb5g&oe=6AD20217",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=asmZvcmwQjcQ7kNvwEAiqv_&_nc_oc=AdrSG58vAau395PGnCp5N1DLIrQ1Ofl9yfBRgJDJPiJBavETISTV_nEp91MAGD0XEzA&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=dU_xW6ARVr_3QBPSrK__uQ&_nc_ss=7f289&oh=00_AQMJjGJid8C3O_fPZAyWLG0jPkq2ErQwhzjkiIzwwor1pQ&oe=6AD27297",
       "status": "ok"
     },
     {
@@ -1177,7 +1221,7 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_CdeTawgpDcQ7kNvwGpWbWX&_nc_oc=AdpbNR32_wB_Hl7g0lUTvLEzY8lEWlpG-gGhbPXoigQA0tnKOJ-C-Li9OlRq_HO1tB8&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=OpCFi2EdlmTKtj__-Ey2pg&_nc_ss=7f289&oh=00_AQP3FtC7W9cc4vNXxWjFOo0Hz8qcMClcpVHh-d5P8edA7g&oe=6AD22345",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_CdeTawgpDcQ7kNvwELEXBK&_nc_oc=AdqKdpj8OI8MHSUVVjE-eSipzDs6danrSu7fCEDQCM6y7QPLiLeb15_HJmvpBAco_aY&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=5csHXIFHV5l-dGQU3Zrq8w&_nc_ss=7f289&oh=00_AQMMzr1Qc55zjuO18Wq6eIjCr8WYmhrVLlHWCBQ1uP7Cow&oe=6AD293C5",
       "status": "ok"
     },
     {
@@ -1201,7 +1245,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mWlkb3q8WygQ7kNvwFfs_68&_nc_oc=AdqwCb2_jD_fE3QS1cdE98WeUxe_5y7vCg9Vleb4-8g1J3ifZGQ5jEBp6HcP9amKac0&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=lAaycJOUUpI8k-8laftndA&_nc_ss=7f289&oh=00_AQNJJJo5cdCC6vUbJKJp31oLazDlBNdMzam5Rp9F07XXbw&oe=6AD23217",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mWlkb3q8WygQ7kNvwGCH1Rb&_nc_oc=AdrCdbUfBa1jdzL-YX4plR35NnlqI3stDMk0dp4worlB6v7Otb2AiciGVQ-OFPKcaHE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=THL6GSka3Kfii2Yk79kxeg&_nc_ss=7f289&oh=00_AQMBavJqJN4iK3qS4-2PdhGEea5tINL9ESrGe-stGOfgcw&oe=6AD26A57",
       "status": "ok"
     },
     {
@@ -1213,7 +1257,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I_SpQfjQFqYQ7kNvwGaSIvz&_nc_oc=Adp5sFF9anHhfARExzbVayIP47sAIQHTQjlSjSLJL8ckWkOTAtfpgTmICJp9rygkHLg&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=K0yJYwsg4pvwlR8fTi7dVw&_nc_ss=7f289&oh=00_AQN5i4BOt0Mld6XCPJYIQX_yHtABX0iZsta0l4zS3ruiRg&oe=6AD22591",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I_SpQfjQFqYQ7kNvwFi-w3G&_nc_oc=AdrRr8opVdU8n2OLrNPX1bA9LVrQQb6DZo8BBdO6vxTwYzEaogQbw2RCx-5AL2LyW3w&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=7yHQoYBcooemGLLxoiUzZQ&_nc_ss=7f289&oh=00_AQNFWb1uHrOiXAUWm9NI2PmXUDH5adSD98wSXofYNnlajA&oe=6AD29611",
       "status": "ok"
     },
     {
@@ -1225,7 +1269,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Qb-_P0zyS8wQ7kNvwF05yJV&_nc_oc=Adp9WYf5swahYlTN3rhygyU5r_zeh39Dx9EULArP95SYyo89_EYjcpP5LZtAzI7NFJQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=XU5cvrW4eQn7vC7sDgPOJA&_nc_ss=7f289&oh=00_AQPF3CZUV7yBpvs9Vn22M1G6Sp3vua8gpMl_X9j4cOx9Uw&oe=6AD20F3E",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Qb-_P0zyS8wQ7kNvwEqS3pC&_nc_oc=AdrpReOdZ7C6juLFiUuV_qCLKthaVwVDb5jL2gHksfc3Mh3HFC9ua2ABW5DfIQPA7Us&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=WGlpqnOOGIuku1Ep9IcIZg&_nc_ss=7f289&oh=00_AQOQL6SfwMWV7YSAmTelsvJEd0JTXR7FGkujHeAN9FFw9w&oe=6AD27FBE",
       "status": "ok"
     },
     {
@@ -1321,7 +1365,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=y_mL2_aG1XYQ7kNvwFw6j4r&_nc_oc=AdrB2KlUy2cJ7wP4nScDuqJXn5myuKy1v-COKf6wBnLCgYhGx91zx7I7MFAajseq9EE&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_ss=7f289&oh=00_AQPXzvvbEt9Sgj4dncRZZXGNG-eYTvQAF8eutqYO_TKYzQ&oe=6AF3BCBA",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=xbZPQ_IVpFwQ7kNvwEfoJDj&_nc_oc=AdobncIZ4mQNKiSvfVRezi2goyqfj6jf_uv8b1bdOgM4OQKyxad9bnRKzFQ15sUXLNA&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_ss=7f289&oh=00_AQNNWn67AkvlLMIezF_sdkzuD2-x8IlGfqW6OeHP6DGeow&oe=6AF42D3A",
       "status": "ok"
     },
     {
@@ -1333,7 +1377,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IlDihFrXEHEQ7kNvwEy9uQ5&_nc_oc=AdrZkUksQxFyw4ITL-gZrkbQcVIqzeh5ZOozk5t99wC9o--eg7Zgq2mhY9kCaCySeQE&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=hvVyfjF5tHvEvCPinqVkgA&_nc_ss=7f289&oh=00_AQNjsQsvkHIqhKN2Kt1Cr8Kipr-LRo4BViM959OpafBv2Q&oe=6AD2247F",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2eSJ_J_zWbIQ7kNvwGR40Ma&_nc_oc=AdrSOEtF0YVtzVo5k0LbJsAzt5jmX_umtXDU5BgRBsXx0uH_tSaG3lP-YGKmGIqio5c&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=I8MWgVLiyB1xtPxLQr_hjw&_nc_ss=7f289&oh=00_AQPxEYv1bt9HEcqzbLXHHUKZLNRT5jqcDfmL3eXz3O_y6A&oe=6AD294FF",
       "status": "ok"
     },
     {
@@ -1345,8 +1389,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=rEbVoVCKS5UQ7kNvwHq_iUA&_nc_oc=AdrO8KmhWoEnYdVyIR_61r_XHv_gqt066BrkYICw9gfir2TGkKGqozZ8KgJf4QmkdAQ&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=ynDv9tsi1d_DAb0kaYn0hA&_nc_ss=7f289&oh=00_AQMout06jKtN9P4HYm_zcF-CgemH-65qMhKuaqEBt9l3iA&oe=6AD21F8C",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_rtp",
@@ -1357,7 +1401,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AotDECm6AmEQ7kNvwFdPjD_&_nc_oc=AdoWaQnRCCrXeXNA_JOI9NJy_8arbUJDX4JrXeI2IO6P5F46247EcuMTJjVdLKxlGBo&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=cCV6Q22UoK4gTekzdAqkrg&_nc_ss=7f289&oh=00_AQOaoL2wFqyQSL7nqcOzj76YGJfMgvaJCDqdfEhBtalNGQ&oe=6AD201C5",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AotDECm6AmEQ7kNvwFHc-WF&_nc_oc=Ado1YKaq3DnA1KhuEyu38PSUNW-55EDlRPc7WqtK6rjCKrzyEBBKHoTaBJAf_B4nD40&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=jQnQHQV7k2XwKeWYQi9R9w&_nc_ss=7f289&oh=00_AQMv9y9fwfBeJh9BgbVh29V9XTp8r_Lf9Ohn6Prs-_fx5Q&oe=6AD27245",
       "status": "ok"
     },
     {
@@ -1381,7 +1425,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lkhQRTbMFHkQ7kNvwFyGlyv&_nc_oc=AdpTYAjILpYR7X0pQ2q34qodIGiNOe02B6tW9nIRDUpzvSTiMV_S1Rk0y0Z1mn0H_OI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=gk-FVxlQQ2F2Exin5H5M6g&_nc_ss=7f289&oh=00_AQNWYIRL6Elz-3OlZgYw64AZnhZ2eTNbchpFEAHnpivo_A&oe=6AD21326",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lkhQRTbMFHkQ7kNvwEF9YKg&_nc_oc=AdoS5DS98msSf2S605lPPmnRFNa93GRUNxyCEu5xZUQ9VUi3uAohk-wkvqFJSvKqyCQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=7u_XkhXnWAtnoz-ogZkD6g&_nc_ss=7f289&oh=00_AQN13pIB5T17K4SqR2tFyjW15XKdQsQURGgozdErQAQLTg&oe=6AD283A6",
       "status": "ok"
     },
     {
@@ -1393,7 +1437,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8mjOzLbnkdMQ7kNvwHrNi45&_nc_oc=AdrZvkHYfi1CHPrB_AKylvx-pG9eYTunrOEchatZXvdXLAmWGS71FhBuzHC3Nlsgc_c&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=yfzJawrc_uRA9N9oZNi3KA&_nc_ss=7f289&oh=00_AQNH2Y6jYAr4zpVLNxbrPEUnuQ6JfjgrZPijOaRyYrYM1Q&oe=6AD214CC",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8mjOzLbnkdMQ7kNvwGO2SXM&_nc_oc=Adr4XHHvwSKFpMdx0eQ3uMXsKhRi0MX2skjANXHDMUWPHYEwsfsXUnao7xPhNWgKKCw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=42P8E0n4SWBrXjKjxPjykw&_nc_ss=7f289&oh=00_AQN9fnXbhNkCxcogwUIQqs8wk28O680IXJUgYEEeMVBBTw&oe=6AD2854C",
       "status": "ok"
     },
     {
@@ -1417,7 +1461,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gSKQ_brgyYUQ7kNvwH0BxrH&_nc_oc=Adqq7r4oet4CdfjAjD4jtMJMmGPojA3TIXjutyOyjwPAKwtAw3IK9-Rou8t1BDCdbtk&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=RXbJuoAwwVJP-aRitVKT4Q&_nc_ss=7f289&oh=00_AQM2JeGWTLINwTmoCowbXxWItrW6-rF9jYFKKfyFSXU5VQ&oe=6AD22DE8",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gSKQ_brgyYUQ7kNvwGKgcCr&_nc_oc=AdoRlOTysOZiSbXd5OYMP8n4irZPk7buM2Y1NnJy-XQobHS7HtmSy2P3tSstr46DVhI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=6jnL_TIJPHEnKjdmIbjAFA&_nc_ss=7f289&oh=00_AQNroDe8QRQOH78rD09omT6MaED8Va78Mf-NmitUzXcWgA&oe=6AD26628",
       "status": "ok"
     },
     {
@@ -1429,7 +1473,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4FQQPETe5cQQ7kNvwG7bOHm&_nc_oc=AdrEye52-kNw0WAwib7J0fOUKEo28-mnxWuDrSBJXB4ryedRQmw6JoVZEtlHtmF6zNQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=mcME5GO5Pw33VEittNO-aQ&_nc_ss=7f289&oh=00_AQOIc0hn0FDatco3DLscMgUIHxrwieccnW5TnekUvaOyFA&oe=6AD21A08",
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4FQQPETe5cQQ7kNvwHR-nPg&_nc_oc=AdoJ2ADOt0VClSSLKCevpabat6MmD7bkD2XfY3yfw4HbAnndnWU0cnNtY9mIwGJDJmM&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=yiiySUFaGpzbReHf4TLqig&_nc_ss=7f289&oh=00_AQPiIP3OIg7Bbqzgxl2QzUy0TlM6vfmGFjTwHIfy8FHGAg&oe=6AD28A88",
       "status": "ok"
     },
     {
@@ -1441,7 +1485,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BJ3C8MKSLX8Q7kNvwGK-gt8&_nc_oc=Adpx7YCF6REN5mZ2bowq_XNPVCzlyxs0kkTZTVZCm8Ii124qWNuBWRUVKdd99KbIEOo&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=0VlHvt6yl-SBfL_KDptAXg&_nc_ss=7f289&oh=00_AQPYCQEjzGKcEOXc6BcmlsrhK4m59sCZvohhl2fmdj39xA&oe=6AD21A69",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BJ3C8MKSLX8Q7kNvwHFHWme&_nc_oc=AdrJ465xQp3wWFyvio0EAKRt3VdjzAeL4GBhJQqa2Qr6VcHiKRio3X59-aMfS6IfVNw&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=vha-SoGCmSA-8fGhrA4gDQ&_nc_ss=7f289&oh=00_AQOq1fHyab2FHcZBP5lYKf1xAwKtbag0A7YaoD-QwGhHOg&oe=6AD28AE9",
       "status": "ok"
     },
     {
@@ -1453,7 +1497,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=K159z8r37W0Q7kNvwHTtTZS&_nc_oc=AdqzsFwTtQwBpSc7cyZdhPU2UcPD_XMNi3G6WV_27oMbn5lV6mG5vHqoB1oMSMKeEFs&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=qZ1Ah5Y_cJx6EHqm-3B9Gw&_nc_ss=7f289&oh=00_AQM_L9xE2CTLtjPGqvzwbTc1SahYUF187gewyQDb6mujCQ&oe=6AD21C77",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=K159z8r37W0Q7kNvwFJTJmL&_nc_oc=AdrGO10XsjWbe8LuPxa2KEGZ1dKPEOeJOpG91Qrtg02VVWWFPyPiBQpwGtpXMxptp40&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=eKVW8fBQO__qslOPATABUg&_nc_ss=7f289&oh=00_AQMLw1hu6hVAgJxAHDSRN9U_AgJ_e3EHbzutU_o58UokIQ&oe=6AD28CF7",
       "status": "ok"
     },
     {
@@ -1465,7 +1509,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tuK43Ru_yW0Q7kNvwEwOr1s&_nc_oc=AdqFq5H_arnZaWDin26t7dX82BbCtMGhbYATe3lb6jO-mmc3JIDkgAH7fQLVl_CiqXU&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=pd-3Bk2fa03Jqvx4SLBQpw&_nc_ss=7f289&oh=00_AQPruCXIp2Sk49Nwnhg7JBBKnPf049cTbG5BHwBnj9LHYg&oe=6AD21F3D",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tuK43Ru_yW0Q7kNvwEIjSmd&_nc_oc=AdqdeIf65wYWBiNHhlyqiZb_8VxNVWpPvjNQs9rBKkGtQM9s1TMl6W0bXAjU-Wb8msk&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=zVDHLbZdxYrMNNlTv2CztA&_nc_ss=7f289&oh=00_AQN-FrtTgf9A8iOgb8SHsgTL-M5HVe4P7sfU_2re_yqnqQ&oe=6AD28FBD",
       "status": "ok"
     },
     {
@@ -1477,8 +1521,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=T8yqUeFZUyQQ7kNvwE1RS2n&_nc_oc=Ado8QBPmc4hEbk0mNWy5t6kMrcGrGPAAA5Auz3gYxhHslHd6a3dXypFQ5_7ECNlr9d4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=BP9lNFSV5OdnV_YQ5XNUUQ&_nc_ss=7f289&oh=00_AQNKgz-EY3RDdNWJ5rB35TN8Qt_OLGmCzq0rJqggr027zw&oe=6AD225E1",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_abya_yala",
