@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:10:03-04:00",
+  "generated_at": "2026-10-14T07:46:53-04:00",
   "incidents": [
     {
       "id": "a96469e3f4c22e7e",
@@ -11,7 +11,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/lista-comunicados-page/",
       "published_at": null,
-      "scraped_at": "2026-10-14T02:10:03-04:00",
+      "scraped_at": "2026-10-14T07:46:53-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -135,237 +135,100 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-14T02:10:03-04:00",
+      "last_seen_at": "2026-10-14T07:46:53-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
     {
-      "id": "03adf6525607c892",
-      "source_id": "fb_abc",
-      "source_name": "ABC Carreteras Bolivia",
-      "source_url": "https://www.facebook.com/CarreterasBo/",
+      "id": "b247fb41c953c018",
+      "source_id": "fb_alcaldia_el_alto",
+      "source_name": "Gobierno Autónomo Municipal de El Alto",
+      "source_url": "https://www.facebook.com/ElAltoAlcaldia/",
       "source_class": "facebook_official",
       "source_tier": 1,
-      "source_icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GOCXXEPkIE4Q7kNvwH2KHDM&_nc_oc=AdpEWdwTAkfRGulDpTBBizNTyALHYtco3FgYJOZ-q8l0BHtJw0vFeWXa0Gx3ASgKbFQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dHcmodTYrHCiBIRvXouEow&_nc_ss=7f289&oh=00_AQONA5PhWvHuU_ey1lkSdLpQwQ6Jt_PT6dttjXEJn-uhog&oe=6AD4DB58",
-      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=5019625511597234&__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=R-R",
+      "source_icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YITl9i4AwWEQ7kNvwGxetNE&_nc_oc=AdrT2IHn1cWLv96JYMzLUt9oeDFP-Ywt_gkBaXtjXmsMQQrxSrWLF3Pgy7DB9pMY2Uo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=MgupqC3mLrO-RLbHxNQeBg&_nc_ss=7f289&oh=00_AQNqNx1UnWErmQOnspy7rzqheCpu8MlJ98UcE4TjLxvERQ&oe=6AD52F00",
+      "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid027gg6mC5uZwJfMHZ1GvgwZde8Y3wmd58QiBwTNkN6vYZDmmPUk8gFyrMD8uQuvbyYl?__cft__[0]=AZgUJ8ncS_WVIUhjmTz-PcLVDb1mZVlo3veazABvsf06ud0j8HdifypeJ9e1RtxPvZr_yHPZpsAliTHF3dLrQeapfZN2oXTM2QgkLgBDZV9wxb87OiU2QoD4ygQuXzT20V4kn5hiXPEpMGNZ66j16xdmBYhZr7LCfT5YXSIjFogGAQ9bqwrfHJaf6pY&__tn__=%2CO%2CP-R",
       "published_at": null,
-      "scraped_at": "2026-10-14T02:10:03-04:00",
-      "department": "Santa Cruz",
-      "municipality": "La Guardia",
-      "city": "La Guardia",
-      "event_type": "accidente",
-      "cause": "obras_mantenimiento",
+      "scraped_at": "2026-10-14T07:46:53-04:00",
+      "department": "La Paz",
+      "municipality": "El Alto",
+      "city": "Cochabamba",
+      "event_type": "congestion",
+      "cause": "conflicto_transporte",
       "status": "precaucion",
       "closure_scope": null,
       "severity": "media",
-      "confidence": 0.99,
-      "relevance_score": 100,
+      "confidence": 0.9,
+      "relevance_score": 75,
       "filter_reasons": [
-        "contexto_vial:10",
-        "evento:accidente",
-        "via_detectada:3",
-        "sector_detectado:2",
-        "kilometro_detectado",
-        "terminos_viales:12",
-        "fuente_oficial_facebook"
-      ],
-      "title": "Mateo Aylin Perez comentó: Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO 🤥🤥🤥",
-      "description": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa... LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz, la Administradora Boliviana de Carreteras (ABC), intensifica trabajos de conservación vial y reposición de la carpeta asfáltica en la Doble Vía La Guardia, con el propósito de mantener vías transitables, seguras e hiperconectadas. Las labores operativas se ejecutan mediante dos frentes simultáneos de trabajo: el primero concentrado en el kilómetro 12, sector del semáforo (sentido La Guardia – Santa Cruz), y el segundo desplegado de manera continua entre el kilómetro 8,5 y el kilómetro 10. Las intervenciones comprenden el fresado de áreas deterioradas, la aplicación de mezcla asfáltica en caliente y la compactación mecanizada sobre la calzada. Al tratarse de una de las arterias metropolitanas de mayor flujo vehicular en el departamento, la puesta a punto de la vía agiliza el tráfico diario del autotransporte público, pesado e intermunicipal, reduciendo tiempos de viaje y previniendo riesgos de accidentes en la zona. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, ratifica su compromiso de mantener una fiscalización operativa constante en los accesos urbanos de la Red Vial Fundamental (RVF), garantizando carreteras seguras, funcionales y en óptimas condiciones para la población cruceña. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz, la Administradora Boliviana de Carreteras (ABC), intensifica trabajos de conservación vial y reposición de la carpeta asfáltica en la Doble Vía La Guardia, con el propósito de mantener vías transitables, seguras e hiperconectadas. Las labores operativas se ejecutan mediante dos frentes simultáneos de trabajo: el primero concentrado en el kilómetro 12, sector del semáforo (sentido La Guardia – Santa Cruz), y el segundo desplegado de manera continua entre el kilómetro 8,5 y el kilómetro 10. Las intervenciones comprenden el fresado de áreas deterioradas, la aplicación de mezcla asfáltica en caliente y la compactación mecanizada sobre la calzada. Al tratarse de una de las arterias metropolitanas de mayor flujo vehicular en el departamento, la puesta a punto de la vía agiliza el tráfico diario del autotransporte público, pesado e intermunicipal, reduciendo tiempos de viaje y previniendo riesgos de accidentes en la zona. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, ratifica su compromiso de mantener una fiscalización operativa constante en los accesos urbanos de la Red Vial Fundamental (RVF), garantizando carreteras seguras, funcionales y en óptimas condiciones para la población cruceña. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO Faltaaaaaaa... Cuando una balanza de control de peso en el. 13?",
-      "original_text": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa... LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz, la Administradora Boliviana de Carreteras (ABC), intensifica trabajos de conservación vial y reposición de la carpeta asfáltica en la Doble Vía La Guardia, con el propósito de mantener vías transitables, seguras e hiperconectadas. Las labores operativas se ejecutan mediante dos frentes simultáneos de trabajo: el primero concentrado en el kilómetro 12, sector del semáforo (sentido La Guardia – Santa Cruz), y el segundo desplegado de manera continua entre el kilómetro 8,5 y el kilómetro 10. Las intervenciones comprenden el fresado de áreas deterioradas, la aplicación de mezcla asfáltica en caliente y la compactación mecanizada sobre la calzada. Al tratarse de una de las arterias metropolitanas de mayor flujo vehicular en el departamento, la puesta a punto de la vía agiliza el tráfico diario del autotransporte público, pesado e intermunicipal, reduciendo tiempos de viaje y previniendo riesgos de accidentes en la zona. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, ratifica su compromiso de mantener una fiscalización operativa constante en los accesos urbanos de la Red Vial Fundamental (RVF), garantizando carreteras seguras, funcionales y en óptimas condiciones para la población cruceña. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz, la Administradora Boliviana de Carreteras (ABC), intensifica trabajos de conservación vial y reposición de la carpeta asfáltica en la Doble Vía La Guardia, con el propósito de mantener vías transitables, seguras e hiperconectadas. Las labores operativas se ejecutan mediante dos frentes simultáneos de trabajo: el primero concentrado en el kilómetro 12, sector del semáforo (sentido La Guardia – Santa Cruz), y el segundo desplegado de manera continua entre el kilómetro 8,5 y el kilómetro 10. Las intervenciones comprenden el fresado de áreas deterioradas, la aplicación de mezcla asfáltica en caliente y la compactación mecanizada sobre la calzada. Al tratarse de una de las arterias metropolitanas de mayor flujo vehicular en el departamento, la puesta a punto de la vía agiliza el tráfico diario del autotransporte público, pesado e intermunicipal, reduciendo tiempos de viaje y previniendo riesgos de accidentes en la zona. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, ratifica su compromiso de mantener una fiscalización operativa constante en los accesos urbanos de la Red Vial Fundamental (RVF), garantizando carreteras seguras, funcionales y en óptimas condiciones para la población cruceña. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO Faltaaaaaaa... Cuando una balanza de control de peso en el. 13?",
-      "roads": [
-        "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa",
-        "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz",
-        "Doble Vía La Guardia"
-      ],
-      "places": [
-        "sector del semáforo (sentido La Guardia – Santa Cruz)",
-        "zona nesecita PAVIMENTO RÍGIDO Faltaaaaaaa"
-      ],
-      "kilometer_mentions": [
-        "kilómetro 12",
-        "kilómetro 8,5",
-        "kilómetro 10"
-      ],
-      "directions": [
-        "La Guardia – Santa Cruz)",
-        "LA ABC DESPLIEGA DOS FRENTES DE BACHEO -> SFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA",
-        "OPTIMIZAR EL TRÁFICO URBANO EN SANT -> CRUZ En el departamento de Santa... LA AB",
-        "DESPLIEGA DOS FRENTES DE BACHEO -> SFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA",
-        "OPTIMIZAR EL TRÁFICO URBANO EN SANT -> CRUZ En el departamento de Santa Cruz",
-        "la Administradora Boliviana de C -> rreteras",
-        "intensifica trabajos de conservación vi -> l y reposición de la carpeta asfáltica en",
-        "la Doble Vía La Gu -> rdia"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "accidente",
-        "bache",
-        "tráfico",
-        "flujo vehicular",
-        "carretera",
-        "doble vía",
-        "acceso",
-        "kilómetro",
-        "red vial fundamental",
-        "rvf",
-        "bacheo",
-        "semáforo"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa, La Guardia, Santa Cruz, Bolivia",
-      "image_urls": [
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=xYZvgzdfwLkWDJclt4WDaA&_nc_ss=7f289&oh=00_AQNl1yqcl4A0Yooi7fHCbSmBhGGvHTXMyvhUCfZRxjbVMQ&oe=6AD4E2FE"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=xYZvgzdfwLkWDJclt4WDaA&_nc_ss=7f289&oh=00_AQNl1yqcl4A0Yooi7fHCbSmBhGGvHTXMyvhUCfZRxjbVMQ&oe=6AD4E2FE",
-      "has_image": true,
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=xYZvgzdfwLkWDJclt4WDaA&_nc_ss=7f289&oh=00_AQNl1yqcl4A0Yooi7fHCbSmBhGGvHTXMyvhUCfZRxjbVMQ&oe=6AD4E2FE"
-        ],
-        "main_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=xYZvgzdfwLkWDJclt4WDaA&_nc_ss=7f289&oh=00_AQNl1yqcl4A0Yooi7fHCbSmBhGGvHTXMyvhUCfZRxjbVMQ&oe=6AD4E2FE",
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "precaucion",
-          "published_at": null,
-          "source_id": "fb_abc",
-          "source_name": "ABC Carreteras Bolivia",
-          "tier": 1,
-          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=5019625511597234&__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=R-R"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "fb_abc",
-          "name": "ABC Carreteras Bolivia",
-          "class": "facebook_official",
-          "tier": 1,
-          "page_url": "https://www.facebook.com/CarreterasBo/",
-          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=5019625511597234&__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=R-R",
-          "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GOCXXEPkIE4Q7kNvwH2KHDM&_nc_oc=AdpEWdwTAkfRGulDpTBBizNTyALHYtco3FgYJOZ-q8l0BHtJw0vFeWXa0Gx3ASgKbFQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dHcmodTYrHCiBIRvXouEow&_nc_ss=7f289&oh=00_AQONA5PhWvHuU_ey1lkSdLpQwQ6Jt_PT6dttjXEJn-uhog&oe=6AD4DB58",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=5019625511597234&__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=R-R"
-      ],
-      "merged_items": 1,
-      "incident_id": "inc_592c11e42e6f27",
-      "first_seen_at": "2026-10-13T21:13:31-04:00",
-      "history": [
-        {
-          "at": "2026-10-13T21:13:31-04:00",
-          "detected_at": "2026-10-13T21:13:31-04:00",
-          "reason": "primera_deteccion",
-          "status": "precaucion",
-          "lifecycle_status": "activo",
-          "severity": "media",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "ABC Carreteras Bolivia"
-          ],
-          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=2325851824935904&__cft__[0]=AZgZj0Rpy-ZTjP70itLEvyWL5NFbEjJHUBh5qYIu5tApY-e1x1by_FoBkwKheCwAa160LCxbOCQI-D77evhJKSVo54nmljQX69l2U1U-1Z50TzMbD2FqK4JiI2_DB2D_00vrx06mKvEI7Didemd5ST4GFYEaki4QY7_pLXy8Wh604qNEq_kAFehu4-w&__tn__=R-R"
-        }
-      ],
-      "lifecycle_status": "activo",
-      "is_active": true,
-      "last_seen_at": "2026-10-14T02:10:03-04:00",
-      "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "63046b6d198e1b95",
-      "source_id": "fb_abc",
-      "source_name": "ABC Carreteras Bolivia",
-      "source_url": "https://www.facebook.com/CarreterasBo/",
-      "source_class": "facebook_official",
-      "source_tier": 1,
-      "source_icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GOCXXEPkIE4Q7kNvwH2KHDM&_nc_oc=AdpEWdwTAkfRGulDpTBBizNTyALHYtco3FgYJOZ-q8l0BHtJw0vFeWXa0Gx3ASgKbFQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dHcmodTYrHCiBIRvXouEow&_nc_ss=7f289&oh=00_AQONA5PhWvHuU_ey1lkSdLpQwQ6Jt_PT6dttjXEJn-uhog&oe=6AD4DB58",
-      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R",
-      "published_at": null,
-      "scraped_at": "2026-10-14T02:10:03-04:00",
-      "department": "Santa Cruz",
-      "municipality": "La Guardia",
-      "city": "La Guardia",
-      "event_type": "deterioro_vial",
-      "cause": "obras_mantenimiento",
-      "status": "precaucion",
-      "closure_scope": null,
-      "severity": "media",
-      "confidence": 0.95,
-      "relevance_score": 64,
-      "filter_reasons": [
-        "contexto_vial:3",
-        "evento:deterioro_vial",
-        "via_detectada:1",
-        "sector_detectado:1",
+        "contexto_vial:7",
+        "evento:congestion",
+        "sector_detectado:4",
         "terminos_viales:4",
         "fuente_oficial_facebook"
       ],
-      "title": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ...",
-      "description": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ... Ver más Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO Ver más comentarios Mateo Aylin Perez",
-      "original_text": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ... Ver más Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO Ver más comentarios Mateo Aylin Perez",
-      "roads": [
-        "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ"
-      ],
+      "title": "Gobierno Autónomo Municipal de El Alto",
+      "description": "🔴 Pese a agresiones, se ejecutan intensos operativos de control al trameaje Ante reacciones agresivas de algunos conductores, la Guardia Municipal del Transporte (GMT) ejecuta operativos en diversos... 🔴 Pese a agresiones, se ejecutan intensos operativos de control al trameaje Ante reacciones agresivas de algunos conductores, la Guardia Municipal del... Pese a agresiones, se ejecutan intensos operativos de control al trameaje Ante reacciones agresivas de algunos conductores, la Guardia Municipal del Transporte (GMT) ejecuta operativos en diversos puntos de la ciudad de El Alto con el objetivo de reducir la acción recurrente del trameaje en el servicio público. El control riguroso de las hojas de ruta, los letreros y luminarias para detectar el trameaje, en ciertas ocasiones es respondido por actitudes de desobediencia y resistencia de parte de conductores que insisten en incurrir en esta infracción que afecta el tráfico vehicular y la economía de la población. En sectores como en Cruce Villa Adela, Ventilla, Senkata y otros puntos se evidencian estas conductas inapropiadas; sin embargo, la labor de los efectivos de la guardia municipal es incesante. El Jefe de Unidad de la GMT, Carlos Lanza, informó que los controles se desarrollan de manera permanente en diferentes puntos considerados críticos y que el personal enfrenta resistencia por parte de algunos transportistas, “el trabajo es duro, hay personas que realmente apoyan; y a algunos conductores tenemos que aguantar toda clase de insultos, pero seguimos con el trabajo”, señaló. Asimismo, dijo que el personal municipal tiene instrucciones de no responder a las agresiones y recurrir a las autoridades correspondientes cuando la situación se torna conflictiva. “Nosotros no tenemos que responder claramente a ninguna agresión, estamos preparados, hemos pasado instrucción tanto mi persona como los guardias para evitar reaccionar ante las agresiones de los señores”, explicó. En el operativo en Cruce de Villa Adela, vecinos expresaron su preocupación por el impacto que tiene el trameaje en la economía familiar. Uno de los ciudadanos relató que para trasladarse desde la Ceja hasta su domicilio debe utilizar varios vehículos y pagar por cada tramo. “Yo vengo desde abajo (La Paz) hasta El Alto, me cuesta tres bolivianos; entonces, me tengo que venir desde la Ceja hasta Cruce con dos bolivianos; en Cruce tampoco hay movilidad directo, pues tengo que irme hasta Final Cochabamba y otros dos bolivianos, y de Final Cochabamba tengo que irme a San Luis - San Pedro, que es otros dos bolivianos”, explicó al sumar el gasto de nueve bolivianos de ida y el mismo monto de vuelta. El vecino afirmó que esta situación representa un gasto considerable para quienes utilizan diariamente el transporte público. Pidió que los controles sean constantes para evitar que los transportistas incumplan las rutas y cobren tarifas que terminan afectando principalmente a estudiantes, trabajadores y familias que dependen diariamente de este servicio. /////// PRENSA GAMEA/14.10.26 Pese a agresiones, se ejecutan intensos operativos de control al trameaje Ante reacciones agresivas de algunos conductores, la Guardia Municipal del Transporte (GMT) ejecuta operativos en diversos puntos de la ciudad de El Alto con el objetivo de reducir la acción recurrente del trameaje en el servicio público. El control riguroso de las hojas de ruta, los letreros y luminarias para detectar el trameaje, en ciertas ocasiones es respondido por actitudes de desobediencia y resistencia de parte de conductores que insisten en incurrir en esta infracción que afecta el tráfico vehicular y la economía de la población. En sectores como en Cruce Villa Adela, Ventilla, Senkata y otros puntos se evidencian estas conductas inapropiadas; sin embargo, la labor de los efectivos de la guardia municipal es incesante. El Jefe de Unidad de la GMT, Carlos Lanza, informó que los controles se desarrollan de manera permanente en diferentes puntos considerados críticos y que el personal enfrenta resistencia por parte de algunos transportistas, “el trabajo es duro, hay personas que realmente apoyan; y a algunos conductores tenemos que aguantar toda clase de insultos, pero seguimos con el trabajo”, señaló. Asimismo, dijo que el personal municipal tiene instrucciones de no responder a las agresiones y recurrir a las autoridades correspondientes cuando la situación se torna conflictiva. “Nosotros no tenemos que responder claramente a ninguna agresión, estamos preparados, hemos pasado instrucción tanto mi persona como los guardias para evitar reaccionar ante las agresiones de los señores”, explicó. En el operativo en Cruce de Villa Adela, vecinos expresaron su preocupación por el impacto que tiene el trameaje en la economía familiar. Uno de los ciudadanos relató que para trasladarse desde la Ceja hasta su domicilio debe utilizar varios vehículos y pagar por cada tramo. “Yo vengo desde abajo (La Paz) hasta El Alto, me cuesta tres bolivianos; entonces, ",
+      "original_text": "🔴 Pese a agresiones, se ejecutan intensos operativos de control al trameaje Ante reacciones agresivas de algunos conductores, la Guardia Municipal del Transporte (GMT) ejecuta operativos en diversos... 🔴 Pese a agresiones, se ejecutan intensos operativos de control al trameaje Ante reacciones agresivas de algunos conductores, la Guardia Municipal del... Pese a agresiones, se ejecutan intensos operativos de control al trameaje Ante reacciones agresivas de algunos conductores, la Guardia Municipal del Transporte (GMT) ejecuta operativos en diversos puntos de la ciudad de El Alto con el objetivo de reducir la acción recurrente del trameaje en el servicio público. El control riguroso de las hojas de ruta, los letreros y luminarias para detectar el trameaje, en ciertas ocasiones es respondido por actitudes de desobediencia y resistencia de parte de conductores que insisten en incurrir en esta infracción que afecta el tráfico vehicular y la economía de la población. En sectores como en Cruce Villa Adela, Ventilla, Senkata y otros puntos se evidencian estas conductas inapropiadas; sin embargo, la labor de los efectivos de la guardia municipal es incesante. El Jefe de Unidad de la GMT, Carlos Lanza, informó que los controles se desarrollan de manera permanente en diferentes puntos considerados críticos y que el personal enfrenta resistencia por parte de algunos transportistas, “el trabajo es duro, hay personas que realmente apoyan; y a algunos conductores tenemos que aguantar toda clase de insultos, pero seguimos con el trabajo”, señaló. Asimismo, dijo que el personal municipal tiene instrucciones de no responder a las agresiones y recurrir a las autoridades correspondientes cuando la situación se torna conflictiva. “Nosotros no tenemos que responder claramente a ninguna agresión, estamos preparados, hemos pasado instrucción tanto mi persona como los guardias para evitar reaccionar ante las agresiones de los señores”, explicó. En el operativo en Cruce de Villa Adela, vecinos expresaron su preocupación por el impacto que tiene el trameaje en la economía familiar. Uno de los ciudadanos relató que para trasladarse desde la Ceja hasta su domicilio debe utilizar varios vehículos y pagar por cada tramo. “Yo vengo desde abajo (La Paz) hasta El Alto, me cuesta tres bolivianos; entonces, me tengo que venir desde la Ceja hasta Cruce con dos bolivianos; en Cruce tampoco hay movilidad directo, pues tengo que irme hasta Final Cochabamba y otros dos bolivianos, y de Final Cochabamba tengo que irme a San Luis - San Pedro, que es otros dos bolivianos”, explicó al sumar el gasto de nueve bolivianos de ida y el mismo monto de vuelta. El vecino afirmó que esta situación representa un gasto considerable para quienes utilizan diariamente el transporte público. Pidió que los controles sean constantes para evitar que los transportistas incumplan las rutas y cobren tarifas que terminan afectando principalmente a estudiantes, trabajadores y familias que dependen diariamente de este servicio. /////// PRENSA GAMEA/14.10.26 Pese a agresiones, se ejecutan intensos operativos de control al trameaje Ante reacciones agresivas de algunos conductores, la Guardia Municipal del Transporte (GMT) ejecuta operativos en diversos puntos de la ciudad de El Alto con el objetivo de reducir la acción recurrente del trameaje en el servicio público. El control riguroso de las hojas de ruta, los letreros y luminarias para detectar el trameaje, en ciertas ocasiones es respondido por actitudes de desobediencia y resistencia de parte de conductores que insisten en incurrir en esta infracción que afecta el tráfico vehicular y la economía de la población. En sectores como en Cruce Villa Adela, Ventilla, Senkata y otros puntos se evidencian estas conductas inapropiadas; sin embargo, la labor de los efectivos de la guardia municipal es incesante. El Jefe de Unidad de la GMT, Carlos Lanza, informó que los controles se desarrollan de manera permanente en diferentes puntos considerados críticos y que el personal enfrenta resistencia por parte de algunos transportistas, “el trabajo es duro, hay personas que realmente apoyan; y a algunos conductores tenemos que aguantar toda clase de insultos, pero seguimos con el trabajo”, señaló. Asimismo, dijo que el personal municipal tiene instrucciones de no responder a las agresiones y recurrir a las autoridades correspondientes cuando la situación se torna conflictiva. “Nosotros no tenemos que responder claramente a ninguna agresión, estamos preparados, hemos pasado instrucción tanto mi persona como los guardias para evitar reaccionar ante las agresiones de los señores”, explicó. En el operativo en Cruce de Villa Adela, vecinos expresaron su preocupación por el impacto que tiene el trameaje en la economía familiar. Uno de los ciudadanos relató que para trasladarse desde la Ceja hasta su domicilio debe utilizar varios vehículos y pagar por cada tramo. “Yo vengo desde abajo (La Paz) hasta El Alto, me cuesta tres bolivianos; entonces, me tengo que venir desde la Ceja hasta Cruce con dos bolivianos; en Cruce tampoco hay movilidad directo, pues tengo que irme hasta Final Cochabamba y otros dos bolivianos, y de Final Cochabamba tengo que irme a San Luis - San Pedro, que es otros dos bolivianos”, explicó al sumar el gasto de nueve bolivianos de ida y el mismo monto de vuelta. El vecino afirmó que esta situación representa un gasto considerable para quienes utilizan diariamente el transporte público. Pidió que los controles sean constantes para evitar que los transportistas incumplan las rutas y cobren tarifas que terminan afectando principalmente a estudiantes, trabajadores y familias que dependen diariamente de este servicio. /////// PRENSA GAMEA/14.10.26",
+      "roads": [],
       "places": [
-        "zona nesecita PAVIMENTO RÍGIDO Ver más comentarios Mateo Aylin Perez"
+        "Cruce Villa Adela",
+        "Cruce de Villa Adela",
+        "Cruce con dos bolivianos",
+        "Cruce tampoco hay movilidad directo"
       ],
       "kilometer_mentions": [],
       "directions": [
-        "LA ABC DESPLIEGA DOS FRENTES DE BACHEO -> SFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA",
-        "OPTIMIZAR EL TRÁFICO URBANO EN SANT -> CRUZ... Ver más Esperemos no solo sea BAC",
-        "porque esa zona nesecita P -> VIMENTO RÍGIDO Ver más comentarios Mateo"
+        "Pese a -> gresiones",
+        "se ejecutan intensos oper -> tivos de control al trameaje Ante reaccio",
+        "agresivas de -> lgunos conductores",
+        "la Guardia Municipal del Tr -> nsporte",
+        "ejecuta oper -> tivos en diversos",
+        "la Guardia Municipal del... Pese a -> gresiones",
+        "ejecuta oper -> tivos en diversos puntos de la ciudad de",
+        "El Alto con el objetivo de reducir la -> cción recurrente del trameaje en el servi"
       ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
+      "alternative_routes": [
+        "varios vehículos y pagar por cada tramo"
+      ],
+      "affected_vehicles": [
+        "transporte_publico"
+      ],
       "time_mentions": [],
       "keywords": [
-        "bache",
         "tráfico",
-        "doble vía",
-        "bacheo"
+        "ruta",
+        "tramo",
+        "transportistas"
       ],
       "latitude": null,
       "longitude": null,
-      "location_query": "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ, La Guardia, Santa Cruz, Bolivia",
+      "location_query": "Cruce Villa Adela, El Alto, Cochabamba, La Paz, Bolivia",
       "image_urls": [
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQO4Ohf-XFSe84I_NvsRCCD1kYbkZpk7HIrauSaKAhRW3Q&oe=6AD4E2FE",
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/847981551_1104501102176175_3944513029829282733_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=P7Gm0AZ-n7MQ7kNvwHkZQLZ&_nc_oc=Ado5jenWaU39CWhQ06IgsMse7FGDKiCb1zb5SDDSqRGaulHYW1BlqdXNN9VwA2AxN9I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQMV9cXFBVyKW0upAUZ8D8Ik0EOzEWfRFFCBLoPjWuRJGA&oe=6AD503D0",
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/845881496_1073378738664108_2144855497714414575_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kYypI40YQFgQ7kNvwEngUy7&_nc_oc=AdqZtZkG332GZhvPSfMv9l4bxBMUPfMPyaCWpvAPLPVWc1Zb-NSgKCtuF7uxkTWGeuU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQN0MtDNfTNXRpsacOWmfZSviGHPtEqsgJqOQKpIBjmPYg&oe=6AD5010A",
-        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/849846711_1482969463890707_8818364551820587952_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bVJm1PLW8n8Q7kNvwGdC7ut&_nc_oc=Adru-OI1WyI05gcGZNX-EteIPKij7FGt0bwn6D7NHVFrsFIaygnISMljAelHR4_NTcI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQOxZo1zO6CasamXWM6gu3JgEhRJiUhd0rVjzU3FeB4LXQ&oe=6AD503EB"
+        "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/847980517_2186574752071763_7645116395169990693_n.png?stp=dst-jpg_tt6&cstp=mx930x1600&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=b96d88&_nc_ohc=kjaY_J8P_QwQ7kNvwFuhtPw&_nc_oc=AdoF4yiYfaL_n8xPCubPH6Fxtc8LZ6dg3LX_DNjiNWbnH8gpSh7z_TUdqcbMmP5xy-8&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=rO5HZK_76Qhs6DgYTEx9ww&_nc_ss=7f289&oh=00_AQNAXp_Jxb-h-SFLcm7DP5TI1s9BU_gHeAS2t5J2Z_qXjw&oe=6AD54056",
+        "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/847980517_2186574752071763_7645116395169990693_n.png?stp=dst-jpg_tt6&cstp=mx930x1600&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kjaY_J8P_QwQ7kNvwFuhtPw&_nc_oc=AdoF4yiYfaL_n8xPCubPH6Fxtc8LZ6dg3LX_DNjiNWbnH8gpSh7z_TUdqcbMmP5xy-8&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQMyduZFo05byO49iF36U4GoA5dMQY2UnAj9F4c09BI_Gg&oe=6AD54056",
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/847804632_1824695228567529_1436971217805511817_n.png?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IfMC_3qyYP4Q7kNvwH1agvY&_nc_oc=AdpjHTIf3GiI5OUeJNAF9xs89Ix5FdaUKpysJCJ3BSyStyPYIPpL3rXtX4ZjqIBmSWo&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQNjc4n_XinluGLtI2UOUAoZTeXxKoKfrV_nGmygz2p67Q&oe=6AD5569A",
+        "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/847289831_1085019634318410_1454926326290306456_n.png?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=wMxkrH7nnoQQ7kNvwGAP-jh&_nc_oc=Adom_1t9fwDkKdEtWvmsq56HcIUNSH2UuLzW-bb5obSVDKQrKg7003zX90iqwfb0uXo&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQPZXf5gEQjpzE0eXIlcQJwJkMZixNbpPPcrOElqVfMlgA&oe=6AD55375",
+        "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/850515356_1431079601711751_2679303428134520572_n.png?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=agnWILi01F4Q7kNvwHFLhYx&_nc_oc=AdrGn7-Q3-CBgye1LwjS7Cnm6_atO_NtvbQyDKtLi8t54D9OsAqa2vbAIFNDAZc8lH4&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQOjyW5itenn__xcRQ-80OuaK-g_hHI4o5KZMTIBDJun-g&oe=6AD53D94",
+        "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/847762406_1110064488176692_8702548401878128019_n.png?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pByRU44t4AgQ7kNvwEYdDsp&_nc_oc=Adpu9EYAwxGtJNF2dqv_hxloS9JAnr6NkPvBvzNUhGpPjZVX9O4HpXn-hYjAwsz-rlc&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQPkEE_jdUvJQeunYb7h8lvDfaWSWmTq1_QIC8-97y-W4g&oe=6AD52787"
       ],
       "video_url": null,
       "video_thumbnail_url": null,
       "video_type": null,
       "is_official": true,
-      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQO4Ohf-XFSe84I_NvsRCCD1kYbkZpk7HIrauSaKAhRW3Q&oe=6AD4E2FE",
+      "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/847980517_2186574752071763_7645116395169990693_n.png?stp=dst-jpg_tt6&cstp=mx930x1600&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=b96d88&_nc_ohc=kjaY_J8P_QwQ7kNvwFuhtPw&_nc_oc=AdoF4yiYfaL_n8xPCubPH6Fxtc8LZ6dg3LX_DNjiNWbnH8gpSh7z_TUdqcbMmP5xy-8&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=rO5HZK_76Qhs6DgYTEx9ww&_nc_ss=7f289&oh=00_AQNAXp_Jxb-h-SFLcm7DP5TI1s9BU_gHeAS2t5J2Z_qXjw&oe=6AD54056",
       "has_image": true,
       "has_video": false,
       "media": {
         "images": [
-          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQO4Ohf-XFSe84I_NvsRCCD1kYbkZpk7HIrauSaKAhRW3Q&oe=6AD4E2FE",
-          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/847981551_1104501102176175_3944513029829282733_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=P7Gm0AZ-n7MQ7kNvwHkZQLZ&_nc_oc=Ado5jenWaU39CWhQ06IgsMse7FGDKiCb1zb5SDDSqRGaulHYW1BlqdXNN9VwA2AxN9I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQMV9cXFBVyKW0upAUZ8D8Ik0EOzEWfRFFCBLoPjWuRJGA&oe=6AD503D0",
-          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/845881496_1073378738664108_2144855497714414575_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kYypI40YQFgQ7kNvwEngUy7&_nc_oc=AdqZtZkG332GZhvPSfMv9l4bxBMUPfMPyaCWpvAPLPVWc1Zb-NSgKCtuF7uxkTWGeuU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQN0MtDNfTNXRpsacOWmfZSviGHPtEqsgJqOQKpIBjmPYg&oe=6AD5010A",
-          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/849846711_1482969463890707_8818364551820587952_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bVJm1PLW8n8Q7kNvwGdC7ut&_nc_oc=Adru-OI1WyI05gcGZNX-EteIPKij7FGt0bwn6D7NHVFrsFIaygnISMljAelHR4_NTcI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQOxZo1zO6CasamXWM6gu3JgEhRJiUhd0rVjzU3FeB4LXQ&oe=6AD503EB"
+          "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/847980517_2186574752071763_7645116395169990693_n.png?stp=dst-jpg_tt6&cstp=mx930x1600&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=b96d88&_nc_ohc=kjaY_J8P_QwQ7kNvwFuhtPw&_nc_oc=AdoF4yiYfaL_n8xPCubPH6Fxtc8LZ6dg3LX_DNjiNWbnH8gpSh7z_TUdqcbMmP5xy-8&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=rO5HZK_76Qhs6DgYTEx9ww&_nc_ss=7f289&oh=00_AQNAXp_Jxb-h-SFLcm7DP5TI1s9BU_gHeAS2t5J2Z_qXjw&oe=6AD54056",
+          "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/847980517_2186574752071763_7645116395169990693_n.png?stp=dst-jpg_tt6&cstp=mx930x1600&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kjaY_J8P_QwQ7kNvwFuhtPw&_nc_oc=AdoF4yiYfaL_n8xPCubPH6Fxtc8LZ6dg3LX_DNjiNWbnH8gpSh7z_TUdqcbMmP5xy-8&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQMyduZFo05byO49iF36U4GoA5dMQY2UnAj9F4c09BI_Gg&oe=6AD54056",
+          "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/847804632_1824695228567529_1436971217805511817_n.png?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IfMC_3qyYP4Q7kNvwH1agvY&_nc_oc=AdpjHTIf3GiI5OUeJNAF9xs89Ix5FdaUKpysJCJ3BSyStyPYIPpL3rXtX4ZjqIBmSWo&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQNjc4n_XinluGLtI2UOUAoZTeXxKoKfrV_nGmygz2p67Q&oe=6AD5569A",
+          "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/847289831_1085019634318410_1454926326290306456_n.png?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=wMxkrH7nnoQQ7kNvwGAP-jh&_nc_oc=Adom_1t9fwDkKdEtWvmsq56HcIUNSH2UuLzW-bb5obSVDKQrKg7003zX90iqwfb0uXo&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQPZXf5gEQjpzE0eXIlcQJwJkMZixNbpPPcrOElqVfMlgA&oe=6AD55375",
+          "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/850515356_1431079601711751_2679303428134520572_n.png?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=agnWILi01F4Q7kNvwHFLhYx&_nc_oc=AdrGn7-Q3-CBgye1LwjS7Cnm6_atO_NtvbQyDKtLi8t54D9OsAqa2vbAIFNDAZc8lH4&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQOjyW5itenn__xcRQ-80OuaK-g_hHI4o5KZMTIBDJun-g&oe=6AD53D94",
+          "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/847762406_1110064488176692_8702548401878128019_n.png?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pByRU44t4AgQ7kNvwEYdDsp&_nc_oc=Adpu9EYAwxGtJNF2dqv_hxloS9JAnr6NkPvBvzNUhGpPjZVX9O4HpXn-hYjAwsz-rlc&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=OvmvXPybt1j9J0NlmMXkkA&_nc_ss=7f289&oh=00_AQPkEE_jdUvJQeunYb7h8lvDfaWSWmTq1_QIC8-97y-W4g&oe=6AD52787"
         ],
-        "main_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQO4Ohf-XFSe84I_NvsRCCD1kYbkZpk7HIrauSaKAhRW3Q&oe=6AD4E2FE",
+        "main_image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/847980517_2186574752071763_7645116395169990693_n.png?stp=dst-jpg_tt6&cstp=mx930x1600&ctp=p600x600&_nc_cat=105&ccb=1-7&_nc_sid=b96d88&_nc_ohc=kjaY_J8P_QwQ7kNvwFuhtPw&_nc_oc=AdoF4yiYfaL_n8xPCubPH6Fxtc8LZ6dg3LX_DNjiNWbnH8gpSh7z_TUdqcbMmP5xy-8&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=rO5HZK_76Qhs6DgYTEx9ww&_nc_ss=7f289&oh=00_AQNAXp_Jxb-h-SFLcm7DP5TI1s9BU_gHeAS2t5J2Z_qXjw&oe=6AD54056",
         "videos": []
       },
       "status_conflict": false,
@@ -373,23 +236,23 @@
         {
           "status": "precaucion",
           "published_at": null,
-          "source_id": "fb_abc",
-          "source_name": "ABC Carreteras Bolivia",
+          "source_id": "fb_alcaldia_el_alto",
+          "source_name": "Gobierno Autónomo Municipal de El Alto",
           "tier": 1,
-          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R"
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid027gg6mC5uZwJfMHZ1GvgwZde8Y3wmd58QiBwTNkN6vYZDmmPUk8gFyrMD8uQuvbyYl?__cft__[0]=AZgUJ8ncS_WVIUhjmTz-PcLVDb1mZVlo3veazABvsf06ud0j8HdifypeJ9e1RtxPvZr_yHPZpsAliTHF3dLrQeapfZN2oXTM2QgkLgBDZV9wxb87OiU2QoD4ygQuXzT20V4kn5hiXPEpMGNZ66j16xdmBYhZr7LCfT5YXSIjFogGAQ9bqwrfHJaf6pY&__tn__=%2CO%2CP-R"
         }
       ],
       "latest_update_at": null,
       "videos": [],
       "sources": [
         {
-          "id": "fb_abc",
-          "name": "ABC Carreteras Bolivia",
+          "id": "fb_alcaldia_el_alto",
+          "name": "Gobierno Autónomo Municipal de El Alto",
           "class": "facebook_official",
           "tier": 1,
-          "page_url": "https://www.facebook.com/CarreterasBo/",
-          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R",
-          "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GOCXXEPkIE4Q7kNvwH2KHDM&_nc_oc=AdpEWdwTAkfRGulDpTBBizNTyALHYtco3FgYJOZ-q8l0BHtJw0vFeWXa0Gx3ASgKbFQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dHcmodTYrHCiBIRvXouEow&_nc_ss=7f289&oh=00_AQONA5PhWvHuU_ey1lkSdLpQwQ6Jt_PT6dttjXEJn-uhog&oe=6AD4DB58",
+          "page_url": "https://www.facebook.com/ElAltoAlcaldia/",
+          "post_url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid027gg6mC5uZwJfMHZ1GvgwZde8Y3wmd58QiBwTNkN6vYZDmmPUk8gFyrMD8uQuvbyYl?__cft__[0]=AZgUJ8ncS_WVIUhjmTz-PcLVDb1mZVlo3veazABvsf06ud0j8HdifypeJ9e1RtxPvZr_yHPZpsAliTHF3dLrQeapfZN2oXTM2QgkLgBDZV9wxb87OiU2QoD4ygQuXzT20V4kn5hiXPEpMGNZ66j16xdmBYhZr7LCfT5YXSIjFogGAQ9bqwrfHJaf6pY&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=YITl9i4AwWEQ7kNvwGxetNE&_nc_oc=AdrT2IHn1cWLv96JYMzLUt9oeDFP-Ywt_gkBaXtjXmsMQQrxSrWLF3Pgy7DB9pMY2Uo&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=MgupqC3mLrO-RLbHxNQeBg&_nc_ss=7f289&oh=00_AQNqNx1UnWErmQOnspy7rzqheCpu8MlJ98UcE4TjLxvERQ&oe=6AD52F00",
           "published_at": null
         }
       ],
@@ -397,15 +260,15 @@
       "verification": "una_fuente",
       "corroborated": false,
       "all_urls": [
-        "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R"
+        "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid027gg6mC5uZwJfMHZ1GvgwZde8Y3wmd58QiBwTNkN6vYZDmmPUk8gFyrMD8uQuvbyYl?__cft__[0]=AZgUJ8ncS_WVIUhjmTz-PcLVDb1mZVlo3veazABvsf06ud0j8HdifypeJ9e1RtxPvZr_yHPZpsAliTHF3dLrQeapfZN2oXTM2QgkLgBDZV9wxb87OiU2QoD4ygQuXzT20V4kn5hiXPEpMGNZ66j16xdmBYhZr7LCfT5YXSIjFogGAQ9bqwrfHJaf6pY&__tn__=%2CO%2CP-R"
       ],
       "merged_items": 1,
-      "incident_id": "inc_25e3b3484ab19e",
-      "first_seen_at": "2026-10-14T02:10:03-04:00",
+      "incident_id": "inc_6ae84786cb63df",
+      "first_seen_at": "2026-10-14T07:46:53-04:00",
       "history": [
         {
-          "at": "2026-10-14T02:10:03-04:00",
-          "detected_at": "2026-10-14T02:10:03-04:00",
+          "at": "2026-10-14T07:46:53-04:00",
+          "detected_at": "2026-10-14T07:46:53-04:00",
           "reason": "primera_deteccion",
           "status": "precaucion",
           "lifecycle_status": "activo",
@@ -413,14 +276,14 @@
           "closure_scope": null,
           "source_count": 1,
           "sources": [
-            "ABC Carreteras Bolivia"
+            "Gobierno Autónomo Municipal de El Alto"
           ],
-          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R"
+          "url": "https://www.facebook.com/ElAltoAlcaldia/posts/pfbid027gg6mC5uZwJfMHZ1GvgwZde8Y3wmd58QiBwTNkN6vYZDmmPUk8gFyrMD8uQuvbyYl?__cft__[0]=AZgUJ8ncS_WVIUhjmTz-PcLVDb1mZVlo3veazABvsf06ud0j8HdifypeJ9e1RtxPvZr_yHPZpsAliTHF3dLrQeapfZN2oXTM2QgkLgBDZV9wxb87OiU2QoD4ygQuXzT20V4kn5hiXPEpMGNZ66j16xdmBYhZr7LCfT5YXSIjFogGAQ9bqwrfHJaf6pY&__tn__=%2CO%2CP-R"
         }
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-14T02:10:03-04:00",
+      "last_seen_at": "2026-10-14T07:46:53-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -434,7 +297,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-junto-a-autoridades-municipales-y-transporte-inspeccionan-el-sector-petacas-y-anuncian-inversion-de-bs-127-millones-en-la-rehabilitacion-de-la-ruta-a-los-valles-en-santa-cruz-dentro-del-plan-n/",
       "published_at": null,
-      "scraped_at": "2026-10-14T02:10:03-04:00",
+      "scraped_at": "2026-10-14T07:46:53-04:00",
       "department": "Santa Cruz",
       "municipality": "El Torno",
       "city": null,
@@ -577,7 +440,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-14T02:10:03-04:00",
+      "last_seen_at": "2026-10-14T07:46:53-04:00",
       "seen_this_run": true,
       "history_count": 2
     },
@@ -591,7 +454,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/el-directorio-de-la-caf-aprueba-por-unanimidad-un-financiamiento-de-usd-224-millones-para-reactivar-obras-de-integracion-paralizadas-en-las-carreteras-y-proyectos-estrategicos-viales-en-bolivia/",
       "published_at": null,
-      "scraped_at": "2026-10-14T02:10:03-04:00",
+      "scraped_at": "2026-10-14T07:46:53-04:00",
       "department": "La Paz",
       "municipality": "Warnes",
       "city": "La Paz",
@@ -720,21 +583,21 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-14T02:10:03-04:00",
+      "last_seen_at": "2026-10-14T07:46:53-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
     {
-      "id": "50454ccc4a1bae22",
+      "id": "965c356a0044af75",
       "source_id": "fb_transito_nacional",
       "source_name": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
       "source_url": "https://www.facebook.com/bolivia.transito/",
       "source_class": "facebook_official",
       "source_tier": 1,
-      "source_icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwHEnLns&_nc_oc=AdriisbdxdUD1UnYVm19GkIr8P-rZUuU8c7WCttP9fwwFLQMiYXnk4rcDt5tiVy7H3s&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=8km-ydEhvjXvwply0x9qig&_nc_ss=7f289&oh=00_AQOouZiuYFy_ae7veJCWv0G7au1DTKnIMkaOMxfY7SOCJw&oe=6AD4DEAB",
-      "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02vmh3gqTodMWXYdiVmDmtPDBSTR1M5ELXhTHewxThquGZRXzvbuLzSvXnyQYkjWQvl?comment_id=1530346605517855&__cft__[0]=AZhMurD2R78bt1TsjG2l1eDDweK_SlwZhIhDMVeEuBmUMmAQhbjzyPh-vhM4VeYMg6fD81fQKerZRlNijfqiGatQKUH323HN_yGQ8oOmMzMY-zvPsJwYtd-5zCGiUCbzY8cvM7oz7Pggfilf9XSB2Juzzlct2hU2q1G_kW3_qdsePAurSz8aDno2-Tw&__tn__=R-R",
+      "source_icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwEhT0lZ&_nc_oc=Ado8rQRL1mLPkKI3bZL4zy-CtqsFYlCBRoNlGna4NLmXtbuL0XfR8oFokLR2ad3XGzE&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=QOudK9a2nDUuud9heJSGzw&_nc_ss=7f289&oh=00_AQMW-5y7J1aFQHiZdaU2DennZsGt4lD4xtLB8-oXcK-98g&oe=6AD54F2B",
+      "url": "https://www.facebook.com/bolivia.transito/posts/pfbid0rk6LD2GExKcaD6n5HZsnykUFMmwbRGSUS538y4pdfBHe1EaFcK8KfW2N7nFwDA6ul?comment_id=1530346605517855&__cft__[0]=AZj08vwCdKchaVnKHasCLMS_dlXz5SZcxjRf5rsdBu0M0dZWiRHMsoU19qmGbRpzeb2wcu46k44C9I4av1Y37_WmHjCUJYWWyX2c2o_-ZJLFuK28AV7GMfm2kigtgoum11leR6wgz3pqDj1bOZxv3Z4BuXYz2wJ_ufOV4N6dsoX97-ql9YHgfsOXrR8&__tn__=R-R",
       "published_at": null,
-      "scraped_at": "2026-10-14T02:10:03-04:00",
+      "scraped_at": "2026-10-14T07:46:53-04:00",
       "department": "La Paz",
       "municipality": "Patacamaya",
       "city": "La Paz",
@@ -785,20 +648,20 @@
       "longitude": null,
       "location_query": "CARRETERA LA PAZ - ORURO Como parte de los planes de fiscalización y seguridad vial permanente, Patacamaya, La Paz, Bolivia",
       "image_urls": [
-        "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=I8A_qSZMztIQ7kNvwGkCdDS&_nc_oc=AdpGHymqT0kHMNOeydlx0PFS74p2OPbIW7Cw-bYt2uyq93Bl4MNyFRheIXYQQxSK82E&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=pfhHUuot2fLKaEUz2w7Sxg&_nc_ss=7f289&oh=00_AQP5pu4eYTgpniavvC5Dqh08A8-93x-K1L7wlwZvAPsT7g&oe=6AD4E8D7"
+        "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=I8A_qSZMztIQ7kNvwGhN_uL&_nc_oc=AdqL7OgK5z15uSDtUV47yeORhDa7P7hSHEU8J6-OnrIsvlSSBpPC-qcXKrVl5aCGAsQ&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=s7scb1ER1CpCF_nPzCQZFA&_nc_ss=7f289&oh=00_AQMjEucx4_WcUiygx7OWWIR-KV8YUztWKJ8p1DyATViUog&oe=6AD55957"
       ],
       "video_url": null,
       "video_thumbnail_url": null,
       "video_type": null,
       "is_official": true,
-      "image_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=I8A_qSZMztIQ7kNvwGkCdDS&_nc_oc=AdpGHymqT0kHMNOeydlx0PFS74p2OPbIW7Cw-bYt2uyq93Bl4MNyFRheIXYQQxSK82E&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=pfhHUuot2fLKaEUz2w7Sxg&_nc_ss=7f289&oh=00_AQP5pu4eYTgpniavvC5Dqh08A8-93x-K1L7wlwZvAPsT7g&oe=6AD4E8D7",
+      "image_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=I8A_qSZMztIQ7kNvwGhN_uL&_nc_oc=AdqL7OgK5z15uSDtUV47yeORhDa7P7hSHEU8J6-OnrIsvlSSBpPC-qcXKrVl5aCGAsQ&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=s7scb1ER1CpCF_nPzCQZFA&_nc_ss=7f289&oh=00_AQMjEucx4_WcUiygx7OWWIR-KV8YUztWKJ8p1DyATViUog&oe=6AD55957",
       "has_image": true,
       "has_video": false,
       "media": {
         "images": [
-          "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=I8A_qSZMztIQ7kNvwGkCdDS&_nc_oc=AdpGHymqT0kHMNOeydlx0PFS74p2OPbIW7Cw-bYt2uyq93Bl4MNyFRheIXYQQxSK82E&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=pfhHUuot2fLKaEUz2w7Sxg&_nc_ss=7f289&oh=00_AQP5pu4eYTgpniavvC5Dqh08A8-93x-K1L7wlwZvAPsT7g&oe=6AD4E8D7"
+          "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=I8A_qSZMztIQ7kNvwGhN_uL&_nc_oc=AdqL7OgK5z15uSDtUV47yeORhDa7P7hSHEU8J6-OnrIsvlSSBpPC-qcXKrVl5aCGAsQ&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=s7scb1ER1CpCF_nPzCQZFA&_nc_ss=7f289&oh=00_AQMjEucx4_WcUiygx7OWWIR-KV8YUztWKJ8p1DyATViUog&oe=6AD55957"
         ],
-        "main_image_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=I8A_qSZMztIQ7kNvwGkCdDS&_nc_oc=AdpGHymqT0kHMNOeydlx0PFS74p2OPbIW7Cw-bYt2uyq93Bl4MNyFRheIXYQQxSK82E&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=pfhHUuot2fLKaEUz2w7Sxg&_nc_ss=7f289&oh=00_AQP5pu4eYTgpniavvC5Dqh08A8-93x-K1L7wlwZvAPsT7g&oe=6AD4E8D7",
+        "main_image_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/837888578_1431327502516634_9078808632112466798_n.jpg?stp=dst-jpg_tt6&cstp=mx1156x521&ctp=s1156x521&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=I8A_qSZMztIQ7kNvwGhN_uL&_nc_oc=AdqL7OgK5z15uSDtUV47yeORhDa7P7hSHEU8J6-OnrIsvlSSBpPC-qcXKrVl5aCGAsQ&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=s7scb1ER1CpCF_nPzCQZFA&_nc_ss=7f289&oh=00_AQMjEucx4_WcUiygx7OWWIR-KV8YUztWKJ8p1DyATViUog&oe=6AD55957",
         "videos": []
       },
       "status_conflict": false,
@@ -809,7 +672,7 @@
           "source_id": "fb_transito_nacional",
           "source_name": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
           "tier": 1,
-          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02vmh3gqTodMWXYdiVmDmtPDBSTR1M5ELXhTHewxThquGZRXzvbuLzSvXnyQYkjWQvl?comment_id=1530346605517855&__cft__[0]=AZhMurD2R78bt1TsjG2l1eDDweK_SlwZhIhDMVeEuBmUMmAQhbjzyPh-vhM4VeYMg6fD81fQKerZRlNijfqiGatQKUH323HN_yGQ8oOmMzMY-zvPsJwYtd-5zCGiUCbzY8cvM7oz7Pggfilf9XSB2Juzzlct2hU2q1G_kW3_qdsePAurSz8aDno2-Tw&__tn__=R-R"
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid0rk6LD2GExKcaD6n5HZsnykUFMmwbRGSUS538y4pdfBHe1EaFcK8KfW2N7nFwDA6ul?comment_id=1530346605517855&__cft__[0]=AZj08vwCdKchaVnKHasCLMS_dlXz5SZcxjRf5rsdBu0M0dZWiRHMsoU19qmGbRpzeb2wcu46k44C9I4av1Y37_WmHjCUJYWWyX2c2o_-ZJLFuK28AV7GMfm2kigtgoum11leR6wgz3pqDj1bOZxv3Z4BuXYz2wJ_ufOV4N6dsoX97-ql9YHgfsOXrR8&__tn__=R-R"
         }
       ],
       "latest_update_at": null,
@@ -821,8 +684,8 @@
           "class": "facebook_official",
           "tier": 1,
           "page_url": "https://www.facebook.com/bolivia.transito/",
-          "post_url": "https://www.facebook.com/bolivia.transito/posts/pfbid02vmh3gqTodMWXYdiVmDmtPDBSTR1M5ELXhTHewxThquGZRXzvbuLzSvXnyQYkjWQvl?comment_id=1530346605517855&__cft__[0]=AZhMurD2R78bt1TsjG2l1eDDweK_SlwZhIhDMVeEuBmUMmAQhbjzyPh-vhM4VeYMg6fD81fQKerZRlNijfqiGatQKUH323HN_yGQ8oOmMzMY-zvPsJwYtd-5zCGiUCbzY8cvM7oz7Pggfilf9XSB2Juzzlct2hU2q1G_kW3_qdsePAurSz8aDno2-Tw&__tn__=R-R",
-          "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwHEnLns&_nc_oc=AdriisbdxdUD1UnYVm19GkIr8P-rZUuU8c7WCttP9fwwFLQMiYXnk4rcDt5tiVy7H3s&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=8km-ydEhvjXvwply0x9qig&_nc_ss=7f289&oh=00_AQOouZiuYFy_ae7veJCWv0G7au1DTKnIMkaOMxfY7SOCJw&oe=6AD4DEAB",
+          "post_url": "https://www.facebook.com/bolivia.transito/posts/pfbid0rk6LD2GExKcaD6n5HZsnykUFMmwbRGSUS538y4pdfBHe1EaFcK8KfW2N7nFwDA6ul?comment_id=1530346605517855&__cft__[0]=AZj08vwCdKchaVnKHasCLMS_dlXz5SZcxjRf5rsdBu0M0dZWiRHMsoU19qmGbRpzeb2wcu46k44C9I4av1Y37_WmHjCUJYWWyX2c2o_-ZJLFuK28AV7GMfm2kigtgoum11leR6wgz3pqDj1bOZxv3Z4BuXYz2wJ_ufOV4N6dsoX97-ql9YHgfsOXrR8&__tn__=R-R",
+          "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=3_6BerAk-5kQ7kNvwEhT0lZ&_nc_oc=Ado8rQRL1mLPkKI3bZL4zy-CtqsFYlCBRoNlGna4NLmXtbuL0XfR8oFokLR2ad3XGzE&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=QOudK9a2nDUuud9heJSGzw&_nc_ss=7f289&oh=00_AQMW-5y7J1aFQHiZdaU2DennZsGt4lD4xtLB8-oXcK-98g&oe=6AD54F2B",
           "published_at": null
         }
       ],
@@ -830,7 +693,7 @@
       "verification": "una_fuente",
       "corroborated": false,
       "all_urls": [
-        "https://www.facebook.com/bolivia.transito/posts/pfbid02vmh3gqTodMWXYdiVmDmtPDBSTR1M5ELXhTHewxThquGZRXzvbuLzSvXnyQYkjWQvl?comment_id=1530346605517855&__cft__[0]=AZhMurD2R78bt1TsjG2l1eDDweK_SlwZhIhDMVeEuBmUMmAQhbjzyPh-vhM4VeYMg6fD81fQKerZRlNijfqiGatQKUH323HN_yGQ8oOmMzMY-zvPsJwYtd-5zCGiUCbzY8cvM7oz7Pggfilf9XSB2Juzzlct2hU2q1G_kW3_qdsePAurSz8aDno2-Tw&__tn__=R-R"
+        "https://www.facebook.com/bolivia.transito/posts/pfbid0rk6LD2GExKcaD6n5HZsnykUFMmwbRGSUS538y4pdfBHe1EaFcK8KfW2N7nFwDA6ul?comment_id=1530346605517855&__cft__[0]=AZj08vwCdKchaVnKHasCLMS_dlXz5SZcxjRf5rsdBu0M0dZWiRHMsoU19qmGbRpzeb2wcu46k44C9I4av1Y37_WmHjCUJYWWyX2c2o_-ZJLFuK28AV7GMfm2kigtgoum11leR6wgz3pqDj1bOZxv3Z4BuXYz2wJ_ufOV4N6dsoX97-ql9YHgfsOXrR8&__tn__=R-R"
       ],
       "merged_items": 1,
       "incident_id": "inc_7897c0ee7b58c9",
@@ -853,7 +716,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-14T02:10:03-04:00",
+      "last_seen_at": "2026-10-14T07:46:53-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -867,7 +730,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-10-14T02:10:03-04:00",
+      "scraped_at": "2026-10-14T07:46:53-04:00",
       "department": "La Paz",
       "municipality": "Caranavi",
       "city": "Cochabamba",
@@ -1044,7 +907,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-14T02:10:03-04:00",
+      "last_seen_at": "2026-10-14T07:46:53-04:00",
       "seen_this_run": true,
       "history_count": 3
     },
@@ -1058,7 +921,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-fortalece-la-conservacion-vial-con-trabajos-de-bacheo-en-colcapirhua-carretera-cochabamba-oruro/",
       "published_at": null,
-      "scraped_at": "2026-10-14T02:10:03-04:00",
+      "scraped_at": "2026-10-14T07:46:53-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -1182,8 +1045,293 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-14T02:10:03-04:00",
+      "last_seen_at": "2026-10-14T07:46:53-04:00",
       "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "03adf6525607c892",
+      "source_id": "fb_abc",
+      "source_name": "ABC Carreteras Bolivia",
+      "source_url": "https://www.facebook.com/CarreterasBo/",
+      "source_class": "facebook_official",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GOCXXEPkIE4Q7kNvwH2KHDM&_nc_oc=AdpEWdwTAkfRGulDpTBBizNTyALHYtco3FgYJOZ-q8l0BHtJw0vFeWXa0Gx3ASgKbFQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dHcmodTYrHCiBIRvXouEow&_nc_ss=7f289&oh=00_AQONA5PhWvHuU_ey1lkSdLpQwQ6Jt_PT6dttjXEJn-uhog&oe=6AD4DB58",
+      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=5019625511597234&__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=R-R",
+      "published_at": null,
+      "scraped_at": "2026-10-14T02:10:03-04:00",
+      "department": "Santa Cruz",
+      "municipality": "La Guardia",
+      "city": "La Guardia",
+      "event_type": "accidente",
+      "cause": "obras_mantenimiento",
+      "status": "precaucion",
+      "closure_scope": null,
+      "severity": "media",
+      "confidence": 0.99,
+      "relevance_score": 100,
+      "filter_reasons": [
+        "contexto_vial:10",
+        "evento:accidente",
+        "via_detectada:3",
+        "sector_detectado:2",
+        "kilometro_detectado",
+        "terminos_viales:12",
+        "fuente_oficial_facebook"
+      ],
+      "title": "Mateo Aylin Perez comentó: Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO 🤥🤥🤥",
+      "description": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa... LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz, la Administradora Boliviana de Carreteras (ABC), intensifica trabajos de conservación vial y reposición de la carpeta asfáltica en la Doble Vía La Guardia, con el propósito de mantener vías transitables, seguras e hiperconectadas. Las labores operativas se ejecutan mediante dos frentes simultáneos de trabajo: el primero concentrado en el kilómetro 12, sector del semáforo (sentido La Guardia – Santa Cruz), y el segundo desplegado de manera continua entre el kilómetro 8,5 y el kilómetro 10. Las intervenciones comprenden el fresado de áreas deterioradas, la aplicación de mezcla asfáltica en caliente y la compactación mecanizada sobre la calzada. Al tratarse de una de las arterias metropolitanas de mayor flujo vehicular en el departamento, la puesta a punto de la vía agiliza el tráfico diario del autotransporte público, pesado e intermunicipal, reduciendo tiempos de viaje y previniendo riesgos de accidentes en la zona. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, ratifica su compromiso de mantener una fiscalización operativa constante en los accesos urbanos de la Red Vial Fundamental (RVF), garantizando carreteras seguras, funcionales y en óptimas condiciones para la población cruceña. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz, la Administradora Boliviana de Carreteras (ABC), intensifica trabajos de conservación vial y reposición de la carpeta asfáltica en la Doble Vía La Guardia, con el propósito de mantener vías transitables, seguras e hiperconectadas. Las labores operativas se ejecutan mediante dos frentes simultáneos de trabajo: el primero concentrado en el kilómetro 12, sector del semáforo (sentido La Guardia – Santa Cruz), y el segundo desplegado de manera continua entre el kilómetro 8,5 y el kilómetro 10. Las intervenciones comprenden el fresado de áreas deterioradas, la aplicación de mezcla asfáltica en caliente y la compactación mecanizada sobre la calzada. Al tratarse de una de las arterias metropolitanas de mayor flujo vehicular en el departamento, la puesta a punto de la vía agiliza el tráfico diario del autotransporte público, pesado e intermunicipal, reduciendo tiempos de viaje y previniendo riesgos de accidentes en la zona. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, ratifica su compromiso de mantener una fiscalización operativa constante en los accesos urbanos de la Red Vial Fundamental (RVF), garantizando carreteras seguras, funcionales y en óptimas condiciones para la población cruceña. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO Faltaaaaaaa... Cuando una balanza de control de peso en el. 13?",
+      "original_text": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa... LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz, la Administradora Boliviana de Carreteras (ABC), intensifica trabajos de conservación vial y reposición de la carpeta asfáltica en la Doble Vía La Guardia, con el propósito de mantener vías transitables, seguras e hiperconectadas. Las labores operativas se ejecutan mediante dos frentes simultáneos de trabajo: el primero concentrado en el kilómetro 12, sector del semáforo (sentido La Guardia – Santa Cruz), y el segundo desplegado de manera continua entre el kilómetro 8,5 y el kilómetro 10. Las intervenciones comprenden el fresado de áreas deterioradas, la aplicación de mezcla asfáltica en caliente y la compactación mecanizada sobre la calzada. Al tratarse de una de las arterias metropolitanas de mayor flujo vehicular en el departamento, la puesta a punto de la vía agiliza el tráfico diario del autotransporte público, pesado e intermunicipal, reduciendo tiempos de viaje y previniendo riesgos de accidentes en la zona. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, ratifica su compromiso de mantener una fiscalización operativa constante en los accesos urbanos de la Red Vial Fundamental (RVF), garantizando carreteras seguras, funcionales y en óptimas condiciones para la población cruceña. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz, la Administradora Boliviana de Carreteras (ABC), intensifica trabajos de conservación vial y reposición de la carpeta asfáltica en la Doble Vía La Guardia, con el propósito de mantener vías transitables, seguras e hiperconectadas. Las labores operativas se ejecutan mediante dos frentes simultáneos de trabajo: el primero concentrado en el kilómetro 12, sector del semáforo (sentido La Guardia – Santa Cruz), y el segundo desplegado de manera continua entre el kilómetro 8,5 y el kilómetro 10. Las intervenciones comprenden el fresado de áreas deterioradas, la aplicación de mezcla asfáltica en caliente y la compactación mecanizada sobre la calzada. Al tratarse de una de las arterias metropolitanas de mayor flujo vehicular en el departamento, la puesta a punto de la vía agiliza el tráfico diario del autotransporte público, pesado e intermunicipal, reduciendo tiempos de viaje y previniendo riesgos de accidentes en la zona. La ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, ratifica su compromiso de mantener una fiscalización operativa constante en los accesos urbanos de la Red Vial Fundamental (RVF), garantizando carreteras seguras, funcionales y en óptimas condiciones para la población cruceña. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO Faltaaaaaaa... Cuando una balanza de control de peso en el. 13?",
+      "roads": [
+        "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa",
+        "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa Cruz",
+        "Doble Vía La Guardia"
+      ],
+      "places": [
+        "sector del semáforo (sentido La Guardia – Santa Cruz)",
+        "zona nesecita PAVIMENTO RÍGIDO Faltaaaaaaa"
+      ],
+      "kilometer_mentions": [
+        "kilómetro 12",
+        "kilómetro 8,5",
+        "kilómetro 10"
+      ],
+      "directions": [
+        "La Guardia – Santa Cruz)",
+        "LA ABC DESPLIEGA DOS FRENTES DE BACHEO -> SFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA",
+        "OPTIMIZAR EL TRÁFICO URBANO EN SANT -> CRUZ En el departamento de Santa... LA AB",
+        "DESPLIEGA DOS FRENTES DE BACHEO -> SFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA",
+        "OPTIMIZAR EL TRÁFICO URBANO EN SANT -> CRUZ En el departamento de Santa Cruz",
+        "la Administradora Boliviana de C -> rreteras",
+        "intensifica trabajos de conservación vi -> l y reposición de la carpeta asfáltica en",
+        "la Doble Vía La Gu -> rdia"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "accidente",
+        "bache",
+        "tráfico",
+        "flujo vehicular",
+        "carretera",
+        "doble vía",
+        "acceso",
+        "kilómetro",
+        "red vial fundamental",
+        "rvf",
+        "bacheo",
+        "semáforo"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ En el departamento de Santa, La Guardia, Santa Cruz, Bolivia",
+      "image_urls": [
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=xYZvgzdfwLkWDJclt4WDaA&_nc_ss=7f289&oh=00_AQNl1yqcl4A0Yooi7fHCbSmBhGGvHTXMyvhUCfZRxjbVMQ&oe=6AD4E2FE"
+      ],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=xYZvgzdfwLkWDJclt4WDaA&_nc_ss=7f289&oh=00_AQNl1yqcl4A0Yooi7fHCbSmBhGGvHTXMyvhUCfZRxjbVMQ&oe=6AD4E2FE",
+      "has_image": true,
+      "has_video": false,
+      "media": {
+        "images": [
+          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=xYZvgzdfwLkWDJclt4WDaA&_nc_ss=7f289&oh=00_AQNl1yqcl4A0Yooi7fHCbSmBhGGvHTXMyvhUCfZRxjbVMQ&oe=6AD4E2FE"
+        ],
+        "main_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=p600x600&_nc_cat=110&ccb=1-7&_nc_sid=b96d88&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=xYZvgzdfwLkWDJclt4WDaA&_nc_ss=7f289&oh=00_AQNl1yqcl4A0Yooi7fHCbSmBhGGvHTXMyvhUCfZRxjbVMQ&oe=6AD4E2FE",
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "precaucion",
+          "published_at": null,
+          "source_id": "fb_abc",
+          "source_name": "ABC Carreteras Bolivia",
+          "tier": 1,
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=5019625511597234&__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=R-R"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "fb_abc",
+          "name": "ABC Carreteras Bolivia",
+          "class": "facebook_official",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/CarreterasBo/",
+          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=5019625511597234&__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=R-R",
+          "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GOCXXEPkIE4Q7kNvwH2KHDM&_nc_oc=AdpEWdwTAkfRGulDpTBBizNTyALHYtco3FgYJOZ-q8l0BHtJw0vFeWXa0Gx3ASgKbFQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dHcmodTYrHCiBIRvXouEow&_nc_ss=7f289&oh=00_AQONA5PhWvHuU_ey1lkSdLpQwQ6Jt_PT6dttjXEJn-uhog&oe=6AD4DB58",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=5019625511597234&__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=R-R"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_592c11e42e6f27",
+      "first_seen_at": "2026-10-13T21:13:31-04:00",
+      "history": [
+        {
+          "at": "2026-10-13T21:13:31-04:00",
+          "detected_at": "2026-10-13T21:13:31-04:00",
+          "reason": "primera_deteccion",
+          "status": "precaucion",
+          "lifecycle_status": "activo",
+          "severity": "media",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "ABC Carreteras Bolivia"
+          ],
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?comment_id=2325851824935904&__cft__[0]=AZgZj0Rpy-ZTjP70itLEvyWL5NFbEjJHUBh5qYIu5tApY-e1x1by_FoBkwKheCwAa160LCxbOCQI-D77evhJKSVo54nmljQX69l2U1U-1Z50TzMbD2FqK4JiI2_DB2D_00vrx06mKvEI7Didemd5ST4GFYEaki4QY7_pLXy8Wh604qNEq_kAFehu4-w&__tn__=R-R"
+        }
+      ],
+      "lifecycle_status": "sin_actualizacion",
+      "is_active": true,
+      "last_seen_at": "2026-10-14T02:10:03-04:00",
+      "seen_this_run": false,
+      "history_count": 1
+    },
+    {
+      "id": "63046b6d198e1b95",
+      "source_id": "fb_abc",
+      "source_name": "ABC Carreteras Bolivia",
+      "source_url": "https://www.facebook.com/CarreterasBo/",
+      "source_class": "facebook_official",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GOCXXEPkIE4Q7kNvwH2KHDM&_nc_oc=AdpEWdwTAkfRGulDpTBBizNTyALHYtco3FgYJOZ-q8l0BHtJw0vFeWXa0Gx3ASgKbFQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dHcmodTYrHCiBIRvXouEow&_nc_ss=7f289&oh=00_AQONA5PhWvHuU_ey1lkSdLpQwQ6Jt_PT6dttjXEJn-uhog&oe=6AD4DB58",
+      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R",
+      "published_at": null,
+      "scraped_at": "2026-10-14T02:10:03-04:00",
+      "department": "Santa Cruz",
+      "municipality": "La Guardia",
+      "city": "La Guardia",
+      "event_type": "deterioro_vial",
+      "cause": "obras_mantenimiento",
+      "status": "precaucion",
+      "closure_scope": null,
+      "severity": "media",
+      "confidence": 0.95,
+      "relevance_score": 64,
+      "filter_reasons": [
+        "contexto_vial:3",
+        "evento:deterioro_vial",
+        "via_detectada:1",
+        "sector_detectado:1",
+        "terminos_viales:4",
+        "fuente_oficial_facebook"
+      ],
+      "title": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ...",
+      "description": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ... Ver más Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO Ver más comentarios Mateo Aylin Perez",
+      "original_text": "LA ABC DESPLIEGA DOS FRENTES DE BACHEO ASFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ... Ver más Esperemos no solo sea BACHES porque esa zona nesecita PAVIMENTO RÍGIDO Ver más comentarios Mateo Aylin Perez",
+      "roads": [
+        "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ"
+      ],
+      "places": [
+        "zona nesecita PAVIMENTO RÍGIDO Ver más comentarios Mateo Aylin Perez"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "LA ABC DESPLIEGA DOS FRENTES DE BACHEO -> SFÁLTICO EN LA DOBLE VÍA LA GUARDIA PARA",
+        "OPTIMIZAR EL TRÁFICO URBANO EN SANT -> CRUZ... Ver más Esperemos no solo sea BAC",
+        "porque esa zona nesecita P -> VIMENTO RÍGIDO Ver más comentarios Mateo"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "bache",
+        "tráfico",
+        "doble vía",
+        "bacheo"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "DOBLE VÍA LA GUARDIA PARA OPTIMIZAR EL TRÁFICO URBANO EN SANTA CRUZ, La Guardia, Santa Cruz, Bolivia",
+      "image_urls": [
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQO4Ohf-XFSe84I_NvsRCCD1kYbkZpk7HIrauSaKAhRW3Q&oe=6AD4E2FE",
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/847981551_1104501102176175_3944513029829282733_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=P7Gm0AZ-n7MQ7kNvwHkZQLZ&_nc_oc=Ado5jenWaU39CWhQ06IgsMse7FGDKiCb1zb5SDDSqRGaulHYW1BlqdXNN9VwA2AxN9I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQMV9cXFBVyKW0upAUZ8D8Ik0EOzEWfRFFCBLoPjWuRJGA&oe=6AD503D0",
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/845881496_1073378738664108_2144855497714414575_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kYypI40YQFgQ7kNvwEngUy7&_nc_oc=AdqZtZkG332GZhvPSfMv9l4bxBMUPfMPyaCWpvAPLPVWc1Zb-NSgKCtuF7uxkTWGeuU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQN0MtDNfTNXRpsacOWmfZSviGHPtEqsgJqOQKpIBjmPYg&oe=6AD5010A",
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/849846711_1482969463890707_8818364551820587952_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bVJm1PLW8n8Q7kNvwGdC7ut&_nc_oc=Adru-OI1WyI05gcGZNX-EteIPKij7FGt0bwn6D7NHVFrsFIaygnISMljAelHR4_NTcI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQOxZo1zO6CasamXWM6gu3JgEhRJiUhd0rVjzU3FeB4LXQ&oe=6AD503EB"
+      ],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQO4Ohf-XFSe84I_NvsRCCD1kYbkZpk7HIrauSaKAhRW3Q&oe=6AD4E2FE",
+      "has_image": true,
+      "has_video": false,
+      "media": {
+        "images": [
+          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQO4Ohf-XFSe84I_NvsRCCD1kYbkZpk7HIrauSaKAhRW3Q&oe=6AD4E2FE",
+          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/847981551_1104501102176175_3944513029829282733_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=P7Gm0AZ-n7MQ7kNvwHkZQLZ&_nc_oc=Ado5jenWaU39CWhQ06IgsMse7FGDKiCb1zb5SDDSqRGaulHYW1BlqdXNN9VwA2AxN9I&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQMV9cXFBVyKW0upAUZ8D8Ik0EOzEWfRFFCBLoPjWuRJGA&oe=6AD503D0",
+          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/845881496_1073378738664108_2144855497714414575_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kYypI40YQFgQ7kNvwEngUy7&_nc_oc=AdqZtZkG332GZhvPSfMv9l4bxBMUPfMPyaCWpvAPLPVWc1Zb-NSgKCtuF7uxkTWGeuU&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQN0MtDNfTNXRpsacOWmfZSviGHPtEqsgJqOQKpIBjmPYg&oe=6AD5010A",
+          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.99422-6/849846711_1482969463890707_8818364551820587952_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bVJm1PLW8n8Q7kNvwGdC7ut&_nc_oc=Adru-OI1WyI05gcGZNX-EteIPKij7FGt0bwn6D7NHVFrsFIaygnISMljAelHR4_NTcI&_nc_zt=14&_nc_ht=scontent-ord5-2.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQOxZo1zO6CasamXWM6gu3JgEhRJiUhd0rVjzU3FeB4LXQ&oe=6AD503EB"
+        ],
+        "main_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.99422-6/848238698_2254907188411442_5960589223900675660_n.png?stp=dst-jpg_tt6&cstp=mx1200x1600&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PRceKeiE_dwQ7kNvwFl8ybr&_nc_oc=AdqjCvpYF48uQ2RbeFP0nhtvEhr2jEPSPMcdmacAT_OpYvd4G7-EppTtA0SZzqx5Q4M&_nc_zt=14&_nc_ht=scontent-ord5-1.xx&_nc_gid=zPHb-Z4GccFEhQ6fH5I18A&_nc_ss=7f289&oh=00_AQO4Ohf-XFSe84I_NvsRCCD1kYbkZpk7HIrauSaKAhRW3Q&oe=6AD4E2FE",
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "precaucion",
+          "published_at": null,
+          "source_id": "fb_abc",
+          "source_name": "ABC Carreteras Bolivia",
+          "tier": 1,
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "fb_abc",
+          "name": "ABC Carreteras Bolivia",
+          "class": "facebook_official",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/CarreterasBo/",
+          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GOCXXEPkIE4Q7kNvwH2KHDM&_nc_oc=AdpEWdwTAkfRGulDpTBBizNTyALHYtco3FgYJOZ-q8l0BHtJw0vFeWXa0Gx3ASgKbFQ&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=dHcmodTYrHCiBIRvXouEow&_nc_ss=7f289&oh=00_AQONA5PhWvHuU_ey1lkSdLpQwQ6Jt_PT6dttjXEJn-uhog&oe=6AD4DB58",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_25e3b3484ab19e",
+      "first_seen_at": "2026-10-14T02:10:03-04:00",
+      "history": [
+        {
+          "at": "2026-10-14T02:10:03-04:00",
+          "detected_at": "2026-10-14T02:10:03-04:00",
+          "reason": "primera_deteccion",
+          "status": "precaucion",
+          "lifecycle_status": "activo",
+          "severity": "media",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "ABC Carreteras Bolivia"
+          ],
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0257iDkHM7bDwKkpsyf48phbKKeNyoD8g2XFKRDYGXCwFNxYDMaaM1eAeqFysvBiLcl?__cft__[0]=AZhViRL5q44d8YXpf0-KeeJx3DyYs_VNrzYAhbGntSi2BeVrhmV5UBYEitP9QUltwXbsX8Untx_q-38JCZPWbHrLUJWYeejsxc2n4dcYyRfywvf5SCuVsFpUaWzYj3Cxn7zA1IebpRnjRk3GyVildTVXLGrWvx8QjAVJBH0PxW4gl9Z8QaYXoXkaxuY&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "lifecycle_status": "sin_actualizacion",
+      "is_active": true,
+      "last_seen_at": "2026-10-14T02:10:03-04:00",
+      "seen_this_run": false,
       "history_count": 1
     },
     {
