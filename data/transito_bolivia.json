@@ -1,15 +1,15 @@
 {
   "schema_version": "3.2-fast",
-  "generated_at": "2026-10-20T12:58:00-04:00",
+  "generated_at": "2026-10-20T16:35:18-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "facebook_sources": 30,
     "web_sources": 7,
     "sources_ok": 23,
     "sources_error": 14,
-    "raw_publications": 39,
-    "vial_publications": 12,
-    "incidents": 8
+    "raw_publications": 34,
+    "vial_publications": 9,
+    "incidents": 6
   },
   "incidents": [
     {
@@ -22,7 +22,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/el-plan-nacional-de-emergencia-inyectara-mas-de-bs-348-millones-en-cochabamba-en-los-tramos-suticollo-y-siete-curvas-para-proteger-sus-corredores-estrategicos/",
       "published_at": null,
-      "scraped_at": "2026-10-20T12:58:00-04:00",
+      "scraped_at": "2026-10-20T16:35:18-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -190,7 +190,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-20T12:58:00-04:00",
+      "last_seen_at": "2026-10-20T16:35:18-04:00",
       "seen_this_run": true,
       "history_count": 2
     },
@@ -204,7 +204,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/plan-nacional-de-emergencia-la-abc-y-fonplata-inspeccionaran-puntos-criticos-en-el-tramo-santa-cruz-comarapa-para-invertir-us-186-millones-en-la-reconstruccion-de-la-carretera/",
       "published_at": null,
-      "scraped_at": "2026-10-20T12:58:00-04:00",
+      "scraped_at": "2026-10-20T16:35:18-04:00",
       "department": "Santa Cruz",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -378,256 +378,91 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-20T12:58:00-04:00",
+      "last_seen_at": "2026-10-20T16:35:18-04:00",
       "seen_this_run": true,
       "history_count": 3
     },
     {
-      "id": "f4d69e8017f902a0",
-      "source_id": "fb_transito_scz",
-      "source_name": "Secretaría Municipal de Tránsito y Transporte",
-      "source_url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/",
-      "source_class": "facebook_official",
-      "source_tier": 1,
-      "source_icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lPiJisaA9jIQ7kNvwG8OiOh&_nc_oc=Adp5f65Ze5RurVxdZd4Hv1i1qwWvB7-pHith0w071Z-NAfLlBPS4Lgb5VvaEmaK-z5g&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=YBEIueRSGrM1AAIjaooQTg&_nc_ss=7f289&oh=00_AQNRn00eec8PYAXtraiY722YmX5IiwjVLAPmrE_WBXv3hg&oe=6ADD5A51",
-      "url": "https://www.facebook.com/SecretariaMunicipalDeObrasPublicas/posts/pfbid037GKgyRMhzDzsUgK3hymh65A1z6WmMxFms9NyJahwuKF1Lcc34s3xivKqtychkRn9l?__cft__[0]=AZjt6xcHjW050Fv22Hhnc0u-4tCvPOB7ip6P74tMTsizN39u71rx2HnZrQ3NEdTQ4o2KSDuoWLlVM8P3efbiZE_wOSmMJKqTLRO0IlceYBA3-kpzLu-6RO-CW5eHWe-wa3Ddxk98RIzLrRpJm8sCey-gbTNnOSWFt8lM3scnKkjyGl8ciK_ut0jMq-8&__tn__=%2CO%2CP-R",
-      "published_at": null,
-      "scraped_at": "2026-10-20T12:58:00-04:00",
-      "department": "Santa Cruz",
-      "municipality": "Santa Cruz de la Sierra",
-      "city": "Santa Cruz de la Sierra",
-      "event_type": "congestion",
-      "cause": null,
-      "status": "precaucion",
-      "closure_scope": null,
-      "severity": "media",
-      "confidence": 0.99,
-      "relevance_score": 100,
-      "filter_reasons": [
-        "frase_vial_directa:1",
-        "contexto_vial:8",
-        "evento:congestion",
-        "via_detectada:2",
-        "terminos_viales:5",
-        "fuente_oficial_facebook"
-      ],
-      "title": "Secretaría de Obras Públicas",
-      "description": "⚠️ ¡ATENCIÓN, CONDUCTORES! TRABAJOS EN LA AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento entre el 5.o y el 8.o anillo. 🚧 Carriles intervenidos: los dos... ⚠️ ¡ATENCIÓN, CONDUCTORES! TRABAJOS EN LA AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento entre el 5.o y el 8.o... ¡ATENCIÓN, CONDUCTORES! TRABAJOS EN LA AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento entre el 5.o y el 8.o anillo. Carriles intervenidos: los dos pegados a la acera. Horario: 3:00 a. m. a 5:00 p. m. Los tramos se irán habilitando de manera escalonada conforme avance la intervención. Si circulás por esta avenida, planificá tu recorrido, reducí la velocidad y respetá las indicaciones del personal. Programación sujeta al clima. #AlertaVial #ObrasPúblicas #SantaCruzDeLaSierra ¡ATENCIÓN, CONDUCTORES! TRABAJOS EN LA AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento entre el 5.o y el 8.o anillo. Carriles intervenidos: los dos pegados a la acera. Horario: 3:00 a. m. a 5:00 p. m. Los tramos se irán habilitando de manera escalonada conforme avance la intervención. Si circulás por esta avenida, planificá tu recorrido, reducí la velocidad y respetá las indicaciones del personal. Programación sujeta al clima. #AlertaVial #ObrasPúblicas #SantaCruzDeLaSierra Excelente, Solo falta Personal de transito que controle y ordene el caos vehicular. Esta bien que mejoren las avenida y calles pero hagan pues la líneas Ruddy Marcelo Villanueva Ayala señalización se llama! Si van x ahí vayan por el carril de la Izquierda, en el de la derecha paran los micros para subir pasajeros.",
-      "original_text": "⚠️ ¡ATENCIÓN, CONDUCTORES! TRABAJOS EN LA AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento entre el 5.o y el 8.o anillo. 🚧 Carriles intervenidos: los dos... ⚠️ ¡ATENCIÓN, CONDUCTORES! TRABAJOS EN LA AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento entre el 5.o y el 8.o... ¡ATENCIÓN, CONDUCTORES! TRABAJOS EN LA AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento entre el 5.o y el 8.o anillo. Carriles intervenidos: los dos pegados a la acera. Horario: 3:00 a. m. a 5:00 p. m. Los tramos se irán habilitando de manera escalonada conforme avance la intervención. Si circulás por esta avenida, planificá tu recorrido, reducí la velocidad y respetá las indicaciones del personal. Programación sujeta al clima. #AlertaVial #ObrasPúblicas #SantaCruzDeLaSierra ¡ATENCIÓN, CONDUCTORES! TRABAJOS EN LA AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento entre el 5.o y el 8.o anillo. Carriles intervenidos: los dos pegados a la acera. Horario: 3:00 a. m. a 5:00 p. m. Los tramos se irán habilitando de manera escalonada conforme avance la intervención. Si circulás por esta avenida, planificá tu recorrido, reducí la velocidad y respetá las indicaciones del personal. Programación sujeta al clima. #AlertaVial #ObrasPúblicas #SantaCruzDeLaSierra Excelente, Solo falta Personal de transito que controle y ordene el caos vehicular. Esta bien que mejoren las avenida y calles pero hagan pues la líneas Ruddy Marcelo Villanueva Ayala señalización se llama! Si van x ahí vayan por el carril de la Izquierda, en el de la derecha paran los micros para subir pasajeros.",
-      "roads": [
-        "AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento",
-        "avenida y calles pero hagan pues la líneas Ruddy Marcelo Villanueva Ayala señalización se llama! Si van x ahí vayan",
-        "avenida y calles pero hagan pues la líneas Si van x ahí vayan"
-      ],
-      "places": [],
-      "kilometer_mentions": [],
-      "directions": [
-        "TRABAJOS EN LA AV. CRISTO REDENTOR Este m -> rtes 20 de octubre se realizará la aplica",
-        "de pavimento entre el 5.o y el 8.o -> nillo",
-        "de p -> vimento entre el 5.o y el 8.o",
-        "de pavimento entre el 5.o y el 8.o -> nillo. Carriles intervenidos",
-        "los dos pegados a la acera. Hor -> rio",
-        "p. m. Los tramos se irán habilitando de m -> nera escalonada conforme avance la interv",
-        "Si circulás por esta -> venida",
-        "reducí la velocidad y respetá las indic -> ciones del personal. Programación sujeta",
-        "Alert -> Vial"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [
-        "transporte_publico"
-      ],
-      "time_mentions": [
-        "3:00",
-        "5:00"
-      ],
-      "keywords": [
-        "caos vehicular",
-        "avenida",
-        "calle",
-        "tramo",
-        "anillo"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "AV. CRISTO REDENTOR Este martes 20 de octubre se realizará la aplicación de pavimento, Santa Cruz de la Sierra, Santa Cruz, Bolivia",
-      "image_urls": [
-        "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/855519736_1435373938776494_6236665219449920069_n.jpg?stp=dst-jpg_tt6&cstp=mx1149x1369&ctp=p600x600&_nc_cat=101&ccb=1-7&_nc_sid=cae128&_nc_ohc=3RvVPxKwkHMQ7kNvwFuwt_O&_nc_oc=AdrkmrWfrZXUM0l0WA2Ktv5fwdDWGauTJKAkZch7ELNKELuZaR5DHTGny66_QiYSyTc&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=Dstj-c5f_GL1DV9O3pr4ng&_nc_ss=7f289&oh=00_AQMSdqzFlaLDDqZymtk3d3-IC7FWPY2cZpfedzaf5OKqiw&oe=6ADD7FAE",
-        "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/855519736_1435373938776494_6236665219449920069_n.jpg?stp=dst-jpg_tt6&cstp=mx1149x1369&ctp=s600x600&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3RvVPxKwkHMQ7kNvwFuwt_O&_nc_oc=AdrkmrWfrZXUM0l0WA2Ktv5fwdDWGauTJKAkZch7ELNKELuZaR5DHTGny66_QiYSyTc&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=-tQWkItepiiam1ZujKhZGw&_nc_ss=7f289&oh=00_AQOPNwwXI-GkfXTIhKnPw84MZVHYfR4wpywle9atQwPFsQ&oe=6ADD7FAE",
-        "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/855519736_1435373938776494_6236665219449920069_n.jpg?stp=dst-jpg_tt6&cstp=mx1149x1369&ctp=p600x600&_nc_cat=101&ccb=1-7&_nc_sid=cae128&_nc_ohc=3RvVPxKwkHMQ7kNvwFuwt_O&_nc_oc=AdrkmrWfrZXUM0l0WA2Ktv5fwdDWGauTJKAkZch7ELNKELuZaR5DHTGny66_QiYSyTc&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=kHEo9m3FLwAVvbahb_YhVQ&_nc_ss=7f289&oh=00_AQN1Q2Uu_2UX5-ydpAnjTl-8dJ89_4SoVYHRQ58k4yNfIQ&oe=6ADD7FAE"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/855519736_1435373938776494_6236665219449920069_n.jpg?stp=dst-jpg_tt6&cstp=mx1149x1369&ctp=p600x600&_nc_cat=101&ccb=1-7&_nc_sid=cae128&_nc_ohc=3RvVPxKwkHMQ7kNvwFuwt_O&_nc_oc=AdrkmrWfrZXUM0l0WA2Ktv5fwdDWGauTJKAkZch7ELNKELuZaR5DHTGny66_QiYSyTc&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=Dstj-c5f_GL1DV9O3pr4ng&_nc_ss=7f289&oh=00_AQMSdqzFlaLDDqZymtk3d3-IC7FWPY2cZpfedzaf5OKqiw&oe=6ADD7FAE",
-      "has_image": true,
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/855519736_1435373938776494_6236665219449920069_n.jpg?stp=dst-jpg_tt6&cstp=mx1149x1369&ctp=p600x600&_nc_cat=101&ccb=1-7&_nc_sid=cae128&_nc_ohc=3RvVPxKwkHMQ7kNvwFuwt_O&_nc_oc=AdrkmrWfrZXUM0l0WA2Ktv5fwdDWGauTJKAkZch7ELNKELuZaR5DHTGny66_QiYSyTc&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=Dstj-c5f_GL1DV9O3pr4ng&_nc_ss=7f289&oh=00_AQMSdqzFlaLDDqZymtk3d3-IC7FWPY2cZpfedzaf5OKqiw&oe=6ADD7FAE",
-          "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/855519736_1435373938776494_6236665219449920069_n.jpg?stp=dst-jpg_tt6&cstp=mx1149x1369&ctp=s600x600&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3RvVPxKwkHMQ7kNvwFuwt_O&_nc_oc=AdrkmrWfrZXUM0l0WA2Ktv5fwdDWGauTJKAkZch7ELNKELuZaR5DHTGny66_QiYSyTc&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=-tQWkItepiiam1ZujKhZGw&_nc_ss=7f289&oh=00_AQOPNwwXI-GkfXTIhKnPw84MZVHYfR4wpywle9atQwPFsQ&oe=6ADD7FAE",
-          "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/855519736_1435373938776494_6236665219449920069_n.jpg?stp=dst-jpg_tt6&cstp=mx1149x1369&ctp=p600x600&_nc_cat=101&ccb=1-7&_nc_sid=cae128&_nc_ohc=3RvVPxKwkHMQ7kNvwFuwt_O&_nc_oc=AdrkmrWfrZXUM0l0WA2Ktv5fwdDWGauTJKAkZch7ELNKELuZaR5DHTGny66_QiYSyTc&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=kHEo9m3FLwAVvbahb_YhVQ&_nc_ss=7f289&oh=00_AQN1Q2Uu_2UX5-ydpAnjTl-8dJ89_4SoVYHRQ58k4yNfIQ&oe=6ADD7FAE"
-        ],
-        "main_image_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-6/855519736_1435373938776494_6236665219449920069_n.jpg?stp=dst-jpg_tt6&cstp=mx1149x1369&ctp=p600x600&_nc_cat=101&ccb=1-7&_nc_sid=cae128&_nc_ohc=3RvVPxKwkHMQ7kNvwFuwt_O&_nc_oc=AdrkmrWfrZXUM0l0WA2Ktv5fwdDWGauTJKAkZch7ELNKELuZaR5DHTGny66_QiYSyTc&_nc_zt=23&_nc_ht=scontent-lhr11-1.xx&_nc_gid=Dstj-c5f_GL1DV9O3pr4ng&_nc_ss=7f289&oh=00_AQMSdqzFlaLDDqZymtk3d3-IC7FWPY2cZpfedzaf5OKqiw&oe=6ADD7FAE",
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "precaucion",
-          "published_at": null,
-          "source_id": "fb_transito_scz",
-          "source_name": "Secretaría Municipal de Tránsito y Transporte",
-          "tier": 1,
-          "url": "https://www.facebook.com/SecretariaMunicipalDeObrasPublicas/posts/pfbid037GKgyRMhzDzsUgK3hymh65A1z6WmMxFms9NyJahwuKF1Lcc34s3xivKqtychkRn9l?__cft__[0]=AZjt6xcHjW050Fv22Hhnc0u-4tCvPOB7ip6P74tMTsizN39u71rx2HnZrQ3NEdTQ4o2KSDuoWLlVM8P3efbiZE_wOSmMJKqTLRO0IlceYBA3-kpzLu-6RO-CW5eHWe-wa3Ddxk98RIzLrRpJm8sCey-gbTNnOSWFt8lM3scnKkjyGl8ciK_ut0jMq-8&__tn__=%2CO%2CP-R"
-        },
-        {
-          "status": "precaucion",
-          "published_at": null,
-          "source_id": "fb_transito_scz",
-          "source_name": "Secretaría Municipal de Tránsito y Transporte",
-          "tier": 1,
-          "url": "https://www.facebook.com/SecretariaMunicipalDeObrasPublicas/posts/pfbid037GKgyRMhzDzsUgK3hymh65A1z6WmMxFms9NyJahwuKF1Lcc34s3xivKqtychkRn9l?comment_id=2961781714155756&__cft__[0]=AZjt6xcHjW050Fv22Hhnc0u-4tCvPOB7ip6P74tMTsizN39u71rx2HnZrQ3NEdTQ4o2KSDuoWLlVM8P3efbiZE_wOSmMJKqTLRO0IlceYBA3-kpzLu-6RO-CW5eHWe-wa3Ddxk98RIzLrRpJm8sCey-gbTNnOSWFt8lM3scnKkjyGl8ciK_ut0jMq-8&__tn__=R-R"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "fb_transito_scz",
-          "name": "Secretaría Municipal de Tránsito y Transporte",
-          "class": "facebook_official",
-          "tier": 1,
-          "page_url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/",
-          "post_url": "https://www.facebook.com/SecretariaMunicipalDeObrasPublicas/posts/pfbid037GKgyRMhzDzsUgK3hymh65A1z6WmMxFms9NyJahwuKF1Lcc34s3xivKqtychkRn9l?__cft__[0]=AZjt6xcHjW050Fv22Hhnc0u-4tCvPOB7ip6P74tMTsizN39u71rx2HnZrQ3NEdTQ4o2KSDuoWLlVM8P3efbiZE_wOSmMJKqTLRO0IlceYBA3-kpzLu-6RO-CW5eHWe-wa3Ddxk98RIzLrRpJm8sCey-gbTNnOSWFt8lM3scnKkjyGl8ciK_ut0jMq-8&__tn__=%2CO%2CP-R",
-          "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lPiJisaA9jIQ7kNvwG8OiOh&_nc_oc=Adp5f65Ze5RurVxdZd4Hv1i1qwWvB7-pHith0w071Z-NAfLlBPS4Lgb5VvaEmaK-z5g&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=YBEIueRSGrM1AAIjaooQTg&_nc_ss=7f289&oh=00_AQNRn00eec8PYAXtraiY722YmX5IiwjVLAPmrE_WBXv3hg&oe=6ADD5A51",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://www.facebook.com/SecretariaMunicipalDeObrasPublicas/posts/pfbid037GKgyRMhzDzsUgK3hymh65A1z6WmMxFms9NyJahwuKF1Lcc34s3xivKqtychkRn9l?__cft__[0]=AZjt6xcHjW050Fv22Hhnc0u-4tCvPOB7ip6P74tMTsizN39u71rx2HnZrQ3NEdTQ4o2KSDuoWLlVM8P3efbiZE_wOSmMJKqTLRO0IlceYBA3-kpzLu-6RO-CW5eHWe-wa3Ddxk98RIzLrRpJm8sCey-gbTNnOSWFt8lM3scnKkjyGl8ciK_ut0jMq-8&__tn__=%2CO%2CP-R",
-        "https://www.facebook.com/SecretariaMunicipalDeObrasPublicas/posts/pfbid037GKgyRMhzDzsUgK3hymh65A1z6WmMxFms9NyJahwuKF1Lcc34s3xivKqtychkRn9l?comment_id=2961781714155756&__cft__[0]=AZjt6xcHjW050Fv22Hhnc0u-4tCvPOB7ip6P74tMTsizN39u71rx2HnZrQ3NEdTQ4o2KSDuoWLlVM8P3efbiZE_wOSmMJKqTLRO0IlceYBA3-kpzLu-6RO-CW5eHWe-wa3Ddxk98RIzLrRpJm8sCey-gbTNnOSWFt8lM3scnKkjyGl8ciK_ut0jMq-8&__tn__=R-R"
-      ],
-      "merged_items": 2,
-      "incident_id": "inc_270ba4dbbccfe2",
-      "first_seen_at": "2026-10-15T03:23:46-04:00",
-      "history": [
-        {
-          "at": "2026-10-15T03:23:46-04:00",
-          "detected_at": "2026-10-15T03:23:46-04:00",
-          "reason": "primera_deteccion",
-          "status": "precaucion",
-          "lifecycle_status": "activo",
-          "severity": "media",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "Secretaría Municipal de Tránsito y Transporte"
-          ],
-          "url": "https://www.facebook.com/SecretariaMunicipalDeObrasPublicas/posts/pfbid022VFmf4f37BxeovUdM84PQLHiPoCwSWedsa2qMuy6QgQv7Bpx5w8D7WcaKWTBfbkCl?__cft__[0]=AZg4tf4L8adEzL1HhLP3FwqXjt0NlAmLtBAFIszQpuFUdAoAdDQOpDiwfRgHbzy_e3fojDmMUvSicMTIfj7FB4HsYF1GLcLYswPAhmpw1cQNktoHYxh8leIBXVo6IRgi-QciZe55p_vOAQpaC_ZS9DUSmpo2GPGhCQ18-Ndxs3hImQuTeXwZ3ZCRU6A&__tn__=%2CO%2CP-R"
-        }
-      ],
-      "lifecycle_status": "activo",
-      "is_active": true,
-      "last_seen_at": "2026-10-20T12:58:00-04:00",
-      "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "ab9ad407c63c8f78",
+      "id": "5b4953eb115a06fa",
       "source_id": "fb_transito_nacional",
       "source_name": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
       "source_url": "https://www.facebook.com/bolivia.transito/",
       "source_class": "facebook_official",
       "source_tier": 1,
-      "source_icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=kuixLYIzVYQQ7kNvwHTid44&_nc_oc=AdpINcojojLV58mdYyPv19sEuYjdDNIZ3v8PREzUi7xmGriVNXFMmfShHm9qd5qsegM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=-E1gx-nfcHB5NKgEkxXPeA&_nc_ss=7f289&oh=00_AQMsm29429HvIUoFZ5la3PCyL3qVlKiFBluXrM8PRboksg&oe=6ADD706B",
-      "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02QvH5cremoySh1yJUXqqdfg58ADyvCWfqrawJZsJWF5f5gviDPMnZfLTuxNF7W31Wl?__cft__[0]=AZjTF9fj_GUa-55vkm6EfHmIhWtWsqdlt4EdHWUfRCHyukjN0-qcftAS-F9n9s-bo3HhXaO-qGhkt-_r6D-d4yyrp8KQWPFcyXInz1qGFo9MYMBTLdXOZK6QS7kfrIr_hjmv1_oMS9vi21z-agojC-ByqUPMtp0qGG75MpRcOhrng_3zX65ufuXoTd0&__tn__=%2CO%2CP-R",
+      "source_icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=kuixLYIzVYQQ7kNvwFmYB6i&_nc_oc=AdpxMOavBaYpePrf6Q281Une-5lBh4uEtAkAEd_wLDMUQ_p-7kVnmA66VG7jl1LE3Ro&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=xu5ydTZ-SYxhhd70zsQhyg&_nc_ss=7f289&oh=00_AQO-MZ9xGTBhGEz_E1fU9Nz3bIpvMroQLr9bqIZnYHV3mQ&oe=6ADDA8AB",
+      "url": "https://www.facebook.com/bolivia.transito/posts/pfbid0Cxo4H8z46dAgiCb39AUq2jAAkEYikWrbmjmeD7sNz29af1jjETt17VGtZ5wnVdg6l?__cft__[0]=AZjK0GJmYu6WwIlgSmNcUQR5SBX5V43UEst7JDiX6gjdA3zuZ_GmSjrtynFG1jjBhIiI-6uPRD5kB3LvzXlr4apvtBKLpspP1AQoni-sWEiYssWY6wxW9ojtdSr0MHqGx9iGgw5KmS2B2ltOQrOopusRTaVW8f0eJL4DCmTXIiIUfr93G03QaJixvzg&__tn__=%2CO%2CP-R",
       "published_at": null,
-      "scraped_at": "2026-10-20T12:58:00-04:00",
-      "department": "La Paz",
-      "municipality": "Patacamaya",
-      "city": "La Paz",
+      "scraped_at": "2026-10-20T16:35:18-04:00",
+      "department": "Bolivia",
+      "municipality": null,
+      "city": null,
       "event_type": "accidente",
-      "cause": "evento",
+      "cause": "accidente",
       "status": "precaucion",
       "closure_scope": null,
       "severity": "media",
-      "confidence": 0.98,
-      "relevance_score": 86,
+      "confidence": 0.96,
+      "relevance_score": 69,
       "filter_reasons": [
-        "contexto_vial:9",
+        "contexto_vial:5",
         "evento:accidente",
-        "via_detectada:3",
-        "terminos_viales:8",
-        "accion_social:1",
+        "via_detectada:1",
+        "terminos_viales:2",
         "fuente_oficial_facebook"
       ],
       "title": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
-      "description": "🙏 FE Y DEVOCIÓN EN LA DIRECCIÓN NACIONAL DE TRÁNSITO, RECIBIMOS A LA SANTÍSIMA VIRGEN DE COPACABANA 🇧🇴✨ ​En el marco de la Misión Mariana 2026, la Dirección Nacional de Tránsito, Transporte y... 🙏 FE Y DEVOCIÓN EN LA DIRECCIÓN NACIONAL DE TRÁNSITO, RECIBIMOS A LA SANTÍSIMA VIRGEN DE COPACABANA 🇧🇴✨ ​En el marco de la Misión Mariana 2026, la... FE Y DEVOCIÓN EN LA DIRECCIÓN NACIONAL DE TRÁNSITO, RECIBIMOS A LA SANTÍSIMA VIRGEN DE COPACABANA ​En el marco de la Misión Mariana 2026, la Dirección Nacional de Tránsito, Transporte y Seguridad Vial tuvo el honor de recibir la sagrada imagen de la Santísima Virgen de Copacabana, Patrona y Generala de nuestra institución. ​En un ambiente de recogimiento y fe, se celebró la Santa Misa de bendición, contando con la participación del Director Nacional de Tránsito, personal policial de jefes, oficiales, suboficiales, sargentos y personal administrativo de nuestra institución policial. ​En la ocasión, los efectivos policiales renovaron su compromiso de servicio, elevando oraciones por la protección en nuestras carreteras, la seguridad de las familias bolivianas y la guía espiritual de todo el personal que trabaja día a día en favor de la patria. ​Seguimos trabajando con fe, disciplina y vocación de servicio para resguardar la vida en las vías de nuestro país. \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad #MisiónMariana2026 #TránsitoBolivia #SeguridadVial www.policia.bo FE Y DEVOCIÓN EN LA DIRECCIÓN NACIONAL DE TRÁNSITO, RECIBIMOS A LA SANTÍSIMA VIRGEN DE COPACABANA ​En el marco de la Misión Mariana 2026, la Dirección Nacional de Tránsito, Transporte y Seguridad Vial tuvo el honor de recibir la sagrada imagen de la Santísima Virgen de Copacabana, Patrona y Generala de nuestra institución. ​En un ambiente de recogimiento y fe, se celebró la Santa Misa de bendición, contando con la participación del Director Nacional de Tránsito, personal policial de jefes, oficiales, suboficiales, sargentos y personal administrativo de nuestra institución policial. ​En la ocasión, los efectivos policiales renovaron su compromiso de servicio, elevando oraciones por la protección en nuestras carreteras, la seguridad de las familias bolivianas y la guía espiritual de todo el personal que trabaja día a día en favor de la patria. ​Seguimos trabajando con fe, disciplina y vocación de servicio para resguardar la vida en las vías de nuestro país. \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad #MisiónMariana2026 #TránsitoBolivia #SeguridadVial www.policia.bo EDUCACIÓN Y PREVENCIÓN VIAL: SE DESARROLLÓ CON ÉXITO LA FERIA \"ESTUDIANTE SEGURO\" EN MONTERO ​Con el firme propósito de inculcar una cultura de seguridad vial desde las nuevas generaciones, la Dirección Regional de Tránsito de Montero llevó a cabo la Feria Estudiantil de Educación Vial a la inversa denominada \"Estudiante Seguro\". ​El evento, desarrollado este 16 de octubre en la Plaza Principal del Distrito 1 de Guabirá, contó con la presencia del Director Departamental de Tránsito de Santa Cruz, Cnl. MSc. CAD. Marco Antonio Torrez Vargas, el Comandante Regional del Norte Integrado, Cnl. MSc. CAD. Miguel Angel Burgoa Belmonte, junto a autoridades y directores locales. ​Con el valioso apoyo del personal policial y el GACIP, los estudiantes de secundaria participaron activamente en dinámicas de concientización sobre normas de circulación y prevención de accidentes, destacando la actividad vivencial \"Por un minuto soy un Policía de Tránsito\". ​Agradecemos el compromiso y la participación de las Unidades Educativas: U.E. Nacional Guabirá U.E. Don Bosco U.E. Juan Carlos Pesoa U.E. Germán Busch Becerra U.E. San José Obrero U.E. Juancito Pinto ​¡Construimos un futuro más seguro educando con responsabilidad y cercanía a la juventud boliviana! \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad ​#TránsitoMontero #SantaCruz #SeguridadVial #EnLaVíaTodaVidaEsImportante www.policia.bo EDUCACIÓN Y PREVENCIÓN VIAL: SE DESARROLLÓ CON ÉXITO LA FERIA \"ESTUDIANTE SEGURO\" EN MONTERO ​Con el firme propósito de inculcar una cultura de seguridad vial desde las nuevas generaciones, la Dirección Regional de Tránsito de Montero llevó a cabo la Feria Estudiantil de Educación Vial a la inversa denominada \"Estudiante Seguro\". ​El evento, desarrollado este 16 de octubre en la Plaza Principal del Distrito 1 de Guabirá, contó con la presencia del Director Departamental de Tránsito de Santa Cruz, Cnl. MSc. CAD. Marco Antonio Torrez Vargas, el Comandante Regional del Norte Integrado, Cnl. MSc. CAD. Miguel Angel Burgoa Belmonte, junto a autoridades y directores locales. ​Con el valioso apoyo del personal policial y el GACIP, los estudiantes de secundaria participaron activamente en dinámicas de concientización sobre normas de circulación",
-      "original_text": "🙏 FE Y DEVOCIÓN EN LA DIRECCIÓN NACIONAL DE TRÁNSITO, RECIBIMOS A LA SANTÍSIMA VIRGEN DE COPACABANA 🇧🇴✨ ​En el marco de la Misión Mariana 2026, la Dirección Nacional de Tránsito, Transporte y... 🙏 FE Y DEVOCIÓN EN LA DIRECCIÓN NACIONAL DE TRÁNSITO, RECIBIMOS A LA SANTÍSIMA VIRGEN DE COPACABANA 🇧🇴✨ ​En el marco de la Misión Mariana 2026, la... FE Y DEVOCIÓN EN LA DIRECCIÓN NACIONAL DE TRÁNSITO, RECIBIMOS A LA SANTÍSIMA VIRGEN DE COPACABANA ​En el marco de la Misión Mariana 2026, la Dirección Nacional de Tránsito, Transporte y Seguridad Vial tuvo el honor de recibir la sagrada imagen de la Santísima Virgen de Copacabana, Patrona y Generala de nuestra institución. ​En un ambiente de recogimiento y fe, se celebró la Santa Misa de bendición, contando con la participación del Director Nacional de Tránsito, personal policial de jefes, oficiales, suboficiales, sargentos y personal administrativo de nuestra institución policial. ​En la ocasión, los efectivos policiales renovaron su compromiso de servicio, elevando oraciones por la protección en nuestras carreteras, la seguridad de las familias bolivianas y la guía espiritual de todo el personal que trabaja día a día en favor de la patria. ​Seguimos trabajando con fe, disciplina y vocación de servicio para resguardar la vida en las vías de nuestro país. \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad #MisiónMariana2026 #TránsitoBolivia #SeguridadVial www.policia.bo FE Y DEVOCIÓN EN LA DIRECCIÓN NACIONAL DE TRÁNSITO, RECIBIMOS A LA SANTÍSIMA VIRGEN DE COPACABANA ​En el marco de la Misión Mariana 2026, la Dirección Nacional de Tránsito, Transporte y Seguridad Vial tuvo el honor de recibir la sagrada imagen de la Santísima Virgen de Copacabana, Patrona y Generala de nuestra institución. ​En un ambiente de recogimiento y fe, se celebró la Santa Misa de bendición, contando con la participación del Director Nacional de Tránsito, personal policial de jefes, oficiales, suboficiales, sargentos y personal administrativo de nuestra institución policial. ​En la ocasión, los efectivos policiales renovaron su compromiso de servicio, elevando oraciones por la protección en nuestras carreteras, la seguridad de las familias bolivianas y la guía espiritual de todo el personal que trabaja día a día en favor de la patria. ​Seguimos trabajando con fe, disciplina y vocación de servicio para resguardar la vida en las vías de nuestro país. \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad #MisiónMariana2026 #TránsitoBolivia #SeguridadVial www.policia.bo EDUCACIÓN Y PREVENCIÓN VIAL: SE DESARROLLÓ CON ÉXITO LA FERIA \"ESTUDIANTE SEGURO\" EN MONTERO ​Con el firme propósito de inculcar una cultura de seguridad vial desde las nuevas generaciones, la Dirección Regional de Tránsito de Montero llevó a cabo la Feria Estudiantil de Educación Vial a la inversa denominada \"Estudiante Seguro\". ​El evento, desarrollado este 16 de octubre en la Plaza Principal del Distrito 1 de Guabirá, contó con la presencia del Director Departamental de Tránsito de Santa Cruz, Cnl. MSc. CAD. Marco Antonio Torrez Vargas, el Comandante Regional del Norte Integrado, Cnl. MSc. CAD. Miguel Angel Burgoa Belmonte, junto a autoridades y directores locales. ​Con el valioso apoyo del personal policial y el GACIP, los estudiantes de secundaria participaron activamente en dinámicas de concientización sobre normas de circulación y prevención de accidentes, destacando la actividad vivencial \"Por un minuto soy un Policía de Tránsito\". ​Agradecemos el compromiso y la participación de las Unidades Educativas: U.E. Nacional Guabirá U.E. Don Bosco U.E. Juan Carlos Pesoa U.E. Germán Busch Becerra U.E. San José Obrero U.E. Juancito Pinto ​¡Construimos un futuro más seguro educando con responsabilidad y cercanía a la juventud boliviana! \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad ​#TránsitoMontero #SantaCruz #SeguridadVial #EnLaVíaTodaVidaEsImportante www.policia.bo EDUCACIÓN Y PREVENCIÓN VIAL: SE DESARROLLÓ CON ÉXITO LA FERIA \"ESTUDIANTE SEGURO\" EN MONTERO ​Con el firme propósito de inculcar una cultura de seguridad vial desde las nuevas generaciones, la Dirección Regional de Tránsito de Montero llevó a cabo la Feria Estudiantil de Educación Vial a la inversa denominada \"Estudiante Seguro\". ​El evento, desarrollado este 16 de octubre en la Plaza Principal del Distrito 1 de Guabirá, contó con la presencia del Director Departamental de Tránsito de Santa Cruz, Cnl. MSc. CAD. Marco Antonio Torrez Vargas, el Comandante Regional del Norte Integrado, Cnl. MSc. CAD. Miguel Angel Burgoa Belmonte, junto a autoridades y directores locales. ​Con el valioso apoyo del personal policial y el GACIP, los estudiantes de secundaria participaron activamente en dinámicas de concientización sobre normas de circulación y prevención de accidentes, destacando la actividad vivencial \"Por un minuto soy un Policía de Tránsito\". ​Agradecemos el compromiso y la participación de las Unidades Educativas: U.E. Nacional Guabirá U.E. Don Bosco U.E. Juan Carlos Pesoa U.E. Germán Busch Becerra U.E. San José Obrero U.E. Juancito Pinto ​¡Construimos un futuro más seguro educando con responsabilidad y cercanía a la juventud boliviana! ​#TránsitoMontero #SantaCruz #EnLaVíaTodaVidaEsImportante ACCIONES PREVENTIVAS Y DE CONTROL: PLAN \"CARRETERA SEGURA\" EN EL DEPARTAMENTO DE ORURO ​En cumplimiento a las disposiciones institucionales y con el firme compromiso de precautelar la vida en las carreteras, la Dirección Departamental de Tránsito y Seguridad Vial de Oruro, en coordinación con la Patrulla Caminera, ejecutó el operativo de control y prevención \"Carretera Segura\". ​La intervención se desarrolló en el Puesto de Control Técnico \"Jatita\" y en el tramo móvil Paria-Soracachi, zonas estratégicas priorizadas tras registrar recientes hechos de tránsito. ​El operativo estuvo liderado por el Director Departamental de Tránsito de Oruro, impulsando jornadas de concientización directa a los conductores enfocadas en: ​ Uso obligatorio del cinturón de seguridad. Prohibición absoluta del uso del celular al conducir. Respeto riguroso a los límites de velocidad y la señalización vial. ​Trabajamos de manera constante en las rutas del país para que cada boliviano llegue con bien a su destino. \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#TránsitoBolivia #Oruro #CarreteraSegura #SeguridadVial #PolicíaBoliviana #EnLaVíaTodaVidaEsImportante ACCIONES PREVENTIVAS Y DE CONTROL: PLAN \"CARRETERA SEGURA\" EN EL DEPARTAMENTO DE ORURO ​En cumplimiento a las disposiciones institucionales y con el firme compromiso de precautelar la vida en las carreteras, la Dirección Departamental de Tránsito y Seguridad Vial de Oruro, en coordinación con la Patrulla Caminera, ejecutó el operativo de control y prevención \"Carretera Segura\". ​La intervención se desarrolló en el Puesto de Control Técnico \"Jatita\" y en el tramo móvil Paria-Soracachi, zonas estratégicas priorizadas tras registrar recientes hechos de tránsito. ​El operativo estuvo liderado por el Director Departamental de Tránsito de Oruro, impulsando jornadas de concientización directa a los conductores enfocadas en: ​ Uso obligatorio del cinturón de seguridad. Prohibición absoluta del uso del celular al conducir. Respeto riguroso a los límites de velocidad y la señalización vial. ​Trabajamos de manera constante en las rutas del país para que cada boliviano llegue con bien a su destino. ​#TránsitoBolivia #Oruro #CarreteraSegura #SeguridadVial #PolicíaBoliviana #EnLaVíaTodaVidaEsImportante LA DIRECCIÓN NACIONAL DE TRÁNSITO Y EL SEGIP LLEVARÁN BRIGADAS MÓVILES Y EVALUACIONES DE CONDUCCIÓN A DIVERSOS MUNICIPIOS ​Con el propósito de descentralizar la atención y facilitar la obtención de certificados y licencias de conducir, la Dirección Nacional de Tránsito (a través de su Escuela de Conducción) coordinó con autoridades del SEGIP el despliegue de personal técnico a distintas regiones del departamento. ​Gracias a este trabajo conjunto, se programará la llegada de brigadas móviles para exámenes de conducción, certificados e impresión de licencias en municipios como Cajuata, Coripata, Aucapata, Teoponte, Umala, Alto Beni, Asunta y Santiago de Machaca. ​Seguimos trabajando de manera coordinada para garantizar que los servicios de seguridad y certificación lleguen de forma oportuna a toda la población boliviana. “200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA” #PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad #TránsitoBolivia #SeguridadVial www.policia.bo LA DIRECCIÓN NACIONAL DE TRÁNSITO Y EL SEGIP LLEVARÁN BRIGADAS MÓVILES Y EVALUACIONES DE CONDUCCIÓN A DIVERSOS MUNICIPIOS ​Con el propósito de descentralizar la atención y facilitar la obtención de certificados y licencias de conducir, la Dirección Nacional de Tránsito (a través de su Escuela de Conducción) coordinó con autoridades del SEGIP el despliegue de personal técnico a distintas regiones del departamento. ​Gracias a este trabajo conjunto, se programará la llegada de brigadas móviles para exámenes de conducción, certificados e impresión de licencias en municipios como Cajuata, Coripata, Aucapata, Teoponte, Umala, Alto Beni, Asunta y Santiago de Machaca. ​Seguimos trabajando de manera coordinada para garantizar que los servicios de seguridad y certificación lleguen de forma oportuna a toda la población boliviana. “200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA” #PoliciaBoliviana #LaPaz Más de 1.100 personas murieron en accidentes de tránsito entre enero y septiembre de 2026 Miércoles, 14 de octubre 2026.- Un total de 1.168 personas perdieron la vida y otras 12.088 resultaron heridas en 15.187 hechos de tránsito registrados entre enero y septiembre de 2026, informó el director nacional de Tránsito, coronel Emerson Flores. Las cifras implican un promedio diario de 5,5 personas fallecidas y 71 hechos de tránsito. Ante estos datos, la Dirección de Tránsito puso en marcha un plan de prevención nacional bajo el eslogan \"En la vía, toda vida es importante\", con acciones de sensibilización dirigidas principalmente a conductores del transporte público en terminales y puestos de control del país. #AbyaYalaTv #Bolivia #LaPaz #Tránsito #EmersonFlores #SeguridadVial #Accidentes #Prevención #LaPaz Más de 1.100 personas murieron en accidentes de tránsito entre enero y septiembre de 2026 Miércoles, 14 de octubre 2026.- Un total de 1.168 personas perdieron la vida y otras 12.088 resultaron heridas en 15.187 hechos de tránsito registrados entre enero y septiembre de 2026, informó el director nacional de Tránsito, coronel Emerson Flores. Las cifras implican un promedio diario de 5,5 personas fallecidas y 71 hechos de tránsito. Ante estos datos, la Dirección de Tránsito puso en marcha un plan de prevención nacional bajo el eslogan \"En la vía, toda vida es importante\", con acciones de sensibilización dirigidas principalmente a conductores del transporte público en terminales y puestos de control del país. #AbyaYalaTv #Bolivia #LaPaz #Tránsito #EmersonFlores #SeguridadVial #Accidentes #Prevención COORDINACIÓN INTERINSTITUCIONAL ENTRE LA DIRECCIÓN NACIONAL DE TRÁNSITO Y EL RUAT El pasado martes 13 de octubre, en instalaciones del Registro Único para la Administración Tributaria Municipal (RUAT), se llevó a cabo una importante reunión de trabajo y coordinación interinstitucional entre la Dirección Nacional de Tránsito, Transporte y Seguridad Vial y el equipo técnico y legal del RUAT. Con la presencia del Sr. Director Nacional de Transito, se trataron temas fundamentales para el beneficio de la ciudadanía: Interoperabilidad de datos: Coordinación técnica e intercambio de información entre ambas instituciones. Optimización de trámites: Agilización de procesos internos para brindar respuestas más rápidas a la pob",
+      "description": "🚨 ACCIONES FIRMES DE CONTROL VIAL Y CONCIENTIZACIÓN: PLAN \"CONTROL DE MOTOCICLETAS Y CASCOS DE SEGURIDAD, MÁS SEGUROS - PROTEGE LA VIDA\" EN TARIJA 🏍️🛡️ Con el objetivo de prevenir accidentes y... 🚨 ACCIONES FIRMES DE CONTROL VIAL Y CONCIENTIZACIÓN: PLAN \"CONTROL DE MOTOCICLETAS Y CASCOS DE SEGURIDAD, MÁS SEGUROS - PROTEGE LA VIDA\" EN TARIJA 🏍️🛡️... ACCIONES FIRMES DE CONTROL VIAL Y CONCIENTIZACIÓN: PLAN \"CONTROL DE MOTOCICLETAS Y CASCOS DE SEGURIDAD, MÁS SEGUROS - PROTEGE LA VIDA\" EN TARIJA Con el objetivo de prevenir accidentes y cuidar la vida de las familias tarijeñas, la Dirección Departamental de Tránsito de Tarija llevó a cabo el operativo \"Control de Motocicletas y Cascos de Seguridad\" en la Av. Las Américas. Durante la jornada, nuestro personal policial brindó orientación directa a los conductores sobre el uso obligatorio e ideal del casco de seguridad, el respeto a las normas de circulación y se expidió boletas de infracción a los infractores. Recuerda: El uso correcto del casco marca la diferencia entre la vida y la muerte. Los controles viales tienen el fin de protegerte a ti y a quienes te acompañan en la vía. ¡Respeta las normas y circula seguro! Dirección Departamental de Tránsito - Tarija \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" #PoliciaBoliviana #TránsitoBolivia #Tarija #SeguridadVial #EnLaVíaTodaVidaEsImportante www.policia.bo ACCIONES FIRMES DE CONTROL VIAL Y CONCIENTIZACIÓN: PLAN \"CONTROL DE MOTOCICLETAS Y CASCOS DE SEGURIDAD, MÁS SEGUROS - PROTEGE LA VIDA\" EN TARIJA Con el objetivo de prevenir accidentes y cuidar la vida de las familias tarijeñas, la Dirección Departamental de Tránsito de Tarija llevó a cabo el operativo \"Control de Motocicletas y Cascos de Seguridad\" en la Av. Las Américas. Durante la jornada, nuestro personal policial brindó orientación directa a los conductores sobre el uso obligatorio e ideal del casco de seguridad, el respeto a las normas de circulación y se expidió boletas de infracción a los infractores. Recuerda: El uso correcto del casco marca la diferencia entre la vida y la muerte. Los controles viales tienen el fin de protegerte a ti y a quienes te acompañan en la vía. ¡Respeta las normas y circula seguro! Dirección Departamental de Tránsito - Tarija \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" #PoliciaBoliviana #TránsitoBolivia #Tarija #SeguridadVial #EnLaVíaTodaVidaEsImportante www.policia.bo",
+      "original_text": "🚨 ACCIONES FIRMES DE CONTROL VIAL Y CONCIENTIZACIÓN: PLAN \"CONTROL DE MOTOCICLETAS Y CASCOS DE SEGURIDAD, MÁS SEGUROS - PROTEGE LA VIDA\" EN TARIJA 🏍️🛡️ Con el objetivo de prevenir accidentes y... 🚨 ACCIONES FIRMES DE CONTROL VIAL Y CONCIENTIZACIÓN: PLAN \"CONTROL DE MOTOCICLETAS Y CASCOS DE SEGURIDAD, MÁS SEGUROS - PROTEGE LA VIDA\" EN TARIJA 🏍️🛡️... ACCIONES FIRMES DE CONTROL VIAL Y CONCIENTIZACIÓN: PLAN \"CONTROL DE MOTOCICLETAS Y CASCOS DE SEGURIDAD, MÁS SEGUROS - PROTEGE LA VIDA\" EN TARIJA Con el objetivo de prevenir accidentes y cuidar la vida de las familias tarijeñas, la Dirección Departamental de Tránsito de Tarija llevó a cabo el operativo \"Control de Motocicletas y Cascos de Seguridad\" en la Av. Las Américas. Durante la jornada, nuestro personal policial brindó orientación directa a los conductores sobre el uso obligatorio e ideal del casco de seguridad, el respeto a las normas de circulación y se expidió boletas de infracción a los infractores. Recuerda: El uso correcto del casco marca la diferencia entre la vida y la muerte. Los controles viales tienen el fin de protegerte a ti y a quienes te acompañan en la vía. ¡Respeta las normas y circula seguro! Dirección Departamental de Tránsito - Tarija \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" #PoliciaBoliviana #TránsitoBolivia #Tarija #SeguridadVial #EnLaVíaTodaVidaEsImportante www.policia.bo ACCIONES FIRMES DE CONTROL VIAL Y CONCIENTIZACIÓN: PLAN \"CONTROL DE MOTOCICLETAS Y CASCOS DE SEGURIDAD, MÁS SEGUROS - PROTEGE LA VIDA\" EN TARIJA Con el objetivo de prevenir accidentes y cuidar la vida de las familias tarijeñas, la Dirección Departamental de Tránsito de Tarija llevó a cabo el operativo \"Control de Motocicletas y Cascos de Seguridad\" en la Av. Las Américas. Durante la jornada, nuestro personal policial brindó orientación directa a los conductores sobre el uso obligatorio e ideal del casco de seguridad, el respeto a las normas de circulación y se expidió boletas de infracción a los infractores. Recuerda: El uso correcto del casco marca la diferencia entre la vida y la muerte. Los controles viales tienen el fin de protegerte a ti y a quienes te acompañan en la vía. ¡Respeta las normas y circula seguro! Dirección Departamental de Tránsito - Tarija \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" #PoliciaBoliviana #TránsitoBolivia #Tarija #SeguridadVial #EnLaVíaTodaVidaEsImportante www.policia.bo",
       "roads": [
-        "Carretera Segura\"",
-        "tramo móvil Paria-Soracachi",
-        "CARRETERA LA PAZ - ORURO Como parte de los planes de fiscalización y seguridad vial permanente"
+        "Av. Las Américas"
       ],
       "places": [],
       "kilometer_mentions": [],
       "directions": [
-        "NACIONAL DE TRÁNSITO",
-        "Regional de Tránsito de Montero llevó a cabo la Feria Estudiantil de Educación V",
-        "Departamental de Tránsito y Seguridad Vial de Oruro",
-        "NACIONAL DE TRÁNSITO Y EL SEGIP LLEVARÁN BRIGADAS MÓVILES Y EVALUACIONES DE COND",
-        "Nacional de Tránsito (a través de su Escuela de Conducción) coordinó con autorid",
-        "de Tránsito puso en marcha un plan de prevención nacional bajo el eslogan \"En la",
-        "NACIONAL DE TRÁNSITO Y EL RUAT El pasado martes 13 de octubre",
-        "FE Y DEVOCIÓN EN LA DIRECCIÓN NACION -> L DE TRÁNSITO"
+        "Departamental de Tránsito de Tarija llevó a cabo el operativo \"Control de Motoci",
+        "Departamental de Tránsito - Tarija \"200 AÑOS DE HISTORIA",
+        "ACCIONES FIRMES DE CONTROL VI -> L Y CONCIENTIZACIÓN",
+        "CONTROL DE MOTOCICLETAS Y C -> SCOS DE SEGURIDAD",
+        "MÁS SEGUROS - PROTEGE L -> VIDA",
+        "EN T -> RIJA",
+        "Con el objetivo de prevenir -> ccidentes y",
+        "EN TARIJA Con el objetivo de prevenir -> ccidentes y cuidar la vida de las familia"
       ],
       "alternative_routes": [],
       "affected_vehicles": [
-        "transporte_publico"
+        "motocicletas"
       ],
       "time_mentions": [],
       "keywords": [
-        "marcha",
-        "paro",
         "accidente",
-        "tránsito",
-        "carretera",
-        "ruta",
-        "tramo",
-        "control vehicular"
+        "tránsito"
       ],
       "latitude": null,
       "longitude": null,
-      "location_query": "Carretera Segura\", Patacamaya, La Paz, Bolivia",
+      "location_query": "Av. Las Américas, Bolivia",
       "image_urls": [
-        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/854939708_1443799694602748_3167476266819893489_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=Y-IsUPI9sBcQ7kNvwEJ_ogv&_nc_oc=AdpQLulqo8u2gqfkJp-tst_tSOcsl9kzJu9EI5FD3uuTysC6GwRWgw6kMabGU9Qmhto&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=yo-9MNiL5gzOa9dokxh9Bw&_nc_ss=7f289&oh=00_AQNOABxLPpijB82bPMG_adoCsQHEOhDaUxgHHY_E4RYTYw&oe=6ADD8B63",
-        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/854939708_1443799694602748_3167476266819893489_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Y-IsUPI9sBcQ7kNvwEJ_ogv&_nc_oc=AdpQLulqo8u2gqfkJp-tst_tSOcsl9kzJu9EI5FD3uuTysC6GwRWgw6kMabGU9Qmhto&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQO_eKzd-knfy-E3x9ochS4qtppUB2ixlVwvyFMu5yJwuQ&oe=6ADD8B63",
-        "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/855233775_1443799744602743_9074809462675480669_n.jpg?stp=dst-jpg_tt6&cstp=mx721x1600&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6_fJToG5TwEQ7kNvwFJ9Ych&_nc_oc=AdpJkiL-M6NqsQPlSLlXAGyfFfjvuCerDNtnewY8CotKxJowbpqqQRz6Xz4L0hBm8UA&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQPGQbU8gJ3oVSiHd84kua4jeyzdE10atoe3pjSR2FRnTw&oe=6ADD81A0",
-        "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/855508432_1443799791269405_4197638946327365283_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bihWEPm8GhkQ7kNvwHPF9ZS&_nc_oc=AdpS34ryMT1inRdsakaktwf8_U1NqQusNJjSv2ecR2xVjSk8qKCy0JnvS8UjtzT5YyY&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQN1TRYz5iQqVe4FZEt3gtqp-FyeYG7l8L_XxCzoTKdHBg&oe=6ADD58E8",
-        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/854939637_1443799834602734_788098316701915881_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xR9pcm_o1s4Q7kNvwGqaqgi&_nc_oc=AdocOew2uaCfUgtZ82YexEr3shNiyWXmrlUf2148-cQDo4AJJhNtqo0H6aVVPD3Fbt0&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQORezy6Ht6FINOuWbQo2qJ3UV81x7314YEcq2QgimOvhA&oe=6ADD6DA5",
-        "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/855415654_1443799881269396_922239998854096930_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OmpCY6R4Jc8Q7kNvwGbwwPK&_nc_oc=AdpNnV9L8sem-izlAPAh1nEvwnwZVSBrUynym_v9CCWZKr6gOs9iKUjdNS2yVQ1EDbI&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQPEZg_Dr3DdK-h6B2U1vlp86NbpOoSHn-2I_5YWFkRnBA&oe=6ADD5B57"
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/858478415_1444566857859365_6333405274311122611_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x960&ctp=p600x600&_nc_cat=109&ccb=1-7&_nc_sid=cae128&_nc_ohc=9sJLvjE9Mh4Q7kNvwGwQbMr&_nc_oc=AdrJdfCnc6pkcD3pZa8WbvsU3SNIe_xHkloiBvloPN8mLJfyiac39oOeAJG4qwGN5Bo&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=XORKV53DIB3frkxd8gFvEQ&_nc_ss=7f289&oh=00_AQOKKT4u3q_2mYNIcYBv3zJ9VWxVvH7RX4i1l2HzCMfreQ&oe=6ADDA95F",
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/858478415_1444566857859365_6333405274311122611_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x960&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9sJLvjE9Mh4Q7kNvwFigucM&_nc_oc=AdqEgbgSOkTuk9DEN0iY6nfCgelfNt2HCnrdlS2fxsnWaq8t0fjls19xP9N9dXFHeSA&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=zALyjusFwcR_fx7w4QpPyg&_nc_ss=7f289&oh=00_AQPzq1Sx_yImjJYEVRZclXJ7CKQ7f5EU4Npn6uLKwkh_kA&oe=6ADDA95F",
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/855242857_1444566847859366_167108553895562737_n.jpg?stp=dst-jpg_tt6&cstp=mx1125x844&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-GAHjA45PjwQ7kNvwHA5H_J&_nc_oc=AdpSOsBcUAO21yHpew7vO1WnYZEYmpzihwgMHUEfXrMTX0mONGGhVdDAROSWbxPEih8&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=zALyjusFwcR_fx7w4QpPyg&_nc_ss=7f289&oh=00_AQOX9P9mcB4d4wXGWj0uV6av7aZGT_Dq7B_gxH7j_PA18g&oe=6ADDADCB",
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/856462695_1444566894526028_4504215480871429653_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nJZwdnqFvlwQ7kNvwGZHTgd&_nc_oc=AdofgMXfKKh7nhnQH16Cc1Ci9u1A8eHjjuOuJRLH3FSyMLZyrOO3tB_c2sEDJY9Zits&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=zALyjusFwcR_fx7w4QpPyg&_nc_ss=7f289&oh=00_AQM_jgIgUJshnL8iSYB0bv6jSpxs_ZkrJFyTBxDuQRlNrA&oe=6ADD93A3",
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/855664529_1444566967859354_4530734229353514339_n.jpg?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-qSWKA63m0wQ7kNvwGAtv0u&_nc_oc=AdpD2ZoxPTe7DAbPE-cylA_EuY6dtIyWlzB4D4hzTMkRzWvfqEkJLocHkdDgExI4evA&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=zALyjusFwcR_fx7w4QpPyg&_nc_ss=7f289&oh=00_AQPXmk4yaNWkhEg1pEvQYhf4OEdBXfUlhl0NFMNRAUZ3pA&oe=6ADD97DD"
       ],
       "video_url": null,
       "video_thumbnail_url": null,
       "video_type": null,
       "is_official": true,
-      "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/854939708_1443799694602748_3167476266819893489_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=Y-IsUPI9sBcQ7kNvwEJ_ogv&_nc_oc=AdpQLulqo8u2gqfkJp-tst_tSOcsl9kzJu9EI5FD3uuTysC6GwRWgw6kMabGU9Qmhto&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=yo-9MNiL5gzOa9dokxh9Bw&_nc_ss=7f289&oh=00_AQNOABxLPpijB82bPMG_adoCsQHEOhDaUxgHHY_E4RYTYw&oe=6ADD8B63",
+      "image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/858478415_1444566857859365_6333405274311122611_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x960&ctp=p600x600&_nc_cat=109&ccb=1-7&_nc_sid=cae128&_nc_ohc=9sJLvjE9Mh4Q7kNvwGwQbMr&_nc_oc=AdrJdfCnc6pkcD3pZa8WbvsU3SNIe_xHkloiBvloPN8mLJfyiac39oOeAJG4qwGN5Bo&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=XORKV53DIB3frkxd8gFvEQ&_nc_ss=7f289&oh=00_AQOKKT4u3q_2mYNIcYBv3zJ9VWxVvH7RX4i1l2HzCMfreQ&oe=6ADDA95F",
       "has_image": true,
       "has_video": false,
       "media": {
         "images": [
-          "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/854939708_1443799694602748_3167476266819893489_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=Y-IsUPI9sBcQ7kNvwEJ_ogv&_nc_oc=AdpQLulqo8u2gqfkJp-tst_tSOcsl9kzJu9EI5FD3uuTysC6GwRWgw6kMabGU9Qmhto&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=yo-9MNiL5gzOa9dokxh9Bw&_nc_ss=7f289&oh=00_AQNOABxLPpijB82bPMG_adoCsQHEOhDaUxgHHY_E4RYTYw&oe=6ADD8B63",
-          "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/854939708_1443799694602748_3167476266819893489_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Y-IsUPI9sBcQ7kNvwEJ_ogv&_nc_oc=AdpQLulqo8u2gqfkJp-tst_tSOcsl9kzJu9EI5FD3uuTysC6GwRWgw6kMabGU9Qmhto&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQO_eKzd-knfy-E3x9ochS4qtppUB2ixlVwvyFMu5yJwuQ&oe=6ADD8B63",
-          "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/855233775_1443799744602743_9074809462675480669_n.jpg?stp=dst-jpg_tt6&cstp=mx721x1600&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6_fJToG5TwEQ7kNvwFJ9Ych&_nc_oc=AdpJkiL-M6NqsQPlSLlXAGyfFfjvuCerDNtnewY8CotKxJowbpqqQRz6Xz4L0hBm8UA&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQPGQbU8gJ3oVSiHd84kua4jeyzdE10atoe3pjSR2FRnTw&oe=6ADD81A0",
-          "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/855508432_1443799791269405_4197638946327365283_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bihWEPm8GhkQ7kNvwHPF9ZS&_nc_oc=AdpS34ryMT1inRdsakaktwf8_U1NqQusNJjSv2ecR2xVjSk8qKCy0JnvS8UjtzT5YyY&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQN1TRYz5iQqVe4FZEt3gtqp-FyeYG7l8L_XxCzoTKdHBg&oe=6ADD58E8",
-          "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/854939637_1443799834602734_788098316701915881_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xR9pcm_o1s4Q7kNvwGqaqgi&_nc_oc=AdocOew2uaCfUgtZ82YexEr3shNiyWXmrlUf2148-cQDo4AJJhNtqo0H6aVVPD3Fbt0&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQORezy6Ht6FINOuWbQo2qJ3UV81x7314YEcq2QgimOvhA&oe=6ADD6DA5",
-          "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/855415654_1443799881269396_922239998854096930_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OmpCY6R4Jc8Q7kNvwGbwwPK&_nc_oc=AdpNnV9L8sem-izlAPAh1nEvwnwZVSBrUynym_v9CCWZKr6gOs9iKUjdNS2yVQ1EDbI&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=Lr-G-VrbX8BOhVQskTVRVw&_nc_ss=7f289&oh=00_AQPEZg_Dr3DdK-h6B2U1vlp86NbpOoSHn-2I_5YWFkRnBA&oe=6ADD5B57"
+          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/858478415_1444566857859365_6333405274311122611_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x960&ctp=p600x600&_nc_cat=109&ccb=1-7&_nc_sid=cae128&_nc_ohc=9sJLvjE9Mh4Q7kNvwGwQbMr&_nc_oc=AdrJdfCnc6pkcD3pZa8WbvsU3SNIe_xHkloiBvloPN8mLJfyiac39oOeAJG4qwGN5Bo&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=XORKV53DIB3frkxd8gFvEQ&_nc_ss=7f289&oh=00_AQOKKT4u3q_2mYNIcYBv3zJ9VWxVvH7RX4i1l2HzCMfreQ&oe=6ADDA95F",
+          "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/858478415_1444566857859365_6333405274311122611_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x960&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9sJLvjE9Mh4Q7kNvwFigucM&_nc_oc=AdqEgbgSOkTuk9DEN0iY6nfCgelfNt2HCnrdlS2fxsnWaq8t0fjls19xP9N9dXFHeSA&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=zALyjusFwcR_fx7w4QpPyg&_nc_ss=7f289&oh=00_AQPzq1Sx_yImjJYEVRZclXJ7CKQ7f5EU4Npn6uLKwkh_kA&oe=6ADDA95F",
+          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/855242857_1444566847859366_167108553895562737_n.jpg?stp=dst-jpg_tt6&cstp=mx1125x844&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-GAHjA45PjwQ7kNvwHA5H_J&_nc_oc=AdpSOsBcUAO21yHpew7vO1WnYZEYmpzihwgMHUEfXrMTX0mONGGhVdDAROSWbxPEih8&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=zALyjusFwcR_fx7w4QpPyg&_nc_ss=7f289&oh=00_AQOX9P9mcB4d4wXGWj0uV6av7aZGT_Dq7B_gxH7j_PA18g&oe=6ADDADCB",
+          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/856462695_1444566894526028_4504215480871429653_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nJZwdnqFvlwQ7kNvwGZHTgd&_nc_oc=AdofgMXfKKh7nhnQH16Cc1Ci9u1A8eHjjuOuJRLH3FSyMLZyrOO3tB_c2sEDJY9Zits&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=zALyjusFwcR_fx7w4QpPyg&_nc_ss=7f289&oh=00_AQM_jgIgUJshnL8iSYB0bv6jSpxs_ZkrJFyTBxDuQRlNrA&oe=6ADD93A3",
+          "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/855664529_1444566967859354_4530734229353514339_n.jpg?stp=dst-jpg_tt6&cstp=mx1599x899&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-qSWKA63m0wQ7kNvwGAtv0u&_nc_oc=AdpD2ZoxPTe7DAbPE-cylA_EuY6dtIyWlzB4D4hzTMkRzWvfqEkJLocHkdDgExI4evA&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=zALyjusFwcR_fx7w4QpPyg&_nc_ss=7f289&oh=00_AQPXmk4yaNWkhEg1pEvQYhf4OEdBXfUlhl0NFMNRAUZ3pA&oe=6ADD97DD"
         ],
-        "main_image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/854939708_1443799694602748_3167476266819893489_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x721&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=b96d88&_nc_ohc=Y-IsUPI9sBcQ7kNvwEJ_ogv&_nc_oc=AdpQLulqo8u2gqfkJp-tst_tSOcsl9kzJu9EI5FD3uuTysC6GwRWgw6kMabGU9Qmhto&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=yo-9MNiL5gzOa9dokxh9Bw&_nc_ss=7f289&oh=00_AQNOABxLPpijB82bPMG_adoCsQHEOhDaUxgHHY_E4RYTYw&oe=6ADD8B63",
+        "main_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/858478415_1444566857859365_6333405274311122611_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x960&ctp=p600x600&_nc_cat=109&ccb=1-7&_nc_sid=cae128&_nc_ohc=9sJLvjE9Mh4Q7kNvwGwQbMr&_nc_oc=AdrJdfCnc6pkcD3pZa8WbvsU3SNIe_xHkloiBvloPN8mLJfyiac39oOeAJG4qwGN5Bo&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=XORKV53DIB3frkxd8gFvEQ&_nc_ss=7f289&oh=00_AQOKKT4u3q_2mYNIcYBv3zJ9VWxVvH7RX4i1l2HzCMfreQ&oe=6ADDA95F",
         "videos": []
       },
       "status_conflict": false,
@@ -638,7 +473,7 @@
           "source_id": "fb_transito_nacional",
           "source_name": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
           "tier": 1,
-          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02QvH5cremoySh1yJUXqqdfg58ADyvCWfqrawJZsJWF5f5gviDPMnZfLTuxNF7W31Wl?__cft__[0]=AZjTF9fj_GUa-55vkm6EfHmIhWtWsqdlt4EdHWUfRCHyukjN0-qcftAS-F9n9s-bo3HhXaO-qGhkt-_r6D-d4yyrp8KQWPFcyXInz1qGFo9MYMBTLdXOZK6QS7kfrIr_hjmv1_oMS9vi21z-agojC-ByqUPMtp0qGG75MpRcOhrng_3zX65ufuXoTd0&__tn__=%2CO%2CP-R"
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid0Cxo4H8z46dAgiCb39AUq2jAAkEYikWrbmjmeD7sNz29af1jjETt17VGtZ5wnVdg6l?__cft__[0]=AZjK0GJmYu6WwIlgSmNcUQR5SBX5V43UEst7JDiX6gjdA3zuZ_GmSjrtynFG1jjBhIiI-6uPRD5kB3LvzXlr4apvtBKLpspP1AQoni-sWEiYssWY6wxW9ojtdSr0MHqGx9iGgw5KmS2B2ltOQrOopusRTaVW8f0eJL4DCmTXIiIUfr93G03QaJixvzg&__tn__=%2CO%2CP-R"
         }
       ],
       "latest_update_at": null,
@@ -650,8 +485,8 @@
           "class": "facebook_official",
           "tier": 1,
           "page_url": "https://www.facebook.com/bolivia.transito/",
-          "post_url": "https://www.facebook.com/bolivia.transito/posts/pfbid02QvH5cremoySh1yJUXqqdfg58ADyvCWfqrawJZsJWF5f5gviDPMnZfLTuxNF7W31Wl?__cft__[0]=AZjTF9fj_GUa-55vkm6EfHmIhWtWsqdlt4EdHWUfRCHyukjN0-qcftAS-F9n9s-bo3HhXaO-qGhkt-_r6D-d4yyrp8KQWPFcyXInz1qGFo9MYMBTLdXOZK6QS7kfrIr_hjmv1_oMS9vi21z-agojC-ByqUPMtp0qGG75MpRcOhrng_3zX65ufuXoTd0&__tn__=%2CO%2CP-R",
-          "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=kuixLYIzVYQQ7kNvwHTid44&_nc_oc=AdpINcojojLV58mdYyPv19sEuYjdDNIZ3v8PREzUi7xmGriVNXFMmfShHm9qd5qsegM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=-E1gx-nfcHB5NKgEkxXPeA&_nc_ss=7f289&oh=00_AQMsm29429HvIUoFZ5la3PCyL3qVlKiFBluXrM8PRboksg&oe=6ADD706B",
+          "post_url": "https://www.facebook.com/bolivia.transito/posts/pfbid0Cxo4H8z46dAgiCb39AUq2jAAkEYikWrbmjmeD7sNz29af1jjETt17VGtZ5wnVdg6l?__cft__[0]=AZjK0GJmYu6WwIlgSmNcUQR5SBX5V43UEst7JDiX6gjdA3zuZ_GmSjrtynFG1jjBhIiI-6uPRD5kB3LvzXlr4apvtBKLpspP1AQoni-sWEiYssWY6wxW9ojtdSr0MHqGx9iGgw5KmS2B2ltOQrOopusRTaVW8f0eJL4DCmTXIiIUfr93G03QaJixvzg&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=kuixLYIzVYQQ7kNvwFmYB6i&_nc_oc=AdpxMOavBaYpePrf6Q281Une-5lBh4uEtAkAEd_wLDMUQ_p-7kVnmA66VG7jl1LE3Ro&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=xu5ydTZ-SYxhhd70zsQhyg&_nc_ss=7f289&oh=00_AQO-MZ9xGTBhGEz_E1fU9Nz3bIpvMroQLr9bqIZnYHV3mQ&oe=6ADDA8AB",
           "published_at": null
         }
       ],
@@ -659,15 +494,15 @@
       "verification": "una_fuente",
       "corroborated": false,
       "all_urls": [
-        "https://www.facebook.com/bolivia.transito/posts/pfbid02QvH5cremoySh1yJUXqqdfg58ADyvCWfqrawJZsJWF5f5gviDPMnZfLTuxNF7W31Wl?__cft__[0]=AZjTF9fj_GUa-55vkm6EfHmIhWtWsqdlt4EdHWUfRCHyukjN0-qcftAS-F9n9s-bo3HhXaO-qGhkt-_r6D-d4yyrp8KQWPFcyXInz1qGFo9MYMBTLdXOZK6QS7kfrIr_hjmv1_oMS9vi21z-agojC-ByqUPMtp0qGG75MpRcOhrng_3zX65ufuXoTd0&__tn__=%2CO%2CP-R"
+        "https://www.facebook.com/bolivia.transito/posts/pfbid0Cxo4H8z46dAgiCb39AUq2jAAkEYikWrbmjmeD7sNz29af1jjETt17VGtZ5wnVdg6l?__cft__[0]=AZjK0GJmYu6WwIlgSmNcUQR5SBX5V43UEst7JDiX6gjdA3zuZ_GmSjrtynFG1jjBhIiI-6uPRD5kB3LvzXlr4apvtBKLpspP1AQoni-sWEiYssWY6wxW9ojtdSr0MHqGx9iGgw5KmS2B2ltOQrOopusRTaVW8f0eJL4DCmTXIiIUfr93G03QaJixvzg&__tn__=%2CO%2CP-R"
       ],
       "merged_items": 1,
-      "incident_id": "inc_62550184a5d984",
-      "first_seen_at": "2026-10-09T19:14:59-04:00",
+      "incident_id": "inc_20d3232ebc2e3b",
+      "first_seen_at": "2026-10-20T16:35:18-04:00",
       "history": [
         {
-          "at": "2026-10-09T19:14:59-04:00",
-          "detected_at": "2026-10-09T19:14:59-04:00",
+          "at": "2026-10-20T16:35:18-04:00",
+          "detected_at": "2026-10-20T16:35:18-04:00",
           "reason": "primera_deteccion",
           "status": "precaucion",
           "lifecycle_status": "activo",
@@ -677,12 +512,12 @@
           "sources": [
             "Dirección Nacional de Tránsito, Transporte y Seguridad Vial"
           ],
-          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02ve3XiUS5SaTfAr6TZMS3mqhuASth62yZXuBU9AZb2Tck8hsycfm1TAXpr8xnqyg9l?comment_id=1530346605517855&__cft__[0]=AZiBWvA62Vmie_SdwqZ_WdYugVQqencdXjF-OWlHwAvvPLjFOyqzzSp3VSPT2tJ6L6I5-uv5IGkOTn32gIMOoh2tGqOe76ydI7DoPwvrk2axvQ4hODJDfcDVRqDzZJkRVhbKw4x_pVhpf7c_LIQDXIzwc1-wmiSxVlvR3lO_eaPwTTOXpTGlj-Bbb0g&__tn__=R-R"
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid0Cxo4H8z46dAgiCb39AUq2jAAkEYikWrbmjmeD7sNz29af1jjETt17VGtZ5wnVdg6l?__cft__[0]=AZjK0GJmYu6WwIlgSmNcUQR5SBX5V43UEst7JDiX6gjdA3zuZ_GmSjrtynFG1jjBhIiI-6uPRD5kB3LvzXlr4apvtBKLpspP1AQoni-sWEiYssWY6wxW9ojtdSr0MHqGx9iGgw5KmS2B2ltOQrOopusRTaVW8f0eJL4DCmTXIiIUfr93G03QaJixvzg&__tn__=%2CO%2CP-R"
         }
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-20T12:58:00-04:00",
+      "last_seen_at": "2026-10-20T16:35:18-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -696,7 +531,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/avanza-el-plan-nacional-de-reactivacion-de-obras-viales-abc-y-la-caf-inspeccionan-la-construccion-de-los-puentes-rio-seque-y-rio-seco-en-la-paz/",
       "published_at": null,
-      "scraped_at": "2026-10-20T12:58:00-04:00",
+      "scraped_at": "2026-10-20T16:35:18-04:00",
       "department": "La Paz",
       "municipality": "La Paz",
       "city": "La Paz",
@@ -815,7 +650,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-20T12:58:00-04:00",
+      "last_seen_at": "2026-10-20T16:35:18-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -829,7 +664,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-10-20T12:58:00-04:00",
+      "scraped_at": "2026-10-20T16:35:18-04:00",
       "department": "La Paz",
       "municipality": "El Alto",
       "city": "Cochabamba",
@@ -1006,7 +841,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-20T12:58:00-04:00",
+      "last_seen_at": "2026-10-20T16:35:18-04:00",
       "seen_this_run": true,
       "history_count": 3
     },
@@ -1020,7 +855,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-avanza-en-la-licitacion-y-gestion-social-de-la-construccion-de-la-carretera-el-salto-puente-limon-en-chuquisaca-dentro-del-programa-nacional-de-reactivacion-de-obras-viales/",
       "published_at": null,
-      "scraped_at": "2026-10-20T12:58:00-04:00",
+      "scraped_at": "2026-10-20T16:35:18-04:00",
       "department": "Bolivia",
       "municipality": null,
       "city": null,
@@ -1141,190 +976,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-20T12:58:00-04:00",
-      "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "20bb6537531eb395",
-      "source_id": "web_lapaz",
-      "source_name": "Gobierno Autónomo Municipal de La Paz",
-      "source_url": "https://lapaz.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
-      "url": "https://lapaz.bo/",
-      "published_at": null,
-      "scraped_at": "2026-10-20T12:58:00-04:00",
-      "department": "La Paz",
-      "municipality": "La Paz",
-      "city": "La Paz",
-      "event_type": "otro",
-      "cause": null,
-      "status": "desconocido",
-      "closure_scope": null,
-      "severity": "baja",
-      "confidence": 0.75,
-      "relevance_score": 55,
-      "filter_reasons": [
-        "contexto_vial:4",
-        "via_detectada:10",
-        "sector_detectado:4",
-        "terminos_viales:2",
-        "fuente_oficial_web"
-      ],
-      "title": "La Paz te Informa",
-      "description": "CARTA ORGANICA Conoce La Paz PARTICIPA 🡆 adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí prav Trameaje parqueo 2 3 5 11 Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: La Paz celebra 478 años de fundación: Alcalde Dockweiler proyecta una ciudad transformada rumbo a los 500 años Fortalecen el Centro de Salud Chasquipampa con Rayos X y nuevo equipamiento para transformar la atención médica en la zona Sur Alcaldía insta a panificadores a dialogar antes de subir el precio del pan de batalla para proteger la economía de los vecinos de la zona Sur Alcalde Dockweiler denuncia retardación en procesos penales del GAMLP y espera que nuevos fiscales actúen con justicia La Paz te Informa 20 de octubre de 2026 La Paz celebra 478 años de fundación: Alcalde Dockweiler proyecta una ciudad transformada rumbo a los 500 años ... Prensa 19 de octubre de 2026 Fortalecen el Centro de Salud Chasquipampa con Rayos X y nuevo equipamiento para transformar la atención médica en la zona Sur ... Prensa 19 de octubre de 2026 Dockweiler anuncia lucha frontal contra la corrupción en la alcaldía de La Paz y exige avances en las investigaciones ... Prensa 19 de octubre de 2026 Alcaldía insta a panificadores a dialogar antes de subir el precio del pan de batalla para proteger la economía de los vecinos de la zona Sur ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldí",
-      "original_text": "CARTA ORGANICA Conoce La Paz PARTICIPA 🡆 adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí prav Trameaje parqueo 2 3 5 11 Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: La Paz celebra 478 años de fundación: Alcalde Dockweiler proyecta una ciudad transformada rumbo a los 500 años Fortalecen el Centro de Salud Chasquipampa con Rayos X y nuevo equipamiento para transformar la atención médica en la zona Sur Alcaldía insta a panificadores a dialogar antes de subir el precio del pan de batalla para proteger la economía de los vecinos de la zona Sur Alcalde Dockweiler denuncia retardación en procesos penales del GAMLP y espera que nuevos fiscales actúen con justicia La Paz te Informa 20 de octubre de 2026 La Paz celebra 478 años de fundación: Alcalde Dockweiler proyecta una ciudad transformada rumbo a los 500 años ... Prensa 19 de octubre de 2026 Fortalecen el Centro de Salud Chasquipampa con Rayos X y nuevo equipamiento para transformar la atención médica en la zona Sur ... Prensa 19 de octubre de 2026 Dockweiler anuncia lucha frontal contra la corrupción en la alcaldía de La Paz y exige avances en las investigaciones ... Prensa 19 de octubre de 2026 Alcaldía insta a panificadores a dialogar antes de subir el precio del pan de batalla para proteger la economía de los vecinos de la zona Sur ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av. Buenos Aires esq. Max Paredes (2) 2454553 Subalcalde: Eduardo Vargas Aliaga Ver Ubicación Subalcaldía Periférica - MD3 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2461312 Subalcalde: Walter Calixto Aranda Chipana Ver Ubicación Subalcaldía San Antonio - MD4 Av. Josefa Mujía, Zona Alto Villa San Antonio (2) 2232084 Subalcalde: Javier Giovanni Rodríguez Mendoza Ver Ubicación Subalcaldía Sur - MD5 Av. Hernando Siles No 4678, entre calles 11 y 12 de Obrajes (2) 2783631 Subalcaldesa: Carola Viviana Fortún Cabrerizo Ver Ubicación Subalcaldía Mallasa - MD6 Av. Florida, Calle 7, Mallasa (2) 2745156 Subalcaldesa: Janeth Flores Guzmán Ver Ubicación Subalcaldía Centro - MD7 Av. Tejada Sorzano esq. Av. Sucre (2) 2651055 Subalcaldesa: Isabel Vera Coca Ver Ubicación Subalcaldía Hampaturi - MD8 Av. Las Américas No 709, Villa Fátima (2) 2213587 Subalcalde: Omar Quispe Choquehuanca Ver Ubicación Subalcaldía Zongo - MD9 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2285959 Subalcalde: Ver Ubicación × Números de emergencia Contáctate a estos números ante cualquier emergencia, estamos atentos. 144 Red de Emergencias 167 Red de Ambulancias 155 Información General 156 Defensoría de la niñez Noticias de Portada Secciones La Paz Salud Sociedad Economía Cultura Deportes Fotos Videos Sitios municipales Hola soy AMI, chatea conmigo",
-      "roads": [
-        "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde",
-        "Av. Buenos Aires esq",
-        "Av. Montes y Uruguay (2) 2461312 Subalcalde",
-        "Av. Josefa Mujía",
-        "Av. Hernando Siles No 4678",
-        "Av. Florida",
-        "Av. Tejada Sorzano esq",
-        "Av. Sucre (2) 2651055 Subalcaldesa",
-        "Av. Las Américas No 709",
-        "Av. Montes y Uruguay (2) 2285959 Subalcalde"
-      ],
-      "places": [
-        "zona Sur Alcalde Dockweiler denuncia retardación en procesos penales del GAMLP y espera que nuevos fiscales actúen",
-        "zona Sur",
-        "Zona Ernesto Torrez esq",
-        "Zona Alto Villa San Antonio (2) 2232084 Subalcalde"
-      ],
-      "kilometer_mentions": [],
-      "directions": [
-        "CARTA ORGANICA Conoce La Paz P -> RTICIPA",
-        "adopcion mascotas Conoce L -> Paz",
-        "ADOPTA RESPONS -> BLEMENTE",
-        "turismo Conoce La Paz Ingresa aquí pr -> v Trameaje parqueo 2 3 5 11 Anterior Sigu",
-        "parqueo Contact Conoce LA PAZ Ingresa -> quí Anterior Siguiente Últimas publicacio",
-        "La Paz celebra 478 años de fund -> ción",
-        "Alcalde Dockweiler proyecta una ciudad tr -> nsformada rumbo a los 500 años Fortalecen",
-        "el Centro de Salud Chasquipampa con R -> yos X y nuevo equipamiento para transform"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "choque",
-        "calle"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde, La Paz, Bolivia",
-      "image_urls": [
-        "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/06/ChatGPT-Image-23-jun-2026-19_30_07.png",
-        "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
-        "https://lapaz.bo/wp-content/uploads/2026/05/suspendidoBanner-1.png",
-        "https://lapaz.bo/wp-content/uploads/2026/10/2-scaled.png",
-        "https://lapaz.bo/wp-content/uploads/2026/10/3-scaled.png",
-        "https://lapaz.bo/wp-content/uploads/2026/10/5-scaled.png",
-        "https://lapaz.bo/wp-content/uploads/2026/10/11-scaled.png",
-        "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/Portada.iza2_-1392x927-1-1024x682.jpeg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/CENTRO-CHASQUIPAMPA-1-1024x793.jpeg"
-      ],
-      "video_url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
-      "video_thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
-      "video_type": "web_video",
-      "is_official": true,
-      "image_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
-      "has_image": true,
-      "has_video": true,
-      "media": {
-        "images": [
-          "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/06/ChatGPT-Image-23-jun-2026-19_30_07.png",
-          "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
-          "https://lapaz.bo/wp-content/uploads/2026/05/suspendidoBanner-1.png",
-          "https://lapaz.bo/wp-content/uploads/2026/10/2-scaled.png",
-          "https://lapaz.bo/wp-content/uploads/2026/10/3-scaled.png",
-          "https://lapaz.bo/wp-content/uploads/2026/10/5-scaled.png",
-          "https://lapaz.bo/wp-content/uploads/2026/10/11-scaled.png",
-          "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/Portada.iza2_-1392x927-1-1024x682.jpeg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/CENTRO-CHASQUIPAMPA-1-1024x793.jpeg"
-        ],
-        "main_image_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
-        "videos": [
-          {
-            "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
-            "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
-            "type": "web_video",
-            "provider": "web",
-            "use_official_embed": false,
-            "source_id": "web_lapaz"
-          }
-        ]
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "desconocido",
-          "published_at": null,
-          "source_id": "web_lapaz",
-          "source_name": "Gobierno Autónomo Municipal de La Paz",
-          "tier": 2,
-          "url": "https://lapaz.bo/"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [
-        {
-          "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
-          "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
-          "type": "web_video",
-          "provider": "web",
-          "use_official_embed": false,
-          "source_id": "web_lapaz"
-        }
-      ],
-      "sources": [
-        {
-          "id": "web_lapaz",
-          "name": "Gobierno Autónomo Municipal de La Paz",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://lapaz.bo/",
-          "post_url": "https://lapaz.bo/",
-          "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://lapaz.bo/"
-      ],
-      "merged_items": 1,
-      "incident_id": "inc_a6202dd7330cf2",
-      "first_seen_at": "2026-10-18T14:05:54-04:00",
-      "history": [
-        {
-          "at": "2026-10-18T14:05:54-04:00",
-          "detected_at": "2026-10-18T14:05:54-04:00",
-          "reason": "primera_deteccion",
-          "status": "desconocido",
-          "lifecycle_status": "desconocido",
-          "severity": "baja",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "Gobierno Autónomo Municipal de La Paz"
-          ],
-          "url": "https://lapaz.bo/"
-        }
-      ],
-      "lifecycle_status": "desconocido",
-      "is_active": null,
-      "last_seen_at": "2026-10-20T12:58:00-04:00",
+      "last_seen_at": "2026-10-20T16:35:18-04:00",
       "seen_this_run": true,
       "history_count": 1
     }
@@ -1339,7 +991,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FOWmtE-8GCYQ7kNvwEpmP8r&_nc_oc=Adp2goq1IKpJC87Lo2w5Rmu58Eq8ZPySb0mt_P08yaS8vt2KcvG8tFcRQaBZQKUhy2g&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=FLGR8YfwCHC3cmnyCEZMUQ&_nc_ss=7f289&oh=00_AQOECbH9FfDbTXFFNzjhlGyMUXJ6j52UtuuhPbL9gB3vvA&oe=6ADD6D18",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=FOWmtE-8GCYQ7kNvwFFVAMW&_nc_oc=AdoXFi1fOvlKAoNQNpjSGrob7dlmpp4kLF8pezhRA66ot90Q3Ie2_658QzcAFfSqJCM&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=gnviYWYVSlKTI_8FqJSkxQ&_nc_ss=7f289&oh=00_AQPq-pqZub-6ffZjMU40jMMSvN1hUz6FoCirK27xCn-bbw&oe=6ADDA558",
       "status": "ok"
     },
     {
@@ -1351,7 +1003,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=kuixLYIzVYQQ7kNvwHTid44&_nc_oc=AdpINcojojLV58mdYyPv19sEuYjdDNIZ3v8PREzUi7xmGriVNXFMmfShHm9qd5qsegM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=-E1gx-nfcHB5NKgEkxXPeA&_nc_ss=7f289&oh=00_AQMsm29429HvIUoFZ5la3PCyL3qVlKiFBluXrM8PRboksg&oe=6ADD706B",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=kuixLYIzVYQQ7kNvwFmYB6i&_nc_oc=AdpxMOavBaYpePrf6Q281Une-5lBh4uEtAkAEd_wLDMUQ_p-7kVnmA66VG7jl1LE3Ro&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=xu5ydTZ-SYxhhd70zsQhyg&_nc_ss=7f289&oh=00_AQO-MZ9xGTBhGEz_E1fU9Nz3bIpvMroQLr9bqIZnYHV3mQ&oe=6ADDA8AB",
       "status": "ok"
     },
     {
@@ -1387,7 +1039,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F5bInLHDKQgQ7kNvwGlObkL&_nc_oc=AdppkRim_O2rj8CsjwIwcFZblrhw9wg6IJgQmto8d9v0HVyICoVBO8m4TmyJbctrpZI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=VQedMfAlBzMnxD-TVNA9GQ&_nc_ss=7f289&oh=00_AQOHtpmzyyRd0XxRsDlWIYFY5rwnp3PKdurKLXa-rSjKzg&oe=6ADD7C00",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=F5bInLHDKQgQ7kNvwE_CVHD&_nc_oc=AdqJL4EvJ1RjMkrfC_tyQTISgp6-TBmsPZTITearEXS39vyAzUo283MrSCblGcjaPj0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ulPO-t6AwXo4z0DCC0eAiA&_nc_ss=7f289&oh=00_AQNBuTq7b14EFgeEYb_4-SxdGVq9O7n2bBYqb18LxURFHA&oe=6ADDB440",
       "status": "ok"
     },
     {
@@ -1399,7 +1051,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KJMcIMmF6OQQ7kNvwEez2Ig&_nc_oc=Adp6MA7RYOPCaEtacG_Z2BjutC91FPvtuqIeUND-jUfJ-PvwATBgcwdcq5CIULcM6rA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=kHmi6AQxJxT4ZEv0Wdlm2w&_nc_ss=7f289&oh=00_AQOc2Ek7xUoWGTsVJn9ZlUhUeRVrwiMYpeN9UhahYSKkCA&oe=6ADD74F8",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KJMcIMmF6OQQ7kNvwH-bt0g&_nc_oc=Adq4-EJNpHEZVOoyosESE-0YtQPe_xT1qZ9mCcB0t2q8CfLLlsoPFF1dO0QjXrNle50&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=GF-9DkzRUilxOeJZDcZtdA&_nc_ss=7f289&oh=00_AQMfuNlaH6Y6TIS1qCri7I6iSGRzfGJBSsPk-K4tlFpYRg&oe=6ADDAD38",
       "status": "ok"
     },
     {
@@ -1411,8 +1063,8 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aLYlxmWgejMQ7kNvwEkGy34&_nc_oc=Adq2Kk0BvvhhlxyBhR7QRHbVYofSDHN1-Kic_ARYuEfh5eB35jbyKvkCK68OzC0wW30&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=gcR9vP4__YxChhbzbfPnbQ&_nc_ss=7f289&oh=00_AQPHmv2Rm48bPNTXU9BmCcOBC3jFeZiKBmwjzwALk22-jg&oe=6ADD8880",
+      "status": "ok"
     },
     {
       "id": "fb_gam_cbba",
@@ -1435,8 +1087,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=tO_dnbslD1AQ7kNvwGUHZBY&_nc_oc=AdqIqJlbdJ04lk5qiOdmheyP3q0vYf2No_9j7FEulPFItAaBZ1EDBCZj4-158tXp0QA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=wxYa9REcHZltHQLF9vImPg&_nc_ss=7f289&oh=00_AQN4DvnJH9s-WxyEzUmUwVaFSwMzZXyV1ujk3AVRzGzG6w&oe=6ADD6F17",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_transito_cbba",
@@ -1459,8 +1111,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=k4HN-J8rl9oQ7kNvwEvfo5v&_nc_oc=AdqbvITmSq2uNIS-SYY-M9eO-B-unZ_wbZS71pvotdHfQf4Dw25wYWaEgZy4KKN0osY&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=suR7xXSfWvV1XPXsfg20PQ&_nc_ss=7f289&oh=00_AQN_167oKgHN3wlbkoKEqii6T45FIRctTHgrS2VJ_0ylsw&oe=6ADD5805",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_terminal_cbba",
@@ -1483,7 +1135,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4vCvz_-rQZ4Q7kNvwGcaztq&_nc_oc=Adpsl9SM24G3e3kvZJOWeyTHsKky67cJKXvpChVigs1bZyyU83BRnNw1253pRztg3bk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=fQN2F3jfOh1iTCCgq6BsKw&_nc_ss=7f289&oh=00_AQNWpd3aIV41BKrOak8C4LuUN6z6f7ImRZdud2qqfr5DiA&oe=6ADD66D7",
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4vCvz_-rQZ4Q7kNvwFVpoOS&_nc_oc=Adq2y_5W4-EPUSkVSFnv-teK3qEb91dZzgpjSpE9ieYSYONvKf0xXobhb4-qrJ12DAw&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=NVL0L6l8ZHUd_L-kzxcvJA&_nc_ss=7f289&oh=00_AQNKWErQVpPTuvo0tbry3BKRioAxP3Yr6NOB3kDt0iuffQ&oe=6ADD9F17",
       "status": "ok"
     },
     {
@@ -1495,8 +1147,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-lhr6-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lPiJisaA9jIQ7kNvwG8OiOh&_nc_oc=Adp5f65Ze5RurVxdZd4Hv1i1qwWvB7-pHith0w071Z-NAfLlBPS4Lgb5VvaEmaK-z5g&_nc_zt=24&_nc_ht=scontent-lhr6-2.xx&_nc_gid=YBEIueRSGrM1AAIjaooQTg&_nc_ss=7f289&oh=00_AQNRn00eec8PYAXtraiY722YmX5IiwjVLAPmrE_WBXv3hg&oe=6ADD5A51",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_gob_scz",
@@ -1507,8 +1159,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9BPp4y2NGykQ7kNvwGJMP8K&_nc_oc=AdrzFu1DtRcCLvso9t0pXxv7XGxBDbQXnhWwEKmLq3zU6FErcP-yaDjq6hG9DL-PR1U&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=W-izEFOCowz1A2rzct42IA&_nc_ss=7f289&oh=00_AQPVQcuokkjVHMO-A_JRkNYxxSIEMT0_w2gCIS-8Cg4JMg&oe=6ADD7C3E",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "web_abc",
@@ -1568,7 +1220,7 @@
       "region": "Cochabamba",
       "city": "Cochabamba",
       "icon_url": null,
-      "status": "ok"
+      "status": "error"
     },
     {
       "id": "web_simat_cbba",
@@ -1603,7 +1255,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=IZeZjuD71-MQ7kNvwFQVbsP&_nc_oc=Adod-hanwLMFaAgKPRxCrcx05kUHGTMHfG36A1fqMNrINjQxCvU1mvxPTe1SZmAGWqE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_ss=7f289&oh=00_AQPwL9A3fAyiomuT-x2WWTm-Ity0VuVr2ZGdpzEKITXlpw&oe=6AFF29BA",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=IZeZjuD71-MQ7kNvwF_05GU&_nc_oc=Adq1ASz6mOC5clnwMIG9WlKmKzMoiT5KktkcNYeqrSANtLxmF_aNQV7p-JocpsJ-Sgk&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_ss=7f289&oh=00_AQMKGv9jmbLkjMpjm0B8Gmlv8-9EVFZa-8pa6JJ6SlX8qg&oe=6AFF29BA",
       "status": "ok"
     },
     {
@@ -1615,7 +1267,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lhr11-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yXt2TkwAw5QQ7kNvwFG5lvJ&_nc_oc=AdoUSdVlB90PKHNSWBclf3qZSBGD9mYCPnBx1z_KbJxj2XTwR3Ju4Ys45WvRLa9-tGo&_nc_zt=24&_nc_ht=scontent-lhr11-1.xx&_nc_gid=Cm5m-MACwamuGi4YbhJMwg&_nc_ss=7f289&oh=00_AQPmUGBzfWsQG3M7UIzVifDEforJGjlDx5NmdwI5OuXeOA&oe=6ADD593F",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/721950880_1489874739839973_4818872281718005462_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yXt2TkwAw5QQ7kNvwGzTCdy&_nc_oc=Adps0HtN_O-skh30JsBhFtA6UBNzSuYrH7HhZMuvn_BkIbhKL9xHpV0Vf2HJPAoAp1U&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=aXiOKqQdOjhbHHeuxLpUbw&_nc_ss=7f289&oh=00_AQMOIvOK4Q4FecYn6e_AlvY4z3Tvq2WFyARay12UVal7Iw&oe=6ADD917F",
       "status": "ok"
     },
     {
@@ -1627,8 +1279,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=NBCG9qQFZUQQ7kNvwEbBjFX&_nc_oc=Adq0ePijhIRzO9bbQ2wCm31dPwlf-vuR0NwKbwsC9dUWm1Ds688Cc3R4-EM7JVbaiTk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=KcKBUGMue7l0cH1YpDPeJg&_nc_ss=7f289&oh=00_AQMYuCODXF_0UkKoRFcHHNkbvskhEawKTahLqTnuNYqi_A&oe=6ADD8C8C",
+      "status": "ok"
     },
     {
       "id": "fb_rtp",
@@ -1639,7 +1291,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Qt7YCYXwLloQ7kNvwHZEIlA&_nc_oc=AdovWch8JGHmrKXLEhG8XY9R6jWjSk3-5vG-ioBXjItjDATj38sDkFE6_T3TGhAXnuw&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=JLdMXx1Sp0vrPhsnMAPYHw&_nc_ss=7f289&oh=00_AQMKejltms9vxpdW4aVHRfcV4d97f3txsozQzsycSHVUXQ&oe=6ADD6EC5",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Qt7YCYXwLloQ7kNvwEMoLau&_nc_oc=AdqCk59OjdNJFeq4JGCH80JYQPSwRDkGEC0gsfsZGjCua1hjIn_TmlnsDAbG5lhZRI8&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=X9Shl8ZIRKc3w7GUQVhYbg&_nc_ss=7f289&oh=00_AQMNVCK5J9pDdsp9UZEusTfnndiYnYYWWep8dTGFx9-mMA&oe=6ADDA705",
       "status": "ok"
     },
     {
@@ -1651,8 +1303,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LQGpjviZv1wQ7kNvwEDvs0x&_nc_oc=Adoz3Z4K_V4QHvvvYBCQltha32dqQz1-c1JDxhxfNThs-ptIr4ZebbGqobU0zziEKqo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=1NLmcpKVRHfbrDGHZ5milw&_nc_ss=7f289&oh=00_AQOyRSk3Hlp1fm1VbRBn3XG3UzgUdeMqbUWA63JPd-eUaA&oe=6ADD957A",
+      "status": "ok"
     },
     {
       "id": "fb_opinion",
@@ -1663,7 +1315,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VHfLDUju4BcQ7kNvwGEZT-c&_nc_oc=Ado7_W1znPs0-UktF83w8xsY2tjysPyLE8dkWXJ_rUhTuxJd3ZLIF6hn01gW27VfCEA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=OQcl3-6_hB_dk2iwaBKFVw&_nc_ss=7f289&oh=00_AQOOCgnjI2kt4fGt-s2BnL0n9O0iOpwxizfGwpcIweaM9Q&oe=6ADD8026",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VHfLDUju4BcQ7kNvwEcVoIM&_nc_oc=AdrvS2WHtgYInGHDTHewtBuSXSxMGecgs_2b6RJjmcNYMCl80xZrVJN2NFPBmZqUOeI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=W6PBGtPHZ4iQHYBEKln1yg&_nc_ss=7f289&oh=00_AQOfHw3ZOvnhvVdCLZAzOIUpc5PuqEZU7A9oApciveCgGg&oe=6ADDB866",
       "status": "ok"
     },
     {
@@ -1675,7 +1327,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=R4HnDHW0l5MQ7kNvwHChX-r&_nc_oc=Adrj9XOAxDPi-vpn0kqOsBZTcIzu91_QOY-SDb-0aF2lIqDykQRYfdodLzXwv86bdw8&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=o9BTiTai73nMQgRGmzUUoA&_nc_ss=7f289&oh=00_AQP6Eml4mfyUJMjpDCJLsmOyKeiSK1_sSOApK0NO8tN3Dw&oe=6ADD81CC",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=R4HnDHW0l5MQ7kNvwFr3NNR&_nc_oc=AdpoYZZ_WNAVBka5WoH1qiZ5jtmKHDnSN8xX1F7bz9rsNNGZaj5owVirzArgEdDWaXo&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=1_IYBqnV2E4jFN2EMpfqkg&_nc_ss=7f289&oh=00_AQMMwzgLBVdVE6_0LXTtGC8aldaTheu9Wyvmbf0rU9tMfA&oe=6ADDBA0C",
       "status": "ok"
     },
     {
@@ -1699,7 +1351,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gzrmMJ4fhTgQ7kNvwFVxFOr&_nc_oc=AdoFcA5QnOhde18giLGtOU3tNzB_JCTSHQcm91X_AidXxFokFCcqQ3iBXIK2bO8Ziqk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=gmPZlK931MqXB9oERTccmA&_nc_ss=7f289&oh=00_AQPB1Js-RYMdDw6l7j3pT2wFbqGLVhqqdRQTerGV2Gb_Ow&oe=6ADD62A8",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gzrmMJ4fhTgQ7kNvwGUhgeY&_nc_oc=Adrl7QjoZF2uKo5uKbK-KI_8pjgIQZoMhr7NkTY58GYTLJONZi96zRN8qZSNW7uoaeA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=YpQg1uZO28EIb7IMcVgbTw&_nc_ss=7f289&oh=00_AQMgDFCiFdZiGoh5nbK3ZbJEgnpvZvgCU2kck9sPe9Mbbw&oe=6ADD9AE8",
       "status": "ok"
     },
     {
@@ -1711,8 +1363,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=psRrIOf1ckAQ7kNvwFKwdEz&_nc_oc=Adq4kqGqQIaP2zSOVvI-i-PLsWZVjnmGOUTt17Q5iame5oibDb0GJT3M-hiSgrySjlE&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=Z28Kkq_RYFutS87WwbaxWA&_nc_ss=7f289&oh=00_AQOszT_iKTN5m-QjBHMdyvXPA1wIQhwxfeM6PJI51u2Z0g&oe=6ADD8708",
+      "status": "ok"
     },
     {
       "id": "fb_eldeber_radio",
@@ -1723,8 +1375,8 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=goC6a0QsBpsQ7kNvwH4blKq&_nc_oc=Ado_n9OUy4R29rR_DpOvOS_CNel_KbX7gmQts9DXsA9ZXsA2RUrgtq86UEiaRRvLCrQ&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=R-kbd305f445fG8ZHA5DvQ&_nc_ss=7f289&oh=00_AQOOqKHZ9lcnO1F4qvQ7nFHV_659ve-DLlqOoa2FsljJig&oe=6ADD8769",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_fides_cbba",
@@ -1735,8 +1387,8 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=exCcwkAp8r0Q7kNvwG0Hg1S&_nc_oc=AdpJs6Da_PQdn69V-ddILjawoRdgRaiucu3rrsmIruXTcOSE8yo8-zYAEJDFfHdFxj8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=tn05Mt9_3IityJYV5hk4pw&_nc_ss=7f289&oh=00_AQM75jpor5MT1P17QjKWgQmyaQpykNMD4kSLVgzBIhNCKg&oe=6ADD8977",
+      "status": "ok"
     },
     {
       "id": "fb_fides_tv",
@@ -1747,7 +1399,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VOyoqUnz1HMQ7kNvwGrF_zj&_nc_oc=AdoVuaGexcoEirtkTVUEz10ruaPR-1jCt6h3W5T3Cf3pkwYzcpivYZ_EMzm1eetlR1s&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=pHg9NgjdqDRuP7R0RKlTuw&_nc_ss=7f289&oh=00_AQMzCTyWKWj5_VRy21mI4lOztZy2FRU5of-SIcsVN1ithg&oe=6ADD8C3D",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VOyoqUnz1HMQ7kNvwHYgQx3&_nc_oc=AdobRoUJffS4Dy2vLytt-qoFJ3eKnHXJdZWRHJe6acRBa9388v3-bU1ieyKca5VtXKc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=XOL9c0fuWUXELnwUIDB9CA&_nc_ss=7f289&oh=00_AQNZhgbwmIcMzm5TykpHnapekMJ5ZMVlzPMvw7meFh4YIw&oe=6ADD8C3D",
       "status": "ok"
     },
     {
@@ -1759,7 +1411,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GyHfQl5EESUQ7kNvwExs2o2&_nc_oc=Adrv6XLWGyx0meCaoppq40VSdN3_qGBLzZIFKYH-2OzW9mURWX_ui5WauMBSjDqOxGQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=UHm2n58EqV1N21JXFSwTpA&_nc_ss=7f289&oh=00_AQMm_c6a-cMz-7LnXyv0vm_-ho55aPpywehfRfIxkAQH8w&oe=6ADD5AA1",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GyHfQl5EESUQ7kNvwFNxrrQ&_nc_oc=AdpqWMNC3X_kIveqhHrDMJlAH4fkEbn-Ofr3gfodySOhPxv9tLhflsEcrEUsyjUJ1CM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=RRA4-XaT6A90VJsO2L0-bw&_nc_ss=7f289&oh=00_AQMU4-7CjE2TGUbJ9p8_kCcThu4zW-_jDjMKQjhaFJZsxQ&oe=6ADD92E1",
       "status": "ok"
     },
     {
@@ -1771,8 +1423,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/630108123_1502055141924634_2778790051264185846_n.jpg?stp=dst-jpg_tt6&cstp=mx1148x1152&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1uZs4RZAz9UQ7kNvwHvKDEM&_nc_oc=AdrG0FdEW13OOuJiprpX1-PHXO2zAsK713MzwpBAQidxy8j5f5ZUV2v09jhG75OuCSM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=RTYnDrm1CG64qgcCABxpFw&_nc_ss=7f289&oh=00_AQPGEr0AxMxxHZvdd9QHWffgpEhGP_ukY8rldf7b-QiG2Q&oe=6ADDAE42",
+      "status": "ok"
     }
   ]
 }
