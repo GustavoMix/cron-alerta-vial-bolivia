@@ -1,15 +1,15 @@
 {
   "schema_version": "3.2-fast",
-  "generated_at": "2026-10-28T13:24:04-04:00",
+  "generated_at": "2026-10-28T17:55:57-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "facebook_sources": 30,
     "web_sources": 7,
-    "sources_ok": 29,
-    "sources_error": 8,
-    "raw_publications": 45,
-    "vial_publications": 11,
-    "incidents": 9
+    "sources_ok": 25,
+    "sources_error": 12,
+    "raw_publications": 41,
+    "vial_publications": 12,
+    "incidents": 10
   },
   "incidents": [
     {
@@ -22,7 +22,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/el-plan-nacional-de-emergencia-inyectara-mas-de-bs-348-millones-en-cochabamba-en-los-tramos-suticollo-y-siete-curvas-para-proteger-sus-corredores-estrategicos/",
       "published_at": null,
-      "scraped_at": "2026-10-28T13:24:04-04:00",
+      "scraped_at": "2026-10-28T17:55:57-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -190,7 +190,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-28T13:24:04-04:00",
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
       "seen_this_run": true,
       "history_count": 2
     },
@@ -204,7 +204,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/plan-nacional-de-emergencia-la-abc-y-fonplata-inspeccionaran-puntos-criticos-en-el-tramo-santa-cruz-comarapa-para-invertir-us-186-millones-en-la-reconstruccion-de-la-carretera/",
       "published_at": null,
-      "scraped_at": "2026-10-28T13:24:04-04:00",
+      "scraped_at": "2026-10-28T17:55:57-04:00",
       "department": "Santa Cruz",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -351,9 +351,140 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-28T13:24:04-04:00",
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
       "seen_this_run": true,
       "history_count": 3
+    },
+    {
+      "id": "841c607dd7df036f",
+      "source_id": "fb_transito_nacional",
+      "source_name": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
+      "source_url": "https://www.facebook.com/bolivia.transito/",
+      "source_class": "facebook_official",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=Xl3oQbZfUtwQ7kNvwENaG2t&_nc_oc=Adrf24JoRRGOgHvWpw-m2bRzpj2MXiUY8WmDN5YeZmduR_-OkkDRP2XM4TSxi4mAzl4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=nK0i7r8vklxXD3BPROVbrw&_nc_ss=7f289&oh=00_AQQFzFTb5GPL4PBGLCvegY81YMkCgKwbrnU5zlgPeX36sg&oe=6AE834AB",
+      "url": "https://www.facebook.com/bolivia.transito/posts/pfbid08qX9mv347XnXK4fcvxsA9ZcFxHF68PBzspcM5SsrzqRnS6fMA5grrw8RmxMozxXal?__cft__[0]=AZh9V450ElwVw9SuHAb5-HvObBiK-Ye5SbxVGr-foaS69G7NrtQd3R3b-7Xv4m6GQLSKGXo-BzuKRjyv1aZ8QVIfpdIwWC6JUAC2Oyr-4tnSiSV79lWez7SeT9uWMRoXeWPIxvVm8K0NCuGjylBlIYoe09CyL1TUb-DhjLg_A47k0mPlNklp8XWbChY&__tn__=%2CO%2CP-R",
+      "published_at": null,
+      "scraped_at": "2026-10-28T17:55:57-04:00",
+      "department": "La Paz",
+      "municipality": "La Paz",
+      "city": "La Paz",
+      "event_type": "accidente",
+      "cause": "conflicto_transporte",
+      "status": "precaucion",
+      "closure_scope": null,
+      "severity": "media",
+      "confidence": 0.89,
+      "relevance_score": 61,
+      "filter_reasons": [
+        "contexto_vial:5",
+        "evento:accidente",
+        "terminos_viales:3",
+        "fuente_oficial_facebook"
+      ],
+      "title": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
+      "description": "📚🤝 CAPACITACIÓN A CONDUCTORES DEL SINDICATO \"LITORAL\" EN LA PAZ 🚘🛡️ La Dirección Departamental de Tránsito, Transporte y Seguridad Vial de La Paz llevó a cabo un taller de socialización y formación... 📚🤝 CAPACITACIÓN A CONDUCTORES DEL SINDICATO \"LITORAL\" EN LA PAZ 🚘🛡️ La Dirección Departamental de Tránsito, Transporte y Seguridad Vial de La Paz llevó... CAPACITACIÓN A CONDUCTORES DEL SINDICATO \"LITORAL\" EN LA PAZ La Dirección Departamental de Tránsito, Transporte y Seguridad Vial de La Paz llevó a cabo un taller de socialización y formación dirigido a los conductores del Sindicato de Transporte \"Litoral\". ​La actividad se desarrolló en el aula de la Escuela de Conductores del Batallón de Tránsito, a cargo de los capacitadores del área de capacitación de tránsito. Ejes temáticos abordados: Código de Tránsito y reglamentación vigente: Derechos, deberes e infracciones en el transporte público. Análisis de causas de accidentes: Identificación de factores de riesgo para prevenir imprevistos en la vía. Manejo defensivo y prevención: Estrategias y medidas prácticas para evitar hechos de tránsito y resguardar a los pasajeros. ​El trabajo coordinado entre la Policía Boliviana y los transportistas es la base para lograr vías más seguras para todas y todos. \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad #TránsitoBolivia #SeguridadVial #LaPaz #EnLaVíaTodaVidaEsImportante www.policia.bo CAPACITACIÓN A CONDUCTORES DEL SINDICATO \"LITORAL\" EN LA PAZ La Dirección Departamental de Tránsito, Transporte y Seguridad Vial de La Paz llevó a cabo un taller de socialización y formación dirigido a los conductores del Sindicato de Transporte \"Litoral\". ​La actividad se desarrolló en el aula de la Escuela de Conductores del Batallón de Tránsito, a cargo de los capacitadores del área de capacitación de tránsito. Ejes temáticos abordados: Código de Tránsito y reglamentación vigente: Derechos, deberes e infracciones en el transporte público. Análisis de causas de accidentes: Identificación de factores de riesgo para prevenir imprevistos en la vía. Manejo defensivo y prevención: Estrategias y medidas prácticas para evitar hechos de tránsito y resguardar a los pasajeros. ​El trabajo coordinado entre la Policía Boliviana y los transportistas es la base para lograr vías más seguras para todas y todos. \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad #TránsitoBolivia #SeguridadVial #LaPaz #EnLaVíaTodaVidaEsImportante www.policia.bo",
+      "original_text": "📚🤝 CAPACITACIÓN A CONDUCTORES DEL SINDICATO \"LITORAL\" EN LA PAZ 🚘🛡️ La Dirección Departamental de Tránsito, Transporte y Seguridad Vial de La Paz llevó a cabo un taller de socialización y formación... 📚🤝 CAPACITACIÓN A CONDUCTORES DEL SINDICATO \"LITORAL\" EN LA PAZ 🚘🛡️ La Dirección Departamental de Tránsito, Transporte y Seguridad Vial de La Paz llevó... CAPACITACIÓN A CONDUCTORES DEL SINDICATO \"LITORAL\" EN LA PAZ La Dirección Departamental de Tránsito, Transporte y Seguridad Vial de La Paz llevó a cabo un taller de socialización y formación dirigido a los conductores del Sindicato de Transporte \"Litoral\". ​La actividad se desarrolló en el aula de la Escuela de Conductores del Batallón de Tránsito, a cargo de los capacitadores del área de capacitación de tránsito. Ejes temáticos abordados: Código de Tránsito y reglamentación vigente: Derechos, deberes e infracciones en el transporte público. Análisis de causas de accidentes: Identificación de factores de riesgo para prevenir imprevistos en la vía. Manejo defensivo y prevención: Estrategias y medidas prácticas para evitar hechos de tránsito y resguardar a los pasajeros. ​El trabajo coordinado entre la Policía Boliviana y los transportistas es la base para lograr vías más seguras para todas y todos. \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad #TránsitoBolivia #SeguridadVial #LaPaz #EnLaVíaTodaVidaEsImportante www.policia.bo CAPACITACIÓN A CONDUCTORES DEL SINDICATO \"LITORAL\" EN LA PAZ La Dirección Departamental de Tránsito, Transporte y Seguridad Vial de La Paz llevó a cabo un taller de socialización y formación dirigido a los conductores del Sindicato de Transporte \"Litoral\". ​La actividad se desarrolló en el aula de la Escuela de Conductores del Batallón de Tránsito, a cargo de los capacitadores del área de capacitación de tránsito. Ejes temáticos abordados: Código de Tránsito y reglamentación vigente: Derechos, deberes e infracciones en el transporte público. Análisis de causas de accidentes: Identificación de factores de riesgo para prevenir imprevistos en la vía. Manejo defensivo y prevención: Estrategias y medidas prácticas para evitar hechos de tránsito y resguardar a los pasajeros. ​El trabajo coordinado entre la Policía Boliviana y los transportistas es la base para lograr vías más seguras para todas y todos. \"200 AÑOS DE HISTORIA, VOCACIÓN Y SERVICIO A LA PATRIA\" ​#PoliciaBoliviana #IntegridadDignidadYTransparenciaAlServicioDeLaSociedad #TránsitoBolivia #SeguridadVial #LaPaz #EnLaVíaTodaVidaEsImportante www.policia.bo",
+      "roads": [],
+      "places": [],
+      "kilometer_mentions": [],
+      "directions": [
+        "Departamental de Tránsito",
+        "CAPACITACIÓN A CONDUCTORES DEL SINDIC -> TO",
+        "EN L -> PAZ",
+        "La Dirección Departament -> l de Tránsito",
+        "Transporte y Seguridad Vial de La P -> z llevó a cabo un taller de socialización",
+        "y form -> ción",
+        "Transporte y Seguridad Vial de La P -> z llevó... CAPACITACIÓN A CONDUCTORES DEL",
+        "SINDIC -> TO"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [
+        "transporte_publico"
+      ],
+      "time_mentions": [],
+      "keywords": [
+        "accidente",
+        "tránsito",
+        "transportistas"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "La Paz, Bolivia",
+      "image_urls": [
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/869951515_1452308153751902_4338141993570121971_n.jpg?stp=dst-jpg_tt6&cstp=mx1599x1200&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=cae128&_nc_ohc=tH3tZmupJ98Q7kNvwFXTI8L&_nc_oc=AdrvxM1NBevhKpnnYCQvb-CvHdFGzkDooIjU5HfYxUVOilC-Oqw9l5uxXwqsNL-23JE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=TZAmbtP0KX-wXDvia11V7A&_nc_ss=7f289&oh=00_AQR2hOPMDCfXxWNkwgqL1gLgngUD6Fs4Nhs3Sy9nZobNFw&oe=6AE82969",
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/869951515_1452308153751902_4338141993570121971_n.jpg?stp=dst-jpg_tt6&cstp=mx1599x1200&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tH3tZmupJ98Q7kNvwFXTI8L&_nc_oc=AdrvxM1NBevhKpnnYCQvb-CvHdFGzkDooIjU5HfYxUVOilC-Oqw9l5uxXwqsNL-23JE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=UdBXdzfT_kQJLjL9vk6uHg&_nc_ss=7f289&oh=00_AQTlPeO9GAbw0MDeO_KFYaYnrascV3Gaq5pA7y8ntWrGxw&oe=6AE82969"
+      ],
+      "video_url": null,
+      "video_thumbnail_url": null,
+      "video_type": null,
+      "is_official": true,
+      "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/869951515_1452308153751902_4338141993570121971_n.jpg?stp=dst-jpg_tt6&cstp=mx1599x1200&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=cae128&_nc_ohc=tH3tZmupJ98Q7kNvwFXTI8L&_nc_oc=AdrvxM1NBevhKpnnYCQvb-CvHdFGzkDooIjU5HfYxUVOilC-Oqw9l5uxXwqsNL-23JE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=TZAmbtP0KX-wXDvia11V7A&_nc_ss=7f289&oh=00_AQR2hOPMDCfXxWNkwgqL1gLgngUD6Fs4Nhs3Sy9nZobNFw&oe=6AE82969",
+      "has_image": true,
+      "has_video": false,
+      "media": {
+        "images": [
+          "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/869951515_1452308153751902_4338141993570121971_n.jpg?stp=dst-jpg_tt6&cstp=mx1599x1200&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=cae128&_nc_ohc=tH3tZmupJ98Q7kNvwFXTI8L&_nc_oc=AdrvxM1NBevhKpnnYCQvb-CvHdFGzkDooIjU5HfYxUVOilC-Oqw9l5uxXwqsNL-23JE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=TZAmbtP0KX-wXDvia11V7A&_nc_ss=7f289&oh=00_AQR2hOPMDCfXxWNkwgqL1gLgngUD6Fs4Nhs3Sy9nZobNFw&oe=6AE82969",
+          "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/869951515_1452308153751902_4338141993570121971_n.jpg?stp=dst-jpg_tt6&cstp=mx1599x1200&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tH3tZmupJ98Q7kNvwFXTI8L&_nc_oc=AdrvxM1NBevhKpnnYCQvb-CvHdFGzkDooIjU5HfYxUVOilC-Oqw9l5uxXwqsNL-23JE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=UdBXdzfT_kQJLjL9vk6uHg&_nc_ss=7f289&oh=00_AQTlPeO9GAbw0MDeO_KFYaYnrascV3Gaq5pA7y8ntWrGxw&oe=6AE82969"
+        ],
+        "main_image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/869951515_1452308153751902_4338141993570121971_n.jpg?stp=dst-jpg_tt6&cstp=mx1599x1200&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=cae128&_nc_ohc=tH3tZmupJ98Q7kNvwFXTI8L&_nc_oc=AdrvxM1NBevhKpnnYCQvb-CvHdFGzkDooIjU5HfYxUVOilC-Oqw9l5uxXwqsNL-23JE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=TZAmbtP0KX-wXDvia11V7A&_nc_ss=7f289&oh=00_AQR2hOPMDCfXxWNkwgqL1gLgngUD6Fs4Nhs3Sy9nZobNFw&oe=6AE82969",
+        "videos": []
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "precaucion",
+          "published_at": null,
+          "source_id": "fb_transito_nacional",
+          "source_name": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
+          "tier": 1,
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid08qX9mv347XnXK4fcvxsA9ZcFxHF68PBzspcM5SsrzqRnS6fMA5grrw8RmxMozxXal?__cft__[0]=AZh9V450ElwVw9SuHAb5-HvObBiK-Ye5SbxVGr-foaS69G7NrtQd3R3b-7Xv4m6GQLSKGXo-BzuKRjyv1aZ8QVIfpdIwWC6JUAC2Oyr-4tnSiSV79lWez7SeT9uWMRoXeWPIxvVm8K0NCuGjylBlIYoe09CyL1TUb-DhjLg_A47k0mPlNklp8XWbChY&__tn__=%2CO%2CP-R"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [],
+      "sources": [
+        {
+          "id": "fb_transito_nacional",
+          "name": "Dirección Nacional de Tránsito, Transporte y Seguridad Vial",
+          "class": "facebook_official",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/bolivia.transito/",
+          "post_url": "https://www.facebook.com/bolivia.transito/posts/pfbid08qX9mv347XnXK4fcvxsA9ZcFxHF68PBzspcM5SsrzqRnS6fMA5grrw8RmxMozxXal?__cft__[0]=AZh9V450ElwVw9SuHAb5-HvObBiK-Ye5SbxVGr-foaS69G7NrtQd3R3b-7Xv4m6GQLSKGXo-BzuKRjyv1aZ8QVIfpdIwWC6JUAC2Oyr-4tnSiSV79lWez7SeT9uWMRoXeWPIxvVm8K0NCuGjylBlIYoe09CyL1TUb-DhjLg_A47k0mPlNklp8XWbChY&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=Xl3oQbZfUtwQ7kNvwENaG2t&_nc_oc=Adrf24JoRRGOgHvWpw-m2bRzpj2MXiUY8WmDN5YeZmduR_-OkkDRP2XM4TSxi4mAzl4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=nK0i7r8vklxXD3BPROVbrw&_nc_ss=7f289&oh=00_AQQFzFTb5GPL4PBGLCvegY81YMkCgKwbrnU5zlgPeX36sg&oe=6AE834AB",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://www.facebook.com/bolivia.transito/posts/pfbid08qX9mv347XnXK4fcvxsA9ZcFxHF68PBzspcM5SsrzqRnS6fMA5grrw8RmxMozxXal?__cft__[0]=AZh9V450ElwVw9SuHAb5-HvObBiK-Ye5SbxVGr-foaS69G7NrtQd3R3b-7Xv4m6GQLSKGXo-BzuKRjyv1aZ8QVIfpdIwWC6JUAC2Oyr-4tnSiSV79lWez7SeT9uWMRoXeWPIxvVm8K0NCuGjylBlIYoe09CyL1TUb-DhjLg_A47k0mPlNklp8XWbChY&__tn__=%2CO%2CP-R"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_62550184a5d984",
+      "first_seen_at": "2026-10-09T19:14:59-04:00",
+      "history": [
+        {
+          "at": "2026-10-09T19:14:59-04:00",
+          "detected_at": "2026-10-09T19:14:59-04:00",
+          "reason": "primera_deteccion",
+          "status": "precaucion",
+          "lifecycle_status": "activo",
+          "severity": "media",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "Dirección Nacional de Tránsito, Transporte y Seguridad Vial"
+          ],
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02ve3XiUS5SaTfAr6TZMS3mqhuASth62yZXuBU9AZb2Tck8hsycfm1TAXpr8xnqyg9l?comment_id=1530346605517855&__cft__[0]=AZiBWvA62Vmie_SdwqZ_WdYugVQqencdXjF-OWlHwAvvPLjFOyqzzSp3VSPT2tJ6L6I5-uv5IGkOTn32gIMOoh2tGqOe76ydI7DoPwvrk2axvQ4hODJDfcDVRqDzZJkRVhbKw4x_pVhpf7c_LIQDXIzwc1-wmiSxVlvR3lO_eaPwTTOXpTGlj-Bbb0g&__tn__=R-R"
+        }
+      ],
+      "lifecycle_status": "activo",
+      "is_active": true,
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
+      "seen_this_run": true,
+      "history_count": 1
     },
     {
       "id": "15005dea1361c829",
@@ -365,7 +496,7 @@
       "source_icon_url": "https://www.gmsantacruz.gob.bo/images/LOGO-DEL-GAMSCS-ok-02.png",
       "url": "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=1101",
       "published_at": null,
-      "scraped_at": "2026-10-28T13:24:04-04:00",
+      "scraped_at": "2026-10-28T17:55:57-04:00",
       "department": "Santa Cruz",
       "municipality": "Santa Cruz de la Sierra",
       "city": "Santa Cruz de la Sierra",
@@ -494,7 +625,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-28T13:24:04-04:00",
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -508,7 +639,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/avanza-el-plan-nacional-de-reactivacion-de-obras-viales-abc-y-la-caf-inspeccionan-la-construccion-de-los-puentes-rio-seque-y-rio-seco-en-la-paz/",
       "published_at": null,
-      "scraped_at": "2026-10-28T13:24:04-04:00",
+      "scraped_at": "2026-10-28T17:55:57-04:00",
       "department": "La Paz",
       "municipality": "La Paz",
       "city": "La Paz",
@@ -627,7 +758,190 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-10-28T13:24:04-04:00",
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "5b1459afd55b67b3",
+      "source_id": "web_lapaz",
+      "source_name": "Gobierno Autónomo Municipal de La Paz",
+      "source_url": "https://lapaz.bo/",
+      "source_class": "web_official",
+      "source_tier": 2,
+      "source_icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+      "url": "https://lapaz.bo/",
+      "published_at": null,
+      "scraped_at": "2026-10-28T17:55:57-04:00",
+      "department": "La Paz",
+      "municipality": "La Paz",
+      "city": "La Paz",
+      "event_type": "congestion",
+      "cause": null,
+      "status": "precaucion",
+      "closure_scope": null,
+      "severity": "media",
+      "confidence": 0.87,
+      "relevance_score": 77,
+      "filter_reasons": [
+        "contexto_vial:4",
+        "evento:congestion",
+        "via_detectada:10",
+        "sector_detectado:2",
+        "terminos_viales:3",
+        "fuente_oficial_web"
+      ],
+      "title": "La Paz te Informa",
+      "description": "sarawi terror CARTA ORGANICA Conoce La Paz PARTICIPA 🡆 adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí Trameaje 2 11 Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Dockweiler pide frenar la legalización de autos chutos y advierte sobre más congestión y consumo de combustible Alcalde Dockweiler defiende el pan de batalla a Bs 0,80 y llama a evitar amedrentamiento a quienes expenden a ese precio Gobierno Municipal de La Paz apoya e impulsa al equipo boliviano de Chef’s que competirá en la International Catering Cup 2027 Alcaldía de La Paz activa evaluación integral de la gestión municipal y exige resultados verificables a todas sus instancias La Paz te Informa 28 de octubre de 2026 Dockweiler pide frenar la legalización de autos chutos y advierte sobre más congestión y consumo de combustible ... Prensa 28 de octubre de 2026 Alcalde Dockweiler defiende el pan de batalla a Bs 0,80 y llama a evitar amedrentamiento a quienes expenden a ese precio ... Prensa 28 de octubre de 2026 Gobierno Municipal de La Paz apoya e impulsa al equipo boliviano de Chef’s que competirá en la International Catering Cup 2027 ... Prensa 28 de octubre de 2026 Alcaldía de La Paz activa evaluación integral de la gestión municipal y exige resultados verificables a todas sus instancias ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av",
+      "original_text": "sarawi terror CARTA ORGANICA Conoce La Paz PARTICIPA 🡆 adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí Trameaje 2 11 Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Dockweiler pide frenar la legalización de autos chutos y advierte sobre más congestión y consumo de combustible Alcalde Dockweiler defiende el pan de batalla a Bs 0,80 y llama a evitar amedrentamiento a quienes expenden a ese precio Gobierno Municipal de La Paz apoya e impulsa al equipo boliviano de Chef’s que competirá en la International Catering Cup 2027 Alcaldía de La Paz activa evaluación integral de la gestión municipal y exige resultados verificables a todas sus instancias La Paz te Informa 28 de octubre de 2026 Dockweiler pide frenar la legalización de autos chutos y advierte sobre más congestión y consumo de combustible ... Prensa 28 de octubre de 2026 Alcalde Dockweiler defiende el pan de batalla a Bs 0,80 y llama a evitar amedrentamiento a quienes expenden a ese precio ... Prensa 28 de octubre de 2026 Gobierno Municipal de La Paz apoya e impulsa al equipo boliviano de Chef’s que competirá en la International Catering Cup 2027 ... Prensa 28 de octubre de 2026 Alcaldía de La Paz activa evaluación integral de la gestión municipal y exige resultados verificables a todas sus instancias ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av. Buenos Aires esq. Max Paredes (2) 2454553 Subalcalde: Eduardo Vargas Aliaga Ver Ubicación Subalcaldía Periférica - MD3 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2461312 Subalcalde: Walter Calixto Aranda Chipana Ver Ubicación Subalcaldía San Antonio - MD4 Av. Josefa Mujía, Zona Alto Villa San Antonio (2) 2232084 Subalcalde: Javier Giovanni Rodríguez Mendoza Ver Ubicación Subalcaldía Sur - MD5 Av. Hernando Siles No 4678, entre calles 11 y 12 de Obrajes (2) 2783631 Subalcaldesa: Carola Viviana Fortún Cabrerizo Ver Ubicación Subalcaldía Mallasa - MD6 Av. Florida, Calle 7, Mallasa (2) 2745156 Subalcaldesa: Janeth Flores Guzmán Ver Ubicación Subalcaldía Centro - MD7 Av. Tejada Sorzano esq. Av. Sucre (2) 2651055 Subalcaldesa: Isabel Vera Coca Ver Ubicación Subalcaldía Hampaturi - MD8 Av. Las Américas No 709, Villa Fátima (2) 2213587 Subalcalde: Omar Quispe Choquehuanca Ver Ubicación Subalcaldía Zongo - MD9 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2285959 Subalcalde: Ver Ubicación × Números de emergencia Contáctate a estos números ante cualquier emergencia, estamos atentos. 144 Red de Emergencias 167 Red de Ambulancias 155 Información General 156 Defensoría de la niñez Noticias de Portada Secciones La Paz Salud Sociedad Economía Cultura Deportes Fotos Videos Sitios municipales Hola soy AMI, chatea conmigo",
+      "roads": [
+        "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde",
+        "Av. Buenos Aires esq",
+        "Av. Montes y Uruguay (2) 2461312 Subalcalde",
+        "Av. Josefa Mujía",
+        "Av. Hernando Siles No 4678",
+        "Av. Florida",
+        "Av. Tejada Sorzano esq",
+        "Av. Sucre (2) 2651055 Subalcaldesa",
+        "Av. Las Américas No 709",
+        "Av. Montes y Uruguay (2) 2285959 Subalcalde"
+      ],
+      "places": [
+        "Zona Ernesto Torrez esq",
+        "Zona Alto Villa San Antonio (2) 2232084 Subalcalde"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "sarawi terror CARTA ORGANICA Conoce La P -> z PARTICIPA",
+        "adopcion mascotas Conoce L -> Paz",
+        "ADOPTA RESPONS -> BLEMENTE",
+        "turismo Conoce La Paz Ingresa aquí Trame -> je 2 11 Anterior Siguiente parqueo Contac",
+        "Conoce LA PAZ Ingresa aquí -> nterior Siguiente Últimas publicaciones",
+        "Dockweiler pide frenar la legalización de -> utos chutos y advierte sobre más congesti",
+        "y consumo de combustible Alc -> lde Dockweiler defiende el pan de batalla",
+        "y llama a evitar amedrentamiento -> quienes expenden a ese precio Gobierno Mu"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "choque",
+        "congestión",
+        "calle"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde, La Paz, Bolivia",
+      "image_urls": [
+        "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/10/terror.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+        "https://lapaz.bo/wp-content/uploads/2026/10/2-scaled.png",
+        "https://lapaz.bo/wp-content/uploads/2026/10/11-scaled.png",
+        "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/10/Portada-Chutos-e1793223253157-1024x643.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/10/PAN-DOCKWEILER-3-1-1024x738.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/10/CHEF-INTERNACIONAL-3-1024x682.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/10/FotoDireccion2-1024x682.jpeg"
+      ],
+      "video_url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
+      "video_thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
+      "video_type": "web_video",
+      "is_official": true,
+      "image_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
+      "has_image": true,
+      "has_video": true,
+      "media": {
+        "images": [
+          "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/10/terror.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+          "https://lapaz.bo/wp-content/uploads/2026/10/2-scaled.png",
+          "https://lapaz.bo/wp-content/uploads/2026/10/11-scaled.png",
+          "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/10/Portada-Chutos-e1793223253157-1024x643.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/10/PAN-DOCKWEILER-3-1-1024x738.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/10/CHEF-INTERNACIONAL-3-1024x682.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/10/FotoDireccion2-1024x682.jpeg"
+        ],
+        "main_image_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
+        "videos": [
+          {
+            "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
+            "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
+            "type": "web_video",
+            "provider": "web",
+            "use_official_embed": false,
+            "source_id": "web_lapaz"
+          }
+        ]
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "precaucion",
+          "published_at": null,
+          "source_id": "web_lapaz",
+          "source_name": "Gobierno Autónomo Municipal de La Paz",
+          "tier": 2,
+          "url": "https://lapaz.bo/"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [
+        {
+          "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
+          "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
+          "type": "web_video",
+          "provider": "web",
+          "use_official_embed": false,
+          "source_id": "web_lapaz"
+        }
+      ],
+      "sources": [
+        {
+          "id": "web_lapaz",
+          "name": "Gobierno Autónomo Municipal de La Paz",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://lapaz.bo/",
+          "post_url": "https://lapaz.bo/",
+          "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://lapaz.bo/"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_bae9ccd8c1353c",
+      "first_seen_at": "2026-10-28T17:55:57-04:00",
+      "history": [
+        {
+          "at": "2026-10-28T17:55:57-04:00",
+          "detected_at": "2026-10-28T17:55:57-04:00",
+          "reason": "primera_deteccion",
+          "status": "precaucion",
+          "lifecycle_status": "activo",
+          "severity": "media",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "Gobierno Autónomo Municipal de La Paz"
+          ],
+          "url": "https://lapaz.bo/"
+        }
+      ],
+      "lifecycle_status": "activo",
+      "is_active": true,
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -641,28 +955,28 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-10-28T13:24:04-04:00",
+      "scraped_at": "2026-10-28T17:55:57-04:00",
       "department": "La Paz",
       "municipality": "El Alto",
       "city": "Cochabamba",
-      "event_type": "obras",
+      "event_type": "desvio",
       "cause": "lluvia",
       "status": "desconocido",
       "closure_scope": null,
       "severity": "baja",
       "confidence": 0.96,
-      "relevance_score": 86,
+      "relevance_score": 90,
       "filter_reasons": [
-        "contexto_vial:11",
-        "evento:obras",
+        "contexto_vial:12",
+        "evento:desvio",
         "via_detectada:5",
         "sector_detectado:2",
-        "terminos_viales:8",
+        "terminos_viales:10",
         "fuente_oficial_web"
       ],
       "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 27/10/2026 | GOBIERNO PROMULGA DECRETO SUPREMO PARA EL FINANCIAMIENTO DE $US 95 MILLONES DE LA CAF DESTINADO A LA RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Leer nota 22/10/2026 | LA ABC INVERTIRÁ $US 150 MILLONES EN TODO EL PAÍS CON EL PLAN NACIONAL DE EMERGENCIA E IDENTIFICA EL CUMPLIMIENTO DE LA VIDA ÚTIL DEL 70% DE LA RED VIAL FUNDAMENTAL Leer nota 20/10/2026 | GOBIERNO NACIONAL INSPECCIONA Y ANUNCIA REACTIVACIÓN CON BS 75 MILLONES AL PROYECTO 8 CARRILES EN EL ALTO - LA PAZ Leer nota 19/10/2026 | EL PLAN NACIONAL DE EMERGENCIA INYECTARÁ MÁS DE BS 34,8 MILLONES EN COCHABAMBA, EN LOS TRAMOS SUTICOLLO Y SIETE CURVAS, PARA PROTEGER SUS CORREDORES ESTRATÉGICOS Leer nota 19/10/2026 | LA ABC AVANZA EN LA LICITACIÓN Y GESTIÓN SOCIAL DE LA CONSTRUCCIÓN DE LA CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA, DENTRO DEL PROGRAMA NACIONAL DE REACTIVACIÓN DE OBRAS VIALES Leer nota 14/10/2026 | AVANZA EL PLAN NACIONAL DE REACTIVACIÓN DE OBRAS VIALES: ABC Y LA CAF INSPECCIONAN LA CONSTRUCCIÓN DE LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ Leer nota 14/10/2026 | PLAN NACIONAL DE EMERGENCIA: LA ABC Y FONPLATA INSPECCIONARÁN PUNTOS CRÍTICOS EN EL TRAMO SANTA CRUZ - COMARAPA PARA INVERTIR $US 18,6 MILLONES EN LA RECONSTRUCCIÓN DE LA CARRETERA Leer nota 14/10/2026 | EL GOBIERNO NACIONAL Y EL SECTOR DE LA COSTRUCCIÓN AVANZAN EN EL MECANISMO DE REAJUSTE DE PRECIOS P",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 27/10/2026 | GOBIERNO PROMULGA DECRETO SUPREMO PARA EL FINANCIAMIENTO DE $US 95 MILLONES DE LA CAF DESTINADO A LA RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Leer nota 22/10/2026 | LA ABC INVERTIRÁ $US 150 MILLONES EN TODO EL PAÍS CON EL PLAN NACIONAL DE EMERGENCIA E IDENTIFICA EL CUMPLIMIENTO DE LA VIDA ÚTIL DEL 70% DE LA RED VIAL FUNDAMENTAL Leer nota 20/10/2026 | GOBIERNO NACIONAL INSPECCIONA Y ANUNCIA REACTIVACIÓN CON BS 75 MILLONES AL PROYECTO 8 CARRILES EN EL ALTO - LA PAZ Leer nota 19/10/2026 | EL PLAN NACIONAL DE EMERGENCIA INYECTARÁ MÁS DE BS 34,8 MILLONES EN COCHABAMBA, EN LOS TRAMOS SUTICOLLO Y SIETE CURVAS, PARA PROTEGER SUS CORREDORES ESTRATÉGICOS Leer nota 19/10/2026 | LA ABC AVANZA EN LA LICITACIÓN Y GESTIÓN SOCIAL DE LA CONSTRUCCIÓN DE LA CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA, DENTRO DEL PROGRAMA NACIONAL DE REACTIVACIÓN DE OBRAS VIALES Leer nota 14/10/2026 | AVANZA EL PLAN NACIONAL DE REACTIVACIÓN DE OBRAS VIALES: ABC Y LA CAF INSPECCIONAN LA CONSTRUCCIÓN DE LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ Leer nota 14/10/2026 | PLAN NACIONAL DE EMERGENCIA: LA ABC Y FONPLATA INSPECCIONARÁN PUNTOS CRÍTICOS EN EL TRAMO SANTA CRUZ - COMARAPA PARA INVERTIR $US 18,6 MILLONES EN LA RECONSTRUCCIÓN DE LA CARRETERA Leer nota 14/10/2026 | EL GOBIERNO NACIONAL Y EL SECTOR DE LA COSTRUCCIÓN AVANZAN EN EL MECANISMO DE REAJUSTE DE PRECIOS PARA OBRAS VIALES Leer nota 14/10/2026 | FONPLATA APRUEBA $US 75 MILLONES: EL GOBIERNO EJECUTARÁ EL PLAN NACIONAL DE EMERGENCIA EN LAS CARRETERA DE TODA BOLIVIA Leer nota Enlaces de Interes Ver todas los enlaces Transtabilidad Red Vial Fundamental-ABC EBC - Empresa Estratégica Boliviana de Construcción Ministerio de Obras Publicas Servicios y Vivienda Instituto Nacional de Estadísticas (INE) Ministerio de Gobierno Vicepresidencia del Estado Plurinacional de Bolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 28/10/2026 | Oruro LA ABC, GOBERNACIÓN Y TRANSPORTE ACUERDAN REINICIAR TRABAJOS DE SELLADO DE JUNTAS, BERMAS Y MANTENIMIENTO CONSTANTE EN EL DESVÍO PARA REACTIVAR LA DOBLE VÍA ORURO – CHALLAPATA Leer nota 27/10/2026 | GOBIERNO PROMULGA DECRETO SUPREMO PARA EL FINANCIAMIENTO DE $US 95 MILLONES DE LA CAF DESTINADO A LA RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Leer nota 22/10/2026 | LA ABC INVERTIRÁ $US 150 MILLONES EN TODO EL PAÍS CON EL PLAN NACIONAL DE EMERGENCIA E IDENTIFICA EL CUMPLIMIENTO DE LA VIDA ÚTIL DEL 70% DE LA RED VIAL FUNDAMENTAL Leer nota 20/10/2026 | GOBIERNO NACIONAL INSPECCIONA Y ANUNCIA REACTIVACIÓN CON BS 75 MILLONES AL PROYECTO 8 CARRILES EN EL ALTO - LA PAZ Leer nota 19/10/2026 | EL PLAN NACIONAL DE EMERGENCIA INYECTARÁ MÁS DE BS 34,8 MILLONES EN COCHABAMBA, EN LOS TRAMOS SUTICOLLO Y SIETE CURVAS, PARA PROTEGER SUS CORREDORES ESTRATÉGICOS Leer nota 19/10/2026 | LA ABC AVANZA EN LA LICITACIÓN Y GESTIÓN SOCIAL DE LA CONSTRUCCIÓN DE LA CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA, DENTRO DEL PROGRAMA NACIONAL DE REACTIVACIÓN DE OBRAS VIALES Leer nota 14/10/2026 | AVANZA EL PLAN NACIONAL DE REACTIVACIÓN DE OBRAS VIALES: ABC Y LA CAF INSPECCIONAN LA CONSTRUCCIÓN DE LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ Leer nota 14/10/2026 | PLAN NACIONAL DE EMERGENCIA: LA ABC Y FONPLATA INSPECCIONARÁN PUNTOS CRÍTICOS EN EL TRAMO SANTA CR",
+      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 28/10/2026 | Oruro LA ABC, GOBERNACIÓN Y TRANSPORTE ACUERDAN REINICIAR TRABAJOS DE SELLADO DE JUNTAS, BERMAS Y MANTENIMIENTO CONSTANTE EN EL DESVÍO PARA REACTIVAR LA DOBLE VÍA ORURO – CHALLAPATA Leer nota 27/10/2026 | GOBIERNO PROMULGA DECRETO SUPREMO PARA EL FINANCIAMIENTO DE $US 95 MILLONES DE LA CAF DESTINADO A LA RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Leer nota 22/10/2026 | LA ABC INVERTIRÁ $US 150 MILLONES EN TODO EL PAÍS CON EL PLAN NACIONAL DE EMERGENCIA E IDENTIFICA EL CUMPLIMIENTO DE LA VIDA ÚTIL DEL 70% DE LA RED VIAL FUNDAMENTAL Leer nota 20/10/2026 | GOBIERNO NACIONAL INSPECCIONA Y ANUNCIA REACTIVACIÓN CON BS 75 MILLONES AL PROYECTO 8 CARRILES EN EL ALTO - LA PAZ Leer nota 19/10/2026 | EL PLAN NACIONAL DE EMERGENCIA INYECTARÁ MÁS DE BS 34,8 MILLONES EN COCHABAMBA, EN LOS TRAMOS SUTICOLLO Y SIETE CURVAS, PARA PROTEGER SUS CORREDORES ESTRATÉGICOS Leer nota 19/10/2026 | LA ABC AVANZA EN LA LICITACIÓN Y GESTIÓN SOCIAL DE LA CONSTRUCCIÓN DE LA CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA, DENTRO DEL PROGRAMA NACIONAL DE REACTIVACIÓN DE OBRAS VIALES Leer nota 14/10/2026 | AVANZA EL PLAN NACIONAL DE REACTIVACIÓN DE OBRAS VIALES: ABC Y LA CAF INSPECCIONAN LA CONSTRUCCIÓN DE LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ Leer nota 14/10/2026 | PLAN NACIONAL DE EMERGENCIA: LA ABC Y FONPLATA INSPECCIONARÁN PUNTOS CRÍTICOS EN EL TRAMO SANTA CRUZ - COMARAPA PARA INVERTIR $US 18,6 MILLONES EN LA RECONSTRUCCIÓN DE LA CARRETERA Leer nota 14/10/2026 | EL GOBIERNO NACIONAL Y EL SECTOR DE LA COSTRUCCIÓN AVANZAN EN EL MECANISMO DE REAJUSTE DE PRECIOS PARA OBRAS VIALES Leer nota Enlaces de Interes Ver todas los enlaces Transtabilidad Red Vial Fundamental-ABC EBC - Empresa Estratégica Boliviana de Construcción Ministerio de Obras Publicas Servicios y Vivienda Instituto Nacional de Estadísticas (INE) Ministerio de Gobierno Vicepresidencia del Estado Plurinacional de Bolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
       "roads": [
         "Puente Sacta sufrió un colapso",
         "tramo específico dentro de la Red Vial Fundamental (RVF)",
@@ -694,9 +1008,11 @@
         "ruta",
         "puente",
         "tramo",
+        "doble vía",
         "red vial fundamental",
         "rvf",
-        "transitabilidad"
+        "transitabilidad",
+        "desvío"
       ],
       "latitude": null,
       "longitude": null,
@@ -764,42 +1080,13 @@
         "https://www.abc.gob.bo/"
       ],
       "merged_items": 2,
-      "incident_id": "inc_c1e5b941a8b0a8",
-      "first_seen_at": "2026-08-12T15:45:26-04:00",
+      "incident_id": "inc_2ada6317f3c782",
+      "first_seen_at": "2026-10-28T17:55:57-04:00",
       "history": [
         {
-          "at": "2026-08-12T15:45:26-04:00",
-          "detected_at": "2026-08-12T15:45:26-04:00",
+          "at": "2026-10-28T17:55:57-04:00",
+          "detected_at": "2026-10-28T17:55:57-04:00",
           "reason": "primera_deteccion",
-          "status": "habilitado",
-          "lifecycle_status": "finalizado",
-          "severity": "baja",
-          "closure_scope": "sin_cierre",
-          "source_count": 1,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras"
-          ],
-          "url": "https://www.abc.gob.bo/nota_prensa/la-abc-garantiza-carreteras-transitables-en-todo-el-pais-por-el-feriado-largo-y-activa-monitoreo-permanente/"
-        },
-        {
-          "at": "2026-08-27T17:03:32-04:00",
-          "detected_at": "2026-08-27T17:03:32-04:00",
-          "reason": "actualizacion",
-          "status": "precaucion",
-          "lifecycle_status": "activo",
-          "severity": "baja",
-          "closure_scope": null,
-          "source_count": 2,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras",
-            "ABC - Comunicados"
-          ],
-          "url": "https://www.abc.gob.bo/"
-        },
-        {
-          "at": "2026-09-08T16:17:20-04:00",
-          "detected_at": "2026-09-08T16:17:20-04:00",
-          "reason": "actualizacion",
           "status": "desconocido",
           "lifecycle_status": "desconocido",
           "severity": "baja",
@@ -814,9 +1101,9 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-28T13:24:04-04:00",
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
       "seen_this_run": true,
-      "history_count": 3
+      "history_count": 1
     },
     {
       "id": "164702e6daf26213",
@@ -828,7 +1115,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-avanza-en-la-licitacion-y-gestion-social-de-la-construccion-de-la-carretera-el-salto-puente-limon-en-chuquisaca-dentro-del-programa-nacional-de-reactivacion-de-obras-viales/",
       "published_at": null,
-      "scraped_at": "2026-10-28T13:24:04-04:00",
+      "scraped_at": "2026-10-28T17:55:57-04:00",
       "department": "Bolivia",
       "municipality": null,
       "city": null,
@@ -949,287 +1236,88 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-28T13:24:04-04:00",
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
     {
-      "id": "045ad58242daa568",
-      "source_id": "web_lapaz",
-      "source_name": "Gobierno Autónomo Municipal de La Paz",
-      "source_url": "https://lapaz.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
-      "url": "https://lapaz.bo/",
-      "published_at": null,
-      "scraped_at": "2026-10-28T13:24:04-04:00",
-      "department": "La Paz",
-      "municipality": "La Paz",
-      "city": "La Paz",
-      "event_type": "clima_vial",
-      "cause": "nieve_hielo",
-      "status": "precaucion",
-      "closure_scope": null,
-      "severity": "baja",
-      "confidence": 0.86,
-      "relevance_score": 73,
-      "filter_reasons": [
-        "contexto_vial:4",
-        "evento:clima_vial",
-        "via_detectada:10",
-        "sector_detectado:3",
-        "terminos_viales:3",
-        "fuente_oficial_web"
-      ],
-      "title": "La Paz te Informa",
-      "description": "sarawi terror CARTA ORGANICA Conoce La Paz PARTICIPA 🡆 adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí Trameaje 2 11 Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Alcaldía de La Paz activa evaluación integral de la gestión municipal y exige resultados verificables a todas sus instancias El GAMLP desplegará un intenso operativo de seguridad ciudadana para el control en cementerios y Halloween Alerta por nevada en La Paz: Alcaldía activa 70 brigadas ante fenómenos climáticos atípicos Alcaldía de La Paz impulsa proyectos de economía circular e innovación para enfrentar tres crisis e involucrar al sector privado La Paz te Informa 28 de octubre de 2026 Alcaldía de La Paz activa evaluación integral de la gestión municipal y exige resultados verificables a todas sus instancias ... Prensa 27 de octubre de 2026 El GAMLP desplegará un intenso operativo de seguridad ciudadana para el control en cementerios y Halloween ... Prensa 27 de octubre de 2026 Alerta por nevada en La Paz: Alcaldía activa 70 brigadas ante fenómenos climáticos atípicos ... Prensa 27 de octubre de 2026 Alcaldía de La Paz impulsa proyectos de economía circular e innovación para enfrentar tres crisis e involucrar al sector privado ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av. Buenos Aires esq. Max Paredes (2) 2454553 Subalcalde: Eduardo ",
-      "original_text": "sarawi terror CARTA ORGANICA Conoce La Paz PARTICIPA 🡆 adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí Trameaje 2 11 Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Alcaldía de La Paz activa evaluación integral de la gestión municipal y exige resultados verificables a todas sus instancias El GAMLP desplegará un intenso operativo de seguridad ciudadana para el control en cementerios y Halloween Alerta por nevada en La Paz: Alcaldía activa 70 brigadas ante fenómenos climáticos atípicos Alcaldía de La Paz impulsa proyectos de economía circular e innovación para enfrentar tres crisis e involucrar al sector privado La Paz te Informa 28 de octubre de 2026 Alcaldía de La Paz activa evaluación integral de la gestión municipal y exige resultados verificables a todas sus instancias ... Prensa 27 de octubre de 2026 El GAMLP desplegará un intenso operativo de seguridad ciudadana para el control en cementerios y Halloween ... Prensa 27 de octubre de 2026 Alerta por nevada en La Paz: Alcaldía activa 70 brigadas ante fenómenos climáticos atípicos ... Prensa 27 de octubre de 2026 Alcaldía de La Paz impulsa proyectos de economía circular e innovación para enfrentar tres crisis e involucrar al sector privado ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av. Buenos Aires esq. Max Paredes (2) 2454553 Subalcalde: Eduardo Vargas Aliaga Ver Ubicación Subalcaldía Periférica - MD3 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2461312 Subalcalde: Walter Calixto Aranda Chipana Ver Ubicación Subalcaldía San Antonio - MD4 Av. Josefa Mujía, Zona Alto Villa San Antonio (2) 2232084 Subalcalde: Javier Giovanni Rodríguez Mendoza Ver Ubicación Subalcaldía Sur - MD5 Av. Hernando Siles No 4678, entre calles 11 y 12 de Obrajes (2) 2783631 Subalcaldesa: Carola Viviana Fortún Cabrerizo Ver Ubicación Subalcaldía Mallasa - MD6 Av. Florida, Calle 7, Mallasa (2) 2745156 Subalcaldesa: Janeth Flores Guzmán Ver Ubicación Subalcaldía Centro - MD7 Av. Tejada Sorzano esq. Av. Sucre (2) 2651055 Subalcaldesa: Isabel Vera Coca Ver Ubicación Subalcaldía Hampaturi - MD8 Av. Las Américas No 709, Villa Fátima (2) 2213587 Subalcalde: Omar Quispe Choquehuanca Ver Ubicación Subalcaldía Zongo - MD9 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2285959 Subalcalde: Ver Ubicación × Números de emergencia Contáctate a estos números ante cualquier emergencia, estamos atentos. 144 Red de Emergencias 167 Red de Ambulancias 155 Información General 156 Defensoría de la niñez Noticias de Portada Secciones La Paz Salud Sociedad Economía Cultura Deportes Fotos Videos Sitios municipales Hola soy AMI, chatea conmigo",
-      "roads": [
-        "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde",
-        "Av. Buenos Aires esq",
-        "Av. Montes y Uruguay (2) 2461312 Subalcalde",
-        "Av. Josefa Mujía",
-        "Av. Hernando Siles No 4678",
-        "Av. Florida",
-        "Av. Tejada Sorzano esq",
-        "Av. Sucre (2) 2651055 Subalcaldesa",
-        "Av. Las Américas No 709",
-        "Av. Montes y Uruguay (2) 2285959 Subalcalde"
-      ],
-      "places": [
-        "sector privado",
-        "Zona Ernesto Torrez esq",
-        "Zona Alto Villa San Antonio (2) 2232084 Subalcalde"
-      ],
-      "kilometer_mentions": [],
-      "directions": [
-        "sarawi terror CARTA ORGANICA Conoce La P -> z PARTICIPA",
-        "adopcion mascotas Conoce L -> Paz",
-        "ADOPTA RESPONS -> BLEMENTE",
-        "turismo Conoce La Paz Ingresa aquí Trame -> je 2 11 Anterior Siguiente parqueo Contac",
-        "Conoce LA PAZ Ingresa aquí -> nterior Siguiente Últimas publicaciones",
-        "Alcaldía de La Paz activa evalu -> ción integral de la gestión municipal y e",
-        "resultados verificables a todas sus inst -> ncias El GAMLP desplegará un intenso oper",
-        "de seguridad ciudadana par -> el control en cementerios y Halloween Ale"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "choque",
-        "nevada",
-        "calle"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde, La Paz, Bolivia",
-      "image_urls": [
-        "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/terror.jpeg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
-        "https://lapaz.bo/wp-content/uploads/2026/10/2-scaled.png",
-        "https://lapaz.bo/wp-content/uploads/2026/10/11-scaled.png",
-        "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/FotoDireccion2-1024x682.jpeg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/SEGURIDAD-CEMENTERIO-1-1024x682.jpeg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/NevadaPortada-1024x682.jpeg",
-        "https://lapaz.bo/wp-content/uploads/2026/10/ECONOMIA-CIRCULAR-2-1024x637.jpeg"
-      ],
-      "video_url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
-      "video_thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
-      "video_type": "web_video",
-      "is_official": true,
-      "image_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
-      "has_image": true,
-      "has_video": true,
-      "media": {
-        "images": [
-          "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/terror.jpeg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
-          "https://lapaz.bo/wp-content/uploads/2026/10/2-scaled.png",
-          "https://lapaz.bo/wp-content/uploads/2026/10/11-scaled.png",
-          "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/FotoDireccion2-1024x682.jpeg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/SEGURIDAD-CEMENTERIO-1-1024x682.jpeg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/NevadaPortada-1024x682.jpeg",
-          "https://lapaz.bo/wp-content/uploads/2026/10/ECONOMIA-CIRCULAR-2-1024x637.jpeg"
-        ],
-        "main_image_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
-        "videos": [
-          {
-            "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
-            "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
-            "type": "web_video",
-            "provider": "web",
-            "use_official_embed": false,
-            "source_id": "web_lapaz"
-          }
-        ]
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "precaucion",
-          "published_at": null,
-          "source_id": "web_lapaz",
-          "source_name": "Gobierno Autónomo Municipal de La Paz",
-          "tier": 2,
-          "url": "https://lapaz.bo/"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [
-        {
-          "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
-          "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/sarawi.jpg",
-          "type": "web_video",
-          "provider": "web",
-          "use_official_embed": false,
-          "source_id": "web_lapaz"
-        }
-      ],
-      "sources": [
-        {
-          "id": "web_lapaz",
-          "name": "Gobierno Autónomo Municipal de La Paz",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://lapaz.bo/",
-          "post_url": "https://lapaz.bo/",
-          "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://lapaz.bo/"
-      ],
-      "merged_items": 1,
-      "incident_id": "inc_dafbdc89b60bef",
-      "first_seen_at": "2026-10-28T01:33:40-04:00",
-      "history": [
-        {
-          "at": "2026-10-28T01:33:40-04:00",
-          "detected_at": "2026-10-28T01:33:40-04:00",
-          "reason": "primera_deteccion",
-          "status": "precaucion",
-          "lifecycle_status": "activo",
-          "severity": "baja",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "Gobierno Autónomo Municipal de La Paz"
-          ],
-          "url": "https://lapaz.bo/"
-        }
-      ],
-      "lifecycle_status": "activo",
-      "is_active": true,
-      "last_seen_at": "2026-10-28T13:24:04-04:00",
-      "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "5616661b31451edd",
-      "source_id": "fb_gobernacion_lapaz",
-      "source_name": "Gobierno Autónomo Departamental de La Paz",
-      "source_url": "https://www.facebook.com/gobernaciondelapaz/",
+      "id": "f81123c745f04bf8",
+      "source_id": "fb_abc",
+      "source_name": "ABC Carreteras Bolivia",
+      "source_url": "https://www.facebook.com/CarreterasBo/",
       "source_class": "facebook_official",
       "source_tier": 1,
-      "source_icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oFPG8jgXcjsQ7kNvwFL7EJq&_nc_oc=AdqnHbuhdOSP5T4yg9K-X05cQ-dpSE9mRVHwikcQsVK_VNMvcXGSwMDjuoxPt7OBl14&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=kDZhVFBAMrDSuygbIWbbwQ&_nc_ss=7f289&oh=00_AQS5vEP-qE5NMx2kuUccjjASfflkq_nOpzfPh6AdQ-ZkQA&oe=6AE800F8",
-      "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0C5UG9UJ5zkmszszyFLh87qbk3pDvz1sJ5Ja92Jj528TjbC1G5bKmRGjijk3oYLj2l?__cft__[0]=AZi-suPiyQ12F4SctNuFsDDAGLVkQ7LMMC9UTcl2HMSYZA83bYCMQY2vLk2LXf6mbcH4rJVdIABUDFag66R85NxrT0Y1mPRLNVXTVugCDmp7JfujGZPvtfgS1g_hYO-3-Um__80EGNOfYMkc2ZRF95f_e0FmLdpkwdgk-yPHvOdcKXeJkNlC4vHmtis&__tn__=%2CO%2CP-R",
+      "source_icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I5yA6hjWoGYQ7kNvwGYP4Y6&_nc_oc=Adr8mwmRRykucFBFh3qJ5Q8kh12dzAeA3fQpYcensssKjBThD49Qexh8lwhKgskDG10&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9DGDhj1fY2Udb3YOGTC_Rg&_nc_ss=7f289&oh=00_AQQfBUCilwoWxKHXhtqdBSCFu0HGUYRCIcq6uUVdRLJA4g&oe=6AE83158",
+      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0WXqd1pTCx3A2c9qjkGqUfJ6pQ9bhyySwmGPJDWdm8kuaUcqfX7hkocheZv1XDMEjl?comment_id=1846076193099259&__cft__[0]=AZjA8jusYUJq69OQwy-8eXz7D1XTxrS0BRyfRz2LXVRCN0wyPBQ6Qirr5VyekafBYtaLZXoZa39LeyUswf-dWMtw_ox_mksnSLf4mnhOMMHoWd0QOBE52N4lZN_T_mpD4rvQReu7PlVSbijDxFM4bIJhKrkLytTaaI3gPIFD2CIFNInBzryVXFD1fCo&__tn__=R-R",
       "published_at": null,
-      "scraped_at": "2026-10-28T13:24:04-04:00",
-      "department": "La Paz",
-      "municipality": "La Paz",
-      "city": "La Paz",
+      "scraped_at": "2026-10-28T17:55:57-04:00",
+      "department": "Cochabamba",
+      "municipality": "Villa Tunari",
+      "city": "Cochabamba",
       "event_type": "otro",
-      "cause": "protesta_bloqueo",
+      "cause": "lluvia",
       "status": "desconocido",
       "closure_scope": null,
       "severity": "baja",
       "confidence": 0.85,
-      "relevance_score": 56,
+      "relevance_score": 59,
       "filter_reasons": [
-        "contexto_vial:4",
-        "via_detectada:8",
-        "sector_detectado:2",
+        "contexto_vial:8",
+        "via_detectada:4",
         "terminos_viales:4",
         "fuente_oficial_facebook"
       ],
-      "title": "Gobierno Autónomo Departamental de La Paz",
-      "description": "Gobernación compromete ítems de salud y tanques de agua para Tito Yupanqui y anuncia su incorporación a la Ruta 8 La Gobernación de La Paz prevé atender este año las demandas de ítems para el... Gobernación compromete ítems de salud y tanques de agua para Tito Yupanqui y anuncia su incorporación a la Ruta 8 La Gobernación de La Paz prevé... Gobernación compromete ítems de salud y tanques de agua para Tito Yupanqui y anuncia su incorporación a la Ruta 8 La Gobernación de La Paz prevé atender este año las demandas de ítems para el centro de salud y la dotación de tanques de agua en el municipio de Tito Yupanqui. Además, el gobernador Luis Revilla anunció que en 2027 se gestionará la incorporación de este municipio a la Ruta 8 y la construcción del puente Cajones, en la comunidad de Huatapampa. Los compromisos fueron anunciados durante la visita de la autoridad al municipio de la provincia de Manco Kapac, en respuesta a las necesidades planteadas por la alcaldesa Martha Ramos y las autoridades locales en una reunión previa efectuada en La Paz. En temas de salud, Revilla aseguró que la asignación de ítems se resolverá este mes. Respecto a los tanques de agua, señaló que la Gobernación ya verificó los requerimientos y que su entrega puede concretarse durante esta gestión, previa coordinación con el gobierno municipal. Uno de los anuncios centrales fue la ampliación de la Ruta 8 para que la carretera llegue hasta Tito Yupanqui. Según explicó el gobernador, se prevé gestionar la incorporación de este tramo mediante el reformulado presupuestario de septiembre, con miras a su ejecución en 2027. “Ese contrato lo ampliaremos de una vez hasta aquí Tito Yupanqui”, afirmó Revilla, al referirse a la posibilidad de extender el proyecto vial hasta el municipio. Para el próximo año también se prevé avanzar con el puente Cajones, en Huatapampa, cuyo proyecto ya cuenta con un Estudio de Diseño Técnico de Preinversión (EDTP). La autoridad indicó que se buscará incluirlo en el reformulado presupuestario de febrero para viabilizar su ejecución. Revilla señaló que otras propuestas presentadas por la alcaldesa, relacionadas principalmente con proyectos de riego, deberán pasar por una revisión técnica y de precios antes de definir su programación. También se refirió al tramo Chiquipata–Huatapampa–Huaquipa, cuyo proyecto “antes de ejecutarlo, primero se tiene que declarar ruta departamental. Aquí nuestros hermanos asambleístas nos van a ayudar para hacer ese trámite en la asamblea departamental”, dijo. Asimismo, se debe elaborar de los estudios que permitan establecer el costo de la obra. “Hay proyectos que podemos hacer ahora, otros al año, pero tenemos que ejecutar todos en los cinco años”, sostuvo el gobernador, quien pidió a las autoridades municipales mantener el seguimiento a los compromisos asumidos. La visita forma parte del recorrido que Revilla realiza por los municipios del departamento, con el compromiso de visitar cada uno al menos una vez cada gestión para evaluar sus necesidades y coordinar la ejecución de proyectos. #UnidosNadaNosDetiene #LaPazDepartamentoMaravilloso #RevillaGobernador Gobernación compromete ítems de salud y tanques de agua para Tito Yupanqui y anuncia su incorporación a la Ruta 8 La Gobernación de La Paz prevé atender este año las demandas de ítems para el centro de salud y la dotación de tanques de agua en el municipio de Tito Yupanqui. Además, el gobernador Luis Revilla anunció que en 2027 se gestionará la incorporación de este municipio a la Ruta 8 y la construcción del puente Cajones, en la comunidad de Huatapampa. Los compromisos fueron anunciados durante la visita de la autoridad al municipio de la provincia de Manco Kapac, en respuesta a las necesidades planteadas por la alcaldesa Martha Ramos y las autoridades locales en una reunión previa efectuada en La Paz. En temas de salud, Revilla aseguró que la asignación de ítems se resolverá este mes. Respecto a los tanques de agua, señaló que la Gobernación ya verificó los requerimientos y que su entrega puede concretarse durante esta gestión, previa coordinación con el gobierno municipal. Uno de los anuncios centrales fue la ampliación de la Ruta 8 para que la carretera llegue hasta Tito Yupanqui. Según explicó el gobernador, se prevé gestionar la incorporación de este tramo mediante el reformulado presupuestario de septiembre, con miras a su ejecución en 2027. “Ese contrato lo ampliaremos de una vez hasta aquí Tito Yupanqui”, afirmó Revilla, al referirse a la posibilidad de extender el proyecto vial hasta el municipio. Para el próximo año también se prevé avanzar con el puente Cajones, en Huatapampa, cuyo proyecto ya cuenta con un Estudio de Diseño Técnico de Preinversión (EDTP). La autoridad indicó que se buscará incluirlo en el reformulado presupuestario de febrero para viabilizar su ejecución. Revilla señaló que otras propuestas presentadas por la alcaldesa, relacionadas principalmente con proyectos de riego, deberán pasar por una revisión técn",
-      "original_text": "Gobernación compromete ítems de salud y tanques de agua para Tito Yupanqui y anuncia su incorporación a la Ruta 8 La Gobernación de La Paz prevé atender este año las demandas de ítems para el... Gobernación compromete ítems de salud y tanques de agua para Tito Yupanqui y anuncia su incorporación a la Ruta 8 La Gobernación de La Paz prevé... Gobernación compromete ítems de salud y tanques de agua para Tito Yupanqui y anuncia su incorporación a la Ruta 8 La Gobernación de La Paz prevé atender este año las demandas de ítems para el centro de salud y la dotación de tanques de agua en el municipio de Tito Yupanqui. Además, el gobernador Luis Revilla anunció que en 2027 se gestionará la incorporación de este municipio a la Ruta 8 y la construcción del puente Cajones, en la comunidad de Huatapampa. Los compromisos fueron anunciados durante la visita de la autoridad al municipio de la provincia de Manco Kapac, en respuesta a las necesidades planteadas por la alcaldesa Martha Ramos y las autoridades locales en una reunión previa efectuada en La Paz. En temas de salud, Revilla aseguró que la asignación de ítems se resolverá este mes. Respecto a los tanques de agua, señaló que la Gobernación ya verificó los requerimientos y que su entrega puede concretarse durante esta gestión, previa coordinación con el gobierno municipal. Uno de los anuncios centrales fue la ampliación de la Ruta 8 para que la carretera llegue hasta Tito Yupanqui. Según explicó el gobernador, se prevé gestionar la incorporación de este tramo mediante el reformulado presupuestario de septiembre, con miras a su ejecución en 2027. “Ese contrato lo ampliaremos de una vez hasta aquí Tito Yupanqui”, afirmó Revilla, al referirse a la posibilidad de extender el proyecto vial hasta el municipio. Para el próximo año también se prevé avanzar con el puente Cajones, en Huatapampa, cuyo proyecto ya cuenta con un Estudio de Diseño Técnico de Preinversión (EDTP). La autoridad indicó que se buscará incluirlo en el reformulado presupuestario de febrero para viabilizar su ejecución. Revilla señaló que otras propuestas presentadas por la alcaldesa, relacionadas principalmente con proyectos de riego, deberán pasar por una revisión técnica y de precios antes de definir su programación. También se refirió al tramo Chiquipata–Huatapampa–Huaquipa, cuyo proyecto “antes de ejecutarlo, primero se tiene que declarar ruta departamental. Aquí nuestros hermanos asambleístas nos van a ayudar para hacer ese trámite en la asamblea departamental”, dijo. Asimismo, se debe elaborar de los estudios que permitan establecer el costo de la obra. “Hay proyectos que podemos hacer ahora, otros al año, pero tenemos que ejecutar todos en los cinco años”, sostuvo el gobernador, quien pidió a las autoridades municipales mantener el seguimiento a los compromisos asumidos. La visita forma parte del recorrido que Revilla realiza por los municipios del departamento, con el compromiso de visitar cada uno al menos una vez cada gestión para evaluar sus necesidades y coordinar la ejecución de proyectos. #UnidosNadaNosDetiene #LaPazDepartamentoMaravilloso #RevillaGobernador Gobernación compromete ítems de salud y tanques de agua para Tito Yupanqui y anuncia su incorporación a la Ruta 8 La Gobernación de La Paz prevé atender este año las demandas de ítems para el centro de salud y la dotación de tanques de agua en el municipio de Tito Yupanqui. Además, el gobernador Luis Revilla anunció que en 2027 se gestionará la incorporación de este municipio a la Ruta 8 y la construcción del puente Cajones, en la comunidad de Huatapampa. Los compromisos fueron anunciados durante la visita de la autoridad al municipio de la provincia de Manco Kapac, en respuesta a las necesidades planteadas por la alcaldesa Martha Ramos y las autoridades locales en una reunión previa efectuada en La Paz. En temas de salud, Revilla aseguró que la asignación de ítems se resolverá este mes. Respecto a los tanques de agua, señaló que la Gobernación ya verificó los requerimientos y que su entrega puede concretarse durante esta gestión, previa coordinación con el gobierno municipal. Uno de los anuncios centrales fue la ampliación de la Ruta 8 para que la carretera llegue hasta Tito Yupanqui. Según explicó el gobernador, se prevé gestionar la incorporación de este tramo mediante el reformulado presupuestario de septiembre, con miras a su ejecución en 2027. “Ese contrato lo ampliaremos de una vez hasta aquí Tito Yupanqui”, afirmó Revilla, al referirse a la posibilidad de extender el proyecto vial hasta el municipio. Para el próximo año también se prevé avanzar con el puente Cajones, en Huatapampa, cuyo proyecto ya cuenta con un Estudio de Diseño Técnico de Preinversión (EDTP). La autoridad indicó que se buscará incluirlo en el reformulado presupuestario de febrero para viabilizar su ejecución. Revilla señaló que otras propuestas presentadas por la alcaldesa, relacionadas principalmente con proyectos de riego, deberán pasar por una revisión técnica y de precios antes de definir su programación. También se refirió al tramo Chiquipata–Huatapampa–Huaquipa, cuyo proyecto “antes de ejecutarlo, primero se tiene que declarar ruta departamental. Aquí nuestros hermanos asambleístas nos van a ayudar para hacer ese trámite en la asamblea departamental”, dijo. Asimismo, se debe elaborar de los estudios que permitan establecer el costo de la obra. “Hay proyectos que podemos hacer ahora, otros al año, pero tenemos que ejecutar todos en los cinco años”, sostuvo el gobernador, quien pidió a las autoridades municipales mantener el seguimiento a los compromisos asumidos. La visita forma parte del recorrido que Revilla realiza por los municipios del departamento, con el compromiso de visitar cada uno al menos una vez cada gestión para evaluar sus necesidades y coordinar la ejecución de proyectos. #UnidosNadaNosDetiene #LaPazDepartamentoMaravilloso #RevillaGobernador",
+      "title": "Gut Jeferson comentó: Una vez cada 10 años.. Muy bien",
+      "description": "ABC EJECUTA SELLO ASFÁLTICO EN CALIENTE EN EL TRAMO VILLA TUNARI – ICHILO PARA PRESERVAR LA CARRETERA NUEVA COCHABAMBA – SANTA CRUZ Con el propósito de... ABC EJECUTA SELLO ASFÁLTICO EN CALIENTE EN EL TRAMO VILLA TUNARI – ICHILO PARA PRESERVAR LA CARRETERA NUEVA COCHABAMBA – SANTA CRUZ Con el propósito de resguardar la infraestructura carretera y fortalecer la conectividad en el eje central del país, la Administradora Boliviana de Carreteras (ABC), ejecutó trabajos de sello con mezcla asfáltica en caliente en el tramo Villa Tunari – Ichilo, perteneciente a la carretera nueva Cochabamba – Santa Cruz, ante la temporada de lluvias. La intervención técnica se focaliza en corregir sectores con deterioro superficial para impermeabilizar la calzada, restaurar las condiciones óptimas de la capa de rodadura y prolongar la vida útil de la plataforma ante el flujo vehicular intensivo. Estas tareas preventivas forman parte del Plan de Conservación Vial y benefician directamente al transporte pesado, de pasajeros y vehículos particulares que transitan por este estratégico corredor interdepartamental. Frente al despliegue operativo en la ruta, la estatal caminera y el Ministerio de Obras Públicas, Servicios y Vivienda exhorta a los conductores a transitar con moderación por los sectores intervenidos, respetar la señalización preventiva desplegada y acatar las instrucciones del personal de conservación vial para prevenir cualquier eventualidad en carretera. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ABC EJECUTA SELLO ASFÁLTICO EN CALIENTE EN EL TRAMO VILLA TUNARI – ICHILO PARA PRESERVAR LA CARRETERA NUEVA COCHABAMBA – SANTA CRUZ Con el propósito de resguardar la infraestructura carretera y fortalecer la conectividad en el eje central del país, la Administradora Boliviana de Carreteras (ABC), ejecutó trabajos de sello con mezcla asfáltica en caliente en el tramo Villa Tunari – Ichilo, perteneciente a la carretera nueva Cochabamba – Santa Cruz, ante la temporada de lluvias. La intervención técnica se focaliza en corregir sectores con deterioro superficial para impermeabilizar la calzada, restaurar las condiciones óptimas de la capa de rodadura y prolongar la vida útil de la plataforma ante el flujo vehicular intensivo. Estas tareas preventivas forman parte del Plan de Conservación Vial y benefician directamente al transporte pesado, de pasajeros y vehículos particulares que transitan por este estratégico corredor interdepartamental. Frente al despliegue operativo en la ruta, la estatal caminera y el Ministerio de Obras Públicas, Servicios y Vivienda exhorta a los conductores a transitar con moderación por los sectores intervenidos, respetar la señalización preventiva desplegada y acatar las instrucciones del personal de conservación vial para prevenir cualquier eventualidad en carretera. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia Una vez cada 10 años.. Muy bien",
+      "original_text": "ABC EJECUTA SELLO ASFÁLTICO EN CALIENTE EN EL TRAMO VILLA TUNARI – ICHILO PARA PRESERVAR LA CARRETERA NUEVA COCHABAMBA – SANTA CRUZ Con el propósito de... ABC EJECUTA SELLO ASFÁLTICO EN CALIENTE EN EL TRAMO VILLA TUNARI – ICHILO PARA PRESERVAR LA CARRETERA NUEVA COCHABAMBA – SANTA CRUZ Con el propósito de resguardar la infraestructura carretera y fortalecer la conectividad en el eje central del país, la Administradora Boliviana de Carreteras (ABC), ejecutó trabajos de sello con mezcla asfáltica en caliente en el tramo Villa Tunari – Ichilo, perteneciente a la carretera nueva Cochabamba – Santa Cruz, ante la temporada de lluvias. La intervención técnica se focaliza en corregir sectores con deterioro superficial para impermeabilizar la calzada, restaurar las condiciones óptimas de la capa de rodadura y prolongar la vida útil de la plataforma ante el flujo vehicular intensivo. Estas tareas preventivas forman parte del Plan de Conservación Vial y benefician directamente al transporte pesado, de pasajeros y vehículos particulares que transitan por este estratégico corredor interdepartamental. Frente al despliegue operativo en la ruta, la estatal caminera y el Ministerio de Obras Públicas, Servicios y Vivienda exhorta a los conductores a transitar con moderación por los sectores intervenidos, respetar la señalización preventiva desplegada y acatar las instrucciones del personal de conservación vial para prevenir cualquier eventualidad en carretera. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ABC EJECUTA SELLO ASFÁLTICO EN CALIENTE EN EL TRAMO VILLA TUNARI – ICHILO PARA PRESERVAR LA CARRETERA NUEVA COCHABAMBA – SANTA CRUZ Con el propósito de resguardar la infraestructura carretera y fortalecer la conectividad en el eje central del país, la Administradora Boliviana de Carreteras (ABC), ejecutó trabajos de sello con mezcla asfáltica en caliente en el tramo Villa Tunari – Ichilo, perteneciente a la carretera nueva Cochabamba – Santa Cruz, ante la temporada de lluvias. La intervención técnica se focaliza en corregir sectores con deterioro superficial para impermeabilizar la calzada, restaurar las condiciones óptimas de la capa de rodadura y prolongar la vida útil de la plataforma ante el flujo vehicular intensivo. Estas tareas preventivas forman parte del Plan de Conservación Vial y benefician directamente al transporte pesado, de pasajeros y vehículos particulares que transitan por este estratégico corredor interdepartamental. Frente al despliegue operativo en la ruta, la estatal caminera y el Ministerio de Obras Públicas, Servicios y Vivienda exhorta a los conductores a transitar con moderación por los sectores intervenidos, respetar la señalización preventiva desplegada y acatar las instrucciones del personal de conservación vial para prevenir cualquier eventualidad en carretera. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia Una vez cada 10 años.. Muy bien",
       "roads": [
-        "Ruta 8 La Gobernación de La Paz prevé atender este año las demandas de ítems para el",
-        "Ruta 8 La Gobernación de La Paz prevé",
-        "Ruta 8 y la construcción del puente Cajones",
-        "Ruta 8 para que la carretera llegue",
-        "tramo mediante el reformulado presupuestario de septiembre",
-        "puente Cajones",
-        "tramo Chiquipata–Huatapampa–Huaquipa",
-        "ruta departamental"
+        "TRAMO VILLA TUNARI – ICHILO PARA PRESERVAR LA CARRETERA NUEVA COCHABAMBA – SANTA CRUZ Con el propósito de",
+        "CARRETERA NUEVA COCHABAMBA – SANTA CRUZ Con el propósito de resguardar la infraestructura carretera y fortalecer la conectividad en el eje central del país",
+        "tramo Villa Tunari – Ichilo",
+        "carretera nueva Cochabamba – Santa Cruz"
       ],
-      "places": [
-        "puente Cajones",
-        "comunidad de Huatapampa"
-      ],
+      "places": [],
       "kilometer_mentions": [],
       "directions": [
-        "Gobernación compromete ítems de salud y t -> nques de agua para Tito Yupanqui y anunci",
-        "su incorporación a la Ruta 8 La Gobern -> ción de La Paz prevé atender este año las",
-        "demandas de ítems para el... Gobern -> ción compromete ítems de salud y tanques",
-        "de agua para Tito Yupanqui y anunci -> su incorporación a la Ruta 8 La Gobernaci",
-        "de La Paz prevé... Gobern -> ción compromete ítems de salud y tanques",
-        "de La Paz prevé atender este año las dem -> ndas de ítems para el centro de salud y l",
-        "dotación de tanques de agu -> en el municipio de Tito Yupanqui. Además",
-        "el gobernador Luis Revilla -> nunció que en 2027 se gestionará la incor"
+        "ABC EJECUTA SELLO ASFÁLTICO EN C -> LIENTE EN EL TRAMO VILLA TUNARI",
+        "ICHILO PARA PRESERVAR LA CARRETERA NUEV -> COCHABAMBA",
+        "SANTA CRUZ Con el propósito de... -> BC EJECUTA SELLO ASFÁLTICO EN CALIENTE EN",
+        "EL TRAMO VILLA TUN -> RI",
+        "SANTA CRUZ Con el propósito de resguard -> r la infraestructura carretera y fortalec",
+        "la conectividad en el eje centr -> l del país",
+        "la Administradora Boliviana de C -> rreteras",
+        "ejecutó trabajos de sello con mezcla -> sfáltica en caliente en el tramo Villa Tu"
       ],
       "alternative_routes": [],
-      "affected_vehicles": [],
+      "affected_vehicles": [
+        "transporte_pesado",
+        "particulares"
+      ],
       "time_mentions": [],
       "keywords": [
+        "flujo vehicular",
         "carretera",
         "ruta",
-        "puente",
         "tramo"
       ],
       "latitude": null,
       "longitude": null,
-      "location_query": "Ruta 8 La Gobernación de La Paz prevé atender este año las demandas de ítems para el, La Paz, Bolivia",
+      "location_query": "TRAMO VILLA TUNARI – ICHILO PARA PRESERVAR LA CARRETERA NUEVA COCHABAMBA – SANTA CRUZ Con el propósito de, Villa Tunari, Cochabamba, Bolivia",
       "image_urls": [
-        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/867599115_1044611028633571_6156846843689016812_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=XY2TZObgmG4Q7kNvwHGOilp&_nc_oc=AdqokpeEK3ZG9_c81QcqjiWZIKmZCNrpc8b0t0obrX2XGAkAdG6_wYvB61iHSPjw9MQ&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=UgM3tUSJQnM0Al_PilDqgQ&_nc_ss=7f289&oh=00_AQR6qHvI5Q9Uh-NkADQzCVVYArDlLRrmUYpQmBgfCOjctg&oe=6AE806DF",
-        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/867599115_1044611028633571_6156846843689016812_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XY2TZObgmG4Q7kNvwHGOilp&_nc_oc=AdqokpeEK3ZG9_c81QcqjiWZIKmZCNrpc8b0t0obrX2XGAkAdG6_wYvB61iHSPjw9MQ&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQScTPFP0-fHzNwLbH7n71X67ROTa7G3ARxjwp4nBXVIDw&oe=6AE806DF",
-        "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/865990554_1486880199926658_1793636836113268045_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Mzx0fSVWPNYQ7kNvwEd8Mej&_nc_oc=AdoD1_DqQojQ3fYZvRfBgbvQvYFSgejwLS-LCWfh05j96zFuTSwYBndr7R7_vrr-okI&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQQI2kwzEhj2myj7SCXObqcxoArT8SKzCSw9J9JNKPhx2w&oe=6AE81001",
-        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/866164711_1664245391893188_3759644013152426076_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ugb1j3y1augQ7kNvwHee4n7&_nc_oc=AdrHjBON0oEIONws_anWpEomIoU-UhPBAQughI20mWEFknvdy5K0iH2MJMu5EHKsafc&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQQTI1RwYPJP60x2TVBgALkn8NXqR9LQxn1T0o1Ea81lFQ&oe=6AE80057",
-        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/864787914_1090888670237577_5258046011089941586_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=TejXlrp-fuYQ7kNvwHCrKh8&_nc_oc=AdrA-DeH15g5XnWOMJZrPNatpaFi0mwARss220GkNeUOL9zRgJ4B6BlWqLUja-skb2M&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQQxIJmqq0lC_UIsL5V4sdA6fSiEqeRARHmxeRESrRcSjw&oe=6AE80CEB",
-        "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/867970333_1737159240691806_5743803154260029355_n.png?stp=dst-jpg_tt6&cstp=mx1067x1600&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=l0jKnEWfbSIQ7kNvwFS8vGF&_nc_oc=AdokrFXESw9j0IBy5yg1ozEJ_nzYjMeQNDZM355Wvi2mjOgGT2F7dDFLGv6X0Q6i39g&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQTZwJ5IjhU_EzIw8axLIC6wCh1JqJbuTGKHXULqCqiC7Q&oe=6AE80EEB"
+        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/869053864_1758020201944723_1598261450550809197_n.png?stp=dst-jpg_tt6&cstp=mx1155x667&ctp=p600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=dX_e13rWmUoQ7kNvwFz1fgD&_nc_oc=AdpEwyFULVAG-zmQFuA-ajN7XHtbP9WB8gTGvbDTO4gOVtjGbs00jBbm0Yq-rioksG0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Pujmk21n-wV7HiHJwwrAHA&_nc_ss=7f289&oh=00_AQRY-No3F0AU25jHrnMID4F__pamzoyQ8JHezA8yttgzZQ&oe=6AE8329E"
       ],
       "video_url": null,
       "video_thumbnail_url": null,
       "video_type": null,
       "is_official": true,
-      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/867599115_1044611028633571_6156846843689016812_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=XY2TZObgmG4Q7kNvwHGOilp&_nc_oc=AdqokpeEK3ZG9_c81QcqjiWZIKmZCNrpc8b0t0obrX2XGAkAdG6_wYvB61iHSPjw9MQ&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=UgM3tUSJQnM0Al_PilDqgQ&_nc_ss=7f289&oh=00_AQR6qHvI5Q9Uh-NkADQzCVVYArDlLRrmUYpQmBgfCOjctg&oe=6AE806DF",
+      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/869053864_1758020201944723_1598261450550809197_n.png?stp=dst-jpg_tt6&cstp=mx1155x667&ctp=p600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=dX_e13rWmUoQ7kNvwFz1fgD&_nc_oc=AdpEwyFULVAG-zmQFuA-ajN7XHtbP9WB8gTGvbDTO4gOVtjGbs00jBbm0Yq-rioksG0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Pujmk21n-wV7HiHJwwrAHA&_nc_ss=7f289&oh=00_AQRY-No3F0AU25jHrnMID4F__pamzoyQ8JHezA8yttgzZQ&oe=6AE8329E",
       "has_image": true,
       "has_video": false,
       "media": {
         "images": [
-          "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/867599115_1044611028633571_6156846843689016812_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=XY2TZObgmG4Q7kNvwHGOilp&_nc_oc=AdqokpeEK3ZG9_c81QcqjiWZIKmZCNrpc8b0t0obrX2XGAkAdG6_wYvB61iHSPjw9MQ&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=UgM3tUSJQnM0Al_PilDqgQ&_nc_ss=7f289&oh=00_AQR6qHvI5Q9Uh-NkADQzCVVYArDlLRrmUYpQmBgfCOjctg&oe=6AE806DF",
-          "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/867599115_1044611028633571_6156846843689016812_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XY2TZObgmG4Q7kNvwHGOilp&_nc_oc=AdqokpeEK3ZG9_c81QcqjiWZIKmZCNrpc8b0t0obrX2XGAkAdG6_wYvB61iHSPjw9MQ&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQScTPFP0-fHzNwLbH7n71X67ROTa7G3ARxjwp4nBXVIDw&oe=6AE806DF",
-          "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/865990554_1486880199926658_1793636836113268045_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Mzx0fSVWPNYQ7kNvwEd8Mej&_nc_oc=AdoD1_DqQojQ3fYZvRfBgbvQvYFSgejwLS-LCWfh05j96zFuTSwYBndr7R7_vrr-okI&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQQI2kwzEhj2myj7SCXObqcxoArT8SKzCSw9J9JNKPhx2w&oe=6AE81001",
-          "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/866164711_1664245391893188_3759644013152426076_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ugb1j3y1augQ7kNvwHee4n7&_nc_oc=AdrHjBON0oEIONws_anWpEomIoU-UhPBAQughI20mWEFknvdy5K0iH2MJMu5EHKsafc&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQQTI1RwYPJP60x2TVBgALkn8NXqR9LQxn1T0o1Ea81lFQ&oe=6AE80057",
-          "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/864787914_1090888670237577_5258046011089941586_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=TejXlrp-fuYQ7kNvwHCrKh8&_nc_oc=AdrA-DeH15g5XnWOMJZrPNatpaFi0mwARss220GkNeUOL9zRgJ4B6BlWqLUja-skb2M&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQQxIJmqq0lC_UIsL5V4sdA6fSiEqeRARHmxeRESrRcSjw&oe=6AE80CEB",
-          "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.99422-6/867970333_1737159240691806_5743803154260029355_n.png?stp=dst-jpg_tt6&cstp=mx1067x1600&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=l0jKnEWfbSIQ7kNvwFS8vGF&_nc_oc=AdokrFXESw9j0IBy5yg1ozEJ_nzYjMeQNDZM355Wvi2mjOgGT2F7dDFLGv6X0Q6i39g&_nc_zt=14&_nc_ht=scontent-sjc3-1.xx&_nc_gid=_9mffwpLLl-kEYI4-4LEoA&_nc_ss=7f289&oh=00_AQTZwJ5IjhU_EzIw8axLIC6wCh1JqJbuTGKHXULqCqiC7Q&oe=6AE80EEB"
+          "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/869053864_1758020201944723_1598261450550809197_n.png?stp=dst-jpg_tt6&cstp=mx1155x667&ctp=p600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=dX_e13rWmUoQ7kNvwFz1fgD&_nc_oc=AdpEwyFULVAG-zmQFuA-ajN7XHtbP9WB8gTGvbDTO4gOVtjGbs00jBbm0Yq-rioksG0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Pujmk21n-wV7HiHJwwrAHA&_nc_ss=7f289&oh=00_AQRY-No3F0AU25jHrnMID4F__pamzoyQ8JHezA8yttgzZQ&oe=6AE8329E"
         ],
-        "main_image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/867599115_1044611028633571_6156846843689016812_n.png?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=cae128&_nc_ohc=XY2TZObgmG4Q7kNvwHGOilp&_nc_oc=AdqokpeEK3ZG9_c81QcqjiWZIKmZCNrpc8b0t0obrX2XGAkAdG6_wYvB61iHSPjw9MQ&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=UgM3tUSJQnM0Al_PilDqgQ&_nc_ss=7f289&oh=00_AQR6qHvI5Q9Uh-NkADQzCVVYArDlLRrmUYpQmBgfCOjctg&oe=6AE806DF",
+        "main_image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/869053864_1758020201944723_1598261450550809197_n.png?stp=dst-jpg_tt6&cstp=mx1155x667&ctp=p600x600&_nc_cat=104&ccb=1-7&_nc_sid=cae128&_nc_ohc=dX_e13rWmUoQ7kNvwFz1fgD&_nc_oc=AdpEwyFULVAG-zmQFuA-ajN7XHtbP9WB8gTGvbDTO4gOVtjGbs00jBbm0Yq-rioksG0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Pujmk21n-wV7HiHJwwrAHA&_nc_ss=7f289&oh=00_AQRY-No3F0AU25jHrnMID4F__pamzoyQ8JHezA8yttgzZQ&oe=6AE8329E",
         "videos": []
       },
       "status_conflict": false,
@@ -1237,23 +1325,23 @@
         {
           "status": "desconocido",
           "published_at": null,
-          "source_id": "fb_gobernacion_lapaz",
-          "source_name": "Gobierno Autónomo Departamental de La Paz",
+          "source_id": "fb_abc",
+          "source_name": "ABC Carreteras Bolivia",
           "tier": 1,
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0C5UG9UJ5zkmszszyFLh87qbk3pDvz1sJ5Ja92Jj528TjbC1G5bKmRGjijk3oYLj2l?__cft__[0]=AZi-suPiyQ12F4SctNuFsDDAGLVkQ7LMMC9UTcl2HMSYZA83bYCMQY2vLk2LXf6mbcH4rJVdIABUDFag66R85NxrT0Y1mPRLNVXTVugCDmp7JfujGZPvtfgS1g_hYO-3-Um__80EGNOfYMkc2ZRF95f_e0FmLdpkwdgk-yPHvOdcKXeJkNlC4vHmtis&__tn__=%2CO%2CP-R"
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0WXqd1pTCx3A2c9qjkGqUfJ6pQ9bhyySwmGPJDWdm8kuaUcqfX7hkocheZv1XDMEjl?comment_id=1846076193099259&__cft__[0]=AZjA8jusYUJq69OQwy-8eXz7D1XTxrS0BRyfRz2LXVRCN0wyPBQ6Qirr5VyekafBYtaLZXoZa39LeyUswf-dWMtw_ox_mksnSLf4mnhOMMHoWd0QOBE52N4lZN_T_mpD4rvQReu7PlVSbijDxFM4bIJhKrkLytTaaI3gPIFD2CIFNInBzryVXFD1fCo&__tn__=R-R"
         }
       ],
       "latest_update_at": null,
       "videos": [],
       "sources": [
         {
-          "id": "fb_gobernacion_lapaz",
-          "name": "Gobierno Autónomo Departamental de La Paz",
+          "id": "fb_abc",
+          "name": "ABC Carreteras Bolivia",
           "class": "facebook_official",
           "tier": 1,
-          "page_url": "https://www.facebook.com/gobernaciondelapaz/",
-          "post_url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0C5UG9UJ5zkmszszyFLh87qbk3pDvz1sJ5Ja92Jj528TjbC1G5bKmRGjijk3oYLj2l?__cft__[0]=AZi-suPiyQ12F4SctNuFsDDAGLVkQ7LMMC9UTcl2HMSYZA83bYCMQY2vLk2LXf6mbcH4rJVdIABUDFag66R85NxrT0Y1mPRLNVXTVugCDmp7JfujGZPvtfgS1g_hYO-3-Um__80EGNOfYMkc2ZRF95f_e0FmLdpkwdgk-yPHvOdcKXeJkNlC4vHmtis&__tn__=%2CO%2CP-R",
-          "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oFPG8jgXcjsQ7kNvwFL7EJq&_nc_oc=AdqnHbuhdOSP5T4yg9K-X05cQ-dpSE9mRVHwikcQsVK_VNMvcXGSwMDjuoxPt7OBl14&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=kDZhVFBAMrDSuygbIWbbwQ&_nc_ss=7f289&oh=00_AQS5vEP-qE5NMx2kuUccjjASfflkq_nOpzfPh6AdQ-ZkQA&oe=6AE800F8",
+          "page_url": "https://www.facebook.com/CarreterasBo/",
+          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0WXqd1pTCx3A2c9qjkGqUfJ6pQ9bhyySwmGPJDWdm8kuaUcqfX7hkocheZv1XDMEjl?comment_id=1846076193099259&__cft__[0]=AZjA8jusYUJq69OQwy-8eXz7D1XTxrS0BRyfRz2LXVRCN0wyPBQ6Qirr5VyekafBYtaLZXoZa39LeyUswf-dWMtw_ox_mksnSLf4mnhOMMHoWd0QOBE52N4lZN_T_mpD4rvQReu7PlVSbijDxFM4bIJhKrkLytTaaI3gPIFD2CIFNInBzryVXFD1fCo&__tn__=R-R",
+          "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I5yA6hjWoGYQ7kNvwGYP4Y6&_nc_oc=Adr8mwmRRykucFBFh3qJ5Q8kh12dzAeA3fQpYcensssKjBThD49Qexh8lwhKgskDG10&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9DGDhj1fY2Udb3YOGTC_Rg&_nc_ss=7f289&oh=00_AQQfBUCilwoWxKHXhtqdBSCFu0HGUYRCIcq6uUVdRLJA4g&oe=6AE83158",
           "published_at": null
         }
       ],
@@ -1261,15 +1349,15 @@
       "verification": "una_fuente",
       "corroborated": false,
       "all_urls": [
-        "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0C5UG9UJ5zkmszszyFLh87qbk3pDvz1sJ5Ja92Jj528TjbC1G5bKmRGjijk3oYLj2l?__cft__[0]=AZi-suPiyQ12F4SctNuFsDDAGLVkQ7LMMC9UTcl2HMSYZA83bYCMQY2vLk2LXf6mbcH4rJVdIABUDFag66R85NxrT0Y1mPRLNVXTVugCDmp7JfujGZPvtfgS1g_hYO-3-Um__80EGNOfYMkc2ZRF95f_e0FmLdpkwdgk-yPHvOdcKXeJkNlC4vHmtis&__tn__=%2CO%2CP-R"
+        "https://www.facebook.com/CarreterasBo/posts/pfbid0WXqd1pTCx3A2c9qjkGqUfJ6pQ9bhyySwmGPJDWdm8kuaUcqfX7hkocheZv1XDMEjl?comment_id=1846076193099259&__cft__[0]=AZjA8jusYUJq69OQwy-8eXz7D1XTxrS0BRyfRz2LXVRCN0wyPBQ6Qirr5VyekafBYtaLZXoZa39LeyUswf-dWMtw_ox_mksnSLf4mnhOMMHoWd0QOBE52N4lZN_T_mpD4rvQReu7PlVSbijDxFM4bIJhKrkLytTaaI3gPIFD2CIFNInBzryVXFD1fCo&__tn__=R-R"
       ],
       "merged_items": 1,
-      "incident_id": "inc_ad8ce5f80b5dfc",
-      "first_seen_at": "2026-10-27T20:02:20-04:00",
+      "incident_id": "inc_afa812b46a7fec",
+      "first_seen_at": "2026-10-28T17:55:57-04:00",
       "history": [
         {
-          "at": "2026-10-27T20:02:20-04:00",
-          "detected_at": "2026-10-27T20:02:20-04:00",
+          "at": "2026-10-28T17:55:57-04:00",
+          "detected_at": "2026-10-28T17:55:57-04:00",
           "reason": "primera_deteccion",
           "status": "desconocido",
           "lifecycle_status": "desconocido",
@@ -1277,14 +1365,14 @@
           "closure_scope": null,
           "source_count": 1,
           "sources": [
-            "Gobierno Autónomo Departamental de La Paz"
+            "ABC Carreteras Bolivia"
           ],
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid02XMtaYXznA7LsY11dwzCXtbA9cY4XWPHFEW355eWCff4A5DHzttYcUoZRC1EAY9Hkl?__cft__[0]=AZianrUR3bJWebu-x0a1YtPnAjcjGCJCKFZWXTC1nzchrNKXTuBSfXaoxPw0NW7WjZI5IC6aP9eM0--liBntIwRmFLja6YIJ-BoZCEzQxJoTuSi1rsyfqSh4OUXYynTY2wsnTM2Q_3296_IUdu7cp_-ikx-fBdXTZGKsLusSwMPNkmLAiOyiRmT-wS0&__tn__=%2CO%2CP-R"
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0WXqd1pTCx3A2c9qjkGqUfJ6pQ9bhyySwmGPJDWdm8kuaUcqfX7hkocheZv1XDMEjl?comment_id=1846076193099259&__cft__[0]=AZjA8jusYUJq69OQwy-8eXz7D1XTxrS0BRyfRz2LXVRCN0wyPBQ6Qirr5VyekafBYtaLZXoZa39LeyUswf-dWMtw_ox_mksnSLf4mnhOMMHoWd0QOBE52N4lZN_T_mpD4rvQReu7PlVSbijDxFM4bIJhKrkLytTaaI3gPIFD2CIFNInBzryVXFD1fCo&__tn__=R-R"
         }
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-28T13:24:04-04:00",
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -1298,7 +1386,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/gobierno-promulga-decreto-supremo-para-el-financiamiento-de-us-95-millones-de-la-caf-destinado-a-la-ruta-santa-barbara-caranavi-en-la-paz-que-consolida-el-corredor-estrategico-oeste-norte/",
       "published_at": null,
-      "scraped_at": "2026-10-28T13:24:04-04:00",
+      "scraped_at": "2026-10-28T17:55:57-04:00",
       "department": "La Paz",
       "municipality": "Caranavi",
       "city": "La Paz",
@@ -1416,7 +1504,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-10-28T13:24:04-04:00",
+      "last_seen_at": "2026-10-28T17:55:57-04:00",
       "seen_this_run": true,
       "history_count": 1
     }
@@ -1431,7 +1519,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I5yA6hjWoGYQ7kNvwGbyPYw&_nc_oc=AdoJA6YBW5DIatrcZzXX0bMBND0iEXNDgs0Fv3L0-kVORf3vXgt1OR8zLiVk0CkWmvw&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Q6m-hQFqicuEgZfPpt-yaw&_nc_ss=7f289&oh=00_AQS6uoG6spxQyXJlrUHOA-P83wsSfYMb6KuYW3QpkalNNQ&oe=6AE7F918",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=I5yA6hjWoGYQ7kNvwGYP4Y6&_nc_oc=Adr8mwmRRykucFBFh3qJ5Q8kh12dzAeA3fQpYcensssKjBThD49Qexh8lwhKgskDG10&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=9DGDhj1fY2Udb3YOGTC_Rg&_nc_ss=7f289&oh=00_AQQfBUCilwoWxKHXhtqdBSCFu0HGUYRCIcq6uUVdRLJA4g&oe=6AE83158",
       "status": "ok"
     },
     {
@@ -1443,7 +1531,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=Xl3oQbZfUtwQ7kNvwEppVQQ&_nc_oc=Ado40YLET9mKIRrGPZlU5SrBjCdOxt7T8KCzLhSCwzSYbPFQvG4YG6S1-hnTvC6tIo0&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=oRwL6t-ifdXAkV8x9B5TPA&_nc_ss=7f289&oh=00_AQQf6BnihUAvntOJMSFWOATZs375pFWBlezAKJf8ur26NA&oe=6AE7FC6B",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=Xl3oQbZfUtwQ7kNvwENaG2t&_nc_oc=Adrf24JoRRGOgHvWpw-m2bRzpj2MXiUY8WmDN5YeZmduR_-OkkDRP2XM4TSxi4mAzl4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=nK0i7r8vklxXD3BPROVbrw&_nc_ss=7f289&oh=00_AQQFzFTb5GPL4PBGLCvegY81YMkCgKwbrnU5zlgPeX36sg&oe=6AE834AB",
       "status": "ok"
     },
     {
@@ -1456,7 +1544,7 @@
       "region": "Bolivia",
       "city": null,
       "icon_url": null,
-      "status": "ok"
+      "status": "error"
     },
     {
       "id": "fb_municipio_lapaz",
@@ -1479,7 +1567,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UzTe3GVLPn8Q7kNvwGcou-2&_nc_oc=AdqyOwxUlRKrxSDy3Eb18RUZ585nxEeOwpkG64dUo2P5BvniGYCPG3vmWCS1G-m-YUw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Hf_6REYAGPlrngubTxfrbA&_nc_ss=7f289&oh=00_AQSW8NAGyK2vSVxurn-TfqLbAO-vXzp8-6wg23jWn1IL8g&oe=6AE80800",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UzTe3GVLPn8Q7kNvwG_cKmj&_nc_oc=Adrf40gBq3AUc3Pl5mbJUduzhwrzljq9LUDatIUWGVSettCyTB8dhsFDtHYh6HhOW38&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=jpWjiGXW5XzEQAniIuqwcw&_nc_ss=7f289&oh=00_AQQ4KyUy5s83Dxph8J1jlraelGb9vA4tR8IbMUbCLxNrMw&oe=6AE84040",
       "status": "ok"
     },
     {
@@ -1491,7 +1579,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oFPG8jgXcjsQ7kNvwFL7EJq&_nc_oc=AdqnHbuhdOSP5T4yg9K-X05cQ-dpSE9mRVHwikcQsVK_VNMvcXGSwMDjuoxPt7OBl14&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=kDZhVFBAMrDSuygbIWbbwQ&_nc_ss=7f289&oh=00_AQS5vEP-qE5NMx2kuUccjjASfflkq_nOpzfPh6AdQ-ZkQA&oe=6AE800F8",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oFPG8jgXcjsQ7kNvwGx_iA2&_nc_oc=AdpGQKOs3gds51WsVHY5kZZaCF06S7_l62inypbSxbCQ-vbAFx92lmvX2O_qr8xE3d4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=JYBLxKkYyETmyVTwoujkzw&_nc_ss=7f289&oh=00_AQRgjnKEB40YqUz4mZ2x2IXyjqPQpeGuEF1oELG924jSxQ&oe=6AE83938",
       "status": "ok"
     },
     {
@@ -1503,7 +1591,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EhQCJuuj8YYQ7kNvwF2kBSX&_nc_oc=Adom2PXoDQ3OBDnRgP6AGITMxkzbbxF0JIjXejdPWJZMV5PS79cFNL-BnlHjFxfHtT4&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=N01JknM59UER1jUBMNhXiQ&_nc_ss=7f289&oh=00_AQQnnX9F-mkvuljySNEgFB4y2vyW0Z7jjHdOFI85eplvTg&oe=6AE81480",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=EhQCJuuj8YYQ7kNvwFU04h3&_nc_oc=Adq4zlCTrEZJ-o1MnM50HegtQdl95ykSGT2PT7OPE1328A1evze-zK5ipShM8CVyjUE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=8LOpHjtsbwcurEeokl2CgA&_nc_ss=7f289&oh=00_AQS1LKuMgtqbkNXwiO4D_Z8nAqkeQGuTE4PGbF09myJR8Q&oe=6AE84CC0",
       "status": "ok"
     },
     {
@@ -1527,7 +1615,7 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TOpgj1xM28QQ7kNvwHZSsG9&_nc_oc=Adq9Q6HdoAb68ZseWM1MK_5SrMpqj17h5AF-dgkZHEXcYhU5UxKf5aMO2Tb_zgAzjEE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=nAN3I2y5_lY-szEmU3bFeg&_nc_ss=7f289&oh=00_AQRwL9aMq-5kZTF6hA2yd6lq2xf0nC7MPssKfsHiQQZeQA&oe=6AE7FB17",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TOpgj1xM28QQ7kNvwHWb4xw&_nc_oc=AdrUm_OT8DLyIr4KAVYDFV13K9FABl-Aobxu-qYvU-IVMiSz9qzQLrl-A9Idi0_yYPw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=HNEIjbRCRwz8cm00rbovZg&_nc_ss=7f289&oh=00_AQSPoAELOMj7Gf7L4KH_AnBKOlGEqSST0ocP4Lgq_JnacQ&oe=6AE83357",
       "status": "ok"
     },
     {
@@ -1551,7 +1639,7 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2Zvk3EET-VYQ7kNvwFpe9el&_nc_oc=Adry9-tW6tDTxgeEPM5t3SvEDckPEIheFbl8tWWY4FZWh5z4ol0XK_wSNkOp1P0b2iw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=xPmBRaqwyj82NnK5zwLyEQ&_nc_ss=7f289&oh=00_AQQK1O3pOxe7zZEaxMA2QUjlS_1lzPbYRznuRpu0LA35_w&oe=6AE81C45",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2Zvk3EET-VYQ7kNvwGEEU4q&_nc_oc=AdrqIqQiwlGm8Rzk38ThEpFn13JPRRYVWe2Se3fJz5jn7xAtsoZ7_t-av8L7EXtHi_g&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=BlWBmPmbCUwYFvKoebFDwg&_nc_ss=7f289&oh=00_AQSxSADfazgsaQiySy1cleLD4PTKO1AFWbRwA0DiH7xPvg&oe=6AE85485",
       "status": "ok"
     },
     {
@@ -1575,7 +1663,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HrtdRUA7bJwQ7kNvwG6ubNd&_nc_oc=AdpqXcSpBM1q1iXqGEcsiomw4B63fprPW5iPanVf5VNaNd1Bje3fLpbl2H9R272v4Jk&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=r13DKImd8sDK1k4Xk6w-2Q&_nc_ss=7f289&oh=00_AQTpBHQPQD5n125i_oAR6ZWM1bItofbsMI_7PG_3V59uOg&oe=6AE7F2D7",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HrtdRUA7bJwQ7kNvwHG3dCS&_nc_oc=Adp0CoIbnKbtlRBFTxAN2aoM_pw24qIHcN_iNRmg5FIrj9pWSrFFujlotOs56bCtQP8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=HvB-EywOVABsFwoWY4H4oQ&_nc_ss=7f289&oh=00_AQQoGcm2iXsEyChQ4gCIKqanLNF_zDn6M0pAMXbLUdNh4A&oe=6AE82B17",
       "status": "ok"
     },
     {
@@ -1587,8 +1675,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6xhf23CGxxgQ7kNvwEx84_y&_nc_oc=AdoBK3pORwcmxdyhZhiwvXPYOje7OGfG9KQl6-MURbJOABJZ7LN9Z0ecSfCdVED6rfQ&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=PnPulHbLJurxP28cdZ1BrQ&_nc_ss=7f289&oh=00_AQRcpR13GK3w8HYFgkmHUoAe_wKinAiCStT3ygcvYQzR4g&oe=6AE856D1",
+      "status": "ok"
     },
     {
       "id": "fb_gob_scz",
@@ -1599,8 +1687,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cBOdlos67tYQ7kNvwHEVLVl&_nc_oc=AdoYEm-a6obpeOb6EmNLBkTMYROyJeiLldsWlcjHhNJM_trcvIGQpXQQyCbqzwMUsuk&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=GUI8Ysur3657asEAV5F35Q&_nc_ss=7f289&oh=00_AQRFk6HxlU6-ZEzXRzPNQSl0jtXjZJUM6HrrAbCUtieJ1Q&oe=6AE8407E",
+      "status": "ok"
     },
     {
       "id": "web_abc",
@@ -1695,8 +1783,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=IEt6uam5AGwQ7kNvwEEr6Iu&_nc_oc=AdqFrzW6D4tnXgOkhVMbRzZvr3_Sz1ylHvbYj4G2TthCOUhnVOeJUESf9U_9K8rLuTA&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_ss=7f289&oh=00_AQQ9alYcgv36fJqfOi9zmEx3nFcUmIqBXUv6uiIgEf52Vg&oe=6B09B5BA",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_unitel",
@@ -1707,7 +1795,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-avif&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sBHhFN-5oToQ7kNvwFmAlLc&_nc_oc=Adp7156pEHihru9uJbS1yzXiBqi_tzI7itDV3W9o_AnxfjwkP-TTd7xjC9x8sdPVJFE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=c6JUF65vlpoxjOnUDipKsw&_nc_ss=7f289&oh=00_AQR6Wmxg8If3wh53MfZ1cQlE6zbf3orNAyYVD6BREgNBew&oe=6AE8068D",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-avif&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sBHhFN-5oToQ7kNvwGqiUaI&_nc_oc=Adp9vnoKEtroO6InnaaIxLvDWYPS-lN2ukz2ZeRXEOWJpLFRNeao4VmOmgu-APWB5zk&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=hFibFUZQVdIDpGyqrO670w&_nc_ss=7f289&oh=00_AQRdCieU0bdmi9qcdf1VkGoT5nnFyH9lnMp81nbdZ0wZFw&oe=6AE83ECD",
       "status": "ok"
     },
     {
@@ -1719,8 +1807,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TvgzfT1vdicQ7kNvwE2w8hy&_nc_oc=Adq6twCsK4hdz4veJF8D48Lf6SKH7g8AEw8zUC82GEiJS-Q_-1zpfcR0upIIRHxUuRU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=6leltMpmHPZxry04GYXiyA&_nc_ss=7f289&oh=00_AQQxFoN2B7h2r8s4LjNk4ulbriFTL8galzFTp9JxaHwpAQ&oe=6AE8188C",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_rtp",
@@ -1731,7 +1819,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Tbu6DSKdLogQ7kNvwH49A6q&_nc_oc=AdoS3fTkIfrEBO-FJVZhx-sv07JLwKjnscypWBqgslMwHag_jPthT-Khy0FKLCp9zzI&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=2LnvAq7uDwAV9XYGomvs4w&_nc_ss=7f289&oh=00_AQRGkScM8ZtmlNeQSh7UbF7fmFECd3gkdwTA3aoDAKkLCQ&oe=6AE7FAC5",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Tbu6DSKdLogQ7kNvwGPUg9H&_nc_oc=AdrTJSc-eq88G3FimCzYk6Z6PyMSbWeF5VVbB2-mnl45n48d1Y95YldX3cW7BjgHYLE&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=unoSznvJq2wT3A7Giuo4AQ&_nc_ss=7f289&oh=00_AQR1N9Qz_hoXlA-OaUDgmrQf9Rzkn2PFUsv2vd5CgXXZ_w&oe=6AE83305",
       "status": "ok"
     },
     {
@@ -1743,8 +1831,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IWot3dM6bzYQ7kNvwGFpsAH&_nc_oc=AdorK2jbslY35Z9dXD5s_MfZ8eoMrRiFvDZPBI8APqrg5-KkIO1VIoLcGnEJYeYXa-0&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=VdIeegRn1XopKGcFU36FIQ&_nc_ss=7f289&oh=00_AQSzmvNNyVzt1--PcOUpsGplZuwP9PW0BOSt9dkhkAvxqw&oe=6AE7E93A",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_opinion",
@@ -1755,7 +1843,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TbTKbYHGfecQ7kNvwFvaAjQ&_nc_oc=Adr0aajK0EGmXpH9VDcnym63qTU4ewVvrhoJwyzbbSqyRqih0nqamaPbr_uAm1atTAU&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Y3szSsPhmmNTUR_EsFTx1w&_nc_ss=7f289&oh=00_AQQ1ruDFQJRlpK8kzkVV5Y03SdE8yaYjXcl-Bx1WAIFSGA&oe=6AE80C26",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TbTKbYHGfecQ7kNvwENLCrv&_nc_oc=AdqRQshWdTgTYCrxoFLYXju250SE-whQ4g2LiSLrLl_pXbPTSs4Kn2gIn3Uq9kJjwCE&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=kbq5-JKW4gPsHyx9juxsUQ&_nc_ss=7f289&oh=00_AQRWZQ1pZQ-Xsl-dgnQHIqqRR6hU6yyTOKHPCOd16rSQpg&oe=6AE84466",
       "status": "ok"
     },
     {
@@ -1767,7 +1855,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=U9R3M9zGfI4Q7kNvwGoGLOG&_nc_oc=AdrPLENFLlFI3KFnH_L1xtfkMhmraQF3g_7xgtpIv9SLyRcIY51Fm0ddJBkp6uQ_PhY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=PdoCSmh54CoXrV9PETVodQ&_nc_ss=7f289&oh=00_AQStnM3iWbWRLS5Pz-hMAzd5SJ3kZo24W7TpxAtTxJXgqA&oe=6AE80DCC",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yQhFqvKEuWEQ7kNvwGoR4jN&_nc_oc=AdpxmA2X2vArJRt4aWuJwuUsWChAiP--WXHbKFcIp73j_rIVhjml6c9sYCfC391oWNI&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=_obmynRt5P4pVmiQspjN4w&_nc_ss=7f289&oh=00_AQRhiExgKgG-UHs90Ca70mftjkXngyqmkZmH5dFdrCPm_A&oe=6AE8460C",
       "status": "ok"
     },
     {
@@ -1779,8 +1867,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=70N_hNXCzGQQ7kNvwF2RW6X&_nc_oc=AdqOBkgO4N3w4rVQojTruaemBO8ztbIkvvSvDNlElG96nCYc0wE00dywpLTPEiZvtvc&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Hpov8ttmXOBF5yW5N1Eeww&_nc_ss=7f289&oh=00_AQSAg-umyMXfD94zRLbKcEojYEjOj9cLVsFTn4DC6nEjTg&oe=6AE81DC1",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_erbol",
@@ -1791,7 +1879,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WryaUDQGUBIQ7kNvwEpohlW&_nc_oc=Adogt0QFMbQz4wAVOK47SzuHGbQGdXY-acCI4jWdKjJJuy81-xXLuAIRDi4GNXVr7YM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=quOMpMvwKFU30ggRMPn7bw&_nc_ss=7f289&oh=00_AQSQ1cjr79Dnm0AEmYEc-JodZFRoS2DAPCERSLfru0YQDg&oe=6AE7EEA8",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=WryaUDQGUBIQ7kNvwGFKWiP&_nc_oc=AdpMjRdoV3EmoO_Xg_IVn0EFi7e4mF3_AAIHaIkQLN1ilIGfhHstHDDL_vf23WK3H4U&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=ZlpBHR-Yo1-8BMzZ4_GlbQ&_nc_ss=7f289&oh=00_AQRjKfa8FF9gfCIdUy7OYgEEhr7x2weBkTxV965NFBuwDQ&oe=6AE826E8",
       "status": "ok"
     },
     {
@@ -1803,7 +1891,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ta-cyrRz6xoQ7kNvwF-sx2M&_nc_oc=AdrxmjAArfzWkWxjrMV68-XQ3iCsHWfcLiETCe0_SWQP57jUHCWxc1FNvW8LiuVxW0Q&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=8N9SYgCRElyzcYSegYF1Ng&_nc_ss=7f289&oh=00_AQRD_6Anfli0e4yPqOeMhRrakYe31LB0cIkI_qPWIv9nfA&oe=6AE81308",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ta-cyrRz6xoQ7kNvwFYtHBF&_nc_oc=AdraSleRfVDniTm7Vee505rixrLyvXIseJXNnspZFFjmC2YU5oPkks6d5fyHBePlTKo&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=usCBcbH1kg2IkqYOpergow&_nc_ss=7f289&oh=00_AQSKTZ4lPwmMat_t5Ild_WDZbn0st5fvbFL0gRDPqjfX3g&oe=6AE84B48",
       "status": "ok"
     },
     {
@@ -1815,7 +1903,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PnSzMaZF_qwQ7kNvwFnL3Xa&_nc_oc=Ado_5RkWbIlY9AfvR-zginvPANJcY2nykQPyss6E1Mo-XXx4ZWS4is0LSJasJGESxl8&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=bZmKDn4YnzTvu3MRrLlCqQ&_nc_ss=7f289&oh=00_AQRfctQVX4-STN4Pxt_piAqdXrr26WYcAcZAr6_Gdrku-A&oe=6AE81369",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=PnSzMaZF_qwQ7kNvwGLWHw6&_nc_oc=Ado15dEzXqerxBIcb-PV_e7-6SX3fqXizd8FEzPe-5wwFT-NNPJElTvKn0eYjaVAPik&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=gUoK0t0Tq3lOO1KtAM6PQQ&_nc_ss=7f289&oh=00_AQRNWNFk4hhrCtrGyMB_RN9fm0xTNV2KPktLrFqFSRMbCQ&oe=6AE84BA9",
       "status": "ok"
     },
     {
@@ -1827,7 +1915,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-ZD3i1WRQ2UQ7kNvwEYzKJ1&_nc_oc=Adr_D3Scck1Xe27HbhhEQ_dANh6Bl5iY8XNbNTpM4QGPt5qxizPrUDf_ybj2wZRngCQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=og1LWo2C1eNrCPGo0Mos0Q&_nc_ss=7f289&oh=00_AQSiXyoVozmDOgAfAmvx3PVRiUwPpxrhOfFSlmMunzeU0g&oe=6AE81577",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-ZD3i1WRQ2UQ7kNvwE44wxM&_nc_oc=AdqmQKL6AdXybTtNt_iM7VoiMCoqWDKJvithg4o9suB3DH1rxob_Kw9BFmU5WWBo9oQ&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Kp4ar3Uk0eGnZt8Uprzc4Q&_nc_ss=7f289&oh=00_AQRARFUa44melDjTlRcWOf3hYSpnlHX9ZMzUqJzZ5YXKIA&oe=6AE84DB7",
       "status": "ok"
     },
     {
@@ -1839,7 +1927,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=twGzau5yc6gQ7kNvwGuF-P3&_nc_oc=Adper2RNDoru-zJ20TKlnTjtNll7U9yI23vuvUZRyLIZuPGfjKh8-6p5Cy0BYosvAUY&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=pYDvWF7fkXdxyYco3udejQ&_nc_ss=7f289&oh=00_AQQYS2nQVEBAd7RFBuaK2kREq8qhipPTbDciOSxC349Zkw&oe=6AE8183D",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=twGzau5yc6gQ7kNvwGy_yOX&_nc_oc=AdoDVuBv0iTrqHQALsMHZ6qTuuyjZPo9xso3JojEYzJEIvKYlnUWZnSqv9ai7L8e9Gg&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=tS1ARx-Z1I-Uogs-8QKmjg&_nc_ss=7f289&oh=00_AQRgUQdDNhGr8_6oRZKUaMTs7ywjvyzB9kkpuh30hTp1Dg&oe=6AE8507D",
       "status": "ok"
     },
     {
@@ -1851,7 +1939,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iz8jbRwcK88Q7kNvwHvps6x&_nc_oc=AdqYvYLEte4ubg5_M1iZbANiBJnRnI9texMKKFGSs-1-S9B8TmDhPv4-wY3m3xY_K4o&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=yffXUQ-xyeiiiFSdC9JpeQ&_nc_ss=7f289&oh=00_AQR3UnDsXxngFxh9pNmknsGp95c5ujdsIFkLsiVMS0D1XA&oe=6AE7E6A1",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iz8jbRwcK88Q7kNvwE0CekR&_nc_oc=AdrTMbAaxQ5cl215Omv8g92zthPN8e1IU0t0Ch2GSIfxVGyivlgQ5eNSM6CXm008his&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=fhyEIt2sRGqLGUhbfdfJgw&_nc_ss=7f289&oh=00_AQRXlL10XjSVRmkqgZNUOBERNiAF59i9ckTLv_Ts7k-qJw&oe=6AE85721",
       "status": "ok"
     },
     {
@@ -1863,8 +1951,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/864129139_1756515816478564_8606059765269582010_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6uOU6m3rF3YQ7kNvwGklQdc&_nc_oc=Adokshhs7bxp3j-o8ZkipG1aXeB63av2xmLz8UnHZmJCLaJmoeyipC-TC9q0_AfkTSo&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=nn-Yc915aanPOMMCgeHOBw&_nc_ss=7f289&oh=00_AQSwKDn7BN5ihY3B9av_HAdwj5othszQU4xfP_DG-QazJg&oe=6AE80DFA",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     }
   ]
 }
