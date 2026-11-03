@@ -1,160 +1,155 @@
 {
   "schema_version": "3.2-fast",
-  "generated_at": "2026-11-02T19:15:14-04:00",
+  "generated_at": "2026-11-02T23:58:30-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "facebook_sources": 30,
     "web_sources": 7,
     "sources_ok": 25,
     "sources_error": 12,
-    "raw_publications": 46,
-    "vial_publications": 11,
-    "incidents": 9
+    "raw_publications": 35,
+    "vial_publications": 2,
+    "incidents": 2
   },
   "incidents": [
     {
-      "id": "e2162f4955c2dfb4",
-      "source_id": "web_abc",
-      "source_name": "ABC - Administradora Boliviana de Carreteras",
-      "source_url": "https://www.abc.gob.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-      "url": "https://www.abc.gob.bo/nota_prensa/el-plan-nacional-de-emergencia-inyectara-mas-de-bs-348-millones-en-cochabamba-en-los-tramos-suticollo-y-siete-curvas-para-proteger-sus-corredores-estrategicos/",
+      "id": "25219aaecd57e864",
+      "source_id": "fb_abc",
+      "source_name": "ABC Carreteras Bolivia",
+      "source_url": "https://www.facebook.com/CarreterasBo/",
+      "source_class": "facebook_official",
+      "source_tier": 1,
+      "source_icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QeI2EP8ft_QQ7kNvwFrE_l5&_nc_oc=AdqxfnimsULPg1MFfucEUUqCr6FvNNU-ij-LsY9B-ACk8mJnJ1dZRuqEY9YlTYWShOQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NSgZ9isZqeBtKuujC4k8pA&_nc_ss=7f289&oh=00_AQR_nZ06luM83-GB_x95w2KMXMqBc0Aq5Fj7wFEt20pcKA&oe=6AEF3958",
+      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0p8r6uCwu9jxiQWUcbSja5eD6ivNRCnvz9R7Fk9XaqiV7MJWxmnRpzEr4QNfxqep2l?__cft__[0]=AZjddluCCw3_1wAoftn5Oj-DGN5LlwlB6eF_AAf3ZLFeCDmFEFxWdQ4LCSMWcg_4obxWVHkwn72oALWpOF7aLlfgPnyHe7VN9XaQzMqj1s6pl7e23IT0FYMQ8PkH0t-vhukW-r9boGWfu1lQQDhfqDDXTm6UWheIvQCZmLCrMmsW2WdHWuUtlynRerY&__tn__=%2CO%2CP-R",
       "published_at": null,
-      "scraped_at": "2026-11-02T19:15:14-04:00",
+      "scraped_at": "2026-11-02T23:58:30-04:00",
       "department": "Cochabamba",
-      "municipality": "Cochabamba",
+      "municipality": "Quillacollo",
       "city": "Cochabamba",
       "event_type": "derrumbe",
-      "cause": "obras_mantenimiento",
-      "status": "precaucion",
-      "closure_scope": "total",
+      "cause": "lluvia",
+      "status": "habilitado",
+      "closure_scope": "parcial",
       "severity": "alta",
-      "confidence": 0.96,
-      "relevance_score": 93,
+      "confidence": 0.99,
+      "relevance_score": 100,
       "filter_reasons": [
-        "contexto_vial:6",
+        "frase_vial_directa:1",
+        "contexto_vial:13",
         "evento:derrumbe",
-        "via_detectada:3",
-        "sector_detectado:2",
-        "terminos_viales:8",
-        "fuente_oficial_web"
+        "via_detectada:8",
+        "sector_detectado:6",
+        "terminos_viales:13",
+        "fuente_oficial_facebook"
       ],
-      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia EL PLAN NACIONAL DE EMERGENCIA INYECTARÁ MÁS DE BS 34,8 MILLONES EN COCHABAMBA, EN LOS TRAMOS SUTICOLLO Y SIETE CURVAS, PARA PROTEGER SUS CORREDORES ESTRATÉGICOS Compartir ¡Enlace copiado al portapapeles! , 19 de octubre de 2026 Como parte de la política de gestión gubernamental para resguardar la Red Vial Fundamental (RVF), la Administradora Boliviana de Carreteras (ABC) consolida la ejecución del Plan Nacional de Emergencia en el departamento de Cochabamba, donde se contempla un paquete de intervenciones integrales, cuya primera fase arrancará con una asignación de más de Bs 34 millones. Con el propósito de avanzar en la información y socialización de los proyectos de rehabilitación previstos para el departamento antes del periodo pluvial, la estatal caminera dio a conocer las dos primeras obras de este programa estructural. La primera corresponde a la rehabilitación integral del tramo Suticollo – Parotani (5,75 km) en la carretera hacia Oruro, con un presupuesto de aproximadamente Bs 31,8 millones destinado al cambio total del sistema hidráulico con 8,8 kilómetros de cunetas y la colocación de una nueva capa de rodadura con asfalto modificado con polímeros. La segunda intervención inicial priorizada en este paquete se ejecuta en la carretera nueva Cochabamba – Santa Cruz sobre el tramo Naranjitos – Padresama (sector Siete Curvas, Fase I), con una inversión de alrededor de Bs 3,05 millones. Esta obra abarca la reconstrucción de la plataforma, la instalación de alcantarillas de hormigón armado de gran capacidad y la estabilización de taludes para evitar interrupciones por deslizamientos en la zona del Trópico. A través del Plan Nacional de Emergencia, la ABC en articulación con el Ministerio de Obras Públicas, Servicios y Vivienda, demuestra la capacidad de respuesta y planificación progresiva del Gobierno Nacional, garantizando que el reporte de proyectos de rehabilitación continúe sumando nuevos sectores estratégicos para mantener seguros, funcionales y resistentes los corredores de integración del departamento con el resto del país. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia EL PLAN NACIONAL DE EMERGENCIA INYECTARÁ MÁS DE BS 34,8 MILLONES EN COCHABAMBA, EN LOS TRAMOS SUTICOLLO Y SIETE CURVAS, PARA PROTEGER SUS CORREDORES ESTRATÉGICOS Compartir ¡Enlace copiado al portapapeles! , 19 de octubre de 2026 Como parte de la política de gestión gubernamental para resguardar la Red Vial Fundamental (RVF), la Administradora Boliviana de Carreteras (ABC) consolida la ejecución del Plan Nacional de Emergencia en el departamento de Cochabamba, donde se contempla un paquete de intervenciones integrales, cuya primera fase arrancará con una asignación de más de Bs 34 millones. Con el propósito de avanzar en la información y socialización de los proyectos de rehabilitación previstos para el departamento antes del periodo pluvial, la estatal caminera dio a conocer las dos primeras obras de este programa estructural. La primera corresponde a la rehabilitación integral del tramo Suticollo – Parotani (5,75 km) en la carretera hacia Oruro, con un presupuesto de aproximadamente Bs 31,8 millones destinado al cambio total del sistema hidráulico con 8,8 kilómetros de cunetas y la colocación de una nueva capa de rodadura con asfalto modificado con polímeros. La segunda intervención inicial priorizada en este paquete se ejecuta en la carretera nueva Cochabamba – Santa Cruz sobre el tramo Naranjitos – Padresama (sector Siete Curvas, Fase I), con una inversión de alrededor de Bs 3,05 millones. Esta obra abarca la reconstrucción de la plataforma, la instalación de alcantarillas de hormigón armado de gran capacidad y la estabilización de taludes para evitar interrupciones por deslizamientos en la zona del Trópico. A través del Plan Nacional de Emergencia, la ABC en articulación con el Ministerio de Obras Públicas, Servicios y Vivienda, demuestra la capacidad de respuesta y planificación progresiva del Gobierno Nacional, garantizando que el reporte de proyectos de rehabilitación continúe sumando nuevos sectores estratégicos para mantener seguros, funcionales y resistentes los corredores de integración del departamento con el resto del país. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "title": "Administradora Boliviana de Carreteras",
+      "description": "ATENCIÓN TARIJA La Administradora Boliviana de Carreteras (ABC) informa a la población en general que, en el tramo Tarija – Villa Montes, subtramo Tarija – Entre Ríos, a la altura del sector Piedra... ATENCIÓN TARIJA La Administradora Boliviana de Carreteras (ABC) informa a la población en general que, en el tramo Tarija – Villa Montes, subtramo... ATENCIÓN TARIJA La Administradora Boliviana de Carreteras (ABC) informa a la población en general que, en el tramo Tarija – Villa Montes, subtramo Tarija – Entre Ríos, a la altura del sector Piedra Larga, se registró un derrumbe de material sobre la plataforma debido a las precipitaciones pluviales registradas en la zona. Actualmente, la circulación vehicular se encuentra habilitada por un carril, por lo que se recomienda transitar con precaución. La ABC cuenta con personal técnico y equipo especializado, que se mantienen en alerta permanente las 24 horas del día, los 7 días de la semana, para atender de manera oportuna cualquier contingencia que pudiera presentarse en la Red Vial Fundamental. La ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a las y los usuarios tomar las previsiones necesarias y respetar la señalización dispuesta en el lugar. Página web: https://transitabilidad.abc.gob.bo WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ATENCIÓN TARIJA La Administradora Boliviana de Carreteras (ABC) informa a la población en general que, en el tramo Tarija – Villa Montes, subtramo Tarija – Entre Ríos, a la altura del sector Piedra Larga, se registró un derrumbe de material sobre la plataforma debido a las precipitaciones pluviales registradas en la zona. Actualmente, la circulación vehicular se encuentra habilitada por un carril, por lo que se recomienda transitar con precaución. La ABC cuenta con personal técnico y equipo especializado, que se mantienen en alerta permanente las 24 horas del día, los 7 días de la semana, para atender de manera oportuna cualquier contingencia que pudiera presentarse en la Red Vial Fundamental. La ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a las y los usuarios tomar las previsiones necesarias y respetar la señalización dispuesta en el lugar. Página web: https://transitabilidad.abc.gob.bo WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ATENCIÓN COCHABAMBA - SANTA CRUZ La Administradora Boliviana de Carreteras (ABC), informa a la población en general que, en el tramo Aiquile – La Palizada, a la altura del sector Saipina, se registró la caída de material rocoso y tierra sobre la calzada debido a las precipitaciones pluviales en la zona. Frente a esta contingencia, la estatal caminera despliega maquinaria pesada y personal técnico especializado las 24 horas y los 7 días de semana. Actualmente, la circulación vehicular por el sector se realiza con extrema precaución. La ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a las y los usuarios tomar las previsiones necesarias y circular con extrema precaución. Página web: https://transitabilidad.abc.gob.bo WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ATENCIÓN COCHABAMBA - SANTA CRUZ La Administradora Boliviana de Carreteras (ABC), informa a la población en general que, en el tramo Aiquile – La Palizada, a la altura del sector Saipina, se registró la caída de material rocoso y tierra sobre la calzada debido a las precipitaciones pluviales en la zona. Frente a esta contingencia, la estatal caminera despliega maquinaria pesada y personal técnico especializado las 24 horas y los 7 días de semana. Actualmente, la circulación vehicular por el sector se realiza con extrema precaución. La ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a las y los usuarios tomar las previsiones necesarias y circular con extrema precaución. ABC AVANZA EN EL MANTENIMIENTO DE LA CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, ejecuta trabajos de bacheo superficial con mezcla asfáltica en caliente en el sector Ichuraya, correspondiente al tramo Bombeo–Quillacollo, con el propósito de atender el deterioro localizado de la carpeta asfáltica y mejorar las condiciones de circulación vehicular. Esta intervención permite recuperar sectores puntuales de la superficie de rodadura afectados por el desgaste generado por el tránsito continuo de vehículos y las condiciones climáticas. Mediante la reposición de material asfáltico en las áreas intervenidas, se busca mejorar la regularidad de la calzada y contribuir a una circulación más segura y confortable para los usuarios que tienen como ruta Cochabamba – Oruro. El bacheo superficial con mezcla asfáltica en caliente es un procedimiento de conservación",
+      "original_text": "ATENCIÓN TARIJA La Administradora Boliviana de Carreteras (ABC) informa a la población en general que, en el tramo Tarija – Villa Montes, subtramo Tarija – Entre Ríos, a la altura del sector Piedra... ATENCIÓN TARIJA La Administradora Boliviana de Carreteras (ABC) informa a la población en general que, en el tramo Tarija – Villa Montes, subtramo... ATENCIÓN TARIJA La Administradora Boliviana de Carreteras (ABC) informa a la población en general que, en el tramo Tarija – Villa Montes, subtramo Tarija – Entre Ríos, a la altura del sector Piedra Larga, se registró un derrumbe de material sobre la plataforma debido a las precipitaciones pluviales registradas en la zona. Actualmente, la circulación vehicular se encuentra habilitada por un carril, por lo que se recomienda transitar con precaución. La ABC cuenta con personal técnico y equipo especializado, que se mantienen en alerta permanente las 24 horas del día, los 7 días de la semana, para atender de manera oportuna cualquier contingencia que pudiera presentarse en la Red Vial Fundamental. La ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a las y los usuarios tomar las previsiones necesarias y respetar la señalización dispuesta en el lugar. Página web: https://transitabilidad.abc.gob.bo WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ATENCIÓN TARIJA La Administradora Boliviana de Carreteras (ABC) informa a la población en general que, en el tramo Tarija – Villa Montes, subtramo Tarija – Entre Ríos, a la altura del sector Piedra Larga, se registró un derrumbe de material sobre la plataforma debido a las precipitaciones pluviales registradas en la zona. Actualmente, la circulación vehicular se encuentra habilitada por un carril, por lo que se recomienda transitar con precaución. La ABC cuenta con personal técnico y equipo especializado, que se mantienen en alerta permanente las 24 horas del día, los 7 días de la semana, para atender de manera oportuna cualquier contingencia que pudiera presentarse en la Red Vial Fundamental. La ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a las y los usuarios tomar las previsiones necesarias y respetar la señalización dispuesta en el lugar. Página web: https://transitabilidad.abc.gob.bo WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ATENCIÓN COCHABAMBA - SANTA CRUZ La Administradora Boliviana de Carreteras (ABC), informa a la población en general que, en el tramo Aiquile – La Palizada, a la altura del sector Saipina, se registró la caída de material rocoso y tierra sobre la calzada debido a las precipitaciones pluviales en la zona. Frente a esta contingencia, la estatal caminera despliega maquinaria pesada y personal técnico especializado las 24 horas y los 7 días de semana. Actualmente, la circulación vehicular por el sector se realiza con extrema precaución. La ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a las y los usuarios tomar las previsiones necesarias y circular con extrema precaución. Página web: https://transitabilidad.abc.gob.bo WhatsApp: 71219232 #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ATENCIÓN COCHABAMBA - SANTA CRUZ La Administradora Boliviana de Carreteras (ABC), informa a la población en general que, en el tramo Aiquile – La Palizada, a la altura del sector Saipina, se registró la caída de material rocoso y tierra sobre la calzada debido a las precipitaciones pluviales en la zona. Frente a esta contingencia, la estatal caminera despliega maquinaria pesada y personal técnico especializado las 24 horas y los 7 días de semana. Actualmente, la circulación vehicular por el sector se realiza con extrema precaución. La ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, recomienda a las y los usuarios tomar las previsiones necesarias y circular con extrema precaución. ABC AVANZA EN EL MANTENIMIENTO DE LA CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, ejecuta trabajos de bacheo superficial con mezcla asfáltica en caliente en el sector Ichuraya, correspondiente al tramo Bombeo–Quillacollo, con el propósito de atender el deterioro localizado de la carpeta asfáltica y mejorar las condiciones de circulación vehicular. Esta intervención permite recuperar sectores puntuales de la superficie de rodadura afectados por el desgaste generado por el tránsito continuo de vehículos y las condiciones climáticas. Mediante la reposición de material asfáltico en las áreas intervenidas, se busca mejorar la regularidad de la calzada y contribuir a una circulación más segura y confortable para los usuarios que tienen como ruta Cochabamba – Oruro. El bacheo superficial con mezcla asfáltica en caliente es un procedimiento de conservación que consiste en preparar el área deteriorada, acondicionar la superficie y colocar la mezcla asfáltica a temperatura adecuada, seguida de su compactación. Este proceso permite reparar daños localizados y preservar la funcionalidad de la carpeta asfáltica, evitando que pequeñas afectaciones evolucionen y requieran intervenciones de mayor alcance. La ABC mantiene su compromiso de conservar la Red Vial Fundamental mediante intervenciones orientadas a preservar la infraestructura carretera y favorecer la seguridad de los usuarios. La entidad recomienda a los conductores reducir la velocidad al aproximarse a las áreas de trabajo, respetar la señalización preventiva y seguir las indicaciones del personal desplazado en el sector, a fin de evitar incidentes durante la ejecución de las labores. La conservación vial continua es fundamental para mantener la conectividad, proteger la infraestructura carretera y contribuir al desplazamiento seguro de pasajeros y carga en el departamento de Cochabamba. #unaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ABC AVANZA EN EL MANTENIMIENTO DE LA CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, ejecuta trabajos de bacheo superficial con mezcla asfáltica en caliente en el sector Ichuraya, correspondiente al tramo Bombeo–Quillacollo, con el propósito de atender el deterioro localizado de la carpeta asfáltica y mejorar las condiciones de circulación vehicular. Esta intervención permite recuperar sectores puntuales de la superficie de rodadura afectados por el desgaste generado por el tránsito continuo de vehículos y las condiciones climáticas. Mediante la reposición de material asfáltico en las áreas intervenidas, se busca mejorar la regularidad de la calzada y contribuir a una circulación más segura y confortable para los usuarios que tienen como ruta Cochabamba – Oruro. El bacheo superficial con mezcla asfáltica en caliente es un procedimiento de conservación que consiste en preparar el área deteriorada, acondicionar la superficie y colocar la mezcla asfáltica a temperatura adecuada, seguida de su compactación. Este proceso permite reparar daños localizados y preservar la funcionalidad de la carpeta asfáltica, evitando que pequeñas afectaciones evolucionen y requieran intervenciones de mayor alcance. La ABC mantiene su compromiso de conservar la Red Vial Fundamental mediante intervenciones orientadas a preservar la infraestructura carretera y favorecer la seguridad de los usuarios. La entidad recomienda a los conductores reducir la velocidad al aproximarse a las áreas de trabajo, respetar la señalización preventiva y seguir las indicaciones del personal desplazado en el sector, a fin de evitar incidentes durante la ejecución de las labores. La conservación vial continua es fundamental para mantener la conectividad, proteger la infraestructura carretera y contribuir al desplazamiento seguro de pasajeros y carga en el departamento de Cochabamba. Bendiciones para todos ustedes éxitos viva Bolivia Y la doble via? Azfalten el sillar de bombeo...en las lluvias full trancadera va estar. Hoy vine de viaje y no había nada de arreglos La Administradora Boliviana de Carreteras (ABC) gestiona 20 mil kilómetros de carreteras de la Red Vial Fundamental (R.V.F), ampliando su cobertura a la rehabilitación y conservación de las vías. A continuación, te mostramos el reporte de transitabilidad. Para más información visita nuestra página web: https://transitabilidad.abc.gob.bo Cualquier emergencia pueden escribirnos al número de Whatsapp: 71219232 La ABC trabaja junto al Ministerio de Obras Públicas, Servicios y Vivienda para mantener informada a la población sobre la Red Vial Fundamental. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia La Administradora Boliviana de Carreteras (ABC) gestiona 20 mil kilómetros de carreteras de la Red Vial Fundamental (R.V.F), ampliando su cobertura a la rehabilitación y conservación de las vías. A continuación, te mostramos el reporte de transitabilidad. Para más información visita nuestra página web: Cualquier emergencia pueden escribirnos al número de Whatsapp: La ABC trabaja junto al Ministerio de Obras Públicas, Servicios y Vivienda para mantener informada a la población sobre la Red Vial Fundamental. LA ABC DESPLEGÓ EN LA MADRUGADA OPERATIVO DE LIMPIEZA DE PLATAFORMA EN EL TRAMO LA ANGOSTURA – BERMEJO, SANTA CRUZ En el marco de las políticas de gestión de emergencias, la Administradora Boliviana de Carreteras (ABC), movilizó maquinaria pesada y personal técnico durante la madrugada de este domingo para atender un deslizamiento de material sobre la calzada en el sector La Gruta de La Angostura, tramo La Angostura – Bermejo, del departamento de Santa Cruz. La activación inmediata del plan de contingencias del Programa de Conservación Vial permitió ejecutar tareas ininterrumpidas de limpieza, retiro de rocas y perfilado de plataforma, restituyendo las condiciones de transitabilidad y resguardando la seguridad en este punto crítico de la Red Vial Fundamental. Ante la presencia de frentes de trabajo y factores climáticos en la zona, la estatal caminera recomienda a los conductores circular con extrema precaución, moderar la velocidad y acatar las instrucciones de los operadores en vía. Con el despliegue ininterrumpido de equipos especializados y maquinaria pesada técnicos bajo la modalidad 24/7 en las carreteras cruceñas, la ABC y el Ministerio de Obras Públicas, Servicios y Vivienda, reafirma su compromiso de brindar una respuesta oportuna ante contingencias pluviales o geológicas, priorizando la vida de los usuarios y recordando los canales oficiales de reporte de emergencias mediante el portal https://transitabilidad.abc.gob.bo y la línea de WhatsApp 71219232. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia LA ABC DESPLEGÓ EN LA MADRUGADA OPERATIVO DE LIMPIEZA DE PLATAFORMA EN EL TRAMO LA ANGOSTURA – BERMEJO, SANTA CRUZ En el marco de las políticas de gestión de emergencias, la Administradora Boliviana de Carreteras (ABC), movilizó maquinaria pesada y personal técnico durante la madrugada de este domingo para atender un deslizamiento de material sobre la calzada en el sector La Gruta de La Angostura, tramo La Angostura – Bermejo, del departamento de Santa Cruz. La activación inmediata del plan de contingencias del Programa de Conservación Vial permitió ejecutar tareas ininterrumpidas de limpieza, retiro de rocas y perfilado de plataforma, restituyendo las condiciones de transitabilidad y resguardando la seguridad en este punto crítico de la Red Vial Fundamental. Ante la presencia de frentes de trabajo y factores climáticos en la zona, la estatal caminera recomienda a los conductores circular con extrema precaución, moderar la velocidad y acatar las instrucciones de los operadores en vía. Con el despliegue ininterrumpido de equipos",
       "roads": [
-        "tramo Suticollo – Parotani (5",
-        "carretera hacia Oruro",
-        "carretera nueva Cochabamba – Santa Cruz sobre el tramo Naranjitos – Padresama (sector Siete Curvas",
-        "Puente Sacta sufrió un colapso",
-        "tramo BN05",
-        "carretera Cochabamba - Oruro Descargar PDF Ver comunicado 12/02/2026 | Cochabamba-Oruro Se levanta la restricción vehicular en la carretera Cochabamba - Oruro"
+        "tramo Tarija – Villa Montes",
+        "tramo Aiquile – La Palizada",
+        "CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC)",
+        "tramo Bombeo–Quillacollo",
+        "ruta Cochabamba – Oruro",
+        "carretera y favorecer la seguridad de los usuarios",
+        "carretera y contribuir al desplazamiento seguro de pasajeros y carga en el departamento de Cochabamba",
+        "TRAMO LA ANGOSTURA – BERMEJO"
       ],
       "places": [
-        "sector Siete Curvas",
-        "zona del Trópico",
-        "Puente Sacta sufrió un colapso",
-        "sector denominado Muela del Diablo"
+        "altura del sector Piedra",
+        "altura del sector Piedra Larga",
+        "altura del sector Saipina",
+        "sector se realiza",
+        "sector Ichuraya",
+        "sector La Gruta de La Angostura"
       ],
       "kilometer_mentions": [],
       "directions": [
-        "del navegador",
-        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
-        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
-        "form -> exclusiva. Uso de https",
-        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
-        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
-        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
-        "compartir información sensible únic -> mnete con portales oficiales asegurados"
+        "ATENCIÓN TARIJA La Administradora Bolivi -> na de Carreteras",
+        "informa a la población en gener -> l que",
+        "en el tramo T -> rija",
+        "Vill -> Montes",
+        "subtramo T -> rija",
+        "a la altura del sector Piedra... -> TENCIÓN TARIJA La Administradora Bolivian",
+        "de C -> rreteras",
+        "subtramo... ATENCIÓN TARIJA La Administr -> dora Boliviana de Carreteras"
       ],
-      "alternative_routes": [],
+      "alternative_routes": [
+        "transitar con precaución",
+        "las previsiones necesarias y respetar la señalización dispuesta en el lugar",
+        "las previsiones necesarias y circular con extrema precaución"
+      ],
       "affected_vehicles": [],
       "time_mentions": [],
       "keywords": [
-        "paro",
+        "trancadera",
+        "derrumbe",
         "deslizamiento",
+        "bache",
+        "tránsito",
         "carretera",
+        "ruta",
         "tramo",
         "kilómetro",
-        "km",
         "red vial fundamental",
-        "rvf",
-        "cierre",
-        "cierre total",
-        "derrumbe",
-        "ruta",
-        "puente",
-        "restricción vehicular"
+        "transitabilidad",
+        "bacheo",
+        "maquinaria pesada"
       ],
       "latitude": null,
       "longitude": null,
-      "location_query": "tramo Suticollo – Parotani (5, Cochabamba, Bolivia",
-      "image_urls": [],
+      "location_query": "tramo Tarija – Villa Montes, Quillacollo, Cochabamba, Bolivia",
+      "image_urls": [
+        "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/4664843163185839670?url=https%3A%2F%2Ftransitabilidad.abc.gob.bo%2Fimages%2Flogo%2FLogoEscudo2025.png&fb_obo=1&utld=gob.bo&dfr=1&_nc_sid=867500&_nc_ht=external-sjc3-1.xx.fbcdn.net&stp=dst-jpg_p600x600_tt6&ccb=18-1&_nc_gid=uMSdeR6Rb6suzV-gbGKxZw&_nc_zt=3&oh=06_Q3_EAWzCKWw0ormnQBO8pGVk_kodHutZZ_QdrKkIHpoC_c_6&oe=6AEB34A3",
+        "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/4664843163185839670?url=https%3A%2F%2Ftransitabilidad.abc.gob.bo%2Fimages%2Flogo%2FLogoEscudo2025.png&fb_obo=1&utld=gob.bo&_nc_sid=e17101&_nc_ht=external-sjc3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&ccb=18-1&_nc_gid=e2b2HJSE_GX3t2SZNPVcoA&_nc_zt=3&oh=06_Q3_EAYw7iIMIh7njomhW8GV2Z7V2hjH8fYx-wfIFQcTaIPkm&oe=6AEB34A3"
+      ],
       "video_url": null,
       "video_thumbnail_url": null,
       "video_type": null,
       "is_official": true,
-      "image_url": null,
-      "has_image": false,
+      "image_url": "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/4664843163185839670?url=https%3A%2F%2Ftransitabilidad.abc.gob.bo%2Fimages%2Flogo%2FLogoEscudo2025.png&fb_obo=1&utld=gob.bo&dfr=1&_nc_sid=867500&_nc_ht=external-sjc3-1.xx.fbcdn.net&stp=dst-jpg_p600x600_tt6&ccb=18-1&_nc_gid=uMSdeR6Rb6suzV-gbGKxZw&_nc_zt=3&oh=06_Q3_EAWzCKWw0ormnQBO8pGVk_kodHutZZ_QdrKkIHpoC_c_6&oe=6AEB34A3",
+      "has_image": true,
       "has_video": false,
       "media": {
-        "images": [],
-        "main_image_url": null,
+        "images": [
+          "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/4664843163185839670?url=https%3A%2F%2Ftransitabilidad.abc.gob.bo%2Fimages%2Flogo%2FLogoEscudo2025.png&fb_obo=1&utld=gob.bo&dfr=1&_nc_sid=867500&_nc_ht=external-sjc3-1.xx.fbcdn.net&stp=dst-jpg_p600x600_tt6&ccb=18-1&_nc_gid=uMSdeR6Rb6suzV-gbGKxZw&_nc_zt=3&oh=06_Q3_EAWzCKWw0ormnQBO8pGVk_kodHutZZ_QdrKkIHpoC_c_6&oe=6AEB34A3",
+          "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/4664843163185839670?url=https%3A%2F%2Ftransitabilidad.abc.gob.bo%2Fimages%2Flogo%2FLogoEscudo2025.png&fb_obo=1&utld=gob.bo&_nc_sid=e17101&_nc_ht=external-sjc3-1.xx.fbcdn.net&stp=c0.5000x0.5000f_dst-jpg_flffffff_p500x261_q75_tt6&ccb=18-1&_nc_gid=e2b2HJSE_GX3t2SZNPVcoA&_nc_zt=3&oh=06_Q3_EAYw7iIMIh7njomhW8GV2Z7V2hjH8fYx-wfIFQcTaIPkm&oe=6AEB34A3"
+        ],
+        "main_image_url": "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/4664843163185839670?url=https%3A%2F%2Ftransitabilidad.abc.gob.bo%2Fimages%2Flogo%2FLogoEscudo2025.png&fb_obo=1&utld=gob.bo&dfr=1&_nc_sid=867500&_nc_ht=external-sjc3-1.xx.fbcdn.net&stp=dst-jpg_p600x600_tt6&ccb=18-1&_nc_gid=uMSdeR6Rb6suzV-gbGKxZw&_nc_zt=3&oh=06_Q3_EAWzCKWw0ormnQBO8pGVk_kodHutZZ_QdrKkIHpoC_c_6&oe=6AEB34A3",
         "videos": []
       },
-      "status_conflict": true,
+      "status_conflict": false,
       "status_evidence": [
         {
-          "status": "precaucion",
+          "status": "habilitado",
           "published_at": null,
-          "source_id": "web_abc",
-          "source_name": "ABC - Administradora Boliviana de Carreteras",
-          "tier": 2,
-          "url": "https://www.abc.gob.bo/nota_prensa/el-plan-nacional-de-emergencia-inyectara-mas-de-bs-348-millones-en-cochabamba-en-los-tramos-suticollo-y-siete-curvas-para-proteger-sus-corredores-estrategicos/"
-        },
-        {
-          "status": "cerrado",
-          "published_at": null,
-          "source_id": "web_abc_comunicados",
-          "source_name": "ABC - Comunicados",
-          "tier": 2,
-          "url": "https://www.abc.gob.bo/lista-comunicados-page/"
+          "source_id": "fb_abc",
+          "source_name": "ABC Carreteras Bolivia",
+          "tier": 1,
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0p8r6uCwu9jxiQWUcbSja5eD6ivNRCnvz9R7Fk9XaqiV7MJWxmnRpzEr4QNfxqep2l?__cft__[0]=AZjddluCCw3_1wAoftn5Oj-DGN5LlwlB6eF_AAf3ZLFeCDmFEFxWdQ4LCSMWcg_4obxWVHkwn72oALWpOF7aLlfgPnyHe7VN9XaQzMqj1s6pl7e23IT0FYMQ8PkH0t-vhukW-r9boGWfu1lQQDhfqDDXTm6UWheIvQCZmLCrMmsW2WdHWuUtlynRerY&__tn__=%2CO%2CP-R"
         }
       ],
       "latest_update_at": null,
       "videos": [],
       "sources": [
         {
-          "id": "web_abc",
-          "name": "ABC - Administradora Boliviana de Carreteras",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://www.abc.gob.bo/",
-          "post_url": "https://www.abc.gob.bo/nota_prensa/el-plan-nacional-de-emergencia-inyectara-mas-de-bs-348-millones-en-cochabamba-en-los-tramos-suticollo-y-siete-curvas-para-proteger-sus-corredores-estrategicos/",
-          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-          "published_at": null
-        },
-        {
-          "id": "web_abc_comunicados",
-          "name": "ABC - Comunicados",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://www.abc.gob.bo/lista-comunicados-page/",
-          "post_url": "https://www.abc.gob.bo/lista-comunicados-page/",
-          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+          "id": "fb_abc",
+          "name": "ABC Carreteras Bolivia",
+          "class": "facebook_official",
+          "tier": 1,
+          "page_url": "https://www.facebook.com/CarreterasBo/",
+          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0p8r6uCwu9jxiQWUcbSja5eD6ivNRCnvz9R7Fk9XaqiV7MJWxmnRpzEr4QNfxqep2l?__cft__[0]=AZjddluCCw3_1wAoftn5Oj-DGN5LlwlB6eF_AAf3ZLFeCDmFEFxWdQ4LCSMWcg_4obxWVHkwn72oALWpOF7aLlfgPnyHe7VN9XaQzMqj1s6pl7e23IT0FYMQ8PkH0t-vhukW-r9boGWfu1lQQDhfqDDXTm6UWheIvQCZmLCrMmsW2WdHWuUtlynRerY&__tn__=%2CO%2CP-R",
+          "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QeI2EP8ft_QQ7kNvwFrE_l5&_nc_oc=AdqxfnimsULPg1MFfucEUUqCr6FvNNU-ij-LsY9B-ACk8mJnJ1dZRuqEY9YlTYWShOQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NSgZ9isZqeBtKuujC4k8pA&_nc_ss=7f289&oh=00_AQR_nZ06luM83-GB_x95w2KMXMqBc0Aq5Fj7wFEt20pcKA&oe=6AEF3958",
           "published_at": null
         }
       ],
-      "source_count": 2,
-      "verification": "web_oficial_confirmado",
-      "corroborated": true,
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
       "all_urls": [
-        "https://www.abc.gob.bo/nota_prensa/el-plan-nacional-de-emergencia-inyectara-mas-de-bs-348-millones-en-cochabamba-en-los-tramos-suticollo-y-siete-curvas-para-proteger-sus-corredores-estrategicos/",
-        "https://www.abc.gob.bo/lista-comunicados-page/"
+        "https://www.facebook.com/CarreterasBo/posts/pfbid0p8r6uCwu9jxiQWUcbSja5eD6ivNRCnvz9R7Fk9XaqiV7MJWxmnRpzEr4QNfxqep2l?__cft__[0]=AZjddluCCw3_1wAoftn5Oj-DGN5LlwlB6eF_AAf3ZLFeCDmFEFxWdQ4LCSMWcg_4obxWVHkwn72oALWpOF7aLlfgPnyHe7VN9XaQzMqj1s6pl7e23IT0FYMQ8PkH0t-vhukW-r9boGWfu1lQQDhfqDDXTm6UWheIvQCZmLCrMmsW2WdHWuUtlynRerY&__tn__=%2CO%2CP-R"
       ],
-      "merged_items": 2,
+      "merged_items": 1,
       "incident_id": "inc_20583586a96537",
       "first_seen_at": "2026-08-28T13:44:08-04:00",
       "history": [
@@ -186,487 +181,27 @@
             "ABC - Comunicados"
           ],
           "url": "https://www.abc.gob.bo/nota_prensa/el-plan-nacional-de-emergencia-inyectara-mas-de-bs-348-millones-en-cochabamba-en-los-tramos-suticollo-y-siete-curvas-para-proteger-sus-corredores-estrategicos/"
-        }
-      ],
-      "lifecycle_status": "activo",
-      "is_active": true,
-      "last_seen_at": "2026-11-02T19:15:14-04:00",
-      "seen_this_run": true,
-      "history_count": 2
-    },
-    {
-      "id": "26d6a1a69564acc0",
-      "source_id": "web_abc",
-      "source_name": "ABC - Administradora Boliviana de Carreteras",
-      "source_url": "https://www.abc.gob.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-      "url": "https://www.abc.gob.bo/nota_prensa/plan-nacional-de-emergencia-la-abc-y-fonplata-inspeccionaran-puntos-criticos-en-el-tramo-santa-cruz-comarapa-para-invertir-us-186-millones-en-la-reconstruccion-de-la-carretera/",
-      "published_at": null,
-      "scraped_at": "2026-11-02T19:15:14-04:00",
-      "department": "Santa Cruz",
-      "municipality": "Cochabamba",
-      "city": "Cochabamba",
-      "event_type": "derrumbe",
-      "cause": "lluvia",
-      "status": "precaucion",
-      "closure_scope": null,
-      "severity": "alta",
-      "confidence": 0.88,
-      "relevance_score": 88,
-      "filter_reasons": [
-        "contexto_vial:6",
-        "evento:derrumbe",
-        "via_detectada:4",
-        "terminos_viales:7",
-        "fuente_oficial_web"
-      ],
-      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia PLAN NACIONAL DE EMERGENCIA: LA ABC Y FONPLATA INSPECCIONARÁN PUNTOS CRÍTICOS EN EL TRAMO SANTA CRUZ - COMARAPA PARA INVERTIR $US 18,6 MILLONES EN LA RECONSTRUCCIÓN DE LA CARRETERA Compartir ¡Enlace copiado al portapapeles! , 14 de octubre de 2026 La Administradora Boliviana de Carreteras (ABC) y el equipo profesional de FONPLATA – Banco de Desarrollo ejecutarán una inspección técnica a lo largo del tramo Comarapa – Santa Cruz, carretera antigua Santa Cruz – Cochabamba, RVF 07, con el objetivo de evaluar y verificar el estado actual de los sectores críticos identificados, acciones ejecutadas bajo los lineamientos del presidente Rodrigo Paz, y como resultado de las gestiones impulsadas por el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora, y el presidente de la ABC, Ernesto Farfán. El proyecto integral contempla un presupuesto referencial de $us 18.6 millones, destinados a la reconstrucción de calzada, armado de muros de contención, reposición de plataforma y obras de drenaje en una longitud de intervención estratégica. La comisión conjunta inspeccionará alrededor de 17 puntos geológicamente vulnerables, a lo largo de 277 kilómetros que componen este tramo, contemplados en el proyecto elaborado por la ABC y presentado formalmente para su financiamiento dentro del Programa Nacional de Emergencias Viales para la Rehabilitación y Conservación de Carreteras. Durante el recorrido se revisará la condición de la calzada, se identificará la aparición de nuevos eventos de inestabilidad y se medirá el posible grado de afectación en los sectores previamente evaluados. Esta intervención responde a la necesidad de implementar soluciones definitivas, tras los severos daños sufridos por lluvias extraordinarias que causaron pérdida de plataforma y deslizamientos en Achiras, Cuevas, Bermejo, La Angostura, Petacas, Mataral y Samaipata, además de los años de abandono en el mantenimiento de las carreteras. La ABC en articulación con el Ministerio de Obras Públicas, reafirma la voluntad del Gobierno Nacional de agilizar los mecanismos técnicos de financiamiento verde y resiliencia climática, ante la cooperación internacional, garantizando la transitabilidad continua, resguardando la seguridad de los usuarios y protegiendo el transporte de la producción agrícola de los Valles Cruceños. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia PLAN NACIONAL DE EMERGENCIA: LA ABC Y FONPLATA INSPECCIONARÁN PUNTOS CRÍTICOS EN EL TRAMO SANTA CRUZ - COMARAPA PARA INVERTIR $US 18,6 MILLONES EN LA RECONSTRUCCIÓN DE LA CARRETERA Compartir ¡Enlace copiado al portapapeles! , 14 de octubre de 2026 La Administradora Boliviana de Carreteras (ABC) y el equipo profesional de FONPLATA – Banco de Desarrollo ejecutarán una inspección técnica a lo largo del tramo Comarapa – Santa Cruz, carretera antigua Santa Cruz – Cochabamba, RVF 07, con el objetivo de evaluar y verificar el estado actual de los sectores críticos identificados, acciones ejecutadas bajo los lineamientos del presidente Rodrigo Paz, y como resultado de las gestiones impulsadas por el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora, y el presidente de la ABC, Ernesto Farfán. El proyecto integral contempla un presupuesto referencial de $us 18.6 millones, destinados a la reconstrucción de calzada, armado de muros de contención, reposición de plataforma y obras de drenaje en una longitud de intervención estratégica. La comisión conjunta inspeccionará alrededor de 17 puntos geológicamente vulnerables, a lo largo de 277 kilómetros que componen este tramo, contemplados en el proyecto elaborado por la ABC y presentado formalmente para su financiamiento dentro del Programa Nacional de Emergencias Viales para la Rehabilitación y Conservación de Carreteras. Durante el recorrido se revisará la condición de la calzada, se identificará la aparición de nuevos eventos de inestabilidad y se medirá el posible grado de afectación en los sectores previamente evaluados. Esta intervención responde a la necesidad de implementar soluciones definitivas, tras los severos daños sufridos por lluvias extraordinarias que causaron pérdida de plataforma y deslizamientos en Achiras, Cuevas, Bermejo, La Angostura, Petacas, Mataral y Samaipata, además de los años de abandono en el mantenimiento de las carreteras. La ABC en articulación con el Ministerio de Obras Públicas, reafirma la voluntad del Gobierno Nacional de agilizar los mecanismos técnicos de financiamiento verde y resiliencia climática, ante la cooperación internacional, garantizando la transitabilidad continua, resguardando la seguridad de los usuarios y protegiendo el transporte de la producción agrícola de los Valles Cruceños. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "roads": [
-        "TRAMO SANTA CRUZ - COMARAPA PARA INVERTIR $US 18",
-        "CARRETERA Compartir ¡Enlace copiado al portapapeles!",
-        "tramo Comarapa – Santa Cruz",
-        "carretera antigua Santa Cruz – Cochabamba"
-      ],
-      "places": [],
-      "kilometer_mentions": [],
-      "directions": [
-        "del navegador",
-        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
-        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
-        "form -> exclusiva. Uso de https",
-        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
-        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
-        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
-        "compartir información sensible únic -> mnete con portales oficiales asegurados"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "deslizamiento",
-        "pérdida de plataforma",
-        "carretera",
-        "tramo",
-        "kilómetro",
-        "rvf",
-        "transitabilidad"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "TRAMO SANTA CRUZ - COMARAPA PARA INVERTIR $US 18, Cochabamba, Santa Cruz, Bolivia",
-      "image_urls": [],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": null,
-      "has_image": false,
-      "has_video": false,
-      "media": {
-        "images": [],
-        "main_image_url": null,
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
+        },
         {
-          "status": "precaucion",
-          "published_at": null,
-          "source_id": "web_abc",
-          "source_name": "ABC - Administradora Boliviana de Carreteras",
-          "tier": 2,
-          "url": "https://www.abc.gob.bo/nota_prensa/plan-nacional-de-emergencia-la-abc-y-fonplata-inspeccionaran-puntos-criticos-en-el-tramo-santa-cruz-comarapa-para-invertir-us-186-millones-en-la-reconstruccion-de-la-carretera/"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "web_abc",
-          "name": "ABC - Administradora Boliviana de Carreteras",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://www.abc.gob.bo/",
-          "post_url": "https://www.abc.gob.bo/nota_prensa/plan-nacional-de-emergencia-la-abc-y-fonplata-inspeccionaran-puntos-criticos-en-el-tramo-santa-cruz-comarapa-para-invertir-us-186-millones-en-la-reconstruccion-de-la-carretera/",
-          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://www.abc.gob.bo/nota_prensa/plan-nacional-de-emergencia-la-abc-y-fonplata-inspeccionaran-puntos-criticos-en-el-tramo-santa-cruz-comarapa-para-invertir-us-186-millones-en-la-reconstruccion-de-la-carretera/"
-      ],
-      "merged_items": 1,
-      "incident_id": "inc_6c8cd16c9cafeb",
-      "first_seen_at": "2026-10-02T19:47:16-04:00",
-      "history": [
-        {
-          "at": "2026-10-02T19:47:16-04:00",
-          "detected_at": "2026-10-02T19:47:16-04:00",
-          "reason": "primera_deteccion",
+          "at": "2026-11-02T23:58:30-04:00",
+          "detected_at": "2026-11-02T23:58:30-04:00",
+          "reason": "actualizacion",
           "status": "habilitado",
           "lifecycle_status": "finalizado",
           "severity": "alta",
-          "closure_scope": "sin_cierre",
+          "closure_scope": "parcial",
           "source_count": 1,
           "sources": [
             "ABC Carreteras Bolivia"
           ],
-          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid06oT2jbnAAGCAxebhGoqNMVqZkMqfNgBGsuUCujA7jtkdkn3bxfAgKMTA4TEpLdcol?__cft__[0]=AZigw_bq8uQbr6LdQcDX1ZHhiCKSSMFUi-QcbLSypHG89gQ_Nh6vVV_wAwNBdoGhbUXvHIdt2gUWHPA95ocrWm9p5Eoq71ZfoxmqZt_1WIrJBxjN9ZANF2TGQedJWRhjVgl4-cXWG0zQTF_vx63iBNvN_gSO6VNtRdnJx_AJTOxglMFO5zNHaa_YbTQ&__tn__=%2CO%2CP-R"
-        },
-        {
-          "at": "2026-10-08T15:31:04-04:00",
-          "detected_at": "2026-10-08T15:31:04-04:00",
-          "reason": "actualizacion",
-          "status": "precaucion",
-          "lifecycle_status": "activo",
-          "severity": "media",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras"
-          ],
-          "url": "https://www.abc.gob.bo/nota_prensa/la-abc-junto-a-autoridades-municipales-y-transporte-inspeccionan-el-sector-petacas-y-anuncian-inversion-de-bs-127-millones-en-la-rehabilitacion-de-la-ruta-a-los-valles-en-santa-cruz-dentro-del-plan-n/"
-        },
-        {
-          "at": "2026-10-14T16:42:45-04:00",
-          "detected_at": "2026-10-14T16:42:45-04:00",
-          "reason": "actualizacion",
-          "status": "precaucion",
-          "lifecycle_status": "activo",
-          "severity": "alta",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras"
-          ],
-          "url": "https://www.abc.gob.bo/nota_prensa/plan-nacional-de-emergencia-la-abc-y-fonplata-inspeccionaran-puntos-criticos-en-el-tramo-santa-cruz-comarapa-para-invertir-us-186-millones-en-la-reconstruccion-de-la-carretera/"
-        }
-      ],
-      "lifecycle_status": "activo",
-      "is_active": true,
-      "last_seen_at": "2026-11-02T19:15:14-04:00",
-      "seen_this_run": true,
-      "history_count": 3
-    },
-    {
-      "id": "5b5ee07b474dfa5b",
-      "source_id": "fb_abc",
-      "source_name": "ABC Carreteras Bolivia",
-      "source_url": "https://www.facebook.com/CarreterasBo/",
-      "source_class": "facebook_official",
-      "source_tier": 1,
-      "source_icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QeI2EP8ft_QQ7kNvwHSJkv3&_nc_oc=Adq_MKUTSIOj8KLolQZITprJfuouCLvNdtEFZzUurHkXUj958XVCrDtUgTG2IvcS2R0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Ga4tCDcjWOohv1gYbVN77Q&_nc_ss=7f289&oh=00_AQRbMbJKnGIVTlqJ2KS-LvkzcTqz9eeSpy-0HB6ZsHliZA&oe=6AEF0118",
-      "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0263fybkTVsixkZg22HTzYT6dEqAB2KwM6FZMaSq6DfvFCbLByNMJRAiMzd86NqUavl?comment_id=1142821031423458&__cft__[0]=AZhq7i9n-ZLUAKVvmtQWu6fBc100wtxqc7cU2tuBUCUZn7osxKDzix-Cb3aQ1481TxuzKP9MoWesezJfSDKJ6XoQVJeIfxiQUsXmSH7K12tO4gMr3_KE3WhK-CSCPQM466gk1ZrV2kg-EnESg0iYBh0exEPrgqBBBPCtI1OKrvGn1Ouui2PE3VEaqn8&__tn__=R-R",
-      "published_at": null,
-      "scraped_at": "2026-11-02T19:15:14-04:00",
-      "department": "Cochabamba",
-      "municipality": "Quillacollo",
-      "city": "Cochabamba",
-      "event_type": "bloqueo",
-      "cause": "lluvia",
-      "status": "cerrado",
-      "closure_scope": null,
-      "severity": "media",
-      "confidence": 0.99,
-      "relevance_score": 100,
-      "filter_reasons": [
-        "frase_vial_directa:1",
-        "contexto_vial:11",
-        "evento:bloqueo",
-        "via_detectada:5",
-        "sector_detectado:1",
-        "terminos_viales:8",
-        "fuente_oficial_facebook"
-      ],
-      "title": "Jorge Arandia A comentó: Y la doble via?",
-      "description": "ABC AVANZA EN EL MANTENIMIENTO DE LA CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), en coordinación con... ABC AVANZA EN EL MANTENIMIENTO DE LA CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, ejecuta trabajos de bacheo superficial con mezcla asfáltica en caliente en el sector Ichuraya, correspondiente al tramo Bombeo–Quillacollo, con el propósito de atender el deterioro localizado de la carpeta asfáltica y mejorar las condiciones de circulación vehicular. Esta intervención permite recuperar sectores puntuales de la superficie de rodadura afectados por el desgaste generado por el tránsito continuo de vehículos y las condiciones climáticas. Mediante la reposición de material asfáltico en las áreas intervenidas, se busca mejorar la regularidad de la calzada y contribuir a una circulación más segura y confortable para los usuarios que tienen como ruta Cochabamba – Oruro. El bacheo superficial con mezcla asfáltica en caliente es un procedimiento de conservación que consiste en preparar el área deteriorada, acondicionar la superficie y colocar la mezcla asfáltica a temperatura adecuada, seguida de su compactación. Este proceso permite reparar daños localizados y preservar la funcionalidad de la carpeta asfáltica, evitando que pequeñas afectaciones evolucionen y requieran intervenciones de mayor alcance. La ABC mantiene su compromiso de conservar la Red Vial Fundamental mediante intervenciones orientadas a preservar la infraestructura carretera y favorecer la seguridad de los usuarios. La entidad recomienda a los conductores reducir la velocidad al aproximarse a las áreas de trabajo, respetar la señalización preventiva y seguir las indicaciones del personal desplazado en el sector, a fin de evitar incidentes durante la ejecución de las labores. La conservación vial continua es fundamental para mantener la conectividad, proteger la infraestructura carretera y contribuir al desplazamiento seguro de pasajeros y carga en el departamento de Cochabamba. #unaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ABC AVANZA EN EL MANTENIMIENTO DE LA CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, ejecuta trabajos de bacheo superficial con mezcla asfáltica en caliente en el sector Ichuraya, correspondiente al tramo Bombeo–Quillacollo, con el propósito de atender el deterioro localizado de la carpeta asfáltica y mejorar las condiciones de circulación vehicular. Esta intervención permite recuperar sectores puntuales de la superficie de rodadura afectados por el desgaste generado por el tránsito continuo de vehículos y las condiciones climáticas. Mediante la reposición de material asfáltico en las áreas intervenidas, se busca mejorar la regularidad de la calzada y contribuir a una circulación más segura y confortable para los usuarios que tienen como ruta Cochabamba – Oruro. El bacheo superficial con mezcla asfáltica en caliente es un procedimiento de conservación que consiste en preparar el área deteriorada, acondicionar la superficie y colocar la mezcla asfáltica a temperatura adecuada, seguida de su compactación. Este proceso permite reparar daños localizados y preservar la funcionalidad de la carpeta asfáltica, evitando que pequeñas afectaciones evolucionen y requieran intervenciones de mayor alcance. La ABC mantiene su compromiso de conservar la Red Vial Fundamental mediante intervenciones orientadas a preservar la infraestructura carretera y favorecer la seguridad de los usuarios. La entidad recomienda a los conductores reducir la velocidad al aproximarse a las áreas de trabajo, respetar la señalización preventiva y seguir las indicaciones del personal desplazado en el sector, a fin de evitar incidentes durante la ejecución de las labores. La conservación vial continua es fundamental para mantener la conectividad, proteger la infraestructura carretera y contribuir al desplazamiento seguro de pasajeros y carga en el departamento de Cochabamba. #unaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia Y la doble via? Azfalten el sillar de bombeo...en las lluvias full trancadera va estar.",
-      "original_text": "ABC AVANZA EN EL MANTENIMIENTO DE LA CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), en coordinación con... ABC AVANZA EN EL MANTENIMIENTO DE LA CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, ejecuta trabajos de bacheo superficial con mezcla asfáltica en caliente en el sector Ichuraya, correspondiente al tramo Bombeo–Quillacollo, con el propósito de atender el deterioro localizado de la carpeta asfáltica y mejorar las condiciones de circulación vehicular. Esta intervención permite recuperar sectores puntuales de la superficie de rodadura afectados por el desgaste generado por el tránsito continuo de vehículos y las condiciones climáticas. Mediante la reposición de material asfáltico en las áreas intervenidas, se busca mejorar la regularidad de la calzada y contribuir a una circulación más segura y confortable para los usuarios que tienen como ruta Cochabamba – Oruro. El bacheo superficial con mezcla asfáltica en caliente es un procedimiento de conservación que consiste en preparar el área deteriorada, acondicionar la superficie y colocar la mezcla asfáltica a temperatura adecuada, seguida de su compactación. Este proceso permite reparar daños localizados y preservar la funcionalidad de la carpeta asfáltica, evitando que pequeñas afectaciones evolucionen y requieran intervenciones de mayor alcance. La ABC mantiene su compromiso de conservar la Red Vial Fundamental mediante intervenciones orientadas a preservar la infraestructura carretera y favorecer la seguridad de los usuarios. La entidad recomienda a los conductores reducir la velocidad al aproximarse a las áreas de trabajo, respetar la señalización preventiva y seguir las indicaciones del personal desplazado en el sector, a fin de evitar incidentes durante la ejecución de las labores. La conservación vial continua es fundamental para mantener la conectividad, proteger la infraestructura carretera y contribuir al desplazamiento seguro de pasajeros y carga en el departamento de Cochabamba. #unaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia ABC AVANZA EN EL MANTENIMIENTO DE LA CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, ejecuta trabajos de bacheo superficial con mezcla asfáltica en caliente en el sector Ichuraya, correspondiente al tramo Bombeo–Quillacollo, con el propósito de atender el deterioro localizado de la carpeta asfáltica y mejorar las condiciones de circulación vehicular. Esta intervención permite recuperar sectores puntuales de la superficie de rodadura afectados por el desgaste generado por el tránsito continuo de vehículos y las condiciones climáticas. Mediante la reposición de material asfáltico en las áreas intervenidas, se busca mejorar la regularidad de la calzada y contribuir a una circulación más segura y confortable para los usuarios que tienen como ruta Cochabamba – Oruro. El bacheo superficial con mezcla asfáltica en caliente es un procedimiento de conservación que consiste en preparar el área deteriorada, acondicionar la superficie y colocar la mezcla asfáltica a temperatura adecuada, seguida de su compactación. Este proceso permite reparar daños localizados y preservar la funcionalidad de la carpeta asfáltica, evitando que pequeñas afectaciones evolucionen y requieran intervenciones de mayor alcance. La ABC mantiene su compromiso de conservar la Red Vial Fundamental mediante intervenciones orientadas a preservar la infraestructura carretera y favorecer la seguridad de los usuarios. La entidad recomienda a los conductores reducir la velocidad al aproximarse a las áreas de trabajo, respetar la señalización preventiva y seguir las indicaciones del personal desplazado en el sector, a fin de evitar incidentes durante la ejecución de las labores. La conservación vial continua es fundamental para mantener la conectividad, proteger la infraestructura carretera y contribuir al desplazamiento seguro de pasajeros y carga en el departamento de Cochabamba. #unaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia Y la doble via? Azfalten el sillar de bombeo...en las lluvias full trancadera va estar.",
-      "roads": [
-        "CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC)",
-        "tramo Bombeo–Quillacollo",
-        "ruta Cochabamba – Oruro",
-        "carretera y favorecer la seguridad de los usuarios",
-        "carretera y contribuir al desplazamiento seguro de pasajeros y carga en el departamento de Cochabamba"
-      ],
-      "places": [
-        "sector Ichuraya"
-      ],
-      "kilometer_mentions": [],
-      "directions": [
-        "ABC AVANZA EN EL MANTENIMIENTO DE LA C -> RRETERA BOMBE0",
-        "QUILLACOLLO EN COCHABAMBA La Administr -> dora Boliviana de Carreteras",
-        "en coordinación con... ABC AVANZA EN EL M -> NTENIMIENTO DE LA CARRETERA BOMBE0",
-        "en coordinación con el Ministerio de Obr -> s Públicas",
-        "ejecuta trabajos de bacheo superfici -> l con mezcla asfáltica en caliente en el",
-        "correspondiente al tr -> mo Bombeo",
-        "Quill -> collo",
-        "con el propósito de -> tender el deterioro localizado de la carp"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "trancadera",
-        "bache",
-        "tránsito",
-        "carretera",
-        "ruta",
-        "tramo",
-        "red vial fundamental",
-        "bacheo"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "CARRETERA BOMBE0–QUILLACOLLO EN COCHABAMBA La Administradora Boliviana de Carreteras (ABC), Quillacollo, Cochabamba, Bolivia",
-      "image_urls": [
-        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/885420206_1452452213687042_366362069757080969_n.png?stp=dst-jpg_tt6&cstp=mx1600x903&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=b96d88&_nc_ohc=BFvYKRtaHIsQ7kNvwFHb6aJ&_nc_oc=AdrxA0-nON4XAgNYKa-aE6GGBRcg0StoeUBMI6y1xe74miZKW0tGgYf6YwCZycFACM0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=-B4Ep8VpZSy-qRg_xRlWEw&_nc_ss=7f289&oh=00_AQSyTv58adSorFhx7gCU8L6r19aA6xyJCtBAwI6SxNeniQ&oe=6AEF05C7"
-      ],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/885420206_1452452213687042_366362069757080969_n.png?stp=dst-jpg_tt6&cstp=mx1600x903&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=b96d88&_nc_ohc=BFvYKRtaHIsQ7kNvwFHb6aJ&_nc_oc=AdrxA0-nON4XAgNYKa-aE6GGBRcg0StoeUBMI6y1xe74miZKW0tGgYf6YwCZycFACM0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=-B4Ep8VpZSy-qRg_xRlWEw&_nc_ss=7f289&oh=00_AQSyTv58adSorFhx7gCU8L6r19aA6xyJCtBAwI6SxNeniQ&oe=6AEF05C7",
-      "has_image": true,
-      "has_video": false,
-      "media": {
-        "images": [
-          "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/885420206_1452452213687042_366362069757080969_n.png?stp=dst-jpg_tt6&cstp=mx1600x903&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=b96d88&_nc_ohc=BFvYKRtaHIsQ7kNvwFHb6aJ&_nc_oc=AdrxA0-nON4XAgNYKa-aE6GGBRcg0StoeUBMI6y1xe74miZKW0tGgYf6YwCZycFACM0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=-B4Ep8VpZSy-qRg_xRlWEw&_nc_ss=7f289&oh=00_AQSyTv58adSorFhx7gCU8L6r19aA6xyJCtBAwI6SxNeniQ&oe=6AEF05C7"
-        ],
-        "main_image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.99422-6/885420206_1452452213687042_366362069757080969_n.png?stp=dst-jpg_tt6&cstp=mx1600x903&ctp=p600x600&_nc_cat=107&ccb=1-7&_nc_sid=b96d88&_nc_ohc=BFvYKRtaHIsQ7kNvwFHb6aJ&_nc_oc=AdrxA0-nON4XAgNYKa-aE6GGBRcg0StoeUBMI6y1xe74miZKW0tGgYf6YwCZycFACM0&_nc_zt=14&_nc_ht=scontent-sjc6-1.xx&_nc_gid=-B4Ep8VpZSy-qRg_xRlWEw&_nc_ss=7f289&oh=00_AQSyTv58adSorFhx7gCU8L6r19aA6xyJCtBAwI6SxNeniQ&oe=6AEF05C7",
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "cerrado",
-          "published_at": null,
-          "source_id": "fb_abc",
-          "source_name": "ABC Carreteras Bolivia",
-          "tier": 1,
-          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0263fybkTVsixkZg22HTzYT6dEqAB2KwM6FZMaSq6DfvFCbLByNMJRAiMzd86NqUavl?comment_id=1142821031423458&__cft__[0]=AZhq7i9n-ZLUAKVvmtQWu6fBc100wtxqc7cU2tuBUCUZn7osxKDzix-Cb3aQ1481TxuzKP9MoWesezJfSDKJ6XoQVJeIfxiQUsXmSH7K12tO4gMr3_KE3WhK-CSCPQM466gk1ZrV2kg-EnESg0iYBh0exEPrgqBBBPCtI1OKrvGn1Ouui2PE3VEaqn8&__tn__=R-R"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "fb_abc",
-          "name": "ABC Carreteras Bolivia",
-          "class": "facebook_official",
-          "tier": 1,
-          "page_url": "https://www.facebook.com/CarreterasBo/",
-          "post_url": "https://www.facebook.com/CarreterasBo/posts/pfbid0263fybkTVsixkZg22HTzYT6dEqAB2KwM6FZMaSq6DfvFCbLByNMJRAiMzd86NqUavl?comment_id=1142821031423458&__cft__[0]=AZhq7i9n-ZLUAKVvmtQWu6fBc100wtxqc7cU2tuBUCUZn7osxKDzix-Cb3aQ1481TxuzKP9MoWesezJfSDKJ6XoQVJeIfxiQUsXmSH7K12tO4gMr3_KE3WhK-CSCPQM466gk1ZrV2kg-EnESg0iYBh0exEPrgqBBBPCtI1OKrvGn1Ouui2PE3VEaqn8&__tn__=R-R",
-          "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QeI2EP8ft_QQ7kNvwHSJkv3&_nc_oc=Adq_MKUTSIOj8KLolQZITprJfuouCLvNdtEFZzUurHkXUj958XVCrDtUgTG2IvcS2R0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Ga4tCDcjWOohv1gYbVN77Q&_nc_ss=7f289&oh=00_AQRbMbJKnGIVTlqJ2KS-LvkzcTqz9eeSpy-0HB6ZsHliZA&oe=6AEF0118",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://www.facebook.com/CarreterasBo/posts/pfbid0263fybkTVsixkZg22HTzYT6dEqAB2KwM6FZMaSq6DfvFCbLByNMJRAiMzd86NqUavl?comment_id=1142821031423458&__cft__[0]=AZhq7i9n-ZLUAKVvmtQWu6fBc100wtxqc7cU2tuBUCUZn7osxKDzix-Cb3aQ1481TxuzKP9MoWesezJfSDKJ6XoQVJeIfxiQUsXmSH7K12tO4gMr3_KE3WhK-CSCPQM466gk1ZrV2kg-EnESg0iYBh0exEPrgqBBBPCtI1OKrvGn1Ouui2PE3VEaqn8&__tn__=R-R"
-      ],
-      "merged_items": 1,
-      "incident_id": "inc_9e2160435fd096",
-      "first_seen_at": "2026-11-02T19:15:14-04:00",
-      "history": [
-        {
-          "at": "2026-11-02T19:15:14-04:00",
-          "detected_at": "2026-11-02T19:15:14-04:00",
-          "reason": "primera_deteccion",
-          "status": "cerrado",
-          "lifecycle_status": "activo",
-          "severity": "media",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "ABC Carreteras Bolivia"
-          ],
-          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0263fybkTVsixkZg22HTzYT6dEqAB2KwM6FZMaSq6DfvFCbLByNMJRAiMzd86NqUavl?comment_id=1142821031423458&__cft__[0]=AZhq7i9n-ZLUAKVvmtQWu6fBc100wtxqc7cU2tuBUCUZn7osxKDzix-Cb3aQ1481TxuzKP9MoWesezJfSDKJ6XoQVJeIfxiQUsXmSH7K12tO4gMr3_KE3WhK-CSCPQM466gk1ZrV2kg-EnESg0iYBh0exEPrgqBBBPCtI1OKrvGn1Ouui2PE3VEaqn8&__tn__=R-R"
-        }
-      ],
-      "lifecycle_status": "activo",
-      "is_active": true,
-      "last_seen_at": "2026-11-02T19:15:14-04:00",
-      "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "6cee34d78486d3f9",
-      "source_id": "web_abc",
-      "source_name": "ABC - Administradora Boliviana de Carreteras",
-      "source_url": "https://www.abc.gob.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-      "url": "https://www.abc.gob.bo/nota_prensa/abc-confirma-transitabilidad-total-en-la-red-vial-fundamental-y-habilita-tramos-con-cortes-programados-durante-el-feriado-de-todos-santos/",
-      "published_at": null,
-      "scraped_at": "2026-11-02T19:15:14-04:00",
-      "department": "La Paz",
-      "municipality": "Caranavi",
-      "city": "Cochabamba",
-      "event_type": "congestion",
-      "cause": "lluvia",
-      "status": "habilitado",
-      "closure_scope": "sin_cierre",
-      "severity": "media",
-      "confidence": 0.89,
-      "relevance_score": 95,
-      "filter_reasons": [
-        "contexto_vial:8",
-        "evento:congestion",
-        "via_detectada:8",
-        "sector_detectado:9",
-        "terminos_viales:10",
-        "fuente_oficial_web"
-      ],
-      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia ABC CONFIRMA TRANSITABILIDAD TOTAL EN LA RED VIAL FUNDAMENTAL Y HABILITA TRAMOS CON CORTES PROGRAMADOS DURANTE EL FERIADO DE TODOS SANTOS Compartir ¡Enlace copiado al portapapeles! , 30 de octubre de 2026 De cara al feriado de Todos Santos y como parte de los planes de prevención vial impulsados por, la Administradora Boliviana de Carreteras (ABC) en coordinación del Ministerio de Obras Públicas, garantiza la plena conectividad en los nueve departamentos del país con la liberación de restricciones de circulación durante el fin de semana largo para facilitar el desplazamiento familiar y del autotransporte. En el marco de esta planificación operativa, departamentos como Beni, Oruro y Potosí registran paso 100% libre; mientras que en Cochabamba la transitabilidad es normal, recomendando conducir con cautela en el tramo de Llavini y el puente Sacta. En Santa Cruz, del sábado 31 de octubre al lunes 2 de noviembre, se levantarán los cortes por mantenimiento en el subtramo Bermejo – La Angostura (sector Petacas), ruta a Los Valles y quedará liberado el tramo Las Petas – Minador en San Ignacio de Velasco – San Matías tras concluir sus trabajos operativos, conservando únicamente restricción para tráfico pesado y mediano en San Lorenzo – Salinas. En La Paz, la ruta Caranavi – Guanay operará con precaución en el sector Yacura, mientras que en la carretera Unduavi – Chulumani, los sectores Puente Villa – Puente Chaco y el tramo La Florida – Santa Bárbara aplicarán restricciones por horario el sábado (de 08:00 a 12:00 y de 13:30 a 18:00), el domingo (cortes de 08:00 a 12:00 y paso libre desde el mediodía) y el lunes (de 08:00 a 12:00 trabajos con tráfico controlado y paso libre por la tarde). Por su parte, en el sector Yerbani de este mismo tramo, no existen cortes programados a pesar que los trabajos seguirán, manteniéndo la transitabilidad con precaución. Por otro lado, en el departamento de Tarija, el tramo Palos Blancos – Villa Montes (sector La Central – San Antonio) se levanta las restricciones por el feriado, las cuales se retomarán en sus horarios habituales a partir del martes 3 de noviembre; en Chuquisaca, en el tramo Cruce Taperillas – Límite Santa Cruz, la circulación se realiza por el desvío habilitado en el sector Muela del Diablo (Muyupampa); mientras que en Pando, en el tramo Santa Elena – Puerto Rico, se transita por desvíos, recomendando reducir la velocidad debido a la presencia de maquinaria pesada en el sector bajo de Puerto Rico. La estatal caminera aclara a la población que, una vez concluido el fin de semana largo de Todos Santos, se reanudarán los cronogramas habituales de cortes y restricciones operativas en los tramos que así lo requieran. Para atender cualquier contingencia provocada por las lluvias, la ABC en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, mantiene cuadrillas y maquinaria a apronte en puntos estratégicos del país 24/7, recordando a los usuarios consultar el portal web oficial https://transitabilidad.abc.gob.bo o por mensajes por WhatsApp 71219232. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia. modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia ABC CONFIRMA TRANSITABILIDAD TOTAL EN LA RED VIAL FUNDAMENTAL Y HABILITA TRAMOS CON CORTES PROGRAMADOS DURANTE EL FERIADO DE TODOS SANTOS Compartir ¡Enlace copiado al portapapeles! , 30 de octubre de 2026 De cara al feriado de Todos Santos y como parte de los planes de prevención vial impulsados por, la Administradora Boliviana de Carreteras (ABC) en coordinación del Ministerio de Obras Públicas, garantiza la plena conectividad en los nueve departamentos del país con la liberación de restricciones de circulación durante el fin de semana largo para facilitar el desplazamiento familiar y del autotransporte. En el marco de esta planificación operativa, departamentos como Beni, Oruro y Potosí registran paso 100% libre; mientras que en Cochabamba la transitabilidad es normal, recomendando conducir con cautela en el tramo de Llavini y el puente Sacta. En Santa Cruz, del sábado 31 de octubre al lunes 2 de noviembre, se levantarán los cortes por mantenimiento en el subtramo Bermejo – La Angostura (sector Petacas), ruta a Los Valles y quedará liberado el tramo Las Petas – Minador en San Ignacio de Velasco – San Matías tras concluir sus trabajos operativos, conservando únicamente restricción para tráfico pesado y mediano en San Lorenzo – Salinas. En La Paz, la ruta Caranavi – Guanay operará con precaución en el sector Yacura, mientras que en la carretera Unduavi – Chulumani, los sectores Puente Villa – Puente Chaco y el tramo La Florida – Santa Bárbara aplicarán restricciones por horario el sábado (de 08:00 a 12:00 y de 13:30 a 18:00), el domingo (cortes de 08:00 a 12:00 y paso libre desde el mediodía) y el lunes (de 08:00 a 12:00 trabajos con tráfico controlado y paso libre por la tarde). Por su parte, en el sector Yerbani de este mismo tramo, no existen cortes programados a pesar que los trabajos seguirán, manteniéndo la transitabilidad con precaución. Por otro lado, en el departamento de Tarija, el tramo Palos Blancos – Villa Montes (sector La Central – San Antonio) se levanta las restricciones por el feriado, las cuales se retomarán en sus horarios habituales a partir del martes 3 de noviembre; en Chuquisaca, en el tramo Cruce Taperillas – Límite Santa Cruz, la circulación se realiza por el desvío habilitado en el sector Muela del Diablo (Muyupampa); mientras que en Pando, en el tramo Santa Elena – Puerto Rico, se transita por desvíos, recomendando reducir la velocidad debido a la presencia de maquinaria pesada en el sector bajo de Puerto Rico. La estatal caminera aclara a la población que, una vez concluido el fin de semana largo de Todos Santos, se reanudarán los cronogramas habituales de cortes y restricciones operativas en los tramos que así lo requieran. Para atender cualquier contingencia provocada por las lluvias, la ABC en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, mantiene cuadrillas y maquinaria a apronte en puntos estratégicos del país 24/7, recordando a los usuarios consultar el portal web oficial https://transitabilidad.abc.gob.bo o por mensajes por WhatsApp 71219232. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia. modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "roads": [
-        "tramo de Llavini y el puente Sacta",
-        "ruta a Los Valles y quedará liberado el tramo Las Petas – Minador en San Ignacio de Velasco – San Matías tras concluir sus trabajos operativos",
-        "ruta Caranavi – Guanay operará con precaución en el",
-        "carretera Unduavi – Chulumani",
-        "Puente Villa – Puente Chaco y el tramo La Florida – Santa Bárbara aplicarán restricciones",
-        "tramo Palos Blancos – Villa Montes (sector La Central – San Antonio) se levanta las restricciones",
-        "tramo Cruce Taperillas – Límite Santa Cruz",
-        "tramo Santa Elena – Puerto Rico"
-      ],
-      "places": [
-        "puente Sacta",
-        "sector Petacas)",
-        "sector Yacura",
-        "Puente Villa – Puente Chaco y el tramo La Florida – Santa Bárbara aplicarán restricciones",
-        "sector Yerbani de este mismo tramo",
-        "sector La Central – San Antonio) se levanta las restricciones",
-        "Cruce Taperillas – Límite Santa Cruz",
-        "sector Muela del Diablo (Muyupampa)",
-        "sector bajo de Puerto Rico"
-      ],
-      "kilometer_mentions": [],
-      "directions": [
-        "del navegador",
-        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
-        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
-        "form -> exclusiva. Uso de https",
-        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
-        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
-        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
-        "compartir información sensible únic -> mnete con portales oficiales asegurados"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [
-        "08:00",
-        "12:00",
-        "13:30",
-        "18:00"
-      ],
-      "keywords": [
-        "habilitado",
-        "tráfico",
-        "carretera",
-        "ruta",
-        "puente",
-        "tramo",
-        "red vial fundamental",
-        "transitabilidad",
-        "desvío",
-        "maquinaria pesada"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "tramo de Llavini y el puente Sacta, Caranavi, Cochabamba, La Paz, Bolivia",
-      "image_urls": [],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": null,
-      "has_image": false,
-      "has_video": false,
-      "media": {
-        "images": [],
-        "main_image_url": null,
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "habilitado",
-          "published_at": null,
-          "source_id": "web_abc",
-          "source_name": "ABC - Administradora Boliviana de Carreteras",
-          "tier": 2,
-          "url": "https://www.abc.gob.bo/nota_prensa/abc-confirma-transitabilidad-total-en-la-red-vial-fundamental-y-habilita-tramos-con-cortes-programados-durante-el-feriado-de-todos-santos/"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "web_abc",
-          "name": "ABC - Administradora Boliviana de Carreteras",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://www.abc.gob.bo/",
-          "post_url": "https://www.abc.gob.bo/nota_prensa/abc-confirma-transitabilidad-total-en-la-red-vial-fundamental-y-habilita-tramos-con-cortes-programados-durante-el-feriado-de-todos-santos/",
-          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://www.abc.gob.bo/nota_prensa/abc-confirma-transitabilidad-total-en-la-red-vial-fundamental-y-habilita-tramos-con-cortes-programados-durante-el-feriado-de-todos-santos/"
-      ],
-      "merged_items": 1,
-      "incident_id": "inc_9db0d172c309eb",
-      "first_seen_at": "2026-09-22T16:30:10-04:00",
-      "history": [
-        {
-          "at": "2026-09-22T16:30:10-04:00",
-          "detected_at": "2026-09-22T16:30:10-04:00",
-          "reason": "primera_deteccion",
-          "status": "precaucion",
-          "lifecycle_status": "activo",
-          "severity": "media",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras"
-          ],
-          "url": "https://www.abc.gob.bo/nota_prensa/la-abc-inspecciona-el-vaciado-de-la-ultima-losa-en-los-puentes-rio-seque-y-rio-seco-en-la-paz-e-impulsa-el-corredor-internacional-oeste-norte/"
-        },
-        {
-          "at": "2026-10-30T14:52:55-04:00",
-          "detected_at": "2026-10-30T14:52:55-04:00",
-          "reason": "actualizacion",
-          "status": "habilitado",
-          "lifecycle_status": "finalizado",
-          "severity": "media",
-          "closure_scope": "sin_cierre",
-          "source_count": 1,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras"
-          ],
-          "url": "https://www.abc.gob.bo/nota_prensa/abc-confirma-transitabilidad-total-en-la-red-vial-fundamental-y-habilita-tramos-con-cortes-programados-durante-el-feriado-de-todos-santos/"
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0p8r6uCwu9jxiQWUcbSja5eD6ivNRCnvz9R7Fk9XaqiV7MJWxmnRpzEr4QNfxqep2l?__cft__[0]=AZjddluCCw3_1wAoftn5Oj-DGN5LlwlB6eF_AAf3ZLFeCDmFEFxWdQ4LCSMWcg_4obxWVHkwn72oALWpOF7aLlfgPnyHe7VN9XaQzMqj1s6pl7e23IT0FYMQ8PkH0t-vhukW-r9boGWfu1lQQDhfqDDXTm6UWheIvQCZmLCrMmsW2WdHWuUtlynRerY&__tn__=%2CO%2CP-R"
         }
       ],
       "lifecycle_status": "finalizado",
       "is_active": false,
-      "last_seen_at": "2026-11-02T19:15:14-04:00",
+      "last_seen_at": "2026-11-02T23:58:30-04:00",
       "seen_this_run": true,
-      "history_count": 2
+      "history_count": 3
     },
     {
       "id": "15005dea1361c829",
@@ -678,7 +213,7 @@
       "source_icon_url": "https://www.gmsantacruz.gob.bo/images/LOGO-DEL-GAMSCS-ok-02.png",
       "url": "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=1101",
       "published_at": null,
-      "scraped_at": "2026-11-02T19:15:14-04:00",
+      "scraped_at": "2026-11-02T23:58:30-04:00",
       "department": "Santa Cruz",
       "municipality": "Santa Cruz de la Sierra",
       "city": "Santa Cruz de la Sierra",
@@ -807,566 +342,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-11-02T19:15:14-04:00",
-      "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "4c7bb7d46f7475cf",
-      "source_id": "web_abc",
-      "source_name": "ABC - Administradora Boliviana de Carreteras",
-      "source_url": "https://www.abc.gob.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-      "url": "https://www.abc.gob.bo/nota_prensa/avanza-el-plan-nacional-de-reactivacion-de-obras-viales-abc-y-la-caf-inspeccionan-la-construccion-de-los-puentes-rio-seque-y-rio-seco-en-la-paz/",
-      "published_at": null,
-      "scraped_at": "2026-11-02T19:15:14-04:00",
-      "department": "La Paz",
-      "municipality": "La Paz",
-      "city": "La Paz",
-      "event_type": "congestion",
-      "cause": "obras_mantenimiento",
-      "status": "precaucion",
-      "closure_scope": null,
-      "severity": "media",
-      "confidence": 0.87,
-      "relevance_score": 78,
-      "filter_reasons": [
-        "contexto_vial:6",
-        "evento:congestion",
-        "via_detectada:2",
-        "terminos_viales:7",
-        "fuente_oficial_web"
-      ],
-      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia AVANZA EL PLAN NACIONAL DE REACTIVACIÓN DE OBRAS VIALES: ABC Y LA CAF INSPECCIONAN LA CONSTRUCCIÓN DE LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ Compartir ¡Enlace copiado al portapapeles! , 14 de octubre de 2026 En el marco del Plan Nacional de Reactivación de Obras Viales, el Gobierno Nacional a través de la Administradora Boliviana de Carreteras (ABC) realizó una inspección técnica junto a representantes de la CAF – Banco de Desarrollo de América Latina y el Caribe, llegando al proyecto de «Construcción del Tramo Segundo Cr. Río Seque – La Cumbre Fase II: Puentes Río Seque – Río Seco», correspondiente al departamento de La Paz. La comitiva técnica estuvo integrada por la Gerente Nacional Técnica de la ABC, Andrea Gutiérrez, junto a profesionales técnicos, en coordinación con la delegación de la CAF, integrada por la ejecutiva principal, Verónica Helguero; la ejecutiva de Acción Climática y Biodiversidad Positiva, Sandra Mendoza; y el ejecutivo de Transporte y Logística, Jorge Tapia. Durante el recorrido de la visita técnica, la ABC y los ejecutivos de la CAF comprobaron que el proyecto registra un 88% de avance físico bajo la ejecución de la Asociación Accidental «La Cumbre». En campo se constató la conclusión de los dos puentes sobre el Río Seque (140 m) y Río Seco (184 m), ambos a la espera de sus accesos pavimentados y el avance de obras complementarias La ABC en articulación con el Ministerio de Obras Públicas, Servicios y Vivienda, reafirma el compromiso del Gobierno Nacional de mantener un trabajo articulado con los organismos financiadores, asegurando la entrega oportuna de estos cuatro puentes con obras complementarias de pavimento flexible, los cuales garantizarán una ruta alternativa de alta capacidad para desviar el tráfico pesado fuera del centro urbano de La Paz. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia AVANZA EL PLAN NACIONAL DE REACTIVACIÓN DE OBRAS VIALES: ABC Y LA CAF INSPECCIONAN LA CONSTRUCCIÓN DE LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ Compartir ¡Enlace copiado al portapapeles! , 14 de octubre de 2026 En el marco del Plan Nacional de Reactivación de Obras Viales, el Gobierno Nacional a través de la Administradora Boliviana de Carreteras (ABC) realizó una inspección técnica junto a representantes de la CAF – Banco de Desarrollo de América Latina y el Caribe, llegando al proyecto de «Construcción del Tramo Segundo Cr. Río Seque – La Cumbre Fase II: Puentes Río Seque – Río Seco», correspondiente al departamento de La Paz. La comitiva técnica estuvo integrada por la Gerente Nacional Técnica de la ABC, Andrea Gutiérrez, junto a profesionales técnicos, en coordinación con la delegación de la CAF, integrada por la ejecutiva principal, Verónica Helguero; la ejecutiva de Acción Climática y Biodiversidad Positiva, Sandra Mendoza; y el ejecutivo de Transporte y Logística, Jorge Tapia. Durante el recorrido de la visita técnica, la ABC y los ejecutivos de la CAF comprobaron que el proyecto registra un 88% de avance físico bajo la ejecución de la Asociación Accidental «La Cumbre». En campo se constató la conclusión de los dos puentes sobre el Río Seque (140 m) y Río Seco (184 m), ambos a la espera de sus accesos pavimentados y el avance de obras complementarias La ABC en articulación con el Ministerio de Obras Públicas, Servicios y Vivienda, reafirma el compromiso del Gobierno Nacional de mantener un trabajo articulado con los organismos financiadores, asegurando la entrega oportuna de estos cuatro puentes con obras complementarias de pavimento flexible, los cuales garantizarán una ruta alternativa de alta capacidad para desviar el tráfico pesado fuera del centro urbano de La Paz. #UnaNuevaBolivia #SiempreBolivia #ABCIntegraLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "roads": [
-        "Tramo Segundo Cr",
-        "ruta alternativa de alta capacidad para desviar el tráfico pesado fuera del centro urbano de La Paz"
-      ],
-      "places": [],
-      "kilometer_mentions": [],
-      "directions": [
-        "del navegador",
-        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
-        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
-        "form -> exclusiva. Uso de https",
-        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
-        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
-        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
-        "compartir información sensible únic -> mnete con portales oficiales asegurados"
-      ],
-      "alternative_routes": [
-        "de alta capacidad para desviar el tráfico pesado fuera del centro urbano de La Paz"
-      ],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "tráfico",
-        "carretera",
-        "ruta",
-        "puente",
-        "tramo",
-        "acceso",
-        "ruta alternativa"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "Tramo Segundo Cr, La Paz, Bolivia",
-      "image_urls": [],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": null,
-      "has_image": false,
-      "has_video": false,
-      "media": {
-        "images": [],
-        "main_image_url": null,
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "precaucion",
-          "published_at": null,
-          "source_id": "web_abc",
-          "source_name": "ABC - Administradora Boliviana de Carreteras",
-          "tier": 2,
-          "url": "https://www.abc.gob.bo/nota_prensa/avanza-el-plan-nacional-de-reactivacion-de-obras-viales-abc-y-la-caf-inspeccionan-la-construccion-de-los-puentes-rio-seque-y-rio-seco-en-la-paz/"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "web_abc",
-          "name": "ABC - Administradora Boliviana de Carreteras",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://www.abc.gob.bo/",
-          "post_url": "https://www.abc.gob.bo/nota_prensa/avanza-el-plan-nacional-de-reactivacion-de-obras-viales-abc-y-la-caf-inspeccionan-la-construccion-de-los-puentes-rio-seque-y-rio-seco-en-la-paz/",
-          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://www.abc.gob.bo/nota_prensa/avanza-el-plan-nacional-de-reactivacion-de-obras-viales-abc-y-la-caf-inspeccionan-la-construccion-de-los-puentes-rio-seque-y-rio-seco-en-la-paz/"
-      ],
-      "merged_items": 1,
-      "incident_id": "inc_867145b325c835",
-      "first_seen_at": "2026-10-30T14:52:55-04:00",
-      "history": [
-        {
-          "at": "2026-10-30T14:52:55-04:00",
-          "detected_at": "2026-10-30T14:52:55-04:00",
-          "reason": "primera_deteccion",
-          "status": "precaucion",
-          "lifecycle_status": "activo",
-          "severity": "media",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras"
-          ],
-          "url": "https://www.abc.gob.bo/nota_prensa/avanza-el-plan-nacional-de-reactivacion-de-obras-viales-abc-y-la-caf-inspeccionan-la-construccion-de-los-puentes-rio-seque-y-rio-seco-en-la-paz/"
-        }
-      ],
-      "lifecycle_status": "activo",
-      "is_active": true,
-      "last_seen_at": "2026-11-02T19:15:14-04:00",
-      "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "98d740b3a656ce3e",
-      "source_id": "web_abc",
-      "source_name": "ABC - Administradora Boliviana de Carreteras",
-      "source_url": "https://www.abc.gob.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-      "url": "https://www.abc.gob.bo/",
-      "published_at": null,
-      "scraped_at": "2026-11-02T19:15:14-04:00",
-      "department": "La Paz",
-      "municipality": "El Alto",
-      "city": "Cochabamba",
-      "event_type": "desvio",
-      "cause": "lluvia",
-      "status": "desconocido",
-      "closure_scope": null,
-      "severity": "baja",
-      "confidence": 0.96,
-      "relevance_score": 90,
-      "filter_reasons": [
-        "contexto_vial:12",
-        "evento:desvio",
-        "via_detectada:4",
-        "sector_detectado:2",
-        "terminos_viales:10",
-        "fuente_oficial_web"
-      ],
-      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 30/10/2026 | ABC CONFIRMA TRANSITABILIDAD TOTAL EN LA RED VIAL FUNDAMENTAL Y HABILITA TRAMOS CON CORTES PROGRAMADOS DURANTE EL FERIADO DE TODOS SANTOS Leer nota 28/10/2026 | Oruro LA ABC, GOBERNACIÓN Y TRANSPORTE ACUERDAN REINICIAR TRABAJOS DE SELLADO DE JUNTAS, BERMAS Y MANTENIMIENTO CONSTANTE EN EL DESVÍO PARA REACTIVAR LA DOBLE VÍA ORURO – CHALLAPATA Leer nota 27/10/2026 | GOBIERNO PROMULGA DECRETO SUPREMO PARA EL FINANCIAMIENTO DE $US 95 MILLONES DE LA CAF DESTINADO A LA RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Leer nota 22/10/2026 | LA ABC INVERTIRÁ $US 150 MILLONES EN TODO EL PAÍS CON EL PLAN NACIONAL DE EMERGENCIA E IDENTIFICA EL CUMPLIMIENTO DE LA VIDA ÚTIL DEL 70% DE LA RED VIAL FUNDAMENTAL Leer nota 20/10/2026 | GOBIERNO NACIONAL INSPECCIONA Y ANUNCIA REACTIVACIÓN CON BS 75 MILLONES AL PROYECTO 8 CARRILES EN EL ALTO - LA PAZ Leer nota 19/10/2026 | EL PLAN NACIONAL DE EMERGENCIA INYECTARÁ MÁS DE BS 34,8 MILLONES EN COCHABAMBA, EN LOS TRAMOS SUTICOLLO Y SIETE CURVAS, PARA PROTEGER SUS CORREDORES ESTRATÉGICOS Leer nota 19/10/2026 | LA ABC AVANZA EN LA LICITACIÓN Y GESTIÓN SOCIAL DE LA CONSTRUCCIÓN DE LA CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA, DENTRO DEL PROGRAMA NACIONAL DE REACTIVACIÓN DE OBRAS VIALES Leer nota 14/10/2026 | AVANZA EL PLAN NACIONAL DE REACTIVACIÓN DE OBRAS VIALES: ABC Y LA CAF INSPECCIONAN LA CONSTRUCCIÓN DE LOS",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado 23/06/2026 | La Administradora Boliviana de Carreteras (ABC) informa a la población la Red Vial Fundamental se encuentra transitable en todo el país Ver comunicado 16/03/2026 | INVITACION AUDIENCIA DE RENDICION PUBLICA DE CUENTAS FINAL-2025 Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 30/10/2026 | ABC CONFIRMA TRANSITABILIDAD TOTAL EN LA RED VIAL FUNDAMENTAL Y HABILITA TRAMOS CON CORTES PROGRAMADOS DURANTE EL FERIADO DE TODOS SANTOS Leer nota 28/10/2026 | Oruro LA ABC, GOBERNACIÓN Y TRANSPORTE ACUERDAN REINICIAR TRABAJOS DE SELLADO DE JUNTAS, BERMAS Y MANTENIMIENTO CONSTANTE EN EL DESVÍO PARA REACTIVAR LA DOBLE VÍA ORURO – CHALLAPATA Leer nota 27/10/2026 | GOBIERNO PROMULGA DECRETO SUPREMO PARA EL FINANCIAMIENTO DE $US 95 MILLONES DE LA CAF DESTINADO A LA RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Leer nota 22/10/2026 | LA ABC INVERTIRÁ $US 150 MILLONES EN TODO EL PAÍS CON EL PLAN NACIONAL DE EMERGENCIA E IDENTIFICA EL CUMPLIMIENTO DE LA VIDA ÚTIL DEL 70% DE LA RED VIAL FUNDAMENTAL Leer nota 20/10/2026 | GOBIERNO NACIONAL INSPECCIONA Y ANUNCIA REACTIVACIÓN CON BS 75 MILLONES AL PROYECTO 8 CARRILES EN EL ALTO - LA PAZ Leer nota 19/10/2026 | EL PLAN NACIONAL DE EMERGENCIA INYECTARÁ MÁS DE BS 34,8 MILLONES EN COCHABAMBA, EN LOS TRAMOS SUTICOLLO Y SIETE CURVAS, PARA PROTEGER SUS CORREDORES ESTRATÉGICOS Leer nota 19/10/2026 | LA ABC AVANZA EN LA LICITACIÓN Y GESTIÓN SOCIAL DE LA CONSTRUCCIÓN DE LA CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA, DENTRO DEL PROGRAMA NACIONAL DE REACTIVACIÓN DE OBRAS VIALES Leer nota 14/10/2026 | AVANZA EL PLAN NACIONAL DE REACTIVACIÓN DE OBRAS VIALES: ABC Y LA CAF INSPECCIONAN LA CONSTRUCCIÓN DE LOS PUENTES RÍO SEQUE Y RÍO SECO EN LA PAZ Leer nota 14/10/2026 | PLAN NACIONAL DE EMERGENCIA: LA ABC Y FONPLATA INSPECCIONARÁN PUNTOS CRÍTICOS EN EL TRAMO SANTA CRUZ - COMARAPA PARA INVERTIR $US 18,6 MILLONES EN LA RECONSTRUCCIÓN DE LA CARRETERA Leer nota Enlaces de Interes Ver todas los enlaces Transtabilidad Red Vial Fundamental-ABC EBC - Empresa Estratégica Boliviana de Construcción Ministerio de Obras Publicas Servicios y Vivienda Instituto Nacional de Estadísticas (INE) Ministerio de Gobierno Vicepresidencia del Estado Plurinacional de Bolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "roads": [
-        "Puente Sacta sufrió un colapso",
-        "tramo específico dentro de la Red Vial Fundamental (RVF)",
-        "CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA",
-        "TRAMO SANTA CRUZ - COMARAPA PARA INVERTIR $US 18"
-      ],
-      "places": [
-        "Puente Sacta sufrió un colapso",
-        "PUENTE LIMÓN EN CHUQUISACA"
-      ],
-      "kilometer_mentions": [],
-      "directions": [
-        "del navegador",
-        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
-        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
-        "form -> exclusiva. Uso de https",
-        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
-        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
-        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
-        "compartir información sensible únic -> mnete con portales oficiales asegurados"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "cierre",
-        "carretera",
-        "ruta",
-        "puente",
-        "tramo",
-        "doble vía",
-        "red vial fundamental",
-        "rvf",
-        "transitabilidad",
-        "desvío"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "Puente Sacta sufrió un colapso, El Alto, Cochabamba, La Paz, Bolivia",
-      "image_urls": [],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": null,
-      "has_image": false,
-      "has_video": false,
-      "media": {
-        "images": [],
-        "main_image_url": null,
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "desconocido",
-          "published_at": null,
-          "source_id": "web_abc",
-          "source_name": "ABC - Administradora Boliviana de Carreteras",
-          "tier": 2,
-          "url": "https://www.abc.gob.bo/"
-        },
-        {
-          "status": "desconocido",
-          "published_at": null,
-          "source_id": "web_abc_comunicados",
-          "source_name": "ABC - Comunicados",
-          "tier": 2,
-          "url": "https://www.abc.gob.bo/"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "web_abc",
-          "name": "ABC - Administradora Boliviana de Carreteras",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://www.abc.gob.bo/",
-          "post_url": "https://www.abc.gob.bo/",
-          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-          "published_at": null
-        },
-        {
-          "id": "web_abc_comunicados",
-          "name": "ABC - Comunicados",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://www.abc.gob.bo/lista-comunicados-page/",
-          "post_url": "https://www.abc.gob.bo/",
-          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "verification": "web_oficial_confirmado",
-      "corroborated": true,
-      "all_urls": [
-        "https://www.abc.gob.bo/"
-      ],
-      "merged_items": 2,
-      "incident_id": "inc_2ada6317f3c782",
-      "first_seen_at": "2026-10-28T17:55:57-04:00",
-      "history": [
-        {
-          "at": "2026-10-28T17:55:57-04:00",
-          "detected_at": "2026-10-28T17:55:57-04:00",
-          "reason": "primera_deteccion",
-          "status": "desconocido",
-          "lifecycle_status": "desconocido",
-          "severity": "baja",
-          "closure_scope": null,
-          "source_count": 2,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras",
-            "ABC - Comunicados"
-          ],
-          "url": "https://www.abc.gob.bo/"
-        }
-      ],
-      "lifecycle_status": "desconocido",
-      "is_active": null,
-      "last_seen_at": "2026-11-02T19:15:14-04:00",
-      "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "164702e6daf26213",
-      "source_id": "web_abc",
-      "source_name": "ABC - Administradora Boliviana de Carreteras",
-      "source_url": "https://www.abc.gob.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-      "url": "https://www.abc.gob.bo/nota_prensa/la-abc-avanza-en-la-licitacion-y-gestion-social-de-la-construccion-de-la-carretera-el-salto-puente-limon-en-chuquisaca-dentro-del-programa-nacional-de-reactivacion-de-obras-viales/",
-      "published_at": null,
-      "scraped_at": "2026-11-02T19:15:14-04:00",
-      "department": "Bolivia",
-      "municipality": null,
-      "city": null,
-      "event_type": "obras",
-      "cause": "protesta_bloqueo",
-      "status": "desconocido",
-      "closure_scope": null,
-      "severity": "baja",
-      "confidence": 0.86,
-      "relevance_score": 69,
-      "filter_reasons": [
-        "contexto_vial:3",
-        "evento:obras",
-        "via_detectada:4",
-        "sector_detectado:4",
-        "terminos_viales:3",
-        "fuente_oficial_web"
-      ],
-      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia LA ABC AVANZA EN LA LICITACIÓN Y GESTIÓN SOCIAL DE LA CONSTRUCCIÓN DE LA CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA, DENTRO DEL PROGRAMA NACIONAL DE REACTIVACIÓN DE OBRAS VIALES Compartir ¡Enlace copiado al portapapeles! , 19 de octubre de 2026 En el marco del Programa Nacional de Reactivación de Obras Viales impulsado por el Gobierno Nacional, la Administradora Boliviana de Carreteras (ABC), consolida los procesos administrativos y de gestión social para la construcción de la carretera El Salto – Monteagudo (Tramo I: El Salto – Puente Limón), proyecto que demanda una inversión estratégica superior a los 67,5 millones de dólares. La reactivación de esta emblemática obra para el departamento de Chuquisaca, está coordinada con el Ministerio de Obras Públicas, Servicios y Vivienda y avanza con la licitación transparente de las empresas encargadas de la fiscalización y supervisión técnica. Ambas convocatorias se desarrollan en estricto apego a los plazos y parámetros normativos del Documento Base de Contratación (DBC), garantizando un riguroso control de calidad e ingeniería antes del inicio del despliegue operativo en campo. De forma paralela, equipos especializados del Programa de Reposición de Pérdidas (PRP) de la ABC ejecutan el trabajo de campo junto a las autoridades comunitarias de la zona de influencia. Las tareas comprenden la socialización técnica del proyecto y el relevamiento detallado de predios para conformar las carpetas de compensación socioeconómica justa y transparente a favor de las familias de la región. Con la consolidación del tramo El Salto – Puente Limón, la ABC ratifica la efectividad del Programa de Reactivación de Obras Viales para dinamizar la economía regional, generar empleo y consolidar la vertebración caminera en el Chaco chuquisaqueño. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia LA ABC AVANZA EN LA LICITACIÓN Y GESTIÓN SOCIAL DE LA CONSTRUCCIÓN DE LA CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA, DENTRO DEL PROGRAMA NACIONAL DE REACTIVACIÓN DE OBRAS VIALES Compartir ¡Enlace copiado al portapapeles! , 19 de octubre de 2026 En el marco del Programa Nacional de Reactivación de Obras Viales impulsado por el Gobierno Nacional, la Administradora Boliviana de Carreteras (ABC), consolida los procesos administrativos y de gestión social para la construcción de la carretera El Salto – Monteagudo (Tramo I: El Salto – Puente Limón), proyecto que demanda una inversión estratégica superior a los 67,5 millones de dólares. La reactivación de esta emblemática obra para el departamento de Chuquisaca, está coordinada con el Ministerio de Obras Públicas, Servicios y Vivienda y avanza con la licitación transparente de las empresas encargadas de la fiscalización y supervisión técnica. Ambas convocatorias se desarrollan en estricto apego a los plazos y parámetros normativos del Documento Base de Contratación (DBC), garantizando un riguroso control de calidad e ingeniería antes del inicio del despliegue operativo en campo. De forma paralela, equipos especializados del Programa de Reposición de Pérdidas (PRP) de la ABC ejecutan el trabajo de campo junto a las autoridades comunitarias de la zona de influencia. Las tareas comprenden la socialización técnica del proyecto y el relevamiento detallado de predios para conformar las carpetas de compensación socioeconómica justa y transparente a favor de las familias de la región. Con la consolidación del tramo El Salto – Puente Limón, la ABC ratifica la efectividad del Programa de Reactivación de Obras Viales para dinamizar la economía regional, generar empleo y consolidar la vertebración caminera en el Chaco chuquisaqueño. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "roads": [
-        "CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA",
-        "carretera El Salto – Monteagudo (Tramo I",
-        "Puente Limón)",
-        "tramo El Salto – Puente Limón"
-      ],
-      "places": [
-        "PUENTE LIMÓN EN CHUQUISACA",
-        "Puente Limón)",
-        "zona de influencia",
-        "Puente Limón"
-      ],
-      "kilometer_mentions": [],
-      "directions": [
-        "del navegador",
-        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
-        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
-        "form -> exclusiva. Uso de https",
-        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
-        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
-        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
-        "compartir información sensible únic -> mnete con portales oficiales asegurados"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "carretera",
-        "puente",
-        "tramo"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "CARRETERA EL SALTO – PUENTE LIMÓN EN CHUQUISACA, Bolivia",
-      "image_urls": [],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": null,
-      "has_image": false,
-      "has_video": false,
-      "media": {
-        "images": [],
-        "main_image_url": null,
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "desconocido",
-          "published_at": null,
-          "source_id": "web_abc",
-          "source_name": "ABC - Administradora Boliviana de Carreteras",
-          "tier": 2,
-          "url": "https://www.abc.gob.bo/nota_prensa/la-abc-avanza-en-la-licitacion-y-gestion-social-de-la-construccion-de-la-carretera-el-salto-puente-limon-en-chuquisaca-dentro-del-programa-nacional-de-reactivacion-de-obras-viales/"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "web_abc",
-          "name": "ABC - Administradora Boliviana de Carreteras",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://www.abc.gob.bo/",
-          "post_url": "https://www.abc.gob.bo/nota_prensa/la-abc-avanza-en-la-licitacion-y-gestion-social-de-la-construccion-de-la-carretera-el-salto-puente-limon-en-chuquisaca-dentro-del-programa-nacional-de-reactivacion-de-obras-viales/",
-          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://www.abc.gob.bo/nota_prensa/la-abc-avanza-en-la-licitacion-y-gestion-social-de-la-construccion-de-la-carretera-el-salto-puente-limon-en-chuquisaca-dentro-del-programa-nacional-de-reactivacion-de-obras-viales/"
-      ],
-      "merged_items": 1,
-      "incident_id": "inc_85c143c723b32b",
-      "first_seen_at": "2026-10-19T13:47:41-04:00",
-      "history": [
-        {
-          "at": "2026-10-19T13:47:41-04:00",
-          "detected_at": "2026-10-19T13:47:41-04:00",
-          "reason": "primera_deteccion",
-          "status": "desconocido",
-          "lifecycle_status": "desconocido",
-          "severity": "baja",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras"
-          ],
-          "url": "https://www.abc.gob.bo/nota_prensa/la-abc-avanza-en-la-licitacion-y-gestion-social-de-la-construccion-de-la-carretera-el-salto-puente-limon-en-chuquisaca-dentro-del-programa-nacional-de-reactivacion-de-obras-viales/"
-        }
-      ],
-      "lifecycle_status": "desconocido",
-      "is_active": null,
-      "last_seen_at": "2026-11-02T19:15:14-04:00",
-      "seen_this_run": true,
-      "history_count": 1
-    },
-    {
-      "id": "f95600d66d721df5",
-      "source_id": "web_abc",
-      "source_name": "ABC - Administradora Boliviana de Carreteras",
-      "source_url": "https://www.abc.gob.bo/",
-      "source_class": "web_official",
-      "source_tier": 2,
-      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-      "url": "https://www.abc.gob.bo/nota_prensa/gobierno-promulga-decreto-supremo-para-el-financiamiento-de-us-95-millones-de-la-caf-destinado-a-la-ruta-santa-barbara-caranavi-en-la-paz-que-consolida-el-corredor-estrategico-oeste-norte/",
-      "published_at": null,
-      "scraped_at": "2026-11-02T19:15:14-04:00",
-      "department": "La Paz",
-      "municipality": "Caranavi",
-      "city": "La Paz",
-      "event_type": "otro",
-      "cause": "obras_mantenimiento",
-      "status": "desconocido",
-      "closure_scope": null,
-      "severity": "baja",
-      "confidence": 0.75,
-      "relevance_score": 58,
-      "filter_reasons": [
-        "contexto_vial:8",
-        "via_detectada:3",
-        "terminos_viales:8",
-        "fuente_oficial_web"
-      ],
-      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia GOBIERNO PROMULGA DECRETO SUPREMO PARA EL FINANCIAMIENTO DE $US 95 MILLONES DE LA CAF DESTINADO A LA RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Compartir ¡Enlace copiado al portapapeles! , 27 de octubre de 2026 El presidente Rodrigo Paz promulgó el Decreto Supremo N° 5754, que autoriza la firma del contrato de financiamiento de 95 millones de dólares con el Banco de Desarrollo de América Latina y el Caribe (CAF) para la ejecución del “Proyecto Construcción Obras Complementarias Santa Bárbara – Caranavi, Tramo I”, en La Paz; logro que se concretó gracias a las gestiones coordinadas del Ministerio de Obras Públicas, Servicios y Vivienda junto a la Administradora Boliviana de Carreteras (ABC), instancia que impulsó la medida para que el Ministerio de Economía y Finanzas Públicas viabilizara la operación financiera. El proyecto de infraestructura contempla la rehabilitación y puesta en valor de 38,2 kilómetros entre las localidades de Santa Bárbara y Chojña, sobre la Ruta 3 de la Red Vial Fundamental (RVF). La propuesta de ingeniería fue diseñada para responder a las complejas condiciones geológicas, pendientes pronunciadas y terrenos inestables de los Yungas, e incluye la colocación de pavimento rígido y articulado, la construcción de 5 viaductos, 8 medios puentes, 96 alcantarillas nuevas, sistemas de drenaje y un paquete de estabilización de taludes con anclajes, mallas de retención, hormigón lanzado y 27 muros de gaviones. Tras la firma del contrato de préstamo, el documento será remitido a la Asamblea Legislativa Plurinacional (ALP) para su tratamiento en comisiones, Cámara de Diputados, Cámara de Senadores y el Pleno, paso previo a su posterior aprobación como ley por el presidente Rodrigo Paz. La estatal caminera, en su calidad de Organismo Ejecutor, estará a cargo de la administración transparente de los recursos y la fiscalización técnica de las obras. Esta intervención beneficiará de forma directa a más de 69.700 habitantes de Coroico, Caranavi y comunidades como Quenallata, Challa, Agua Milagro, Puerto León, Alto y Bajo Choro, asegurando la transitabilidad de un corredor por el que circulan diariamente más de 2.300 vehículos. Con este avance, la ABC consolida el corredor estratégico Oeste – Norte, conectando a La Paz con el Beni y los mercados internacionales de Chile, Perú y Brasil. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia GOBIERNO PROMULGA DECRETO SUPREMO PARA EL FINANCIAMIENTO DE $US 95 MILLONES DE LA CAF DESTINADO A LA RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Compartir ¡Enlace copiado al portapapeles! , 27 de octubre de 2026 El presidente Rodrigo Paz promulgó el Decreto Supremo N° 5754, que autoriza la firma del contrato de financiamiento de 95 millones de dólares con el Banco de Desarrollo de América Latina y el Caribe (CAF) para la ejecución del “Proyecto Construcción Obras Complementarias Santa Bárbara – Caranavi, Tramo I”, en La Paz; logro que se concretó gracias a las gestiones coordinadas del Ministerio de Obras Públicas, Servicios y Vivienda junto a la Administradora Boliviana de Carreteras (ABC), instancia que impulsó la medida para que el Ministerio de Economía y Finanzas Públicas viabilizara la operación financiera. El proyecto de infraestructura contempla la rehabilitación y puesta en valor de 38,2 kilómetros entre las localidades de Santa Bárbara y Chojña, sobre la Ruta 3 de la Red Vial Fundamental (RVF). La propuesta de ingeniería fue diseñada para responder a las complejas condiciones geológicas, pendientes pronunciadas y terrenos inestables de los Yungas, e incluye la colocación de pavimento rígido y articulado, la construcción de 5 viaductos, 8 medios puentes, 96 alcantarillas nuevas, sistemas de drenaje y un paquete de estabilización de taludes con anclajes, mallas de retención, hormigón lanzado y 27 muros de gaviones. Tras la firma del contrato de préstamo, el documento será remitido a la Asamblea Legislativa Plurinacional (ALP) para su tratamiento en comisiones, Cámara de Diputados, Cámara de Senadores y el Pleno, paso previo a su posterior aprobación como ley por el presidente Rodrigo Paz. La estatal caminera, en su calidad de Organismo Ejecutor, estará a cargo de la administración transparente de los recursos y la fiscalización técnica de las obras. Esta intervención beneficiará de forma directa a más de 69.700 habitantes de Coroico, Caranavi y comunidades como Quenallata, Challa, Agua Milagro, Puerto León, Alto y Bajo Choro, asegurando la transitabilidad de un corredor por el que circulan diariamente más de 2.300 vehículos. Con este avance, la ABC consolida el corredor estratégico Oeste – Norte, conectando a La Paz con el Beni y los mercados internacionales de Chile, Perú y Brasil. #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
-      "roads": [
-        "RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Compartir ¡Enlace copiado al portapapeles!",
-        "Tramo I”",
-        "Ruta 3 de la Red Vial Fundamental (RVF)"
-      ],
-      "places": [],
-      "kilometer_mentions": [],
-      "directions": [
-        "del navegador",
-        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
-        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
-        "form -> exclusiva. Uso de https",
-        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
-        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
-        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
-        "compartir información sensible únic -> mnete con portales oficiales asegurados"
-      ],
-      "alternative_routes": [],
-      "affected_vehicles": [],
-      "time_mentions": [],
-      "keywords": [
-        "carretera",
-        "ruta",
-        "puente",
-        "tramo",
-        "kilómetro",
-        "red vial fundamental",
-        "rvf",
-        "transitabilidad"
-      ],
-      "latitude": null,
-      "longitude": null,
-      "location_query": "RUTA SANTA BÁRBARA – CARANAVI EN LA PAZ QUE CONSOLIDA EL CORREDOR ESTRATÉGICO OESTE - NORTE Compartir ¡Enlace copiado al portapapeles!, Caranavi, La Paz, Bolivia",
-      "image_urls": [],
-      "video_url": null,
-      "video_thumbnail_url": null,
-      "video_type": null,
-      "is_official": true,
-      "image_url": null,
-      "has_image": false,
-      "has_video": false,
-      "media": {
-        "images": [],
-        "main_image_url": null,
-        "videos": []
-      },
-      "status_conflict": false,
-      "status_evidence": [
-        {
-          "status": "desconocido",
-          "published_at": null,
-          "source_id": "web_abc",
-          "source_name": "ABC - Administradora Boliviana de Carreteras",
-          "tier": 2,
-          "url": "https://www.abc.gob.bo/nota_prensa/gobierno-promulga-decreto-supremo-para-el-financiamiento-de-us-95-millones-de-la-caf-destinado-a-la-ruta-santa-barbara-caranavi-en-la-paz-que-consolida-el-corredor-estrategico-oeste-norte/"
-        }
-      ],
-      "latest_update_at": null,
-      "videos": [],
-      "sources": [
-        {
-          "id": "web_abc",
-          "name": "ABC - Administradora Boliviana de Carreteras",
-          "class": "web_official",
-          "tier": 2,
-          "page_url": "https://www.abc.gob.bo/",
-          "post_url": "https://www.abc.gob.bo/nota_prensa/gobierno-promulga-decreto-supremo-para-el-financiamiento-de-us-95-millones-de-la-caf-destinado-a-la-ruta-santa-barbara-caranavi-en-la-paz-que-consolida-el-corredor-estrategico-oeste-norte/",
-          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-          "published_at": null
-        }
-      ],
-      "source_count": 1,
-      "verification": "una_fuente",
-      "corroborated": false,
-      "all_urls": [
-        "https://www.abc.gob.bo/nota_prensa/gobierno-promulga-decreto-supremo-para-el-financiamiento-de-us-95-millones-de-la-caf-destinado-a-la-ruta-santa-barbara-caranavi-en-la-paz-que-consolida-el-corredor-estrategico-oeste-norte/"
-      ],
-      "merged_items": 1,
-      "incident_id": "inc_b6444864c434eb",
-      "first_seen_at": "2026-10-27T16:41:43-04:00",
-      "history": [
-        {
-          "at": "2026-10-27T16:41:43-04:00",
-          "detected_at": "2026-10-27T16:41:43-04:00",
-          "reason": "primera_deteccion",
-          "status": "desconocido",
-          "lifecycle_status": "desconocido",
-          "severity": "baja",
-          "closure_scope": null,
-          "source_count": 1,
-          "sources": [
-            "ABC - Administradora Boliviana de Carreteras"
-          ],
-          "url": "https://www.abc.gob.bo/nota_prensa/gobierno-promulga-decreto-supremo-para-el-financiamiento-de-us-95-millones-de-la-caf-destinado-a-la-ruta-santa-barbara-caranavi-en-la-paz-que-consolida-el-corredor-estrategico-oeste-norte/"
-        }
-      ],
-      "lifecycle_status": "desconocido",
-      "is_active": null,
-      "last_seen_at": "2026-11-02T19:15:14-04:00",
+      "last_seen_at": "2026-11-02T23:58:30-04:00",
       "seen_this_run": true,
       "history_count": 1
     }
@@ -1381,7 +357,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QeI2EP8ft_QQ7kNvwHSJkv3&_nc_oc=Adq_MKUTSIOj8KLolQZITprJfuouCLvNdtEFZzUurHkXUj958XVCrDtUgTG2IvcS2R0&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Ga4tCDcjWOohv1gYbVN77Q&_nc_ss=7f289&oh=00_AQRbMbJKnGIVTlqJ2KS-LvkzcTqz9eeSpy-0HB6ZsHliZA&oe=6AEF0118",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QeI2EP8ft_QQ7kNvwFrE_l5&_nc_oc=AdqxfnimsULPg1MFfucEUUqCr6FvNNU-ij-LsY9B-ACk8mJnJ1dZRuqEY9YlTYWShOQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NSgZ9isZqeBtKuujC4k8pA&_nc_ss=7f289&oh=00_AQR_nZ06luM83-GB_x95w2KMXMqBc0Aq5Fj7wFEt20pcKA&oe=6AEF3958",
       "status": "ok"
     },
     {
@@ -1393,7 +369,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=YmfS3yq8BAIQ7kNvwEvWc9m&_nc_oc=AdrPK_BM96qX3ASX6-V75VNE-ynbI_LFAk9RR7TIV2Mm0_c4ZCTAVbFefbsXZxnbegQ&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=ze56JVHfI7QbBPRw9--3Tg&_nc_ss=7f289&oh=00_AQTaim77CfAxHQXUGqWq2Ukfj0OQRQC0gVbgTf_W0erJYA&oe=6AEF046B",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=YmfS3yq8BAIQ7kNvwFdCNjK&_nc_oc=Adpkdf2St0bNbX-I6r0G8Dp7VlOCTrmIcaqi-sPuJJnkzj7DDNZfEaHM-pPpsiR39Bc&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=ZdiXCkupjMEtzykqzSBksA&_nc_ss=7f289&oh=00_AQTsCmGe362sAiEmFxRdhmbXlqPROOeXik_b89gRIxUUKQ&oe=6AEF3CAB",
       "status": "ok"
     },
     {
@@ -1429,7 +405,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_GX3dKA--rEQ7kNvwFMcToS&_nc_oc=Adoutbk3gLWHH3rSzkFk4Hb9TCv3uE9gaBUrZAZvVi9k9uXPQH1j5PtGDuqLA-zqCug&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=zuD_Ncn8mO6cOjLXGianDg&_nc_ss=7f289&oh=00_AQThg9fKGwcqiWI54w9zOY2dxzr0iRBXV0dZZzYk96-zvQ&oe=6AEED7C0",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=XlWKJhR_UcwQ7kNvwEWdyOf&_nc_oc=Adok8sI-O0EW-sZudKURhn4-teRclMJ0hhXn4QwVjSbpzVrQqi8mbgtaEBnTB1xIzOY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=UWiZMG3E3dKiM2knlYD-3g&_nc_ss=7f289&oh=00_AQSWg7Gbl6mK8-R1tqYuOvFNbwbNowM7Bkr1HgfWZ2V77Q&oe=6AEF4840",
       "status": "ok"
     },
     {
@@ -1441,7 +417,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2U_xJN1718oQ7kNvwF0H5YY&_nc_oc=AdonQ-pjlDoovZUGMRTOSgsfbMMYVHiYI49OrBwEvA_ob11yEzFel3ZmZttGtE5D5a8&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Dr9SSWaxhKwhihzhyLqXDw&_nc_ss=7f289&oh=00_AQQPLPINMSI8U_ajqEReZfZaFdBbSQDaG8vn78coy8mNmA&oe=6AEED0B8",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=2U_xJN1718oQ7kNvwGO_kI6&_nc_oc=AdqdXlVjPZV5cZgzJwzflE_SwhSjuFi_SgobWOeyQDWtTlkk9oHKzCzIT44vRuBLIzA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=04IPhigEEcHgzj1rJAbgXw&_nc_ss=7f289&oh=00_AQQPwSlyS3LUZLwHL164PsbCRKG3_tuq3BKYYxlbQ4r6-g&oe=6AEF4138",
       "status": "ok"
     },
     {
@@ -1453,7 +429,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ssEWSsErPagQ7kNvwHUZSc6&_nc_oc=AdqaDTlqLJn7f8bpCOVr0JAPkuhrT3dE5VrBuV9YfXFhUxAfHReOnAsg9dGVHVZ9Cqw&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=E7tN6wYtprgt8rPtEwZnfg&_nc_ss=7f289&oh=00_AQQPTKCjoYuwtymZmER405YOjHkbvYLafq6JAsLZfF0Xew&oe=6AEEE440",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ssEWSsErPagQ7kNvwGbrWNe&_nc_oc=AdrsC4EaBwdcIB1SBR5SpmjSk4GLO8QuEWCVWdoasMEKHG_hRRgtsHZJyTrvlwfaF0k&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=GzClrEHST0AcWFBhvbPz6g&_nc_ss=7f289&oh=00_AQR6kMwUONQXM0vTJogcPtgjXPZIWpWbnEkvyKIlMB958A&oe=6AEF1C80",
       "status": "ok"
     },
     {
@@ -1477,7 +453,7 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=E2ooZHLOkaYQ7kNvwE2UvA4&_nc_oc=AdoTGBlzK7t1XZUBB2Z6qycjKYXtSTvATPx3A0Ta1bgCag32FNsjcRjlcKyjBLR4uWE&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=eAcDIkWtcTNB0TirA-hKgQ&_nc_ss=7f289&oh=00_AQQJ61mTdxx3VuCaaeiRtcKAeFNjksykirAZk84gYE7rAw&oe=6AEF0317",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=E2ooZHLOkaYQ7kNvwE62NVp&_nc_oc=Adre_BVTC6pNeIe4fg4QdQnoS-jHqRXZVXeP5hoJxIudSQSxXvMJKppXkSKp7dv7XIc&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=tfMmitavWrjWqAb5zJ5IKw&_nc_ss=7f289&oh=00_AQR60H-aKWNGvfwxJvoxEdwB9xdMrtx9ei-TkV9Q0s0sgA&oe=6AEF3B57",
       "status": "ok"
     },
     {
@@ -1501,8 +477,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Z8VCkg8SwvEQ7kNvwGIFvHL&_nc_oc=AdqYnYb3-Y_rZMyD11M_DR_CPP8M-1eCe7IdlPMzU_XhGpN0HbLCsEJRPrnTpKpQ8nc&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=rU699s6NC4NQVDyW2qDlCw&_nc_ss=7f289&oh=00_AQRBuldhkYSjhw2_LXbf_VnrzEGfTzHikfv5LBY6BS3auA&oe=6AEEEC05",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_terminal_cbba",
@@ -1525,7 +501,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Vsgg0yVpamgQ7kNvwEmsbHn&_nc_oc=Ado3s9b4EMfnKSvtsDxgUEjYWj8C4mmF5NxSmr2l5O1o6MAOe2jrOdC8CPWi8S1272o&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=XMGDKEE17f7lJgPZ6lXiRg&_nc_ss=7f289&oh=00_AQR2xartaMK5X_t_JwMR5awyxrBmUCJNNcM14vAVVsrpEA&oe=6AEEFAD7",
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Vsgg0yVpamgQ7kNvwFYxuLP&_nc_oc=AdoAa4ITxukK_7r13HqtNqmS2TCr-o1iCH1DLSoGlUggsZIGJIuqZHKy5oaLiGBplOM&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=e_sp5sb1eghPXVlPj-FlVw&_nc_ss=7f289&oh=00_AQREDXpa7YBACpcYzTmdEAl3kTxbqVz8tYnLPdBXIcSTIQ&oe=6AEF3317",
       "status": "ok"
     },
     {
@@ -1537,8 +513,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bGsHIKpAGFkQ7kNvwFoJ1WF&_nc_oc=AdoeH6SqGv0a2alWEnH65iQTo3yjF3qH6riUISEZzyosUey69Cj8BOPDWVn_qw-Zn5M&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=Jp9beZxA0GD6J42aSmc0Yg&_nc_ss=7f289&oh=00_AQQnbHqZElGx7M5aVcOQgdgoXUjeem7GH2ysCU_OquMPog&oe=6AEEEE51",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_gob_scz",
@@ -1549,8 +525,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MiuwbjcW_98Q7kNvwEnZ8fq&_nc_oc=Adrjx7dFwCz1aUkh126CAM-UPVDD4RtST5L4OlG48I27PFM4eImciZkHaWCSwhCIJp4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=GsOIJC_su9AEopmBShPehw&_nc_ss=7f289&oh=00_AQQXNBkSi1FqndiJLYexoFXBfm9lapfEtSTetG_9_WsDhQ&oe=6AEED7FE",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "web_abc",
@@ -1561,8 +537,8 @@
       "tier": 2,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "web_abc_comunicados",
@@ -1573,8 +549,8 @@
       "tier": 2,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "web_lapaz",
@@ -1645,7 +621,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=lBhjwnvLBdYQ7kNvwEwWAnt&_nc_oc=Adow9vkv0TJghsjOPEQP9BHqpkdB-r29UsjZfgJYEtEnj36YV9iTXlddYxFvPOf4jeE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_ss=7f289&oh=00_AQRCN296tZix7bXwLJto0iNg9Edf-CYvD0Fza-HpQTNGCg&oe=6B10857A",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=lBhjwnvLBdYQ7kNvwEClqqe&_nc_oc=AdrYPUt-q0QrWb17bDcUrhmlbDCpr1YjBmECStpEnZ3appNCf4XxCB1J1ExpnI4vvXc&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_ss=7f289&oh=00_AQSatpk1Kig8BOJBkhxNFQAsrH9EFviOlwQKLQFXvRcyNQ&oe=6B10BDBA",
       "status": "ok"
     },
     {
@@ -1657,7 +633,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-avif&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-zt6ok8IqNUQ7kNvwFAj5Gi&_nc_oc=Ado69Dmni5Qd-loIn87bY094hb6layU9l4RJjzxrwiB15aoxcu6b00O0EjZTaDX1mxM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=Ux9fvln1Cr7vep7RmX1rRg&_nc_ss=7f289&oh=00_AQTtj5XnAE2XntWyti3V2sIjWQzXMaBpvxc_QoKSbfmHvQ&oe=6AEED64D",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-avif&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-zt6ok8IqNUQ7kNvwHOCbmT&_nc_oc=Adr-ilc34R0bm3sShdPz9YF1AXkDr7oupVSO3_R7FyOTC8K3WOznM2El4zr21C8EzvY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=bCxMszYGJw9-dz4d3v_VOg&_nc_ss=7f289&oh=00_AQSJHOhHww7c_O8c0Ys7GpDP7Dbq4vEB6y9GbIIlc9PGEw&oe=6AEF46CD",
       "status": "ok"
     },
     {
@@ -1669,8 +645,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=j_mc93rwALQQ7kNvwHy4pW5&_nc_oc=AdrVMahVWG4vgZwC29q-4jMT1yFzXPypRi4YaBghK7E2TwHIK6Cca7pMG9xtIqAlzS4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=89AEPzPtGGj2h4IEj5IU-Q&_nc_ss=7f289&oh=00_AQSiPMNYGWhuUMW2JrjBxKzwBLkk1zvLBqgz-i1ZjlRxSA&oe=6AEF208C",
+      "status": "ok"
     },
     {
       "id": "fb_rtp",
@@ -1681,7 +657,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=HofOOH9HfCYQ7kNvwHFK6jN&_nc_oc=AdoWs4_MS_I0COYVU_S2IskiENWBxylTHjoXD6E0qoHaC-xSU5HzpL1JUfavgUnyXsw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=dgl1giFR9cv-KpAvmCrh7A&_nc_ss=7f289&oh=00_AQT7QmzWcnVo3QDc90hTqV0aCr68P9tUNXqLgU9BzRL4SA&oe=6AEF02C5",
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CTVo1lFbwLwQ7kNvwGbzc_Q&_nc_oc=Adp65Zdkzz3cnpt2t7G_ZGtdfVBLAAJ2DWgwFr0dnUupgsdPQ3EuP99hW2299E2F57E&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=QMFSEjcZOX9xtTstVFQqmg&_nc_ss=7f289&oh=00_AQQDU7Qq3sX7OqKArHtJjnYWDlAukxJEY70F7BG2nWsTOQ&oe=6AEF3B05",
       "status": "ok"
     },
     {
@@ -1693,8 +669,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=xEF7K9_B6sEQ7kNvwFrzNB7&_nc_oc=Adqthy5Oz1txA3PW38tHyqJ2o6qFsCbumXTdVmuC6Pso1EKDzd2yxQGhCHZey_jiDTI&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=FJ0CfJNfLOkNVGXoTsilog&_nc_ss=7f289&oh=00_AQT0awK8KYmtxb2-XgwuSyakM3v7iDXmzegd9aSWkoZM5Q&oe=6AEF297A",
+      "status": "ok"
     },
     {
       "id": "fb_opinion",
@@ -1705,7 +681,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=d83MqqxG69MQ7kNvwFSurok&_nc_oc=Adr_EXVwiOY7RFEFacF4r_c9SJgMUz5-MThRuEKJLyQjKGbqsSvYPZpg1KEHZAURhb0&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=YArpcQWlSDfD7GeIW7Honw&_nc_ss=7f289&oh=00_AQQJCJOEMNxP9IA-M5_3KqnNiRDCy0nxSsGepcZrPfq4kQ&oe=6AEEDBE6",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=d83MqqxG69MQ7kNvwH9M3QS&_nc_oc=AdrnoEJ6IGc3vpeFE8lhoviefsJCWyS7kWgag8Ai6-BTGKpHRPqkTn_GBS6zz2pl5N4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=0eVRu2et8uMEKiDWgbhQbA&_nc_ss=7f289&oh=00_AQSSc3WO9oBK_4UswmbC7g5sMHX293HY0YDw8LtkmjJVFg&oe=6AEF1426",
       "status": "ok"
     },
     {
@@ -1717,7 +693,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uw0nyX-LcpAQ7kNvwF_tfle&_nc_oc=AdrGeani4Jod7Bbx6H2cOJPdzBplPIYYayrrQOmTHokKqlU-yJ42C8iY3JPNnL3oQl4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=1jIzif-iapGFVF3b8FE3dQ&_nc_ss=7f289&oh=00_AQQOh118KePhsTlTfgroOV475IDfACMtNnr1gf8lUHs6sw&oe=6AEEDD8C",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uw0nyX-LcpAQ7kNvwEq6nrx&_nc_oc=AdqfmqTbB6iNzV7fQ2JEgsYINL0k4kGYfd-W243yEEuYIGdqU6_sJH_SiCZaLQT4lZQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=zW0eQGeRu5yZslN0lyMgNw&_nc_ss=7f289&oh=00_AQRBiI-T7kkCWHLONWK8TB3Fd6-2qIPW8FgPARrWnibKJw&oe=6AEF15CC",
       "status": "ok"
     },
     {
@@ -1729,8 +705,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lo10auPyhX4Q7kNvwEH2B9Q&_nc_oc=AdqpuOpZ4vselfdRQhDvLnc67h6YYgFlEGXBJ3o25Fm2GW1iNYzoFaZQK-Hny93F4dE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=s5aDoKVCmgi-VCAe8R9IPQ&_nc_ss=7f289&oh=00_AQTs7IXbrR-qgWJWROBhJopJv7Tca5PTyLsD1psIilgusQ&oe=6AEF25C1",
+      "status": "ok"
     },
     {
       "id": "fb_erbol",
@@ -1741,7 +717,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=g7PSEXmLJ6EQ7kNvwEoQ1CU&_nc_oc=AdpvihLbA_GTq3txS34-fG0k-YYLyYKOT342BWXFL_Fag7g9YZA650p75_xRlAVjDCU&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=t6f8_HklfMZe8tbDuLLcYg&_nc_ss=7f289&oh=00_AQSPgouruhfw3gw5kpGLhACK-iXyzypg9-bsYYiXAI4gTA&oe=6AEEF6A8",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=g7PSEXmLJ6EQ7kNvwGX9JAl&_nc_oc=Adr1vV7Ldzyx3cDkW7KKiGjOHfTQ86Kh4tVBYizPEjuKg3I6qPrdWfECJEf5xpZgB90&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=hNliSY_kuGUzLaZQ0252bQ&_nc_ss=7f289&oh=00_AQRMQEmIJF29sSy9PmmZKGsobQeheF5pF9K3BoMEhIb5UQ&oe=6AEF2EE8",
       "status": "ok"
     },
     {
@@ -1753,7 +729,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Je66D9mInnMQ7kNvwHcTn7t&_nc_oc=AdoOe6XtFpg-nLFKhirqgKL4757cod_PtIR8irYB9EG4DaFHdHA5DPyknt0FcuG1Mww&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=S7vbyYP3onbL5FxEEUSiJw&_nc_ss=7f289&oh=00_AQSLzR3XLO8eCkEZQK9g1vFG6F8AE3aYXkyW6i_XSCOL5Q&oe=6AEEE2C8",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Je66D9mInnMQ7kNvwEDGkKT&_nc_oc=Adp7RUVoHbnq0zbzg_ZDq-QiO97Xq6VpvlPpreogTpg9D9LmMmFSjOJWWeiE2nPx60c&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=sdjrErKhkbtuAkWoRySjGg&_nc_ss=7f289&oh=00_AQStXpQfcJAeKkpYA3OXOahUv5EQM33nzIFzenBHeNuwjg&oe=6AEF1B08",
       "status": "ok"
     },
     {
@@ -1765,7 +741,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uf6IAkUKUZMQ7kNvwHD8Xvi&_nc_oc=Adon6n69Fj5a9gUmguPjLIkvrfYXkgsZ_Lajr43IiXorvcD3wpvPBFwKFZFWmVVC-h0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=et8tOvoMWlE-O0T1XoQ3-Q&_nc_ss=7f289&oh=00_AQR59-qRuWsZjOeOqWfBObGeAVlT69FZImME3w_3VJrQwg&oe=6AEEE329",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=MbxERP9aApAQ7kNvwFnsHhd&_nc_oc=AdpxvP6WoFXL3rfClDPC4SGardPJLmRtU4zZQTTB0T35jOQhwaRxDSLV1XjRTp_SrLE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=C8jdhyUO8CA4JycRjabnGw&_nc_ss=7f289&oh=00_AQR4tQ2xABmZtz2C-CNcFSJ9dElwLHgYJLza2TwbZ7WMxQ&oe=6AEF1B69",
       "status": "ok"
     },
     {
@@ -1777,7 +753,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iTVkW2qlf84Q7kNvwErq1Av&_nc_oc=AdpZjtMn_fPahzOgN8o1XkSLl_QSQ2X5OJFO5f920hOVlspmsaAsHIfuWzzD-ze-v5c&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=IOyKVm-4GRXfYZS3UZtBdQ&_nc_ss=7f289&oh=00_AQRo7mImFosTOSvoYyF0O4Df09a2uo1e-sP0M00f-nvYGg&oe=6AEEE537",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=iTVkW2qlf84Q7kNvwHydv9-&_nc_oc=AdqB3Z3KLDpgVaQ4H7pqStZzXaeUj1tAsSpOe9wqznV6YGbd0Q8oG22m-8N_3PsYvmE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=OtZdJWYYdgT7slCEf5tjJw&_nc_ss=7f289&oh=00_AQQ_H2BELH6PUjIr310CEWEvTgmUg3wlhLabaPYfxrQwMA&oe=6AEF1D77",
       "status": "ok"
     },
     {
@@ -1789,7 +765,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1-mQdrWgFo4Q7kNvwHloKZc&_nc_oc=AdqAyewefnCicoSX3wPam2crNPXg4TqXYngkWzq31RBn3LOG5y-GR6WTwv26Hc1ISlM&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=daa6rG47P2kQORNQg8YIng&_nc_ss=7f289&oh=00_AQRK7P21jfnp5994_VgzWv5GCeaK06qLDpos7ej1uRTcMQ&oe=6AEEE7FD",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1-mQdrWgFo4Q7kNvwE_FHK_&_nc_oc=Ado3o8o-IrD6xUkH4Ubq8JqJmPIG0-kT9FI1DtPXCAnGSdYygWhfvvOOBd2FDT3OIq8&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=A_McXG3F1McxFWDwT5x9CA&_nc_ss=7f289&oh=00_AQTpTpXe9YECruJFTmOao7M2UZrwpRKje8G9ZfgJ_Abokg&oe=6AEF203D",
       "status": "ok"
     },
     {
@@ -1801,8 +777,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=CGcUr6mHYWsQ7kNvwEluxBS&_nc_oc=AdpRkszk0hhWMsXipaUu-i4-EnjOZm0k5h2gcHFYXQDGh541tDPqCtcPkKUJXG88l5o&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=F1WDgbydGfZhr6bXOwXdRw&_nc_ss=7f289&oh=00_AQTMcYtLPfoE_M1soh0dJ0irj3R7jHrr_WI7SBv9BNfjPw&oe=6AEF26E1",
+      "status": "ok"
     },
     {
       "id": "fb_abya_yala",
@@ -1813,8 +789,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/871000228_1760278452768967_5369085719919323129_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=p720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=arQiv_C-_eEQ7kNvwHiXQpq&_nc_oc=AdoOWis9vTWh8RYKTQSxiiAMcJGJpdt6QxfoQw8L69Hm0Cb2LQBHeOo7gVSduLKWFTE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=msd1H3_DWLaNGA_9Y_NMQQ&_nc_ss=7f289&oh=00_AQRJv1wXmT03KCPSCiIeYzBPx5op5HxFhAPBHFArChNc6A&oe=6AEF2BF0",
+      "status": "ok"
     }
   ]
 }
