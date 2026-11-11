@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T23:01:33-04:00",
+  "generated_at": "2026-11-11T06:50:03-04:00",
   "sources": [
     {
       "id": "fb_abc",
@@ -10,14 +10,33 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jvBoqJ78NTsQ7kNvwHttMy9&_nc_oc=AdoLyt0Lln3t28oEZI9SzF18lnB47LpB_wnJL6B5DhsdnD9f7ONa4i134KjKmpo9RgE&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=mHHalEcoVQKAzcS21X2kjg&_nc_ss=7f289&oh=00_AQQU3LzFspLL634kVocxua9CYdKCrrP2L08D9igmIcXQGg&oe=6AF9C558",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jvBoqJ78NTsQ7kNvwEKGVhU&_nc_oc=Adpli6A4YcK4SWr_rzpl3huqDcZa58uuoW_rbhU0rEBbqlOgEG54mQ6yW2sQMbrD6_8&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=U4ZRvm7T3xYBTlr0dYDLIg&_nc_ss=7f289&oh=00_AQRBfGqCXpT7qZVnE__r5LsEndAovZZiTYFLmHgpZ13LWA&oe=6AFA35D8",
       "status": "ok",
       "raw_items": 1,
-      "alerts": 1,
-      "rejected": 0,
-      "images_detected": 4,
+      "alerts": 0,
+      "rejected": 1,
+      "images_detected": 3,
       "videos_detected": 0,
-      "rejected_samples": [],
+      "rejected_samples": [
+        {
+          "reason": "relevancia_vial_insuficiente",
+          "relevance_score": 53,
+          "filter_reasons": [
+            "contexto_vial:2",
+            "evento:obras",
+            "via_detectada:1",
+            "sector_detectado:1",
+            "terminos_viales:4",
+            "fuente_oficial_facebook"
+          ],
+          "detected_event": "obras",
+          "url": "https://www.facebook.com/CarreterasBo/posts/pfbid0UNh69o3J9VBKxxYLGGAewTTg2CbgkdkjdbU5Z24r5E4da86ouynY9eVtvbQF57pMl?__cft__[0]=AZj83YLEPTtC0OEKXuOhmG2QBBTANsL79lVbKDpBMONUiz6u8nNYjMuZGB7EZdI4R71QA-BAwfn-b6gstz3vJA_akD2ETWf2jXNX2sMxmTSL5SLLXu0NE3hYZnbZRvZOOrCbjAznPkaPuYCcSRXOhXX9bi0oUFiWqmgDtmafw8oJZ8vN7cr_DIsZqU0&__tn__=%2CO%2CP-R",
+          "published_at": null,
+          "has_video": false,
+          "has_image": true,
+          "text_preview": "LA ABC EJECUTA OBRAS DE DRENAJE Y BACHEO DE PLATAFORMA EN EL TRAMO PUENTE YAPACANÍ – PUENTE ICHILO, SANTA CRUZ… Ver más"
+        }
+      ],
       "error": null
     },
     {
@@ -29,27 +48,43 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=4eq7KC0cOtcQ7kNvwEL89ud&_nc_oc=AdoZcva__dOB8w31H2jj4GFgwGmqXijD4AzJYM4dZ9ddTTlEgtFixEaEexPjUHkyWB4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=sGFgQeK85OhN6v0PySn_rg&_nc_ss=7f289&oh=00_AQQfDAgw_tNC6D8pS7JZVW-akhlniQgu7txJjCRHJVxIjA&oe=6AF9C8AB",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=4eq7KC0cOtcQ7kNvwExwHBG&_nc_oc=AdrQ9h7u4wQ7GRz-8rzCqA9quGLgRPxxrDZ8DXBSjWt-D2xvPcNRsQNhZVhRKQ0Q86w&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=J2egRs0SyxlmVXtIK-ijqg&_nc_ss=7f289&oh=00_AQRIlxskQ4eCwdVEztgVYNgxBYHaiMZ1iyp8blGIZILA-A&oe=6AFA00EB",
       "status": "ok",
-      "raw_items": 1,
+      "raw_items": 2,
       "alerts": 0,
-      "rejected": 1,
-      "images_detected": 1,
+      "rejected": 2,
+      "images_detected": 3,
       "videos_detected": 0,
       "rejected_samples": [
         {
           "reason": "relevancia_vial_insuficiente",
-          "relevance_score": 10,
+          "relevance_score": 19,
           "filter_reasons": [
-            "contexto_vial:1",
+            "contexto_vial:2",
+            "terminos_viales:2",
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02egwhgnaYKoxweD1pNcqUb1tdyyiesbWXnRihhbQuj4t659gKG6hgrA5PSH4pUGwNl?__cft__[0]=AZilZdNSbQ1wqhZ0lUZMsA0LXjcks-1i7oxubKsZUxxLlXC_xgkkP6IOizh2ClqPcss2mhJbgwE_sG32Qm6tmHbtk5WkUfR__wieKVwBLUNSC76ytc4V3g08d_uCoF4pbpMwte7EXuHmCWpxUW_OAKwZcXhCgdG1pxHla4CuQyaWT-mbDW1NH3vmq3w&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02egwhgnaYKoxweD1pNcqUb1tdyyiesbWXnRihhbQuj4t659gKG6hgrA5PSH4pUGwNl?__cft__[0]=AZhVRFE-X7yVTIjWH9FtBHNNzCLbMA7bIs9oQLfIr8syjZibR8NQyLsIxzaDRUZvIdWXtlgg9VYzA00jo-UKwq0PLod6hb3CKbblIOFozKZMpmpWnN2tLokEvIeLSsheeOVh3EhCrzRhO--UXG_GtqlG8YvZY69PZSMZmqg72HaJc7q4AVTo-KKGlus&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
-          "text_preview": "AGRADECIMIENTO Y RECONOCIMIENTO A LA GESTIÓN DEL SEÑOR DIRECTOR NACIONAL DE TRÁNSITO ​La… Ver más AGRADECIMIENTO Y RECONOCIMIENTO A LA GESTIÓN DEL SEÑOR DIRECTOR NACIONAL DE TRÁNSITO ​La… Ver más"
+          "text_preview": "🏛️🎖️ AGRADECIMIENTO Y RECONOCIMIENTO A LA GESTIÓN DEL SEÑOR DIRECTOR NACIONAL DE TRÁNSITO 🇧🇴 ​La Dirección Nacional de Tránsito, Transporte y Seguridad Vial expresa su más profundo agradecimiento y... 🏛️🎖️ AGRADECIMIENTO Y RECONOCIMIENTO A LA GESTIÓN DEL SEÑOR DIRECTOR NACIONAL DE TRÁNSITO 🇧🇴 ​La Dirección Nacional de Tránsito, Transporte y Seguridad... AGRADECIMIENTO Y RECONOCIMIENTO A LA GESTIÓN DEL SEÑOR DIRECTOR NACIONAL DE TRÁNSITO ​La Dirección Nacional de Tránsito, Transporte y Seguridad Vial expresa su más "
+        },
+        {
+          "reason": "relevancia_vial_insuficiente",
+          "relevance_score": 19,
+          "filter_reasons": [
+            "contexto_vial:2",
+            "terminos_viales:2",
+            "fuente_oficial_facebook"
+          ],
+          "detected_event": "otro",
+          "url": "https://www.facebook.com/bolivia.transito/posts/pfbid02egwhgnaYKoxweD1pNcqUb1tdyyiesbWXnRihhbQuj4t659gKG6hgrA5PSH4pUGwNl?comment_id=1791846462033210&__cft__[0]=AZhVRFE-X7yVTIjWH9FtBHNNzCLbMA7bIs9oQLfIr8syjZibR8NQyLsIxzaDRUZvIdWXtlgg9VYzA00jo-UKwq0PLod6hb3CKbblIOFozKZMpmpWnN2tLokEvIeLSsheeOVh3EhCrzRhO--UXG_GtqlG8YvZY69PZSMZmqg72HaJc7q4AVTo-KKGlus&__tn__=R-R",
+          "published_at": null,
+          "has_video": false,
+          "has_image": true,
+          "text_preview": "🏛️🎖️ AGRADECIMIENTO Y RECONOCIMIENTO A LA GESTIÓN DEL SEÑOR DIRECTOR NACIONAL DE TRÁNSITO 🇧🇴 ​La Dirección Nacional de Tránsito, Transporte y Seguridad... AGRADECIMIENTO Y RECONOCIMIENTO A LA GESTIÓN DEL SEÑOR DIRECTOR NACIONAL DE TRÁNSITO ​La Dirección Nacional de Tránsito, Transporte y Seguridad Vial expresa su más profundo agradecimiento y reconocimiento institucional al señor Director Nacional de Tránsito Cnl. MSc. CAD. Vanderley Emerson Flores Mercado, al concluir una destacada y encomiable gestión al frente d"
         }
       ],
       "error": null
@@ -101,7 +136,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JqL7qOhpfyEQ7kNvwE_76PH&_nc_oc=Adoy8aq7UFULoOY8V33f-L-wjhZFPIqnmSpK4iMcZe4HXS1sEy_SVKfm5ElgnWEfEgc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=6Dn0R7MEpbTk9tFIeiKkuQ&_nc_ss=7f289&oh=00_AQS5Q9I0Ud104jz0pfuqytncR69oJ0MJ1Sd9_9CGRQYaqA&oe=6AF99C00",
+      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JqL7qOhpfyEQ7kNvwF44SEN&_nc_oc=AdqMIW4vksUoZJIpcZvEW-S0jFniwBZlY8nywBHAIVpg0iqEffaYob5hjDuKiksfUzk&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=Y_d1bFDVPUAJHl0tMpcunw&_nc_ss=7f289&oh=00_AQTBtWFIlkTg6JxnheRggJvfxJ26XDVTU9nv3uoG7mRPVg&oe=6AFA0C80",
       "status": "ok",
       "raw_items": 2,
       "alerts": 0,
@@ -116,7 +151,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02Ga41t3hzmPybRq5PTeQKwyomHsoYUk6gpVzRwtQhjDdpzqhHc42g6TUr6Kow46Pgl?__cft__[0]=AZjZYwHtKKAJX_eTavRm4wj72jrabpJUOrNZ19NviXUJvc2mjVGdE8djKOHDRfskvrt2OlfaS8JLS4s_VxXWrNBNh5C7RD45o5HlsKccH15HKX0EbR5TaC2mfTCgKU2A2Dg-QBf0gWq8ByL_hah72errrPMFQWCZPhhIRT8y6jUe7fNW6AzWrCl6yuE&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02Ga41t3hzmPybRq5PTeQKwyomHsoYUk6gpVzRwtQhjDdpzqhHc42g6TUr6Kow46Pgl?__cft__[0]=AZgNUBvCrknRUQNaHh3GZ6y8ytkZoaGsxWEr5mo067EbDmqBe9_Rb1kG8U_55Qoc1eUmRtkuZaqhai_ITWvONmNfo_hECz3xB0Gs7JDhD9iaCR4ObBgUvTKyHEqBUdllxfyOie3h3yLILj8DBMXKiWjJQvFJfINPOI1UJdp2HHL8FdgI2jvk3qbk8A0&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
@@ -129,7 +164,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02Ga41t3hzmPybRq5PTeQKwyomHsoYUk6gpVzRwtQhjDdpzqhHc42g6TUr6Kow46Pgl?comment_id=1151953440614244&__cft__[0]=AZjZYwHtKKAJX_eTavRm4wj72jrabpJUOrNZ19NviXUJvc2mjVGdE8djKOHDRfskvrt2OlfaS8JLS4s_VxXWrNBNh5C7RD45o5HlsKccH15HKX0EbR5TaC2mfTCgKU2A2Dg-QBf0gWq8ByL_hah72errrPMFQWCZPhhIRT8y6jUe7fNW6AzWrCl6yuE&__tn__=R-R",
+          "url": "https://www.facebook.com/AMUNLaPaz/posts/pfbid02Ga41t3hzmPybRq5PTeQKwyomHsoYUk6gpVzRwtQhjDdpzqhHc42g6TUr6Kow46Pgl?comment_id=1151953440614244&__cft__[0]=AZgNUBvCrknRUQNaHh3GZ6y8ytkZoaGsxWEr5mo067EbDmqBe9_Rb1kG8U_55Qoc1eUmRtkuZaqhai_ITWvONmNfo_hECz3xB0Gs7JDhD9iaCR4ObBgUvTKyHEqBUdllxfyOie3h3yLILj8DBMXKiWjJQvFJfINPOI1UJdp2HHL8FdgI2jvk3qbk8A0&__tn__=R-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
@@ -147,7 +182,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DKWH-NIgz3YQ7kNvwGrA6WP&_nc_oc=AdrJtz0TM8YTyr2RZn_o0l8jWed0mLPhrKoeWfRQRrwAxbhRKXm5ihvoZOfu6LuYXYY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=zSiPs4ce1oDU-FEkyrUhLA&_nc_ss=7f289&oh=00_AQSQuU6ytFQsxPtfQ3JI6i-O2Ym6yMKALknPzl2LSPyCjQ&oe=6AF994F8",
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DKWH-NIgz3YQ7kNvwGKCDt_&_nc_oc=AdpTN8Xw7Cbk-yNax_kOABMn4moBTX1YumITZsGxxtXyUqD8LhhhXIbATBYn8FxLlVA&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=c2kewwJyp9XckZ6wHlLejQ&_nc_ss=7f289&oh=00_AQQ0n-CU1bFVlO77fFUpuc0du3af3jry6DDv-6V93GITaQ&oe=6AFA0578",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -162,11 +197,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/39852368967741284/?__cft__[0]=AZgImLN4I6aKpQtx8yo7O251ORDoAJT5xAUmIB9Txa3o5RE4mE91EciElPD0kglzL5eMXtYfQgon7Z24jRIgMoyeBAe00C2rkb_kUifqqeoSkWqp5XURFRm5aisaoMgdfYEG7KeHg73nEnjgZanmWmH8cZMhdSH5dleYfve9q4m9em3GOUm5Py73khwEl3oQ76pX&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/reel/1155188840600967/?__cft__[0]=AZgtMWlLoYC2UbdpnBiLhyDGl09M6BGzbPN4BfVI6uI4pwUTtMThJuzOTCoB7LJFAp3kpWmZcNbv-vyQqcvn1mT8cX4NwziiLlyPvOX_ux1NIcFrzadT9rdtKasDl800tOgqSQRBOuXY5NjxAfBswPwkq5-welqWUSCR4EoE_FdAQcp3JDLCBR2HUaFFMe8C2cKP&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
-          "text_preview": "¡Las experiencias que compartimos hacen especial nuestro stand! Jassmany Gardeazabal, presidente del #ClubParapentedelSur, fue parte de nuestras Experiencias Maravillosas en nuestro stand durante la... ¡Las experiencias que compartimos hacen especial nuestro stand! Jassmany Gardeazabal, presidente del #ClubParapentedelSur, fue parte de nuestras..."
+          "text_preview": "El talento y la tradición artesanal hacen especiales nuestras Experiencias Maravillosas! Jorge Quisbert Pérez, representante de Bordados “El Detalle” y parte de la cuarta generación de artesanos,... El talento y la tradición artesanal hacen especiales nuestras Experiencias Maravillosas! Jorge Quisbert Pérez, representante de Bordados “El Detalle” y..."
         }
       ],
       "error": null
@@ -180,7 +215,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KiN9_mkk-CMQ7kNvwFu3j31&_nc_oc=AdrsMTzgo1U6UynrybNLs1H67AWMYhQ31nxn2ZJrPP8RhgVTAFUraKcvnrCJCzR5WhY&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Zmeu7S9jNqYRmG1WtFm2lw&_nc_ss=7f289&oh=00_AQQ17VAt7rf7_4Hd4gN28Y88bn5GBygupk1JQZJBo3tWIg&oe=6AF9A880",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KiN9_mkk-CMQ7kNvwEsclww&_nc_oc=AdrlL5FKjBvrAve4yMQ6YTAutJa83FO29JRuOAfMzOZi2uPIJ9p5UeArZIAunT6p9Mg&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=bPlh-DDk0HaYwL0mfahuJA&_nc_ss=7f289&oh=00_AQSjrOz5_kuZDs_Sjze-buS6Mu0RUJRci-QoQnQi7ehGeA&oe=6AFA1900",
       "status": "ok",
       "raw_items": 2,
       "alerts": 0,
@@ -195,11 +230,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1932931131412617/?__cft__[0]=AZiVDJciAYZwQ6uCbBRXstq-6QQlUaRdEBgevlwiJmeIkkArY4s78D2pDFd1EnW3yRHtwjDrco-59JGMHmLyGumhSNAesMwqXkRw077GDwS5Ly4YGnwmtIS9uxFkYSBJyQswVzK7v7sImQTPrle0RTygkvEQCkQg1JOnTx6siIQSJzD0AtQQWa20ywSnf1W6Q74P&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/reel/1145448041205198/?__cft__[0]=AZgi1slms8h9pGQjg-sZcdM8gK_74pJBCNj9vWDqShLp4MmBN3CttM0cJ6Kd_hSlgqOHXdILzP4NnSx5piou7opYXnCyxKw5l9PoBFB8AQf3DLtJPKZXCUTeXycOnqfm8N6Ffq4U--l9eCu_h0PvWk1tS68cxvgSgd-wpygq_54lY2zmvjlC6Eh9IIkEOCSKISCv&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
-          "text_preview": "¡Mejoraremos la calidad de las luminarias y el fortalecimiento de la seguridad ciudadana! #E… Ver más ¡Mejoraremos la calidad de las luminarias y el fortalecimiento de la seguridad ciudadana! #E… Ver más Más iluminación y seguridad para nuestras familias alteñas. Seguimos avanzando por una ciudad más segura y ordenada. Tenemos problemas para reproducir este video. Más información Julian CruzAguilar"
+          "text_preview": "La Alcaldía de El Alto, UNICEF y la Fundación Munasim Kullakita refaccionan el Centro de Atención Terapéutica del Distrito 2 . Este espacio atiende aproximadamente a… Ver más Reconocemos el compromiso del GAMEA con el desarrollo de nuestro municipio. A seguir trabajando por El Alto! Tenemos problemas para reproducir este video. Más información Iklav Niram Agaerk"
         },
         {
           "reason": "sin_senal_vial_en_el_texto",
@@ -208,11 +243,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1932931131412617/?comment_id=1427077539414086&__cft__[0]=AZiVDJciAYZwQ6uCbBRXstq-6QQlUaRdEBgevlwiJmeIkkArY4s78D2pDFd1EnW3yRHtwjDrco-59JGMHmLyGumhSNAesMwqXkRw077GDwS5Ly4YGnwmtIS9uxFkYSBJyQswVzK7v7sImQTPrle0RTygkvEQCkQg1JOnTx6siIQSJzD0AtQQWa20ywSnf1W6Q74P&__tn__=R-R",
+          "url": "https://www.facebook.com/reel/1145448041205198/?comment_id=1434422118849152&__cft__[0]=AZgi1slms8h9pGQjg-sZcdM8gK_74pJBCNj9vWDqShLp4MmBN3CttM0cJ6Kd_hSlgqOHXdILzP4NnSx5piou7opYXnCyxKw5l9PoBFB8AQf3DLtJPKZXCUTeXycOnqfm8N6Ffq4U--l9eCu_h0PvWk1tS68cxvgSgd-wpygq_54lY2zmvjlC6Eh9IIkEOCSKISCv&__tn__=R-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
-          "text_preview": "Más iluminación y seguridad para nuestras familias alteñas. Seguimos avanzando por una ciudad más segura y ordenada. Julian CruzAguilar"
+          "text_preview": "La Alcaldía de El Alto, UNICEF y la Fundación Munasim Kullakita refaccionan el Centro de Atención Terapéutica del Distrito 2 🏛️🤝. Este espacio atiende aproximadamente a 40 personas al día, ofreciendo... La Alcaldía de El Alto, UNICEF y la Fundación Munasim Kullakita refaccionan el Centro de Atención Terapéutica del Distrito 2 🏛️🤝. Este espacio atiende..."
         }
       ],
       "error": null
@@ -245,7 +280,7 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Uzl_VfeUt_AQ7kNvwGyTLOA&_nc_oc=Ado68gvFakdM5szot-AzkLoZeSLkOM5c4OgVmlz3IoU51uJSFHliGeREPsM9inURxW0&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=QihBsmCxhgIoVw_-sMlrVg&_nc_ss=7f289&oh=00_AQTI18NGzgWIX58VPXwLqLu6PEL12bLV1UHoMMQEGETWFQ&oe=6AF9C757",
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Uzl_VfeUt_AQ7kNvwFMcw82&_nc_oc=AdrlE7nilI0eN3u2htBPPLBSwX1iA2kKVklt9F4HXSdLDO5CGwuefj3bQIWwegXOp2Q&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=mfCLv5M4hRgPiM_cJ6fG6A&_nc_ss=7f289&oh=00_AQTGGxK24ESevCkbudVwGBwgwyK6FiWOp592b9IS_zCNgg&oe=6AF9FF97",
       "status": "ok",
       "raw_items": 2,
       "alerts": 0,
@@ -260,7 +295,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/2405637593513565/?__cft__[0]=AZhSHsurtsGWEWiQp7yS1nHhsIcJgOpHxNDU8-vtEU-FFhVFR21GrAt_rjQZEgHY-LR1FZIkuPPJILYmYlS02O8NoupXUPsjqmqaeiB6XjLByC73jTJbfdeyRaOoT8xTPIkQbPd4HQz4AJiPtL393PmnGlBqdZ69wN_nxtJJ3qlu04slJjTcQ-7HuOidkbfOaSDN&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/reel/2405637593513565/?__cft__[0]=AZhp6H-I-FCmM01pmmifTVI7AXJLoTQoHWrQzMw-8bVGD6iXwcVBmAVZOBpr4oSdMPPAzMNqR3CdEvAk2g3KZI51Ap1hXHFQ-ugKNQhSHfEw4YlH9H-ekCbKDXH94do2qXoM966oK5VQVzy6Aen2cTU81sVok5EYs0JJVUl4-Q_k11-jN0Op6CrvhCpwDUzceUeD&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
@@ -273,7 +308,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/2405637593513565/?comment_id=890464124092578&__cft__[0]=AZhSHsurtsGWEWiQp7yS1nHhsIcJgOpHxNDU8-vtEU-FFhVFR21GrAt_rjQZEgHY-LR1FZIkuPPJILYmYlS02O8NoupXUPsjqmqaeiB6XjLByC73jTJbfdeyRaOoT8xTPIkQbPd4HQz4AJiPtL393PmnGlBqdZ69wN_nxtJJ3qlu04slJjTcQ-7HuOidkbfOaSDN&__tn__=R-R",
+          "url": "https://www.facebook.com/reel/2405637593513565/?comment_id=890464124092578&__cft__[0]=AZhp6H-I-FCmM01pmmifTVI7AXJLoTQoHWrQzMw-8bVGD6iXwcVBmAVZOBpr4oSdMPPAzMNqR3CdEvAk2g3KZI51Ap1hXHFQ-ugKNQhSHfEw4YlH9H-ekCbKDXH94do2qXoM966oK5VQVzy6Aen2cTU81sVok5EYs0JJVUl4-Q_k11-jN0Op6CrvhCpwDUzceUeD&__tn__=R-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
@@ -310,7 +345,7 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZIuof6FTDmAQ7kNvwEFrUHB&_nc_oc=AdpFOpFJq9OAHIei1V6t1gTpDsjLOcdeQNE5QV9BPKaIJKqnw3KKcfYzR_ibuneJE1M&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=mJKu5BwzJ-kCK_JTMKEdeQ&_nc_ss=7f289&oh=00_AQTJ4w5V3oV1eb1653oa5RnuAYh3BFOHqphTeA7PljlmvA&oe=6AF9B045",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZIuof6FTDmAQ7kNvwF2nnY9&_nc_oc=AdrSddHO8sCxuChfvVcOI_lDmTx32SrynPscSh65j3e9Pi9W05kcTmmhAcG5YWfxDiM&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=gSBpLGr6yu_BLiauy88Umg&_nc_ss=7f289&oh=00_AQSIZlXK7VlHtFFfBgwos2Cym5fdiTCYPn7MNjiIyo-awQ&oe=6AFA20C5",
       "status": "ok",
       "raw_items": 2,
       "alerts": 0,
@@ -325,7 +360,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1457450179822705/?__cft__[0]=AZjAOyuRakJHdFWyiULGSOkyVf1KLbPNttu4FzZX6Jp7qIfshAUNUbJ7TErNgcm4iumxaDtMGqSQ6B02RXHqnECuzsoNqQr8AQeVTfzc3xRfXUVxFHpkycYWM7LhgiSxocOUFalsjnzZAkyFTXWXrfQmZnbLm0jv2SL2Ls1GIEGvXnRrrVuKdF-19ObabRnPDxgA&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/reel/1457450179822705/?__cft__[0]=AZiaezJ_YZ3osnNfROzkX7DZYnpfGsX9lEmw_pZFgf-5rAyW4YGkc58yT-3vDGOcSeK1aYkIbHU7b3HjOh1b3YAqhaunuMNWGyr8Fomad7qXYKt5HpilG1_tGcsHqMu-6AxwXybtzA_UNoVIxbdvIpD-uaJt46lWL2a2H8orCZXkS8e_Hdz_DBakfRdUH5QDlBJ6&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
@@ -338,7 +373,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1457450179822705/?comment_id=1619838930185482&__cft__[0]=AZjAOyuRakJHdFWyiULGSOkyVf1KLbPNttu4FzZX6Jp7qIfshAUNUbJ7TErNgcm4iumxaDtMGqSQ6B02RXHqnECuzsoNqQr8AQeVTfzc3xRfXUVxFHpkycYWM7LhgiSxocOUFalsjnzZAkyFTXWXrfQmZnbLm0jv2SL2Ls1GIEGvXnRrrVuKdF-19ObabRnPDxgA&__tn__=R-R",
+          "url": "https://www.facebook.com/reel/1457450179822705/?comment_id=1619838930185482&__cft__[0]=AZiaezJ_YZ3osnNfROzkX7DZYnpfGsX9lEmw_pZFgf-5rAyW4YGkc58yT-3vDGOcSeK1aYkIbHU7b3HjOh1b3YAqhaunuMNWGyr8Fomad7qXYKt5HpilG1_tGcsHqMu-6AxwXybtzA_UNoVIxbdvIpD-uaJt46lWL2a2H8orCZXkS8e_Hdz_DBakfRdUH5QDlBJ6&__tn__=R-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
@@ -375,7 +410,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Sw-qSuZyfXQQ7kNvwGbzoZS&_nc_oc=Adp6BL0RPGYC64m8kTAXbSRzl7KHgPi9cv-3_S8cKB4Iwqg8C6h9mnySm_MtjiXvvEw&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=d5bS1i5UzpVztJllhgrNeg&_nc_ss=7f289&oh=00_AQRjH25xAXXmQKHA1eclqyk_tmljecsOmv7idjbapyZm6A&oe=6AF9BF17",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-avif&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Sw-qSuZyfXQQ7kNvwEYN-wf&_nc_oc=Adr-_mmOvVDd7aZWac26EnSTzY3TjcbUxp5o5TsZuFWtLF1cFd8kA8oF7AlFm6HhbOI&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=2GPYcH5EqgWq9J-nIHOWmg&_nc_ss=7f289&oh=00_AQRHBtyhSLh9up81qTbg2RflCY4rd5ZezBbSHQo00i8Vtw&oe=6AFA2F97",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -390,7 +425,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/gamscs/posts/pfbid033SrgGEJgbk6hyBsY4ETwsdA46AfPNifpvGYoZ93vE1QGoaUinzfcpPfRQWfGNvoVl?__cft__[0]=AZicKupWXYQbDCrq-S2Xduv9XXuMvdnwaHxLOvA6hQvycCjl0f8gdzpVzurT36BCN4rc4QoF45QSN1ApaYTu54A5I75WEqSkrKqWINi8FRv8hrE2LusVvuzlaJmQWI9z8SOzK4KqW46V_8xzOb42BIuj50IFyYvYxNenW4PeXsZUBNGiPvHjDCpABp0&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/gamscs/posts/pfbid033SrgGEJgbk6hyBsY4ETwsdA46AfPNifpvGYoZ93vE1QGoaUinzfcpPfRQWfGNvoVl?__cft__[0]=AZjgxRtot7w5PdOy2WUq0sTjxim5CI-5H4q6ZAHGR5Z80yxUKMHvPH5mqBPTFKPCS3eAKqW8sfR6qqViRNFLrywkU7YCUMfT_DMAiyQVHU9d_3L7TKYGNueQjqQiV8PWcfrFIQ8dgtEzSvjpHRtsL6cBoeF73-t2BDubB-XYH4XSrZ1duCT6KConSgE&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
@@ -408,7 +443,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AhB01qN6YCwQ7kNvwF4KplC&_nc_oc=AdqUAk-UceELjqGjC5buIgYInQU162Dm2qjvV5bAM_IaRGZZkJk9vGQbBCpv-2dX5B0&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=1hgsYyJK9LpAA-sb0nsrQA&_nc_ss=7f289&oh=00_AQT7cviVBmCqF1XpjuXoRAS0u1eH6fyE9O-b0cSCcwhtoQ&oe=6AF9B291",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AhB01qN6YCwQ7kNvwGRWudY&_nc_oc=AdqkiYTBwSCOmeNS7yOknB2ff--fSBa4QjqIekmXeY4u_-K_uz_cmwfkP_TifnYRQRE&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=t4jWX9l02EmN_-Wy_l7uLQ&_nc_ss=7f289&oh=00_AQSefA7HTI8N_VWjIo_RhRoVRzlFJ4uWPllDp_CNeiD3qA&oe=6AFA2311",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -424,7 +459,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid0hejSJogC5gjJW43DzSC4XGoZfbEFGcBe8hZX3FSg8wTy4gueDHF4YpzGkCDBHaBml?__cft__[0]=AZhpPvM-iavgAvv2t7fgZk8UH16mMOecywXCmFcFzDzzLBgKgecH1uYrguQzOp98SIQOqKGlASiQWVnrA8PI9kD36rnPhVIrwh8-BUH_Q72JINHvTvmALUJXLmLvVzp8ExI5gKsD12swGzfMnUfc_T5ii5kOxHb-qpAAsVr6l-zDNtEjyT1GvYuU_X8&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/SecretariaMunicipalDeTransitoyTransporte/posts/pfbid0hejSJogC5gjJW43DzSC4XGoZfbEFGcBe8hZX3FSg8wTy4gueDHF4YpzGkCDBHaBml?__cft__[0]=AZh5EOk_p6fYSDJmBOXdQ3FOgvTqEvsdYp70yTNfk9eIvq878O-Qr9lgwXJTh4StyVJZFeTTBfk90P0tWlI5EGbD8Hn89ujq86Ia-NatbSHy6UZArKvrtoWWMgHo2ZSwoJk_Ku6aRMFQDJSh3fLYWNjVrbPTkVE3Q0wl271FRO2NPSVinA5Z2NjAhic&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
@@ -442,7 +477,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4mIl4LA_AQMQ7kNvwHiphab&_nc_oc=Ado94jBFSPCZplBR7qcv5K3SDegm6PcOYgwYKfMTJ6uUTzE18RNobZKIfFMi6j_EAow&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=iJVLzC25ea0b_JfombhEqg&_nc_ss=7f289&oh=00_AQTk2JX2QIbTiCvMJ1VqsJuQyYWIr-2kNbI0Ydad6E67YA&oe=6AF99C3E",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4mIl4LA_AQMQ7kNvwFLyhuQ&_nc_oc=AdoxvU14t4_BMVK_oNJLbdsp0ykd8U8iP2USFAs6TfOYPAbAwk2dhljbnibdSxKBHVk&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=PCI-Kl3zHVr151DHgyZQ1w&_nc_ss=7f289&oh=00_AQRHryKPTzmMX5uxN5a6EWPON9QhkJuH7WqQ_2ATlPJHAg&oe=6AFA0CBE",
       "status": "ok",
       "raw_items": 2,
       "alerts": 0,
@@ -457,11 +492,11 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1838993330443713/?__cft__[0]=AZgA-bex1u-ZRccXxUkbPdOWu-ig3zWcnbmzEvkoKJTUA0XG3fntNz4E-SZw58Oq8iCocoUjCUqQN6-wu0HRV4b4Z7-8ZIJ0BkDNiX0mz4dIo6LMQzijErvbrEEGCGDyPlGCL5jpUIocMXejeZ_yd2mwso7zqY2l1fzdw3_AcUoCfFLhYkxt_sFqNVgxxO-ZuzEM&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/reel/1838993330443713/?__cft__[0]=AZhOxiBF2vyD1JXhlIVi90ccxuGtB25eUG0j2UjmY8z0SfY0XcF_SaxusGVeNUosWT8ApL2WcMMMACk7NGuolQmpB1In77CTX3ZewMmdghsGwTK2Wqom5Z1ERh5_AYbHx7gRx9fdSDLf9rRoIDQ5-AxLeQSwxvf2k4TtoHCsYE4_8Chx4X9iw0KrM6Ko3j_JFyzh&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
-          "text_preview": "¡Nuestra tierra cruceña guarda un secreto que impresionará al mundo entero!… Ver más Alucinante escuchar a danilo sobre este hallazgo, gracias por su trabajo incansable y sobre todo repleto de amor a santa cruz, esa cruzada casi artesanal y a puro pulmón tiene un fruto universal Tenemos problemas para reproducir este video. Más información Ver más comentarios Jade Racca"
+          "text_preview": "¡Nuestra tierra cruceña guarda un secreto que impresionará al mundo entero!… Ver más Esas cuevas las conocimos con mis compañeros de curso del Colegio José Eliodoro Paz de Puerto Suárez el año 1988, cuando cursabamos Segundo Medio, mis amigos José Luis Leaño, Marcel Parada y 3 compañeros que partieron al cielo: Marcelo Lino, Roland Lob… Ver más Tenemos problemas para reproducir este video. Más información Ver más comentarios Eugenio Eugenio Lizarazu Trigo"
         },
         {
           "reason": "sin_senal_vial_en_el_texto",
@@ -470,7 +505,7 @@
             "fuente_oficial_facebook"
           ],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1838993330443713/?comment_id=1796551584912011&__cft__[0]=AZgA-bex1u-ZRccXxUkbPdOWu-ig3zWcnbmzEvkoKJTUA0XG3fntNz4E-SZw58Oq8iCocoUjCUqQN6-wu0HRV4b4Z7-8ZIJ0BkDNiX0mz4dIo6LMQzijErvbrEEGCGDyPlGCL5jpUIocMXejeZ_yd2mwso7zqY2l1fzdw3_AcUoCfFLhYkxt_sFqNVgxxO-ZuzEM&__tn__=R-R",
+          "url": "https://www.facebook.com/reel/1838993330443713/?comment_id=1443646463901434&__cft__[0]=AZhOxiBF2vyD1JXhlIVi90ccxuGtB25eUG0j2UjmY8z0SfY0XcF_SaxusGVeNUosWT8ApL2WcMMMACk7NGuolQmpB1In77CTX3ZewMmdghsGwTK2Wqom5Z1ERh5_AYbHx7gRx9fdSDLf9rRoIDQ5-AxLeQSwxvf2k4TtoHCsYE4_8Chx4X9iw0KrM6Ko3j_JFyzh&__tn__=R-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
@@ -687,7 +722,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=-IVD6URdkgAQ7kNvwEVCFVO&_nc_oc=AdpvxmUe-JVnRoiUht_bhotpan5_jZMrjRVtwT4wP0_NMYnc_2ZosoP8FiwWqdmPPME&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_ss=7f289&oh=00_AQTNpWHVCDE__f1LMtww0VC7IbxwD1zO0tpvWfpkrf8Gag&oe=6B1B49BA",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=TT4o7qqJ-UIQ7kNvwHIXgIR&_nc_oc=Adrljj7tAiLf7W_Uqd8tQo_c1q94J1fYB5YWI1LA1MHIqH3y0woj4mMFkyiGXKzYiK8&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_ss=7f289&oh=00_AQQ9V-JqUGga24KSlHJYhJbRQbtBRP8LVcKawl0IGeO-wg&oe=6B1BBA3A",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -700,11 +735,11 @@
           "relevance_score": 0,
           "filter_reasons": [],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/RedUnotv/posts/pfbid0LBJMNM3F7gsSZPxH9qRSMhxCenM1rhbaBKw3M7SkH8eG6UY4hz9Bx4ditJR52rNHl?__cft__[0]=AZiljmTy4EJSjL-cCH89ORy0Za8hHVseNNKH1JI1lko3x8pbCXCIRdZv7XoJVEtstzPWr8eBURNsahUu4iyVRhTD45CSBsuSVibElvo-Qy-xYK7wP3nPENGfuD3IQu2KxhXg6IHWIce9mI7G9coUqgky8VUfHPJ5fHFf7-tfAi-rjydsPdYr0Y9I4B4&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/RedUnotv/posts/pfbid07SVc8XtzY6krcLgRMDzjU3DuKvFUwSHadHiMDYbtdfJxysD7TH1jfzrdpodaMj7ml?__cft__[0]=AZhUe52vWDVCLYdl4F5aocQa63gYBItVpcdQo96-dabEqFwlJhJYrLiEsfPacxZQIc46lwH2zViL6j5BnnC4BOyTlru0d_zWMJoOZq6iwJMB9WWvaLX4mZdSiqG8GFzY2Z8pEIIVb-i1dTdyatUNrgBwutBfQQCZBw9m3Alkhtv-GaH8_J-9Zj-OoVI&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
-          "text_preview": "👉 https://r-1.tv/74442e | Una de las personas afectadas sufrió aplastamiento y fue rescatada, mientras la Policía realizará las pericias para esclarecer lo ocurrido. 👉 https://r-1.tv/74442e | Una de las personas afectadas sufrió aplastamiento y fue rescatada, mientras la Policía realizará las pericias para esclarecer... https://r-1.tv/74442e | Una de las personas afectadas sufrió aplastamiento y fue rescatada, mientras la Policía realizará las pericias para esclarecer lo ocurrido. Lee la noticia completa: https://r"
+          "text_preview": "👉https://r-1.tv/c3e1d5 | El mediocampista reconoció que quedar fuera del Mundial 2026 afectó emocionalmente al plantel. Sin embargo, aseguró que la selección está motivada para enfrentar a Perú y... 👉https://r-1.tv/c3e1d5 | El mediocampista reconoció que quedar fuera del Mundial 2026 afectó emocionalmente al plantel. Sin embargo, aseguró que la... https://r-1.tv/c3e1d5 | El mediocampista reconoció que quedar fuera del Mundial 2026 afectó emocionalmente al plantel. Sin embargo, aseguró que la selección está motivada"
         }
       ],
       "error": null
@@ -718,24 +753,35 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-avif&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bx3SLzK_MeEQ7kNvwFEUma4&_nc_oc=AdpokleR5ViDnU11YWNn2uNV2S2W_ZbbfpoaJ_Oakft60FOBQ8U8v6kioFgSafug9VI&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=KKG1d7dDQmGuXvRdjO35MA&_nc_ss=7f289&oh=00_AQQkNRc0mVAsNa2JGbN-x6xbnJWJ6U9w6tZnWBjirIIaLQ&oe=6AF99A8D",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-avif&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Bx3SLzK_MeEQ7kNvwF7TTxL&_nc_oc=AdrufoHj0m3pv51mQ9fPhQ301R1EgzELQ8yTSpxUnL9UClpHeI0pe7mLOyJ2FYlcHCE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=-_RO5GCq3aMqaFQ6jhIslQ&_nc_ss=7f289&oh=00_AQRbgdfwS2JiZjng0XiMjh4g5Wqx4MZ0t4-eyZY45Rhj0g&oe=6AFA0B0D",
       "status": "ok",
-      "raw_items": 1,
+      "raw_items": 2,
       "alerts": 0,
-      "rejected": 1,
+      "rejected": 2,
       "images_detected": 2,
-      "videos_detected": 0,
+      "videos_detected": 1,
       "rejected_samples": [
         {
           "reason": "sin_senal_vial_en_el_texto",
           "relevance_score": 0,
           "filter_reasons": [],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid0mYaXwvU7x9wHhVJThvBqF4aDPCFM2p7jbhjjYrpFq6MiUAkoURB5AQkXHk4RKHVjl?__cft__[0]=AZhrIgi7V80YYCVk0c6U1MbfspJziaXZaLj-gN_zT2Beg0p6HQEO4gyJJucNRlfKZ6vcUadF6XQCM-viWlOqzwFpDNlKf1vVTGJEgXMwpsLHvOqSrhxoMXkddKWL_DEVafh6LtMcj-Z6rHLUTs8xbFn-YZJTPntzC9iWRIms68_ycPRJhxlvXKJoMQI&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid0ZVR5ESexXZMKzLa7Xf2oD6v6i9vgTJe7tYQTjYfYmp8jH5iYKkmJaep73rV9n1Twl?__cft__[0]=AZhpCRUvUE_FZKZZ2CRiV6-E0-0Tk8aEW-O-zBF-isV1G2G_VAfH8iqSyLDKlW4IisiW44_-0Z9p9ppA0ILF1osh6HerI79JadM19D-Z6PqZO3cWAC6jEcWmMuy6zlcevdW2LyW7hNA2OpEB9dtpUy11Jwq06T83IUEVka9bTevIu6ycs6ylK8F6DdarUgazYEuFIi7Z4Tsx1eGsm-Y&__tn__=%2CO%2CP-R",
+          "published_at": null,
+          "has_video": true,
+          "has_image": true,
+          "text_preview": "Nadia Beller salió de Bolivia tras recibir un salvoconducto otorgado por la Cancillería, a pedido de la Embajada de México. La abogada, quien sobrevivió a un atentad0, recibió el documento durante... Nadia Beller salió de Bolivia tras recibir un salvoconducto otorgado por la Cancillería, a pedido de la Embajada de México. La abogada, quien sobrevivió a un atentad0, recibió el documento durante las primeras horas de este miércoles Más información en Unitel.bo #Unitel #NadiaBeller #México Nadia Beller salió de Bolivi"
+        },
+        {
+          "reason": "sin_senal_vial_en_el_texto",
+          "relevance_score": 0,
+          "filter_reasons": [],
+          "detected_event": "otro",
+          "url": "https://www.facebook.com/unitelbolivia/posts/pfbid0ZVR5ESexXZMKzLa7Xf2oD6v6i9vgTJe7tYQTjYfYmp8jH5iYKkmJaep73rV9n1Twl?comment_id=1163749422831429&__cft__[0]=AZhpCRUvUE_FZKZZ2CRiV6-E0-0Tk8aEW-O-zBF-isV1G2G_VAfH8iqSyLDKlW4IisiW44_-0Z9p9ppA0ILF1osh6HerI79JadM19D-Z6PqZO3cWAC6jEcWmMuy6zlcevdW2LyW7hNA2OpEB9dtpUy11Jwq06T83IUEVka9bTevIu6ycs6ylK8F6DdarUgazYEuFIi7Z4Tsx1eGsm-Y&__tn__=R-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
-          "text_preview": "📲Info completa en los comentarios⬇️ Info completa en los comentarios https://unitel.bo/.../explosion-al-norte-de-santa-cruz..."
+          "text_preview": "Nadia Beller salió de Bolivia tras recibir un salvoconducto otorgado por la Cancillería, a pedido de la Embajada de México. La abogada, quien sobrevivió a un atentad0, recibió el documento durante las primeras horas de este miércoles Más información en Unitel.bo #Unitel #NadiaBeller #México Nadia Beller salió de Bolivia tras recibir un salvoconducto otorgado por la Cancillería, a pedido de la Embajada de México. La abogada, quien sobrevivió a un atentad0, recibió el documento durante las primeras horas de este miér"
         }
       ],
       "error": null
@@ -768,7 +814,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ESFsBzy8nmUQ7kNvwHkOdH_&_nc_oc=AdoWK6kORjBq1y-iF_HP3kQBH9iYX3w6-sm4sQoCLOoODgfkzN-CDz4FLcq1KZITn6w&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=tx2G7_ZV4hbvHZYOt_Gu2A&_nc_ss=7f289&oh=00_AQQ6izM1psyIGMioyZIOXAS53xHQPwRsjsvEWtnJ2aucuw&oe=6AF9C705",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ESFsBzy8nmUQ7kNvwFuoQwZ&_nc_oc=AdqEa9oJ3Im57pJMRAueF5JlTCvnqA_tlgF-sHQsyfImi8ShWZy81m6vHxcsWwKswzw&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=3SqT8u-ZPZi-1D24M-brDA&_nc_ss=7f289&oh=00_AQR1z44YqJHMXmMuvnVAGl3yih-Qm7mxp0EFybvrUBDkLA&oe=6AF9FF45",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -781,11 +827,11 @@
           "relevance_score": 0,
           "filter_reasons": [],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1804662644083228/?__cft__[0]=AZjAeyxAc-Gmetl3mV2-gcmxJaOnPgeaNsyGoL-g0iKv9HmG_bKU4n0JseWC9IzHiW9zUSgdJN6XMrHwPF992ZK4GdrlipKDOLJFlo0QA5KAs6NXIBb040KfWhyujd_ru5wg2fdcVFapVPxHVysDAOFW2nEWf7eO8i3426902aAapPK2c4C9jZ0_0g_r9GfUsEPu&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/reel/1495222875787985/?__cft__[0]=AZiWamTEchB5rYusvCwZEIWGWY84M51k0YliZDgK3dI2iwSItPBsbUC51ZGnlMJWR9UcZNrro7GcuDQTBRx77M9Rq8YqkkUjWgRh3Gex5aKvRRvJX5p9IlVWr6HPzGLjuNiL7VGbpXSuVL7Os9fgfLSPmPCds0p-NDLzTMpHz5iHCPAk3DM2aDKbGL6BL_Uf9qUr&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
-          "text_preview": "Una mirada diferente a la realidad. Ángel Careaga pone sobre la mesa los temas que marcan la agenda y analiza lo que realmente importa.… Ver más Una mirada diferente a la realidad. Ángel Careaga pone sobre la mesa los temas que marcan la agenda y analiza lo que realmente importa.… Ver más Tenemos problemas para reproducir este video. Más información"
+          "text_preview": "#RTPInforma Educación iniciará diálogo con maestros rurales #RTPInforma Educación iniciará diálogo con maestros rurales Tenemos problemas para reproducir este video. Más información"
         }
       ],
       "error": null
@@ -818,7 +864,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z26DKQvdm0EQ7kNvwFmbOJd&_nc_oc=AdqQf5RmIxX4UVOfNlyn5-OGLY1w23Q0adeCu_91T9b2MMbVamJyYGrFtNBkNW5ITPo&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=u-Fw3LyZ_bVjZm7tVpN73Q&_nc_ss=7f289&oh=00_AQQ3CLMrwSowxqZ_RV6nqLCRdRwmuAI5mFCV6iz-0FSPgA&oe=6AF9A026",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-avif&cstp=mx800x800&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z26DKQvdm0EQ7kNvwGuovCo&_nc_oc=AdrUoVMyB9o9t9hdlIV8eOmSjuBqC5IP8TFj6I1Q08s6qxApdNKcMn96mWyjx5h2cSM&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=iUXtdKsj5jCvQe8YozeXNw&_nc_ss=7f289&oh=00_AQQ4wtmE1E2ol5Aa3Jhjh7mflUsFUu5Oj7AbHsjFrzVckg&oe=6AFA10A6",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -831,7 +877,7 @@
           "relevance_score": 0,
           "filter_reasons": [],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0JHKrKVfJ5yjM8zE3EcUhbvxb5YQonbJqa8afC5Q9UwghuMsH7yQ8jEtTAsMqskKjl?__cft__[0]=AZhCYaE80O7NjYP5lW2JJs9HVDCfyHadAeKbvxOiejAnZEQ_mrUDwKOd1Mt33g1Kj_oXRjaTMAIEyf30gvNc3HtVO6Upkphc4ZIrt5JmPQeejwsZ2n6QyCmTfB3pSkqmbEDWYdhqy-my7JOrj0wSgTT_znI8mi-2WOyQ6CtIQbGUwhTUp3XoUMD22Is&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/DiarioOpinion/posts/pfbid0JHKrKVfJ5yjM8zE3EcUhbvxb5YQonbJqa8afC5Q9UwghuMsH7yQ8jEtTAsMqskKjl?__cft__[0]=AZjVeNbERFqE0suifJ_q4rm1JS_1LRmXxDvskCxSCPaFXoo2mIe0_2mosG5bMGx3ghDag2T8mJ9clOkXIK5esAX7-leQ0OVo537yL8kGkS1j99V3If4avK_8kR-Ag8rE495bnrr9wCP__PjnQmdFFx59IQmbww0smj9bL1K0Tg0RStYTtffXS_bcIMY&__tn__=%2CO%2CP-R",
           "published_at": "Reformas, leyes y consensos son los principales desafíos para la legislatura 2026-2027, afirman asambleístas",
           "has_video": false,
           "has_image": true,
@@ -849,26 +895,28 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wwzVuU_QTFUQ7kNvwF7kQSg&_nc_oc=Adpg4jooAlKP58Xeu5DbcU7EaY50oeyVmYqfpcvTmBUwULMDp_sc3w4Si05CUJG6TRM&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=wAwMdqgUxnbcBg-L-CdVsA&_nc_ss=7f289&oh=00_AQTbwp015cvLUTHYCqWNYkZqH2WnspoB4qWdqhf_d6gxSg&oe=6AF9A1CC",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/416600223_764668802354911_4941409423143475497_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=wwzVuU_QTFUQ7kNvwFM1ZC3&_nc_oc=AdpwUihjNQS0PrCpZMi8jlz8xoA3W8zxfw7FQauybHgkX6syHQZ2F9AfJ2U0y6odjrM&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=qIaLFM4tFU_fb5zmGXiHrg&_nc_ss=7f289&oh=00_AQQidQ6723fv6NNIMKPXdH9uyWC3wEVWQCEw7QBG_hFxEA&oe=6AFA124C",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
       "rejected": 1,
       "images_detected": 1,
-      "videos_detected": 1,
+      "videos_detected": 0,
       "rejected_samples": [
         {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 10,
+          "reason": "movilizacion_sin_afectacion_vial_clara",
+          "relevance_score": 0,
           "filter_reasons": [
-            "contexto_vial:2"
+            "evento:movilizacion_vial",
+            "accion_social:1",
+            "movilizacion_sin_afectacion_vial_clara"
           ],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1152937477271099/?__cft__[0]=AZie64Qse10MhPKG6zbE8IzChgwOQ8mziCWwerHOAGa0bXCMKysOA-qQ6tf2Iyf9gdXeWf4tjhkhq_3IYk6D3OdeDnqYmtbeAKcFlYiRf7z5Ag-iGUVsX1ofxZF-OjJYYnQghObSEpGOJGwgaq3gdv3owLTNIBuSb9P7wd2P-LMNk8MNkWtI0CVKTt0lxDsfiP9h&__tn__=%2CO%2CP-R",
+          "detected_event": "movilizacion_vial",
+          "url": "https://www.facebook.com/GrupoELDEBER/posts/pfbid02pd8sN4ZUQLJ2gRPnVrwZoDFfntwkXh47V5J3bHVMMe166EkwxkandH2KTp9Qu8JFl?__cft__[0]=AZjTjlEMbCL3LIqzgAPXndItM7dUPwYUmcmhd7FQ79P5CtoTtySMT77D-XOVKT-u43TxSpQZ71gNjDW1YREryqDJdOvIdaDObipm9Dv_VCFaVJj6SRUVcIDMzxFZxpTVdcx0DTtEhKGmLjrri0BRn5HQ6GKOc5yrv5m6BsmfwZ93g-P8btj_lY93STw&__tn__=%2CO%2CP-R",
           "published_at": null,
-          "has_video": true,
+          "has_video": false,
           "has_image": true,
-          "text_preview": "Según el reporte policial, algunos movilizados lanzaron piedras y palos contra vehículos y efectivos policiales, además de bloquear la vía con llantas quemadas. Los arrestados fueron trasladados a... Según el reporte policial, algunos movilizados lanzaron piedras y palos contra vehículos y efectivos policiales, además de bloquear la vía con llantas..."
+          "text_preview": "La protesta contra la descentralización de la educación estuvo marcada por enfrentamientos con la Policía. Desde el Gobierno nacional calificaron de “inaceptable” que s… Ver más"
         }
       ],
       "error": null
@@ -882,38 +930,15 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=AyaV8XqAEuEQ7kNvwH3UFCh&_nc_oc=AdoLsjHfoMbmtz4UCfVy4nes_TvvJbW3K70VRbDNvaKo8Az5_l3DU9RqG8Eiu98r6ww&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=RR-tXQR5NyTokjviZ7ByrQ&_nc_ss=7f289&oh=00_AQSncyEmEsTv1w5hkjVKsoLG0--s5IBxCY9lBXcOrl0dkg&oe=6AF9B1C1",
-      "status": "ok",
-      "raw_items": 2,
+      "icon_url": null,
+      "status": "error",
+      "raw_items": 0,
       "alerts": 0,
-      "rejected": 2,
-      "images_detected": 2,
-      "videos_detected": 2,
-      "rejected_samples": [
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/ATBDigital/videos/2200926014159969/?__cft__[0]=AZgxKIm6al7-6gLVKaFKvtMztQA-ifn63-6wYMLCyn_NddMvXGLCV7rDUg7wJ0Z5gHUX3v57xqlspEqIJRUIztLulTaHo1Mvlu6Sp2sAxfUDbiyVbtATk8uGmTTD1iVIExaknyYfP_Tqz6NGDxy0RbTwvlnodfYvu1AoGCRwz2kA6EzN08j5qgCDYAxW0_xPr7E&__tn__=%2CO%2CP-R",
-          "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "🔴EN VIVO🔴 ➡Aurora Empató con Fc Universitario y Cerró la Fecha 25 del Torneo Todos Contra Todos ➡La Selección Boliviana de Fútbol ya se Concentra en Santa Cruz. ➡Semifinales de la Copa Paceña 🔴EN VIVO🔴 ➡Aurora Empató con Fc Universitario y Cerró la Fecha 25 del Torneo Todos Contra Todos ➡La Selección Boliviana de Fútbol ya se Concentra en... EN VIVO Aurora Empató con Fc Universitario y Cerró la Fecha 25 del Torneo Todos Contra Todos La S… Con robato ni en pedo Bolivar estaría primero"
-        },
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/ATBDigital/videos/2200926014159969/?comment_id=1134579775836575&__cft__[0]=AZgxKIm6al7-6gLVKaFKvtMztQA-ifn63-6wYMLCyn_NddMvXGLCV7rDUg7wJ0Z5gHUX3v57xqlspEqIJRUIztLulTaHo1Mvlu6Sp2sAxfUDbiyVbtATk8uGmTTD1iVIExaknyYfP_Tqz6NGDxy0RbTwvlnodfYvu1AoGCRwz2kA6EzN08j5qgCDYAxW0_xPr7E&__tn__=R-R",
-          "published_at": null,
-          "has_video": true,
-          "has_image": true,
-          "text_preview": "🔴EN VIVO🔴 ➡Aurora Empató con Fc Universitario y Cerró la Fecha 25 del Torneo Todos Contra Todos ➡La Selección Boliviana de Fútbol ya se Concentra en Santa Cruz. ➡Semifinales de la Copa Paceña 🔴EN VIVO🔴 ➡Aurora Empató con Fc Universitario y Cerró la Fecha 25 del Torneo Todos Contra Todos ➡La Selección Boliviana de Fútbol ya se Concentra en... EN VIVO Aurora Empató con Fc Universitario y Cerró la Fecha 25 del Torneo Todos Contra Todos La S… Con robato ni en pedo Bolivar estaría primero"
-        }
-      ],
-      "error": null
+      "rejected": 0,
+      "images_detected": 0,
+      "videos_detected": 0,
+      "rejected_samples": [],
+      "error": "Omitida: Facebook bloqueó otra fuente antes en esta misma corrida."
     },
     {
       "id": "fb_erbol",
@@ -924,12 +949,12 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Yx8J_cNy-koQ7kNvwG-qnnC&_nc_oc=AdpArQ4XQ6UB1OSKNXcE4-34QusLKvRTVwsLKOK-vmnD0UR1kLOJGTbWD8n32ZUQFl0&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=ARRuwpZQoWcJZ9DMgdDfUQ&_nc_ss=7f289&oh=00_AQS4Zb1YnmQnWJUKQblpicW07ZVIOLewhydzp-_smrtLMA&oe=6AF9BAE8",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Yx8J_cNy-koQ7kNvwEQQOx1&_nc_oc=AdqMAX-RZVLZSquJYfQYOBMJUxdqLigyXmOK0aKkjMlngroptxrfAubMC2ejjnkjpPw&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=raKAeA9GvZ9hAN5YYcDMmQ&_nc_ss=7f289&oh=00_AQROrCgrWoXJCw58jG4l_SoyN_Gx5Tcm-KR-R3AaX8q7iQ&oe=6AFA2B68",
       "status": "ok",
-      "raw_items": 2,
+      "raw_items": 1,
       "alerts": 0,
-      "rejected": 2,
-      "images_detected": 3,
+      "rejected": 1,
+      "images_detected": 2,
       "videos_detected": 0,
       "rejected_samples": [
         {
@@ -937,22 +962,11 @@
           "relevance_score": 0,
           "filter_reasons": [],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid0AFKstiCxjWLgsCsaBYZPcHkxh8HgVUA32hjX3i6cGSNGoXE2y8ERgWZrTAv1pCCul?__cft__[0]=AZj-HHZjNbvoUn-nMAbs2bPfzAD8Nh3Jcb62yfJ67_bbXEbRqwxLxnMFyAx9fn_CzXMdLLjzXqoa43pHmaOKf9TaXvf54wWWnyZsdiEOjouqWC3Na-7Ohy8VLwz6p_zzA6fdFDfyj9M8kGQQStM1BaJWvf56Czka6xM9UD-M46yjiZyJofp-5i2vQH0&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid036xkbxcPus6ruzYwfqwJ62ViAGHnpjPkPrzVAT2PFmkGYYbjNmAzgLj1ck9SGmoBMl?__cft__[0]=AZizIOx2YCavX32Xn1g2ikU9ROYAA2XVJXBZd3wqoPgXhzDV4j8nLPTw9CKUUu40V1adv1L1Gu_8XEywc-ZUYSiAVZCzjpM540tuy7bWtsaM7iHsq288ggNdaA_JSBeikD4f2U9kuR8IwMyVAL0UnMtazzwoIotrHz2dO1bBIL7cEMMReKQ5zvocTlI&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
-          "text_preview": "Del total de denuncias, 25 son contra autoridades judiciales, 13 contra funcionarios del Consejo de la Magistratura y de Derechos Reales, 24 contra fiscales y tres contra funcionarios de la Policía... Del total de denuncias, 25 son contra autoridades judiciales, 13 contra funcionarios del Consejo de la Magistratura y de Derechos Reales, 24 contra... Del total de denuncias, 25 son contra autoridades judiciales, 13 contra funcionarios del Consejo de la Magistratura y de Derechos Reales, 24 contra fiscales y tres cont"
-        },
-        {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/ErbolDigital/posts/pfbid0AFKstiCxjWLgsCsaBYZPcHkxh8HgVUA32hjX3i6cGSNGoXE2y8ERgWZrTAv1pCCul?comment_id=1172310729082551&__cft__[0]=AZj-HHZjNbvoUn-nMAbs2bPfzAD8Nh3Jcb62yfJ67_bbXEbRqwxLxnMFyAx9fn_CzXMdLLjzXqoa43pHmaOKf9TaXvf54wWWnyZsdiEOjouqWC3Na-7Ohy8VLwz6p_zzA6fdFDfyj9M8kGQQStM1BaJWvf56Czka6xM9UD-M46yjiZyJofp-5i2vQH0&__tn__=R-R",
-          "published_at": null,
-          "has_video": false,
-          "has_image": true,
-          "text_preview": "Del total de denuncias, 25 son contra autoridades judiciales, 13 contra funcionarios del Consejo de la Magistratura y de Derechos Reales, 24 contra... Del total de denuncias, 25 son contra autoridades judiciales, 13 contra funcionarios del Consejo de la Magistratura y de Derechos Reales, 24 contra fiscales y tres contra funcionarios de la Policía Boliviana. Mmm o he visto ninguna denuncia contra el jefe de RRHH del consejo ese tipo es el encargado de los cobros"
+          "text_preview": "Bomberos descartó que hubiera más víctimas dentro del lugar y señaló que todavía no se estableció la causa del hecho. ERBOL.COM.BO Santa Cruz: Explosión en laboratorio farmacéutico deja una fallecida, siete heridos y daños materiales"
         }
       ],
       "error": null
@@ -966,7 +980,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BpMqwMbPlrsQ7kNvwGH01hy&_nc_oc=Adr2Yb0VjzduVAplfBv3uXavAXgiJh7pNMxhrXeF6QuXrp2YvfB9IjIYTZ-e6B-_dDo&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=gtlo-rUfd4y_jKl7HFJPMA&_nc_ss=7f289&oh=00_AQTNO9MxmFdc7yuBl4jNn9Q2EZjVRqAa11jGiSKplY2a_g&oe=6AF9A708",
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BpMqwMbPlrsQ7kNvwGBHU5s&_nc_oc=AdpRQZUqtFnfF5MPGjyZV3f2I0pQwQLO5ob0Qg0genrNR5CraU43lbxLGKfHLZz5aIE&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=RdmVpjx5gCqRDwNPiJ4YBQ&_nc_ss=7f289&oh=00_AQQ0Z_9laiF5a_Z4d8L1AbteSuRe5oID4558n--SAqKy0Q&oe=6AFA1788",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -979,11 +993,11 @@
           "relevance_score": 0,
           "filter_reasons": [],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid02ub87pVoAWrTwFbTJfYdRbChLhP4kvQV5KiA6AoGB4Qei4rQ3Mo863BFayBSCiRR6l?__cft__[0]=AZghWI0LN6P42jHOFMCNh5I6VLsjqLz_K-0ivlsqIANHVaUhpHTa3u41CaJytZ8s8qzKTYptZmm3-S3OciXPtdqxyKnkz3hWR0TaeYA-n1NAurqmkcqQ_w9P4Oka12FWdllalT6Oe2JcQG5hW76aG-v-AfsbAWcfuQbqZTZuezFmCtQnBKwj71Hb_KQ&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/RadioFidesBolivia/posts/pfbid0dGvnfofxYrwLL6j7ZV1TwXPLYt6P51aBHoNe56kmRuwSiMven9abvC7iGAuUuFEul?__cft__[0]=AZhL989xFEwTttQtnOVvBQTS5Yeqj9vpGUR3OAiwBKbY82BgovuUA82Aqaor1fcwm9u0Hj7_TZO_umXFCENO4Du11JuNcNvbV_GKDtGs2gUd0Ynf61lPKvO31ZbD2-3mZh2ni2aFWsuGXftwFiqb4-snlWqYANF42ZlRF0TBNSEsK7IrHZzdLsYXkOo&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": false,
           "has_image": true,
-          "text_preview": "🟩 #GrupoFides | #RadioFidesCochabamba La condena fue emitida el pasado viernes por la justicia en el marco del proceso relacionado a contratos lesivos al Estado. Lea la nota aquí 👉... 🟩 #GrupoFides | #RadioFidesCochabamba La condena fue emitida el pasado viernes por la justicia en el marco del proceso relacionado a contratos lesivos al... #GrupoFides | #RadioFidesCochabamba La condena fue emitida el pasado viernes por la justicia en el marco del proceso relacionado a contratos lesivos al Estado. Lea la nota aquí ht"
+          "text_preview": "🔴EN DIRECTO🔴 La #HoraDelPaís Matinal a las 06:30 con Gabriela Perez desde #LaPaz 📍 ¿Dónde puedes escucharnos en vivo? 🌐 Nuestra web: radiofides.com 📲 Escucha online: online.radiofides.com ▶️... 🔴EN DIRECTO🔴 La #HoraDelPaís Matinal a las 06:30 con Gabriela Perez desde #LaPaz 📍 ¿Dónde puedes escucharnos en vivo? 🌐 Nuestra web: radiofides.com 📲... EN DIRECTO La #HoraDelPaís Matinal a las 06:30 con Gabriela Perez desde #LaPaz ¿Dónde puedes escucharnos en vivo? Nuestra web: radiofides.com Escucha online: online.radiofid"
         }
       ],
       "error": null
@@ -997,7 +1011,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jnasKAy1wZYQ7kNvwEPTMoa&_nc_oc=Adq5YvCBFKv7d4vjv6Q9e5Am-9-XBrEeG-NuTQ4eW82r9XHXWshlVV3m-BLmDxhk4jw&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=yocF6zjtF4_MAVJSFmvdqQ&_nc_ss=7f289&oh=00_AQQRsSNHuzwdmpnJpLtZzeIwedW4rzsrNAGPsD03Ux8tKA&oe=6AF9A769",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/311636775_196403792784772_4813243147556069601_n.png?stp=dst-png&cstp=mx753x753&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jnasKAy1wZYQ7kNvwGRbLpx&_nc_oc=AdpdXOYTHPQ1dJMQ2HUHgNv0Fv50Ex_8llqbUueLSaqoBW9jcreAKqBNqqLi2fa7o0M&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=e8l8sZ0tyj4FF_8dYS8vvQ&_nc_ss=7f289&oh=00_AQS3VSw68sve6IoudssfwyyMTh9WOFOpage5Rbi8Di6whg&oe=6AFA17E9",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -1010,7 +1024,7 @@
           "relevance_score": 0,
           "filter_reasons": [],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/eldeberradio/videos/1447420806786556/?__cft__[0]=AZji1Leq3ccDOaxbB41ikim9t9qSWAczB7fyA2fvxlZ2PXWZnbxuHes2EL14vtlznSleo_v4DRyioEB9zb67cFEJPHFkfgON6SC2EdlsaEl__obhj60zSB9gqNZUnaBVsKU2HJGL_qxIdoDRM9AVRdsWVKS9_GO-oos6GZfsBh9vI_CfvG6mmbGVngxXCISvzG8&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/eldeberradio/videos/1447420806786556/?__cft__[0]=AZhV_OTDrsplX7s7cWhPLPf8HZ00QEDAQQv5TwZ7cDxaG2VBixD4xrlATYoXAkH-aUOgrFQOtPQcgWhDiVE1x2rFc7N_gr5G6AXUz73Sgq7XzuzJnvXxesXYSoezCVxdBvNXoeUuy4il27JzIoGFOwBCXGxJjikLwBu-nDoJ9at9hRlKtW0BHLRKaGzjuOK_q6o&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
@@ -1028,7 +1042,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0Tja5ysP3f0Q7kNvwHHexkk&_nc_oc=Adp8vE4tHVTOFmfZzplyIyuohrWn4IjPbzlglhg7WXZPCS_nOXpD8Bk_jPBWSsPOY_8&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=KTzlca0_mEVlnVlIHTayAw&_nc_ss=7f289&oh=00_AQQy-M-XIZ5neQc4C7J-D4ZXfax1IxSb2lsrOJEaqASGVA&oe=6AF9A977",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0Tja5ysP3f0Q7kNvwHyTFKa&_nc_oc=AdqKiwaOPlLMhNtG1V9OOA4i0mV0WYj281Wg_n-9SvyLwW_vfXIXDhqYBEpwOcSXQLM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=n5u2kbDamo0ErT8Zi9ZBzw&_nc_ss=7f289&oh=00_AQQB3TavJLNP4XZiN3mYk_SVWKEyPuiBPCp3luP-EN_1Cg&oe=6AFA19F7",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -1037,15 +1051,17 @@
       "videos_detected": 1,
       "rejected_samples": [
         {
-          "reason": "sin_senal_vial_en_el_texto",
-          "relevance_score": 0,
-          "filter_reasons": [],
-          "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1283179027315966/?__cft__[0]=AZh0nRrUD1TB_K6kgJ2FTcrk3caEQNUHXLy6lqHM0zsMh8wmZmsIJNeB7mGS2PWYCXTOm6VeKPfmrZkzDlL0vERjmKZqyucrwGpeXCwz-OEh4EFKn8AnUFF68EWvV4fC1UcRC0LsHvQm4yg3HJWxHUC3RCFdl3V6lf_MCiR6ymrl5Ac9nabu7rpEWHGW-gdNvr3H&__tn__=%2CO%2CP-R",
+          "reason": "relevancia_vial_insuficiente",
+          "relevance_score": 28,
+          "filter_reasons": [
+            "evento:derrumbe"
+          ],
+          "detected_event": "derrumbe",
+          "url": "https://www.facebook.com/reel/2323568465106702/?__cft__[0]=AZgpPeS7tUm8R7gGYuz1F9V43wAVMxqkR3U48vYAcqmn2ycCbA5VmntuANJWiHXSPKE-WrtM3CiyHDTjlbM3sVke0h6ySU9l83CMn91VM8lfzpeKCChaPLnWwiPkCxB-GQ7MTojsjFQaeOste_Lv2ip8dvTmj2PcDnXRg6EtczeljKjX59JLyIY11TfrvxQyP4s1&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
-          "text_preview": "#GrupoFides / #FidesCochabamba En Totora, la presencia de Bomberos generó incomodidad entre los comunarios. Los efectivos de esta unidad aclararon que llegaron a la zo… Ver más #GrupoFides / #FidesCochabamba En Totora, la presencia de Bomberos generó incomodidad entre los comunarios. Los efectivos de esta unidad aclararon que llegaron a la zo… Ver más Tenemos problemas para reproducir este video. Más información"
+          "text_preview": "#GrupoFides | #FidesCochabamba Liriuni: mazamorra afectó a varias viviendas. Ante esta situación, los vecinos piden a las autoridades atención inmediata y ayuda para l… Ver más #GrupoFides | #FidesCochabamba Liriuni: mazamorra afectó a varias viviendas. Ante esta situación, los vecinos piden a las autoridades atención inmediata y ayuda para l… Ver más Tenemos problemas para reproducir este video. Más información"
         }
       ],
       "error": null
@@ -1059,7 +1075,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0dfXCmSIqUgQ7kNvwGYh8FR&_nc_oc=Ado9IhpmNs8ncSPmvQxkl8GTNFuoKV-Xu7oU94VSzvAnouws-imrY7nbDGtFUArAaTA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=3QZq83RtDX5C7fZYcf2c8w&_nc_ss=7f289&oh=00_AQTLOnBCLqpmB5i3-D-KCTNu4NfzS6I-zzEzJeIXrXf9kA&oe=6AF9AC3D",
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0dfXCmSIqUgQ7kNvwGqHAvp&_nc_oc=AdrWtojPx6U1gpabd7bIAoIyZdCSH45LtJZY0z-9q0MHMFzSFlZKd8wrekaHe6Tkgvw&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=80gJrMC531xnifknal1qcA&_nc_ss=7f289&oh=00_AQQ4FRxD1bXJ_jnXQDLh5lE0QMu8V2usHwVU9pEv_7xXCg&oe=6AFA1CBD",
       "status": "ok",
       "raw_items": 1,
       "alerts": 0,
@@ -1072,11 +1088,11 @@
           "relevance_score": 0,
           "filter_reasons": [],
           "detected_event": "otro",
-          "url": "https://www.facebook.com/reel/1182377448077455/?__cft__[0]=AZic1JBR8ecChpuwGLUniO12veaHWmix6gfY0TFk1Juku6B01H_Fy_TFYpTTO6FXjHu60_5CG6Z0JN1gil-vXlG7PWH-9vuj6REyjN_gLdRgZv1Xnu-SCZ-f4sIv0qRPUgueVnMIjvfrpCkgrM6Obz9wbRzLxLX0Ana0iJ1He7W606f_jRAA7uWSM3nB0p9kQjt3&__tn__=%2CO%2CP-R",
+          "url": "https://www.facebook.com/FidesTV/videos/2199123364151800/?__cft__[0]=AZjCX1ysA2CZxDmDzYAY8VxxHFnbe5lsHhztuhbxU-BYcfVsGwm8-aRlqj5fCX-8BL4ccmdMie18oUUziBaV0_42avmlwehm9NJWALz3hFjbWZ2i_L7CL1wqqGoZHED8zQa1H9vSCcG3Ubx0wC5q6-E91jgKz1O-xDKjs7qE19o23ongab73hTh81j5eVYBLJo8&__tn__=%2CO%2CP-R",
           "published_at": null,
           "has_video": true,
           "has_image": true,
-          "text_preview": "Resumen de noticias del 10 de noviembre de 2026 #RadioFidesBolivia Tenemos problemas para reproducir este video. Más información"
+          "text_preview": "🔴EN DIRECTO🔴 🟥🟨🟩La Hora del País Matinal 🟥🟨🟩 #LaHoraDelPaís #RadioFIDESBolivia 📻 Desde las 06:30 de lunes a viernes con #Gabriela Perez Sólo en #RadioFidesBolivia www.radiofides.com 🔴EN DIRECTO🔴 🟥🟨🟩La Hora del País Matinal 🟥🟨🟩 #LaHoraDelPaís #RadioFIDESBolivia 📻 Desde las 06:30 de lunes a viernes con #Gabriela Perez Sólo en... EN DIRECTO …"
         }
       ],
       "error": null
