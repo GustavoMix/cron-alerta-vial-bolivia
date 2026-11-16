@@ -1,15 +1,15 @@
 {
   "schema_version": "3.2-fast",
-  "generated_at": "2026-11-16T05:34:05-04:00",
+  "generated_at": "2026-11-16T15:52:17-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "facebook_sources": 30,
     "web_sources": 7,
-    "sources_ok": 18,
-    "sources_error": 19,
-    "raw_publications": 29,
-    "vial_publications": 5,
-    "incidents": 4
+    "sources_ok": 22,
+    "sources_error": 15,
+    "raw_publications": 33,
+    "vial_publications": 6,
+    "incidents": 5
   },
   "incidents": [
     {
@@ -22,7 +22,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/lista-comunicados-page/",
       "published_at": null,
-      "scraped_at": "2026-11-16T05:34:05-04:00",
+      "scraped_at": "2026-11-16T15:52:17-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -206,7 +206,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-11-16T05:34:05-04:00",
+      "last_seen_at": "2026-11-16T15:52:17-04:00",
       "seen_this_run": true,
       "history_count": 5
     },
@@ -220,7 +220,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-11-16T05:34:05-04:00",
+      "scraped_at": "2026-11-16T15:52:17-04:00",
       "department": "La Paz",
       "municipality": "El Alto",
       "city": "La Paz",
@@ -380,7 +380,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-11-16T05:34:05-04:00",
+      "last_seen_at": "2026-11-16T15:52:17-04:00",
       "seen_this_run": true,
       "history_count": 2
     },
@@ -394,7 +394,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/abc-confirma-transitabilidad-total-en-la-red-vial-fundamental-y-habilita-tramos-con-cortes-programados-durante-el-feriado-de-todos-santos/",
       "published_at": null,
-      "scraped_at": "2026-11-16T05:34:05-04:00",
+      "scraped_at": "2026-11-16T15:52:17-04:00",
       "department": "La Paz",
       "municipality": "Caranavi",
       "city": "Cochabamba",
@@ -550,7 +550,7 @@
       ],
       "lifecycle_status": "finalizado",
       "is_active": false,
-      "last_seen_at": "2026-11-16T05:34:05-04:00",
+      "last_seen_at": "2026-11-16T15:52:17-04:00",
       "seen_this_run": true,
       "history_count": 2
     },
@@ -564,7 +564,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/gobierno-promulga-decreto-supremo-para-el-financiamiento-de-us-95-millones-de-la-caf-destinado-a-la-ruta-santa-barbara-caranavi-en-la-paz-que-consolida-el-corredor-estrategico-oeste-norte/",
       "published_at": null,
-      "scraped_at": "2026-11-16T05:34:05-04:00",
+      "scraped_at": "2026-11-16T15:52:17-04:00",
       "department": "La Paz",
       "municipality": "Caranavi",
       "city": "La Paz",
@@ -682,7 +682,190 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-11-16T05:34:05-04:00",
+      "last_seen_at": "2026-11-16T15:52:17-04:00",
+      "seen_this_run": true,
+      "history_count": 1
+    },
+    {
+      "id": "b32a4fc63175080f",
+      "source_id": "web_lapaz",
+      "source_name": "Gobierno Autónomo Municipal de La Paz",
+      "source_url": "https://lapaz.bo/",
+      "source_class": "web_official",
+      "source_tier": 2,
+      "source_icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+      "url": "https://lapaz.bo/",
+      "published_at": null,
+      "scraped_at": "2026-11-16T15:52:17-04:00",
+      "department": "La Paz",
+      "municipality": "La Paz",
+      "city": "La Paz",
+      "event_type": "otro",
+      "cause": null,
+      "status": "desconocido",
+      "closure_scope": null,
+      "severity": "baja",
+      "confidence": 0.75,
+      "relevance_score": 55,
+      "filter_reasons": [
+        "contexto_vial:4",
+        "via_detectada:10",
+        "sector_detectado:4",
+        "terminos_viales:2",
+        "fuente_oficial_web"
+      ],
+      "title": "La Paz te Informa",
+      "description": "CARTA ORGANICA Conoce La Paz PARTICIPA 🡆 adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí Trameaje 2 11 Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Dockweiler plantea trato equitativo y trabajo conjunto en el análisis del 50-50 y aclara que los municipios no están contra el Gobierno nacional La Paz proyecta su soberanía energética: Alcaldía presentará 70 proyectos a la cooperación internacional y al sector privado Alcaldes de las ciudades capitales se reúnen con el Gobierno este lunes para exigir el 50-50 y mayor redistribución de recursos para los municipios Alcalde con la Gente: GAMLP prioriza la estabilización de zonas de riesgo y anuncia recuperación de vías y nuevos servicios en San Antonio La Paz te Informa 16 de noviembre de 2026 La Paz proyecta su soberanía energética: Alcaldía presentará 70 proyectos a la cooperación internacional y al sector privado ... Prensa 16 de noviembre de 2026 Alcaldes de las ciudades capitales se reúnen con el Gobierno este lunes para exigir el 50-50 y mayor redistribución de recursos para los municipios ... Prensa 16 de noviembre de 2026 Alcalde con la Gente: GAMLP prioriza la estabilización de zonas de riesgo y anuncia recuperación de vías y nuevos servicios en San Antonio ... Prensa 16 de noviembre de 2026 Alcalde Dockweiler aclara que residuos sólidos se depositan en una celda provisional en Sak’a Churu y desmiente uso de celdas clausuradas ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa C",
+      "original_text": "CARTA ORGANICA Conoce La Paz PARTICIPA 🡆 adopcion mascotas Conoce La Paz 🐾 | ADOPTA RESPONSABLEMENTE 🡆 turismo Conoce La Paz Ingresa aquí Trameaje 2 11 Anterior Siguiente parqueo Contact Conoce LA PAZ Ingresa aquí Anterior Siguiente Últimas publicaciones: Dockweiler plantea trato equitativo y trabajo conjunto en el análisis del 50-50 y aclara que los municipios no están contra el Gobierno nacional La Paz proyecta su soberanía energética: Alcaldía presentará 70 proyectos a la cooperación internacional y al sector privado Alcaldes de las ciudades capitales se reúnen con el Gobierno este lunes para exigir el 50-50 y mayor redistribución de recursos para los municipios Alcalde con la Gente: GAMLP prioriza la estabilización de zonas de riesgo y anuncia recuperación de vías y nuevos servicios en San Antonio La Paz te Informa 16 de noviembre de 2026 La Paz proyecta su soberanía energética: Alcaldía presentará 70 proyectos a la cooperación internacional y al sector privado ... Prensa 16 de noviembre de 2026 Alcaldes de las ciudades capitales se reúnen con el Gobierno este lunes para exigir el 50-50 y mayor redistribución de recursos para los municipios ... Prensa 16 de noviembre de 2026 Alcalde con la Gente: GAMLP prioriza la estabilización de zonas de riesgo y anuncia recuperación de vías y nuevos servicios en San Antonio ... Prensa 16 de noviembre de 2026 Alcalde Dockweiler aclara que residuos sólidos se depositan en una celda provisional en Sak’a Churu y desmiente uso de celdas clausuradas ... Prensa Más Noticias > Gobierno Electrónico iGOB 24/7 Chukuta online Trámites en línea Información Territorial Seguimiento a Trámites Impuestos Municipales Impuestos INMUEBLES VEHÍCULOS TASAS Y PATENTES ATM - ADM. TRIBUTARIA MUNICIPAL Negocios y comercio Negocios y comercio LICENCIAS MERCADO Y COMERCIO EN VÍA PÚBLICA TRÁMITES AMBIENTALES Catastro y territorio Catastro y territorio LEGALIZACIONES CERTIFICACIONES CATASTRALES SERVICIOS TERRITORIALES Servicios sociales Servicios sociales BRAZO SOCIAL DEFENSORIAS ORIENTACIÓN SOCIAL Otros Otros ATENCIÓN DE DENUNCIAS CEMENTERIO SERVICIOS EN LÍNEA Más trámites y servicios Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURÍSMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Autoridad: Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima Secretarías Municipales SECRETARÍA MUNICIPAL DE CIUDAD VITAL Promovemos la salud, el deporte y el bienestar integral de la ciudadanía. Autoridad: Ramiro Narváez SECRETARÍA MUNICIPAL DE CIUDAD INTELIGENTE Impulsamos la innovación y la tecnología para una gestión eficiente y transparente. Autoridad: Antonio Costas Sitic SECRETARÍA MUNICIPAL DE CIUDAD PRODUCTIVA Fomentamos el emprendimiento la inversión y el empleo para el desarrollo económico. Autoridad: Carlos Bleichner Venavides SECRETARÍA MUNICIPAL DE CIUDAD DE CUIDADOS Y DERECHOS Construimos una ciudad inclusiva que protege y garantiza derechos para todas y todos. Autoridad: Marynés Salazar Gutiérrez SECRETARÍA MUNICIPAL DE CIUDAD CULTURA, TURISMO DE ALTURA Y ECONOMÍA NARANJA Promovemos nuestra cultura, turismo y creatividad como motor de desarrollo. Autoridad: SECRETARÍA MUNICIPAL DE CIUDAD PLANIFICADA Y HABITABLE Planificamos el crecimiento urbano con enfoque territorial, ordenado y sostenible. Autoridad: Sergio Altamirano Alvarez SECRETARÍA MUNICIPAL DE CIUDAD CONECTADA Y MOVILIDAD URBANA Mejoramos la movilidad sostenible y la conectividad para una ciudad más accesible. Ivan Revollo Pizarro SECRETARÍA MUNICIPAL DE CIUDAD VERDE Cuidamos nuestro medio ambiente y promovemos una ciudad más verde y resiliente. Autoridad: María Revollo Cadima TRANSPARENCIA Una gestión cercana. transparente y comprometida con el futuro de La Paz. Subalcaldías Subalcaldías · Carrusel de Tarjetas | Diseño Corregido Subalcaldía Cotahuma - MD1 Zona Ernesto Torrez esq. Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde: Erick Fernando Ticona Mendoza Ver Ubicación Subalcaldía Maximiliano Paredes - MD2 Av. Buenos Aires esq. Max Paredes (2) 2454553 Subalcalde: Eduardo Vargas Aliaga Ver Ubicación Subalcaldía Periférica - MD3 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2461312 Subalcalde: Walter Calixto Aranda Chipana Ver Ubicación Subalcaldía San Antonio - MD4 Av. Josefa Mujía, Zona Alto Villa San Antonio (2) 2232084 Subalcalde: Javier Giovanni Rodríguez Mendoza Ver Ubicación Subalcaldía Sur - MD5 Av. Hernando Siles No 4678, entre calles 11 y 12 de Obrajes (2) 2783631 Subalcaldesa: Carola Viviana Fortún Cabrerizo Ver Ubicación Subalcaldía Mallasa - MD6 Av. Florida, Calle 7, Mallasa (2) 2745156 Subalcaldesa: Janeth Flores Guzmán Ver Ubicación Subalcaldía Centro - MD7 Av. Tejada Sorzano esq. Av. Sucre (2) 2651055 Subalcaldesa: Isabel Vera Coca Ver Ubicación Subalcaldía Hampaturi - MD8 Av. Las Américas No 709, Villa Fátima (2) 2213587 Subalcalde: Omar Quispe Choquehuanca Ver Ubicación Subalcaldía Zongo - MD9 Edif. Nardin Rivas No 451, Av. Montes y Uruguay (2) 2285959 Subalcalde: Ver Ubicación × Números de emergencia Contáctate a estos números ante cualquier emergencia, estamos atentos. 144 Red de Emergencias 167 Red de Ambulancias 155 Información General 156 Defensoría de la niñez Noticias de Portada Secciones La Paz Salud Sociedad Economía Cultura Deportes Fotos Videos Sitios municipales Hola soy AMI, chatea conmigo",
+      "roads": [
+        "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde",
+        "Av. Buenos Aires esq",
+        "Av. Montes y Uruguay (2) 2461312 Subalcalde",
+        "Av. Josefa Mujía",
+        "Av. Hernando Siles No 4678",
+        "Av. Florida",
+        "Av. Tejada Sorzano esq",
+        "Av. Sucre (2) 2651055 Subalcaldesa",
+        "Av. Las Américas No 709",
+        "Av. Montes y Uruguay (2) 2285959 Subalcalde"
+      ],
+      "places": [
+        "sector privado Alcaldes de las ciudades capitales se reúnen",
+        "sector privado",
+        "Zona Ernesto Torrez esq",
+        "Zona Alto Villa San Antonio (2) 2232084 Subalcalde"
+      ],
+      "kilometer_mentions": [],
+      "directions": [
+        "CARTA ORGANICA Conoce La Paz P -> RTICIPA",
+        "adopcion mascotas Conoce L -> Paz",
+        "ADOPTA RESPONS -> BLEMENTE",
+        "turismo Conoce La Paz Ingresa aquí Trame -> je 2 11 Anterior Siguiente parqueo Contac",
+        "Conoce LA PAZ Ingresa aquí -> nterior Siguiente Últimas publicaciones",
+        "Dockweiler plantea trato equitativo y tr -> bajo conjunto en el análisis del 50-50 y",
+        "aclara que los municipios no están contr -> el Gobierno nacional La Paz proyecta su s",
+        "Alcaldía presentará 70 proyectos a l -> cooperación internacional y al sector pri"
+      ],
+      "alternative_routes": [],
+      "affected_vehicles": [],
+      "time_mentions": [],
+      "keywords": [
+        "choque",
+        "calle"
+      ],
+      "latitude": null,
+      "longitude": null,
+      "location_query": "Av. Mariscal Santa Cruz (camino Pasankeri) (2) 2419674 Subalcalde, La Paz, Bolivia",
+      "image_urls": [
+        "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+        "https://lapaz.bo/wp-content/uploads/2026/10/2-scaled.png",
+        "https://lapaz.bo/wp-content/uploads/2026/10/11-scaled.png",
+        "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/11/HIDROELECTRICA-3-1024x498.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/11/previa-reunion-alcaldes-1-696x465-1.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2026/11/IMG_8180-696x392-1.jpg",
+        "https://lapaz.bo/wp-content/uploads/2026/11/ALCALDE-MEDIOS-1-696x557-1.jpeg",
+        "https://lapaz.bo/wp-content/uploads/2023/07/atm.png",
+        "https://lapaz.bo/wp-content/uploads/2026/06/sa2026.jpg"
+      ],
+      "video_url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
+      "video_thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
+      "video_type": "web_video",
+      "is_official": true,
+      "image_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
+      "has_image": true,
+      "has_video": true,
+      "media": {
+        "images": [
+          "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/09/adopcionMascotas.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/06/traemaje-1.png",
+          "https://lapaz.bo/wp-content/uploads/2026/10/2-scaled.png",
+          "https://lapaz.bo/wp-content/uploads/2026/10/11-scaled.png",
+          "https://lapaz.bo/wp-content/uploads/slider/cache/a184346a3cdc9a163b230d5da515306b/parqueoS2.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/11/HIDROELECTRICA-3-1024x498.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/11/previa-reunion-alcaldes-1-696x465-1.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2026/11/IMG_8180-696x392-1.jpg",
+          "https://lapaz.bo/wp-content/uploads/2026/11/ALCALDE-MEDIOS-1-696x557-1.jpeg",
+          "https://lapaz.bo/wp-content/uploads/2023/07/atm.png",
+          "https://lapaz.bo/wp-content/uploads/2026/06/sa2026.jpg"
+        ],
+        "main_image_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
+        "videos": [
+          {
+            "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
+            "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
+            "type": "web_video",
+            "provider": "web",
+            "use_official_embed": false,
+            "source_id": "web_lapaz"
+          }
+        ]
+      },
+      "status_conflict": false,
+      "status_evidence": [
+        {
+          "status": "desconocido",
+          "published_at": null,
+          "source_id": "web_lapaz",
+          "source_name": "Gobierno Autónomo Municipal de La Paz",
+          "tier": 2,
+          "url": "https://lapaz.bo/"
+        }
+      ],
+      "latest_update_at": null,
+      "videos": [
+        {
+          "url": "https://lapaz.bo/wp-content/uploads/2025/09/turismoOK0.mp4",
+          "thumbnail_url": "https://lapaz.bo/wp-content/uploads/2026/10/La-Paz-escribe-su-historia-juntos2.jpg",
+          "type": "web_video",
+          "provider": "web",
+          "use_official_embed": false,
+          "source_id": "web_lapaz"
+        }
+      ],
+      "sources": [
+        {
+          "id": "web_lapaz",
+          "name": "Gobierno Autónomo Municipal de La Paz",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://lapaz.bo/",
+          "post_url": "https://lapaz.bo/",
+          "icon_url": "https://lapaz.bo/wp-content/uploads/2026/06/cropped-logolpz26-1-95x95.png",
+          "published_at": null
+        }
+      ],
+      "source_count": 1,
+      "verification": "una_fuente",
+      "corroborated": false,
+      "all_urls": [
+        "https://lapaz.bo/"
+      ],
+      "merged_items": 1,
+      "incident_id": "inc_a6202dd7330cf2",
+      "first_seen_at": "2026-10-18T14:05:54-04:00",
+      "history": [
+        {
+          "at": "2026-10-18T14:05:54-04:00",
+          "detected_at": "2026-10-18T14:05:54-04:00",
+          "reason": "primera_deteccion",
+          "status": "desconocido",
+          "lifecycle_status": "desconocido",
+          "severity": "baja",
+          "closure_scope": null,
+          "source_count": 1,
+          "sources": [
+            "Gobierno Autónomo Municipal de La Paz"
+          ],
+          "url": "https://lapaz.bo/"
+        }
+      ],
+      "lifecycle_status": "desconocido",
+      "is_active": null,
+      "last_seen_at": "2026-11-16T15:52:17-04:00",
       "seen_this_run": true,
       "history_count": 1
     }
@@ -697,8 +880,8 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=p5MlsmmvNioQ7kNvwHEaC5y&_nc_oc=AdpKY0OdzmSGWkA_VvwZNrIn7n_veGS3XHbQfoQqCrYIcYffzsw6JQMI9wvOq7eWmso&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=o7SpLjHjSJJw-y6BEsX2XQ&_nc_ss=7f289&oh=00_AQQvrst6-mupUP8TwAA9xNAvV3i2a-a3ZwU2Ev6LZjc3jQ&oe=6B009518",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_transito_nacional",
@@ -745,8 +928,8 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw5-3.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=UIaHIhYiENIQ7kNvwG9F64C&_nc_oc=Adrfgx0eyTyhfF5qOzq_N0cKwkGMPEoyFT6MtraiMukOUZf_4LcYA4Al1jpJGRf_JkU&_nc_zt=24&_nc_ht=scontent-dfw5-3.xx&_nc_gid=pVNNziF8u7aAqtzKp2ZC9w&_nc_ss=7f289&oh=00_AQQ5o3IVyM-k7rjnu4gjAR8Qh0mVuwnwhjr3LF7cBjm0dA&oe=6B00A400",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_gobernacion_lapaz",
@@ -769,7 +952,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=A8PxiUsFNK4Q7kNvwEF54nI&_nc_oc=Adq9WV7-W0DJXP8Ykzv-QladaRzSEgsT1xDF5dBjVFApbTAYrCmsxqBcU3Xm-XeteIA&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=zDn5wa8kfltxGJ0r4XhKTw&_nc_ss=7f289&oh=00_AQQtfB3fTZL8sUgTOnqFoG39rK1OaFmhlj1hvhjeycEOwA&oe=6B00B080",
+      "icon_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=A8PxiUsFNK4Q7kNvwH2lS_L&_nc_oc=Adq8EqdUtSVoi0rdlp0XG8_dQ7ATZpodb-D5Bct9VQgSJLZPv1Z-jeAaJfAIwEwV8_k&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aNfPJrDgeeL1FYUtVXTwUw&_nc_ss=7f289&oh=00_AQSdjUxymIH32GM7Y7c9FlUeITwjsXChsF9W0Tb9-e1vxQ&oe=6B012100",
       "status": "ok"
     },
     {
@@ -793,8 +976,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=n9Dp8Ue9nFMQ7kNvwH4nign&_nc_oc=AdrAm1TMJYMgecxAWAY3ZEQygWGBbNopTW1f7oZ-wAQfdBfLueHwO_hgwefWDtx6J8c&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=cPr5qcCDI8r4Yzb8VFA04g&_nc_ss=7f289&oh=00_AQRO47j-YxXKSuyB6GgkwrfwazYXRLqxV6yZX5X0VyqoPA&oe=6B013FD7",
+      "status": "ok"
     },
     {
       "id": "fb_transito_cbba",
@@ -817,8 +1000,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lQ1XpgZeffkQ7kNvwFSYMWV&_nc_oc=Adrg9U7zho2deagv3b56Pqmeexh1QMKCRjf8S-I2BvEnbOKn-J7TQjnX5AZiTnwKhfk&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=4s2Z42IaXrulP5dus_JP7w&_nc_ss=7f289&oh=00_AQRGmJrNrhffX93nKa4zhMnfKeE63hReOqW1NM7qg-rL2A&oe=6B00B845",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_terminal_cbba",
@@ -841,8 +1024,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8hK56dQhoUwQ7kNvwFIHQBv&_nc_oc=AdobN_7I3I_27S2wHMy6p0-moiPcJqLjuA6mgp0W3MR8vu-JhJd-_a1uvv6BpZDRCjU&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=pG5BPpSXEr23Xy-2Nn2Maw&_nc_ss=7f289&oh=00_AQTO6jfQbIJAIGngidLg5b0wwYaCsRLDKrLCLnqM13i1lQ&oe=6B008ED7",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_transito_scz",
@@ -853,8 +1036,8 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/696497519_1292090033039124_5001391766428296422_n.jpg?stp=dst-jpg_tt6&cstp=mx1313x1313&ctp=s720x720&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=uDeqOji83LIQ7kNvwG6J7cR&_nc_oc=AdqvE1rR_vq7wv0XiCIP7Fkr_PxC584i-NB3YEkx33z3FZ7yYdCfxFAWY6w9bLdvvko&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=Kcvj2HiXQkSO1nbZBLUARg&_nc_ss=7f289&oh=00_AQRx8ri3rYzkH15qky3D9p7DDIn0GtzMnEK7dQe7fvcrRQ&oe=6B00BA91",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_gob_scz",
@@ -865,7 +1048,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=TW-jQ2MvslUQ7kNvwGOECWt&_nc_oc=AdrpTCvHxJUaKHvd4jXpajHc7ZPHIjSjfkfO7rsFP3JGadPdmB3Xn39kdPz-OnRTu8Q&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=SX6F73YjuE6q5NZ-FgBwgQ&_nc_ss=7f289&oh=00_AQRaleAEnhyQKULOSJQykTexORTygKwhgFK_CSNe85TeOw&oe=6B00A43E",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZhM2lr94-44Q7kNvwGNsy8J&_nc_oc=AdpT6ps1uuPTEMDAUbQbguoKzschnf3Kzg8x_aCmvuTzwsGmqDGPcgO8JtjwRJDJvT8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=mgXviyMkJzalDN8SVO4-Ag&_nc_ss=7f289&oh=00_AQRhzNfHvDjS_3XWipgnjfinQUHPCoVJNPyGZwpGS6nVNw&oe=6B014CFE",
       "status": "ok"
     },
     {
@@ -949,8 +1132,8 @@
       "tier": 2,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://www.gmsantacruz.gob.bo/images/LOGO-DEL-GAMSCS-ok-02.png",
+      "status": "ok"
     },
     {
       "id": "fb_reduno",
@@ -961,8 +1144,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-dfw5-3.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=1e628A73f1gQ7kNvwEWudAS&_nc_oc=Adp3-CIitWIZwA86DnjymKX4HI6ZxWSCbGeGzC7tXkBxxIaWIH6pW68igHSulsUJG5c&_nc_zt=24&_nc_ht=scontent-dfw5-3.xx&_nc_ss=7f289&oh=00_AQS9LBrgx4dsaDvVLOKwIodWAfeAJFcAqRGEVvFUOIGjNg&oe=6B22C23A",
+      "status": "ok"
     },
     {
       "id": "fb_unitel",
@@ -973,7 +1156,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cI3HwyM-OVkQ7kNvwHjvpZM&_nc_oc=AdqGaKsKcbUNrtD2GT_GSos25BLofd3VXVA3O0PahAFNejcO3ZbjDQthfuPHM78O0y4&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=loaVu9s2Ty6zCigIS_-9uA&_nc_ss=7f289&oh=00_AQRitTgBWNHyEl50XJimxjSHeFz3TdQhMC3PrqYkqvTwkw&oe=6B00A28D",
+      "icon_url": "https://scontent-dfw5-3.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=cI3HwyM-OVkQ7kNvwEMnDa_&_nc_oc=AdqpMgEN5OrLQ1jPThABaQmlsE2kD4VW3FcUobjWfhGQMGnaL4pK0gTXtPRNebH-kos&_nc_zt=24&_nc_ht=scontent-dfw5-3.xx&_nc_gid=76cQO1gdbhDlosjNa1rPgQ&_nc_ss=7f289&oh=00_AQSNUfgQS9ZkuiVkTTu8bAzTT1UfrMFNNi5hMKPSFKJobg&oe=6B014B4D",
       "status": "ok"
     },
     {
@@ -985,8 +1168,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=g1QVTRcAA-gQ7kNvwHAigNS&_nc_oc=Ado0Ca4QzZ1SLLC7qvel11C9q0rc9bmY3yK2IihO21BZMFOU_eRlV_prQklZb0jcd9w&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=v4_EuXxn45d0EjQwsSoQ5g&_nc_ss=7f289&oh=00_AQTNoF-tbuCCCoaWPgK6y-fz925yCpItNJtfkj4h1YNXZQ&oe=6B01250C",
+      "status": "ok"
     },
     {
       "id": "fb_rtp",
@@ -1009,8 +1192,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QqLwcWMjYrwQ7kNvwE6XRhO&_nc_oc=Adqe9VChQSs47o0PL915IDnjKkIrWgUrjGqNbkqrpT9gH4gLslS8knTZ1dSopYPcI1k&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=XUuYRIejftN9rMvojf0B2A&_nc_ss=7f289&oh=00_AQT3Xt-03MCndkFHP1OYVSSbxd_yN0YgOmdPA3C9gjCGDA&oe=6B012DFA",
+      "status": "ok"
     },
     {
       "id": "fb_opinion",
@@ -1021,7 +1204,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-dfw5-3.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jtmjgUNXrXUQ7kNvwFtHCiM&_nc_oc=AdqmyWfdFNMQ3rcrCqdYnlrliVO-RftHNWKTKeP_idhrwEgnMfoAkxpAWph8xjhZAWg&_nc_zt=24&_nc_ht=scontent-dfw5-3.xx&_nc_gid=Ol1kGFFurkXOHmWGSOeFvw&_nc_ss=7f289&oh=00_AQSQ5dgIo9xkBkmDczidPzEyuGqG-k2XNbcQx2K4mljtZA&oe=6B00A826",
+      "icon_url": "https://scontent-dfw5-3.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=jtmjgUNXrXUQ7kNvwHoEkRC&_nc_oc=AdohKNtyMmjVGdTNZQ0-Z5r9zpLnbMC8ZhVlFt0NWTPWsMcLErH3ayITQk36OeM4imE&_nc_zt=24&_nc_ht=scontent-dfw5-3.xx&_nc_gid=NgLbmzkMBLXLC48wAskuFg&_nc_ss=7f289&oh=00_AQSkMGPJ700cMP6d5JR38p4q8Fi29qa6JwQ652tC5Wpjew&oe=6B0118A6",
       "status": "ok"
     },
     {
@@ -1033,8 +1216,8 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/909387956_1637550955066687_1434031219653542318_n.avif?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=X-koIT11D9IQ7kNvwFnRAxm&_nc_oc=Adqz58GhWTY7iHtn0kcJxIsjOQOI7gNerC2X8h8vaET0FEQxezQ4SVTdu4by_fB8hLU&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=Q_50KPQl5-mA31Ffd_CUyQ&_nc_ss=7f289&oh=00_AQQwYpTpxPug_BKh12bsTx3uoOJ9UwNhVTO32ANeiIArnw&oe=6B0126AF",
+      "status": "ok"
     },
     {
       "id": "fb_atb",
@@ -1045,8 +1228,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=1sHEvBvlWigQ7kNvwFBqZ6L&_nc_oc=Adr3kFqBHMIs5JkV-9Pk9GEsHHCYLibbHIMWEIX6DWzTL0cND1QahnUB6YQjnk0GJuw&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=MXJWvnI4YbvhgAjYV5gI_Q&_nc_ss=7f289&oh=00_AQSv12qOgHswlxxPdpgnIryhFV3g3cJfqhlOKtb103rB9g&oe=6B012A41",
+      "status": "ok"
     },
     {
       "id": "fb_erbol",
@@ -1057,7 +1240,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=t7MHh3XvJ1kQ7kNvwGt_Oee&_nc_oc=Adr6hXNBNSsPVKRsjTPB15Z4TsYqXxHrOiYRg2WFSbTlgu1umwIlYYKFEMGoY8_ywrA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=XObP3N5JDTaCzekyiwaGRQ&_nc_ss=7f289&oh=00_AQQYwwArUBel2cu0dp9PGPkPeSg_6bVkXjMn4_Hn70QDlQ&oe=6B008AA8",
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=t7MHh3XvJ1kQ7kNvwHMaIVO&_nc_oc=Adrpx20zo_Uuzu8PDXoyHL7kqzWNkZxOiNxZUPIvJOcD5ZULQ-ticKerE5R4fAfZAhQ&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=wjf3xGjyewxgrczv-VZlhA&_nc_ss=7f289&oh=00_AQSGf0p5GAZpvpGBZecrpXJm53-w82WGMrAOZCmBg4_5nQ&oe=6B013368",
       "status": "ok"
     },
     {
@@ -1069,7 +1252,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ADZRK-5OJDkQ7kNvwHFRLo-&_nc_oc=AdqzZnRBgdJShv0p6SFW2FyeOTSkVN6H1PH8uYs5XKI8FfPzjKPAcSuOHfM1S7tNZFA&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=0nKPzQlHQjOwK6ZsNBUAgA&_nc_ss=7f289&oh=00_AQRfdI_8Lue6ZN8ipqjpWUw8qV24WqqKoI6ozzABClVTEA&oe=6B00AF08",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ADZRK-5OJDkQ7kNvwG2u1v2&_nc_oc=AdoHvkB_BUKg5f10t8A82hj8zyl-lPVoQpflJZ14pAYjVvc2doefDT1DrAmhDivA1UE&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=Q2vR1rYE7KzJL2c5Jt1aGw&_nc_ss=7f289&oh=00_AQRwqKbuKZ0eRdbxmM8c-hs9BJXKE_pdYk10F8iG5BkAbw&oe=6B011F88",
       "status": "ok"
     },
     {
@@ -1081,7 +1264,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/902755443_1180396121052196_5761275687725298277_n.avif?stp=dst-jpg_tt6&cstp=mx753x753&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=w_tTtvCjwQsQ7kNvwGHVW3n&_nc_oc=AdrRTjOya_zZvQjQC6DOIK2wQ2Bfyb9Mi6NErWPGtxtzSSnJCG1dRZ2SA-Gk8iOMvCc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=aD8hbilHHFiY7DdYz6MXBQ&_nc_ss=7f289&oh=00_AQRFOqoblflASq7bQY7JZUqxkLyaiKb8ch2gFYQdZPNPcw&oe=6B00A8BF",
+      "icon_url": "https://scontent-xxb1-1.xx.fbcdn.net/v/t39.30808-1/902755443_1180396121052196_5761275687725298277_n.avif?stp=dst-jpg_tt6&cstp=mx753x753&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=w_tTtvCjwQsQ7kNvwHF1d18&_nc_oc=AdoD5373VC6u762Wa9_brCjbU3OgwapRwO4WuZj0QLSWK_gFDktq0Sz1ImPB-RQ2Yjg&_nc_zt=24&_nc_ht=scontent-xxb1-1.xx&_nc_gid=I_DmlE0qnlaU0uTzfwIgQA&_nc_ss=7f289&oh=00_AQTn1HIihW1z1su3JNtOr_Tsi1fx-5FaNsh5IQhZVbD2gA&oe=6B01193F",
       "status": "ok"
     },
     {
@@ -1093,7 +1276,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yv1DeCOSYqYQ7kNvwF-eKkq&_nc_oc=AdpauQX1C3T9aGpGbXrbh7e96yfThceWBP7aapzsHyDbr8vC8Fac3kAYvCKOxuZs21w&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=ixlh-39B0JrfggRFAVclLg&_nc_ss=7f289&oh=00_AQRUMEc-wMSRAgaSIT6JV3hNVijb1mZbXQRZLR0qVShGeg&oe=6B00B177",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yv1DeCOSYqYQ7kNvwFUhOZz&_nc_oc=AdodcmGQgDZ59Cja2angsEyVqmTBNG_FsUf6weQLXBLEzLft8B3zjdqlzEVpeO8uTQU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=cfHZ1WrO5bHZU8lO5dkHXA&_nc_ss=7f289&oh=00_AQQZbzxyyiW7KIaE9P6s1173q_KIxCXmGtMk-pKsu_QgqQ&oe=6B0121F7",
       "status": "ok"
     },
     {
@@ -1105,7 +1288,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eN0oD96jmGQQ7kNvwH8lfMH&_nc_oc=AdruXE1wxz3eRwSoLdsQ4CEkO_4dvPa6apwLC_TmzuNM9DxYcpfix08hyEE9fIFSUDQ&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=KZBH5OGA71cLDLuViHj1dA&_nc_ss=7f289&oh=00_AQRiuKeFBv89Q5HhX7puDl6wy5CGgMaQPux0YCbsY7xEEg&oe=6B00B43D",
+      "icon_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=eN0oD96jmGQQ7kNvwGokPEd&_nc_oc=AdoS4fOc8nNxusrVAYATnaPV9fhjeGPvqDEXOIst6J_Ezs0KgO-Feza37g1k9n76lB4&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=rBAcZsLAQskBNPjs5y72TQ&_nc_ss=7f289&oh=00_AQQQkn03_lORivj15uKsXSYOF7z7uwlFoINIXQtjkQop6g&oe=6B0124BD",
       "status": "ok"
     },
     {
@@ -1117,8 +1300,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ide2Zi4qBMkQ7kNvwEwyYVw&_nc_oc=AdoM2XDVzkQDRGy4hf2qdZWV1p_33dzkDDhdI4He4a8fnzlot5h53FSaZ_HXg5nJPG8&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=AEHQpkel7HnvafVlCcunbA&_nc_ss=7f289&oh=00_AQQc0-QPS_lStdUW-BHoZhdMtv5xRzIE_iMiqw-9iz5KxA&oe=6B012B61",
+      "status": "ok"
     },
     {
       "id": "fb_abya_yala",
@@ -1129,8 +1312,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-xxb1-1.xx.fbcdn.net/v/t39.30808-1/871000228_1760278452768967_5369085719919323129_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=p720x720&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oMWlCl7aTokQ7kNvwF4WZ0y&_nc_oc=Adqk8eAZIC31BP52UkF-Y7RIQbF0wDSXTBW0k3e6Uil-ZHzp1yk2IAC_Fy2PVP6gk8A&_nc_zt=24&_nc_ht=scontent-xxb1-1.xx&_nc_gid=bPah9E4GWzHmRCJZ0Wxb9Q&_nc_ss=7f289&oh=00_AQRUZLpW_kM948aJpSlgYtClDmn1WAFJa_s69l3obREijQ&oe=6B013070",
+      "status": "ok"
     }
   ]
 }
