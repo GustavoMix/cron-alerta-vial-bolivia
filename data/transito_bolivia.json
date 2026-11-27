@@ -1,13 +1,13 @@
 {
   "schema_version": "3.2-fast",
-  "generated_at": "2026-11-27T09:51:44-04:00",
+  "generated_at": "2026-11-27T18:41:52-04:00",
   "timezone": "America/La_Paz",
   "summary": {
     "facebook_sources": 30,
     "web_sources": 7,
-    "sources_ok": 25,
-    "sources_error": 12,
-    "raw_publications": 40,
+    "sources_ok": 22,
+    "sources_error": 15,
+    "raw_publications": 32,
     "vial_publications": 7,
     "incidents": 6
   },
@@ -22,7 +22,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/lista-comunicados-page/",
       "published_at": null,
-      "scraped_at": "2026-11-27T09:51:44-04:00",
+      "scraped_at": "2026-11-27T18:41:52-04:00",
       "department": "Cochabamba",
       "municipality": "Cochabamba",
       "city": "Cochabamba",
@@ -148,108 +148,97 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-11-27T09:51:44-04:00",
+      "last_seen_at": "2026-11-27T18:41:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
     {
-      "id": "ccaa54f998b4ecf3",
-      "source_id": "fb_gobernacion_lapaz",
-      "source_name": "Gobierno Autónomo Departamental de La Paz",
-      "source_url": "https://www.facebook.com/gobernaciondelapaz/",
-      "source_class": "facebook_official",
-      "source_tier": 1,
-      "source_icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nwyYJJf3ZvMQ7kNvwFLAeym&_nc_oc=Adola-CQnSyAYIA9grE_WNBZi3yFduJHDyDWXwmlWmXLfSTl7H30kpPDmwqK6Sae3l4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=bhgyMoSezKA32hvoUyCBBg&_nc_ss=7f389&oh=00_AQWw2FxhkLWY6oPv1u2HdJAB-9mo1yvjGg8Vh8ecmlwDyQ&oe=6B0F55B8",
-      "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0GA9S6PFVZS7gCDsD21e8oYKK9p1QrVoXiFBFqEmSQ3BAyuDxRp1fVrNPJedUmJuil?__cft__[0]=AZgguPMDW9s7J8nC9KGQw2Wxe1qyRhIuqhNQp_yOxDIlYoHyE1g954UZ_xHIzgKkceAJmBjpFeHwUG5SOmVC5TYB5k243b_CC02aGSsI9PgBowJAD8R49nwdinoAtktKGUCDtc2t3hCV0uyxwnL-7vdswDYoz9uk0QwcmJK-HRwa3IAYTbUelwgYPd4&__tn__=%2CO%2CP-R",
+      "id": "014ba46091d59f91",
+      "source_id": "web_abc",
+      "source_name": "ABC - Administradora Boliviana de Carreteras",
+      "source_url": "https://www.abc.gob.bo/",
+      "source_class": "web_official",
+      "source_tier": 2,
+      "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
+      "url": "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-garantiza-inversion-de-mas-de-bs-57-millones-para-pavimentar-la-avenida-circunvalacion-de-san-lorenzo-en-tarija/",
       "published_at": null,
-      "scraped_at": "2026-11-27T09:51:44-04:00",
-      "department": "La Paz",
-      "municipality": "El Alto",
-      "city": "La Paz",
+      "scraped_at": "2026-11-27T18:41:52-04:00",
+      "department": "Bolivia",
+      "municipality": "Cochabamba",
+      "city": null,
       "event_type": "congestion",
-      "cause": "protesta_bloqueo",
+      "cause": "obras_mantenimiento",
       "status": "precaucion",
       "closure_scope": null,
       "severity": "media",
-      "confidence": 0.98,
-      "relevance_score": 91,
+      "confidence": 0.88,
+      "relevance_score": 94,
       "filter_reasons": [
-        "contexto_vial:11",
+        "contexto_vial:8",
         "evento:congestion",
-        "via_detectada:3",
-        "sector_detectado:2",
-        "terminos_viales:11",
-        "fuente_oficial_facebook"
+        "via_detectada:7",
+        "sector_detectado:5",
+        "terminos_viales:7",
+        "fuente_oficial_web"
       ],
-      "title": "Gobierno Autónomo Departamental de La Paz",
-      "description": "Gobernación y ABC fortalecerán las conexiones viales de salida a los Yungas y de El Alto hacia Oruro La Gobernación de La Paz, junto al Gobierno Nacional, a través del Ministerio de Obras... Gobernación y ABC fortalecerán las conexiones viales de salida a los Yungas y de El Alto hacia Oruro La Gobernación de La Paz, junto al Gobierno... Gobernación y ABC fortalecerán las conexiones viales de salida a los Yungas y de El Alto hacia Oruro La Gobernación de La Paz, junto al Gobierno Nacional, a través del Ministerio de Obras Públicas, Servicios y Vivienda, la Administradora Boliviana de Carreteras (ABC) y los municipios con jurisdicción territorial, impulsa acciones conjuntas mediante un convenio interinstitucional para mejorar la transitabilidad y fortalecer la integración vial del departamento. Una de las primeras prioridades será la intervención en el tramo Terminal de Buses Minasa–tranca de Urujara, además de avanzar en la conexión hacia Oruro y complementar proyectos estratégicos en distintas regiones paceñas. El gobernador de La Paz, Luis Revilla, destacó que la coordinación interinstitucional permitirá articular recursos, maquinaria y trabajos complementarios para mejorar la conexión del área metropolitana con el resto del departamento y otras regiones del país. Revilla explicó que el trabajo conjunto con el Gobierno Nacional, la ABC y los gobiernos municipales permitirá atender de manera coordinada las necesidades de las rutas fundamentales y departamentales, optimizando recursos y fortaleciendo la capacidad de respuesta ante las demandas de conectividad. En ese marco, se prevé complementar proyectos estratégicos que contribuyan a la integración de las distintas regiones del departamento, entre ellos Santa Bárbara–Caranavi, Escoma–Pacobamba, Caranavi–Guanay y las conexiones hacia Quiquibey e Ixiamas. La autoridad explicó que el convenio tendrá una vigencia de cinco años y permitirá optimizar el uso de la maquinaria del Servicio Departamental de Caminos (SEDCAM), en coordinación con la ABC, para complementar los proyectos de la Red Vial Fundamental con trabajos en accesos y conexiones departamentales. “Este convenio nos va a permitir que los trabajos complementarios que se requieran en relación con estas rutas fundamentales puedan ser ejecutados de manera conjunta. Esa es la importancia del convenio: que podamos optimizar la maquinaria de nuestro Servicio Departamental de Caminos, en conjunto con la ABC”, sostuvo Revilla. Reactivación de la carretera La Paz–Oruro En el marco de este acuerdo, el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora, informó que se consiguieron Bs 74 millones para reanudar el contrato del proyecto de mejoramiento y ampliación de la carretera La Paz–Oruro, en el sector Senkata–Apacheta, en El Alto. La autoridad nacional indicó que se prevé retomar los trabajos la próxima semana, luego de las gestiones realizadas por la ABC en coordinación con la Gobernación y bajo la línea del Gobierno Nacional. El proyecto contempla la ampliación de cuatro a ocho carriles, con el objetivo de mejorar la seguridad vial, facilitar la circulación y reducir la congestión vehicular en uno de los principales accesos al departamento. Zamora también informó que se consiguieron Bs 40 millones para el mantenimiento y la rehabilitación de la carretera La Paz–Oruro, como parte de las acciones destinadas a mejorar esta conexión estratégica. #UnidosNadaNosDetiene #LaPazDepartamentoMaravilloso #RevillaGobernador Gobernación y ABC fortalecerán las conexiones viales de salida a los Yungas y de El Alto hacia Oruro La Gobernación de La Paz, junto al Gobierno Nacional, a través del Ministerio de Obras Públicas, Servicios y Vivienda, la Administradora Boliviana de Carreteras (ABC) y los municipios con jurisdicción territorial, impulsa acciones conjuntas mediante un convenio interinstitucional para mejorar la transitabilidad y fortalecer la integración vial del departamento. Una de las primeras prioridades será la intervención en el tramo Terminal de Buses Minasa–tranca de Urujara, además de avanzar en la conexión hacia Oruro y complementar proyectos estratégicos en distintas regiones paceñas. El gobernador de La Paz, Luis Revilla, destacó que la coordinación interinstitucional permitirá articular recursos, maquinaria y trabajos complementarios para mejorar la conexión del área metropolitana con el resto del departamento y otras regiones del país. Revilla explicó que el trabajo conjunto con el Gobierno Nacional, la ABC y los gobiernos municipales permitirá atender de manera coordinada las necesidades de las rutas fundamentales y departamentales, optimizando recursos y fortaleciendo la capacidad de respuesta ante las demandas de conectividad. En ese marco, se prevé complementar proyectos estratégicos que contribuyan a la integración de las distintas regiones del departamento, entre ellos Santa Bárbara–Caranavi, Escoma–Pacobamba, Caranavi–Guanay y las conexiones hacia Quiquibey e Ixiamas. La autoridad ",
-      "original_text": "Gobernación y ABC fortalecerán las conexiones viales de salida a los Yungas y de El Alto hacia Oruro La Gobernación de La Paz, junto al Gobierno Nacional, a través del Ministerio de Obras... Gobernación y ABC fortalecerán las conexiones viales de salida a los Yungas y de El Alto hacia Oruro La Gobernación de La Paz, junto al Gobierno... Gobernación y ABC fortalecerán las conexiones viales de salida a los Yungas y de El Alto hacia Oruro La Gobernación de La Paz, junto al Gobierno Nacional, a través del Ministerio de Obras Públicas, Servicios y Vivienda, la Administradora Boliviana de Carreteras (ABC) y los municipios con jurisdicción territorial, impulsa acciones conjuntas mediante un convenio interinstitucional para mejorar la transitabilidad y fortalecer la integración vial del departamento. Una de las primeras prioridades será la intervención en el tramo Terminal de Buses Minasa–tranca de Urujara, además de avanzar en la conexión hacia Oruro y complementar proyectos estratégicos en distintas regiones paceñas. El gobernador de La Paz, Luis Revilla, destacó que la coordinación interinstitucional permitirá articular recursos, maquinaria y trabajos complementarios para mejorar la conexión del área metropolitana con el resto del departamento y otras regiones del país. Revilla explicó que el trabajo conjunto con el Gobierno Nacional, la ABC y los gobiernos municipales permitirá atender de manera coordinada las necesidades de las rutas fundamentales y departamentales, optimizando recursos y fortaleciendo la capacidad de respuesta ante las demandas de conectividad. En ese marco, se prevé complementar proyectos estratégicos que contribuyan a la integración de las distintas regiones del departamento, entre ellos Santa Bárbara–Caranavi, Escoma–Pacobamba, Caranavi–Guanay y las conexiones hacia Quiquibey e Ixiamas. La autoridad explicó que el convenio tendrá una vigencia de cinco años y permitirá optimizar el uso de la maquinaria del Servicio Departamental de Caminos (SEDCAM), en coordinación con la ABC, para complementar los proyectos de la Red Vial Fundamental con trabajos en accesos y conexiones departamentales. “Este convenio nos va a permitir que los trabajos complementarios que se requieran en relación con estas rutas fundamentales puedan ser ejecutados de manera conjunta. Esa es la importancia del convenio: que podamos optimizar la maquinaria de nuestro Servicio Departamental de Caminos, en conjunto con la ABC”, sostuvo Revilla. Reactivación de la carretera La Paz–Oruro En el marco de este acuerdo, el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora, informó que se consiguieron Bs 74 millones para reanudar el contrato del proyecto de mejoramiento y ampliación de la carretera La Paz–Oruro, en el sector Senkata–Apacheta, en El Alto. La autoridad nacional indicó que se prevé retomar los trabajos la próxima semana, luego de las gestiones realizadas por la ABC en coordinación con la Gobernación y bajo la línea del Gobierno Nacional. El proyecto contempla la ampliación de cuatro a ocho carriles, con el objetivo de mejorar la seguridad vial, facilitar la circulación y reducir la congestión vehicular en uno de los principales accesos al departamento. Zamora también informó que se consiguieron Bs 40 millones para el mantenimiento y la rehabilitación de la carretera La Paz–Oruro, como parte de las acciones destinadas a mejorar esta conexión estratégica. #UnidosNadaNosDetiene #LaPazDepartamentoMaravilloso #RevillaGobernador Gobernación y ABC fortalecerán las conexiones viales de salida a los Yungas y de El Alto hacia Oruro La Gobernación de La Paz, junto al Gobierno Nacional, a través del Ministerio de Obras Públicas, Servicios y Vivienda, la Administradora Boliviana de Carreteras (ABC) y los municipios con jurisdicción territorial, impulsa acciones conjuntas mediante un convenio interinstitucional para mejorar la transitabilidad y fortalecer la integración vial del departamento. Una de las primeras prioridades será la intervención en el tramo Terminal de Buses Minasa–tranca de Urujara, además de avanzar en la conexión hacia Oruro y complementar proyectos estratégicos en distintas regiones paceñas. El gobernador de La Paz, Luis Revilla, destacó que la coordinación interinstitucional permitirá articular recursos, maquinaria y trabajos complementarios para mejorar la conexión del área metropolitana con el resto del departamento y otras regiones del país. Revilla explicó que el trabajo conjunto con el Gobierno Nacional, la ABC y los gobiernos municipales permitirá atender de manera coordinada las necesidades de las rutas fundamentales y departamentales, optimizando recursos y fortaleciendo la capacidad de respuesta ante las demandas de conectividad. En ese marco, se prevé complementar proyectos estratégicos que contribuyan a la integración de las distintas regiones del departamento, entre ellos Santa Bárbara–Caranavi, Escoma–Pacobamba, Caranavi–Guanay y las conexiones hacia Quiquibey e Ixiamas. La autoridad explicó que el convenio tendrá una vigencia de cinco años y permitirá optimizar el uso de la maquinaria del Servicio Departamental de Caminos (SEDCAM), en coordinación con la ABC, para complementar los proyectos de la Red Vial Fundamental con trabajos en accesos y conexiones departamentales. “Este convenio nos va a permitir que los trabajos complementarios que se requieran en relación con estas rutas fundamentales puedan ser ejecutados de manera conjunta. Esa es la importancia del convenio: que podamos optimizar la maquinaria de nuestro Servicio Departamental de Caminos, en conjunto con la ABC”, sostuvo Revilla. Reactivación de la carretera La Paz–Oruro En el marco de este acuerdo, el ministro de Obras Públicas, Servicios y Vivienda, Mauricio Zamora, informó que se consiguieron Bs 74 millones para reanudar el contrato del proyecto de mejoramiento y ampliación de la carretera La Paz–Oruro, en el sector Senkata–Apacheta, en El Alto. La autoridad nacional indicó que se prevé retomar los trabajos la próxima semana, luego de las gestiones realizadas por la ABC en coordinación con la Gobernación y bajo la línea del Gobierno Nacional. El proyecto contempla la ampliación de cuatro a ocho carriles, con el objetivo de mejorar la seguridad vial, facilitar la circulación y reducir la congestión vehicular en uno de los principales accesos al departamento. Zamora también informó que se consiguieron Bs 40 millones para el mantenimiento y la rehabilitación de la carretera La Paz–Oruro, como parte de las acciones destinadas a mejorar esta conexión estratégica. #UnidosNadaNosDetiene #LaPazDepartamentoMaravilloso #RevillaGobernador",
+      "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
+      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia GOBIERNO NACIONAL GARANTIZA INVERSIÓN DE MÁS DE BS 57 MILLONES PARA PAVIMENTAR LA AVENIDA CIRCUNVALACIÓN DE SAN LORENZO EN TARIJA Compartir ¡Enlace copiado al portapapeles! , 27 de noviembre de 2026 Con una inversión de más de 57 millones de bolivianos financiada al 100 % por el Gobierno Nacional, el presidente Constitucional Rodrigo Paz y el ministro de Obras Públicas, Mauricio Zamora, anunciaron la construcción de la avenida Cnel. Eustaquio Méndez Arenas (tramo Puente Pajchani – Puente Calama), en el municipio de San Lorenzo, ratificando su respaldo técnico y financiero al desarrollo vial del departamento de Tarija. Para viabilizar esta obra, se suscribió un convenio intergubernativo entre el presidente de la Administradora Boliviana de Carreteras (ABC), Ernesto Farfán; el alcalde de San Lorenzo, Omar Favio Méndez y el director de la Unidad de Proyectos Especiales, Enrique Bruno con la presencia del primer mandatario y del ministro Zamora. El acuerdo tripartito establece que la UPRE asume el financiamiento y la supervisión de la obra, mientras que la ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, brindará asesoramiento especializado y revisará el proyecto bajo la normativa vial vigente. La Circunvalación de San Lorenzo conecta el tramo comprendido entre el puente Pajchani y el puente Calama y articula con las rutas hacia Cercado / Tarija (como la zona de Monte Cercado, la Segunda Circunvalación, la avenida Jorge Majluf y el sector de Tomatitas) para aliviar el tráfico vehicular y el paso de transporte pesado hacia el norte. La intervención permitirá concluir 3,46 kilómetros de una moderna vía de cuatro carriles con pavimento rígido, drenaje, protección hidráulica, señalización, iluminación LED y medidas ambientales a lo largo de la comunidad de San Pedro y los barrios La Banda y Central, con un plazo de ejecución de un año desde el inicio. Articulando zonas urbanas y rurales como parte estratégica de la Diagonal del Valle Central de Tarija (Pajchani – El Portillo). #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia GOBIERNO NACIONAL GARANTIZA INVERSIÓN DE MÁS DE BS 57 MILLONES PARA PAVIMENTAR LA AVENIDA CIRCUNVALACIÓN DE SAN LORENZO EN TARIJA Compartir ¡Enlace copiado al portapapeles! , 27 de noviembre de 2026 Con una inversión de más de 57 millones de bolivianos financiada al 100 % por el Gobierno Nacional, el presidente Constitucional Rodrigo Paz y el ministro de Obras Públicas, Mauricio Zamora, anunciaron la construcción de la avenida Cnel. Eustaquio Méndez Arenas (tramo Puente Pajchani – Puente Calama), en el municipio de San Lorenzo, ratificando su respaldo técnico y financiero al desarrollo vial del departamento de Tarija. Para viabilizar esta obra, se suscribió un convenio intergubernativo entre el presidente de la Administradora Boliviana de Carreteras (ABC), Ernesto Farfán; el alcalde de San Lorenzo, Omar Favio Méndez y el director de la Unidad de Proyectos Especiales, Enrique Bruno con la presencia del primer mandatario y del ministro Zamora. El acuerdo tripartito establece que la UPRE asume el financiamiento y la supervisión de la obra, mientras que la ABC, en coordinación con el Ministerio de Obras Públicas, Servicios y Vivienda, brindará asesoramiento especializado y revisará el proyecto bajo la normativa vial vigente. La Circunvalación de San Lorenzo conecta el tramo comprendido entre el puente Pajchani y el puente Calama y articula con las rutas hacia Cercado / Tarija (como la zona de Monte Cercado, la Segunda Circunvalación, la avenida Jorge Majluf y el sector de Tomatitas) para aliviar el tráfico vehicular y el paso de transporte pesado hacia el norte. La intervención permitirá concluir 3,46 kilómetros de una moderna vía de cuatro carriles con pavimento rígido, drenaje, protección hidráulica, señalización, iluminación LED y medidas ambientales a lo largo de la comunidad de San Pedro y los barrios La Banda y Central, con un plazo de ejecución de un año desde el inicio. Articulando zonas urbanas y rurales como parte estratégica de la Diagonal del Valle Central de Tarija (Pajchani – El Portillo). #UnaNuevaBolivia #SiempreBolivia #ABCIntegrandoLaPatria #ElCaminoEsBolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
       "roads": [
-        "tramo Terminal de Buses Minasa–tranca de Urujara",
-        "carretera La Paz–Oruro En el marco de este acuerdo",
-        "carretera La Paz–Oruro"
+        "AVENIDA CIRCUNVALACIÓN DE SAN LORENZO EN TARIJA Compartir ¡Enlace copiado al portapapeles!",
+        "avenida Cnel",
+        "tramo Puente Pajchani – Puente Calama)",
+        "tramo comprendido",
+        "puente Pajchani y el puente Calama y articula con las rutas hacia Cercado / Tarija (como la",
+        "avenida Jorge Majluf y el",
+        "Diagonal del Valle Central de Tarija (Pajchani – El Portillo)"
       ],
       "places": [
-        "tranca de Urujara",
-        "sector Senkata–Apacheta"
+        "Puente Pajchani – Puente Calama)",
+        "puente Pajchani y el puente Calama y articula",
+        "zona de Monte Cercado",
+        "sector de Tomatitas) para aliviar el tráfico vehicular y el paso de transporte pesado hacia el norte",
+        "comunidad de San Pedro y los barrios La Banda y Central"
       ],
       "kilometer_mentions": [],
       "directions": [
-        "Gobernación y ABC fortalecerán l -> s conexiones viales de salida a los Yunga",
-        "y de El Alto hacia Oruro La Gobern -> ción de La Paz",
-        "junto al Gobierno N -> cional",
-        "a través del Ministerio de Obr -> s... Gobernación y ABC fortalecerán las c",
-        "viales de salida a los Yungas y de El -> lto hacia Oruro La Gobernación de La Paz",
-        "junto al Gobierno... Gobernación y -> BC fortalecerán las conexiones viales de",
-        "salida a los Yungas y de El Alto haci -> Oruro La Gobernación de La Paz",
-        "a través del Ministerio de Obr -> s Públicas"
+        "del navegador",
+        "Sitio oficial del Estado Plurinacion -> l de Bolivia Uso de .gob.bo Los portales",
+        "oficiales del Estado Plurinacion -> l de Bolivia emplean el dominio .gob.bo d",
+        "form -> exclusiva. Uso de https",
+        "Los portales oficiales incorpor -> n en sus direcciones el protocolo https",
+        "o muestran un candado en la barr -> de direccion del navegador. Esto signific",
+        "que estás conectado -> un dominio .gob.bo de manera segura. Se s",
+        "compartir información sensible únic -> mnete con portales oficiales asegurados"
       ],
       "alternative_routes": [],
       "affected_vehicles": [
-        "buses"
+        "transporte_pesado"
       ],
       "time_mentions": [],
       "keywords": [
-        "congestión",
-        "congestión vehicular",
+        "tráfico",
         "carretera",
         "ruta",
+        "avenida",
+        "puente",
         "tramo",
-        "acceso",
-        "salida",
-        "red vial fundamental",
-        "transitabilidad",
-        "terminal de buses",
-        "buses"
+        "kilómetro"
       ],
       "latitude": null,
       "longitude": null,
-      "location_query": "tramo Terminal de Buses Minasa–tranca de Urujara, El Alto, La Paz, Bolivia",
-      "image_urls": [
-        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/928771607_1139958628639852_7981366168565301165_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=p600x600&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cae128&_nc_ohc=PqoZF4--yhUQ7kNvwGk46Jm&_nc_oc=Adqj1bWio76Nt9yxSVDIzk_gjEu6v55YkXlSPf03b4zMsqQixoztj1_S4rT5CqGRafA&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=JoANHn7cuKC-0lpXCutuSw&_nc_ss=7f389&oh=00_AQUraA3eAaaPiaa4IKaMq-eJl9UkhHAzH-ZPh93YY0_vFg&oe=6B0F70CA",
-        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/928771607_1139958628639852_7981366168565301165_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PqoZF4--yhUQ7kNvwGk46Jm&_nc_oc=Adqj1bWio76Nt9yxSVDIzk_gjEu6v55YkXlSPf03b4zMsqQixoztj1_S4rT5CqGRafA&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQXcu1jQ7YYe3hYPsULjKfAqDDRGOUNbz5Sxax-Yb7EEbg&oe=6B0F70CA",
-        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/935653296_1374131498020978_1641936748846376181_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kodgNBPc-RQQ7kNvwHtbSh5&_nc_oc=Adoh2HWsIDfHe2Sre4fqiVXizvhOTK9CBqMoIMziwBVfY_EtgdzhZ0z4d4WMBINVJNk&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQVdfIc6Zf2YvqxWTRqR5Qx_76rlBsVrOzqYXnA-xW0S9Q&oe=6B0F6D43",
-        "https://scontent-sea5-2.xx.fbcdn.net/v/t39.99422-6/925206967_3712387498917535_2270025541653057711_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tINJQHLEQj8Q7kNvwElchGQ&_nc_oc=AdrmJ9RF65koFYmxPzYT05W7tWEGZy8lJrxLChZHz1fzGCH7ArXuhT8fiva8gHv1hrw&_nc_zt=14&_nc_ht=scontent-sea5-2.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQWl59Kdhc7e1aOU0ysh4Y98rLOQ2wU-Hx7DBoMn7E2ZZw&oe=6B0F683D",
-        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/927366365_1144476844653732_7873699165397360574_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gdyMOVMyXNQQ7kNvwEpi0ob&_nc_oc=AdrV5l-MC7P10fycivRsCmqXO9XBfbjbR9vke36je2AvYtoaPEH_0wmgeziFsEAzIw4&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQVs24Rb1gMgD4QSkMxGx9Jl9XbZ83NmpzhSPkkZuR0FYA&oe=6B0F58D1",
-        "https://scontent-sea5-2.xx.fbcdn.net/v/t39.99422-6/929203306_1866472547870860_875067469495461653_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Y-t0n5zIj4IQ7kNvwGwzly1&_nc_oc=Ado4Y98ChzpGcajiZniAr--fisMymwzRDRsppdin5eTV5d4wKXSt-70OJwyqEGfB16o&_nc_zt=14&_nc_ht=scontent-sea5-2.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQWOWQ6zboqpVpXJOyp3xKmJyvGUwBWd9qCverK_dr8xpw&oe=6B0F6629"
-      ],
+      "location_query": "AVENIDA CIRCUNVALACIÓN DE SAN LORENZO EN TARIJA Compartir ¡Enlace copiado al portapapeles!, Cochabamba, Bolivia",
+      "image_urls": [],
       "video_url": null,
       "video_thumbnail_url": null,
       "video_type": null,
       "is_official": true,
-      "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/928771607_1139958628639852_7981366168565301165_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=p600x600&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cae128&_nc_ohc=PqoZF4--yhUQ7kNvwGk46Jm&_nc_oc=Adqj1bWio76Nt9yxSVDIzk_gjEu6v55YkXlSPf03b4zMsqQixoztj1_S4rT5CqGRafA&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=JoANHn7cuKC-0lpXCutuSw&_nc_ss=7f389&oh=00_AQUraA3eAaaPiaa4IKaMq-eJl9UkhHAzH-ZPh93YY0_vFg&oe=6B0F70CA",
-      "has_image": true,
+      "image_url": null,
+      "has_image": false,
       "has_video": false,
       "media": {
-        "images": [
-          "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/928771607_1139958628639852_7981366168565301165_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=p600x600&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cae128&_nc_ohc=PqoZF4--yhUQ7kNvwGk46Jm&_nc_oc=Adqj1bWio76Nt9yxSVDIzk_gjEu6v55YkXlSPf03b4zMsqQixoztj1_S4rT5CqGRafA&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=JoANHn7cuKC-0lpXCutuSw&_nc_ss=7f389&oh=00_AQUraA3eAaaPiaa4IKaMq-eJl9UkhHAzH-ZPh93YY0_vFg&oe=6B0F70CA",
-          "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/928771607_1139958628639852_7981366168565301165_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PqoZF4--yhUQ7kNvwGk46Jm&_nc_oc=Adqj1bWio76Nt9yxSVDIzk_gjEu6v55YkXlSPf03b4zMsqQixoztj1_S4rT5CqGRafA&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQXcu1jQ7YYe3hYPsULjKfAqDDRGOUNbz5Sxax-Yb7EEbg&oe=6B0F70CA",
-          "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/935653296_1374131498020978_1641936748846376181_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kodgNBPc-RQQ7kNvwHtbSh5&_nc_oc=Adoh2HWsIDfHe2Sre4fqiVXizvhOTK9CBqMoIMziwBVfY_EtgdzhZ0z4d4WMBINVJNk&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQVdfIc6Zf2YvqxWTRqR5Qx_76rlBsVrOzqYXnA-xW0S9Q&oe=6B0F6D43",
-          "https://scontent-sea5-2.xx.fbcdn.net/v/t39.99422-6/925206967_3712387498917535_2270025541653057711_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tINJQHLEQj8Q7kNvwElchGQ&_nc_oc=AdrmJ9RF65koFYmxPzYT05W7tWEGZy8lJrxLChZHz1fzGCH7ArXuhT8fiva8gHv1hrw&_nc_zt=14&_nc_ht=scontent-sea5-2.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQWl59Kdhc7e1aOU0ysh4Y98rLOQ2wU-Hx7DBoMn7E2ZZw&oe=6B0F683D",
-          "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/927366365_1144476844653732_7873699165397360574_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gdyMOVMyXNQQ7kNvwEpi0ob&_nc_oc=AdrV5l-MC7P10fycivRsCmqXO9XBfbjbR9vke36je2AvYtoaPEH_0wmgeziFsEAzIw4&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQVs24Rb1gMgD4QSkMxGx9Jl9XbZ83NmpzhSPkkZuR0FYA&oe=6B0F58D1",
-          "https://scontent-sea5-2.xx.fbcdn.net/v/t39.99422-6/929203306_1866472547870860_875067469495461653_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=s590x590&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Y-t0n5zIj4IQ7kNvwGwzly1&_nc_oc=Ado4Y98ChzpGcajiZniAr--fisMymwzRDRsppdin5eTV5d4wKXSt-70OJwyqEGfB16o&_nc_zt=14&_nc_ht=scontent-sea5-2.xx&_nc_gid=trhEkwKjEIBcyoZl7fQZ7w&_nc_ss=7f389&oh=00_AQWOWQ6zboqpVpXJOyp3xKmJyvGUwBWd9qCverK_dr8xpw&oe=6B0F6629"
-        ],
-        "main_image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/928771607_1139958628639852_7981366168565301165_n.png?stp=dst-jpg_tt6&cstp=mx1600x1066&ctp=p600x600&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cae128&_nc_ohc=PqoZF4--yhUQ7kNvwGk46Jm&_nc_oc=Adqj1bWio76Nt9yxSVDIzk_gjEu6v55YkXlSPf03b4zMsqQixoztj1_S4rT5CqGRafA&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=JoANHn7cuKC-0lpXCutuSw&_nc_ss=7f389&oh=00_AQUraA3eAaaPiaa4IKaMq-eJl9UkhHAzH-ZPh93YY0_vFg&oe=6B0F70CA",
+        "images": [],
+        "main_image_url": null,
         "videos": []
       },
       "status_conflict": false,
@@ -257,23 +246,23 @@
         {
           "status": "precaucion",
           "published_at": null,
-          "source_id": "fb_gobernacion_lapaz",
-          "source_name": "Gobierno Autónomo Departamental de La Paz",
-          "tier": 1,
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0GA9S6PFVZS7gCDsD21e8oYKK9p1QrVoXiFBFqEmSQ3BAyuDxRp1fVrNPJedUmJuil?__cft__[0]=AZgguPMDW9s7J8nC9KGQw2Wxe1qyRhIuqhNQp_yOxDIlYoHyE1g954UZ_xHIzgKkceAJmBjpFeHwUG5SOmVC5TYB5k243b_CC02aGSsI9PgBowJAD8R49nwdinoAtktKGUCDtc2t3hCV0uyxwnL-7vdswDYoz9uk0QwcmJK-HRwa3IAYTbUelwgYPd4&__tn__=%2CO%2CP-R"
+          "source_id": "web_abc",
+          "source_name": "ABC - Administradora Boliviana de Carreteras",
+          "tier": 2,
+          "url": "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-garantiza-inversion-de-mas-de-bs-57-millones-para-pavimentar-la-avenida-circunvalacion-de-san-lorenzo-en-tarija/"
         }
       ],
       "latest_update_at": null,
       "videos": [],
       "sources": [
         {
-          "id": "fb_gobernacion_lapaz",
-          "name": "Gobierno Autónomo Departamental de La Paz",
-          "class": "facebook_official",
-          "tier": 1,
-          "page_url": "https://www.facebook.com/gobernaciondelapaz/",
-          "post_url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0GA9S6PFVZS7gCDsD21e8oYKK9p1QrVoXiFBFqEmSQ3BAyuDxRp1fVrNPJedUmJuil?__cft__[0]=AZgguPMDW9s7J8nC9KGQw2Wxe1qyRhIuqhNQp_yOxDIlYoHyE1g954UZ_xHIzgKkceAJmBjpFeHwUG5SOmVC5TYB5k243b_CC02aGSsI9PgBowJAD8R49nwdinoAtktKGUCDtc2t3hCV0uyxwnL-7vdswDYoz9uk0QwcmJK-HRwa3IAYTbUelwgYPd4&__tn__=%2CO%2CP-R",
-          "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nwyYJJf3ZvMQ7kNvwFLAeym&_nc_oc=Adola-CQnSyAYIA9grE_WNBZi3yFduJHDyDWXwmlWmXLfSTl7H30kpPDmwqK6Sae3l4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=bhgyMoSezKA32hvoUyCBBg&_nc_ss=7f389&oh=00_AQWw2FxhkLWY6oPv1u2HdJAB-9mo1yvjGg8Vh8ecmlwDyQ&oe=6B0F55B8",
+          "id": "web_abc",
+          "name": "ABC - Administradora Boliviana de Carreteras",
+          "class": "web_official",
+          "tier": 2,
+          "page_url": "https://www.abc.gob.bo/",
+          "post_url": "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-garantiza-inversion-de-mas-de-bs-57-millones-para-pavimentar-la-avenida-circunvalacion-de-san-lorenzo-en-tarija/",
+          "icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
           "published_at": null
         }
       ],
@@ -281,15 +270,15 @@
       "verification": "una_fuente",
       "corroborated": false,
       "all_urls": [
-        "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0GA9S6PFVZS7gCDsD21e8oYKK9p1QrVoXiFBFqEmSQ3BAyuDxRp1fVrNPJedUmJuil?__cft__[0]=AZgguPMDW9s7J8nC9KGQw2Wxe1qyRhIuqhNQp_yOxDIlYoHyE1g954UZ_xHIzgKkceAJmBjpFeHwUG5SOmVC5TYB5k243b_CC02aGSsI9PgBowJAD8R49nwdinoAtktKGUCDtc2t3hCV0uyxwnL-7vdswDYoz9uk0QwcmJK-HRwa3IAYTbUelwgYPd4&__tn__=%2CO%2CP-R"
+        "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-garantiza-inversion-de-mas-de-bs-57-millones-para-pavimentar-la-avenida-circunvalacion-de-san-lorenzo-en-tarija/"
       ],
       "merged_items": 1,
-      "incident_id": "inc_355adf70b610aa",
-      "first_seen_at": "2026-11-27T09:51:44-04:00",
+      "incident_id": "inc_71369be2f9689e",
+      "first_seen_at": "2026-11-27T18:41:52-04:00",
       "history": [
         {
-          "at": "2026-11-27T09:51:44-04:00",
-          "detected_at": "2026-11-27T09:51:44-04:00",
+          "at": "2026-11-27T18:41:52-04:00",
+          "detected_at": "2026-11-27T18:41:52-04:00",
           "reason": "primera_deteccion",
           "status": "precaucion",
           "lifecycle_status": "activo",
@@ -297,14 +286,14 @@
           "closure_scope": null,
           "source_count": 1,
           "sources": [
-            "Gobierno Autónomo Departamental de La Paz"
+            "ABC - Administradora Boliviana de Carreteras"
           ],
-          "url": "https://www.facebook.com/gobernaciondelapaz/posts/pfbid0GA9S6PFVZS7gCDsD21e8oYKK9p1QrVoXiFBFqEmSQ3BAyuDxRp1fVrNPJedUmJuil?__cft__[0]=AZgguPMDW9s7J8nC9KGQw2Wxe1qyRhIuqhNQp_yOxDIlYoHyE1g954UZ_xHIzgKkceAJmBjpFeHwUG5SOmVC5TYB5k243b_CC02aGSsI9PgBowJAD8R49nwdinoAtktKGUCDtc2t3hCV0uyxwnL-7vdswDYoz9uk0QwcmJK-HRwa3IAYTbUelwgYPd4&__tn__=%2CO%2CP-R"
+          "url": "https://www.abc.gob.bo/nota_prensa/gobierno-nacional-garantiza-inversion-de-mas-de-bs-57-millones-para-pavimentar-la-avenida-circunvalacion-de-san-lorenzo-en-tarija/"
         }
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-11-27T09:51:44-04:00",
+      "last_seen_at": "2026-11-27T18:41:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -318,7 +307,7 @@
       "source_icon_url": "https://www.gmsantacruz.gob.bo/images/LOGO-DEL-GAMSCS-ok-02.png",
       "url": "https://www.gmsantacruz.gob.bo/Noticias/Detalle/?id=1101",
       "published_at": null,
-      "scraped_at": "2026-11-27T09:51:44-04:00",
+      "scraped_at": "2026-11-27T18:41:52-04:00",
       "department": "Santa Cruz",
       "municipality": "Santa Cruz de la Sierra",
       "city": "Santa Cruz de la Sierra",
@@ -447,7 +436,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-11-27T09:51:44-04:00",
+      "last_seen_at": "2026-11-27T18:41:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -461,7 +450,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/",
       "published_at": null,
-      "scraped_at": "2026-11-27T09:51:44-04:00",
+      "scraped_at": "2026-11-27T18:41:52-04:00",
       "department": "La Paz",
       "municipality": "Quillacollo",
       "city": "Cochabamba",
@@ -473,15 +462,15 @@
       "confidence": 0.84,
       "relevance_score": 70,
       "filter_reasons": [
-        "contexto_vial:10",
+        "contexto_vial:11",
         "via_detectada:6",
         "sector_detectado:3",
-        "terminos_viales:8",
+        "terminos_viales:9",
         "fuente_oficial_web"
       ],
       "title": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva.",
-      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | Circulación vehicular sin restricción en Santa Cruz, Tramo La Angostura - Bermejo, Sector Petacas Ver comunicado 12/11/2026 | Santa Cruz La Administradora Boliviana de Carreteras (ABC) concluyó la primera fase de los trabajos de corte de talud y conformación de banquinas en el sector Fallerón Petacas, ruta a Los Valles en el departamento de Santa Cruz. Ver comunicado | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 26/11/2026 | LA ABC FORTALECE LA CAPACIDAD DE RESPUESTA CON UN PLAN NACIONAL DE EMERGENCIA Y UN PROGRAMA MULTIGESTIÓN DE CONSERVACIÓN VIAL EN LAS CARRETERAS DEL PAÍS Leer nota 26/11/2026 | GOBIERNO NACIONAL Y GOBERNACIÓN PACEÑA CONSOLIDAN ALIANZA PARA ATENDER EMERGENCIAS Y FORTALECER LA INTEGRACIÓN CAMINERA EN LA PAZ Leer nota 24/11/2026 | GOBIERNO NACIONAL PROYECTA INTEGRACIÓN AMAZÓNICA EN PANDO CON LA CONEXIÓN TRINACIONAL DE BOLIVIA HACIA PERÚ Y BRASIL Leer nota 20/11/2026 | LA ABC JUNTO AL TRANSPORTE PESADO INSPECCIONAN EL TRAMO QUILLACOLLO – BOMBEO EN LA CARRETERA COCHABAMBA - ORURO Leer nota 20/11/2026 | TRAS LA GESTIÓN DEL PRESIDENTE RODRIGO PAZ, EL MINISTERIO DE OBRAS PÚBLICAS Y LA ABC, EL CRÉDITO DE $US 95 MILLONES AVANZA A LA ASAMBLEA PARA HACER REALIDAD LAS OBRAS EN SANTA BÁRBARA – CARANAVI, EN LA PAZ Leer nota 19/11/2026 | GOBIERNO IMPLEMENTA UN NUEVO PROGRAMA MULTIGESTIÓN DE CONSERVACIÓN VIAL PARA ATENDER DOS TEMPORADAS DE LLUVIAS (2026 AL 2028) Leer nota 18/11/2026 | EL PRESIDENTE RODRIGO PAZ ENTREGA ESTUDIO FINAL PARA LA CONSTRUCCIÓN DEL PUENTE SOBRE EL RÍO MAMORÉ, ANUNCIA EL FINANCIAMIENTO DE $US 230 MILLONES DE COREA DEL SUR Y LA INVERSIÓN DE $US 300 MILLONES EN CARRETERAS E INFRAESTRUCTURA EN EL BENI Leer nota 12/11/2026 | LA ABC PARTICIPA EN TALLER DE SOCIALIZACI",
-      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | Circulación vehicular sin restricción en Santa Cruz, Tramo La Angostura - Bermejo, Sector Petacas Ver comunicado 12/11/2026 | Santa Cruz La Administradora Boliviana de Carreteras (ABC) concluyó la primera fase de los trabajos de corte de talud y conformación de banquinas en el sector Fallerón Petacas, ruta a Los Valles en el departamento de Santa Cruz. Ver comunicado | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 26/11/2026 | LA ABC FORTALECE LA CAPACIDAD DE RESPUESTA CON UN PLAN NACIONAL DE EMERGENCIA Y UN PROGRAMA MULTIGESTIÓN DE CONSERVACIÓN VIAL EN LAS CARRETERAS DEL PAÍS Leer nota 26/11/2026 | GOBIERNO NACIONAL Y GOBERNACIÓN PACEÑA CONSOLIDAN ALIANZA PARA ATENDER EMERGENCIAS Y FORTALECER LA INTEGRACIÓN CAMINERA EN LA PAZ Leer nota 24/11/2026 | GOBIERNO NACIONAL PROYECTA INTEGRACIÓN AMAZÓNICA EN PANDO CON LA CONEXIÓN TRINACIONAL DE BOLIVIA HACIA PERÚ Y BRASIL Leer nota 20/11/2026 | LA ABC JUNTO AL TRANSPORTE PESADO INSPECCIONAN EL TRAMO QUILLACOLLO – BOMBEO EN LA CARRETERA COCHABAMBA - ORURO Leer nota 20/11/2026 | TRAS LA GESTIÓN DEL PRESIDENTE RODRIGO PAZ, EL MINISTERIO DE OBRAS PÚBLICAS Y LA ABC, EL CRÉDITO DE $US 95 MILLONES AVANZA A LA ASAMBLEA PARA HACER REALIDAD LAS OBRAS EN SANTA BÁRBARA – CARANAVI, EN LA PAZ Leer nota 19/11/2026 | GOBIERNO IMPLEMENTA UN NUEVO PROGRAMA MULTIGESTIÓN DE CONSERVACIÓN VIAL PARA ATENDER DOS TEMPORADAS DE LLUVIAS (2026 AL 2028) Leer nota 18/11/2026 | EL PRESIDENTE RODRIGO PAZ ENTREGA ESTUDIO FINAL PARA LA CONSTRUCCIÓN DEL PUENTE SOBRE EL RÍO MAMORÉ, ANUNCIA EL FINANCIAMIENTO DE $US 230 MILLONES DE COREA DEL SUR Y LA INVERSIÓN DE $US 300 MILLONES EN CARRETERAS E INFRAESTRUCTURA EN EL BENI Leer nota 12/11/2026 | LA ABC PARTICIPA EN TALLER DE SOCIALIZACIÓN EN EL CÓDIGO DE ÉTICA INSTITUCIONAL Leer nota 11/11/2026 | GOBIERNO NACIONAL AVANZA EN LA OPERACIÓN FINANCIERA CON EL BID DE $US 300 MILLONES PARA CONCRETAR EL CORREDOR CENTRAL SUR QUE INTEGRA POTOSÍ, CHUQUISACA, TARIJA Y PAÍSES VECINOS Leer nota Enlaces de Interes Ver todas los enlaces Transtabilidad Red Vial Fundamental-ABC EBC - Empresa Estratégica Boliviana de Construcción Ministerio de Obras Publicas Servicios y Vivienda Instituto Nacional de Estadísticas (INE) Ministerio de Gobierno Vicepresidencia del Estado Plurinacional de Bolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
+      "description": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | Circulación vehicular sin restricción en Santa Cruz, Tramo La Angostura - Bermejo, Sector Petacas Ver comunicado 12/11/2026 | Santa Cruz La Administradora Boliviana de Carreteras (ABC) concluyó la primera fase de los trabajos de corte de talud y conformación de banquinas en el sector Fallerón Petacas, ruta a Los Valles en el departamento de Santa Cruz. Ver comunicado | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 27/11/2026 | GOBIERNO NACIONAL IMPULSA EL CORREDOR AMAZÓNICO EN PANDO Y LA PAZ PARA FORTALECER LA INTEGRACIÓN COMERCIAL DE BOLIVIA CON PERÚ Y BRASIL Leer nota 27/11/2026 | GOBIERNO NACIONAL GARANTIZA INVERSIÓN DE MÁS DE BS 57 MILLONES PARA PAVIMENTAR LA AVENIDA CIRCUNVALACIÓN DE SAN LORENZO EN TARIJA Leer nota 26/11/2026 | LA ABC FORTALECE LA CAPACIDAD DE RESPUESTA CON UN PLAN NACIONAL DE EMERGENCIA Y UN PROGRAMA MULTIGESTIÓN DE CONSERVACIÓN VIAL EN LAS CARRETERAS DEL PAÍS Leer nota 26/11/2026 | GOBIERNO NACIONAL Y GOBERNACIÓN PACEÑA CONSOLIDAN ALIANZA PARA ATENDER EMERGENCIAS Y FORTALECER LA INTEGRACIÓN CAMINERA EN LA PAZ Leer nota 24/11/2026 | GOBIERNO NACIONAL PROYECTA INTEGRACIÓN AMAZÓNICA EN PANDO CON LA CONEXIÓN TRINACIONAL DE BOLIVIA HACIA PERÚ Y BRASIL Leer nota 20/11/2026 | LA ABC JUNTO AL TRANSPORTE PESADO INSPECCIONAN EL TRAMO QUILLACOLLO – BOMBEO EN LA CARRETERA COCHABAMBA - ORURO Leer nota 20/11/2026 | TRAS LA GESTIÓN DEL PRESIDENTE RODRIGO PAZ, EL MINISTERIO DE OBRAS PÚBLICAS Y LA ABC, EL CRÉDITO DE $US 95 MILLONES AVANZA A LA ASAMBLEA PARA HACER REALIDAD LAS OBRAS EN SANTA BÁRBARA – CARANAVI, EN LA PAZ Leer nota 19/11/2026 | GOBIERNO IMPLEMENTA UN NUEVO PROGRAMA MULTIGESTIÓN DE CONSERVACIÓN VIAL PARA ATENDER DOS TEMPORADAS DE LLUVIAS (2026 AL 2028) Leer nota 18/11/2",
+      "original_text": "Sitio oficial del Estado Plurinacional de Bolivia Uso de .gob.bo Los portales oficiales del Estado Plurinacional de Bolivia emplean el dominio .gob.bo de forma exclusiva. Uso de https:// Los portales oficiales incorporan en sus direcciones el protocolo https:// y/o muestran un candado en la barra de direccion del navegador. Esto significa que estás conectado a un dominio .gob.bo de manera segura. Se sugiere compartir información sensible únicamnete con portales oficiales asegurados. ABC Administradora Boliviana de Carreteras Uniendo Bolivia Comunicados Ver todos los comunicados | Circulación vehicular sin restricción en Santa Cruz, Tramo La Angostura - Bermejo, Sector Petacas Ver comunicado 12/11/2026 | Santa Cruz La Administradora Boliviana de Carreteras (ABC) concluyó la primera fase de los trabajos de corte de talud y conformación de banquinas en el sector Fallerón Petacas, ruta a Los Valles en el departamento de Santa Cruz. Ver comunicado | La Administradora Boliviana de Carreteras (ABC), en coordinación con el Ministerio de Obras Públicas, informa a los usuarios de la Red Vial Fundamental, que todas las rutas se encuentran transitables. Ver comunicado | La ABC informa a los usuarios de la Red Vial Fundamental en Oruro, el cierre temporal programado entre las comunidades de Uncía y Llallagua. Ver comunicado | La ABC informa que el Puente Sacta sufrió un colapso. Gracias al cierre preventivo no existen afectaciones humanas ni vehiculares. Ver comunicado Comunicado Descargar Herramientas y Servicios Digitales Ver todas las herramientas Formulario de Atención de Consultas, Quejas y Reclamos (MACQR) Portal Gob.bo Mapa de la Red Vial Fundamental (RVF) Verifique la Transtabilidad Consultar Tramites Pendientes Trámites Ver todos los trámites Solicitud de Autorización de Uso del Derecho de Vía Tramite por personas naturales o jurídicas, para solicitar el asentamiento de un bien inmueble cercanos a la Red Vial Fundamental, para actividades compatibles con su naturaleza, como instalaciones de infraestructura o servicios establecidos por Ley. Ver trámite Permiso Especial para Circulación de Vehículos con Exceso de Peso y Dimensiones Tramite de solicitud para vehículos que transportan cargas indivisibles cuyo peso bruto total excede las 55 toneladas, y cuyas dimensiones también superan los límites máximos permitidos. Se otorga previa verificación técnica de factibilidad, para garantizar la seguridad e integridad de la Red Vial Fundamental. Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Peso Tramite de autorización para la circulación de vehículos que transportan cargas técnicamente indivisibles con peso bruto superior a los límites permitidos por la normativa nacional (más de 45 toneladas), a través de la Red Vial Fundamental Ver trámite Permiso Especial de Circulación para Vehículos con Exceso de Dimensiones Tramite de autorización para la circulación de vehículos o equipos especiales que excedan los límites máximos de altura, largo o ancho permitidos por normativa, de forma indivisible, para un viaje o periodo determinado. Ver trámite CERTIFICACIONES DE DISTANCIA La Certificación de Distancia es un trámite presencial mediante el cual la ABC emite un documento que acredita la distancia oficial entre dos puntos dentro de la Red Vial Fundamental. Ver trámite CERTIFICACIÓN DE TRANSITABILIDAD La Certificación de Transitabilidad es un documento oficial emitido por la Administradora Boliviana de Carreteras (ABC), que acredita el estado de transitabilidad de un tramo específico dentro de la Red Vial Fundamental (RVF), con base en los registros oficiales de la institución. Ver trámite Notas de Prensa Ver todas las notas 27/11/2026 | GOBIERNO NACIONAL IMPULSA EL CORREDOR AMAZÓNICO EN PANDO Y LA PAZ PARA FORTALECER LA INTEGRACIÓN COMERCIAL DE BOLIVIA CON PERÚ Y BRASIL Leer nota 27/11/2026 | GOBIERNO NACIONAL GARANTIZA INVERSIÓN DE MÁS DE BS 57 MILLONES PARA PAVIMENTAR LA AVENIDA CIRCUNVALACIÓN DE SAN LORENZO EN TARIJA Leer nota 26/11/2026 | LA ABC FORTALECE LA CAPACIDAD DE RESPUESTA CON UN PLAN NACIONAL DE EMERGENCIA Y UN PROGRAMA MULTIGESTIÓN DE CONSERVACIÓN VIAL EN LAS CARRETERAS DEL PAÍS Leer nota 26/11/2026 | GOBIERNO NACIONAL Y GOBERNACIÓN PACEÑA CONSOLIDAN ALIANZA PARA ATENDER EMERGENCIAS Y FORTALECER LA INTEGRACIÓN CAMINERA EN LA PAZ Leer nota 24/11/2026 | GOBIERNO NACIONAL PROYECTA INTEGRACIÓN AMAZÓNICA EN PANDO CON LA CONEXIÓN TRINACIONAL DE BOLIVIA HACIA PERÚ Y BRASIL Leer nota 20/11/2026 | LA ABC JUNTO AL TRANSPORTE PESADO INSPECCIONAN EL TRAMO QUILLACOLLO – BOMBEO EN LA CARRETERA COCHABAMBA - ORURO Leer nota 20/11/2026 | TRAS LA GESTIÓN DEL PRESIDENTE RODRIGO PAZ, EL MINISTERIO DE OBRAS PÚBLICAS Y LA ABC, EL CRÉDITO DE $US 95 MILLONES AVANZA A LA ASAMBLEA PARA HACER REALIDAD LAS OBRAS EN SANTA BÁRBARA – CARANAVI, EN LA PAZ Leer nota 19/11/2026 | GOBIERNO IMPLEMENTA UN NUEVO PROGRAMA MULTIGESTIÓN DE CONSERVACIÓN VIAL PARA ATENDER DOS TEMPORADAS DE LLUVIAS (2026 AL 2028) Leer nota 18/11/2026 | EL PRESIDENTE RODRIGO PAZ ENTREGA ESTUDIO FINAL PARA LA CONSTRUCCIÓN DEL PUENTE SOBRE EL RÍO MAMORÉ, ANUNCIA EL FINANCIAMIENTO DE $US 230 MILLONES DE COREA DEL SUR Y LA INVERSIÓN DE $US 300 MILLONES EN CARRETERAS E INFRAESTRUCTURA EN EL BENI Leer nota Enlaces de Interes Ver todas los enlaces Transtabilidad Red Vial Fundamental-ABC EBC - Empresa Estratégica Boliviana de Construcción Ministerio de Obras Publicas Servicios y Vivienda Instituto Nacional de Estadísticas (INE) Ministerio de Gobierno Vicepresidencia del Estado Plurinacional de Bolivia modal-check Dismiss ad Dismiss ad Esto se cerrará en 0 segundos",
       "roads": [
         "Tramo La Angostura - Bermejo",
         "ruta a Los Valles en el departamento de Santa Cruz",
@@ -515,6 +504,7 @@
         "cierre",
         "carretera",
         "ruta",
+        "avenida",
         "puente",
         "tramo",
         "red vial fundamental",
@@ -622,7 +612,7 @@
       ],
       "lifecycle_status": "activo",
       "is_active": true,
-      "last_seen_at": "2026-11-27T09:51:44-04:00",
+      "last_seen_at": "2026-11-27T18:41:52-04:00",
       "seen_this_run": true,
       "history_count": 2
     },
@@ -636,7 +626,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/la-abc-junto-al-transporte-pesado-inspeccionan-el-tramo-quillacollo-bombeo-en-la-carretera-cochabamba-oruro/",
       "published_at": null,
-      "scraped_at": "2026-11-27T09:51:44-04:00",
+      "scraped_at": "2026-11-27T18:41:52-04:00",
       "department": "Cochabamba",
       "municipality": "Quillacollo",
       "city": "Cochabamba",
@@ -754,7 +744,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-11-27T09:51:44-04:00",
+      "last_seen_at": "2026-11-27T18:41:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     },
@@ -768,7 +758,7 @@
       "source_icon_url": "http://www.abc.gob.bo/wp-content/uploads/2026/06/Gob-ABC.png",
       "url": "https://www.abc.gob.bo/nota_prensa/el-presidente-rodrigo-paz-entrega-estudio-final-para-la-construccion-del-puente-sobre-el-rio-mamore-anuncia-el-financiamiento-de-us-230-millones-de-corea-del-sur-y-la-inversion-de-us-300-millones-e/",
       "published_at": null,
-      "scraped_at": "2026-11-27T09:51:44-04:00",
+      "scraped_at": "2026-11-27T18:41:52-04:00",
       "department": "Bolivia",
       "municipality": null,
       "city": null,
@@ -894,7 +884,7 @@
       ],
       "lifecycle_status": "desconocido",
       "is_active": null,
-      "last_seen_at": "2026-11-27T09:51:44-04:00",
+      "last_seen_at": "2026-11-27T18:41:52-04:00",
       "seen_this_run": true,
       "history_count": 1
     }
@@ -909,7 +899,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qPw8tihbAK0Q7kNvwHi3NKv&_nc_oc=Adr3jzUpL_g1gJZqAorNwo9qd60UIgHhB_r4nv-Y1WyQgnHaRos3hSvToe43YER110Q&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=O6r1rWtKIazIPDoTBCYGNw&_nc_ss=7f389&oh=00_AQUxB3psecsPriEecqkVpB8NeQyVunbABdKSejWJF_PcXg&oe=6B0F4DD8",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/659633585_1374208218069011_4187538719964103958_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1600&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=qPw8tihbAK0Q7kNvwGjE9CL&_nc_oc=Adp5vKdHq16JJcRYJJgbZMensNu7K2sF67fdRi5knaIGCVEQHicWbqxRl-27i6QyCQs&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=4c_isj7jrEjIxrzbqSUQtA&_nc_ss=7f389&oh=00_AQWJT2pF4dIDh-XJyVDjg28FRibAAcrX_Cz8VwH2OlM6rQ&oe=6B0FBE58",
       "status": "ok"
     },
     {
@@ -921,7 +911,7 @@
       "tier": 1,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=bo4WIINhiWcQ7kNvwGYqJln&_nc_oc=AdqEhu5gecygosatsg_z8zSiF4FDTzFMqBB5jyC9TS1F_ccQc6PRi93IUIiOfEGtTgc&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=RGbgCmstH4FKveczYCEwqA&_nc_ss=7f389&oh=00_AQWe-mmkcFZjyTN26CipJhM6rvhb16sPZZEceW25xwMUfw&oe=6B0F512B",
+      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/271046919_233152389000824_2567961024839318148_n.jpg?stp=dst-jpg_tt6&cstp=mx1456x1456&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_aid=0&_nc_ohc=bo4WIINhiWcQ7kNvwEQmBuM&_nc_oc=Adr9Gj8XhedtwdxTYe7e9XnelNNGQEHVCOpD3td0LhUwI94iu7EdZuwI55xpeEGwvxI&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=qkreNjfWkJDAE_EWxiG8NQ&_nc_ss=7f389&oh=00_AQVcoppn1SKzm1kCedK1khk-jN4M3izt_ZsLaiPcSUwoiw&oe=6B0FC1AB",
       "status": "ok"
     },
     {
@@ -957,7 +947,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5TAANLughKoQ7kNvwHjZhH6&_nc_oc=Ado7z_sSHhk3oaSJnLWdRcmiit2diKY0TZ4RSgOlLH2-fUrA8QB60QuFYBdIJKYQt7c&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=m7ujDOnL9AFSyGYKjOC0aQ&_nc_ss=7f389&oh=00_AQU3MRMXYIbg3hkKk2jEHtQE7Du8TTaV64dKWMue1mLaJw&oe=6B0F5CC0",
+      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/845506952_1548647057282865_4991712260108151286_n.jpg?stp=dst-jpg_tt6&cstp=mx2001x2048&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=5TAANLughKoQ7kNvwE9eY5E&_nc_oc=AdruyL-8N01Al4TocYIcHE2KjBcvzeTzh-BmX-PK9UK6w8GOyyzYF9N7AMq_4_2ntmY&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=KhKXNSq6VlkXehPl304RnA&_nc_ss=7f389&oh=00_AQXHP81YnTVr9zKyOGa0O8XUmRrs6vZy-WjhSbwBuNgbQg&oe=6B0FCD40",
       "status": "ok"
     },
     {
@@ -969,7 +959,7 @@
       "tier": 1,
       "region": "La Paz",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nwyYJJf3ZvMQ7kNvwFLAeym&_nc_oc=Adola-CQnSyAYIA9grE_WNBZi3yFduJHDyDWXwmlWmXLfSTl7H30kpPDmwqK6Sae3l4&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=bhgyMoSezKA32hvoUyCBBg&_nc_ss=7f389&oh=00_AQWw2FxhkLWY6oPv1u2HdJAB-9mo1yvjGg8Vh8ecmlwDyQ&oe=6B0F55B8",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/768347805_1502232895265442_2186557397682008895_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x1200&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nwyYJJf3ZvMQ7kNvwFv_I6A&_nc_oc=AdonvTrPGUFC8y3cpgfOIPXsCPFe8JGDU3Vd95gXB4_9KkAvpUTxueZVpPOetVCJ8sQ&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=REHDdnYxTwAkBbQuXL5vGQ&_nc_ss=7f389&oh=00_AQWHRn4QR0j16GqkxDUIu7V-gsuZFaSXtk1tgGbaP9-LuQ&oe=6B0FC638",
       "status": "ok"
     },
     {
@@ -981,8 +971,8 @@
       "tier": 1,
       "region": "La Paz",
       "city": "El Alto",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/690650532_1286492256998748_2223459163960067785_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=mtKStU38I18Q7kNvwH0XzOd&_nc_oc=AdpI0Gs6PFJqQ14fkdGU8c1WOKjVvylzVup4-ULVUi79ybiTI8MY97MmtP8jyLxX5Nc&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=8x78RQv4RQlRcX31g3x9Xg&_nc_ss=7f389&oh=00_AQWOW2x2mOVZOE7K3j9Uc5Aq90ArcWZ_dv9uYc8R2ypNwQ&oe=6B0F6940",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_gam_cbba",
@@ -1005,7 +995,7 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=khLtdVk1mSwQ7kNvwHKSqgK&_nc_oc=Adq9xDrdxrSfzO2HntgkzjkfpH_hDEaMQIG2kAT-UmuGYGqhMTjay9ZmEoxx7GgkiNE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=GVEU-9NJzHG81U-GQIMi7A&_nc_ss=7f389&oh=00_AQVJqxADHdLZGaHGTI2a1RXn0VZ-YDlyH9H-1Dge840CLA&oe=6B0F4FD7",
+      "icon_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/279669759_364273245744401_480300021015194641_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KcVv9pgQAfQQ7kNvwHfvl0Y&_nc_oc=AdqzOYuwF8a5gyoyMM9RdVM4G5uf9fIHzgsh4fmwx31X99iY5N2edp_rAOrynVGHJZY&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=iIRzyRup488CpjJPI85C2Q&_nc_ss=7f389&oh=00_AQUAnKuVJKMdkRYOvxsEwtszrmb7zaQQ4UQMTXcTCuIGHg&oe=6B0FC057",
       "status": "ok"
     },
     {
@@ -1029,8 +1019,8 @@
       "tier": 1,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/634249713_1481918636648424_7729020261847016394_n.jpg?stp=dst-jpg_tt6&cstp=mx1264x1264&ctp=s720x720&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gCQ4CyXF3YsQ7kNvwHf0n1D&_nc_oc=Adr0m67nwaS9XbwAD-UW8JHG4dR3ow3A3GsK8OBqrEm8-oMY2OLbM0xdG8lZPo2_9vU&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=oopyIYfN_yAEkbPVcnuyCg&_nc_ss=7f389&oh=00_AQX7FKMSy8IVX5TuFQpDTGkyKP3ylV_V3i9tm61K-9NCrQ&oe=6B0F7105",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_terminal_cbba",
@@ -1053,7 +1043,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q_F918lhDAcQ7kNvwFH6CZ6&_nc_oc=AdqtQ5BTsU8S2-GyZyPxscQZTVfdkSMa1AjcYEB7orGtRvgB_dYNpUA-TXfsNQQ4yIY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=mp2vth_3Adj3LY8uEiYC0Q&_nc_ss=7f389&oh=00_AQUnpkEaE977POa5AQz_B6Y26DKJsMoA1CSCfNsXV-P2Zg&oe=6B0F4797",
+      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/687957513_1411363784368660_5571870812287095388_n.avif?stp=dst-jpg_tt6&cstp=mx1308x1312&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=q_F918lhDAcQ7kNvwG8fDBH&_nc_oc=AdqarSQxIkRm5ZLQdc6HCH2AZaMXnde742y5NGqpMfo9VX_hZ4hlU9OA6huyuyiVorw&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=8hIzW5eOj-lCubBcNf8W6g&_nc_ss=7f389&oh=00_AQWmj2Ou-Gqb4Y4dgonaCT6FdWNdZ8sSr1PKKoj6X8fboA&oe=6B0FF057",
       "status": "ok"
     },
     {
@@ -1077,7 +1067,7 @@
       "tier": 1,
       "region": "Santa Cruz",
       "city": null,
-      "icon_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dRZB26cmF58Q7kNvwG7PI8T&_nc_oc=AdrYJ1LroJevuQelHNREkd7X1i_7z3ZkuhOd4nEj5N1TGZqArDk6fZbH3BVhTBnBBm0&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=CwWbWl6GWSSxxQhRqniRfw&_nc_ss=7f389&oh=00_AQUDnWU2nL5Hbds1MvVdDLff3YAeZWvA9pVf9B4a6YlGZA&oe=6B0F5CFE",
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/251165941_250619730439123_5998897293322859333_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dRZB26cmF58Q7kNvwHo0HxJ&_nc_oc=AdrLv8tENQQbLaf1Pbh58URXy6a6ylF8KloaVZ2Q0bglGmSX074lwu67aEIhv6eDNog&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=YOfEN61DpgqT89udSpYeOQ&_nc_ss=7f389&oh=00_AQXKVihkOKRCQl1DSNOwoLtSlDx_ShOx9SCO9PaPw1npqw&oe=6B0FCD7E",
       "status": "ok"
     },
     {
@@ -1173,7 +1163,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=9bZ1505LXaoQ7kNvwEQmAKp&_nc_oc=AdoLJmM17k6mpsAfbl2sxF2Vs6_OPSYrb6M1sOjdfso0PbgNpWQJnL37qGaqjMcxWW4&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_ss=7f389&oh=00_AQUhYjrjqS97R-wAt7L1NySuvKATS96ncZ4a-ijmk7ZQLQ&oe=6B310A7A",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=d00ff1&_nc_ohc=9bZ1505LXaoQ7kNvwHU8KzL&_nc_oc=AdrbsQGoLPl4O0V8ZQ_P4Nsz0d8FK1QTOrjRAQrAlWmtPbHoOyuh42PBlPJiTQel0qE&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_ss=7f389&oh=00_AQWp055MQSzSIMcDbgWElwT4yeMILaVPaCTUHAQoL9mlDg&oe=6B317AFA",
       "status": "ok"
     },
     {
@@ -1185,7 +1175,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bV-BPsNsNsQQ7kNvwFOi_RN&_nc_oc=Adqmw-IitqErMfw_0VV-c_Ipb7L4GqYRhsWnM_deE_74tcommbCvfvZqOpU34NsbsRE&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=NaoVyU3y8kwRsG33oBOs-w&_nc_ss=7f389&oh=00_AQUG3VcxrjHWJXCy4Ncg_USfARz2OWl851aSTXxdC52Uew&oe=6B0F5B4D",
+      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/723118216_1489874823173298_1844608982376631622_n.avif?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bV-BPsNsNsQQ7kNvwHD0uGt&_nc_oc=AdqCD8P-BDz5WyYjkiI58Qbzchc3pAKoYYgXskNMkollBIvobxvk2_ZxULAD0RlRlV0&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=qJ2r-woz23l95RGExQTpww&_nc_ss=7f389&oh=00_AQVT1a-vsMTtQ4fVf8KDeXAWvCyCmnLXfJv8a1GZS7HDEQ&oe=6B0FCBCD",
       "status": "ok"
     },
     {
@@ -1197,8 +1187,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/445368692_847415944090863_7823262783277165368_n.jpg?stp=dst-jpg_tt6&cstp=mx800x792&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Ximyj2thNpkQ7kNvwHuZreX&_nc_oc=Ado-Z3tEx69qibKF7Xg1y8oLZczAKER6Q7LcBdwhl4vwxwLW_HcYxHQASJ42khzmwJY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=fKAoczK3yWDv0ZboT0POkA&_nc_ss=7f389&oh=00_AQW7JqxxAsLKXtalhpkYngF57eQueQPsGxFgxRl2R8Z1bQ&oe=6B0F6D4C",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_rtp",
@@ -1209,7 +1199,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u4U3YtfrL5sQ7kNvwEFhGM1&_nc_oc=Adoz0D1PKkFHcWrPezDk3eGfRw0bH3E7ddVYLOdtX22DzEGdV8lBH7AaKkEeCfbtz6w&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=EeO1KXSswsbEdO6RzMqEgA&_nc_ss=7f389&oh=00_AQWQnMjOmYadsJv9Gc80otSXNHO-92wgwN7HdUoK_PfWuw&oe=6B0F4F85",
+      "icon_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/449981739_785364213791880_8203762920756596729_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=u4U3YtfrL5sQ7kNvwFMntbQ&_nc_oc=AdrZC4n3SpZ81sp70AiBcI9HTktZj1dXyx6KjW_O9zbyJIJMYg2P6OytZtKZQAaVzhU&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=UPnj9yXQq7DOWkkXMHhhrQ&_nc_ss=7f389&oh=00_AQVRwOYM1vKC9iSEbqcjOMfInTJ2KIVSGYdeJaLcFdBr8A&oe=6B0FC005",
       "status": "ok"
     },
     {
@@ -1221,8 +1211,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/382593160_702270788601842_957792633703830521_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x1000&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-itQPBi36DYQ7kNvwEEMmnG&_nc_oc=AdqK2s_oLxw71eOeLWs30jrGRKFrPzoaJNEuflfwnA_oh8FAVh60nyHh1p48kv-DbC4&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=CI-yc09tQoXBFLZwR8O_Fg&_nc_ss=7f389&oh=00_AQU4YrS7ZO4e3Kop5efSdFCXsUxkQiU34Hvh-DHFiGqDyw&oe=6B0F763A",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_opinion",
@@ -1233,8 +1223,8 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/684866589_1381114427380048_3328968822147263420_n.avif?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=GrNjYQiuT6MQ7kNvwHR6HKJ&_nc_oc=Adq6TWg8m3D3v4H1CATkKPZXWJppEXIXvGfU6XkmFABuS4ggjCVBKYAbGw2eFk89QG0&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=x24k9IjpQUBu-BexpyhC9g&_nc_ss=7f389&oh=00_AQUfMbfgjlNeQnj0p4HBPSd5HENdN9v6ePXe_7g-aSmayw&oe=6B0F60E6",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_eldeber",
@@ -1245,8 +1235,8 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/909387956_1637550955066687_1434031219653542318_n.avif?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7ivsPM7XQzAQ7kNvwGMTi1Z&_nc_oc=Ado1PJ_cGBaQDlFLnRe0y1qyENB4FoMtPBjnWkIxaPo0hNwjPqK7yqMzskYMfMRCrmM&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=c-l3fnrYKgq259Z8rL01eA&_nc_ss=7f389&oh=00_AQUR0-hAGhx9K9Af9s6N0OxjvSgK_PEtFS8bLERR-DPRvQ&oe=6B0F6EEF",
-      "status": "ok"
+      "icon_url": null,
+      "status": "error"
     },
     {
       "id": "fb_atb",
@@ -1257,8 +1247,8 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/671497781_122231114474544446_2152142393396283238_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_MUvPjoZm-cQ7kNvwGSXYJU&_nc_oc=AdpwYThtiErznwqjRVs1fkaRxJeIvxD024vg53chW_9yZk3gmAE4Mfj-Ry3oBfi44Gs&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=KJWoL_V9BjEWQ7v6KitDAA&_nc_ss=7f389&oh=00_AQURPULGalYNht2CAOU-t2OBZmkX60-AXnErQdYfvsNnaw&oe=6B0FE301",
+      "status": "ok"
     },
     {
       "id": "fb_erbol",
@@ -1269,7 +1259,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=w99eollYTjAQ7kNvwE1tA3r&_nc_oc=Adpf0Eglen9lmSXgA_VdEjZwpdYCRYbeERhESXSrYyTq5Dr990sFufuDfchlYTDo1CM&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=DqVKMdqCyOPAxU85KmmdEQ&_nc_ss=7f389&oh=00_AQVaLMsm7xj_RNBi-svJQVNdxaW9WQ8wbq4FBPFXXuXj6Q&oe=6B0F4368",
+      "icon_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/455193141_907027488130978_7154724612594296265_n.jpg?stp=dst-jpg_tt6&cstp=mx593x593&ctp=s593x593&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=w99eollYTjAQ7kNvwGPVTHX&_nc_oc=AdpAQ5cREi_g9qo8U6AbsqnoF8alejky2IkyXfbqQLplwJx-7J07fn2w4Vuk_BgZ7aI&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=LbXEegpwF74Y9J6s386Lmw&_nc_ss=7f389&oh=00_AQVvwlUQtTpaOJSr5yJif6AxrnraOdiPtOU1sV8w5ripuw&oe=6B0FEC28",
       "status": "ok"
     },
     {
@@ -1281,7 +1271,7 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=j9GCUy4_LqYQ7kNvwHk9uWU&_nc_oc=AdqsMAi-bamEYDup-HNPiOqkEYkZ5UWwXoBpF0vuD4lg3jKx9xgKWUdcOkej0eDKSdA&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=JvGArvQi1hT6YAjTSrAdEw&_nc_ss=7f389&oh=00_AQX8q6E2MX1Yjb7i3kNmRZPoZdMdR4nlYBeDJ4pkEvde6Q&oe=6B0F67C8",
+      "icon_url": "https://scontent-sea5-2.xx.fbcdn.net/v/t39.30808-1/462177243_947080740783807_138883739190192321_n.jpg?stp=dst-jpg_tt6&cstp=mx851x851&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=3ab345&_nc_ohc=j9GCUy4_LqYQ7kNvwH6qzOX&_nc_oc=AdqbYavAEzDEewanPErhJh86Tlzerx9BglIICP5q8f2gejcYM1SgmZ8JWfdT9bxleZQ&_nc_zt=24&_nc_ht=scontent-sea5-2.xx&_nc_gid=h7-9s7onPM_n7mfsPAV8yg&_nc_ss=7f389&oh=00_AQXhKGNyItx-EslwvXX8CrZZzFMcPMwQr7n8tN6y5Hdzdw&oe=6B0FD848",
       "status": "ok"
     },
     {
@@ -1293,7 +1283,7 @@
       "tier": 3,
       "region": "Santa Cruz",
       "city": "Santa Cruz de la Sierra",
-      "icon_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/902755443_1180396121052196_5761275687725298277_n.avif?stp=dst-jpg_tt6&cstp=mx753x753&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QF7sEir6MaQQ7kNvwFg_78l&_nc_oc=Adr75g2ItST_9TSfwJ_nve8yttFO0Qhsf1aQuCkggUSQIWDPW-wfinUGUIRhh_Pr-8w&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=ZdFWDzNNWcNhwT3XUGNsvg&_nc_ss=7f389&oh=00_AQXcIKWFunpb_QAKFGdqKtSdbGXORNLw5kh6WI-4zWKxqA&oe=6B0F617F",
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/902755443_1180396121052196_5761275687725298277_n.avif?stp=dst-jpg_tt6&cstp=mx753x753&ctp=s720x720&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=QF7sEir6MaQQ7kNvwEFCR7f&_nc_oc=AdqYuTMh9s0gMums50qnU-sv2MXnpAqAGF30xP_PeHlrPWx2JROJMqp5_Vjv5q-rwmk&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=BUnHGo-HbOjNA3A-j2nEMw&_nc_ss=7f389&oh=00_AQXcJAWNCPSbHjHAYfN6owNBuX5hqwQaAlOYFB3GgO365A&oe=6B0FD1FF",
       "status": "ok"
     },
     {
@@ -1305,7 +1295,7 @@
       "tier": 3,
       "region": "Cochabamba",
       "city": "Cochabamba",
-      "icon_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6YQTtuL6p_cQ7kNvwGt2mWC&_nc_oc=Ado_Matip0qridDtI874ngnaeddGwmVxfBVWDvfuY9_DEtnXuKlFEMYIivpUMsdpcOw&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=VpyvT8J3VIVya5lqonxPEg&_nc_ss=7f389&oh=00_AQW4GVJPXjNdYOyBQ4ZYwsueOfe5qMJvKwZs0dDhyklcPg&oe=6B0F6A37",
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/608954805_1753269002592699_8721920969112624285_n.jpg?stp=dst-jpg_tt6&cstp=mx891x779&ctp=s720x720&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=6YQTtuL6p_cQ7kNvwHAJXg0&_nc_oc=Adr8Hj1j0BbRTliUoZnuxU3OoNA1qsLRtf_AurknYAFxAbV2wPabEk-zGezNvsS8EIo&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=j-pnbLg0UDZWKeEub5PvIg&_nc_ss=7f389&oh=00_AQXTe_JgtkdBUBJBglWBqiJ5aJP3P9xsaQ9wAhOSl5YycQ&oe=6B0FDAB7",
       "status": "ok"
     },
     {
@@ -1317,7 +1307,7 @@
       "tier": 3,
       "region": "Bolivia",
       "city": null,
-      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=0gYq-hb8DzMQ7kNvwGWxG8Q&_nc_oc=AdoRJca4x82_t0Vz6kxVrqYVUh4GCtKDHBaZ4b3ctDiMHuLJKwr8pzJdeEO11QZ8Ou8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=VJyON1ZoT6gr1Ap6aQViMA&_nc_ss=7f389&oh=00_AQWjil9G0jcbUBlL5uFkVeNCnDIU02xNeX3NhohHfdBAbg&oe=6B0F6CFD",
+      "icon_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/275106952_7178915782179260_4458913939073249228_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s720x720&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=DJmfvxAch3IQ7kNvwGAG7Wc&_nc_oc=AdpG6X79U87IaiPvBKmW1_koUXKlidwIyYD4ORCnupbe029wHWKPQ1av_I4TwDCkAZ8&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=kA32pmeS4zQ_cUly2OnXOQ&_nc_ss=7f389&oh=00_AQVdqkAglpSBhm0wgwmlf8b2dJVgTn9skPd-xxwuW4350g&oe=6B0FDD7D",
       "status": "ok"
     },
     {
@@ -1329,8 +1319,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/339919125_1058763662177679_7324750540752210608_n.jpg?stp=dst-jpg_tt6&cstp=mx839x839&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=phNMDOFMv-0Q7kNvwGJYq16&_nc_oc=Adrs9UY09M9YNIKPgvy9KL8JhtklahW9UFxm0mfY8r8y_FDqHbnprXWpJ_j4hnGbFYY&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=weJoQUPEeDpRzwcsMJJamQ&_nc_ss=7f389&oh=00_AQVAZtaJpJ64naGFMprLxGx8qkiv628Ji1IWOlsZXiqR9Q&oe=6B0FE421",
+      "status": "ok"
     },
     {
       "id": "fb_abya_yala",
@@ -1341,8 +1331,8 @@
       "tier": 3,
       "region": "La Paz",
       "city": "La Paz",
-      "icon_url": null,
-      "status": "error"
+      "icon_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/871000228_1760278452768967_5369085719919323129_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=p720x720&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=8rfBuNMJItUQ7kNvwGQs7TG&_nc_oc=Adqwnm9qeT6KJyBL_FgzziurKCEMDoMrrgVDOxLWbjMUIwWvB0WbxxSRecKBx8BlgZE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=iN_Na5MXGotmByzc0HLJtA&_nc_ss=7f389&oh=00_AQXmtru4wdysm6wlzMCSHuG6g8UQEikpie-QJs9OyslyoA&oe=6B0FE930",
+      "status": "ok"
     }
   ]
 }
